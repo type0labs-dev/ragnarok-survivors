@@ -1,0 +1,350 @@
+{
+"weaponLang/{VAMPIRICA}description": {
+"en": "Evolved Basic Attack. Can deal critical damage and absorb HP.",
+"pt": "Evolução do Ataque Básico. Pode causar dano crítico e absorver PV."
+},
+"weaponLang/{VAMPIRICA}tips": {
+"en": "Requires: Her Heart.",
+"pt": "Requer: Coração Dela."
+},
+"weaponLang/{HOLY_MISSILE}description": {
+"en": "Evolved Soul Strike. Fires with no delay.",
+"pt": "Evolução do Ataque Espiritual. Dispara sem interrupções."
+},
+"weaponLang/{HOLY_MISSILE}tips": {
+"en": "Requires: Book of Magic.",
+"pt": "Requer: Livro de Magia."
+},
+"weaponLang/{SCYTHE}description": {
+"en": "Evolved Mammonite. Passes through enemies.",
+"pt": "Evolução da Mammonita. Atravessa inimigos."
+},
+"weaponLang/{SCYTHE}tips": {
+"en": "Requires: Forbidden Red Candle.",
+"pt": "Requer: Vela Vermelha Proibida."
+},
+"weaponLang/{THOUSAND}description": {
+"en": "Evolved Double Strafe. Fires with no delay.",
+"pt": "Evolução da Rajada de Flechas. Dispara sem interrupções."
+},
+"weaponLang/{THOUSAND}tips": {
+"en": "Requires: Bow Thimble.",
+"pt": "Requer: Dedal de Arqueiro."
+},
+"weaponLang/{HELLFIRE}description": {
+"en": "Evolved Fire Ball. Passes through enemies.",
+"pt": "Evolução da Bola de Fogo. Atravessa inimigos."
+},
+"weaponLang/{HELLFIRE}tips": {
+"en": "Requires: Berserk Potion.",
+"pt": "Requer: Poção da Fúria Selvagem."
+},
+"weaponLang/{VESPERS}description": {
+"en": "Evolved Spirit Spheres. Never ends.",
+"pt": "Evolução das Esferas Espirituais. Nunca acaba."
+},
+"weaponLang/{VESPERS}tips": {
+"en": "Requires: Clock Card.",
+"pt": "Requer: Carta Relógio."
+},
+"weaponLang/{HEAVENSWORD}description": {
+"en": "Evolved Shield Boomerang. Can deal critical damage.",
+"pt": "Evolução do Arremesso de Escudo. Pode causar dano crítico."
+},
+"weaponLang/{HEAVENSWORD}tips": {
+"en": "Requires: Four Leaf Clover.",
+"pt": "Requer: Trevo de Quatro Folhas."
+},
+"weaponLang/{VORTEX}description": {
+"en": "Evolved Magnum Break. Steals Apples. Power increases when recovering HP.",
+"pt": "Evolução do Impacto Explosivo. Rouba Maçãs. O Poder aumenta ao recuperar PV."
+},
+"weaponLang/{VORTEX}tips": {
+"en": "Requires: Red Herb.",
+"pt": "Requer: Erva Vermelha."
+},
+"weaponLang/{BORA}description": {
+"en": "Evolved Sanctuary. Damaging zones follow you and grow when they move.",
+"pt": "Evolução do Santuário. As áreas de dano crescem e se movem em direção ao personagem."
+},
+"weaponLang/{BORA}tips": {
+"en": "Requires: Magnetic Field Generator.",
+"pt": "Requer: Gerador de Campo Magnético."
+},
+"weaponLang/{LOOP}description": {
+"en": "Evolved Thunderstorm. Projectiles strike twice.",
+"pt": "Evolução da Tempestade de Raios. Projéteis atacam duas vezes."
+},
+"weaponLang/{LOOP}tips": {
+"en": "Requires: Crystal Mirror.",
+"pt": "Requer: Espelho de Cristal."
+},
+"weaponLang/{MANNAGGIA}description": {
+"en": "Evolved Severe Rainstorm. Might slow enemies down.",
+"pt": "Evolução da Tempestade Severa. Tem a chance de causar lentidão nos inimigos."
+},
+"weaponLang/{MANNAGGIA}tips": {
+"en": "Requires: Dead Branch.",
+"pt": "Requer: Galho Seco."
+},
+"weaponLang/{SIRE}description": {
+"en": "Evolved Magnus Exorcismus. Generates extra Gemstones and gathers all of them.",
+"pt": "Evolução do Magnus Exorcismus. Gera Gemas extras e recolhe todas elas."
+},
+"weaponLang/{SIRE}tips": {
+"en": "Requires: Battle Manual.",
+"pt": "Requer: Manual de Combate."
+},
+"weaponLang/{ROCHER}description": {
+"en": "Evolved Holy Light. Explodes when bouncing and in retaliation.",
+"pt": "Evolução da Luz Divina. Explode quando ricocheteia e em retaliação."
+},
+"weaponLang/{ROCHER}tips": {
+"en": "Requires: Full Plate.",
+"pt": "Requer: Armadura Completa."
+},
+"weaponLang/{TRAPANO2}description": {
+"en": "Evolved Venom Dust. Bigger, longer, faster, stronger.",
+"pt": "Evolução da Névoa Venenosa. Maior, mais longo, mais rápido e mais forte."
+},
+"weaponLang/{TRAPANO2}tips": {
+"en": "Requires: Sleipnir.",
+"pt": "Requer: Sleipnir."
+},
+"weaponLang/{STIGRANGATTI}description": {
+"en": "Evolved Caprice. Might turn anything into Zeny.",
+"pt": "Evolução do Capricho. Tem a chance de transformar qualquer coisa em Zeny."
+},
+"weaponLang/{STIGRANGATTI}tips": {
+"en": "Requires: Bubble Gum.",
+"pt": "Requer: Chiclete."
+},
+"weaponLang/{SHROUD}description": {
+"en": "Evolved Kyrie Eleison. Caps incoming Damage at 10. Retaliates when losing charges.",
+"pt": "Evolução do Kyrie Eleison. Limita o dano sofrido a 10. Retalia ao perder cargas."
+},
+"weaponLang/{SHROUD}tips": {
+"en": "Requires: Morrigane's Belt, Morrigane's Pendant.",
+"pt": "Requer: Cinto de Morrigane, Pingente de Morrigane."
+},
+"weaponLang/{CORRIDOR}description": {
+"en": "Evolved Frost Diver. Halves enemies' health.",
+"pt": "Evolução da Rajada Congelante. Reduz a vida dos inimigos pela metade."
+},
+"weaponLang/{BONE2}description": {
+"en": "Evolved Throw Stone. Projectiles accelerate when bouncing.",
+"pt": "Evolução de Atirar Pedra. Projéteis aceleram ao ricochetear."
+},
+"weaponLang/{BONE2}tips": {
+"en": "Requires: Oridecon.",
+"pt": "Requer: Oridecon."
+},
+"weaponLang/{CHERRY2}description": {
+"en": "Evolved Demonstration. Generates extra explosions that can deal critical Luck-based damage.",
+"pt": "Evolução do Fogo Grego. Gera explosões extras que podem causar dano crítico com base em Sorte."
+},
+"weaponLang/{CHERRY2}tips": {
+"en": "Requires: Oridecon.",
+"pt": "Requer: Oridecon."
+},
+"weaponLang/{CART2EVO}description": {
+"en": "Evolved Cart Revolution. Duration, Speed, and Area affect damage instead.",
+"pt": "Evolução do Carrinho Revolução. Duração, Velocidade e Área afetam o dano."
+},
+"weaponLang/{CART2EVO}tips": {
+"en": "Requires: Oridecon.",
+"pt": "Requer: Oridecon."
+},
+"weaponLang/{FLOWER2}description": {
+"en": "Evolved Falling Star. Projectiles generate a chain explosion at fixed intervals.",
+"pt": "Evolução da Estrela Cadente. Projéteis geram explosões em cadeia a intervalos fixos."
+},
+"weaponLang/{FLOWER2}tips": {
+"en": "Requires: Oridecon.",
+"pt": "Requer: Oridecon."
+},
+"weaponLang/{ICELANCE2}description": {
+"en": "Evolved Freezing Spear. Might deal critical damage and freeze enemies. Turns Pocket Watches into Star Crumbs.",
+"pt": "Evolução da Lança Congelante. Pode causar dano crítico e paralisar inimigos. Transforma Relógios de Bolso em Migalhas de Estrela."
+},
+"weaponLang/{ICELANCE2}tips": {
+"en": "Requires Max: Sleipnir.",
+"pt": "Requer máx. de: Sleipnir."
+},
+"weaponLang/{PHASER2}description": {
+"en": "Evolved Vulcan Arm. Multiplies number of projectiles by up to 5, depending on Luck.",
+"pt": "Evolução do Braço Vulcano. Multiplica o número de projéteis por até 5, dependendo da Sorte."
+},
+"weaponLang/{PHASER2}tips": {
+"en": "Requires Max: Book of Magic.",
+"pt": "Requer máx. de: Livro de Magia."
+},
+"weaponLang/{BATTILIA2}description": {
+"en": "Evolved Summon Familiars. Damage and Amount affected by Max Health.",
+"pt": "Evolução de Invocar Familiares. A Vida Máx. afeta dano e Quantidade."
+},
+"weaponLang/{BATTILIA2}tips": {
+"en": "Requires Max: Her Heart.",
+"pt": "Requer máx. de: Coração Dela."
+},
+"weaponLang/{SANTAJAVELIN2}description": {
+"en": "Evolved Spear Boomerang. Critical damage affected by Luck. Turns Rosaries into Soul Purifiers.",
+"pt": "Evolução da Lança Bumerangue. A Sorte afeta dano crítico. Transforma Rosários em purificadores de alma."
+},
+"weaponLang/{SANTAJAVELIN2}tips": {
+"en": "Requires Max: Four Leaf Clover.",
+"pt": "Requer máx. de: Trevo de Quatro Folhas."
+},
+"weaponLang/{EX_GAEA2}description": {
+"en": "Evolved Stone Curse. Damage is increased while invulnerable. Retaliates.",
+"pt": "Evolução de Petrificar. Aumenta o dano enquanto estiver invulnerável. Retalia."
+},
+"weaponLang/{EX_GAEA2}tips": {
+"en": "Requires: Valkyrja's Shield.",
+"pt": "Requer: Escudo de Valquíria."
+},
+"weaponLang/{EX_AMMO2}description": {
+"en": "Evolved Fire Dance. Fire unorthodox projectiles at enemies in sight.",
+"pt": "Evolução da Dança do Fogo. Dispara projéteis incomuns contra os inimigos à vista."
+},
+"weaponLang/{EX_AMMO2}tips": {
+"en": "Requires Max: Bow Thimble.",
+"pt": "Requer máx. de: Dedal de Arqueiro."
+},
+"weaponLang/{EX_MAGISTONE2}description": {
+"en": "Evolved Rune Stone. Damage increases when Player Level is above 80. Amount increases with visible enemies.",
+"pt": "Evolução da Pedra Rúnica. Dano aumenta quando o nível do jogador está acima de 80. Quantidade aumenta conforme os inimigos visíveis."
+},
+"weaponLang/{EX_MAGISTONE2}tips": {
+"en": "Requires: Bloody Branch.",
+"pt": "Requer: Galho Sangrento."
+},
+"weaponLang/{EX_FLIK2}description": {
+"en": "Evolved Jupitel Thunder. Always deals critical hits.",
+"pt": "Evolução do Trovão de Júpiter. Sempre causa acertos críticos."
+},
+"weaponLang/{EX_FLIK2}tips": {
+"en": "Requires Max: Yggdrasil Leaf.",
+"pt": "Requer máx. de: Folha de Yggdrasil."
+},
+"weaponLang/{FOLLOWER_KNIFE2}description": {
+"en": "Evolved Double Strafe. Exerts control over wild magical forces.",
+"pt": "Evolução da Rajada de Flechas. Exerce controle sobre as forças mágicas selvagens."
+},
+"weaponLang/{FOLLOWER_KNIFE2}tips": {
+"en": "Requires Max: Clock Card.",
+"pt": "Requer máx. de: Carta Relógio."
+},
+"weaponLang/{MISSPELL2}description": {
+"en": "Evolved Dragon Breath. The more enemies are defeated, the stronger it grows.",
+"pt": "Evolução do Sopro do Dragão. Quanto mais inimigos derrotados, mais forte fica."
+},
+"weaponLang/{MISSPELL2}tips": {
+"en": "Requires Max: Old Purple Box.",
+"pt": "Requer máx. de: Caixa Roxa Antiga."
+},
+"weaponLang/{GOLD}description": {
+"en": "... With ... Diver.",
+"pt": "...com... Congelante"
+},
+"weaponLang/{SILVER}description": {
+"en": "Wear ... Frost ...",
+"pt": "Usar... Rajada..."
+},
+"weaponLang/{SILF3}description": {
+"en": "Union of Dark Crow and Blitz Beat.",
+"pt": "União de Corvo Negro e Ataque do Falcão."
+},
+"weaponLang/{GUNS3}description": {
+"en": "Union of Triple Action and Rapid Shower. Scales with Revivals.",
+"pt": "União de Ação Tripla e Chuva de Balas. Aumenta de acordo com Ressurreições."
+},
+"weaponLang/{GUNS3}tips": {
+"en": "Requires: Yggdrasil Leaf.",
+"pt": "Requer: Folha de Yggdrasil."
+},
+"weaponLang/{VENTO2}description": {
+"en": "Union of Sonic Blow and Bash. Critical hits might generate explosions.",
+"pt": "União de Lâminas Destruidoras e Golpe Fulminante. Acertos críticos podem gerar explosões."
+},
+"weaponLang/{SOLES}description": {
+"en": "Gift of Auto Counter. The more enemies are defeated, the stronger it grows.",
+"pt": "Dom do Contra-Ataque. Quanto mais inimigos derrotados, mais forte ele fica."
+},
+"weaponLang/{SOLES}tips": {
+"en": "Requires Max: Auto Counter, Old Purple Box.",
+"pt": "Requer máx. de: Contra-Ataque, Caixa Roxa Antiga."
+},
+"weaponLang/{CANDYBOX}description": {
+"en": "Allows you to choose any unlocked base skill.",
+"pt": "Permite que você escolha qualquer habilidade de base desbloqueada."
+},
+"weaponLang/{CANDYBOX2}description": {
+"en": "Gift of Abracadabra. Allows to choose among a selection of advanced skills.",
+"pt": "Dom do Abracadabra. Permite escolher dentre uma seleção de habilidades avançadas."
+},
+"weaponLang/{CANDYBOX2}tips": {
+"en": "Requires: Abracadabra.",
+"pt": "Requer: Abracadabra."
+},
+"weaponLang/{ARMADIO}description": {
+"en": "Allows you to choose an extra passive item.",
+"pt": "Permite que você escolha um item passivo extra."
+},
+"weaponLang/{EX_MAGISTONE1}description": {
+"en": "Deals fixed damage based on Skill Level.",
+"pt": "Causa dano fixo com base no nível da habilidade."
+},
+"weaponLang/{COOLDOWN}description": {
+"en": "Reduces skill cooldown by 8%.",
+"pt": "Reduz a Recarga das habilidades em 8%."
+},
+"weaponLang/{DURATION}description": {
+"en": "Increases duration of skill effects by 10%.",
+"pt": "Aumenta a duração dos efeitos das habilidades em 10%."
+},
+"weaponLang/{AMOUNT}description": {
+"en": "Skills fire more projectiles.",
+"pt": "Habilidades disparam mais projéteis."
+},
+"weaponLang/{GREED}description": {
+"en": "Character earns 10% more Zeny.",
+"pt": "Personagem ganha 10% a mais de Zeny."
+},
+"weaponLang/{DOMINION}description": {
+"en": "Increases enemies spawn quantity by 10. Increases duration of Zeny Fever and Berserk Potion by 10%.",
+"pt": "Aumenta a quantidade de inimigos que surgem em 10. Aumenta a duração da Febre de Zeny e Poção da Fúria em 10%."
+},
+"weaponLang/{EX_COINTOSS1}tips": {
+"en": "May misuse Zeny.",
+"pt": "Pode fazer mau uso do Zeny."
+},
+"weaponLang/{EX_COINTOSS1}description": {
+"en": "Projectiles improve based on amount of Zeny collected in the current run.",
+"pt": "Os projéteis melhoram conforme a quantidade de Zeny coletado na partida."
+},
+"weaponLang/{FLOWER}customDescValue": {
+"en": "Defeated enemies might drop Apples.",
+"pt": "Inimigos derrotados podem deixar Maçãs."
+},
+"weaponLang/{GATTI}tips": {
+"en": "Best with: Luck, Meat.",
+"pt": "Melhor com: Sorte, Carne."
+},
+"weaponLang/{GATTI_COUNTER}tips": {
+"en": "Best with: Luck, Meat.",
+"pt": "Melhor com: Sorte, Carne."
+},
+"weaponLang/{ICELANCE}description": {
+"en": "Stronger with movement, Pocket Watches, and against frozen enemies.",
+"pt": "Mais forte com movimento, Relógios de Bolso e contra inimigos paralisados."
+},
+"weaponLang/{ICELANCE2}customDescValue": {
+"en": "Turns Pocket Watches into Star Crumbs.",
+"pt": "Transforma Relógios de Bolso em Migalhas de Estrela."
+},
+"weaponLang/{EX_PENSHIN_UNION}tips": {
+"en": "Requires: Evolve Tuna Party 6 times",
+"pt": "Requer: Evoluir Festa do Atum 6 vezes"
+}
+}

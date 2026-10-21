@@ -1,0 +1,2470 @@
+{
+ "stageLang/{MOONSPELL}description": {
+  "en": "Ancestral home of a fallen ninja clan, now overrun by yokai and oni. In these highlands where the sun doesn't shine, the night is victorious.",
+  "pt": "Lar ancestral de um clã ninja caído, agora infestado de yokai e oni. Nestes planaltos onde o sol não brilha, a noite é vitoriosa."
+ },
+ "stageLang/{FOSCARI}description": {
+  "en": "An enchanted lakeland near Rachel stuffed with fae mysteries and mythological entities. The perfect place to have an average adventure with zero complications.",
+  "pt": "Uma região de lagos encantada perto de Rachel, cheia de mistérios feéricos e seres mitológicos. O lugar perfeito para uma aventura comum, sem complicação alguma."
+ },
+ "stageLang/{FOSCARI2}description": {
+  "en": "Sealed by the Fairy in ancient times to contain the darkness within, these ruins under the Abyss Lake are now accessible, but so is the outside world to the evil from the depths.",
+  "pt": "Seladas pela Fada em tempos antigos para conter a escuridão, estas ruínas sob o Lago do Abismo agora estão abertas, mas o mundo lá fora também está aberto ao mal das profundezas."
+ },
+ "stageLang/{ADV_M001CASTLEGROUNDS}description": {
+  "en": "Decisive Battle Begin! \nNinja vs Naga! \nCan our Shounen heroine muster the mettle to battle the diabolical serpent for more than a minute? ",
+  "pt": "Começa a Batalha Decisiva! \nNinja vs Naga! \nSerá que nossa heroína shounen terá coragem de enfrentar a serpente diabólica por mais de um minuto? "
+ },
+ "stageLang/{ADV_M001CASTLEGROUNDS}tips": {
+  "en": "Survive the Naga's onslaught for 1 minute. ",
+  "pt": "Sobreviva ao ataque da Naga por 1 minuto. "
+ },
+ "stageLang/{ADV_M002SHRINESVALLEY}description": {
+  "en": "The Ninja barely survives after the Naga conquers Amatsu Castle. The trail of vengeance begins with a single step. She seeks the guidance of the elder Oboro in the eastern fields. ",
+  "pt": "A Ninja mal sobrevive depois que a Naga conquista o Castelo de Amatsu. A trilha da vingança começa com um único passo. Ela busca a orientação da anciã Oboro nos campos do leste. "
+ },
+ "stageLang/{ADV_M002SHRINESVALLEY}tips": {
+  "en": "Open the Oboro's coffin in the Eastern fields. ",
+  "pt": "Abra o caixão da Oboro nos campos do leste. "
+ },
+ "stageLang/{ADV_M003FORBIDDENPEAK}description": {
+  "en": "To fight such formidable odds, the Ninja must search for her flea-bitten twin brother. Follow your nose through the twisting tunnels of the Forbidden Peaks to find the stinky Kagerou! ",
+  "pt": "Para enfrentar tamanha adversidade, a Ninja precisa achar seu irmão gêmeo pulguento. Siga o faro pelos túneis tortuosos dos Picos Proibidos até o fedorento Kagerou! "
+ },
+ "stageLang/{ADV_M003FORBIDDENPEAK}tips": {
+  "en": "Open the Kagerou's coffin inside the mountain maze. ",
+  "pt": "Abra o caixão do Kagerou no labirinto da montanha. "
+ },
+ "stageLang/{ADV_M004HIDDENCAVE}description": {
+  "en": "Catastrophe strikes- the cave floor crumbles and the Kagerou is overcome by the slight inconvenience, metamorphosing into a Samurai Specter! Trapped in this hidden chamber, you must tame his unleashed power to survive. ",
+  "pt": "Catástrofe: o chão da caverna desaba e o Kagerou, abalado pelo pequeno incômodo, se transforma num Samurai Espectral! Preso nesta câmara oculta, você precisa domar esse poder desenfreado para sobreviver. "
+ },
+ "stageLang/{ADV_M004HIDDENCAVE}tips": {
+  "en": "Defeat the Samurai Specter.",
+  "pt": "Derrote o Samurai Espectral."
+ },
+ "stageLang/{ADV_M005FROZENLAKE}description": {
+  "en": "Forging a path across a frozen lake, the reunited ninja clan are assailed by yokai-summoned clones! Can the clan defeat the Frozen Three-thousand, and free the White Lady from her chilly prison? ",
+  "pt": "Abrindo caminho por um lago congelado, o clã ninja reunido é atacado por clones invocados por yokai! Será que o clã vence os Três Mil Congelados e liberta a Dama Branca de sua prisão gelada? "
+ },
+ "stageLang/{ADV_M005FROZENLAKE}tips": {
+  "en": "Defeat a total of 3000 Gazeti.",
+  "pt": "Derrote 3.000 Gazetis."
+ },
+ "stageLang/{ADV_M006TANUKIFOREST}description": {
+  "en": "The White Lady is freed from the freeze, and joins the ninja clan as they journey to retake Amatsu. Their path takes them through the forest, where a team of tricksy Smokies assail them with a testing trial - is that a tail, or are you just pleased to see me? ",
+  "pt": "A Dama Branca é libertada do gelo e se junta ao clã ninja na jornada para retomar Amatsu. O caminho cruza a floresta, onde um bando de Smokies trapaceiros os põe à prova. Isso é um rabo ou você só está feliz em me ver? "
+ },
+ "stageLang/{ADV_M006TANUKIFOREST}tips": {
+  "en": "Survive for 10 minutes.",
+  "pt": "Sobreviva por 10 minutos."
+ },
+ "stageLang/{ADV_M007MOONSPELL}description": {
+  "en": "Ancestral Rematch Begin! \nAt last, the ninja clan strike back to reclaim Amatsu, now overrun by Yokai and Oni. Survive against these otherworldly foes, and strike down the serpentine menace, the Naga!",
+  "pt": "Começa a Revanche Ancestral! \nEnfim, o clã ninja contra-ataca para retomar Amatsu, agora infestada de yokai e oni. Sobreviva a esses inimigos sobrenaturais e derrube a ameaça serpentina, a Naga!"
+ },
+ "stageLang/{ADV_M007MOONSPELL}tips": {
+  "en": "Defeat the Naga after 25 minutes. ",
+  "pt": "Derrote a Naga após 25 minutos. "
+ },
+ "stageLang/{POLUS}description": {
+  "en": "Summoned to a mysterious laboratory in the Verus ruins, survival is far from certain. Mechanical evil and inter-dimensional duplicity lurk behind every rusted pipe.\n",
+  "pt": "Convocado a um laboratório misterioso nas ruínas de Verus, sobreviver está longe de ser garantido. Maldade mecânica e duplicidade interdimensional espreitam atrás de cada cano enferrujado.\n"
+ },
+ "stageLang/{ADV_CHAL_001_Meeting}description": {
+  "en": "The Genetic has been called to an Emergency Meeting, but nobody else is here... what's going on? \nWhy have the doors locked? And were there always so many bins in the meeting room? \nSomeone needs to report this mess!",
+  "pt": "O Bioquímico foi chamado para uma Reunião de Emergência, mas não há mais ninguém aqui... o que está havendo? \nPor que as portas trancaram? E sempre houve tantas lixeiras na sala de reunião? \nAlguém precisa reportar essa bagunça!"
+ },
+ "stageLang/{ADV_CHAL_001_Meeting}tips": {
+  "en": "Evolve the Cart Tornado!",
+  "pt": "Evolua o Tornado de Carrinho!"
+ },
+ "stageLang/{ADV_CHAL_002_Security}description": {
+  "en": "The report got through to Rekenber HQ, and the lab has been placed on lockdown for our safety - which would be very reassuring if we weren't locked outside.\nMaybe if we can find the Mechanic we could sneak back in through the vents.",
+  "pt": "O relatório chegou à sede da Rekenber, e o laboratório foi trancado para nossa segurança. Seria bem reconfortante se não estivéssemos trancados do lado de fora.\nTalvez, se acharmos o Mecânico, dê para voltar escondido pelos dutos."
+ },
+ "stageLang/{ADV_CHAL_002_Security}tips": {
+  "en": "Find the Mechanic.",
+  "pt": "Encontre o Mecânico."
+ },
+ "stageLang/{ADV_CHAL_003_Ejected}description": {
+  "en": "The vent led us away from those weird robots, but we seem to have stumbled into a warren of Lunatics and Ducklings. I suppose we should use this opportunity to research such strange creatures.",
+  "pt": "O duto nos afastou daqueles robôs esquisitos, mas parece que caímos num viveiro de Lunáticos e Ducklings. Acho que devemos aproveitar para pesquisar essas criaturas estranhas."
+ },
+ "stageLang/{ADV_CHAL_003_Ejected}tips": {
+  "en": "\"Research\" 3000 Ducklings. ",
+  "pt": "\"Pesquise\" 3.000 Ducklings. "
+ },
+ "stageLang/{ADV_CHAL_004_Ghosted}description": {
+  "en": "Following a colony of Lunatics into an underground cave might not have been the best idea.\nI wonder if this creepy cavern is where all the rest of the lab crew ended up...",
+  "pt": "Seguir uma colônia de Lunáticos até uma caverna subterrânea talvez não tenha sido a melhor ideia.\nSerá que foi nesta caverna sinistra que o resto da equipe do laboratório foi parar..."
+ },
+ "stageLang/{ADV_CHAL_004_Ghosted}tips": {
+  "en": "Find the (friendly) Ghostring.",
+  "pt": "Encontre o Ghostring (amigável)."
+ },
+ "stageLang/{ADV_CHAL_005_Science}description": {
+  "en": "Something suspicious is going on back at the lab. Angry robots are attacking, the crew is missing, and all sort of paranormal creatures (though definitely no ghosts) lurk in every corner. Let's figure out what happened using the power of logic and science!",
+  "pt": "Algo suspeito está acontecendo no laboratório. Robôs furiosos atacam, a equipe sumiu e todo tipo de criatura paranormal (mas certamente nenhum fantasma) espreita em cada canto. Vamos descobrir o que houve com o poder da lógica e da ciência!"
+ },
+ "stageLang/{ADV_CHAL_005_Science}tips": {
+  "en": "Find the Biolo.",
+  "pt": "Encontre a Bióloga."
+ },
+ "stageLang/{ADV_CHAL_006_Trouble}description": {
+  "en": "The sudden appearance of those three weirdos has interfered with the experiments in the Specimen Room! Some innovative Kimera project has gone awry, and a bizarre tentacled creature is summoning swarms of angry robots. Whatever it is, we're ejecting it!",
+  "pt": "A aparição repentina daqueles três esquisitos atrapalhou os experimentos na Sala de Espécimes! Um projeto inovador de Quimeras deu errado, e uma criatura bizarra cheia de tentáculos invoca enxames de robôs furiosos. Seja o que for, vamos ejetá-la!"
+ },
+ "stageLang/{ADV_CHAL_006_Trouble}tips": {
+  "en": "Defeat the Giant Octopus after 25 minutes. ",
+  "pt": "Derrote o Polvo Gigante após 25 minutos. "
+ },
+ "stageLang/{FB_GALUGA}description": {
+  "en": "Join the Rebellion squad to run and gun across the relentlessly horizontal width of the Rekenber front, from the Lighthalzen fields to the city and through the horrors lurking beyond. Let's survive determinedly!",
+  "pt": "Junte-se ao esquadrão Insurgente para correr e atirar pela extensão implacavelmente horizontal do front de Rekenber, dos campos de Lighthalzen à cidade e pelos horrores além. Vamos sobreviver com determinação!"
+ },
+ "stageLang/{FB_HIGHWAY}description": {
+  "en": "Rebellion squad, rev your Magic Gears - its time to drive fast, and fire faster. Bio Lab traitors are invading the Juno-Lighthalzen road for some treasonable reason, and we need you to defend our crucial infrastructure.",
+  "pt": "Esquadrão Insurgente, acelerem os Magic Gears: hora de pilotar rápido e atirar mais rápido ainda. Traidores do Laboratório invadem a estrada Juno-Lighthalzen por algum motivo traiçoeiro, e vocês precisam defender nossa infraestrutura vital."
+ },
+ "stageLang/{FB_HIGHWAY}tips": {
+  "en": "Can't stop moving",
+  "pt": "Não pode parar de se mover"
+ },
+ "stageLang/{ADV_FB_001_Attack}description": {
+  "en": "Rebellion squad, your new orders are in. The president’s son has been kidnapped by mercenaries, and they’re demanding advanced military technology from the Rekenber Corporation as ransom - but we don’t negotiate with terrorists. You’re the only team tough enough to take them on. Airdrop into the Lighthalzen fields, find their base, and blow it the heck up! ",
+  "pt": "Esquadrão Insurgente, chegaram novas ordens. O filho do presidente foi sequestrado por mercenários, que exigem tecnologia militar avançada da Corporação Rekenber como resgate. Mas não negociamos com terroristas. Vocês são a única equipe durona o bastante para enfrentá-los. Saltem nos campos de Lighthalzen, achem a base deles e mandem tudo pelos ares! "
+ },
+ "stageLang/{ADV_FB_001_Attack}tips": {
+  "en": "Defeat the Abysmal Knight after 10 minutes. ",
+  "pt": "Derrote o Cavaleiro Abissal após 10 minutos. "
+ },
+ "stageLang/{ADV_FB_002_Bullet}description": {
+  "en": "Rats! These are no mere mercenaries, they’re Bio Lab defectors, traitors of the Mutant Wars. We thought that group was destroyed, but it seems like they’re back from the dead to kidnap the president’s nephew - and they’ve got you surrounded. Survive until we can send a rescue airship!",
+  "pt": "Droga! Não são meros mercenários, são desertores do Laboratório, traidores das Guerras Mutantes. Achávamos que o grupo tinha sido destruído, mas parece que voltaram dos mortos para sequestrar o sobrinho do presidente, e vocês estão cercados. Sobrevivam até mandarmos uma aeronave de resgate!"
+ },
+ "stageLang/{ADV_FB_002_Bullet}tips": {
+  "en": "Survive for 15 minutes",
+  "pt": "Sobreviva por 15 minutos"
+ },
+ "stageLang/{ADV_FB_003_NeoCity}description": {
+  "en": "The defectors’ betrayer bots are trashing Lighthalzen and breaching the defenses of the Rekenber head office. We don’t know what they’re after, but it looks like kidnapping the president's cousin’s nephew was just a distraction. Crash into downtown and start blasting, Rebellion squad. ",
+  "pt": "Os robôs traidores dos desertores estão destruindo Lighthalzen e rompendo as defesas da sede da Rekenber. Não sabemos o que querem, mas parece que sequestrar o sobrinho do primo do presidente era só distração. Invadam o centro e comecem a atirar, esquadrão Insurgente. "
+ },
+ "stageLang/{ADV_FB_003_NeoCity}tips": {
+  "en": "Defeat the Dolomedes after 10 minutes.",
+  "pt": "Derrote o Dolomedes após 10 minutos."
+ },
+ "stageLang/{ADV_FB_004_OperationGun}description": {
+  "en": "Multiple meteor impacts have been detected in Lighthalzen and are interfering with our comms. The defectors have combined mutant cells with advanced Rekenber beacon technology and have summoned an invasion force! Civilians have been evacuated, so destroy anything that moves, and see if you can find the president’s cousin’s nephew’s dog. ",
+  "pt": "Vários impactos de meteoros foram detectados em Lighthalzen e atrapalham nossas comunicações. Os desertores combinaram células mutantes com tecnologia de sinalização avançada da Rekenber e invocaram uma força invasora! Os civis foram evacuados, então destruam tudo que se mexer e vejam se acham o cachorro do sobrinho do primo do presidente. "
+ },
+ "stageLang/{ADV_FB_004_OperationGun}tips": {
+  "en": "Defeat the big bot EL1-A17T after 10 minutes. ",
+  "pt": "Derrote o robozão EL1-A17T após 10 minutos. "
+ },
+ "stageLang/{ADV_FB_005_RunAndGun}description": {
+  "en": "Come in, Rebellion squad, this is Headquarters. We can’t get a read on your position and we aren’t exactly sure what’s going on without accurate reconnaissance - just keep gunning down mutants and running to the right until we say otherwise. ",
+  "pt": "Câmbio, esquadrão Insurgente, aqui é o QG. Não conseguimos localizar vocês e não sabemos bem o que está acontecendo sem um reconhecimento preciso. Continuem abatendo mutantes e correndo para a direita até segunda ordem. "
+ },
+ "stageLang/{ADV_FB_005_RunAndGun}tips": {
+  "en": "Find a new ally",
+  "pt": "Encontre um novo aliado"
+ },
+ "stageLang/{ADV_FB_006_Alien}description": {
+  "en": "Great work Rebellion squad, you’ve found the source of the mutant invasion. You’re our only hope, the only squad strong enough to survive in these stinking egg-spawning grounds - shoot those evil creatures and win the war for humanity.",
+  "pt": "Ótimo trabalho, esquadrão Insurgente, vocês acharam a origem da invasão mutante. Vocês são nossa única esperança, o único esquadrão forte o bastante para sobreviver nesses criadouros fedorentos. Atirem nessas criaturas malignas e vençam a guerra pela humanidade."
+ },
+ "stageLang/{ADV_FB_006_Alien}tips": {
+  "en": "Defeat the Turtle General after 25 minutes ",
+  "pt": "Derrote o General Tartaruga após 25 minutos "
+ },
+ "stageLang/{TP_CASTLE}description": {
+  "en": "As myriad humans from all over Rune-Midgard joined their vespers in unison, the forces of chaos resonated and granted them their dark wish. The King of Terror raises yet again, and with him his demon castle: Glast Heim.",
+  "pt": "Quando incontáveis humanos de toda Rune-Midgard uniram suas vésperas em uníssono, as forças do caos ressoaram e atenderam seu desejo sombrio. O Rei do Terror se ergue mais uma vez e, com ele, seu castelo demoníaco: Glast Heim."
+ },
+ "stageLang/{TP_CASTLE}tips": {
+  "en": "Defeat bosses to unlock new areas.",
+  "pt": "Derrote chefes para desbloquear novas áreas."
+ },
+ "stageLang/{ADV_FOSCARI_001}description": {
+  "en": "Once upon a time, in the mists of memory, an ambitious witch of unstoppable will sought a monstrous power. The only witnesses to this rite were her mouldering minions, who held back all interlopers.",
+  "pt": "Era uma vez, nas brumas da memória, uma bruxa ambiciosa de vontade inabalável que buscava um poder monstruoso. As únicas testemunhas do rito eram seus lacaios putrefatos, que barravam todos os intrusos."
+ },
+ "stageLang/{ADV_FOSCARI_002}description": {
+  "en": "Once upon a time, sensing an imminent danger, the noble Fairy rushed to seal the tide of evil poised to roll over the world like an apocalyptic flood. Make haste, good Fairy, or we perish.",
+  "pt": "Era uma vez uma nobre Fada que, pressentindo um perigo iminente, correu para selar a maré do mal prestes a varrer o mundo como um dilúvio apocalíptico. Depressa, boa Fada, ou pereceremos."
+ },
+ "stageLang/{ADV_FOSCARI_003}description": {
+  "en": "Once upon a time, the Ranger was dossing off. While her schoolmates dressed to the nines and accepted their diplomas, she rejected pomp and circumstance to muck about with the frivolous imps and sprites of the Rachel Lakes.",
+  "pt": "Era uma vez uma Sentinela que matava aula. Enquanto os colegas se arrumavam para receber os diplomas, ela trocou a pompa e a cerimônia por bagunçar com os diabretes e duendes frívolos dos Lagos de Rachel."
+ },
+ "stageLang/{ADV_FOSCARI_004}description": {
+  "en": "Once upon a time, a doughty Knight faced his daily training routine just before his graduation from the Academy. The trees around the Lakes always need pruning anyway. All in a day’s work for the Red Swordsman, the fabled Champion of Horticulture,",
+  "pt": "Era uma vez um Cavaleiro destemido que encarava seu treino diário pouco antes da formatura na Academia. As árvores em volta dos Lagos sempre precisam de poda, afinal. Rotina para o Espadachim Rubro, o lendário Campeão da Horticultura,"
+ },
+ "stageLang/{ADV_FOSCARI_005}description": {
+  "en": "Once upon a time, on a normal summer morning, a bright young Sorcerer graduated from the Sage Academy of Juno with flying colours. With an official diploma tucked under her arm, she ventures into the Lakes to play magic tricks with the gnomes and fairies.",
+  "pt": "Era uma vez, numa manhã comum de verão, uma jovem e brilhante Feiticeira que se formou com louvor na Academia de Sábios de Juno. Com o diploma debaixo do braço, ela se aventura pelos Lagos para pregar peças mágicas em gnomos e fadas."
+ },
+ "stageLang/{ADV_FOSCARI_006}description": {
+  "en": "Once upon a time, three students, one from each of the houses of the Academy, brave a journey into a forest (called the Lakes) stuffed with mythological creatures, all to have a jolly adventure, with absolutely nothing interrupting the whimsy.",
+  "pt": "Era uma vez três estudantes, um de cada casa da Academia, que encaram uma jornada por uma floresta (chamada Lagos) repleta de criaturas mitológicas, tudo por uma aventura divertida, sem absolutamente nada para atrapalhar a fantasia."
+ },
+ "stageLang/{ADV_FOSCARI_007}description": {
+  "en": "And they all lived. Happily. Ever. After.",
+  "pt": "E todos viveram. Felizes. Para. Sempre."
+ },
+ "stageLang/{EMERALD}description": {
+  "en": "A miniature replica of Rune-Midgard's interconnected lands. Waves of the Savage Spirit guide travellers to their destined paths.",
+  "pt": "Uma réplica em miniatura das terras interligadas de Rune-Midgard. Ondas do Espírito Selvagem guiam os viajantes aos caminhos destinados."
+ },
+ "stageLang/{EME_BIOME_01}biomeName": {
+  "en": "Payon Town",
+  "pt": "Cidade de Payon"
+ },
+ "stageLang/{EME_BIOME_02}biomeName": {
+  "en": "Payon Woods",
+  "pt": "Bosques de Payon"
+ },
+ "stageLang/{EME_BIOME_03}biomeName": {
+  "en": "Comodo Cave",
+  "pt": "Caverna de Comodo"
+ },
+ "stageLang/{EME_BIOME_04}biomeName": {
+  "en": "Lasagna",
+  "pt": "Lasagna"
+ },
+ "stageLang/{EME_BIOME_05}biomeName": {
+  "en": "Payon Cave",
+  "pt": "Caverna de Payon"
+ },
+ "stageLang/{EME_BIOME_06}biomeName": {
+  "en": "Comodo Fields",
+  "pt": "Campos de Comodo"
+ },
+ "stageLang/{EME_BIOME_07}biomeName": {
+  "en": "The Crossroads",
+  "pt": "A Encruzilhada"
+ },
+ "stageLang/{ADV_OTC_001_001_Woods}description": {
+  "en": "Glast Heim, Dracula’s castle, has risen after a century in ruins, casting a malign shadow over the land, poisoning the hearts of mortals with a thirst for chaos. Brave heirs of the demon-hunting knights take up their blades and stride through the dead forest to face their eternal foe.",
+  "pt": "Glast Heim, o castelo de Drácula, ressurgiu após um século em ruínas, lançando uma sombra maligna sobre a terra e envenenando o coração dos mortais com sede de caos. Bravos herdeiros dos cavaleiros caça-demônios empunham suas lâminas e cruzam a floresta morta rumo ao eterno inimigo."
+ },
+ "stageLang/{ADV_OTC_001_002_Entrance}description": {
+  "en": "A seemingly endless entryway to the home of evil. Take caution traversing this luxurious passage - fouler things than Meat lurk between these walls.",
+  "pt": "Uma entrada aparentemente sem fim para o lar do mal. Cuidado ao atravessar esta passagem luxuosa: coisas piores que Carne espreitam entre estas paredes."
+ },
+ "stageLang/{ADV_OTC_001_003_Library}description": {
+  "en": "Dracula’s collection of twisted tomes stretches throughout Glast Heim Castle. His literature is kept in excellent condition by fiendish Ridewords.",
+  "pt": "A coleção de tomos distorcidos de Drácula se estende por todo o Castelo de Glast Heim. Sua literatura é mantida em excelente estado por Ridewords diabólicos."
+ },
+ "stageLang/{ADV_OTC_001_004_Clock}description": {
+  "en": "Monsters cavort madly amid the clockwork of Thanatos Tower, rising ever upwards to meet an unchanging moon. The heart of the castle holds the key to Dracula’s hollow soul, the vile machinations a reflection of his boundless contempt.",
+  "pt": "Monstros dançam enlouquecidos entre as engrenagens da Torre de Thanatos, subindo sempre rumo a uma lua imutável. O coração do castelo guarda a chave da alma vazia de Drácula, e suas maquinações vis refletem seu desprezo sem limites."
+ },
+ "stageLang/{ADV_OTC_001_005_Throne}description": {
+  "en": "The Vampire hides, invisible in a hall of mirrors festooned with his most frightful followers. Solve his maddening riddle to reveal the awful truth.",
+  "pt": "O Vampiro se esconde, invisível num salão de espelhos enfeitado com seus seguidores mais assustadores. Resolva seu enigma enlouquecedor para revelar a terrível verdade."
+ },
+ "stageLang/{ADV_OTC_001_006_Sunken}description": {
+  "en": "Built on the bones of a thousand archaic ruins, the culverts beneath Glast Heim are partially composed of a legendary aquatic city replete with forgotten arcane relics.",
+  "pt": "Erguidos sobre os ossos de mil ruínas arcaicas, os esgotos sob Glast Heim são em parte uma lendária cidade aquática repleta de relíquias arcanas esquecidas."
+ },
+ "stageLang/{ADV_OTC_001_007_Ecclesia}description": {
+  "en": "Once home to an avenging order, this abbey is now infested by the minions of that which they sought to destroy. What tempestuous sorceries corrupted the scholars here to bring about this fall from grace? What secrets remain, piled up and undiscovered?",
+  "pt": "Antes lar de uma ordem vingadora, esta abadia hoje está infestada pelos lacaios daquilo que eles tentavam destruir. Que feitiçarias tempestuosas corromperam seus estudiosos e causaram essa queda em desgraça? Que segredos restam, empilhados e ocultos?"
+ },
+ "stageLang/{ADV_OTC_001_008_Infinite}description": {
+  "en": "Time immortal, death immemorial - who’s playing who?",
+  "pt": "Tempo imortal, morte imemorial: quem está jogando com quem?"
+ },
+ "stageLang/{LEM_CHAMBER}description": {
+  "en": "Fearsome fools flock to this extradimensional card casino in Comodo, where survival is a high-stakes game. The beastly buffoons that prowl this floating funhouse aren’t bluffing, so play your cards right or the joke will be on you.",
+  "pt": "Tolos temíveis lotam este cassino de cartas extradimensional em Comodo, onde sobreviver é um jogo de apostas altas. Os bufões bestiais deste parque flutuante não estão blefando: jogue bem suas cartas ou a piada será você."
+ },
+ "stageLang/{LEM_CHAMBER}tips": {
+  "en": "Start with the Joker Card",
+  "pt": "Comece com a Carta Coringa"
+ },
+ "stageLang/{OTC_ADV_BAZAAR}description": {
+  "en": "Coiling betwixt the seconds of forgotten times, allies from the past and future gather in this confusing commercial space to trade items from other realms.",
+  "pt": "Enroscados entre os segundos de tempos esquecidos, aliados do passado e do futuro se reúnem neste confuso espaço comercial para trocar itens de outros reinos."
+ },
+ "achievementLang/{MOON01_FindCoffin}description": {
+  "en": "Find and open the coffin in in the Amatsu Highlands.",
+  "pt": "Encontre e abra o caixão no Planalto de Amatsu."
+ },
+ "achievementLang/{MOON02_Survive15Miang}description": {
+  "en": "Survive 15 minutes with the Ninja.",
+  "pt": "Sobreviva por 15 minutos com a Ninja."
+ },
+ "achievementLang/{MOON03_EvolveSilverWind}description": {
+  "en": "Evolve the First Wind.",
+  "pt": "Evolua o Primeiro Vento."
+ },
+ "achievementLang/{MOON04_Survive15Menya}description": {
+  "en": "Survive 15 minutes with the Oboro.",
+  "pt": "Sobreviva por 15 minutos com a Oboro."
+ },
+ "achievementLang/{MOON05_EvolveFourSeasons}description": {
+  "en": "Evolve the Spirit Charms.",
+  "pt": "Evolua os Amuletos Espirituais."
+ },
+ "achievementLang/{MOON06_Survive15Syuuto}description": {
+  "en": "Survive 15 minutes with the Kagerou.",
+  "pt": "Sobreviva por 15 minutos com o Kagerou."
+ },
+ "achievementLang/{MOON07_EvolveSummonNight}description": {
+  "en": "Evolve the Crimson Fire Formation.",
+  "pt": "Evolua a Formação Pétala Escarlate."
+ },
+ "achievementLang/{MOON08_Survive15BabiOnna}description": {
+  "en": "Survive 15 minutes with the White Lady.",
+  "pt": "Sobreviva por 15 minutos com a Dama Branca."
+ },
+ "achievementLang/{MOON09_EvolveMirageRobe}description": {
+  "en": "Evolve the Freezing Trap.",
+  "pt": "Evolua a Armadilha Congelante."
+ },
+ "achievementLang/{MOON10_Survive15McCoy}description": {
+  "en": "Survive 15 minutes with the Tengu.",
+  "pt": "Sobreviva por 15 minutos com o Tengu."
+ },
+ "achievementLang/{MOON11_Defeat100kVanya}description": {
+  "en": "Defeat 100000 enemies in a single run with the Oboro.",
+  "pt": "Derrote 100.000 inimigos numa única partida com a Oboro."
+ },
+ "achievementLang/{MOON12_Defeat100kVadjouel}description": {
+  "en": "Defeat 100000 enemies in a single run with the Kagerou.",
+  "pt": "Derrote 100.000 inimigos numa única partida com o Kagerou."
+ },
+ "achievementLang/{MOON13_Defeat6kWater}description": {
+  "en": "Defeat 6000 Kapha.",
+  "pt": "Derrote 6.000 Kaphas."
+ },
+ "achievementLang/{MOON14_FindNightSword}description": {
+  "en": "Find the Cross Slash.",
+  "pt": "Encontre o Corte Cruzado."
+ },
+ "achievementLang/{MOON15_EvolveNightSword}description": {
+  "en": "Evolve the Cross Slash.",
+  "pt": "Evolua o Corte Cruzado."
+ },
+ "achievementLang/{MOON16_DefeatBossRuins}description": {
+  "en": "Defeat the Naga in the Amatsu Highlands.",
+  "pt": "Derrote a Naga no Planalto de Amatsu."
+ },
+ "achievementLang/{MOON17_EvolveBubbles}description": {
+  "en": "Evolve the Summon Water Ball.",
+  "pt": "Evolua o Invocar Bola d'Água."
+ },
+ "achievementLang/{MOON18_FindMap_Moonspell}description": {
+  "en": "Find the Treasure Map III.",
+  "pt": "Encontre o Mapa do Tesouro III."
+ },
+ "achievementLang/{FOSC01_FindCoffin}description": {
+  "en": "Find and open the coffin in in the Rachel Lakes.",
+  "pt": "Encontre e abra o caixão nos Lagos de Rachel."
+ },
+ "achievementLang/{FOSC02_Survive15Eleanor}description": {
+  "en": "Survive 15 minutes with the Sorcerer.",
+  "pt": "Sobreviva por 15 minutos com a Feiticeira."
+ },
+ "achievementLang/{FOSC03_GetStreamToLevel6}description": {
+  "en": "Get Psychic Wave to Level 6.",
+  "pt": "Eleve a Onda Psíquica para o nível 6."
+ },
+ "achievementLang/{FOSC04_GetStrikeToLevel6}description": {
+  "en": "Get Varetyr Spear to Level 6.",
+  "pt": "Eleve a Lança de Varetyr para o nível 6."
+ },
+ "achievementLang/{FOSC05_UniteSpells}description": {
+  "en": "Unite Spell Fist, Psychic Wave, and Varetyr Spear.",
+  "pt": "Faça a união de Punho Arcano, Onda Psíquica e Lança de Varetyr."
+ },
+ "achievementLang/{FOSC06_Survive15Viktor}description": {
+  "en": "Survive 15 minutes with the Knight.",
+  "pt": "Sobreviva por 15 minutos com o Cavaleiro."
+ },
+ "achievementLang/{FOSC07_EvolveEskizzibur}description": {
+  "en": "Evolve the Bowling Bash.",
+  "pt": "Evolua o Impacto de Tyr."
+ },
+ "achievementLang/{FOSC08_Survive15Keira}description": {
+  "en": "Survive 15 minutes with the Ranger.",
+  "pt": "Sobreviva por 15 minutos com a Sentinela."
+ },
+ "achievementLang/{FOSC09_EvolveFlashArrow}description": {
+  "en": "Evolve the Aimed Bolt.",
+  "pt": "Evolua o Disparo Certeiro."
+ },
+ "achievementLang/{FOSC10_BreakSeal1}description": {
+  "en": "With the Ranger, break the Seal of the Lakes.",
+  "pt": "Com a Sentinela, quebre o Selo dos Lagos."
+ },
+ "achievementLang/{FOSC11_BreakSeal2}description": {
+  "en": "With the Knight, break the Seal of the Abyss.",
+  "pt": "Com o Cavaleiro, quebre o Selo do Abismo."
+ },
+ "achievementLang/{FOSC12_BreakSeal3}description": {
+  "en": "With the Sorcerer, break the Seal of the Banished.",
+  "pt": "Com a Feiticeira, quebre o Selo dos Banidos."
+ },
+ "achievementLang/{FOSC13_Survive15Luminaire}description": {
+  "en": "Survive 15 minutes with the Fairy.",
+  "pt": "Sobreviva por 15 minutos com a Fada."
+ },
+ "achievementLang/{FOSC14_EvolvePrismatic}description": {
+  "en": "Evolve the Tetra Vortex.",
+  "pt": "Evolua o Tetra Vortex."
+ },
+ "achievementLang/{FOSC15_Survive15Genevieve}description": {
+  "en": "Survive 15 minutes with the Professor.",
+  "pt": "Sobreviva por 15 minutos com a Professora."
+ },
+ "achievementLang/{FOSC16_EvolveShadow}description": {
+  "en": "Evolve the Fiber Lock.",
+  "pt": "Evolua a Teia de Aranha."
+ },
+ "achievementLang/{FOSC17_Defeat100kGenevieve}description": {
+  "en": "Defeat 100000 enemies in a single run with the Professor.",
+  "pt": "Derrote 100.000 inimigos numa única partida com a Professora."
+ },
+ "achievementLang/{FOSC18_Defeat6kFairy}description": {
+  "en": "Defeat a total of 6000 Caterpillars.",
+  "pt": "Derrote 6.000 Lagartas."
+ },
+ "achievementLang/{FOSC19_Defeat6kHorror}description": {
+  "en": "Defeat a total of 6000 Ghouls.",
+  "pt": "Derrote 6.000 Carniçais."
+ },
+ "achievementLang/{FOSC20_DefeatBossLake}description": {
+  "en": "Defeat the Dryad in the Rachel Lakes.",
+  "pt": "Derrote a Dríade nos Lagos de Rachel."
+ },
+ "achievementLang/{FOSC21_DefeatBossAbyss}description": {
+  "en": "Defeat the Deep Sea Witch in the Abyss Lake.",
+  "pt": "Derrote a Bruxa das Profundezas no Lago do Abismo."
+ },
+ "achievementLang/{FOSC22_FindMap_Foscari}description": {
+  "en": "Find the Treasure Map IV.",
+  "pt": "Encontre o Mapa do Tesouro IV."
+ },
+ "achievementLang/{CHAL01_FindCoffin}description": {
+  "en": "Find and open the coffin in in the Verus Laboratory.",
+  "pt": "Encontre e abra o caixão no Laboratório de Verus."
+ },
+ "achievementLang/{CHAL02_Survive15Red}description": {
+  "en": "Survive 15 minutes with the Genetic.",
+  "pt": "Sobreviva por 15 minutos com o Bioquímico."
+ },
+ "achievementLang/{CHAL03_EvolveReport}description": {
+  "en": "Evolve the Cart Tornado!",
+  "pt": "Evolua o Tornado de Carrinho!"
+ },
+ "achievementLang/{CHAL04_Survive15Purple}description": {
+  "en": "Survive 15 minutes with the Guillotine Cross.",
+  "pt": "Sobreviva por 15 minutos com a Sicária."
+ },
+ "achievementLang/{CHAL05_EvolveTongue}description": {
+  "en": "Evolve the Cross Impact.",
+  "pt": "Evolua o Impacto Cruzado."
+ },
+ "achievementLang/{CHAL06_Survive15Orange}description": {
+  "en": "Survive 15 minutes with the Mechanic.",
+  "pt": "Sobreviva por 15 minutos com o Mecânico."
+ },
+ "achievementLang/{CHAL07_EvolveSwipe}description": {
+  "en": "Evolve the Boost Knuckle.",
+  "pt": "Evolua o Punho Foguete."
+ },
+ "achievementLang/{CHAL08_ReachLv50Pink}description": {
+  "en": "Reach level 50 with the Biolo.",
+  "pt": "Alcance o nível 50 com a Bióloga."
+ },
+ "achievementLang/{CHAL09_EvolveSamples}description": {
+  "en": "Evolve the Spore Explosion.",
+  "pt": "Evolua a Explosão de Esporos."
+ },
+ "achievementLang/{CHAL10_Survive15Green}description": {
+  "en": "Survive 15 minutes with the Shadow Chaser.",
+  "pt": "Sobreviva por 15 minutos com o Renegado."
+ },
+ "achievementLang/{CHAL11_EvolveVent}description": {
+  "en": "Evolve the Feint Bomb.",
+  "pt": "Evolua a Bomba Fantasma."
+ },
+ "achievementLang/{CHAL12_GetMedicalToLevel7}description": {
+  "en": "Get Coluceo Heal to level 7.",
+  "pt": "Eleve a Cura Coluceo para o nível 7."
+ },
+ "achievementLang/{CHAL13_EvolveMedical}description": {
+  "en": "Evolve the Coluceo Heal.",
+  "pt": "Evolua a Cura Coluceo."
+ },
+ "achievementLang/{CHAL14_KillOneWithYellow}description": {
+  "en": "Defeat 1 enemy with the Ghostring?!",
+  "pt": "Derrote 1 inimigo com o Ghostring?!"
+ },
+ "achievementLang/{CHAL15_ReachLv50Blue}description": {
+  "en": "Reach level 50 with the Imperial Guard.",
+  "pt": "Alcance o nível 50 com a Guarda Imperial."
+ },
+ "achievementLang/{CHAL16_EvolveGarbage}description": {
+  "en": "Evolve the Earth Drive.",
+  "pt": "Evolua o Impulso Terrestre."
+ },
+ "achievementLang/{CHAL17_Defeat6000Cute}description": {
+  "en": "Defeat a total of 6000 suspicious looking enemies.",
+  "pt": "Derrote 6.000 inimigos de aparência suspeita."
+ },
+ "achievementLang/{CHAL18_Defeat100kPurple}description": {
+  "en": "Defeat 100000 enemies in a single run with the Guillotine Cross.",
+  "pt": "Derrote 100.000 inimigos numa única partida com a Sicária."
+ },
+ "achievementLang/{CHAL19_DefeatBoss25}description": {
+  "en": "Defeat the Giant Octopus in the Verus Laboratory.",
+  "pt": "Derrote o Polvo Gigante no Laboratório de Verus."
+ },
+ "achievementLang/{CHAL20_FindMap}description": {
+  "en": "Find the Realm Map.",
+  "pt": "Encontre o Mapa do Reino."
+ },
+ "achievementLang/{FB_01_Find__Coffin}description": {
+  "en": "Find and open the coffin in in the Rekenber Front.",
+  "pt": "Encontre e abra o caixão no Front de Rekenber."
+ },
+ "achievementLang/{FB_02_SurvivLong}description": {
+  "en": "Survive 15 minutes with the Rebellion.",
+  "pt": "Sobreviva por 15 minutos com o Insurgente."
+ },
+ "achievementLang/{FB_03_EvolveLong}description": {
+  "en": "Evolve the Gatling Fever.",
+  "pt": "Evolua a Febre de Gatling."
+ },
+ "achievementLang/{FB_04_SurvivShort}description": {
+  "en": "Survive 15 minutes with the Gunslinger.",
+  "pt": "Sobreviva por 15 minutos com o Justiceiro."
+ },
+ "achievementLang/{FB_05_EvolveShort}description": {
+  "en": "Evolve the Chain Action.",
+  "pt": "Evolua a Ação em Cadeia."
+ },
+ "achievementLang/{FB_06_SurvivSpread}description": {
+  "en": "Survive 15 minutes with the Peco Rebellion.",
+  "pt": "Sobreviva por 15 minutos com a Insurgente montada."
+ },
+ "achievementLang/{FB_07_EvolveSpread}description": {
+  "en": "Evolve the Spread Attack.",
+  "pt": "Evolua o Ataque Disperso."
+ },
+ "achievementLang/{FB_08_SurvivLaser}description": {
+  "en": "Survive 15 minutes with the Meister.",
+  "pt": "Sobreviva por 15 minutos com a Mestra."
+ },
+ "achievementLang/{FB_09_EvolveLaser}description": {
+  "en": "Evolve the Triple Laser.",
+  "pt": "Evolua o Laser Triplo."
+ },
+ "achievementLang/{FB_10_Find__Coffin}description": {
+  "en": "Find and open the coffin on the Rekenber Highway.",
+  "pt": "Encontre e abra o caixão na Rodovia de Rekenber."
+ },
+ "achievementLang/{FB_11_SurvivFire}description": {
+  "en": "Survive 15 minutes with the Werewolf.",
+  "pt": "Sobreviva por 15 minutos com o Lobisomem."
+ },
+ "achievementLang/{FB_12_EvolveFire}description": {
+  "en": "Evolve the Flame Launcher.",
+  "pt": "Evolua o Lança-Chamas."
+ },
+ "achievementLang/{FB_13_SurvivSonic}description": {
+  "en": "Survive 15 minutes with the Kiel Robot.",
+  "pt": "Sobreviva por 15 minutos com o Robô."
+ },
+ "achievementLang/{FB_14_EvolveSonic}description": {
+  "en": "Evolve the Metallic Sound.",
+  "pt": "Evolua o Som Metálico."
+ },
+ "achievementLang/{FB_15_SurvivCross}description": {
+  "en": "Survive 15 minutes with the Windhawk.",
+  "pt": "Sobreviva por 15 minutos com a Falcoeira."
+ },
+ "achievementLang/{FB_16_EvolveCross}description": {
+  "en": "Evolve the Hawk Boomerang.",
+  "pt": "Evolua o Bumerangue do Falcão."
+ },
+ "achievementLang/{FB_17_Find__Barrier}description": {
+  "en": "Find 14 Assumptio Scrolls.",
+  "pt": "Encontre 14 Pergaminhos de Assumptio."
+ },
+ "achievementLang/{FB_18_SurvivPrism}description": {
+  "en": "Survive 15 minutes with the Apocalypse.",
+  "pt": "Sobreviva por 15 minutos com o Apocalipse."
+ },
+ "achievementLang/{FB_19_EvolvePrism}description": {
+  "en": "Evolve the Cold Slower.",
+  "pt": "Evolua o Retardador Gélido."
+ },
+ "achievementLang/{FB_20_Find__Rapid}description": {
+  "en": "Find 21 Awakening Potions.",
+  "pt": "Encontre 21 Poções do Despertar."
+ },
+ "achievementLang/{FB_21_SurvivHoming}description": {
+  "en": "Survive 15 minutes with the Einbroch Soldier.",
+  "pt": "Sobreviva por 15 minutos com o Soldado de Einbroch."
+ },
+ "achievementLang/{FB_22_EvolveHoming}description": {
+  "en": "Evolve the Tracking.",
+  "pt": "Evolua o Rastreamento."
+ },
+ "achievementLang/{FB_23_Find__Grenade}description": {
+  "en": "Find 28 Bottle Grenades.",
+  "pt": "Encontre 28 Granadas de Garrafa."
+ },
+ "achievementLang/{FB_24_SurvivMines}description": {
+  "en": "Survive 15 minutes with the Rebellion Veteran.",
+  "pt": "Sobreviva por 15 minutos com o Insurgente Veterano."
+ },
+ "achievementLang/{FB_25_EvolveMines}description": {
+  "en": "Evolve the Howling Mine.",
+  "pt": "Evolua a Mina Uivante."
+ },
+ "achievementLang/{FB_26_DefeatSpecial}description": {
+  "en": "Defeat the Scorpion in the Rekenber Front.",
+  "pt": "Derrote o Escorpião no Front de Rekenber."
+ },
+ "achievementLang/{FB_27_SurvivClaw}description": {
+  "en": "Survive 15 minutes with the Guard Captain.",
+  "pt": "Sobreviva por 15 minutos com o Capitão da Guarda."
+ },
+ "achievementLang/{FB_28_EvolveClaw}description": {
+  "en": "Evolve the Rolling Cutter.",
+  "pt": "Evolua a Lâmina Giratória."
+ },
+ "achievementLang/{FB_29_DefeatBoss}description": {
+  "en": "Defeat the Turtle General in the Rekenber Front.",
+  "pt": "Derrote o General Tartaruga no Front de Rekenber."
+ },
+ "achievementLang/{FB_30_Find__Map}description": {
+  "en": "Find the Realm Map.",
+  "pt": "Encontre o Mapa do Reino."
+ },
+ "achievementLang/{CompleteAdv_OdeToCastlevania}description": {
+  "en": "Complete once the adventure Ode to Glast Heim.",
+  "pt": "Conclua uma vez a Aventura Ode a Glast Heim."
+ },
+ "achievementLang/moonspellPart1GroupName": {
+  "en": "Legacy of Amatsu Part 1",
+  "pt": "Legado de Amatsu pt. 1"
+ },
+ "achievementLang/moonspellPart2GroupName": {
+  "en": "Legacy of Amatsu Part 2",
+  "pt": "Legado de Amatsu pt. 2"
+ },
+ "achievementLang/foscariPart1GroupName": {
+  "en": "Tides of the Abyss Part 1",
+  "pt": "Marés do Abismo pt. 1"
+ },
+ "achievementLang/foscariPart2GroupName": {
+  "en": "Tides of the Abyss Part 2",
+  "pt": "Marés do Abismo pt. 2"
+ },
+ "achievementLang/foscariPart3GroupName": {
+  "en": "Tides of the Abyss Part 3",
+  "pt": "Marés do Abismo pt. 3"
+ },
+ "achievementLang/{TP_Leon_FindCoffin1}description": {
+  "en": "Find and open the first coffin in in Glast Heim Castle Dracula.",
+  "pt": "Encontre e abra o primeiro caixão no Castelo Drácula de Glast Heim."
+ },
+ "achievementLang/{TP_Julius_FindCoffin2}description": {
+  "en": "Find and open the second coffin in in Glast Heim Castle Dracula.",
+  "pt": "Encontre e abra o segundo caixão no Castelo Drácula de Glast Heim."
+ },
+ "achievementLang/{TP_Dracula_FindCoffin3}description": {
+  "en": "Find and open the third coffin in in Glast Heim Castle Dracula.",
+  "pt": "Encontre e abra o terceiro caixão no Castelo Drácula de Glast Heim."
+ },
+ "achievementLang/{TP_Reinhardt_FindCoffin4}description": {
+  "en": "Find and open the fourth coffin in in Glast Heim Castle Dracula.",
+  "pt": "Encontre e abra o quarto caixão no Castelo Drácula de Glast Heim."
+ },
+ "achievementLang/{TP_Sonia_HeartRefresh}description": {
+  "en": "Find 7 Regeneration Potions after obtaining the Horseshoe.",
+  "pt": "Encontre 7 Poções de Regeneração após obter a Ferradura."
+ },
+ "achievementLang/{TP_Hector_KarmaCoins}description": {
+  "en": "Find 7 Soul Scrolls after obtaining the Scorpion Tail.",
+  "pt": "Encontre 7 Pergaminhos da Alma após obter a Cauda de Escorpião."
+ },
+ "achievementLang/{TP_Charlotte_Mirrors}description": {
+  "en": "Find 7 Splendid Mirrors after obtaining the Majestic Goat.",
+  "pt": "Encontre 7 Espelhos Esplêndidos após obter os Chifres de Bode."
+ },
+ "achievementLang/{TP_Trevor_Boss1}description": {
+  "en": "Defeat the Evil Snake Lord with the Royal Guard.",
+  "pt": "Derrote o Senhor das Serpentes com o Guardião Real."
+ },
+ "achievementLang/{TP_Sypha_EvoDragonwater}description": {
+  "en": "Defeat the Skeleton General and Mutant Gargoyle with the Guillotine Cross.",
+  "pt": "Derrote o General Esqueleto e a Gárgula Mutante com o Sicário."
+ },
+ "achievementLang/{TP_Grant_Boss2}description": {
+  "en": "Evolve the Dragon Breath - Water.",
+  "pt": "Evolua o Sopro do Dragão - Água."
+ },
+ "achievementLang/{TP_Alucard_Boss3}description": {
+  "en": "Defeat the Doppelganger with the Dragon Rune Knight.",
+  "pt": "Derrote o Doppelganger com o Cavaleiro Rúnico do dragão."
+ },
+ "achievementLang/{TP_Christopher_EvoSworb}description": {
+  "en": "Evolve the Charge Attack.",
+  "pt": "Evolua a Investida."
+ },
+ "achievementLang/{TP_Simon_EvoLemuria}description": {
+  "en": "Evolve the Brandish Spear.",
+  "pt": "Evolua o Brandir Lança."
+ },
+ "achievementLang/{TP_Juste_EvoCurse}description": {
+  "en": "Evolve the Wind Cutter.",
+  "pt": "Evolua o Cortador de Vento."
+ },
+ "achievementLang/{TP_Yoko_Boss4}description": {
+  "en": "Defeat the Diabolic with the Soul Reaper.",
+  "pt": "Derrote o Diabolic com o Ceifador de Almas."
+ },
+ "achievementLang/{TP_Soma_Boss5}description": {
+  "en": "Defeat the Lost Dragon with the Sura.",
+  "pt": "Derrote o Dragão Perdido com o Shura."
+ },
+ "achievementLang/{TP_Jonhathan_EvoRPG}description": {
+  "en": "Evolve the Soul Explosion.",
+  "pt": "Evolua a Explosão de Alma."
+ },
+ "achievementLang/{TP_John_EvoSpells}description": {
+  "en": "Evolve Sightrasher, Ice Wall, Violent Gale, and Earth Spike across any amount of runs.",
+  "pt": "Evolua Supernova, Barreira de Gelo, Furacão e Espinhos de Terra em qualquer número de partidas."
+ },
+ "achievementLang/{TP_Eric_EvoJavelin}description": {
+  "en": "Evolve the Cannon Spear.",
+  "pt": "Evolua a Lança Canhão."
+ },
+ "achievementLang/{TP_Shanoa_EvoTwo}description": {
+  "en": "Evolve the Axe Stomp and the Spear Stab.",
+  "pt": "Evolua o Pisão do Machado e a Estocada."
+ },
+ "achievementLang/{TP_Maria_unlock}description": {
+  "en": "Complete any stage with the Rune Knight and the Imperial Guard.",
+  "pt": "Conclua qualquer fase com a Cavaleira Rúnica e o Guarda Imperial."
+ },
+ "achievementLang/{TP_Richter_EvoBeasts}description": {
+  "en": "Evolve the Talisman of Protection.",
+  "pt": "Evolua o Talismã de Proteção."
+ },
+ "achievementLang/{TP_Teleport1}description": {
+  "en": "Obtain the Horseshoe after defeating the Drainliar.",
+  "pt": "Obtenha a Ferradura após derrotar o Drainliar."
+ },
+ "achievementLang/{TP_Teleport2}description": {
+  "en": "Obtain the Scorpion Tail after defeating the Necromancer.",
+  "pt": "Obtenha a Cauda de Escorpião após derrotar o Necromante."
+ },
+ "achievementLang/{TP_Teleport3}description": {
+  "en": "Obtain the Majestic Goat after defeating the Disguise.",
+  "pt": "Obtenha os Chifres de Bode após derrotar o Disguise."
+ },
+ "achievementLang/{TP_Teleport4}description": {
+  "en": "Obtain the Crown after defeating the Diabolic.",
+  "pt": "Obtenha a Coroa após derrotar o Diabolic."
+ },
+ "achievementLang/{TP_Teleport5}description": {
+  "en": "Obtain the Snake Scale after defeating the Amdarais.",
+  "pt": "Obtenha a Escama de Serpente após derrotar o Amdarais."
+ },
+ "achievementLang/{TP_Teleport6}description": {
+  "en": "Obtain the Wild Beast Claw after defeating the Nightmare Terror.",
+  "pt": "Obtenha a Garra de Fera após derrotar o Nightmare Terror."
+ },
+ "achievementLang/{TP_Selector_MorningStar}description": {
+  "en": "Evolve all 8 sweep skill lines.",
+  "pt": "Evolua todas as 8 linhas de golpes de varredura."
+ },
+ "achievementLang/{TP_Selector_SpectralSword}description": {
+  "en": "Evolve all 8 weapon skill lines.",
+  "pt": "Evolua todas as 8 linhas de técnicas de arma."
+ },
+ "achievementLang/{TP_Selector_CoatOfArms}description": {
+  "en": "Evolve all 16 demon-hunting tool lines.",
+  "pt": "Evolua todas as 16 linhas de ferramentas caça-demônios."
+ },
+ "achievementLang/{TP_Selector_Spellbook}description": {
+  "en": "Evolve all 8 spell lines.",
+  "pt": "Evolua todas as 8 linhas de feitiços."
+ },
+ "achievementLang/{TP_Selector_Diabologue}description": {
+  "en": "Evolve all 8 rune lines.",
+  "pt": "Evolua todas as 8 linhas de runas."
+ },
+ "achievementLang/{TP_Lisa_WineGlass}description": {
+  "en": "Evolve the Drain Life.",
+  "pt": "Evolua o Drenar Vida."
+ },
+ "achievementLang/{TP_Shaft_Light}description": {
+  "en": "Evolve the Duple Light.",
+  "pt": "Evolua a Luz Dupla."
+ },
+ "achievementLang/{TP_Elizabeth_Dark}description": {
+  "en": "Evolve the Dark Strike.",
+  "pt": "Evolua o Golpe Sombrio."
+ },
+ "achievementLang/{TP_Vincent_Spells}description": {
+  "en": "Evolve Varetyr Spear and Acid Terror across any amount of runs.",
+  "pt": "Evolua Lança de Varetyr e Terror Ácido em qualquer número de partidas."
+ },
+ "achievementLang/{TP_Mina_Shield}description": {
+  "en": "Evolve the Smite.",
+  "pt": "Evolua a Punição Divina."
+ },
+ "achievementLang/{TP_Albus_Confodere}description": {
+  "en": "Fully evolve the Pierce.",
+  "pt": "Evolua totalmente o Perfurar."
+ },
+ "achievementLang/{TP_Barlowe_Spite}description": {
+  "en": "Evolve the Tracking.",
+  "pt": "Evolua o Tiro Preciso."
+ },
+ "achievementLang/{TP_Isaac_Mace}description": {
+  "en": "Evolve the Cart Tornado.",
+  "pt": "Evolua o Carrinho Giratório."
+ },
+ "achievementLang/{TP_SaintGermain_Chauve}description": {
+  "en": "Evolve the Mayhemic Thorns.",
+  "pt": "Evolua os Espinhos Caóticos."
+ },
+ "achievementLang/{TP_Julia_Energy}description": {
+  "en": "Evolve the Napalm Beat.",
+  "pt": "Evolua o Ataque Espiritual Napalm."
+ },
+ "achievementLang/{TP_Sara_AlchemyWhip}description": {
+  "en": "Evolve the Overbrand.",
+  "pt": "Evolua o Overbrand."
+ },
+ "achievementLang/{TP_Rinaldo_Flail}description": {
+  "en": "Evolve the Petitio.",
+  "pt": "Evolua o Petitio."
+ },
+ "achievementLang/{TP_Quincy_PlatinumWhip}description": {
+  "en": "Evolve the Bowling Bash.",
+  "pt": "Evolua o Impacto de Tyr."
+ },
+ "achievementLang/{TP_Maxim_HolyWhip}description": {
+  "en": "Evolve the Over Slash.",
+  "pt": "Evolua o Golpe Supremo."
+ },
+ "achievementLang/{TP_Nathan_SonicWhip}description": {
+  "en": "Evolve the Metallic Sound.",
+  "pt": "Evolua o Som Metálico."
+ },
+ "achievementLang/{TP_Henry_Slash}description": {
+  "en": "Evolve the Eternal Slash.",
+  "pt": "Evolua o Corte Eterno."
+ },
+ "achievementLang/{TP_Cornell_Gun}description": {
+  "en": "Evolve the Quick Draw Shot.",
+  "pt": "Evolua o Saque Rápido."
+ },
+ "achievementLang/{TP_Carrie_Custos}description": {
+  "en": "Fully evolve the guardian Breath skills.",
+  "pt": "Evolua totalmente as técnicas de Sopro guardiãs."
+ },
+ "achievementLang/{TP_Weapon_WHIP_1}description": {
+  "en": "Survive 6 minutes with the Royal Guard.",
+  "pt": "Sobreviva por 6 minutos com o Guardião Real."
+ },
+ "achievementLang/{TP_Weapon_WHIP_2}description": {
+  "en": "Survive 8 minutes with the Wanderer.",
+  "pt": "Sobreviva por 8 minutos com a Musa."
+ },
+ "achievementLang/{TP_Weapon_WHIP_3}description": {
+  "en": "Survive 10 minutes with the Dragon Rune Knight.",
+  "pt": "Sobreviva por 10 minutos com o Cavaleiro Rúnico do dragão."
+ },
+ "achievementLang/{TP_Weapon_WHIP_4}description": {
+  "en": "Survive 12 minutes with the Dragon Knight.",
+  "pt": "Sobreviva por 12 minutos com o Cavaleiro Dragão."
+ },
+ "achievementLang/{TP_Weapon_WHIP_5}description": {
+  "en": "Survive 14 minutes with the Knight.",
+  "pt": "Sobreviva por 14 minutos com o Cavaleiro."
+ },
+ "achievementLang/{TP_Weapon_WHIP_6}description": {
+  "en": "Survive 16 minutes with the Imperial Guard.",
+  "pt": "Sobreviva por 16 minutos com o Guarda Imperial."
+ },
+ "achievementLang/{TP_Weapon_WHIP_7}description": {
+  "en": "Survive 18 minutes with the Lord Knight.",
+  "pt": "Sobreviva por 18 minutos com o Lorde."
+ },
+ "achievementLang/{TP_Weapon_WHIP_8}description": {
+  "en": "Survive 20 minutes with the Sura.",
+  "pt": "Sobreviva por 20 minutos com o Shura."
+ },
+ "achievementLang/{TP_Weapon_PROJECTILE_1}description": {
+  "en": "Get the Throw Venom Knife to Level 1.",
+  "pt": "Eleve o Arremessar Faca Envenenada para o nível 1."
+ },
+ "achievementLang/{TP_Weapon_PROJECTILE_2}description": {
+  "en": "Get the Throw Shuriken to Level 2.",
+  "pt": "Eleve o Arremessar Shuriken para o nível 2."
+ },
+ "achievementLang/{TP_Weapon_PROJECTILE_3}description": {
+  "en": "Get the Cannon Spear to Level 3.",
+  "pt": "Eleve a Lança Canhão para o nível 3."
+ },
+ "achievementLang/{TP_Weapon_PROJECTILE_4}description": {
+  "en": "Get the Axe Stomp to Level 4.",
+  "pt": "Eleve o Pisão do Machado para o nível 4."
+ },
+ "achievementLang/{TP_Weapon_PROJECTILE_5}description": {
+  "en": "Get the Huuma Shuriken - Grasp to Level 5.",
+  "pt": "Eleve o Fuuma Shuriken - Agarrar para o nível 5."
+ },
+ "achievementLang/{TP_Weapon_PROJECTILE_6}description": {
+  "en": "Get the Quick Draw Shot to Level 6.",
+  "pt": "Eleve o Saque Rápido para o nível 6."
+ },
+ "achievementLang/{TP_Weapon_PROJECTILE_7}description": {
+  "en": "Get the Soul Explosion to Level 7.",
+  "pt": "Eleve a Explosão de Alma para o nível 7."
+ },
+ "achievementLang/{TP_Weapon_PROJECTILE_8}description": {
+  "en": "Get the Drain Life to Level 8.",
+  "pt": "Eleve o Drenar Vida para o nível 8."
+ },
+ "achievementLang/{TP_Weapon_SPELL_1}description": {
+  "en": "Evolve the Sightrasher.",
+  "pt": "Evolua a Supernova."
+ },
+ "achievementLang/{TP_Weapon_SPELL_2}description": {
+  "en": "Evolve the Ice Wall.",
+  "pt": "Evolua a Barreira de Gelo."
+ },
+ "achievementLang/{TP_Weapon_SPELL_3}description": {
+  "en": "Evolve the Violent Gale.",
+  "pt": "Evolua o Furacão."
+ },
+ "achievementLang/{TP_Weapon_SPELL_4}description": {
+  "en": "Evolve the Earth Spike.",
+  "pt": "Evolua os Espinhos de Terra."
+ },
+ "achievementLang/{TP_Weapon_SPELL_5}description": {
+  "en": "Evolve the Varetyr Spear.",
+  "pt": "Evolua a Lança de Varetyr."
+ },
+ "achievementLang/{TP_Weapon_SPELL_6}description": {
+  "en": "Evolve the Acid Terror.",
+  "pt": "Evolua o Terror Ácido."
+ },
+ "achievementLang/{TP_Weapon_SPELL_7}description": {
+  "en": "Evolve the Ruwach.",
+  "pt": "Evolua o Ruwach."
+ },
+ "achievementLang/{TP_Weapon_SPELL_8}description": {
+  "en": "Evolve the Curse Attack.",
+  "pt": "Evolua o Ataque Amaldiçoado."
+ },
+ "achievementLang/{TP_Weapon_WEAPON_1}description": {
+  "en": "Inflict a total of 10000 damage with the Charge Attack.",
+  "pt": "Cause um total de 10.000 de dano com a Investida."
+ },
+ "achievementLang/{TP_Weapon_WEAPON_2}description": {
+  "en": "Inflict a total of 20000 damage with the Eternal Slash.",
+  "pt": "Cause um total de 20.000 de dano com o Corte Eterno."
+ },
+ "achievementLang/{TP_Weapon_WEAPON_3}description": {
+  "en": "Inflict a total of 30000 damage with the Spear Stab.",
+  "pt": "Cause um total de 30.000 de dano com a Estocada."
+ },
+ "achievementLang/{TP_Weapon_WEAPON_4}description": {
+  "en": "Inflict a total of 40000 damage with the Mayhemic Thorns.",
+  "pt": "Cause um total de 40.000 de dano com os Espinhos Caóticos."
+ },
+ "achievementLang/{TP_Weapon_WEAPON_5}description": {
+  "en": "Inflict a total of 50000 damage with the Cart Tornado.",
+  "pt": "Cause um total de 50.000 de dano com o Carrinho Giratório."
+ },
+ "achievementLang/{TP_Weapon_WEAPON_6}description": {
+  "en": "Inflict a total of 60000 damage with the Petitio.",
+  "pt": "Cause um total de 60.000 de dano com o Petitio."
+ },
+ "achievementLang/{TP_Weapon_WEAPON_7}description": {
+  "en": "Inflict a total of 70000 damage with the Smite.",
+  "pt": "Cause um total de 70.000 de dano com a Punição Divina."
+ },
+ "achievementLang/{TP_Weapon_WEAPON_8}description": {
+  "en": "Inflict a total of 80000 damage with the Talisman of Protection.",
+  "pt": "Cause um total de 80.000 de dano com o Talismã de Proteção."
+ },
+ "achievementLang/{TP_Weapon_GLYPH_1}description": {
+  "en": "Defeat 1000 enemies with the Rune Knight.",
+  "pt": "Derrote 1.000 inimigos com a Cavaleira Rúnica."
+ },
+ "achievementLang/{TP_Weapon_GLYPH_2}description": {
+  "en": "Defeat 2000 enemies with the Gunslinger.",
+  "pt": "Derrote 2.000 inimigos com o Justiceiro."
+ },
+ "achievementLang/{TP_Weapon_GLYPH_3}description": {
+  "en": "Defeat 3000 enemies with the Arch Bishop.",
+  "pt": "Derrote 3.000 inimigos com a Arcebispa."
+ },
+ "achievementLang/{TP_Weapon_GLYPH_4}description": {
+  "en": "Defeat 4000 enemies with the Necromancer.",
+  "pt": "Derrote 4.000 inimigos com o Necromante."
+ },
+ "achievementLang/{TP_Weapon_GLYPH_5}description": {
+  "en": "Defeat 5000 enemies with the Professor.",
+  "pt": "Derrote 5.000 inimigos com o Professor."
+ },
+ "achievementLang/{TP_Weapon_GLYPH_6}description": {
+  "en": "Defeat 6000 enemies with the Taekwon.",
+  "pt": "Derrote 6.000 inimigos com o Taekwon."
+ },
+ "achievementLang/{TP_Weapon_GLYPH_9}description": {
+  "en": "Defeat 7000 enemies with the Werewolf.",
+  "pt": "Derrote 7.000 inimigos com o Lobisomem."
+ },
+ "achievementLang/{TP_Weapon_GLYPH_12}description": {
+  "en": "Defeat 8000 enemies with the Soul Linker.",
+  "pt": "Derrote 8.000 inimigos com o Espiritualista."
+ },
+ "achievementLang/{TP_Weapon_GLYPH_7}description": {
+  "en": "Get Fire Breath to Level 6.",
+  "pt": "Eleve o Sopro de Fogo para o nível 6."
+ },
+ "achievementLang/{TP_Weapon_GLYPH_8}description": {
+  "en": "Get Ice Breath to Level 6.",
+  "pt": "Eleve o Sopro de Gelo para o nível 6."
+ },
+ "achievementLang/{TP_Weapon_GLYPH_10}description": {
+  "en": "Get Estin to Level 6.",
+  "pt": "Eleve o Estin para o nível 6."
+ },
+ "achievementLang/{TP_Weapon_GLYPH_11}description": {
+  "en": "Get Estun to Level 6.",
+  "pt": "Eleve o Estun para o nível 6."
+ },
+ "achievementLang/{TP_Relic_BlackDisk}description": {
+  "en": "With the Lord Knight, survive the showdown in the Throne Room.",
+  "pt": "Com o Lorde, sobreviva ao confronto na Sala do Trono."
+ },
+ "achievementLang/{TP_Relic_LibrarianCard}description": {
+  "en": "Find the Old Card Album.",
+  "pt": "Encontre o Álbum de Cartas Antigo."
+ },
+ "achievementLang/{TP_Relic_PileOfSecrets}description": {
+  "en": "Find the Book of Destiny.",
+  "pt": "Encontre o Livro do Destino."
+ },
+ "achievementLang/{TP_Relic_CastleMap}description": {
+  "en": "Find the Treasure Map.",
+  "pt": "Encontre o Mapa do Tesouro."
+ },
+ "achievementLang/{TP_Selector_Candybox}description": {
+  "en": "Unlock and use Morning Star, Forbidden Spellbook, Bible, Book of the Devil, and Mysteltainn.",
+  "pt": "Desbloqueie e use Estrela da Manhã, Grimório Proibido, Bíblia, Livro do Demônio e Mysteltainn."
+ },
+ "achievementLang/{TP_Hyper_Castle}description": {
+  "en": "Defeat the Owl Baron in Glast Heim Castle Dracula.",
+  "pt": "Derrote o Barão Coruja no Castelo Drácula de Glast Heim."
+ },
+ "achievementLang/{TP_Selector_FamiliarForge}description": {
+  "en": "Find a Pet Incubator.",
+  "pt": "Encontre uma Chocadeira."
+ },
+ "achievementLang/{TP_Relic_EbonyCrimsonStone}description": {
+  "en": "Find the Cursed Ruby.",
+  "pt": "Encontre o Rubi Amaldiçoado."
+ },
+ "achievementLang/{EME_FindEmeraldDisk}description": {
+  "en": "Find and buy the Green Bijou.",
+  "pt": "Encontre e compre o Bijou Verde."
+ },
+ "achievementLang/{EME_FindCoffin1}description": {
+  "en": "Find and open the first coffin in in the Rune-Midgard Diorama.",
+  "pt": "Encontre e abra o primeiro caixão no Diorama de Rune-Midgard."
+ },
+ "achievementLang/{EME_FindCoffin2}description": {
+  "en": "Find and open the second coffin in in the Rune-Midgard Diorama.",
+  "pt": "Encontre e abra o segundo caixão no Diorama de Rune-Midgard."
+ },
+ "achievementLang/{EME_GetRapierToLV6}description": {
+  "en": "Get the Pierce to level 6.",
+  "pt": "Eleve o Perfurar para o nível 6."
+ },
+ "achievementLang/{EME_AllAttacksRapier}description": {
+  "en": "Fully evolve the Pierce.",
+  "pt": "Evolua totalmente o Perfurar."
+ },
+ "achievementLang/{EME_GetDualSwordsToLV6}description": {
+  "en": "Get the Dancing Knife to level 6.",
+  "pt": "Eleve a Faca Dançante para o nível 6."
+ },
+ "achievementLang/{EME_AllAttacksDualSwords}description": {
+  "en": "Fully evolve the Dancing Knife.",
+  "pt": "Evolua totalmente a Faca Dançante."
+ },
+ "achievementLang/{EME_GetPunchToLV6}description": {
+  "en": "Get the Raging Trifecta Blow to level 6.",
+  "pt": "Eleve o Golpe Triplo para o nível 6."
+ },
+ "achievementLang/{EME_AllAttacksPunch}description": {
+  "en": "Fully evolve the Raging Trifecta Blow.",
+  "pt": "Evolua totalmente o Golpe Triplo."
+ },
+ "achievementLang/{EME_GetKickToLV6}description": {
+  "en": "Get the Tornado Kick to level 6.",
+  "pt": "Eleve o Chute Tornado para o nível 6."
+ },
+ "achievementLang/{EME_AllAttacksKick}description": {
+  "en": "Fully evolve the Tornado Kick.",
+  "pt": "Evolua totalmente o Chute Tornado."
+ },
+ "achievementLang/{EME_GetCannonToLV6}description": {
+  "en": "Get the Round Trip to level 6.",
+  "pt": "Eleve o Ida e Volta para o nível 6."
+ },
+ "achievementLang/{EME_AllAttacksCannon}description": {
+  "en": "Fully evolve the Round Trip.",
+  "pt": "Evolua totalmente o Ida e Volta."
+ },
+ "achievementLang/{EME_GetPistolToLV6}description": {
+  "en": "Get the Piercing Shot to level 6.",
+  "pt": "Eleve o Tiro Perfurante para o nível 6."
+ },
+ "achievementLang/{EME_AllAttacksPistol}description": {
+  "en": "Fully evolve the Piercing Shot.",
+  "pt": "Evolua totalmente o Tiro Perfurante."
+ },
+ "achievementLang/{EME_GetMechToLV6}description": {
+  "en": "Get the Silver Sniper to level 6.",
+  "pt": "Eleve o Atirador Prateado para o nível 6."
+ },
+ "achievementLang/{EME_AllAttacksMech}description": {
+  "en": "Fully evolve the Silver Sniper.",
+  "pt": "Evolua totalmente o Atirador Prateado."
+ },
+ "achievementLang/{EME_GetKatanaToLV6}description": {
+  "en": "Get the Shadow Slash to level 6.",
+  "pt": "Eleve o Corte Sombrio para o nível 6."
+ },
+ "achievementLang/{EME_AllAttacksKatana}description": {
+  "en": "Fully evolve the Shadow Slash.",
+  "pt": "Evolua totalmente o Corte Sombrio."
+ },
+ "achievementLang/{EME_GetLongSwordToLV6}description": {
+  "en": "Get the Sonic Wave to level 6.",
+  "pt": "Eleve a Onda Sônica para o nível 6."
+ },
+ "achievementLang/{EME_AllAttacksLongSword}description": {
+  "en": "Fully evolve the Sonic Wave.",
+  "pt": "Evolua totalmente a Onda Sônica."
+ },
+ "achievementLang/{EME_GetBloodToLV6}description": {
+  "en": "Get the Blood Sucker to level 6.",
+  "pt": "Eleve o Sanguessuga para o nível 6."
+ },
+ "achievementLang/{EME_AllAttacksBlood}description": {
+  "en": "Fully evolve the Blood Sucker.",
+  "pt": "Evolua totalmente o Sanguessuga."
+ },
+ "achievementLang/{EME_GetSpiritRingToLV6}description": {
+  "en": "Get the Summon Elementals to level 6.",
+  "pt": "Eleve o Invocar Espíritos para o nível 6."
+ },
+ "achievementLang/{EME_EvolveMagic}description": {
+  "en": "Evolve the Summon Elementals.",
+  "pt": "Evolua o Invocar Espíritos."
+ },
+ "achievementLang/{EME_AllAttacksSpear}description": {
+  "en": "Find and fully evolve the Brandish Spear.",
+  "pt": "Encontre e evolua totalmente o Brandir Lança."
+ },
+ "achievementLang/{EME_AllAttacksGreatSword}description": {
+  "en": "Find and fully evolve the Exceed Break.",
+  "pt": "Encontre e evolua totalmente a Ruptura Excedente."
+ },
+ "achievementLang/{EME_AllAttacksAxe}description": {
+  "en": "Find and fully evolve the Power Swing.",
+  "pt": "Encontre e evolua totalmente o Golpe Poderoso."
+ },
+ "achievementLang/{EME_AllAttacksKnife}description": {
+  "en": "Find and fully evolve the Throw Venom Knife.",
+  "pt": "Encontre e evolua totalmente o Arremessar Faca Envenenada."
+ },
+ "achievementLang/{EME_DefeatBoss25m}description": {
+  "en": "Defeat the Pharaoh in the Rune-Midgard Diorama.",
+  "pt": "Derrote o Faraó no Diorama de Rune-Midgard."
+ },
+ "achievementLang/{EME_DefeatBoss1Inverse}description": {
+  "en": "Defeat the Hydrolancer in the Mirror Rune-Midgard Diorama, Payon Town.",
+  "pt": "Derrote o Hydrolancer no Diorama de Rune-Midgard espelhado, Cidade de Payon."
+ },
+ "achievementLang/{EME_DefeatBoss2Inverse}description": {
+  "en": "With the Lord Knight, defeat the Ferus in the Mirror Rune-Midgard Diorama, Payon Woods.",
+  "pt": "Com o Lorde, derrote o Ferus no Diorama de Rune-Midgard espelhado, Bosques de Payon."
+ },
+ "achievementLang/{EME_DefeatBoss3Inverse}description": {
+  "en": "With the Sura or the Gatling Rebellion, defeat the Dark Lord in the Mirror Rune-Midgard Diorama, Comodo Cave.",
+  "pt": "Com a Shura ou a Insurgente, derrote o Lorde das Trevas no Diorama de Rune-Midgard espelhado, Caverna de Comodo."
+ },
+ "achievementLang/{EME_DefeatBoss4Inverse}description": {
+  "en": "With the Arch Mage, defeat the Chimera in the Mirror Rune-Midgard Diorama, Lasagna.",
+  "pt": "Com a Arquimaga Suprema, derrote a Quimera no Diorama de Rune-Midgard espelhado, Lasagna."
+ },
+ "achievementLang/{EME_DefeatBoss5Inverse}description": {
+  "en": "With the Rune Knight, defeat the Lord of the Dead in the Mirror Rune-Midgard Diorama, Payon Cave.",
+  "pt": "Com a Cavaleira Rúnica, derrote o Senhor dos Mortos no Diorama de Rune-Midgard espelhado, Caverna de Payon."
+ },
+ "achievementLang/{EME_DefeatBoss6Inverse}description": {
+  "en": "With the Madogear Meister, defeat the Thanatos Phantom in the Mirror Rune-Midgard Diorama.",
+  "pt": "Com a Mestra (Madogear), derrote o Fantasma de Thanatos no Diorama de Rune-Midgard espelhado."
+ },
+ "achievementLang/{EME_MechSkinT}description": {
+  "en": "With the Madogear Meister \"Virginia\", spark at least 11 skills.",
+  "pt": "Com a Mestra (Madogear) \"Virginia\", tenha lampejos de ao menos 11 técnicas."
+ },
+ "achievementLang/{EME_MechSkinM}description": {
+  "en": "With the Madogear Meister \"Retro Pod\", spark at least 7 skills.",
+  "pt": "Com a Mestra (Madogear) \"Retro Pod\", tenha lampejos de ao menos 7 técnicas."
+ },
+ "achievementLang/{EME_MechDefeatAllBosses}description": {
+  "en": "With the Madogear Meister, defeat all bosses in the Rune-Midgard Diorama in a single run.",
+  "pt": "Com a Mestra (Madogear), derrote todos os chefes no Diorama de Rune-Midgard numa única partida."
+ },
+ "achievementLang/{EME_MechDefeatAllBossesInverse}description": {
+  "en": "With the Madogear Meister, defeat all bosses in the Mirror Rune-Midgard Diorama in a single run.",
+  "pt": "Com a Mestra (Madogear), derrote todos os chefes no Diorama de Rune-Midgard espelhado numa única partida."
+ },
+ "achievementLang/{EME_EvolveSecretWeapon}description": {
+  "en": "Find and evolve the Nyang Grass.",
+  "pt": "Encontre e evolua a Grama Nyang."
+ },
+ "achievementLang/{EME_AllAttacksRapier}forcedUnlockTips": {
+  "en": "Dancing Knife starting weapon and solo skins for the Lord Knight.",
+  "pt": "Arma inicial Faca Dançante e visuais solo para o Lorde."
+ },
+ "achievementLang/{EME_AllAttacksPunch}forcedUnlockTips": {
+  "en": "Tornado Kick starting weapon and solo skins for the Sura.",
+  "pt": "Arma inicial Chute Tornado e visuais solo para a Shura."
+ },
+ "achievementLang/{EME_AllAttacksCannon}forcedUnlockTips": {
+  "en": "Piercing Shot starting weapon and solo skins for the Gatling Rebellion.",
+  "pt": "Arma inicial Tiro Perfurante e visuais solo para a Insurgente."
+ },
+ "achievementLang/{EME_AllAttacksMech}forcedUnlockTips": {
+  "en": "Shadow Slash and \"Virginia\" body type for the Madogear Meister.",
+  "pt": "Corte Sombrio e o corpo \"Virginia\" para a Mestra (Madogear)."
+ },
+ "achievementLang/{EME_EvolveMagic}forcedUnlockTips": {
+  "en": "Hindsight starting weapon for the Arch Mage.",
+  "pt": "Arma inicial Retrospectiva para a Arquimaga Suprema."
+ },
+ "achievementLang/{EME_AllAttacksLongSword}forcedUnlockTips": {
+  "en": "Blood Sucker starting weapon for the Rune Knight.",
+  "pt": "Arma inicial Sanguessuga para a Cavaleira Rúnica."
+ },
+ "achievementLang/{EME_MechSkinM}forcedUnlockTips": {
+  "en": "\"Mover\" body type for the Madogear Meister.",
+  "pt": "Corpo \"Mover\" para a Mestra (Madogear)."
+ },
+ "achievementLang/{EME_MechSkinT}forcedUnlockTips": {
+  "en": "\"Battle Tank\" body type for the Madogear Meister.",
+  "pt": "Corpo \"Battle Tank\" para a Mestra (Madogear)."
+ },
+ "achievementLang/{EME_MechDefeatAllBosses}forcedUnlockTips": {
+  "en": "\"Shanks\" body type for the Madogear Meister.",
+  "pt": "Corpo \"Shanks\" para a Mestra (Madogear)."
+ },
+ "achievementLang/{EME_MechDefeatAllBossesInverse}forcedUnlockTips": {
+  "en": "\"Paradox\" body type for the Madogear Meister.",
+  "pt": "Corpo \"Paradox\" para a Mestra (Madogear)."
+ },
+ "achievementLang/{LEM_FindJokerDisc}description": {
+  "en": "Find and buy the Joker Jester.",
+  "pt": "Encontre e compre o Chapéu de Bobo."
+ },
+ "achievementLang/{LEM_FindCoffin1}description": {
+  "en": "Find and open the coffin in in the Comodo Casino.",
+  "pt": "Encontre e abra o caixão no Cassino de Comodo."
+ },
+ "achievementLang/{LEM_GetInfernolatroToLevel6}description": {
+  "en": "Get Arrow Vulcan to Level 6.",
+  "pt": "Eleve o Vulcão de Flechas para o nível 6."
+ },
+ "achievementLang/{LEM_EvolveInfernolatro}description": {
+  "en": "Evolve Arrow Vulcan.",
+  "pt": "Evolua o Vulcão de Flechas."
+ },
+ "achievementLang/{LEM_GetFibonacciToLevel6}description": {
+  "en": "Get Unchained Serenade To Level 6.",
+  "pt": "Eleve a Serenata Dissonante para o nível 6."
+ },
+ "achievementLang/{LEM_EvolveFibonacci}description": {
+  "en": "Evolve Unchained Serenade.",
+  "pt": "Evolua a Serenata Dissonante."
+ },
+ "achievementLang/{LEM_GetGrosMichelToLevel6}description": {
+  "en": "Get Banana To Level 6.",
+  "pt": "Eleve a Banana para o nível 6."
+ },
+ "achievementLang/{LEM_EvolveGrosMichel}description": {
+  "en": "Evolve the Banana.",
+  "pt": "Evolua a Banana."
+ },
+ "achievementLang/{LEM_GetRichRocketToLevel6}description": {
+  "en": "Get Esma To Level 6.",
+  "pt": "Eleve o Esma para o nível 6."
+ },
+ "achievementLang/{LEM_EvolveRichRocket}description": {
+  "en": "Evolve the Esma.",
+  "pt": "Evolua o Esma."
+ },
+ "achievementLang/{LEM_DefeatBoss}description": {
+  "en": "Defeat the Pink Crystal in the Comodo Casino.",
+  "pt": "Derrote o Cristal Rosa no Cassino de Comodo."
+ },
+ "achievementLang/{LEM_GetInfernolatro_Score777}description": {
+  "en": "Reach a high score of 777 with Arrow Vulcan.",
+  "pt": "Alcance uma pontuação de 777 com o Vulcão de Flechas."
+ },
+ "achievementLang/{TP_ExtraEvo_AlucardSpear}description": {
+  "en": "Evolve the Spear Stab.",
+  "pt": "Evolua a Estocada."
+ },
+ "achievementLang/{TP_ExtraEvo_IronBall}description": {
+  "en": "Evolve the Axe Stomp.",
+  "pt": "Evolua o Pisão do Machado."
+ },
+ "achievementLang/{TP_ExtraEvo_CurvedKnife}description": {
+  "en": "Evolve the Throw Venom Knife.",
+  "pt": "Evolua o Arremessar Faca Envenenada."
+ },
+ "achievementLang/{TP_ExtraEvo_Shuriken}description": {
+  "en": "Evolve the Throw Shuriken.",
+  "pt": "Evolua o Arremessar Shuriken."
+ },
+ "achievementLang/{TP_ExtraEvo_Discus}description": {
+  "en": "Evolve the Huuma Shuriken - Grasp.",
+  "pt": "Evolua o Fuuma Shuriken - Agarrar."
+ },
+ "achievementLang/{TP_ExtraEvo_MartialWhip}description": {
+  "en": "Evolve the Sky Net Blow.",
+  "pt": "Evolua o Golpe Celeste."
+ },
+ "achievementLang/{TP_ExtraEvo_SonicDash}description": {
+  "en": "Evolve the Sprint.",
+  "pt": "Evolua a Corrida."
+ },
+ "achievementLang/{TP_ExtraEvo_Dominus}description": {
+  "en": "Unite the Estin, Estun and Esma.",
+  "pt": "Faça a união de Estin, Estun e Esma."
+ },
+ "secretLang/{tp_stella}description": {
+  "en": "Shelter their twin souls with holy magic to restore their humanity.",
+  "pt": "Abrigue suas almas gêmeas com magia sagrada para restaurar sua humanidade."
+ },
+ "secretLang/{tp_loretta}description": {
+  "en": "Shelter their twin souls with holy magic to restore their humanity.",
+  "pt": "Abrigue suas almas gêmeas com magia sagrada para restaurar sua humanidade."
+ },
+ "secretLang/{tp_arsenal}description": {
+  "en": "Acquire all the... books?",
+  "pt": "Obtenha todos os... livros?"
+ },
+ "secretLang/{tp_death}description": {
+  "en": "Make it feel at home.",
+  "pt": "Faça-a se sentir em casa."
+ },
+ "secretLang/{tp_sniper}description": {
+  "en": "Snipe the sniper down with a stellar hit.",
+  "pt": "Acerte o atirador com um golpe estelar."
+ },
+ "secretLang/{tp_axearmor}description": {
+  "en": "Prove to them that there is something that spins better than axes.",
+  "pt": "Prove a eles que há coisas que giram melhor do que machados."
+ },
+ "secretLang/{tp_familiar}description": {
+  "en": "Entrust their care to the gentlest soul, twice.",
+  "pt": "Confie seus cuidados à mais gentil das almas — duas vezes."
+ },
+ "secretLang/{tp_innocent}description": {
+  "en": "Entrust their care to the gentlest soul, twice.",
+  "pt": "Confie seus cuidados à mais gentil das almas — duas vezes."
+ },
+ "secretLang/{tp_mariab}description": {
+  "en": "Reconnect the youngest hunter with her original guardian, his friends, and their doubles.",
+  "pt": "Reconecte o caçador mais novo com seu guardião original, seus amigos e suas duplas."
+ },
+ "secretLang/{LoudShout}description": {
+  "en": "Spell what the duo of Ruin shouts, backwards.",
+  "pt": "Soletre o que o duo de Ruin grita, ao contrário."
+ },
+ "secretLang/{ShoutLoud}description": {
+  "en": "Spell what the duo of Ruin shouts.",
+  "pt": "Soletre o que o duo de Ruin grita."
+ },
+ "secretLang/{tp_cavetroll}description": {
+  "en": "Just go low and defeat 3,000,000 of those jokers.",
+  "pt": "Basta se abaixar e derrotar 3.000.000 desses palhaços."
+ },
+ "secretLang/{tp_olrox}description": {
+  "en": "Let the souls of the damned get their revenge on the other Count.",
+  "pt": "Deixe as almas dos condenados conseguirem sua vingança contra o Conde."
+ },
+ "secretLang/{tp_soleil}description": {
+  "en": "Save the son with holy magic before the transformation is complete.",
+  "pt": "Salve o filho com magia sagrada antes da transformação ser concluída."
+ },
+ "secretLang/{tp_fleaman}description": {
+  "en": "Try 3000. Or 6000. Or more, hopefully their tiny ears will listen at some point.",
+  "pt": "Tente 3.000. Ou 6.000. Ou até mais. Com sorte, essas orelhinhas vão escutar em algum momento."
+ },
+ "secretLang/{tp_frozenshade}description": {
+  "en": "Turn her from a blue shadow into a real crystal.",
+  "pt": "Transforme essa sombra azulada em um cristal de verdade."
+ },
+ "secretLang/{tp_joachim}description": {
+  "en": "Rewrite the fate of the damsel in distress.",
+  "pt": "Reescreva o destino da donzela em perigo."
+ },
+ "secretLang/{tp_succubus}description": {
+  "en": "Give the deciever a taste of her own medicine.",
+  "pt": "Faça a farsante provar do seu próprio remédio."
+ },
+ "secretLang/{tp_keremet}description": {
+  "en": "It takes exactly two to empty the cauldron",
+  "pt": "São necessários exatamente dois para esvaziar o caldeirão."
+ },
+ "secretLang/{tp_graham}description": {
+  "en": "Bring bad luck to the count's belligerent bosses.",
+  "pt": "Atraia azar para os chefes hostis do Conde."
+ },
+ "secretLang/{tp_draculamega}description": {
+  "en": "Hold the stones that birthed your lineage and prove you hold dominance over all your monstrous minions. ",
+  "pt": "Encontre o maior tesouro dos vampiros e prove seu poder no reino deles."
+ },
+ "secretLang/{tp_ferryman}description": {
+  "en": "You don't need his services if you can walk on water.",
+  "pt": "Você não precisa dos serviços dele se puder caminhar na água."
+ },
+ "secretLang/{tp_dmitri}description": {
+  "en": "Undo the fused demon with she whom seeks perfect balance.",
+  "pt": "Desfaça a fusão demoníaca com aquela que busca o equilíbrio perfeito."
+ },
+ "secretLang/{tp_dario}description": {
+  "en": "Burn bright until the end while rejecting all but the inferno.",
+  "pt": "Queime forte até o fim, recusando tudo, menos o inferno."
+ },
+ "secretLang/{tp_brauner}description": {
+  "en": "Drain the crimson \"paint\" from his most lively works.",
+  "pt": "Derrame a \"tinta\" carmesim das obras mais vivas que ele já fez."
+ },
+ "secretLang/{EME_CATS}description": {
+  "en": "Gather the largest cadre of cats, including those that want to fight. ",
+  "pt": "Reúna a maior gataria possível, incluindo os bichanos mais ariscos."
+ },
+ "secretLang/{EME_DEMON}description": {
+  "en": "Let the last ruler re-freeze his most monstrous form. ",
+  "pt": "Permita que o último governante paralise outra vez sua forma mais monstruosa."
+ },
+ "secretLang/{enviousblade}description": {
+  "en": "Cut butter with six swords forged to slay vampires.",
+  "pt": "Fatie a manteiga com seis espadas forjadas para matar vampiros."
+ },
+ "secretLang/{skelenun}description": {
+  "en": "Slay 10,000 Red foes that deny Death.",
+  "pt": "Mate 10.000 inimigos vermelhos que negam a Morte."
+ },
+ "secretLang/{aljibarian}description": {
+  "en": "Build one tower inside another.",
+  "pt": "Construa uma torre dentro de outra."
+ },
+ "secretLang/{hophophophophophophophophophophophophop}description": {
+  "en": "Eat the souls of 10,000 Forest frogs.",
+  "pt": "Devore a alma de 10 mil sapos da Floresta."
+ },
+ "secretLang/{rulersword}description": {
+  "en": "Spell the ruler's word.",
+  "pt": "Lance o feitiço \"Rulers Word\"."
+ },
+ "secretLang/{inadvertentresurrector}description": {
+  "en": "Witness the 7th rebirth of Dracula's niece on holy ground.",
+  "pt": "Presencie o 7º renascimento da sobrinha do Drácula em solo sagrado."
+ },
+ "secretLang/{dampmage}description": {
+  "en": "Combine holy liquids in a sunken city.",
+  "pt": "Misture líquidos sacros em uma cidade afundada."
+ },
+ "secretLang/{ismycontrollerbroken}description": {
+  "en": "Slay an inverted skeletal sphere with the Vessel of Dominus.",
+  "pt": "Mate uma esfera esquelética invertida com o Receptáculo de Dominus."
+ },
+ "secretLang/{platonicpartners}description": {
+  "en": "Defeat Death's demonic knight duo with Dracula's smallest henchman.",
+  "pt": "Derrote a dupla de cavaleiros demoníacos da Morte com o menor capanga do Drácula."
+ },
+ "secretLang/{tp_galamoth}description": {
+  "en": "A secret so big it won't pass through Glast Heim's doors.",
+  "pt": "Um segredo tão grande que não passa pelas portas de Glast Heim."
+ },
+ "secretLang/{tp_chaos}description": {
+  "en": "Exhaust the rest of this miserable Book of Destiny.",
+  "pt": "Esgote o resto deste miserável Livro do Destino."
+ },
+ "secretLang/{tp_clocktower}description": {
+  "en": "Be the Thanatos Tower.",
+  "pt": "Seja a Torre de Thanatos."
+ },
+ "secretLang/{tp_malphas}description": {
+  "en": "Clip the Owl Baron's black wings with the Ninja whose tale is yet untold.",
+  "pt": "Corte as asas negras do Barão Coruja com o Ninja cuja história ainda não foi contada."
+ },
+ "secretLang/{tp_librarian}description": {
+  "en": "Pay a Zeny for every book the Library Master keeps.",
+  "pt": "Pague um Zeny por livro que o Mestre da Biblioteca guarda."
+ },
+ "secretLang/{tp_hammer}description": {
+  "en": "Survive while bearing a fully armed Bible.",
+  "pt": "Sobreviva portando uma Bíblia totalmente armada."
+ },
+ "secretLang/{tp_elizabethmega}description": {
+  "en": "Ravage everything and everyone in Glast Heim while in her demonic form.",
+  "pt": "Devaste tudo e todos em Glast Heim em sua forma demoníaca."
+ },
+ "secretLang/{tp_bluecornell}description": {
+  "en": "Slay Glast Heim's denizens under the Blue Crescent Moon to make him a beast. ",
+  "pt": "Mate os habitantes de Glast Heim sob a Lua Crescente Azul para torná-lo uma fera. "
+ },
+ "secretLang/{tp_walter}description": {
+  "en": "Let the Creator personally avenge his family.",
+  "pt": "Deixe o Criador vingar pessoalmente sua família."
+ },
+ "secretLang/{tp_carmilla}description": {
+  "en": "May the power of the first Royal Guard break her mask.",
+  "pt": "Que o poder do primeiro Guardião Real quebre a máscara dela."
+ },
+ "secretLang/{tp_wind}description": {
+  "en": "Witness the Conflagration three times.",
+  "pt": "Testemunhe a Conflagração três vezes."
+ },
+ "secretLang/{tp_olroxmega}description": {
+  "en": "Find the greatest treasure of the vampires and prove that the other Count can wreak havoc in Glast Heim. ",
+  "pt": "Encontre o maior tesouro dos vampiros e prove que o outro Conde pode causar o caos em Glast Heim. "
+ },
+ "secretLang/{tp_blackmore}description": {
+  "en": "Let no Shadow fall on the Soul Linker who founded the Order.",
+  "pt": "Não deixe nenhuma Sombra cair sobre o Espiritualista fundador da Ordem."
+ },
+ "secretLang/{tp_celia}description": {
+  "en": "Perfectly balance the darkest and brightest of runes.",
+  "pt": "Equilibre perfeitamente a mais sombria e a mais brilhante das runas."
+ },
+ "secretLang/{tp_deathmega}description": {
+  "en": "Unleash maximised Death on Glast Heim while holding the soul-stealing stones.",
+  "pt": "Liberte a Morte maximizada sobre Glast Heim segurando as pedras ladras de almas."
+ },
+ "secretLang/{EME_IMAKOO}description": {
+  "en": "End anguish with an otherworldly melody as the greatest Madogear songstress. ",
+  "pt": "Acabe com a angústia com uma melodia de outro mundo como a maior cantora Madogear. "
+ },
+ "secretLang/{EME_KINA}description": {
+  "en": "Defy the call to adventure in the Rune-Midgard Diorama. ",
+  "pt": "Recuse o chamado à aventura no Diorama de Rune-Midgard. "
+ },
+ "secretLang/{bloodisthicker}description": {
+  "en": "Combine Heaven and Cross with the grave inheritor of the Grand Judgement.",
+  "pt": "Combine Céu e Cruz com o herdeiro sepulcral do Julgamento Supremo."
+ },
+ "secretLang/{vaccuumproserpina}description": {
+  "en": "Send the Dragon Knight on a windy quest beneath a gorgeous moon.",
+  "pt": "Mande o Cavaleiro Dragão numa missão ventosa sob uma lua deslumbrante."
+ },
+ "secretLang/{nomancandefy}description": {
+  "en": "Practice non-violence amongst the flowers with the charmed young Gryphon Royal Guard.",
+  "pt": "Pratique a não violência entre as flores com o jovem Guardião Real do grifo, encantado."
+ },
+ "secretLang/{odakira}description": {
+  "en": "Let the High Acolyte rebuke the lying Reaper to reveal her allies' truth.",
+  "pt": "Deixe a Noviça Transcendental repreender o Ceifador mentiroso para revelar a verdade dos aliados."
+ },
+ "secretLang/{gemstonelegacy}description": {
+  "en": "Slay an elder crone with a riotous young witch where a Bubble Gum sleeps.",
+  "pt": "Mate uma velha bruxa com uma jovem feiticeira arruaceira onde um Chiclete dorme."
+ },
+ "secretLang/{abouttimeyoushowedup}description": {
+  "en": "Defeat the Chronomancer with the Soul Reaper after the clock strikes 30.",
+  "pt": "Derrote o Cronomante com o Ceifador de Almas depois que o relógio bater 30."
+ },
+ "secretLang/{theysmelldifferent}description": {
+  "en": "Find the final form of the Library Master's offerings.",
+  "pt": "Encontre a forma final das ofertas do Mestre da Biblioteca."
+ },
+ "eventLang/{SABOTAGE_PICKLE_RUSH}displayName": {
+  "en": "Watermelon Rush",
+  "pt": "Correria de Melancias"
+ },
+ "eventLang/{SABOTAGE_PICKLE_RUSH}newsfeed": {
+  "en": "Sensors detect a faint smell of overripe melon from the ruins. Please press the button to end the smell.",
+  "pt": "Sensores detectam um leve cheiro de melão passado vindo das ruínas. Aperte o botão para acabar com o cheiro."
+ },
+ "eventLang/{SABOTAGION}displayName": {
+  "en": "Sabotagion",
+  "pt": "Sabotageon"
+ },
+ "eventLang/{SABOTAGION}newsfeed": {
+  "en": "Seismic activity detected. Kindly press the button to shift Rune-Midgard's tectonic plates.",
+  "pt": "Atividade sísmica detectada. Por gentileza, aperte o botão para mover as placas tectônicas de Rune-Midgard."
+ },
+ "eventLang/{SABOTAGION}newsfeedDouble": {
+  "en": "Eruptions are in progress and swarms of tourists are rushing in to witness the spectacle. Kindly press both buttons to prevent tourism. ",
+  "pt": "Há erupções ocorrendo, e multidões de turistas estão correndo para testemunhar o espetáculo. Pressione os dois botões para evitar o turismo."
+ },
+ "eventLang/{SABOTAGE_GENERIC_RUSH}newsfeed": {
+  "en": "Massive saboteur population increase detected. Please push buttons to prevent overcrowding. ",
+  "pt": "Grande aumento da população de sabotadores detectado. Pressione botões para evitar a superlotação."
+ },
+ "eventLang/{FB_EVENT}": {
+  "en": "A huge mutant cyborg presence has been detected in the north east of Lighthalzen. Attack it aggressively! ",
+  "pt": "Uma enorme presença ciborgue mutante foi detectada no nordeste de Lighthalzen. Ataque agressivamente! "
+ },
+ "eventLang/{SUMMON_NIGHT}displayName": {
+  "en": "Crimson Fire Formation",
+  "pt": "Formação Pétala Escarlate"
+ },
+ "adventureLang/{ADV_LMS_001}header": {
+  "en": "Legacy of Amatsu",
+  "pt": "Legado de Amatsu"
+ },
+ "adventureLang/{ADV_EMER_001}header": {
+  "en": "Emergency at Verus",
+  "pt": "Emergência em Verus"
+ },
+ "adventureLang/{ADV_FBLOOD_001}header": {
+  "en": "Operation Rekenber",
+  "pt": "Operação Rekenber"
+ },
+ "adventureLang/{ADV_FB_001}header": {
+  "en": "Operation Rekenber",
+  "pt": "Operação Rekenber"
+ },
+ "adventureLang/{ADV_TIDES_001}header": {
+  "en": "Tides of the Abyss",
+  "pt": "Marés do Abismo"
+ },
+ "adventureLang/{ADV_EME_001}header": {
+  "en": "Rune-Midgard Diorama",
+  "pt": "Diorama de Rune-Midgard"
+ },
+ "adventureLang/{ADV_OTC_001}header": {
+  "en": "Ode to Glast Heim",
+  "pt": "Ode a Glast Heim"
+ },
+ "adventureLang/adv_merc_FB_SIMONDO": {
+  "en": "I'm out of the scrapyard, now I just wanna sing.",
+  "pt": "Saí do ferro-velho, agora só quero cantar."
+ },
+ "adventureLang/adv_merc_TP_LIBRARIAN": {
+  "en": "What can I do for you?",
+  "pt": "Como posso ajudar?"
+ },
+ "adventureLang/adv_merc_TP_SONIA": {
+  "en": "I'm the first, I'm a legend.",
+  "pt": "Sou a primeira, sou uma lenda."
+ },
+ "adventureLang/adv_merc_TP_HAMMER": {
+  "en": "Wanna buy somethin'?",
+  "pt": "Quer comprar algo?"
+ },
+ "adventureLang/adv_merc_TP_JULIA": {
+  "en": "All that you may need you shall find here.",
+  "pt": "Tudo que precisares, encontrarás aqui."
+ },
+ "adventureLang/adv_merc_TP_VINCENT": {
+  "en": "It's a matter of economics.",
+  "pt": "É pura matemática."
+ },
+ "adventureLang/adv_merc_TP_ALBUS": {
+  "en": "Smile for me. That will be enough... maybe.",
+  "pt": "Sorria para mim. Talvez isso baste... Talvez."
+ },
+ "adventureLang/adv_merc_TP_HECTOR": {
+  "en": "Only my finest forgings.",
+  "pt": "Só o melhor da minha forja."
+ },
+ "adventureLang/adv_merc_TP_ELIZABETH": {
+  "en": "DEATH sends their regards!",
+  "pt": "A MORTE mandou lembranças!"
+ },
+ "adventureLang/adv_merc_JIMBO": {
+  "en": "Too bad these chips are all virtual...",
+  "pt": "Pena que as fichas são todas virtuais..."
+ },
+ "adventureLang/adv_merc_MRS": {
+  "en": "Listen up and I'll teach ya how to spark! ",
+  "pt": "Escuta aqui que eu te ensino a ter lampejos! "
+ },
+ "adventureLang/adv_merc_CTRPCAKE": {
+  "en": "all stuff is tradmrk kitty stuff",
+  "pt": "tudo é coisa registrada do gatinho"
+ },
+ "progressLang/{MS001_ACH001}description": {
+  "en": "Survive 1 Minute in Castle Grounds.",
+  "pt": "Sobreviva por 1 minuto nos Arredores do Castelo."
+ },
+ "progressLang/{MS001_ACH002}description": {
+  "en": "Open the Oboro's coffin in Shrine Valley.",
+  "pt": "Abra o caixão da Oboro no Vale do Altar."
+ },
+ "progressLang/{MS001_ACH003}description": {
+  "en": "Open the Kagerou's coffin in Forbidden Peaks.",
+  "pt": "Abra o caixão do Kagerou nos Picos Proibidos."
+ },
+ "progressLang/{MS001_ACH004}description": {
+  "en": "Defeat the Samurai Specter in the Hidden Cave.",
+  "pt": "Derrote o Samurai Espectral na Gruta Oculta."
+ },
+ "progressLang/{MS001_ACH005}description": {
+  "en": "Defeat a total of 3000 Gazeti in Frozen Lake.",
+  "pt": "Derrote 3.000 Gazetis no Lago Congelado."
+ },
+ "progressLang/{MS001_ACH006}description": {
+  "en": "Survive 10 Minutes in Tanuki Forest.",
+  "pt": "Sobreviva por 10 minutos na Floresta Tanuki."
+ },
+ "progressLang/{MS001_ACH007}description": {
+  "en": "Defeat the Naga.",
+  "pt": "Derrote a Naga."
+ },
+ "progressLang/{MS001_ACH008}description": {
+  "en": "Find the Summon Water Ball.",
+  "pt": "Encontre o Invocar Bola d'Água."
+ },
+ "progressLang/{MS001_ACH009}description": {
+  "en": "Evolve the First Wind.",
+  "pt": "Evolua o Primeiro Vento."
+ },
+ "progressLang/{MS001_ACH010}description": {
+  "en": "Evolve the Spirit Charms.",
+  "pt": "Evolua os Amuletos Espirituais."
+ },
+ "progressLang/{MS001_ACH011}description": {
+  "en": "Evolve the Crimson Fire Formation.",
+  "pt": "Evolua a Formação Pétala Escarlate."
+ },
+ "progressLang/{MS001_ACH012}description": {
+  "en": "Evolve the Freezing Trap.",
+  "pt": "Evolua a Armadilha Congelante."
+ },
+ "progressLang/{MS001_ACH013}description": {
+  "en": "Survive 30 minutes with the Oboro.",
+  "pt": "Sobreviva por 30 minutos com a Oboro."
+ },
+ "progressLang/{MS001_ACH014}description": {
+  "en": "Reach Level 80.",
+  "pt": "Alcance o nível 80."
+ },
+ "progressLang/{CHAL_ACH001}description": {
+  "en": "Evolve the Cart Tornado!",
+  "pt": "Evolua o Tornado de Carrinho!"
+ },
+ "progressLang/{CHAL_ACH002}description": {
+  "en": "Find the Mechanic in Suspect Security. ",
+  "pt": "Encontre o Mecânico em Segurança Suspeita. "
+ },
+ "progressLang/{CHAL_ACH003}description": {
+  "en": "Defeat 3000 Ducklings in Ejected. ",
+  "pt": "Derrote 3.000 Ducklings em Ejetados. "
+ },
+ "progressLang/{CHAL_ACH004}description": {
+  "en": "Find the Ghostring in Don't Get Ghosted. ",
+  "pt": "Encontre o Ghostring em Fantasmaria. "
+ },
+ "progressLang/{CHAL_ACH005}description": {
+  "en": "Find the Biolo in Space Rocks. ",
+  "pt": "Encontre a Bióloga em Rochas Espaciais. "
+ },
+ "progressLang/{CHAL_ACH006}description": {
+  "en": "Defeat the Giant Octopus in Emergency Meating.",
+  "pt": "Derrote o Polvo Gigante em Problemas com Proveta."
+ },
+ "progressLang/{CHAL_ACH007}description": {
+  "en": "Evolve the Cross Impact, or acquire its evolution. ",
+  "pt": "Evolua o Impacto Cruzado ou obtenha sua evolução. "
+ },
+ "progressLang/{CHAL_ACH008}description": {
+  "en": "Evolve Earth Drive, or acquire its evolution. ",
+  "pt": "Evolua o Impulso Terrestre ou obtenha sua evolução. "
+ },
+ "progressLang/{CHAL_ACH009}description": {
+  "en": "Survive for 20 minutes in Meeting Called.",
+  "pt": "Sobreviva por 20 minutos em Reunião Convocada."
+ },
+ "progressLang/{CHAL_ACH010}description": {
+  "en": "Reach level 80 in Emergency Meating.",
+  "pt": "Alcance o nível 80 em Reunião de Putrefência."
+ },
+ "progressLang/{CHAL_ACH011}description": {
+  "en": "Evolve the Boost Knuckle.",
+  "pt": "Evolua o Punho Foguete."
+ },
+ "progressLang/{CHAL_ACH012}description": {
+  "en": "Evolve the Spore Explosion.",
+  "pt": "Evolua a Explosão de Esporos."
+ },
+ "progressLang/{CHAL_ACH013}description": {
+  "en": "Evolve the Feint Bomb.",
+  "pt": "Evolua a Bomba Fantasma."
+ },
+ "progressLang/{CHAL_ACH014}description": {
+  "en": "Evolve the Coluceo Heal.",
+  "pt": "Evolua a Cura Coluceo."
+ },
+ "progressLang/{CHAL_ACH015}description": {
+  "en": "Evolve the Double Strafe.",
+  "pt": "Evolua a Rajada de Flechas."
+ },
+ "progressLang/{CHAL_ACH016}description": {
+  "en": "Find the Triple Action.",
+  "pt": "Encontre a Ação Tripla."
+ },
+ "progressLang/{CHAL_ACH017}description": {
+  "en": "Rescue the Alchemist Guildmaster.",
+  "pt": "Resgate o Mestre Alquimista."
+ },
+ "progressLang/{CHAL_ACH018}description": {
+  "en": "Reach Level 80.",
+  "pt": "Alcance o nível 80."
+ },
+ "progressLang/{CHAL_ACH019}description": {
+  "en": "Defeat a total of 6000 suspicious looking enemies.",
+  "pt": "Derrote 6.000 inimigos que parecem suspeitos."
+ },
+ "progressLang/{CHAL_ACH020}description": {
+  "en": "Defeat 100 Doppelgangers.",
+  "pt": "Derrote 100 Doppelgangers."
+ },
+ "progressLang/{FB_ACH001}description": {
+  "en": "Find and destroy the Abysmal Knight in Attack Aggressively. ",
+  "pt": "Encontre e destrua o Cavaleiro Abissal em Ataque Agressivo. "
+ },
+ "progressLang/{FB_ACH002}description": {
+  "en": "Survive for 15 minutes in Bullet Biters.",
+  "pt": "Sobreviva por 15 minutos em Busca-Balas."
+ },
+ "progressLang/{FB_ACH003}description": {
+  "en": "Defeat the Dolomedes after 10 minutes in Lighthalzen Chaos.",
+  "pt": "Derrote o Dolomedes após 10 minutos em Caos em Lighthalzen."
+ },
+ "progressLang/{FB_ACH004}description": {
+  "en": "Defeat EL1-A17T after 10 minutes in Operation: Gun City.",
+  "pt": "Derrote o EL1-A17T após 10 minutos em Operação: Cidade Armas."
+ },
+ "progressLang/{FB_ACH005}description": {
+  "en": "Find a new ally in Run & Gun.",
+  "pt": "Encontre um novo aliado em Matança."
+ },
+ "progressLang/{FB_ACH006}description": {
+  "en": "Defeat the Turtle General after 25 minutes in Alien Revengeance.",
+  "pt": "Derrote o General Tartaruga após 25 minutos em Vingança Alienígena."
+ },
+ "progressLang/{FB_ACH007}description": {
+  "en": "Find an Enriched Oridecon.",
+  "pt": "Encontre um Oridecon Enriquecido."
+ },
+ "progressLang/{FB_ACH009}description": {
+  "en": "Find the Peco Rebellion in Attack Aggressively.",
+  "pt": "Encontre a Insurgente montada em Ataque Agressivo."
+ },
+ "progressLang/{FB_ACH010}description": {
+  "en": "Survive for 20 minutes in Attack Aggressively. ",
+  "pt": "Sobreviva por 20 minutos em Ataque Agressivo."
+ },
+ "progressLang/{FB_ACH014}description": {
+  "en": "Defeat The One.",
+  "pt": "Derrote The One."
+ },
+ "progressLang/{FB_ACH015}description": {
+  "en": "Defeat the Scorpion in the northeast of Lighthalzen. ",
+  "pt": "Derrote o Escorpião no nordeste de Lighthalzen. "
+ },
+ "progressLang/{FB_ACH016}description": {
+  "en": "Rescue the Assassin Cross in Bullet Biters. ",
+  "pt": "Resgate a Algoz em Busca-Balas. "
+ },
+ "progressLang/{FB_ACH017}description": {
+  "en": "Rescue the Merchant in Lighthalzen Chaos. ",
+  "pt": "Resgate a Mercadora em Caos em Lighthalzen. "
+ },
+ "progressLang/{FB_ACH018}description": {
+  "en": "Rescue the Monk in Operation: Gun City.",
+  "pt": "Resgate o Monge em Operação: Cidade Armas."
+ },
+ "progressLang/{FB_ACH019}description": {
+  "en": "Rescue the Crusader in Alien Revengeance. ",
+  "pt": "Resgate o Templário em Vingança Alienígena. "
+ },
+ "progressLang/{FB_ACH020}description": {
+  "en": "Defeat the Suspicious Intruder. ",
+  "pt": "Derrote o Intruso Suspeito. "
+ },
+ "progressLang/{FB_ACH008}description": {
+  "en": "Evolve the Gatling Fever.",
+  "pt": "Evolua a Febre de Gatling."
+ },
+ "progressLang/{FB_ACH011}description": {
+  "en": "Evolve the Tracking.",
+  "pt": "Evolua o Rastreamento."
+ },
+ "progressLang/{FB_ACH012}description": {
+  "en": "Evolve the Hawk Boomerang.",
+  "pt": "Evolua o Bumerangue do Falcão."
+ },
+ "progressLang/{FB_ACH013}description": {
+  "en": "Evolve the Metallic Sound.",
+  "pt": "Evolua o Som Metálico."
+ },
+ "progressLang/{FB_ACH021}description": {
+  "en": "Evolve the Chain Action.",
+  "pt": "Evolua a Ação em Cadeia."
+ },
+ "progressLang/{FB_ACH022}description": {
+  "en": "Evolve the Spread Attack.",
+  "pt": "Evolua o Ataque Disperso."
+ },
+ "progressLang/{FB_ACH023}description": {
+  "en": "Evolve the Triple Laser.",
+  "pt": "Evolua o Laser Triplo."
+ },
+ "progressLang/{FB_ACH024}description": {
+  "en": "Evolve the Flame Launcher.",
+  "pt": "Evolua o Lança-Chamas."
+ },
+ "progressLang/{FB_ACH025}description": {
+  "en": "Evolve the Howling Mine.",
+  "pt": "Evolua a Mina Uivante."
+ },
+ "progressLang/{FB_ACH026}description": {
+  "en": "Evolve the Rolling Cutter.",
+  "pt": "Evolua a Lâmina Giratória."
+ },
+ "progressLang/{FB_ACH027}description": {
+  "en": "Find the Apocalypse in Run & Gun.",
+  "pt": "Encontre o Apocalipse em Matança."
+ },
+ "progressLang/{FB_ACH028}description": {
+  "en": "Reach level 80 in Alien Revengeance. ",
+  "pt": "Alcance o nível 80 em Vingança Alienígena."
+ },
+ "progressLang/{FS001_ACH001}description": {
+  "en": "With the Ghoul, help the Professor evolve the Fiber Lock in \"The World Eater\" .",
+  "pt": "Com o Carniçal, ajude a Professora a evoluir a Teia de Aranha em \"Devorador de Mundos\"."
+ },
+ "progressLang/{FS001_ACH002}description": {
+  "en": "With the Fairy, evolve the Tetra Vortex in \"The Guardian of the Lake\" before the time limit.",
+  "pt": "Com a Fada, evolua o Tetra Vortex em \"A Guardiã do Lago\" antes do tempo limite."
+ },
+ "progressLang/{FS001_ACH003}description": {
+  "en": "With the Ranger, reach Level 30 in \"The Sly Swashbuckler\".",
+  "pt": "Com a Sentinela, alcance o nível 30 em \"Guerreira Astuta\"."
+ },
+ "progressLang/{FS001_ACH004}description": {
+  "en": "With the Knight, reach Level 30 in \"The Undefeated Champion\".",
+  "pt": "Com o Cavaleiro, alcance o nível 30 em \"Campeão Invicto\"."
+ },
+ "progressLang/{FS001_ACH005}description": {
+  "en": "With the Sorcerer, reach Level 30 in \"The Star Pupil\".",
+  "pt": "Com a Feiticeira, alcance o nível 30 em \"Pupila Prodígio\"."
+ },
+ "progressLang/{FS001_ACH006}description": {
+  "en": "With a party of Sorcerer, Knight, and Ranger, survive 30 minutes in \"Tides of the Abyss\".",
+  "pt": "Com um grupo de Feiticeira, Cavaleiro e Sentinela, sobreviva por 30 minutos em \"Marés do Abismo\"."
+ },
+ "progressLang/{FS001_ACH007}description": {
+  "en": "Unite Spell Fist, Psychic Wave, and Varetyr Spear.",
+  "pt": "Faça a união de Punho Arcano, Onda Psíquica e Lança de Varetyr."
+ },
+ "progressLang/{FS001_ACH008}description": {
+  "en": "Evolve the Bowling Bash.",
+  "pt": "Evolua o Impacto de Tyr."
+ },
+ "progressLang/{FS001_ACH009}description": {
+  "en": "Evolve the Aimed Bolt.",
+  "pt": "Evolua o Disparo Certeiro."
+ },
+ "progressLang/{FS001_ACH010}description": {
+  "en": "Survive the judgement of the Dryad.",
+  "pt": "Sobreviva ao julgamento da Dríade."
+ },
+ "progressLang/{FS001_ACH011}description": {
+  "en": "With the true horror, devour everything in \"The True Horror\".",
+  "pt": "Com o pavor verdadeiro, devore tudo em \"O Pavor Verdadeiro\"."
+ },
+ "progressLang/{FS001_ACH012}description": {
+  "en": "Survive 30 minutes with the Professor.",
+  "pt": "Sobreviva por 30 minutos com a Professora."
+ },
+ "progressLang/{FS001_ACH013}description": {
+  "en": "Reach Level 80.",
+  "pt": "Alcance o nível 80."
+ },
+ "progressLang/{FS001_ACH014}description": {
+  "en": "Find the forbidden coffin in \"Tides of the Abyss\".",
+  "pt": "Encontre o caixão proibido em \"Marés do Abismo\"."
+ },
+ "progressLang/{OTC_001_ACH001}description": {
+  "en": "Reach Level 5.",
+  "pt": "Alcance o nível 5."
+ },
+ "progressLang/{OTC_001_ACH002}description": {
+  "en": "Reach Level 10.",
+  "pt": "Alcance o nível 10."
+ },
+ "progressLang/{OTC_001_ACH003}description": {
+  "en": "Reach Level 15.",
+  "pt": "Alcance o nível 15."
+ },
+ "progressLang/{OTC_001_ACH004}description": {
+  "en": "Reach Level 20 in the Devious Woods.",
+  "pt": "Alcance o nível 20 no Bosque Perverso."
+ },
+ "progressLang/{OTC_001_ACH005}description": {
+  "en": "Reach Level 40 in the Entrance Corridor.",
+  "pt": "Alcance o nível 40 no Corredor de Entrada."
+ },
+ "progressLang/{OTC_001_ACH006}description": {
+  "en": "Reach Level 60 in the Long Library.",
+  "pt": "Alcance o nível 60 na Biblioteca Longa."
+ },
+ "progressLang/{OTC_001_ACH011}description": {
+  "en": "Defeat 500 enemies in Devious Woods.",
+  "pt": "Derrote 500 inimigos no Bosque Perverso."
+ },
+ "progressLang/{OTC_001_ACH012}description": {
+  "en": "Survive for 1 minute in Devious Woods.",
+  "pt": "Sobreviva por 1 minuto no Bosque Perverso."
+ },
+ "progressLang/{OTC_001_ACH081}description": {
+  "en": "Reach Level 100.",
+  "pt": "Alcance o nível 100."
+ },
+ "progressLang/{OTC_001_ACH007}description": {
+  "en": "Reach Level 80 in Thanatos Tower.",
+  "pt": "Alcance o nível 80 na Torre de Thanatos."
+ },
+ "progressLang/{OTC_001_ACH008}description": {
+  "en": "Evolve the Overbrand.",
+  "pt": "Evolua o Overbrand."
+ },
+ "progressLang/{OTC_001_ACH009}description": {
+  "en": "Defeat the Kraken in the Sunken City.",
+  "pt": "Derrote o Kraken na Cidade Afundada."
+ },
+ "progressLang/{OTC_001_ACH010}description": {
+  "en": "Evolve the Frost Diver with the Soul Linker in the Sunken City.",
+  "pt": "Evolua a Rajada Congelante com a Espiritualista na Cidade Afundada."
+ },
+ "progressLang/{OTC_001_ACH013}description": {
+  "en": "Survive for 2 minutes with the Dragon Rune Knight.",
+  "pt": "Sobreviva por 2 minutos com o Cavaleiro Rúnico do dragão."
+ },
+ "progressLang/{OTC_001_ACH014}description": {
+  "en": "Survive for 5 minutes with the Wizard.",
+  "pt": "Sobreviva por 5 minutos com a Bruxa."
+ },
+ "progressLang/{OTC_001_ACH015}description": {
+  "en": "Survive for 5 minutes with the Guillotine Cross.",
+  "pt": "Sobreviva por 5 minutos com o Sicário."
+ },
+ "progressLang/{OTC_001_ACH016}description": {
+  "en": "Survive for 5 minutes with the Seyren Windsor.",
+  "pt": "Sobreviva por 5 minutos com o Seyren Windsor."
+ },
+ "progressLang/{OTC_001_ACH017}description": {
+  "en": "Survive for 10 minutes with the Soul Linker.",
+  "pt": "Sobreviva por 10 minutos com a Espiritualista."
+ },
+ "progressLang/{OTC_001_ACH018}description": {
+  "en": "Survive for 10 minutes with the Royal Guard.",
+  "pt": "Sobreviva por 10 minutos com o Guardião Real."
+ },
+ "progressLang/{OTC_001_ACH019}description": {
+  "en": "Survive for 15 minutes with the Meister.",
+  "pt": "Sobreviva por 15 minutos com o Mestre."
+ },
+ "progressLang/{OTC_001_ACH020}description": {
+  "en": "Survive for 15 minutes with the Warlock.",
+  "pt": "Sobreviva por 15 minutos com a Arcana."
+ },
+ "progressLang/{OTC_001_ACH021}description": {
+  "en": "Survive for 20 minutes with the Dragon Knight.",
+  "pt": "Sobreviva por 20 minutos com o Cavaleiro Dragão."
+ },
+ "progressLang/{OTC_001_ACH022}description": {
+  "en": "Survive for 20 minutes with the Knight.",
+  "pt": "Sobreviva por 20 minutos com o Cavaleiro."
+ },
+ "progressLang/{OTC_001_ACH023}description": {
+  "en": "Survive for 25 minutes with the Imperial Guard.",
+  "pt": "Sobreviva por 25 minutos com o Guarda Imperial."
+ },
+ "progressLang/{OTC_001_ACH024}description": {
+  "en": "Survive for 25 minutes with the Wanderer.",
+  "pt": "Sobreviva por 25 minutos com a Musa."
+ },
+ "progressLang/{OTC_001_ACH025}description": {
+  "en": "Defeat the Wicked Chimera at 25 minutes in Devious Woods.",
+  "pt": "Derrote a Quimera Perversa aos 25 minutos no Bosque Perverso."
+ },
+ "progressLang/{OTC_001_ACH026}description": {
+  "en": "Defeat Bathory at 25 minutes in the Entrance Corridor.",
+  "pt": "Derrote Bathory aos 25 minutos no Corredor do Castelo."
+ },
+ "progressLang/{OTC_001_ACH027}description": {
+  "en": "Defeat Stefan J.E. Wolf at 25 minutes in the Long Library.",
+  "pt": "Derrote Stefan J.E. Wolf aos 25 minutos na Biblioteca Longa."
+ },
+ "progressLang/{OTC_001_ACH028}description": {
+  "en": "Defeat the Owl Baron at 25 minutes in Thanatos Tower.",
+  "pt": "Derrote o Barão Coruja aos 25 minutos na Torre de Thanatos."
+ },
+ "progressLang/{OTC_001_ACH029}description": {
+  "en": "Defeat the Succubus at 25 minutes in the Throne Rooms.",
+  "pt": "Derrote a Súcubo aos 25 minutos nas Salas do Trono."
+ },
+ "progressLang/{OTC_001_ACH030}description": {
+  "en": "Defeat the Bongun at 15 minutes in Glast Heim Abbey.",
+  "pt": "Derrote o Bongun aos 15 minutos na Abadia de Glast Heim."
+ },
+ "progressLang/{OTC_001_ACH031}description": {
+  "en": "Wield the Grand Judgement with the Lord Knight at 25 minutes in the Throne Rooms to defeat the final foe.",
+  "pt": "Use o Julgamento Supremo com o Lorde aos 25 minutos nas Salas do Trono para derrotar o inimigo final."
+ },
+ "progressLang/{OTC_001_ACH032}description": {
+  "en": "Find a Bubble Gum in the Entrance Corridor.",
+  "pt": "Encontre um Chiclete no Corredor do Castelo."
+ },
+ "progressLang/{OTC_001_ACH033}description": {
+  "en": "Find a Book of Magic in the Long Library.",
+  "pt": "Encontre um Livro de Magia na Biblioteca Longa."
+ },
+ "progressLang/{OTC_001_ACH034}description": {
+  "en": "Find the Frost Diver in Thanatos Tower.",
+  "pt": "Encontre a Rajada Congelante na Torre de Thanatos."
+ },
+ "progressLang/{OTC_001_ACH035}description": {
+  "en": "Find a Yggdrasil Leaf in the Throne Room.",
+  "pt": "Encontre uma Folha de Yggdrasil na Sala do Trono."
+ },
+ "progressLang/{OTC_001_ACH036}description": {
+  "en": "Find an Old Card Album.",
+  "pt": "Encontre um Álbum de Cartas Antigo."
+ },
+ "progressLang/{OTC_001_ACH037}description": {
+  "en": "Evolve the Axe Stomp.",
+  "pt": "Evolua o Pisão do Machado."
+ },
+ "progressLang/{OTC_001_ACH038}description": {
+  "en": "Evolve the Cannon Spear.",
+  "pt": "Evolua a Lança Canhão."
+ },
+ "progressLang/{OTC_001_ACH039}description": {
+  "en": "Evolve the Soul Explosion.",
+  "pt": "Evolua a Explosão de Alma."
+ },
+ "progressLang/{OTC_001_ACH040}description": {
+  "en": "Evolve the Sky Net Blow.",
+  "pt": "Evolua o Golpe Celeste."
+ },
+ "progressLang/{OTC_001_ACH056}description": {
+  "en": "Evolve the Dragon Breath - Water.",
+  "pt": "Evolua o Sopro do Dragão - Água."
+ },
+ "progressLang/{OTC_001_ACH057}description": {
+  "en": "Evolve the Ice Wall.",
+  "pt": "Evolua a Barreira de Gelo."
+ },
+ "progressLang/{OTC_001_ACH058}description": {
+  "en": "Evolve the Throw Venom Knife.",
+  "pt": "Evolua o Arremessar Faca Envenenada."
+ },
+ "progressLang/{OTC_001_ACH059}description": {
+  "en": "Evolve the Charge Attack.",
+  "pt": "Evolua a Investida."
+ },
+ "progressLang/{OTC_001_ACH060}description": {
+  "en": "Evolve the Spear Stab.",
+  "pt": "Evolua a Estocada."
+ },
+ "progressLang/{OTC_001_ACH061}description": {
+  "en": "Evolve the Sightrasher.",
+  "pt": "Evolua a Supernova."
+ },
+ "progressLang/{OTC_001_ACH062}description": {
+  "en": "Evolve the Varetyr Spear.",
+  "pt": "Evolua a Lança de Varetyr."
+ },
+ "progressLang/{OTC_001_ACH063}description": {
+  "en": "Evolve the Metallic Sound.",
+  "pt": "Evolua o Som Metálico."
+ },
+ "progressLang/{OTC_001_ACH064}description": {
+  "en": "Evolve the Wind Cutter.",
+  "pt": "Evolua o Cortador de Vento."
+ },
+ "progressLang/{OTC_001_ACH065}description": {
+  "en": "Evolve the Brandish Spear.",
+  "pt": "Evolua o Brandir Lança."
+ },
+ "progressLang/{OTC_001_ACH066}description": {
+  "en": "Evolve the Talisman of Protection.",
+  "pt": "Evolua o Talismã de Proteção."
+ },
+ "progressLang/{OTC_001_ACH067}description": {
+  "en": "Evolve the Bowling Bash.",
+  "pt": "Evolua o Impacto de Tyr."
+ },
+ "progressLang/{OTC_001_ACH068}description": {
+  "en": "Evolve the Over Slash.",
+  "pt": "Evolua o Golpe Supremo."
+ },
+ "progressLang/{OTC_001_ACH069}description": {
+  "en": "Evolve the Cart Tornado.",
+  "pt": "Evolua o Carrinho Giratório."
+ },
+ "progressLang/{OTC_001_ACH070}description": {
+  "en": "Evolve the Throw Shuriken.",
+  "pt": "Evolua o Arremessar Shuriken."
+ },
+ "progressLang/{OTC_001_ACH071}description": {
+  "en": "Evolve the Huuma Shuriken - Grasp.",
+  "pt": "Evolua o Fuuma Shuriken - Agarrar."
+ },
+ "progressLang/{OTC_001_ACH072}description": {
+  "en": "Evolve the Earth Spike.",
+  "pt": "Evolua os Espinhos de Terra."
+ },
+ "progressLang/{OTC_001_ACH074}description": {
+  "en": "Evolve the Drain Life.",
+  "pt": "Evolua o Drenar Vida."
+ },
+ "progressLang/{OTC_001_ACH075}description": {
+  "en": "Evolve the Basic Attack.",
+  "pt": "Evolua o Ataque Básico."
+ },
+ "progressLang/{OTC_001_ACH076}description": {
+  "en": "Evolve the Soul Strike.",
+  "pt": "Evolua o Ataque Espiritual."
+ },
+ "progressLang/{OTC_001_ACH077}description": {
+  "en": "Evolve the Thunderstorm.",
+  "pt": "Evolua a Tempestade de Raios."
+ },
+ "progressLang/{OTC_001_ACH073}description": {
+  "en": "Fully evolve the Pierce.",
+  "pt": "Evolua totalmente o Perfurar."
+ },
+ "progressLang/{OTC_001_ACH078}description": {
+  "en": "Obtain the Falcon Assault.",
+  "pt": "Obtenha o Assalto do Falcão."
+ },
+ "progressLang/{OTC_001_ACH079}description": {
+  "en": "Obtain the Storm Gust.",
+  "pt": "Obtenha a Nevasca."
+ },
+ "progressLang/{OTC_001_ACH080}description": {
+  "en": "Obtain the Assumptio.",
+  "pt": "Obtenha o Assumptio."
+ },
+ "progressLang/{OTC_001_ACH041}description": {
+  "en": "Find and open the coffin in in the Devious Woods.",
+  "pt": "Encontre e abra o caixão no Bosque Perverso."
+ },
+ "progressLang/{OTC_001_ACH042}description": {
+  "en": "Find and open the coffin in in the Entrance Corridor.",
+  "pt": "Encontre e abra o caixão no Corredor do Castelo."
+ },
+ "progressLang/{OTC_001_ACH043}description": {
+  "en": "Find and open the coffin in in the Long Library.",
+  "pt": "Encontre e abra o caixão na Biblioteca Longa."
+ },
+ "progressLang/{OTC_001_ACH044}description": {
+  "en": "Find and open the coffin in in Thanatos Tower.",
+  "pt": "Encontre e abra o caixão na Torre de Thanatos."
+ },
+ "progressLang/{OTC_001_ACH045}description": {
+  "en": "Find and open the coffin in in the Throne Room.",
+  "pt": "Encontre e abra o caixão na Sala do Trono."
+ },
+ "progressLang/{OTC_001_ACH046}description": {
+  "en": "Find and open the coffin in in the Sunken City.",
+  "pt": "Encontre e abra o caixão na Cidade Afundada."
+ },
+ "progressLang/{OTC_001_ACH047}description": {
+  "en": "Find and open the coffin in in Glast Heim Abbey.",
+  "pt": "Encontre e abra o caixão na Abadia de Glast Heim."
+ },
+ "progressLang/{OTC_001_ACH048}description": {
+  "en": "Find and open the coffin in in the True Infinite Corridor.",
+  "pt": "Encontre e abra o caixão no Corredor Infinito Verdadeiro."
+ },
+ "progressLang/{OTC_001_ACH049}description": {
+  "en": "Defeat the Ancient Tree in the Devious Woods.",
+  "pt": "Derrote a Árvore Anciã no Bosque Perverso."
+ },
+ "progressLang/{OTC_001_ACH050}description": {
+  "en": "Defeat the Drainliar in the Entrance Corridor.",
+  "pt": "Derrote o Drainliar no Corredor do Castelo."
+ },
+ "progressLang/{OTC_001_ACH051}description": {
+  "en": "Defeat the Evil Snake Lord in the Long Library.",
+  "pt": "Derrote o Senhor das Serpentes na Biblioteca Longa."
+ },
+ "progressLang/{OTC_001_ACH052}description": {
+  "en": "Defeat the Lost Dragon in Thanatos Tower.",
+  "pt": "Derrote o Dragão Perdido na Torre de Thanatos."
+ },
+ "progressLang/{OTC_001_ACH053}description": {
+  "en": "Defeat the Disguise in the Throne Rooms.",
+  "pt": "Derrote o Disguise nas Salas do Trono."
+ },
+ "progressLang/{OTC_001_ACH054}description": {
+  "en": "Defeat the Nightmare Terror in Glast Heim Abbey.",
+  "pt": "Derrote o Nightmare Terror na Abadia de Glast Heim."
+ },
+ "progressLang/{OTC_001_ACH055}description": {
+  "en": "Defeat the Bloody Murderer in the True Infinite Corridor.",
+  "pt": "Derrote o Assassino Sangrento no Corredor Infinito Verdadeiro."
+ },
+ "lang/legacy_of_the_moonspell": {
+  "en": "Legacy of Amatsu",
+  "pt": "Legado de Amatsu"
+ },
+ "lang/tides_of_the_foscari": {
+  "en": "Tides of the Abyss",
+  "pt": "Marés do Abismo"
+ },
+ "lang/operation_guns": {
+  "en": "Operation Rekenber",
+  "pt": "Operação Rekenber"
+ },
+ "lang/emergency_meeting": {
+  "en": "Emergency at Verus",
+  "pt": "Emergência em Verus"
+ },
+ "lang/those_people": {
+  "en": "Ode to Glast Heim",
+  "pt": "Ode a Glast Heim"
+ },
+ "lang/emeralds": {
+  "en": "Rune-Midgard Diorama",
+  "pt": "Diorama de Rune-Midgard"
+ },
+ "lang/lemon_title": {
+  "en": "Comodo Casino",
+  "pt": "Cassino de Comodo"
+ },
+ "lang/C1_Report2VotingPanelTitle": {
+  "en": "Who Is The Doppelganger?",
+  "pt": "Quem é o Doppelganger?"
+ },
+ "lang/TP_Dialog_010": {
+  "en": "Die monster, you don't belong in this world!",
+  "pt": "Morra, monstro, você não pertence a este mundo!"
+ },
+ "lang/TP_Dialog_030": {
+  "en": "You and your family of vandals always pop out of nowhere,",
+  "pt": "Você e sua família de vândalos sempre aparecem do nada,"
+ },
+ "lang/TP_Dialog_040": {
+  "en": "break my walls AND my candles,",
+  "pt": "quebram todas as paredes E as velas,"
+ },
+ "lang/TP_Dialog_050": {
+  "en": "kill all the demons I keep safely within these four walls...",
+  "pt": "matam os demônios que eu mantenho em segurança dentro destas quatro paredes..."
+ },
+ "lang/TP_Dialog_060": {
+  "en": "and won't even let me drink a glass of wine in peace!",
+  "pt": "E nem me deixam beber uma taça de vinho em paz!"
+ },
+ "lang/TP_Dialog_070": {
+  "en": "But this time is different! Let me show you how, in fact, I DO belong in this world!",
+  "pt": "Mas agora vai ser diferente! Vou mostrar como, na verdade, eu PERTENÇO, SIM, a este mundo!"
+ },
+ "lang/TP_Dialog_100": {
+  "en": "...May I please get a hand?",
+  "pt": "Dá para dar uma mãozinha aqui?"
+ },
+ "lang/TP_Dialog_130": {
+  "en": "What is this travesty?",
+  "pt": "Que brincadeira é essa?!"
+ },
+ "lang/TP_Dialog_140": {
+  "en": "Dracula is supposed to bring DEATH to the world,",
+  "pt": "O Drácula deveria MORTE ao mundo,"
+ },
+ "lang/TP_Dialog_150": {
+  "en": "not join a demented crusade for fun.",
+  "pt": "não se juntar a uma cruzada descerebrada só por diversão."
+ },
+ "lang/TP_Dialog_170": {
+  "en": "I'll erase this world myself!",
+  "pt": "Vou apagar este mundo com as minhas mãos!"
+ },
+ "lang/TP_Dialog_020": {
+  "en": "Knight! That's enough. How many times do we have to do this?",
+  "pt": "Cavaleiro! Chega. Quantas vezes vamos ter que fazer isso?"
+ },
+ "lang/TP_Dialog_110": {
+  "en": "Thank you, LORD KNIGHT, but the vampire is in another coffin! Haha haha ha!",
+  "pt": "Obrigado, LORDE, mas o vampiro está em outro caixão! Haha haha ha!"
+ },
+ "lang/TP_Dialog_120": {
+  "en": "I'm joining the Ragnarok survivors!",
+  "pt": "Vou me juntar aos sobreviventes de Ragnarok!"
+ },
+ "lang/TP_Dialog_160": {
+  "en": "I, LORD OF THE DEAD, will not allow for this mockery.",
+  "pt": "Eu, o SENHOR DOS MORTOS, não permitirei esta zombaria."
+ },
+ "lang/TP_Dialog_180": {
+  "en": "As you can see, this is a music box. Tune number 1 contains computer data, so please don't play it. But you probably won't listen to me anyway, will you?",
+  "pt": "Como você vê, esta é uma caixa de música. A melodia número 1 contém dados de computador, então não a toque. Mas você provavelmente não vai me ouvir mesmo, não é?"
+ },
+ "lang/dlc_desc_Moonspell": {
+  "en": "In the eastern land of Amatsu, a clan has fallen. The ninja clan, once vigilant guardians of a sorcerous valley nestled in the mountains, have been overrun by hordes of yokai and oni. Though treacherous, this hive of spectral activity may provide some clue as to the location of a vampire. If not, at least it’ll be entertaining to defeat thousands of wayward spirits in the process.",
+  "pt": "Na terra oriental de Amatsu, um clã caiu. O clã ninja, outrora guardião vigilante de um vale mágico aninhado nas montanhas, foi dominado por hordas de yokai e oni. Embora traiçoeiro, esse ninho de atividade espectral pode dar alguma pista do paradeiro de um vampiro. Se não der, pelo menos vai ser divertido derrotar milhares de espíritos errantes no caminho."
+ },
+ "lang/dlc_desc_Foscari": {
+  "en": "Nestled by the lakes of Rachel is the Sage Academy, a school where the elite of Rune-Midgard train their children for careers as powerful wizards, indefatigable generals, and expert spies. The Academy is divided into three houses, a premise hitherto untouched in all of fantasy fiction. Three students, one from each house, brave the journey into a forest stuffed with mythological creatures, all to have a jolly adventure, with absolutely nothing interrupting the whimsy.",
+  "pt": "Junto aos lagos de Rachel fica a Academia de Sábios, uma escola onde a elite de Rune-Midgard treina os filhos para carreiras de magos poderosos, generais incansáveis e espiões experientes. A Academia é dividida em três casas, uma premissa até hoje inédita em toda a ficção de fantasia. Três estudantes, um de cada casa, encaram uma jornada por uma floresta repleta de criaturas mitológicas, tudo por uma aventura divertida, sem absolutamente nada para atrapalhar a fantasia."
+ },
+ "lang/dlc_desc_Chalcedony": {
+  "en": "Gather your most trusted lab crew, prepare to eject the Doppelgangers, and try to survive while mowing down thousands of mechanical foes in this expansion for Ragnarok Survivors. Turn classic lab chores into outrageous skills, upgrading your abilities after every roguelite run to overcome impossible odds with ease. Be alert to subterfuge as you explore the vast weirdness of the Verus Laboratory and keep your wits about you, as suspicious eyes are always watching.",
+  "pt": "Reúna sua equipe de laboratório mais confiável, prepare-se para ejetar os Doppelgangers e tente sobreviver enquanto derruba milhares de inimigos mecânicos nesta expansão de Ragnarok Survivors. Transforme tarefas clássicas de laboratório em técnicas absurdas e melhore suas habilidades a cada partida roguelite para superar desafios impossíveis com facilidade. Fique atento a trapaças ao explorar a vasta esquisitice do Laboratório de Verus e mantenha a cabeça no lugar, pois olhos suspeitos estão sempre vigiando."
+ },
+ "lang/dlc_desc_FirstBlood": {
+  "en": "Assemble a squad of classic Characters and arm yourself with an explosive arsenal of firearms in this action packed expansion for Ragnarok Survivors. Blast through thousands of fearsome foes and bonkers bosses from the mutant labs of Lighthalzen. Persist determinedly through prodigious stages along the Rekenber war front, but be prepared for a bullet-hell of a fight, because if your trigger finger lacks stamina, Rune-Midgard may lack a future.",
+  "pt": "Monte um esquadrão de Personagens clássicos e arme-se com um arsenal explosivo de armas de fogo nesta expansão cheia de ação de Ragnarok Survivors. Detone milhares de inimigos temíveis e chefes malucos saídos dos laboratórios mutantes de Lighthalzen. Persista com determinação por fases prodigiosas ao longo do front de guerra de Rekenber, mas prepare-se para um inferno de balas, pois se faltar fôlego ao seu dedo no gatilho, pode faltar futuro a Rune-Midgard."
+ },
+ "lang/dlc_desc_ThosePeople": {
+  "en": "The sun has set on Glast Heim once more, and as the moon rises a hellish horde of murky Sandmen, ghastly Whispers, and frightening Ludes take the stage as the battle of good and evil rages once again. Unleash an arsenal of new demon-vanquishing skills upon these beasts and leave a trail of doom in your wake before attempting to rid the world of Dracula himself. Do not be blind to the shadow that looms over you Survivors, as your quest has only just begun! It's all very serious stuff, so now let's pump up the volume and let's go, this is Glast Heim in Ragnarok Survivors, baby!",
+  "pt": "O sol se pôs sobre Glast Heim mais uma vez e, quando a lua nasce, uma horda infernal de Homens de Areia sombrios, Whispers medonhos e Ludes assustadores entra em cena enquanto a batalha entre o bem e o mal recomeça. Solte um arsenal de novas técnicas caça-demônios sobre essas feras e deixe um rastro de destruição antes de tentar livrar o mundo do próprio Drácula. Não ignorem a sombra que paira sobre vocês, Sobreviventes, pois sua busca mal começou! É tudo muito sério, então agora aumenta o volume e vamos lá, isto é Glast Heim em Ragnarok Survivors, baby!"
+ },
+ "lang/dlc_desc_Emeralds": {
+  "en": "As the Crossroads open, the Ragnarok Survivors are thrust into a miniature system of interconnected lands, from the enchanted woods of Payon to a sinister realm of bloody nightmares. Equipped with the power of sudden sparks and befriended by those that understand this strange diorama better than anyone, onward they step in to the unknown; united in cause, wanting to survive, and bereft of fear. Well maybe a little bit of fear. ",
+  "pt": "Quando a Encruzilhada se abre, os Ragnarok Survivors são lançados num sistema em miniatura de terras interligadas, dos bosques encantados de Payon a um reino sinistro de pesadelos sangrentos. Munidos do poder de lampejos repentinos e amigos de quem entende este estranho diorama melhor que ninguém, eles avançam rumo ao desconhecido: unidos pela causa, querendo sobreviver e sem medo. Bom, talvez com um pouquinho de medo. "
+ }
+}

@@ -1,0 +1,275 @@
+# Ragnarok Survivors — VS -> RO "de-para": pickups, relics, arcanas, props, NPC-like items.
+#
+# Rules
+#  - VS gameplay numbers are untouched; only name, icon, sprite and text change.
+#    The RO identity must read as the same mechanic (heal = food/potion, freeze = clock/ice, ...).
+#  - Scope: base game + EXTRA = v1. DLC-only (Moonspell/Foscari/Chalcedony/First Blood/Those People)
+#    and internal/unnamed entries = later.
+#  - ro_ref: rAthena item Id (grepped in asset-catalog/data/ro/item_db_*.yml), NPC sprite folder
+#    (ref/ro_npc_sprites.txt), monster sprite (ref/ro_monster_sprites.txt) or effect sprite
+#    (ref/ro_effect_sprites.txt). Every Id/folder below was checked to exist.
+#  - visual: "icon" = client texture/유저인터페이스/item icon of that Id (assumed present for official items);
+#    "drop:<kr>" = exported-sprites/item/<kr> folder that exists. Id<->resname link is inferred by name
+#    (no idnum2itemresnametable available here) — confirm before cooking.
+#  - asset: ok = file/folder seen; assumed = official icon/cardbmp not listed individually;
+#    unverified = expected location not checked; missing = no RO asset found.
+#  - ro_ptbr: bRO name when known, otherwise a faithful translation (marked by confidence).
+#  - No art copied; this file only points at assets.
+
+pickups:
+  - {vs_id: GEM, vs_name: Experience Gem (blue tier), ro_en: Blue Gemstone, ro_ptbr: Gema Azul, ro_ref: 717, visual: "icon + drop:블루젬스톤", why: "Lowest-value XP gem; RO gemstone trio maps to VS colour tiers", confidence: high, asset: ok, scope: v1}
+  - {vs_id: GEM, vs_name: Experience Gem (green tier), ro_en: Yellow Gemstone, ro_ptbr: Gema Amarela, ro_ref: 715, visual: "icon + drop:옐로우젬스톤", why: "Mid tier; RO has no green gemstone, yellow is the middle one", confidence: medium, asset: ok, scope: v1}
+  - {vs_id: GEM, vs_name: Experience Gem (red tier), ro_en: Red Gemstone, ro_ptbr: Gema Vermelha, ro_ref: 716, visual: "icon + drop:레드젬스톤", why: "Top tier gem, red in both games", confidence: high, asset: ok, scope: v1}
+  - {vs_id: COIN, vs_name: Gold Coin, ro_en: Zeny, ro_ptbr: Zeny, ro_ref: 673, visual: "icon of Bronze Coin + drop:동화", why: "Single coin = 1 Zeny; bronze coin sprite as the floor coin", confidence: high, asset: ok, scope: v1}
+  - {vs_id: COINBAG1, vs_name: Coin Bag, ro_en: Minor Coin Bag, ro_ptbr: Bolsa de Moedas Pequena, ro_ref: 12615, visual: "icon + drop:동전주머니", why: "+10 gold, smallest RO coin bag", confidence: high, asset: ok, scope: v1}
+  - {vs_id: COINBAG2, vs_name: Big Coin Bag, ro_en: Intermediate Coin Bag, ro_ptbr: Bolsa de Moedas Média, ro_ref: 12614, visual: "icon + drop:은전주머니", why: "+25 gold, middle bag (silver pouch sprite)", confidence: high, asset: ok, scope: v1}
+  - {vs_id: COINBAGMAX, vs_name: Rich Coin Bag, ro_en: Improved Coin Bag, ro_ptbr: Bolsa de Moedas Grande, ro_ref: 12613, visual: "icon + drop:금전주머니", why: "+100 gold, top bag (gold pouch sprite)", confidence: high, asset: ok, scope: v1}
+  - {vs_id: ALWAYS_COINBAG2, vs_name: "[Always] Big Coin Bag", ro_en: Intermediate Coin Bag, ro_ptbr: Bolsa de Moedas Média, ro_ref: 12614, visual: "same as COINBAG2", why: "Scripted copy of COINBAG2", confidence: high, asset: ok, scope: v1}
+  - {vs_id: STATIC_GOLDPILE, vs_name: Gold Pile, ro_en: Gold, ro_ptbr: Ouro, ro_ref: 969, visual: "icon + drop:황금", why: "Large gold amount = RO Gold ingot", confidence: high, asset: ok, scope: v1}
+  - {vs_id: TREASURE, icon: vs, vs_name: Treasure Chest, ro_en: Treasure Chest, ro_ptbr: Baú do Tesouro, ro_ref: "603 (name/icon); floor chest npc 4_treasure_box", visual: "npc sprite 4_treasure_box on floor, icon 603 in UI", why: "Random-reward box dropped by strong enemies", confidence: high, asset: ok, scope: v1}
+  - {vs_id: ROSARY, vs_name: Rosary, ro_en: Rosary, ro_ptbr: Rosário, ro_ref: 2608, visual: "icon + drop:로자리", why: "Same holy object; screen-wipe reads as Magnus Exorcismus", confidence: high, asset: ok, scope: v1}
+  - {vs_id: NFT, vs_name: Nduja Fritta, ro_en: Level 5 Fire Wall, ro_ptbr: "Pergaminho de Barreira de Fogo Nv.5", ro_ref: "skill MG_FIREWALL", visual: icon, why: "Temporary fire emission = fire magic scroll", confidence: medium, asset: assumed, scope: v1}
+  - {vs_id: SORBETTO, vs_name: Sorbetto, ro_en: Level 5 Frost Diver, ro_ptbr: "Pergaminho de Rajada Congelante Nv.5", ro_ref: "skill MG_FROSTDIVER", visual: icon, why: "Cold cones twin of NFT; alt Ice Cream 536 (drop:아이스크림)", confidence: medium, asset: assumed, scope: v1}
+  - {vs_id: OROLOGION, vs_name: Orologion, ro_en: Pocket Watch, ro_ptbr: Relógio de Bolso, ro_ref: 7513, visual: "icon + drop:회중시계", why: "Clock stops time; literal match", confidence: high, asset: ok, scope: v1}
+  - {vs_id: VACUUM, vs_name: Vacuum, ro_en: Greed Scroll, ro_ptbr: Pergaminho de Ganância, ro_ref: 14529, visual: icon, why: "Casts Greed: pulls every item on the ground", confidence: high, asset: assumed, scope: v1}
+  - {vs_id: ROAST, vs_name: Floor Chicken, ro_en: Meat, ro_ptbr: Carne, ro_ref: 517, visual: "icon + drop:고기", why: "Big heal food on the floor", confidence: high, asset: ok, scope: v1}
+  - {vs_id: ALWAYS_ROAST, vs_name: "[Always] Floor Chicken", ro_en: Meat, ro_ptbr: Carne, ro_ref: 517, visual: "same as ROAST", why: "Scripted copy of ROAST", confidence: high, asset: ok, scope: v1}
+  - {vs_id: LITTLEHEART, vs_name: Little Heart, ro_en: Apple, ro_ptbr: Maçã, ro_ref: 512, visual: "icon + drop:사과", why: "Tiny heal, cheapest RO food", confidence: high, asset: ok, scope: v1}
+  - {vs_id: CLOVER, vs_name: Little Clover, ro_en: Four Leaf Clover, ro_ptbr: Trevo de Quatro Folhas, ro_ref: 706, visual: "icon + drop:네잎클로버", why: "Luck item in both games", confidence: high, asset: ok, scope: v1}
+  - {vs_id: GILDED, vs_name: Gilded Clover, ro_en: Bubble Gum, ro_ptbr: Chiclete, ro_ref: 12210, visual: "icon + drop:풍선껌", why: "RO drop-rate booster = Gold Fever", confidence: medium, asset: ok, scope: v1}
+  - {vs_id: PICKUP_REROLL_DICE, icon: vs, vs_name: Rerollo, ro_en: Dice Hat, ro_ptbr: Chapéu de Dado, ro_ref: 5496, visual: icon (no drop sprite), why: "Only RO dice; reroll = roll the dice again", confidence: low, asset: assumed, scope: v1}
+  - {vs_id: GOLDFINGER, vs_name: Gold Finger, ro_en: Berserk Potion, ro_ptbr: Poção da Fúria, ro_ref: 657, visual: "icon + drop:버서크포션", why: "Temporary power frenzy; alt Golden Thief Bug Card 4128", confidence: low, asset: ok, scope: v1}
+  - {vs_id: BONUS_FROZENSOUL, vs_name: Crystallized Soul, ro_en: Mystic Frozen, ro_ptbr: Gelo Místico, ro_ref: 995, visual: "icon + drop:미스틱프로즌", why: "Water elemental stone = crystallized/frozen soul", confidence: medium, asset: ok, scope: v1}
+  - {vs_id: BONUS_CURSEDSOUL, vs_name: Cursed Soul, ro_en: Cursed Ruby, ro_ptbr: Rubi Amaldiçoado, ro_ref: 724, visual: icon, why: "Cursed gem; drop:저주받은심장 is a closer look if its Id is found", confidence: medium, asset: assumed, scope: v1}
+  - {vs_id: BONUS_SCORCHEDSOUL, vs_name: Scorched Soul, ro_en: Flame Heart, ro_ptbr: Coração Flamejante, ro_ref: 994, visual: "icon + drop:불타는심장", why: "Fire elemental stone = scorched soul", confidence: high, asset: ok, scope: v1}
+  - {vs_id: SV_DRAFT1, vs_name: SV Booster, ro_en: Old Card Album, ro_ptbr: Álbum de Cartas Antigo, ro_ref: 616, visual: "icon + drop:낡은카드첩", why: "Card pack opens Survarot cards = RO card album", confidence: medium, asset: ok, scope: v1}
+  - {vs_id: SV_DRAFT2, vs_name: SV Grand Booster, ro_en: Weapon Card Album, ro_ptbr: Álbum de Cartas de Arma, ro_ref: 12698, visual: "icon (+ drop:낡은카드첩_파랑 recolour)", why: "Bigger album tier", confidence: low, asset: assumed, scope: v1}
+  - {vs_id: SV_DRAFT3, vs_name: SV Jumbo Booster, ro_en: Accessory Card Album, ro_ptbr: Álbum de Cartas de Acessório, ro_ref: 12695, visual: "icon (+ drop:낡은카드첩_빨강 recolour)", why: "Largest album tier", confidence: low, asset: assumed, scope: v1}
+  - {vs_id: FRIENDSHIP, vs_name: "[Everyone] Friendship Amulet", ro_en: Amulet, ro_ptbr: Amuleto, ro_ref: 609, visual: icon, why: "Amulet for amulet", confidence: high, asset: assumed, scope: v1}
+  - {vs_id: TEXT_PICKUP, vs_name: Text Pickup, ro_en: Old Scroll, ro_ptbr: Pergaminho Velho, ro_ref: 22507, visual: icon, why: "Floor note that opens a text popup", confidence: medium, asset: assumed, scope: v1}
+  - {vs_id: DUMMY_REVIVAL, vs_name: Revival, ro_en: Yggdrasil Leaf, ro_ptbr: Folha de Yggdrasil, ro_ref: 610, visual: "icon + drop:이그드라실잎", why: "RO resurrection item", confidence: high, asset: ok, scope: v1}
+  - {vs_id: DUMMY_BANISH, vs_name: Banish, ro_en: Fly Wing, ro_ptbr: Asa de Mosca, ro_ref: 601, visual: "icon + drop:파리의날개", why: "Teleports something away for good", confidence: medium, asset: ok, scope: v1}
+  - {vs_id: DUMMY_SKIP, vs_name: Skip, ro_en: Butterfly Wing, ro_ptbr: Asa de Borboleta, ro_ref: 602, visual: "icon + drop:나비의날개", why: "Return/escape = skip the choice", confidence: medium, asset: ok, scope: v1}
+  - {vs_id: DUMMY_REROLL, vs_name: Reroll, ro_en: Dice Hat, ro_ptbr: Chapéu de Dado, ro_ref: 5496, visual: icon, why: "Same as Rerollo", confidence: low, asset: assumed, scope: v1}
+  - {vs_id: DUMMY_ARC, vs_name: Pick a Card, ro_en: Mystical Card Album, ro_ptbr: Álbum de Cartas Místico, ro_ref: 12246, visual: icon, why: "Extra arcana = draw a magic card", confidence: medium, asset: assumed, scope: v1}
+  - {vs_id: DUMMY_GOLDENEGG_MAX, vs_name: MAX EGGS, ro_en: "Ymir's Heart Piece (bulk)", ro_ptbr: Fragmento do Coração de Ymir, ro_ref: 7346, visual: "icon + drop:이미르심장더미", why: "Bulk-buy of Golden Egg equivalent", confidence: low, asset: ok, scope: v1}
+  - {vs_id: PURIFY, vs_name: Flames of Moonspell, ro_en: Forbidden Red Candle, ro_ptbr: Vela Vermelha Proibida, ro_ref: 660, visual: "icon + drop:금단의붉은양초", why: "Flame that burns away egg bonuses", confidence: medium, asset: ok, scope: v1}
+  - {vs_id: PURIFY2, vs_name: Lantern of Foscari, ro_en: Lantern, ro_ptbr: Lanterna, ro_ref: 1041, visual: "icon + drop:랜턴", why: "Lantern for lantern", confidence: high, asset: ok, scope: v1}
+  - {vs_id: WEAPON, vs_name: Weapon (pickup), ro_en: "(shows the weapon's own RO icon)", ro_ptbr: "(ícone da arma)", ro_ref: "see weapons mapping", visual: weapon icon, why: "Generic carrier; follows weapon mapping", confidence: high, asset: ok, scope: v1}
+  - {vs_id: COSMO_PAVONE, vs_name: Cosmo Pavone, ro_en: Peacock Feather, ro_ptbr: Pena de Pavão, ro_ref: 5519, visual: icon, why: "Pavone = peacock", confidence: low, asset: assumed, scope: later}
+  - {vs_id: CART_ACCEL, vs_name: Acceleration (cart minigame), ro_en: Speed Potion, ro_ptbr: Poção de Velocidade, ro_ref: 12016, visual: "icon + drop:이속증가포션", why: "Speed boost pad", confidence: low, asset: ok, scope: later}
+  - {vs_id: CART_GOAL, vs_name: Goal (cart minigame), ro_en: Kafra, ro_ptbr: Kafra, ro_ref: "npc 4_f_kafra1", visual: npc sprite, why: "End of track", confidence: low, asset: ok, scope: later}
+  - {vs_id: EX_ZI_APPUNTA_PICKUP, vs_name: "(unnamed EXTRA pickup)", ro_en: TBD, ro_ptbr: TBD, ro_ref: none, visual: none, why: "Unknown behaviour; inspect in game first", confidence: low, asset: missing, scope: later}
+  # internal, no visual of their own: STATS_TREASURE_1..5/_EVOS/_WEAPONS, DUMMY_LIGHTSOURCE, TAG_FIRE/COLD/CRIT, RELIC (base).
+
+relics:
+  - {vs_id: RELIC_GRIMOIRE, vs_name: Grim Grimoire, ro_en: Book of the Devil, ro_ptbr: Livro do Diabo, ro_ref: 642, visual: icon, why: "Grimoire = forbidden spellbook listing evolutions", confidence: medium, asset: assumed, scope: v1}
+  - {vs_id: RELIC_GOUDA, vs_name: Ars Gouda, ro_en: Cheese, ro_ptbr: Queijo, ro_ref: 548, visual: "icon + drop:치즈", why: "Keeps the cheese pun (bestiary unlock)", confidence: medium, asset: ok, scope: v1}
+  - {vs_id: RELIC_MAP, vs_name: Milky Way Map, ro_en: Treasure Map1, ro_ptbr: Mapa do Tesouro, ro_ref: 7962, visual: "icon (drop:지도 likely)", why: "Map relic enables map", confidence: high, asset: assumed, scope: v1}
+  - {vs_id: RELIC_BANGER, vs_name: Magic Banger, ro_en: Violin, ro_ptbr: Violino, ro_ref: 1901, visual: "icon + drop:바이올린", why: "Bard instrument unlocks music choice", confidence: high, asset: ok, scope: v1}
+  - {vs_id: RELIC_TEAR, vs_name: "Sorceress' Tears", ro_en: Crystalized Teardrop, ro_ptbr: Lágrima Cristalizada, ro_ref: 6075, visual: icon, why: "Tears for tears", confidence: high, asset: assumed, scope: v1}
+  - {vs_id: RELIC_GLASSMASK, vs_name: Glass Vizard, ro_en: White Mask, ro_ptbr: Máscara Branca, ro_ref: 7568, visual: "icon + drop:하얀가면", why: "Pale/glass mask that calls the merchant", confidence: medium, asset: ok, scope: v1}
+  - {vs_id: RELIC_GOLDENEGG, vs_name: Golden Egg, ro_en: "Ymir's Heart Piece", ro_ptbr: Fragmento do Coração de Ymir, ro_ref: 7346, visual: "icon + drop:이미르심장더미", why: "Fragment of primordial power: tiny permanent stat; no RO golden egg", confidence: low, asset: ok, scope: v1}
+  - {vs_id: RELIC_NOSEGLASSES, vs_name: Mindbender, ro_en: Geek Glasses, ro_ptbr: Óculos Geek, ro_ref: 2243, visual: "icon + drop:독특한패션안경 (inferred)", why: "Disguise glasses change appearance", confidence: medium, asset: ok, scope: v1}
+  - {vs_id: RELIC_YELLOW, vs_name: Yellow Sign, ro_en: Convex Mirror, ro_ptbr: Espelho Convexo, ro_ref: 12214, visual: "icon + drop:볼록거울", why: "RO item that reveals hidden MVP location", confidence: high, asset: ok, scope: v1}
+  - {vs_id: RELIC_SECRETS, vs_name: Forbidden Scrolls of Morbane, ro_en: Ancient Languages Scroll, ro_ptbr: Pergaminho de Línguas Antigas, ro_ref: 12381, visual: icon, why: "Ancient script = secret codes/spells", confidence: medium, asset: assumed, scope: v1}
+  - {vs_id: RELIC_GGOSPEL, vs_name: Great Gospel, ro_en: Bible, ro_ptbr: Bíblia, ro_ref: 1551, visual: "icon + drop:성경책", why: "Gospel = Bible", confidence: high, asset: ok, scope: v1}
+  - {vs_id: RELIC_MIRROR, vs_name: "Gracia's Mirror", ro_en: Crystal Mirror, ro_ptbr: Espelho de Cristal, ro_ref: 747, visual: "icon + drop:수정거울", why: "Mirror for mirror (inverse mode)", confidence: high, asset: ok, scope: v1}
+  - {vs_id: RELIC_TRUMPET, vs_name: Seventh Trumpet, ro_en: Gjallar, ro_ptbr: Gjallarhorn, ro_ref: 7057, visual: "icon + drop:갤러르호른", why: "Ragnarok's apocalypse horn = endless-fight trumpet", confidence: high, asset: ok, scope: v1}
+  - {vs_id: RELIC_ATLAS, vs_name: Atlas Gate, ro_en: Realm Map, ro_ptbr: Mapa do Reino, ro_ref: 25098, visual: icon, why: "Opens Adventures = new realms; alt Butterfly Wing", confidence: medium, asset: unverified, scope: v1}
+  - {vs_id: RELIC_MALACHITE, vs_name: Chaos Malachite, ro_en: Emerald, ro_ptbr: Esmeralda, ro_ref: 721, visual: "icon + drop:초록색보석", why: "Green gem for green gem", confidence: high, asset: ok, scope: v1}
+  - {vs_id: RELIC_ROSALIA, vs_name: Chaos Rosalia, ro_en: Rose Quartz, ro_ptbr: Quartzo Rosa, ro_ref: 7293, visual: "icon (+ drop:분홍색보석)", why: "Rose gem", confidence: high, asset: ok, scope: v1}
+  - {vs_id: RELIC_LAZULIA, vs_name: Chaos Lazulia, ro_en: Sapphire, ro_ptbr: Safira, ro_ref: 726, visual: "icon + drop:파란색보석", why: "Lazuli blue gem", confidence: high, asset: ok, scope: v1}
+  - {vs_id: RELIC_ALTEMANNA, vs_name: Chaos Altemanna, ro_en: Topaz, ro_ptbr: Topázio, ro_ref: 728, visual: "icon + drop:노란색보석", why: "Fourth chaos gem, warm yellow for O'Sole", confidence: medium, asset: ok, scope: v1}
+  - {vs_id: RELIC_TRISECTION, vs_name: Trisection, ro_en: Dead Branch, ro_ptbr: Galho Seco, ro_ref: 604, visual: "icon + drop:고목나무가지", why: "Random events = random monster summon", confidence: medium, asset: ok, scope: v1}
+  - {vs_id: RELIC_BRAVESTORY, vs_name: Brave Story, ro_en: Token Of Hero, ro_ptbr: Símbolo do Herói, ro_ref: 6684, visual: icon, why: "Hero's tale = hero token", confidence: medium, asset: assumed, scope: v1}
+  - {vs_id: RELIC_PARTY, vs_name: Masquerade, ro_en: Masquerade, ro_ptbr: Máscara de Baile, ro_ref: 2291, visual: "icon + drop:무도회가면", why: "Exact name match; party mode", confidence: high, asset: ok, scope: v1}
+  - {vs_id: RELIC_CHARM, vs_name: Apoplexy, ro_en: Bloody Branch, ro_ptbr: Galho Sangrento, ro_ref: 12103, visual: "icon + drop:피묻은나뭇가지", why: "Charm = more enemies; branch that calls bosses", confidence: medium, asset: ok, scope: v1}
+  - {vs_id: RELIC_ANTIDOTE, vs_name: Antidote, ro_en: Green Potion, ro_ptbr: Poção Verde, ro_ref: 506, visual: "icon + drop:초록포션", why: "RO's antidote potion; Defang", confidence: high, asset: ok, scope: v1}
+  - {vs_id: RELIC_RECYCLE, vs_name: Wax Fetish, ro_en: Striped Candle, ro_ptbr: Vela Listrada, ro_ref: 7554, visual: icon, why: "Wax object; recycle melts choices back", confidence: low, asset: assumed, scope: v1}
+  - {vs_id: RELIC_SPEEDUP, vs_name: Roast chicken with a clock in the middle, ro_en: Speed Potion, ro_ptbr: Poção de Velocidade, ro_ref: 12016, visual: "icon + drop:이속증가포션", why: "Speeds gameplay up", confidence: medium, asset: ok, scope: v1}
+  - {vs_id: RELIC_GREENEYES, vs_name: Green Eyes Vizard, ro_en: Denture from Dragon Mask, ro_ptbr: Dentadura da Máscara de Dragão, ro_ref: 7266, visual: icon, why: "Dragon mask summons bat dragons", confidence: low, asset: assumed, scope: v1}
+  - {vs_id: RELIC_MAP_AS, vs_name: Astral Stair Map, ro_en: Treasure Map2, ro_ptbr: Mapa do Tesouro II, ro_ref: 7963, visual: icon, why: "Stage map", confidence: medium, asset: assumed, scope: v1}
+  - {vs_id: RELIC_RANDOMAZZO, vs_name: Randomazzo, ro_en: Mystical Card Album, ro_ptbr: Álbum de Cartas Místico, ro_ref: 12246, visual: icon, why: "Tarot deck that unlocks arcanas", confidence: medium, asset: assumed, scope: v1}
+  - {vs_id: RELIC_DARKASSO, vs_name: Darkasso, ro_en: Dark Bible, ro_ptbr: Bíblia Sombria, ro_ref: 100796, visual: icon, why: "Dark counterpart deck/book for Darkanas", confidence: low, asset: assumed, scope: v1}
+  - {vs_id: RELIC_SURVAROCCHI, vs_name: Survarocchi, ro_en: Magnifier, ro_ptbr: Lupa, ro_ref: 611, visual: "icon + drop:돋보기", why: "Finds hidden cards in light sources", confidence: medium, asset: ok, scope: v1}
+  - {vs_id: RELIC_SV_ANTIPASTIVES, vs_name: Enemahs, ro_en: Golden Seal Card, ro_ptbr: Carta Selo Dourado, ro_ref: 22654, visual: "icon (drop:황금인장카드 inferred)", why: "Unlocks a card set", confidence: low, asset: ok, scope: v1}
+  - {vs_id: RELIC_MAP_MS, vs_name: Mt.Moonspell Map, ro_en: Treasure Map3, ro_ptbr: Mapa do Tesouro III, ro_ref: 7964, visual: icon, why: "Stage map", confidence: medium, asset: assumed, scope: later}
+  - {vs_id: RELIC_MAP_FS, vs_name: Lake Foscari Map, ro_en: Treasure Map4, ro_ptbr: Mapa do Tesouro IV, ro_ref: 7965, visual: icon, why: "Stage map", confidence: medium, asset: assumed, scope: later}
+  - {vs_id: RELIC_MAP_CHAL, vs_name: Polus Replica Map, ro_en: Realm Map (magic), ro_ptbr: Mapa do Reino, ro_ref: 25101, visual: icon, why: "Stage map", confidence: low, asset: unverified, scope: later}
+  - {vs_id: RELIC_MAP_FB, vs_name: Galuga Jungle Map, ro_en: Realm Map (sword), ro_ptbr: Mapa do Reino, ro_ref: 25100, visual: icon, why: "Stage map", confidence: low, asset: unverified, scope: later}
+  - {vs_id: TP_RELIC_MASK_SUN, vs_name: Aspect of Sun, ro_en: Opera Phantom Mask, ro_ptbr: Máscara do Fantasma da Ópera, ro_ref: 5043, visual: "icon + drop:오페라가면", why: "Directer mask fragment -> RO mask", confidence: low, asset: ok, scope: later}
+  - {vs_id: TP_RELIC_MASK_MOON, vs_name: Aspect of Moon, ro_en: Surprised Mask, ro_ptbr: Máscara Surpresa, ro_ref: 5088, visual: icon, why: "Mask fragment", confidence: low, asset: assumed, scope: later}
+  - {vs_id: TP_RELIC_MASK_CITY, vs_name: Aspect of City, ro_en: Alarm Mask, ro_ptbr: Máscara de Alarm, ro_ref: 5086, visual: "icon + drop:알람가면", why: "Clockwork city mask", confidence: low, asset: ok, scope: later}
+  - {vs_id: TP_RELIC_MASK_VOLCANO, vs_name: Aspect of Volcano, ro_en: Goblin Mask, ro_ptbr: Máscara de Goblin, ro_ref: 2297, visual: icon, why: "Mask fragment", confidence: low, asset: assumed, scope: later}
+  - {vs_id: TP_RELIC_MASK_SEAWINDS, vs_name: Aspect of Seawinds, ro_en: Wrapped Mask, ro_ptbr: Máscara Embrulhada, ro_ref: 12107, visual: "icon + drop:포장된가면", why: "Mask fragment", confidence: low, asset: ok, scope: later}
+  - {vs_id: TP_RELIC_MASK_STONE, vs_name: Aspect of Stone, ro_en: Welding Mask, ro_ptbr: Máscara de Solda, ro_ref: 2292, visual: icon, why: "Heavy, stony mask", confidence: low, asset: assumed, scope: later}
+  - {vs_id: TP_RELIC_MASK_BLACK, vs_name: Aspect of Black, ro_en: Dark Mask, ro_ptbr: Máscara Sombria, ro_ref: 7157, visual: icon, why: "Black mask", confidence: low, asset: assumed, scope: later}
+  - {vs_id: RELIC_MASK_FATE, vs_name: Aspect of Fate, ro_en: Kitsune Mask, ro_ptbr: Máscara de Kitsune, ro_ref: 5069, visual: "icon + drop:여우가면", why: "Fox = fate/trickster", confidence: low, asset: ok, scope: later}
+  - {vs_id: RELIC_MASK_WRATH, vs_name: Aspect of Wrath, ro_en: Annoyed Mask, ro_ptbr: Máscara Irritada, ro_ref: 5089, visual: icon, why: "Angry face", confidence: low, asset: assumed, scope: later}
+  - {vs_id: RELIC_MASK_SOVEREIGN, vs_name: Aspect of Sovereign, ro_en: Goblin Leader Mask, ro_ptbr: Máscara do Líder Goblin, ro_ref: 5090, visual: icon, why: "Leader = sovereign", confidence: low, asset: assumed, scope: later}
+  - {vs_id: RELIC_MASK_IMPLACABILITY, vs_name: Aspect of Implacability, ro_en: Gangster Mask, ro_ptbr: Máscara de Gângster, ro_ref: 2265, visual: icon, why: "Ruthless face", confidence: low, asset: assumed, scope: later}
+  - {vs_id: RELIC_MASK_MIRTH, vs_name: Aspect of Mirth, ro_en: Festival Mask, ro_ptbr: Máscara de Festival, ro_ref: 7187, visual: icon, why: "Festive = mirth", confidence: low, asset: assumed, scope: later}
+
+# Arcanas. RO tarot = Clown/Gypsy "Tarot Card of Fate" (14 cards); used when the VS number or effect matches.
+# Tarot art lives in client texture/effect (tarot TGAs) — NOT in the exported effect sprite list, so asset: unverified.
+# Everything else = monster card illustration (cardbmp), card item Id given.
+# ARCANA_DATA ids 101-124 (character cards) and 201-218 (object cards) are Survarots, not arcanas — out of this file.
+arcanas:
+  - {vs_id: 0, vs_name: Game Killer, ro_en: Deathword Card, ro_ptbr: Carta Death Word, ro_ref: 4388, visual: tarot card art, why: "Tarot 0 = arcana 0", confidence: high, asset: unverified, scope: v1}
+  - {vs_id: 1, vs_name: I - Gemini, ro_en: Doppelganger Card, ro_ptbr: Carta Doppelganger, ro_ref: 4142, visual: tarot card art, why: "Tarot I; magician conjures a twin", confidence: medium, asset: unverified, scope: v1}
+  - {vs_id: 2, vs_name: II - Twilight Requiem, ro_en: Dark Priest Card, ro_ptbr: Carta Dark Priest, ro_ref: 4171, visual: tarot card art, why: "Tarot II; curse-driven explosions, priestess dispels", confidence: medium, asset: unverified, scope: v1}
+  - {vs_id: 3, vs_name: III - Tragic Princess, ro_en: Kathryne Keyron Card, ro_ptbr: Carta Kathryne Keyron, ro_ref: 4366, visual: card art (cardbmp), why: "Tragic Glast Heim lady; casting while moving", confidence: medium, asset: assumed, scope: v1}
+  - {vs_id: 4, vs_name: IV - Awake, ro_en: Randgris Card, ro_ptbr: Carta Randgris, ro_ref: 4407, visual: card art (cardbmp), why: "Valkyrie of revival = +3 Revivals", confidence: medium, asset: assumed, scope: v1}
+  - {vs_id: 5, vs_name: V - Chaos in the Dark Night, ro_en: Nightmare Card, ro_ptbr: Carta Pesadelo, ro_ref: 4127, visual: card art (cardbmp), why: "Dark night horse; fluctuating speed", confidence: medium, asset: assumed, scope: v1}
+  - {vs_id: 6, vs_name: VI - Sarabande of Healing, ro_en: Angeling Card, ro_ptbr: Carta Angeling, ro_ref: 4054, visual: tarot card art, why: "Tarot VI; RO Lovers heals 2000 HP", confidence: high, asset: unverified, scope: v1}
+  - {vs_id: 7, vs_name: VII - Iron Blue Will, ro_en: Lava Golem Card, ro_ptbr: Carta Golem de Lava, ro_ref: 4184, visual: tarot card art, why: "Tarot VII; defence-ignoring = piercing projectiles", confidence: high, asset: unverified, scope: v1}
+  - {vs_id: 8, vs_name: VIII - Mad Groove, ro_en: Baphomet Card, ro_ptbr: Carta Baphomet, ro_ref: 4147, visual: tarot card art, why: "Tarot VIII (Rider-Waite); number match only", confidence: low, asset: unverified, scope: v1}
+  - {vs_id: 9, vs_name: IX - Divine Bloodline, ro_en: Fallen Bishop Hibram Card, ro_ptbr: Carta Bispo Decadente, ro_ref: 4441, visual: card art (cardbmp), why: "Holy lineage turned weapon; armour becomes damage", confidence: low, asset: assumed, scope: v1}
+  - {vs_id: 10, vs_name: X - Beginning, ro_en: Poring Card, ro_ptbr: Carta Poring, ro_ref: 4001, visual: tarot card art, why: "Tarot X; multiple effects = +Amount", confidence: medium, asset: unverified, scope: v1}
+  - {vs_id: 11, vs_name: XI - Waltz of Pearls, ro_en: Marina Card, ro_ptbr: Carta Marina, ro_ref: 4055, visual: card art (cardbmp), why: "Bouncy sea jelly = bouncing pearls", confidence: low, asset: assumed, scope: v1}
+  - {vs_id: 12, vs_name: XII - Out of Bounds, ro_en: Snowier Card, ro_ptbr: Carta Snowier, ro_ref: 4415, visual: tarot card art, why: "Tarot XII; RO card freezes target", confidence: high, asset: unverified, scope: v1}
+  - {vs_id: 13, vs_name: XIII - Wicked Season, ro_en: Elder Willow Card, ro_ptbr: Carta Elder Willow, ro_ref: 4052, visual: tarot card art, why: "Tarot XIII; curse cycle", confidence: medium, asset: unverified, scope: v1}
+  - {vs_id: 14, vs_name: XIV - Jail of Crystal, ro_en: Ice Titan Card, ro_ptbr: Carta Ice Titan, ro_ref: 4417, visual: tarot card art, why: "Tarot XIV; crowd-control card", confidence: medium, asset: unverified, scope: v1}
+  - {vs_id: 15, vs_name: XV - Disco of Gold, ro_en: Pharaoh Card, ro_ptbr: Carta Pharaoh, ro_ref: 4148, visual: tarot card art, why: "Tarot XV; greed for gold", confidence: medium, asset: unverified, scope: v1}
+  - {vs_id: 16, vs_name: XVI - Slash, ro_en: Drake Card, ro_ptbr: Carta Drake, ro_ref: 4137, visual: tarot card art, why: "Tarot XVI; burst damage = crits", confidence: medium, asset: unverified, scope: v1}
+  - {vs_id: 17, vs_name: XVII - Lost & Found Painting, ro_en: Mimic Card, ro_ptbr: Carta Mímico, ro_ref: 4205, visual: tarot card art, why: "Tarot XVII; number match", confidence: medium, asset: unverified, scope: v1}
+  - {vs_id: 18, vs_name: XVIII - Boogaloo of Illusions, ro_en: Joker Card, ro_ptbr: Carta Coringa, ro_ref: 4139, visual: card art (cardbmp), why: "Trickster of illusions; pulsing area", confidence: low, asset: assumed, scope: v1}
+  - {vs_id: 19, vs_name: XIX - Heart of Fire, ro_en: Salamander Card, ro_ptbr: Carta Salamandra, ro_ref: 4429, visual: tarot card art, why: "Tarot XIX; fire explosions", confidence: high, asset: unverified, scope: v1}
+  - {vs_id: 20, vs_name: XX - Silent Old Sanctuary, ro_en: Ancient Mummy Card, ro_ptbr: Carta Múmia Anciã, ro_ref: 4248, visual: card art (cardbmp), why: "Silent old tomb guardian; empty slots", confidence: low, asset: assumed, scope: v1}
+  - {vs_id: 21, vs_name: XXI - Blood Astronomia, ro_en: Dark Lord Card, ro_ptbr: Carta Lorde das Trevas, ro_ref: 4168, visual: card art (cardbmp), why: "Meteor Storm caster = star damage zones", confidence: medium, asset: assumed, scope: v1}
+  - {vs_id: 22, vs_name: Stake to your Heart, ro_en: Dracula Card, ro_ptbr: Carta Drácula, ro_ref: 4134, visual: card art (cardbmp), why: "Stake through the vampire's heart", confidence: medium, asset: assumed, scope: v1}
+  - {vs_id: 23, vs_name: I - Sapphire Mist (Darkana), ro_en: Myst Card, ro_ptbr: Carta Névoa, ro_ref: 4108, visual: card art (cardbmp), why: "Mist; weapons fire twice", confidence: low, asset: assumed, scope: v1}
+  - {vs_id: 25, vs_name: III - Hidden Anathema (Darkana), ro_en: Smokie Card, ro_ptbr: Carta Smokie, ro_ref: 4044, visual: card art (cardbmp), why: "Hiding raccoon that eats; food buffs", confidence: low, asset: assumed, scope: v1}
+  - {vs_id: 27, vs_name: V - Pale Diamond Incursion (Darkana), ro_en: Hatii Card, ro_ptbr: Carta Hatii, ro_ref: 4324, visual: card art (cardbmp), why: "Pale ice wolf hunting nearest prey", confidence: low, asset: assumed, scope: v1}
+  - {vs_id: 28, vs_name: VI - Moonlight Bolero (Darkana), ro_en: Moonlight Flower Card, ro_ptbr: Carta Flor do Luar, ro_ref: 4131, visual: card art (cardbmp), why: "Moonlight MVP = extra treasure boss", confidence: high, asset: assumed, scope: v1}
+  - {vs_id: 30, vs_name: VIII - Edge of the Earth (Darkana), ro_en: Ghostring Card, ro_ptbr: Carta Ghostring, ro_ref: 4047, visual: card art (cardbmp), why: "Ghost passes through walls", confidence: medium, asset: assumed, scope: v1}
+  - {vs_id: 32, vs_name: X - Hail from the Future (Darkana), ro_en: Kiel-D-01 Card, ro_ptbr: Carta Kiel-D-01, ro_ref: 4403, visual: card art (cardbmp), why: "Futuristic android", confidence: medium, asset: assumed, scope: v1}
+  - {vs_id: 34, vs_name: XII - Crystal Cries (Darkana), ro_en: Ktullanux Card, ro_ptbr: Carta Ktullanux, ro_ref: 4419, visual: card art (cardbmp), why: "Ice crystal MVP; frozen-enemy bonuses", confidence: medium, asset: assumed, scope: v1}
+  - {vs_id: 35, vs_name: XIII - Call of a Mad Moon (Darkana), ro_en: Lunatic Card, ro_ptbr: Carta Lunático, ro_ref: 4006, visual: card art (cardbmp), why: "Lunatic = mad moon; luck-based", confidence: medium, asset: assumed, scope: v1}
+  - {vs_id: 39, vs_name: XVII - Sign of Blood (Darkana), ro_en: Bloody Knight Card, ro_ptbr: Carta Cavaleiro Sanguinário, ro_ref: 4320, visual: card art (cardbmp), why: "Blood knight leads enemy-turned allies", confidence: medium, asset: assumed, scope: v1}
+  - {vs_id: 40, vs_name: XVIII - Victorian Horror (Darkana), ro_en: Bathory Card, ro_ptbr: Carta Bathory, ro_ref: 4119, visual: card art (cardbmp), why: "Gothic noble horror", confidence: medium, asset: assumed, scope: v1}
+  - {vs_id: 41, vs_name: XIX - Heir of Fate (Darkana), ro_en: Ifrit Card, ro_ptbr: Carta Ifrit, ro_ref: 4430, visual: card art (cardbmp), why: "Fire lord; fire kills buff stats", confidence: medium, asset: assumed, scope: v1}
+  - {vs_id: 43, vs_name: XXI - Wandering the Jet Black (Darkana), ro_en: Wanderer Card, ro_ptbr: Carta Andarilho, ro_ref: 4210, visual: card art (cardbmp), why: "Wandering, dark-clad swordsman", confidence: medium, asset: assumed, scope: v1}
+
+props:
+  - {vs_id: BRAZIER, vs_name: Brazier, ro_en: Bonfire, ro_ptbr: Fogueira, ro_ref: "npc 4_bonfire", visual: npc sprite, why: "Fire light source that drops items", confidence: high, asset: ok, scope: v1}
+  - {vs_id: BRAZIER2, vs_name: Brazier (variant), ro_en: Fire Pit, ro_ptbr: Fosso de Fogo, ro_ref: "monster firepit", visual: monster sprite, why: "Second brazier look", confidence: medium, asset: ok, scope: v1}
+  - {vs_id: CANDELABRA, vs_name: Candelabra, ro_en: Torch, ro_ptbr: Tocha, ro_ref: "effect torch_01", visual: effect sprite, why: "Tall flame light source", confidence: medium, asset: ok, scope: v1}
+  - {vs_id: CANDLE, vs_name: Candle, ro_en: Candle, ro_ptbr: Vela, ro_ref: "drop:촛불", visual: item drop sprite, why: "Small candle light source", confidence: medium, asset: ok, scope: v1}
+  - {vs_id: LAMPOST, vs_name: Lamp Post, ro_en: Street Lamp, ro_ptbr: Poste de Luz, ro_ref: "extracted-models/lamp_s_02.glb", visual: "3D map model (needs 2D render)", why: "RO town lamp model", confidence: medium, asset: ok, scope: v1}
+  - {vs_id: LAMPOST_SINGLE, vs_name: Single Lamp Post, ro_en: Street Lamp, ro_ptbr: Poste de Luz, ro_ref: "extracted-models/lamp_s_02.glb", visual: "3D map model (needs 2D render)", why: "Same lamp, single", confidence: medium, asset: ok, scope: v1}
+  - {vs_id: LANTERN, vs_name: Lantern, ro_en: Lantern, ro_ptbr: Lanterna, ro_ref: "drop:랜턴 (item 1041)", visual: item drop sprite, why: "Floating lantern light source", confidence: high, asset: ok, scope: v1}
+  - {vs_id: LANTERN_INVERSE, vs_name: Lantern (inverse), ro_en: Pumpkin Lantern, ro_ptbr: Lanterna de Abóbora, ro_ref: "drop:호박초롱 (item 7225)", visual: item drop sprite, why: "Inverse-mode lantern, darker variant", confidence: medium, asset: ok, scope: v1}
+  - {vs_id: CART, vs_name: Cart, ro_en: Pushcart, ro_ptbr: Carrinho, ro_ref: "effect 손수레", visual: effect sprite (merchant cart), why: "Cart for cart", confidence: high, asset: ok, scope: v1}
+  - {vs_id: WINDOW, vs_name: Window (Gallo Tower), ro_en: TBD, ro_ptbr: TBD, ro_ref: none, visual: none, why: "No breakable window in RO sprite sets", confidence: low, asset: missing, scope: v1}
+  - {vs_id: TRAINLEVER, vs_name: Train Lever, ro_en: Switch, ro_ptbr: Alavanca, ro_ref: "npc switch", visual: npc sprite, why: "RO dungeon switch NPC", confidence: high, asset: ok, scope: v1}
+  - {vs_id: LABORATORYLEVER2, vs_name: Laboratory Lever 2, ro_en: Switch, ro_ptbr: Alavanca, ro_ref: "npc switch", visual: npc sprite, why: "Same lever", confidence: high, asset: ok, scope: v1}
+  - {vs_id: LABORATORYLEVER3, vs_name: Laboratory Lever 3, ro_en: Switch, ro_ptbr: Alavanca, ro_ref: "npc switch", visual: npc sprite, why: "Same lever", confidence: high, asset: ok, scope: v1}
+  - {vs_id: LABORATORYLEVER4, vs_name: Laboratory Lever 4, ro_en: Switch, ro_ptbr: Alavanca, ro_ref: "npc switch", visual: npc sprite, why: "Same lever", confidence: high, asset: ok, scope: v1}
+  - {vs_id: LAB_DOOR_A, vs_name: Lab Door A, ro_en: Barricade, ro_ptbr: Barricada, ro_ref: "npc barricade", visual: npc sprite, why: "Blocking gate opened by levers", confidence: low, asset: ok, scope: v1}
+  - {vs_id: LAB_DOOR_B, vs_name: Lab Door B, ro_en: Fence, ro_ptbr: Cerca, ro_ref: "npc 4_ed_fence", visual: npc sprite, why: "Second gate variant", confidence: low, asset: ok, scope: v1}
+  - {vs_id: LYCA_DOOR, vs_name: Lyca Door, ro_en: Barricade, ro_ptbr: Barricada, ro_ref: "npc barricade", visual: npc sprite, why: "Blocking gate", confidence: low, asset: ok, scope: v1}
+  - {vs_id: EX_TOHILSTATUE, vs_name: Tohil Statue, ro_en: Gargoyle Statue, ro_ptbr: Estátua de Gárgula, ro_ref: "npc 4_gargoyle_statue", visual: npc sprite, why: "Breakable idol statue", confidence: medium, asset: ok, scope: v1}
+  - {vs_id: WEATHERNODE, vs_name: Weather Node, ro_en: Energy Orb, ro_ptbr: Orbe de Energia, ro_ref: "npc 4_energy", visual: npc sprite, why: "Invisible-ish node; orb if it ever shows", confidence: low, asset: ok, scope: later}
+  - {vs_id: FB_CAPSULE, vs_name: Capsule (First Blood), ro_en: Steel Box, ro_ptbr: Caixa de Aço, ro_ref: "npc 4_steelbox", visual: npc sprite, why: "Breakable container", confidence: medium, asset: ok, scope: later}
+  - {vs_id: FB_EXPLOBARREL, vs_name: Explosive Barrel, ro_en: Bomb Poring, ro_ptbr: Poring Bomba, ro_ref: "monster bombporing", visual: monster sprite, why: "Thing that explodes when hit", confidence: medium, asset: ok, scope: later}
+  - {vs_id: FB_EXPLOCAR, vs_name: Explosive Car, ro_en: Magic Gear Cart, ro_ptbr: Carrinho Mágico, ro_ref: "effect 마도카트", visual: effect sprite, why: "Machine vehicle that blows up", confidence: low, asset: ok, scope: later}
+  - {vs_id: TP_DOOR, vs_name: Door (Those People), ro_en: Purple Warp, ro_ptbr: Portal Roxo, ro_ref: "npc 4_purple_warp", visual: npc sprite, why: "Otherworld door", confidence: low, asset: ok, scope: later}
+
+npcs:
+  - {vs_id: MERCHANT, vs_name: Merchant, ro_en: Kafra Employee, ro_ptbr: Funcionária Kafra, ro_ref: "npc 4_f_kafra1", visual: npc sprite, why: "Iconic RO service NPC in every map; alt 1_m_merchant", confidence: medium, asset: ok, scope: v1}
+  - {vs_id: EGGMAN, vs_name: Eggman (Golden Egg seller), ro_en: Merchant, ro_ptbr: Mercador, ro_ref: "npc 4_m_humerchant", visual: npc sprite, why: "Travelling trader who sells the egg item", confidence: low, asset: ok, scope: v1}
+  - {vs_id: HEALER, vs_name: Healer, ro_en: Acolyte, ro_ptbr: Noviça, ro_ref: "npc 4_f_acolyte", visual: npc sprite, why: "RO healer class NPC", confidence: high, asset: ok, scope: v1}
+  - {vs_id: COFFIN, vs_name: Coffin (character unlock), ro_en: Coffin, ro_ptbr: Caixão, ro_ref: "npc 4_nfcoffin", visual: npc sprite, why: "Coffin for coffin (Niflheim)", confidence: high, asset: ok, scope: v1}
+  - {vs_id: TELEPORTER, vs_name: Teleporter, ro_en: Warp Portal, ro_ptbr: Portal, ro_ref: "npc portal", visual: npc sprite, why: "RO warp portal", confidence: high, asset: ok, scope: v1}
+  - {vs_id: TP_CYCLEGATE, vs_name: Cycle Gate, ro_en: Purple Warp, ro_ptbr: Portal Roxo, ro_ref: "npc 4_purple_warp", visual: npc sprite, why: "Special portal", confidence: medium, asset: ok, scope: later}
+  - {vs_id: DIRECTER, vs_name: The Directer, ro_en: Masked Man, ro_ptbr: Homem Mascarado, ro_ref: "npc 4_m_maskman", visual: npc sprite, why: "Masked meta-entity whose masks are relics", confidence: low, asset: ok, scope: later}
+
+# Sprites do VS que não têm registro próprio no ITEM_DATA (variações por valor/animação), apontados pro item do RO
+# cujo ícone entra no lugar. reskin_icons.py lê esta seção.
+sprite_variants:
+  GemBlue: 717   # Blue Gemstone (tier azul)
+  GemGreen: 715  # Yellow Gemstone (Zero 16/10: gema verde = amarela do RO)
+  GemRed: 716    # Red Gemstone
+  Gem1: 717      # rampa de 11 cores da chuva de gemas: azul → roxo
+  Gem2: 726      # Sapphire
+  Gem3: 720      # Aquamarine
+  Gem4: 729      # Zircon
+  Gem5: 721      # Emerald
+  Gem6: 715      # Yellow Gemstone
+  Gem7: 728      # Topaz
+  Gem8: 716      # Red Gemstone
+  Gem9: 723      # Ruby
+  Gem10: 718     # Garnet
+  Gem11: 719     # Amethyst
+  CoinGold: 671
+  CoinSilver: 675
+  Coin: 673
+  # Zero 16/10: baú e o modal dele iguais ao VS (só os itens sorteados mudam) — moedas giratórias, baú do
+  # modal e vídeo de abertura (tools/build_chest.py, fora do build.sh) ficam originais
+  # coin-spin-gold_01: 671
+  # coin-spin-gold_02: 671
+  # coin-spin-gold_03: 671
+  # coin-spin-gold_04: 671
+  # coin-spin-gold_05: 671
+  # coin-spin-silver_01: 675
+  # coin-spin-silver_02: 675
+  # coin-spin-silver_03: 675
+  # coin-spin-silver_04: 675
+  # coin-spin-silver_05: 675
+  # coin-spin-copper_01: 673
+  # coin-spin-copper_02: 673
+  # coin-spin-copper_03: 673
+  # coin-spin-copper_04: 673
+  # coin-spin-copper_05: 673
+  MoneyPile: 7228  # Gold Bullion
+
+# Famílias de sprite do atlas tps_props (data.unity3d) → fonte do RO. "npc X"/"monster X" = .act da pasta npc/몬스터
+# (ação 0, direção 0, quadros espalhados pela animação do VS); "item N" = ícone do item (mesmo em todos os quadros).
+# O quadro do RO cabe no rect do VS (tamanho no mundo = pixels). reskin_props.py lê esta seção.
+sprite_families:
+  # Brazier: npc 4_bonfire   # Zero 16/10: braseiro/poste originais do VS
+  Candelabrone: monster firepit
+  # Lampost: npc 4_bonfire   # Zero 16/10: braseiro/poste originais do VS
+  # SingleLampost: monster firepit   # Zero 16/10: braseiro/poste originais do VS
+  Lantern: item 1041
+  LanternInv: item 7225
+  Cart: npc 4_steelbox
+  windowPieces: npc barricade
+  ziappunta_prop: npc 4_gargoyle_statue
+  ziappunta_prop_break: npc 4_gargoyle_statue
+  WeatherNode: npc 4_energy
+  Coffin: npc 4_treasure_box
+  CoffinW: npc 4_treasure_box
+  _Coffin: npc 4_treasure_box
+  CoffinLid: npc 4_treasure_box
+  CoffinLidW: npc 4_treasure_box
+  Pantalone: npc 4_f_kafra1
+  PantaloneRun: npc 4_f_kafra1
+  Eggman: npc 4_m_humerchant
+  Rosary: item 2608      # = pickups ROSARY
+  Vacuum: item 14529     # = pickups VACUUM
+  PocketWatch: item 7513 # = pickups OROLOGION
+  Nft: item 699          # = pickups NFT
+  sorbetto: item 12000   # = pickups SORBETTO
+  goldenFinger: item 657
+  Gilded: item 12210
+  MoneyPile: item 7228
+  propBarrelExplo: monster bombporing
+  propBarrelExplo_break: monster bombporing
+  chequered: npc 4_f_kafra1                # chegada do minigame do carrinho → Kafra (Zero, 16/10)
+  # TreasureIdle: monster treasure_mimic 0       # baú da UI (level-up/baú): Treasure Mimic parado
+  # TreasureOpen: monster treasure_mimic 2       # abrindo (derrama moedas)
+  # TreasureOpenFront: monster treasure_mimic 2
+
+# Conjuntos avulsos de sprites em bundles de personagem que o reskin_char não cobre (auditoria 16/10): bundle →
+# {prefixo do sprite: "monster X" | "npc X"}. Quadros do andar do RO espalhados pelos do VS, espelhados (o VS olha pra
+# esquerda), encaixados no rect de cada sprite (tools/reskin_spritesets.py).
+spritesets:
+  character_xanthia: {Xanthia: monster loli_ruri}
+  character_followers: {FollowerBrownie: monster deviruchi, FollowerGoblin: monster goblin_1, FollowerTrow: monster merman}
+  character_moonduck: {moonduck: monster picky}
+  character_moonrabbit: {moonrabbit: monster lunatic}
+  character_tarantella: {Tarantella: monster l_dancer}
+  character_pantalonerun: {PantaloneRun: npc 4_f_kafra1}

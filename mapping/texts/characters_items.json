@@ -1,0 +1,482 @@
+{
+"characterLang/{DRAGOGION}description": {
+"en": "Gains +1% Curse every level. Can find evolutions in any Treasure Chest.",
+"pt": "Ganha +1% de Maldição a cada nível. Pode encontrar evoluções em Baús."
+},
+"characterLang/{PANTALONE}description": {
+"en": "Gains +1% Greed every level. Zeny Fever lasts longer.",
+"pt": "Ganha +1% de Ganância a cada nível. Febre de Zeny tem maior duração."
+},
+"characterLang/{AVATAR}description": {
+"en": "Starts with extra Arcana XIX - The Sun. Grows stronger with every level, but also loses control.",
+"pt": "Começa com uma Arcana XIX - O Sol extra. A cada nível, ganha mais força, mas perde mais controle."
+},
+"characterLang/{SCOREJ}description": {
+"en": "Gains a hidden Thunderstorm every 8 levels (max 6) that also fires when losing health.",
+"pt": "A cada 8 níveis, ganha uma Tempestade de Raios oculta (máx. de 6) que também dispara ao perder Vida."
+},
+"characterLang/{GENEVIEVE}description": {
+"en": "Triggers a Greed Scroll when levelling up. Once per life, triggers World Eater after receiving fatal damage.",
+"pt": "Ativa um Pergaminho de Ganância ao subir de nível. Uma vez a cada vida, ativa o Devorador de Mundos ao sofrer dano fatal."
+},
+"characterLang/{CTRPCAKE}description": {
+"en": "Gains XP when picking up Zeny and Coin Bags. Starts with temporarily reduced Might.",
+"pt": "Ganha EXP ao coletar Zeny e bolsas de moedas. Começa com Poder temporariamente reduzido."
+},
+"characterLang/{MEGALO_MORTACCIO}description": {
+"en": "Gets more projectiles every 20 levels (max +3).",
+"pt": "Ganha mais projéteis a cada 20 níveis (máx. de +3)."
+},
+"characterLang/{MEGALO_CAVALLO}description": {
+"en": "Gets more projectiles every 20 levels (max +3).",
+"pt": "Ganha mais projéteis a cada 20 níveis (máx. de +3)."
+},
+"characterLang/{MEGALO_RAMBA}description": {
+"en": "Gets more projectiles every 20 levels (max +3).",
+"pt": "Ganha mais projéteis a cada 20 níveis (máx. de +3)."
+},
+"characterLang/{MEGALO_OSOLE}description": {
+"en": "Gets more projectiles every 20 levels (max +3).",
+"pt": "Ganha mais projéteis a cada 20 níveis (máx. de +3)."
+},
+"characterLang/{MEGALO_AMBROJOE}description": {
+"en": "Gets more projectiles every 20 levels (max +3).",
+"pt": "Ganha mais projéteis a cada 20 níveis (máx. de +3)."
+},
+"characterLang/{TP_CARRIE}description": {
+"en": "Starts with extra Arcana XI - Marina Card.",
+"pt": "Começa com Arcana XI - Carta Marina extra."
+},
+"characterLang/{TP_JOHN}description": {
+"en": "Gains an extra Arcana VII - The Chariot at level 10. Can find special pickups and spawns Mirrors of Truth every 5 levels. ",
+"pt": "Ganha uma Arcana VII - A Carruagem extra no nível 10. Pode encontrar coletáveis especiais e gera Espelhos da Verdade a cada 5 níveis."
+},
+"characterLang/{TP_JULIUS}description": {
+"en": "Starts with extra Arcana XIX - The Sun. When Health is low, Might is increased. Can find special pickups.",
+"pt": "Começa com Arcana XIX - O Sol extra. Quando a Vida está baixa, o Poder é aumentado. Pode encontrar coletáveis especiais."
+},
+"characterLang/{TP_JULIA}description": {
+"en": "Starts with extra Arcana VI - The Lovers. Obtains a Heart Refresh every 2 levels.",
+"pt": "Começa com Arcana VI - Os Amantes extra. Obtém um Restaura-vidas a cada dois níveis."
+},
+"characterLang/{TP_NATHAN}description": {
+"en": "Starts with extra Arcana IV - Randgris Card. Gain an extra choice of Arcana after surviving 7 and 14 minutes.",
+"pt": "Começa com Arcana IV - Carta Randgris extra. Obtenha uma escolha extra de Arcana após sobreviver 7 e 14 minutos."
+},
+"characterLang/{TP_REINHARDT}description": {
+"en": "Starts with extra Arcana XVI - The Tower. Inflicts higher overall critical damage.",
+"pt": "Começa com Arcana XVI - A Torre extra. Aumenta o dano crítico geral."
+},
+"characterLang/{TP_RICHTER}description": {
+"en": "Starts with extra Arcana IX - Fallen Bishop Hibram Card. Can find special pickups.",
+"pt": "Começa com Arcana IX - Carta Bispo Decadente extra. Pode encontrar coletáveis especiais."
+},
+"characterLang/{TP_STGERMAIN}description": {
+"en": "Gains 0.2% Cooldown reduction per level. Starts with extra Arcana XII - The Hanged Man.",
+"pt": "Ganha 0,2% de redução de Recarga por nível. Já começa com a Arcana XII - O Enforcado."
+},
+"characterLang/{TP_SUCCUBUS}description": {
+"en": "Starts with extra Arcana XVIII - Joker Card.",
+"pt": "Começa com Arcana XVIII - Carta Coringa extra."
+},
+"characterLang/{TP_SYPHA}description": {
+"en": "Starts with extra Arcana XIV - Temperance. Can find special pickups.",
+"pt": "Começa com Arcana XIV - A Temperança extra. Pode encontrar coletáveis especiais."
+},
+"characterLang/{TP_TREVOR}description": {
+"en": "Starts with extra Arcana X - Wheel of Fortune. Gains +1 Amount every 10 levels (max +3). Can find special pickups.",
+"pt": "Começa com Arcana X - A Roda da Fortuna extra. Ganha +1 de Quantidade a cada 10 níveis (máx. de +3). Pode encontrar coletáveis especiais."
+},
+"characterLang/{TP_YOKO}description": {
+"en": "Starts with extra Arcana III - Kathryne Keyron Card.",
+"pt": "Começa com Arcana III - Carta Kathryne Keyron extra."
+},
+"characterLang/{TP_RINALDO}description": {
+"en": "Starts with extra Arcana I - The Magician.",
+"pt": "Começa com Arcana I - O Mago extra."
+},
+"characterLang/{TP_MINA}description": {
+"en": "Starts with extra Arcana II - The High Priestess.",
+"pt": "Começa com Arcana II - A Sacerdotisa extra."
+},
+"characterLang/{TP_LISA}description": {
+"en": "Gains +1 Growth every level. Starts with extra Arcana XX - Ancient Mummy Card.",
+"pt": "Ganha +1 de Crescimento a cada nível. Já começa com a Arcana XX - Carta Múmia Anciã."
+},
+"characterLang/{TP_VINCENT}description": {
+"en": "Overhealing slightly increases Greed. Greed is doubled while Invulnerable. Starts with extra Arcana XV - The Devil.",
+"pt": "Recuperação de vida excessiva aumenta um pouco a Ganância. Dobro de Ganância quando invulnerável. Começa com Arcana XV - O Diabo extra."
+},
+"characterLang/{TP_BRAUNER}description": {
+"en": "Starts with extra Arcana XXI - Dark Lord Card. Immune to health drain.",
+"pt": "Começa com Arcana XXI - Carta Lorde das Trevas extra. Imune a drenagem de vida."
+},
+"characterLang/{TP_GRAHAM}description": {
+"en": "Starts with extra Arcana XIII - Death. Immune to health drain.",
+"pt": "Começa com Arcana XIII - A Morte extra. Imune a drenagem de vida."
+},
+"characterLang/{TP_KEREMET}description": {
+"en": "Starts with extra Arcana XVII - The Star. Triggers Keremet Morbus when overhealing by +8.",
+"pt": "Começa com Arcana XVII - A Estrela extra. Ativa Keremet Morbus ao recuperar +8 de Vida excessiva."
+},
+"characterLang/{TP_ACTRISE}description": {
+"en": "Adept with Gemma Torpor, Holy Light, Rune Stone, and Lux Anima. Has a hidden Holy Light that grows stronger when levelling up.",
+"pt": "Hábil com Gemma Torpor, Luz Divina, Pedra Rúnica e Lux Anima. Tem uma Luz Divina oculta que fica mais forte ao subir de nível."
+},
+"characterLang/{TP_FISHMAN}description": {
+"en": "Obviously adept with Fire Ball.",
+"pt": "Obviamente hábil com Bola de Fogo."
+},
+"characterLang/{TP_ZEPHYR}description": {
+"en": "Adept with knives. Gains a Cooldown and MoveSpeed bonus when picking up Pocket Watches. Pocket Watches are easier to find.",
+"pt": "Hábil com facas. Ganha bônus de Recarga e Velocidade de Movimento ao obter Relógios de Bolso. Encontra Relógios de Bolso mais facilmente."
+},
+"characterLang/{TP_FROZENSHADE}description": {
+"en": "She likes her Wall chicken and Meat well frozen.",
+"pt": "Gosta do Frango Assado e da Carne bem geladinhos."
+},
+"characterLang/{TP_MORRIS}description": {
+"en": "Adept with all weapons from the Coat of Arms. Retaliates by triggering Kaiser Knuckle, Lapiste Tepisto, and any Bolt.",
+"pt": "Hábil com todas as armas do Brasão de Armas. Retalia ao ativar Punho do Poder, Lapiste Tepisto e qualquer Lança ou Relâmpago."
+},
+"characterLang/{EX_CHULAREH}description": {
+"en": "Chances his luck every 30 seconds or when picking up a Dice Hat.",
+"pt": "Altera a Sorte a cada 30 segundos ou ao pegar um Chapéu de Dado."
+},
+"characterLang/{EX_ZIAPPUNTA}description": {
+"en": "Can find extra explosive props that might drop Treasure Chests. Can destroy light sources by touching them.",
+"pt": "Pode encontrar explosivos extras com chance de conceder Baús. Pode destruir fontes de luz ao tocá-las."
+},
+"characterLang/{EX_GIOCARE}description": {
+"en": "Can always find Survarots. Gets a Survarot Multiplier equal to Log10 Ymir's Heart Pieces (max x10).",
+"pt": "Pode sempre encontrar Surtarôs. Ganha um Multiplicador de Surtarô igual a Log10 Fragmentos de Ymir (máx. de x10)."
+},
+"characterLang/{EX_BIGTROUBLER}description": {
+"en": "Activates his main weapon when picking up Zeny. Uses Zeny as a damage barrier. Has a 4X chance of drafting FOIL Survarots.",
+"pt": "Ativa a arma principal dele ao coletar Zeny. Usa Zeny como barreira de dano. Tem chance x4 de tirar um Surtarô FOIL."
+},
+"characterLang/{EX_PARACOOLIO}description": {
+"en": "Triggers a flood when a weapon evolves. Vacuums all XP Gemstones when health reaches a critically low level.",
+"pt": "Causa uma enchente ao evoluir uma arma. Aspira todas as Gemas de EXP ao atingir um nível crítico de Vida."
+},
+"skinLang/{SKIN_IMELDA_UNBLINDED}description": {
+"en": "Also starts with a Level 5 Book of Magic.",
+"pt": "Também começa com Livro de Magia nível 5."
+},
+"skinLang/{SKIN_POE_RETIRED}description": {
+"en": "Also starts with a Level 5 Red Herb.",
+"pt": "Também começa com Erva Vermelha nível 5."
+},
+"skinLang/{SKIN_SHEMOON_REBORN}description": {
+"en": "Also starts with a Level 5 Sleipnir and a hidden Venom Splasher.",
+"pt": "Também começa com Sleipnir nível 5 e uma Explosão Tóxica oculta."
+},
+"skinLang/{SKIN_TP_GAIBON_AND_SLOGRA}description": {
+"en": "Adept with Fire Ball. Always followed by Slogra. Gets enraged if its partner dies. Flies.",
+"pt": "Hábil com Bola de Fogo. Sempre seguido por Slogra. Se enfurece se o parceiro morre. Voa."
+},
+"powerUpLang/{GREED}description": {
+"en": "Gains 10% more Zeny per rank (max +50%).",
+"pt": "Concede 10% a mais de Zeny por classe (máx. de +50%)."
+},
+"powerUpLang/{SHIELD}description": {
+"en": "Prevents damage for one attack. Stacks with Kyrie Eleison.",
+"pt": "Previne dano de um ataque. Acumulativo com Kyrie Eleison."
+},
+"powerUpLang/{FEVER}description": {
+"en": "Increases duration of Zeny Fever and Berserk Potion by 10% per rank (max +50%).",
+"pt": "Aumenta a duração de Febre de Zeny e Poção da Fúria em 10% por classe (máx. de +50%)."
+},
+"itemLang/{COIN}description": {
+"en": "Adds 1 to your Zeny total.",
+"pt": "Adiciona 1 Zeny ao total."
+},
+"itemLang/{COINBAG1}description": {
+"en": "Adds 10 to your Zeny total.",
+"pt": "Adiciona 10 Zeny ao total."
+},
+"itemLang/{COINBAG2}description": {
+"en": "Adds 25 to your Zeny total.",
+"pt": "Adiciona 25 Zeny ao total."
+},
+"itemLang/{COINBAGMAX}description": {
+"en": "Adds 100 to your Zeny total.",
+"pt": "Adiciona 100 Zeny ao total."
+},
+"itemLang/{ALWAYS_COINBAG2}description": {
+"en": "Adds 25 to your Zeny total.",
+"pt": "Adiciona 25 Zeny ao total."
+},
+"itemLang/{ALWAYS_ROAST}tips": {
+"en": "Always picked over Zeny if missing health, for the rest of the run.",
+"pt": "Se perder Vida, sempre escolher isso até o fim da partida, em vez de Zeny."
+},
+"itemLang/{TREASURE}description": {
+"en": "Awards Zeny and Power ups. Dropped by strong enemies.",
+"pt": "Contém Zeny e Aprimoramentos. Surge com a morte de inimigos fortes."
+},
+"itemLang/{VACUUM}description": {
+"en": "Gathers all XP Gemstones left on the ground.",
+"pt": "Recolhe todas as Gemas de EXP do chão."
+},
+"itemLang/{GILDED}description": {
+"en": "Gathers all Zeny left on the ground and starts a Zeny Fever.",
+"pt": "Recolhe todo o Zeny do chão e começa uma Febre de Zeny."
+},
+"itemLang/{RELIC_GLASSMASK}description": {
+"en": "Summons the Kafra Employee in all stages.",
+"pt": "Invoca a Funcionária Kafra em todas as fases."
+},
+"itemLang/{RELIC_GLASSMASK}achievementTips": {
+"en": "Kafra Employee",
+"pt": "Funcionária Kafra."
+},
+"itemLang/{RELIC_GOLDENEGG}plural": {
+"en": "Ymir's Heart Pieces",
+"pt": "Fragmentos de Ymir"
+},
+"itemLang/{PURIFY}description": {
+"en": "Permanently remove up to 100 random Ymir's Heart Piece bonuses. This cannot be undone.",
+"pt": "Remove permanentemente até 100 bônus aleatórios de Fragmentos de Ymir. Não pode ser desfeito."
+},
+"itemLang/{PURIFY2}description": {
+"en": "Permanently removes all Ymir's Heart Piece bonuses on Move Speed. This cannot be undone.",
+"pt": "Remove permanentemente todos os bônus de Fragmentos de Ymir na Velocidade de Movimento. Não pode ser desfeito."
+},
+"itemLang/{DUMMY_GOLDENEGG_MAX}description": {
+"en": "Spend as much Zeny as possible to buy Ymir's Heart Pieces.",
+"pt": "Gaste o máximo de Zeny possível para comprar Fragmentos de Ymir."
+},
+"itemLang/{RELIC_TRUMPET}description": {
+"en": "Permanently allows to disable every Reaper Yanku and fight endlessly.",
+"pt": "Permite desativar todos os Ceifadores Ankou e ativar a luta infinita."
+},
+"itemLang/{RELIC_MIRROR}achievementTips": {
+"en": "Niflheim Mirror.",
+"pt": "Espelho de Niflheim."
+},
+"itemLang/{RELIC_MALACHITE}description": {
+"en": "Allows the Skeleton to morph when reaching Level 80.",
+"pt": "Permite que o Esqueleto se transforme ao alcançar o nível 80."
+},
+"itemLang/{RELIC_MALACHITE}achievementTips": {
+"en": "Hell Judgement.",
+"pt": "Julgamento Infernal."
+},
+"itemLang/{RELIC_ROSALIA}description": {
+"en": "Allows Peco Peco to morph when reaching Level 80.",
+"pt": "Permite que o Peco Peco se transforme ao alcançar o nível 80."
+},
+"itemLang/{RELIC_ROSALIA}achievementTips": {
+"en": "Acid Demonstration.",
+"pt": "Bomba Ácida."
+},
+"itemLang/{RELIC_ALTEMANNA}description": {
+"en": "Allows the Star Emperor to morph when reaching Level 80.",
+"pt": "Permite que o Imperador Estelar se transforme ao alcançar o nível 80."
+},
+"itemLang/{RELIC_ALTEMANNA}achievementTips": {
+"en": "Solar Burst.",
+"pt": "Explosão Solar."
+},
+"itemLang/{RELIC_LAZULIA}description": {
+"en": "Allows the Blacksmith to morph when reaching Level 80.",
+"pt": "Permite que a Ferreira se transforme ao alcançar o nível 80."
+},
+"itemLang/{RELIC_LAZULIA}achievementTips": {
+"en": "Cart Cannon!",
+"pt": "Canhão de Carrinho!"
+},
+"itemLang/{RELIC_CHAOSEGG}description": {
+"en": "Allows the Alchemist Guildmaster to morph when reaching Level 80.",
+"pt": "Permite que o Mestre Alquimista se transforme ao alcançar o nível 80."
+},
+"itemLang/{RELIC_MAP_AS}description": {
+"en": "Displays a detailed map when in Odin Temple.",
+"pt": "Exibe um mapa detalhado quando estiver no Templo de Odin."
+},
+"itemLang/{RELIC_MAP_AS}achievementTips": {
+"en": "Odin Temple Map.",
+"pt": "Mapa do Templo de Odin."
+},
+"itemLang/{RELIC_CHARM}description": {
+"en": "Allows to buy the Provoke PowerUp.",
+"pt": "Permite comprar o aprimoramento Provocar."
+},
+"itemLang/{RELIC_CHARM}achievementTips": {
+"en": "Provoke PowerUp.",
+"pt": "Aprimoramento Provocar."
+},
+"itemLang/{RELIC_ANTIDOTE}description": {
+"en": "Allows you to buy the Strip Weapon PowerUp.",
+"pt": "Permite comprar o aprimoramento Remover Arma."
+},
+"itemLang/{RELIC_ANTIDOTE}achievementTips": {
+"en": "Strip Weapon PowerUp.",
+"pt": "Aprimoramento Remover Arma."
+},
+"itemLang/{RELIC_ANTIPYRETIC}description": {
+"en": "Allows you to buy the Cure PowerUp.",
+"pt": "Permite comprar o aprimoramento Medicar."
+},
+"itemLang/{RELIC_ANTIPYRETIC}achievementTips": {
+"en": "Cure PowerUp.",
+"pt": "Aprimoramento Medicar."
+},
+"itemLang/{RELIC_RECYCLE}description": {
+"en": "Allows you to buy the Repair Weapon PowerUp.",
+"pt": "Permite comprar o aprimoramento Consertar Arma."
+},
+"itemLang/{RELIC_RECYCLE}achievementTips": {
+"en": "Repair Weapon PowerUp",
+"pt": "Aprimoramento Consertar Arma."
+},
+"itemLang/{RELIC_GREENEYES}description": {
+"en": "Allows to see and be seen by Lost Dragons.",
+"pt": "Permite ver e aparecer para Dragões Perdidos."
+},
+"itemLang/{BONUS_FROZENSOUL}tips": {
+"en": "Generated only by Darkana XII - Ktullanux Card.",
+"pt": "Gerado apenas por Trevarcana XII - Carta Ktullanux."
+},
+"itemLang/{SORBETTO}tips": {
+"en": "Only found in special places and generated by Arcana XII - The Hanged Man.",
+"pt": "Encontrado apenas em lugares especiais e gerado por Arcana XII - O Enforcado."
+},
+"itemLang/{RELIC_SECRETINO}tips": {
+"en": "Unlocks Masked Man",
+"pt": "Desbloqueia o Mascarado"
+},
+"itemLang/{TP_RELIC_MASK_SUN}description": {
+"en": "Fragment of Loki. Allows to have a health bar.",
+"pt": "Fragmento de Loki. Permite ter uma barra de vida."
+},
+"itemLang/{TP_RELIC_MASK_MOON}description": {
+"en": "Fragment of Loki. Allows XP gems and items to materialise.",
+"pt": "Fragmento de Loki. Permite que Gemas de EXP e itens se materializem."
+},
+"itemLang/{TP_RELIC_MASK_CITY}description": {
+"en": "Fragment of Loki. Allows XP to accumulate and trigger level-ups.",
+"pt": "Fragmento de Loki. Permite acumular EXP e subir de nível."
+},
+"itemLang/{TP_RELIC_MASK_VOLCANO}description": {
+"en": "Fragment of Loki. Allows active and passive weapon slots.",
+"pt": "Fragmento de Loki. Permite ter espaços de arma ativos e passivos."
+},
+"itemLang/{TP_RELIC_MASK_SEAWINDS}description": {
+"en": "Fragment of Loki. Allows you to move the character.",
+"pt": "Fragmento de Loki. Permite movimentar o personagem."
+},
+"itemLang/{TP_RELIC_MASK_STONE}description": {
+"en": "Fragment of Loki. Allows you to accumulate Zeny and kills. Use responsibly.",
+"pt": "Fragmento de Loki. Permite acumular Zeny e abates. Use com sabedoria."
+},
+"itemLang/{TP_RELIC_MASK_BLACK}description": {
+"en": "Fragment of Loki. The beginning of everything.",
+"pt": "Fragmento de Loki. O começo de tudo."
+},
+"arcanaLang/{15}description": {
+"en": "Picking up coin bags from the floor triggers Zeny Fever. Obtaining Zeny restores as many HP.",
+"pt": "Pegar Bolsas de Moedas ativa a Febre de Zeny. Obter Zeny recupera a mesma quantidade de PV."
+},
+"arcanaLang/{12}description": {
+"en": "Freezing enemies generates explosions. Pocket Watches are easier to find. Frost Diver Scrolls could also be found.",
+"pt": "Paralisar inimigos gera explosões. É mais fácil achar Relógios de Bolso. Também é possível achar Pergaminhos de Rajada Congelante."
+},
+"arcanaLang/{0}description": {
+"en": "Halts XP gain. XP Gemstones turn into exploding projectiles. All Treasure Chests contain at least 3 items.",
+"pt": "Interrompe o ganho de EXP. Gemas de EXP viram projéteis explosivos. Todos os Baús contêm pelo menos 3 itens."
+},
+"arcanaLang/{34}description": {
+"en": "Defeating frozen enemies gives bonus MaxHealth, Recovery, and Growth. Triggers a Pocket Watch when health reaches a critically low level.",
+"pt": "Derrotar inimigos paralisados concede bônus de Vida Máx., Recuperação e Crescimento. Ativa um Relógio de Bolso quando a Vida chega a um nível crítico."
+},
+"arcanaLang/{35}description": {
+"en": "Effect depends on random results and player stats. Luck: improves Treasure Chests and Light Sources. Growth: improves XP Gemstones. Greed: improves Zeny pickups. Curse: enemies gain MoveSpeed and Health.",
+"pt": "O efeito depende de atributos do jogador e resultados aleatórios. Sorte: afeta os Baús e Fontes de Luz. Crescimento: afeta as Gemas de EXP. Ganância: afeta o Zeny coletado. Maldição: inimigos ganham Velocidade de Movimento e Vida."
+},
+"arcanaLang/{1000}description": {
+"en": "Gain Hell Judgement after 80 levels.",
+"pt": "Ganha Julgamento Infernal após 80 níveis."
+},
+"arcanaLang/{1001}description": {
+"en": "Gain Cart Cannon! after 80 levels.",
+"pt": "Ganha Canhão de Carrinho após 80 níveis."
+},
+"arcanaLang/{1002}description": {
+"en": "Gain Acid Demonstration after 80 levels.",
+"pt": "Ganha Bomba Ácida após 80 níveis."
+},
+"arcanaLang/{1003}description": {
+"en": "Gain Solar Burst after 80 levels.",
+"pt": "Ganha Explosão Solar após 80 níveis."
+},
+"arcanaLang/{2001}description": {
+"en": "OnRevive: triggers a Greed Scroll.",
+"pt": "Ao Ressuscitar: ativa um Pergaminho de Ganância."
+},
+"arcanaLang/{2003}description": {
+"en": "OnRevive: triggers a Pocket Watch.",
+"pt": "Ao Ressuscitar: ativa um Relógio de Bolso."
+},
+"arcanaLang/{3002}description": {
+"en": "Grants 1 Zeny when taking damage.",
+"pt": "Concede 1 Zeny ao sofrer dano."
+},
+"arcanaLang/{5003}description": {
+"en": "Grants 100 Zeny after defeating a set amount of enemies [1k, 2k, 3k]",
+"pt": "Concede 100 Zeny após derrotar uma quantidade específica de inimigos (mil, 2 mil, 3 mil)."
+},
+"arcanaLang/{5004}description": {
+"en": "Starts a Zeny Fever after defeating a set amount of enemies [1k, 3k, 5k]",
+"pt": "Começa uma Febre de Zeny após derrotar uma quantidade específica de inimigos (mil, 3 mil, 5 mil)."
+},
+"arcanaLang/{6001}description": {
+"en": "HP-Critical: triggers a Fire Wall Scroll.",
+"pt": "Crítico: ativa um Pergaminho de Barreira de Fogo."
+},
+"arcanaLang/{7000}description": {
+"en": "Overheal +16: triggers a Frost Diver Scroll.",
+"pt": "+16 de vida excessiva: ativa Pergaminho de Rajada Congelante."
+},
+"arcanaLang/{7002}description": {
+"en": "Overheal +16: Berserk Potion and Zeny Fever last 1% longer.",
+"pt": "+16 de vida excessiva: Poção da Fúria e Febre de Zeny duram 1% a mais."
+},
+"arcanaLang/{8000}description": {
+"en": "Spawn light sources after gaining a set amount of Zeny [500, 1k, 2k]",
+"pt": "Gera fontes de luz após ganhar uma quantidade específica de Zeny (500, mil, 2 mil)."
+},
+"arcanaLang/{8001}description": {
+"en": "Gains +0.5 Thorns after gaining a set amount of Zeny [1k, 2k, 3k]",
+"pt": "Ganha +0,5 Espinhos após ganhar uma quantidade específica de Zeny (mil, 2 mil, 3 mil)."
+},
+"arcanaLang/{8002}description": {
+"en": "Gains +1 Revive after gaining a set amount of Zeny [1k, 5k, 10k]",
+"pt": "Ganha +1 Ressuscitar após ganhar uma quantidade específica de Zeny (mil, 5 mil, 10 mil)."
+},
+"arcanaLang/{8003}description": {
+"en": "Gains +1 passive weapon slot after gaining a set amount of Zeny [2.5k, 7.5k, 15k]",
+"pt": "Ganha +1 espaço de arma passiva após ganhar uma quantidade específica de Zeny (2,5 mil, 7,5 mil, 15 mil)."
+},
+"arcanaLang/{1203}description": {
+"en": "Triggers a Pocket Watch when Skipping a Level Up.",
+"pt": "Ativa um Relógio de Bolso ao adiar subir de nível."
+},
+"arcanaLang/{22}description": {
+"en": "Halts XP gain. Enemies drop Zeny. Damage is dealt to Zeny instead of HP. A special merchant spawns every minute.",
+"pt": "Interrompe o ganho de EXP. Inimigos concedem Zeny. O dano é causado ao Zeny em vez de aos PV. Um mercador especial aparece a cada minuto."
+},
+"arcanaLang/{41}description": {
+"en": "Defeating enemies with FIRE gives bonus MaxHealth and Might. Triggers a Fire Wall Scroll when health reaches a critically low level.",
+"pt": "Derrotar inimigos com FOGO concede bônus de Vida Máxima e Poder. Ativa um Pergaminho de Barreira de Fogo quando a Vida chega a um nível crítico."
+},
+"arcanaLang/{30}description": {
+"en": "Gives +3 Thorns. Fixes MoveSpeed to +100%. Allows you to walk through walls. Allows you to vacuum Treasure Chests, Light Sources, and Weapons.",
+"pt": "Concede +3 Espinhos. Ganha +100% de Vel. de Mov. Permite atravessar paredes. Permite aspirar Baús, Fontes de Luz e Armas."
+},
+"arcanaLang/{39}description": {
+"en": "Summons undead followers that can evolve if levelled up. If a Reaper Yanku spawns, it becomes your follower immediately instead.",
+"pt": "Invoca seguidores mortos-vivos que evoluem ao subir de nível. Se um Ceifador Ankou surgir, ele vira seu seguidor imediatamente."
+}
+}

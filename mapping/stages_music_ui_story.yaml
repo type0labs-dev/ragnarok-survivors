@@ -1,0 +1,832 @@
+# Ragnarok Survivors - VS -> RO de-para: stages, music, sfx, UI/branding, story/text
+# Companion: mapping/TECH_NOTES.md (verified formats + risk per replacement).
+# Sibling files already decided: characters_weapons.yaml (Antonio=Swordman, Pugnala=Gunslinger,
+# Avatar=Baphomet, Sigma=Valkyrie...), enemies.yaml (The Reaper=Grim Reaper Ankou, Directer=M Loki,
+# The Ender=Gloom Under Night). This file follows those picks.
+#
+# Conventions
+#  - RO BGM numbers = files in "/mnt/data/games/01 - Ragnarok RE/BGM/NN.mp3"; titles read from each
+#    mp3's ID3 tag (verified 2026-10-16). Map->track pairs from data/mp3NameTable.txt (verified).
+#    RO mp3s are 22050 Hz stereo ~80 kbps, 60-350 s, loop as whole files.
+#  - VS music key -> clip comes from the music-library MonoBehaviour resources.assets path_id 12687
+#    (verified string dump). STAGE_DATA.BGM is what plays by default; sideBBGM is the alternate.
+#    For FOREST and CHAPEL the default is the *_B key (VS quirk), so read bgm_normal/bgm_b per key.
+#  - ro_ground_textures: names under data/texture/필드바닥/ (mojibake on disk: ÇÊµå¹Ù´Ú; decode
+#    name.encode('latin1').decode('cp949')) or a map folder under data/texture/. "verify" = folder seen
+#    only in a shallow listing, contents not opened.
+#  - confidence: high / med / low.
+
+stages:
+  - vs_id: FOREST
+    vs_name: Mad Forest
+    ro_region: Payon forest
+    ro_maps: [pay_fild01, pay_fild02, pay_fild03, pay_fild04, pay_fild08]
+    ro_ground_textures: "필드바닥/숲속바닥*.bmp (forest floor x11), 페이욘마을바닥* ; trees/props from texture/나무잡초꽃 (trees-weeds-flowers)"
+    vs_bundle: forest (ForestTexturePacked 512x512 ASTC, 64x64 tile map)
+    bgm_normal: {vs_key: BGM_Forest_B, ro: "03 Peaceful Forest"}   # default track of the stage
+    bgm_b: {vs_key: BGM_Forest, ro: "36 Nano East"}                # pay_fild05-10
+    ptbr_name: "Floresta de Payon"
+    en_name: "Payon Forest"
+    why: "First stage, wooded, bats/zombies -> the first forest every RO player walks. Peaceful Forest IS pay_fild's track."
+    confidence: high
+  - vs_id: LIBRARY
+    vs_name: Inlaid Library
+    ro_region: "Glast Heim - Castle and Chivalry (Rideword books, Raydric)"  # resolved 2026-10-16: monster ecology wins
+    ro_maps: [glast_01, gl_cas01, gl_knt01]
+    ro_ground_textures: "필드바닥/현자마을블럭* (sage-village blocks x11), 현자마을절벽*; shelves from texture/내부소품 (interior props)"
+    vs_bundle: library (LibraryTexturePacked)
+    bgm_normal: {vs_key: BGM_Library, ro: "43 (gl_cas01)"}
+    bgm_b: {vs_key: BGM_Library_B, ro: "44 (gl_knt01)"}           # kh_school / kh_mansion
+    ptbr_name: "Castelo de Glast Heim"
+    en_name: "Glast Heim Castle"
+    why: "Haunted library of a fallen castle -> Glast Heim, with Rideword (living books) and its classic dread tracks."
+    confidence: med
+  - vs_id: WAREHOUSE
+    vs_name: Dairy Plant
+    ro_region: Einbroch (industrial city)
+    ro_maps: [einbroch, einbech, ein_fild01]
+    ro_ground_textures: "필드바닥/기업도시마을* (company-town village x14), 기업도시필드* (x19)"
+    vs_bundle: plant2 (PlantTexturePacked)
+    bgm_normal: {vs_key: BGM_Plant, ro: "86 Steel Me"}
+    bgm_b: {vs_key: BGM_Plant_B, ro: "88 Come in Peace"}           # ein_dun
+    ptbr_name: "Fábrica de Einbroch"
+    en_name: "Einbroch Factory"
+    why: "Factory/warehouse stage -> RO's smog-and-steel city."
+    confidence: high
+  - vs_id: TOWER
+    vs_name: Gallo Tower
+    ro_region: Clock Tower of Al De Baran
+    ro_maps: [c_tower1, c_tower2, c_tower3, c_tower4, alde_dun01]
+    ro_ground_textures: "필드바닥/시계탑던전* (clock-tower dungeon x7), 시계탑던전바닥*, 시계탑내부벽*, 알데바란바닥*"
+    vs_bundle: tower (TowerTexturePacked) + background4 parallax (mountains/stars)
+    bgm_normal: {vs_key: BGM_Tower, ro: "60 Aeon"}
+    bgm_b: {vs_key: BGM_Tower_B, ro: "61 Zingaro"}                 # alde_dun
+    ptbr_name: "Torre do Relógio"
+    en_name: "Clock Tower"
+    why: "Tall tower stage -> the RO tower dungeon; Aeon/Zingaro are its two tracks."
+    confidence: high
+  - vs_id: CHAPEL
+    vs_name: Cappella Magna
+    ro_region: Nameless Island - Cursed Abbey  # resolved: Glast Heim went to the Library
+    ro_maps: [abbey01, abbey02, abbey03, nameless_n]
+    ro_ground_textures: "필드바닥/글래스트바닥* (x9), 글래스트연결바닥*, 글래스트계단, glst-cstle; 저주수도원* (cursed abbey)"
+    vs_bundle: chapel (ChapelTexturePacked) + backgroundx parallax
+    bgm_normal: {vs_key: BGM_Chapel_B, ro: "113 (abbey01)"}    # default track
+    bgm_b: {vs_key: BGM_Chapel, ro: "112 (nameless_n)"}                   # gl_church
+    ptbr_name: "Abadia Amaldiçoada"
+    en_name: "Cursed Abbey"
+    why: "Grand cursed chapel -> GH church; story hub of VS = story hub of RO horror."
+    confidence: high
+  - vs_id: MOLISE
+    vs_name: Il Molise
+    ro_region: Umbala (Utan tribe village)  # resolved: Molisano villagers -> Wootan/Utan
+    ro_maps: [umbala, um_fild01]
+    ro_ground_textures: "필드바닥/해변모래바닥* (beach sand x7), 해변풀바닥*; or texture/comodo"
+    vs_bundle: bg_molise (single tiled 1024x1024 background, no tilemap)
+    bgm_normal: {vs_key: BGM_Pizza, ro: "68 (umbala)"}
+    bgm_b: {vs_key: BGM_Pizza, ro: "68 (umbala)"}
+    ptbr_name: "Festa de Umbala"
+    en_name: "Umbala Festival"
+    why: "Joke/bonus stage -> RO's party town (casino, dancers)."
+    confidence: med
+  - vs_id: SINKING
+    vs_name: Moongolow
+    ro_region: Byalan Island (Undersea Tunnel)
+    ro_maps: [iz_dun00, iz_dun01, iz_dun02, iz_dun03, iz_dun04]
+    ro_ground_textures: "필드바닥/iz* (x4), 해변물바닥*, 해안경계바닥*; texture/izlude"
+    vs_bundle: water (WaterTexturePacked) + backgroundw + bg_water
+    bgm_normal: {vs_key: BGM_Water, ro: "29 Be Nice 'n Easy"}       # iz_dun00-02
+    bgm_b: {vs_key: BGM_Water_B, ro: "49 Watery Grave"}            # iz_dun03-05
+    ptbr_name: "Ilha de Byalan"
+    en_name: "Byalan Island"
+    why: "Drowned stage with fishmen/mermen -> RO's underwater dungeon."
+    confidence: high
+  - vs_id: GREENACRES
+    vs_name: Green Acres
+    ro_region: Prontera fields
+    ro_maps: [prt_fild00, prt_fild02, prt_fild03, prt_fild08]
+    ro_ground_textures: "필드바닥/prt_초원* (prairie x8), prt_흙* (dirt), prt_언덕* (hills)"
+    vs_bundle: 02greenacres (ForestTexturePacked copy) ; STAGE_DATA BGTextureName bg_forest
+    bgm_normal: {vs_key: BGM_GreenAcres, ro: "05 Tread on the Ground"}
+    bgm_b: {vs_key: BGM_GreenAcres, ro: "05 Tread on the Ground"}
+    extra_audio: {vs_key: BGM_Glitch, ro: "keep VS (glitch gag) or 997 Silence"}
+    ptbr_name: "Campos de Prontera"
+    en_name: "Prontera Fields"
+    why: "Open green field -> the porings' meadow outside Prontera."
+    confidence: high
+  - vs_id: BONEZONE
+    vs_name: The Bone Zone
+    ro_region: Niflheim (realm of the dead)
+    ro_maps: [niflheim, nif_fild01, nif_fild02]
+    ro_ground_textures: "필드바닥/니플헤임바닥* (x25)"
+    vs_bundle: bg_bonezone (+bg_bonen) tiled 1024x1024 background, no tilemap
+    bgm_normal: {vs_key: BGM_Bones, ro: "84 Christmas in the 13th Month"}
+    bgm_b: {vs_key: BGM_Bones_B, ro: "85 Dancing Christmas in the 13th Month"}
+    ptbr_name: "Niflheim"
+    en_name: "Niflheim"
+    why: "Skeleton-only stage -> RO's land of the dead."
+    confidence: high
+  - vs_id: RASH
+    vs_name: Boss Rash
+    ro_region: Endless Tower (+ Izlude Arena)
+    ro_maps: ["1@tower", "2@tower", e_tower, arena_room]
+    ro_ground_textures: "필드바닥/아레나바닥* (arena floor x6); Endless Tower textures: verify texture/ subfolders"
+    vs_bundle: rash (RashTexturePacked)
+    bgm_normal: {vs_key: BGM_BossRush, ro: "123 Into The Arena!"}
+    bgm_b: {vs_key: BGM_BossRush_B, ro: "125 Forbidden Anguish"}   # 1@tower
+    ptbr_name: "Torre Sem Fim"
+    en_name: "Endless Tower"
+    why: "Boss-after-boss stage -> RO's MVP-per-floor tower."
+    confidence: high
+  - vs_id: MACHINE
+    vs_name: Eudaimonia M.
+    ro_region: Juperos ruins (Ymir's Heart machinery)
+    ro_maps: [jupe_core, jupe_area1, jupe_cave]
+    ro_ground_textures: "no Juperos set in 필드바닥 - verify texture/ (try 'tera', 'masin' = 'machine god')"
+    vs_bundle: machine (MachineTexturePacked) + background6
+    bgm_normal: {vs_key: BGM_Machine, ro: "89 We have Lee but you don't have"}
+    bgm_b: {vs_key: BGM_Machine, ro: "89 We have Lee but you don't have"}  # sideBBGM is null in STAGE_DATA
+    ptbr_name: "Ruínas de Juperos"
+    en_name: "Juperos Ruins"
+    why: "The Eudaimonia Machine -> Juperos and the Ymir's Heart engine (lore reframe below)."
+    confidence: med
+  - vs_id: STAGEX
+    vs_name: Holy Forbidden
+    ro_region: Valhalla / Valkyrie's hall
+    ro_maps: [valkyrie]
+    ro_ground_textures: "verify (valkyrie.rsw textures not located; fallback prt_도시 marble)"
+    vs_bundle: stage5wip (ChapelTexturePacked copy, 256x32 vertical map) + backgroundx
+    bgm_normal: {vs_key: BGM_Chapet, ro: "09 Great Honor"}
+    bgm_b: {vs_key: BGM_Chapet, ro: "09 Great Honor"}
+    ptbr_name: "Salão de Valhalla"
+    en_name: "Valhalla"
+    why: "Forbidden holy climb above the chapel -> the Valkyrie's hall (rebirth = 'forbidden' level). Matches Sigma=Valkyrie."
+    confidence: med
+  - vs_id: WHITEOUT
+    vs_name: Whiteout
+    ro_region: Lutie (Christmas town) / Ice Cave
+    ro_maps: [xmas, xmas_fild01, ice_dun01]
+    ro_ground_textures: "필드바닥/xmas_눈바닥* (snow floor x6), xmas_블럭* (x12), 얼음동굴_얼음*"
+    vs_bundle: whiteout (MoonspellTexturePacked 2048x1024)
+    bgm_normal: {vs_key: BGM_Snow, ro: "59 Theme of Lutie"}
+    bgm_b: {vs_key: BGM_Snow, ro: "96 Yetit Petit"}  # same VS key; use only if a 2nd clip slot is ever split
+    ptbr_name: "Nevasca de Lutie"
+    en_name: "Lutie Blizzard"
+    why: "Snow stage -> RO's snow town."
+    confidence: high
+  - vs_id: EX_LYCAEUM
+    vs_name: Lycaeum
+    ro_region: Illusion of Under Water  # resolved: deep-sea monster set
+    ro_maps: [abyss_01, abyss_02, abyss_03]
+    ro_ground_textures: "필드바닥/어비스바닥* (x10), 어비스동굴*; texture/abyss"
+    vs_bundle: lycaeum (+lycaeum_support), texture 'Lycaeum' 1024x1024, 1280x2111 tile map
+    bgm_normal: {vs_key: BGM_Seafloor, ro: "100 Abyss"}
+    bgm_b: {vs_key: BGM_Seafloor, ro: "100 Abyss"}
+    phase_tracks:   # not in MUSIC_DATA; in music library as BGM_Sea1..3 (intro+loop pairs)
+      BGM_Sea1: "100 Abyss"
+      BGM_Sea2: "65 Into the Abyss"
+      BGM_Sea3: "156 Beyond The Grave"
+    ptbr_name: "Ilusão Submersa"
+    en_name: "Illusion of Under Water"
+    why: "Deep watery late-game stage -> RO has no 'undersea temple'; Abyss Lakes is the drowned, dragon-guarded deep."
+    confidence: med
+  - vs_id: COOP
+    vs_name: The Coop
+    ro_region: Hugel (farm village by the sea)
+    ro_maps: [hugel, hu_fild01]
+    ro_ground_textures: "필드바닥/휘겔필드* (x47), 휘겔인던필드*"
+    vs_bundle: coop (CoopTexturePacked 960x960, 32x32 map)
+    bgm_normal: {vs_key: BGM_TheCoop, ro: "93 Latinnova"}
+    bgm_b: {vs_key: BGM_TheCoop, ro: "93 Latinnova"}
+    ptbr_name: "Granja de Hugel"
+    en_name: "Hugel Farm"
+    why: "Chicken-farm stage -> RO's rural farm village (cows/chickens: se_chick_*, cow_* wavs exist)."
+    confidence: med
+  - vs_id: SPAZIE
+    vs_name: Space 54
+    ro_region: Ash Vacuum - Splendide (the 'other world' past the Rift)
+    ro_maps: [spl_fild01, spl_fild02, mid_camp]
+    ro_ground_textures: "texture/splen (verify)"
+    vs_bundle: space (SpaceTexturePacked 960x480) + backgroundspace; bg texture hStars1
+    bgm_normal: {vs_key: BGM_SpaceDude, ro: "128 Splendide Dreams"}
+    bgm_b: {vs_key: BGM_SpaceDude, ro: "128 Splendide Dreams"}
+    ptbr_name: "Vácuo de Cinzas"
+    en_name: "Ash Vacuum"
+    why: "Alien starscape -> RO's alien dimension. Weak thematic fit; RO has no space map."
+    confidence: low
+  - vs_id: CARLOCART
+    vs_name: Carlo Cart
+    ro_region: Mt. Mjolnir Dead Pit (abandoned coal mine)
+    ro_maps: [mjo_dun01, mjo_dun02, mjo_dun03]
+    ro_ground_textures: "필드바닥/폐광던전* (abandoned-mine dungeon x9) - exact match"
+    vs_bundle: carlocart (LaborratoryTexturePacked 960x960 copy, 128x76 map)
+    bgm_normal: {vs_key: BGM_Carts, ro: "27 Dreamer's Dream"}
+    bgm_b: {vs_key: BGM_Carts, ro: "27 Dreamer's Dream"}
+    ptbr_name: "Mina Abandonada"
+    en_name: "Dead Pit"
+    why: "Minecart rails -> RO's coal mine with carts (Dead Pit)."
+    confidence: high
+  - vs_id: LABORRATORY
+    vs_name: Laborratory
+    ro_region: Lighthalzen Bio Lab (Somatology Lab)
+    ro_maps: [lhz_dun01, lhz_dun02, lhz_dun03, lhz_dun_n]
+    ro_ground_textures: "texture/lighthalzen (verify)"
+    vs_bundle: laborratory (LaborratoryTexturePacked 960x960, 128x76 map)
+    bgm_normal: {vs_key: BGM_Labor, ro: "92 Naive Rave"}
+    bgm_b: {vs_key: BGM_Labor, ro: "92 Naive Rave"}
+    boss_layers:   # clips bgm_elrond_boss0..5 (35-50 s) bound to BGM_Labor in the music library
+      boss0: "124 Stranger Aeons"
+      boss1: "103 Invisible Invasion"
+      boss2: "159 Judgement"
+      boss3: "165 Apex Fortress"
+      boss4: "166 Brutal Ritual"
+      boss5: "158 Indelible Scars"
+    ptbr_name: "Laboratório de Lighthalzen"
+    en_name: "Bio Lab"
+    why: "Lab stage -> the most famous RO lab."
+    confidence: high
+  - vs_id: EX_WESTWOODS
+    vs_name: Westwoods
+    ro_region: Rock Ridge (frontier town)  # resolved: bandit/coyote set
+    ro_maps: [rockrdg1, harboro1]
+    ro_ground_textures: "필드바닥/움발라던전* (x8); field set: verify"
+    vs_bundle: westwoods (Westwoods_Tileset2 960x960, 160x66 map) + background_westwoods
+    bgm_normal: {vs_key: BGM_Westwoods, ro: "172 (rockrdg1)"}
+    bgm_b: {vs_key: BGM_Westwoods, ro: "171 (harboro1)"}
+    ptbr_name: "Rock Ridge"
+    en_name: "Rock Ridge"
+    why: "Wild western woods with critters -> RO's tribal jungle."
+    confidence: low
+  - vs_id: BATCOUNTRY
+    vs_name: Bat Country
+    ro_region: Geffen Dungeon (Dracula)  # resolved: Payon already is Mad Forest
+    ro_maps: [gef_dun00, gef_dun01]
+    ro_ground_textures: "필드바닥/동굴던전* (cave dungeon), 동굴마을_바닥*; pe-wall*"
+    vs_bundle: forest_batcountry (ForestTexturePacked copy) ; bg_white
+    bgm_normal: {vs_key: BGM_BatCountry, ro: "21 (gef_dun01)"}
+    bgm_b: {vs_key: BGM_BatCountry, ro: "21 (gef_dun01)"}  # pay_dun03-04, only if split
+    ptbr_name: "Calabouço de Geffen"
+    en_name: "Geffen Dungeon"
+    why: "Bats everywhere, sibling of Mad Forest -> the cave under Payon."
+    confidence: high
+  - vs_id: ASTRALSTAIR
+    vs_name: Astral Stair
+    ro_region: Odin Temple
+    ro_maps: [odin_tem01, odin_tem02, odin_tem03]
+    ro_ground_textures: "texture/odin (verify)"
+    vs_bundle: astralstair (AstralStairTexturePacked) + background_astral; bg hStars1
+    bgm_normal: {vs_key: BGM_AstralStair, ro: "110 Kingdom Memories"}
+    bgm_b: {vs_key: BGM_AstralStair, ro: "110 Kingdom Memories"}
+    ptbr_name: "Templo de Odin"
+    en_name: "Odin Temple"
+    why: "Stair in the sky -> floating temple of the Allfather."
+    confidence: high
+  - vs_id: EX_MAZERELLA
+    vs_name: Mazerella
+    ro_region: Labyrinth Forest
+    ro_maps: [prt_maze01, prt_maze02, prt_maze03]
+    ro_ground_textures: "필드바닥/숲속바닥*, prt_초원*; maze walls = trees"
+    vs_bundle: mazerella (+mazerella_support), Mazerella_Tileset2 640x448, 272x272 map
+    bgm_normal: {vs_key: BGM_Mazerella, ro: "16 Labyrinth"}
+    bgm_b: {vs_key: BGM_Mazerella, ro: "16 Labyrinth"}
+    ptbr_name: "Floresta Labirinto"
+    en_name: "Labyrinth Forest"
+    why: "Maze stage -> RO's maze forest (Baphomet's lair; matches Avatar=Baphomet)."
+    confidence: high
+  - vs_id: TOWERBRIDGE
+    vs_name: Tiny Bridge
+    ro_region: Amatsu  # resolved: kamaitachi/swordian set
+    ro_maps: [amatsu, ama_dun01, ama_fild01]
+    ro_ground_textures: "texture/bifrost (verify)"
+    vs_bundle: towerbridge (TowerTexturePacked copy) + background4
+    bgm_normal: {vs_key: BGM_Bridge, ro: "77 (ama_dun01)"}
+    bgm_b: {vs_key: BGM_Bridge, ro: "76 (amatsu)"}
+    ptbr_name: "Ponte de Amatsu"
+    en_name: "Amatsu Bridge"
+    why: "Narrow bridge in the sky -> Norse rainbow bridge."
+    confidence: med
+  - vs_id: DEVILROOM
+    vs_name: "(hidden) Devil Room"
+    ro_region: Morroc ruins - Satan Morroc's lair
+    ro_maps: [moc_fild20, moc_fild21, moc_fild22]
+    ro_ground_textures: "필드바닥/mocr_맨땅* (ruined bare ground x15), mocr-wall*, mocr_화석*"
+    vs_bundle: devilroom (DevilRoomTexturePacked 960x960, 32x512 map) + backgrounddevil
+    bgm_normal: {vs_key: BGM_Devil, ro: "121 Outer Breath"}  # intro+loop pair
+    bgm_b: {vs_key: BGM_Devil, ro: "121 Outer Breath"}
+    ptbr_name: "Covil de Satan Morroc"
+    en_name: "Satan Morroc's Lair"
+    why: "Hidden devil boss room -> RO's devil incarnate."
+    confidence: high
+
+music:
+  tracks:
+  - {vs_id: EXTRA_BGM_ELROND_BOSS0, clip: "bgm_elrond_boss0", ro: "40 Fear...", why: "auditoria 16/10: clipe que estava sem faixa do RO"}
+  - {vs_id: EXTRA_BGM_ELROND_BOSS1, clip: "bgm_elrond_boss1", ro: "65 Into the Abyss", why: "auditoria 16/10: clipe que estava sem faixa do RO"}
+  - {vs_id: EXTRA_BGM_ELROND_BOSS2, clip: "bgm_elrond_boss2", ro: "102 Erebos' Prelude", why: "auditoria 16/10: clipe que estava sem faixa do RO"}
+  - {vs_id: EXTRA_BGM_ELROND_BOSS3, clip: "bgm_elrond_boss3", ro: "159 Judgement", why: "auditoria 16/10: clipe que estava sem faixa do RO"}
+  - {vs_id: EXTRA_BGM_ELROND_BOSS4, clip: "bgm_elrond_boss4", ro: "166 Brutal Ritual", why: "auditoria 16/10: clipe que estava sem faixa do RO"}
+  - {vs_id: EXTRA_BGM_ELROND_BOSS5, clip: "bgm_elrond_boss5", ro: "165 Apex Fortress", why: "auditoria 16/10: clipe que estava sem faixa do RO"}
+  - {vs_id: EXTRA_BGM_LYCAEUM_PHASE1_INTRO, clip: "bgm_lycaeum-phase1_intro", ro: "124 Stranger Aeons", why: "auditoria 16/10: clipe que estava sem faixa do RO"}
+  - {vs_id: EXTRA_BGM_LYCAEUM_PHASE1_LOOP, clip: "bgm_lycaeum-phase1_loop", ro: "124 Stranger Aeons", why: "auditoria 16/10: clipe que estava sem faixa do RO"}
+  - {vs_id: EXTRA_BGM_LYCAEUM_PHASE2_INTRO, clip: "bgm_lycaeum-phase2_intro", ro: "162 Dark Light", why: "auditoria 16/10: clipe que estava sem faixa do RO"}
+  - {vs_id: EXTRA_BGM_LYCAEUM_PHASE2_LOOP, clip: "bgm_lycaeum-phase2_loop", ro: "162 Dark Light", why: "auditoria 16/10: clipe que estava sem faixa do RO"}
+  - {vs_id: EXTRA_BGM_LYCAEUM_PHASE3_INTRO, clip: "bgm_lycaeum-phase3_intro", ro: "156 Beyond The Grave", why: "auditoria 16/10: clipe que estava sem faixa do RO"}
+  - {vs_id: EXTRA_BGM_LYCAEUM_PHASE3_LOOP, clip: "bgm_lycaeum-phase3_loop", ro: "156 Beyond The Grave", why: "auditoria 16/10: clipe que estava sem faixa do RO"}
+  - {vs_id: EXTRA_BGM_LYCAEUM_ALL_LOOP, clip: "bgm_lycaeum-all_loop", ro: "124 Stranger Aeons", why: "auditoria 16/10: clipe que estava sem faixa do RO"}
+  - {vs_id: EXTRA_BGM_LYCAEUM_FULL, clip: "bgm_lycaeum-full", ro: "124 Stranger Aeons", why: "auditoria 16/10: clipe que estava sem faixa do RO"}
+  - {vs_id: EXTRA_BGM_LIBRARY, clip: "bgm_library", ro: "28 You're in ruins", why: "auditoria 16/10: clipe que estava sem faixa do RO"}
+  - {vs_id: EXTRA_BGM_ELROND_SPOOPY, clip: "bgm_elrond_spoopy", ro: "160 Jittering Nightmare", why: "auditoria 16/10: clipe que estava sem faixa do RO"}
+  - {vs_id: EXTRA_BGM_SPOOPY2, clip: "bgm_spoopy2", ro: "177 mysterious mansion", why: "auditoria 16/10: clipe que estava sem faixa do RO"}
+  - {vs_id: EXTRA_BGM_GLITCH, clip: "bgm_glitch", ro: "150 Uncanny Dreams", why: "auditoria 16/10: clipe que estava sem faixa do RO"}
+  - {vs_id: EXTRA_BGM_ELROND_WIP, clip: "bgm_elrond_wip", ro: "41 Rag All Night Long", why: "auditoria 16/10: clipe que estava sem faixa do RO"}
+  - {vs_id: EXTRA_BGM_THEENDINTRO, clip: "bgm_theendintro", ro: "04 I miss you", why: "auditoria 16/10: clipe que estava sem faixa do RO"}
+  - {vs_id: EXTRA_BGM_THEENDMAIN, clip: "bgm_theendmain", ro: "01 Title", why: "auditoria 16/10: clipe que estava sem faixa do RO"}
+  - {vs_id: EXTRA_BGM_PROOOOT, clip: "bgm_proooot", ro: "52 Ready~", why: "auditoria 16/10: clipe que estava sem faixa do RO"}
+  - {vs_id: EXTRA_VS_MUSIC_V04_01, clip: "vs_music_v04-01", ro: "03 Peaceful Forest", why: "auditoria 16/10: clipe que estava sem faixa do RO"}
+  # All 46 MUSIC_DATA ids. clip = AudioClip name(s) from music library (resources.assets 12687).
+  # musicLang/{id}title is the on-screen title: rename to the RO title; author field -> "SoundTeMP".
+  - {vs_id: BGM_Forest,        vs_title: "The Beginning",            clip: bgm_will_beginning,                        ro: "03 Peaceful Forest"}
+  - {vs_id: BGM_Forest_B,      vs_title: "Forest Night Fever",       clip: bgm_vica_01,                               ro: "36 Nano East"}
+  # NOTE: FOREST plays BGM_Forest_B by default. If the iconic Payon track should be the default, swap the two rows.
+  - {vs_id: BGM_Library,       vs_title: "Reincarnated Echoes",      clip: bgm_elrond_library,                        ro: "43 (gl_cas01)"}
+  - {vs_id: BGM_Library_B,     vs_title: "Libro Inferno",            clip: bgm_vica_02,                               ro: "44 (gl_knt01)"}
+  - {vs_id: BGM_Plant,         vs_title: "Iron Green Intent",        clip: bgm_elrond_plant,                          ro: "86 Steel Me"}
+  - {vs_id: BGM_Plant_B,       vs_title: "It's Raining Minotaurs",   clip: bgm_vica_03,                               ro: "88 Come in Peace"}
+  - {vs_id: BGM_Tower,         vs_title: "Gaze up at the Stars",     clip: bgm_elrond_tower,                          ro: "60 Aeon"}
+  - {vs_id: BGM_Tower_B,       vs_title: "Castle People",            clip: bgm_vica_04,                               ro: "61 Zingaro"}
+  - {vs_id: BGM_Chapel,        vs_title: "Before Concession",        clip: bgm_elrond_chapel,                         ro: "112 (nameless_n)"}
+  - {vs_id: BGM_Chapel_B,      vs_title: "I'm Every Reaper",         clip: bgm_vica_05,                               ro: "113 (abbey01)"}
+  - {vs_id: BGM_Pizza,         vs_title: "Vempair Survaivors",       clip: bgm_elrond_pizza,                          ro: "68 (umbala)"}
+  - {vs_id: BGM_Water,         vs_title: "When the Clouds Drown",    clip: bgm_elrond_water,                          ro: "29 Be Nice 'n Easy"}
+  - {vs_id: BGM_Water_B,       vs_title: "Barely Staying Alive",     clip: bgm_vica_07,                               ro: "49 Watery Grave"}
+  - {vs_id: BGM_GreenAcres,    vs_title: "No Mortals Allowed",       clip: bgm_elrond_forest,                         ro: "05 Tread on the Ground"}
+  - {vs_id: BGM_Bones,         vs_title: "Unholy Invocation",        clip: bgm_elrond_bone,                           ro: "84 Christmas in the 13th Month"}
+  - {vs_id: BGM_Bones_B,       vs_title: "Born to be Undead",        clip: bgm_vica_09,                               ro: "85 Dancing Christmas in the 13th Month"}
+  - {vs_id: BGM_BossRush,      vs_title: "Needs More Fighting",      clip: bgm_elrond_fighting,                       ro: "123 Into The Arena!"}
+  - {vs_id: BGM_BossRush_B,    vs_title: "I Might Survive",          clip: bgm_vica_10,                               ro: "125 Forbidden Anguish"}
+  - {vs_id: BGM_Snow,          vs_title: "Remedy in the Snow",       clip: bgm_elrond_snow,                           ro: "59 Theme of Lutie / Snow In My Heart"}
+  - {vs_id: BGM_SpaceDude,     vs_title: "Moving the sun and the other stars", clip: [bgm_elrond_spacedude_intro, bgm_elrond_spacedude], ro: "128 Splendide Dreams"}
+  - {vs_id: BGM_Carts,         vs_title: "Catch you at Carlo's",     clip: [bgm_elrond_carts_intro, bgm_elrond_carts], ro: "27 Dreamer's Dream"}
+  - {vs_id: BGM_Labor,         vs_title: "Awe of the Unknown",       clip: [bgm_elrond_lab_intro, bgm_elrond_lab, "bgm_elrond_boss0..5"], ro: "92 Naive Rave (+ boss layers, see stages.LABORRATORY)"}
+  - {vs_id: BGM_TheCoop,       vs_title: "Martes de poncle",         clip: [bgm_elrond_tuesday_intro, bgm_elrond_tuesday_loop], ro: "93 Latinnova"}
+  - {vs_id: BGM_Westwoods,     vs_title: "Killer Squiller",          clip: [bgm_elrond_squirrel_intro, bgm_elrond_squirrel_loop], ro: "172 (rockrdg1)"}
+  - {vs_id: BGM_Seafloor,      vs_title: "Murder on the Seafloor",   clip: "bgm_lycaeum-full (+BGM_Sea1..3 phase pairs)", ro: "100 Abyss"}
+  - {vs_id: BGM_BatCountry,    vs_title: "Mighty Illusion",          clip: bgm_vica_08,                               ro: "21 (gef_dun01)"}
+  - {vs_id: BGM_AstralStair,   vs_title: "You only happen once",     clip: bgm_vica_11,                               ro: "110 Kingdom Memories"}
+  - {vs_id: BGM_Mazerella,     vs_title: "Dancing Widow",            clip: bgm_vica_12,                               ro: "16 Labyrinth"}
+  - {vs_id: BGM_Bridge,        vs_title: "Roaring Thunder",          clip: bgm_elrond_bridge,                         ro: "77 (ama_dun01)"}
+  # character-unlocked tracks: tie to the class the character became (characters_weapons.yaml)
+  - {vs_id: BGM_RedBlue,       vs_title: "Red & Blue",      unlock: PUGNALA (Gunslinger),     clip: bgm_elrond_redblue, ro: "132 March with Irish Whistle", why: "job_gun.rsw (Gunslinger job room)"}
+  - {vs_id: BGM_Gatti,         vs_title: "Gatti Amari",     unlock: GIOVANNA (Alchemist),     clip: bgm_elrond_gatti,   ro: "39 Theme of Al de Baran", why: "Alchemist guild is in Al De Baran (Tower stage uses 60/61, no clash)"}
+  - {vs_id: BGM_Mana,          vs_title: "Song Of Mana",    unlock: POPPEA (Wanderer),        clip: bgm_elrond_mana,    ro: "64 One Fine Day", why: "light gef_fild tune for the bard/dancer line (Comodo track 62 already used by Il Molise)"}
+  - {vs_id: BGM_Peggi,         vs_title: "Peji Eighteen",   unlock: CONCETTA (Sorcerer),      clip: bgm_elrond_peggi,   ro: "13 Theme of Geffen", why: "mage city"}
+  - {vs_id: BGM_Vento,         vs_title: "Moms are Tough",  unlock: ASSUNTA (Assassin Cross), clip: bgm_elrond_vento,   ro: "24 Desert", why: "assassin guild in the Morroc desert (moc_fild)"}
+  - {vs_id: BGM_Solution,      vs_title: "Sole Solution",   unlock: SIGMA (Valkyrie),         clip: bgm_elrond_solution, ro: "10 Divine Grace", why: "odin_past / Prontera church; holy"}
+  - {vs_id: BGM_Bestiary,      vs_title: "Dust Elementals", unlock: RELIC_GOUDA, clip: bgm_elrond_dust,   ro: "12 Streamside", why: "calm prt_fild tune for the bestiary/menu-like screens; also used by many Adventures"}
+  - {vs_id: BGM_Secret,        vs_title: "Temptation of the Occult", unlock: RELIC_SECRETS, clip: bgm_elrond_secret, ro: "42 Curse'n Pain", why: "Glast Heim dungeon; secrets = cursed knowledge"}
+  - {vs_id: BGM_Devil,         vs_title: "Call of the Bloodmoon", clip: [bgm_elrond_devil_intro, bgm_elrond_devil_loop], ro: "121 Outer Breath"}
+  - {vs_id: BGM_Machine,       vs_title: "The Eudaimonia Machine", clip: bgm_elrond_machine, ro: "89 We have Lee but you don't have"}
+  - {vs_id: BGM_Chapet,        vs_title: "Before Concession X", clip: bgm_elrond_chapet, ro: "09 Great Honor"}
+  - {vs_id: BGM_Spoopy,        vs_title: "It Stares Back",  unlock: AVATAR (Baphomet), clip: "bgm_elrond_spoopy (+BGM_Spoopy2 bgm_spoopy2)", ro: "45 Don't Piss me Off", why: "moc_fild16 / que_moc_16 (Satan-cult quest map)"}
+  - {vs_id: BGM_Flame,         vs_title: "Extinguished Flame", unlock: AVATAR (Baphomet), clip: bgm_elrond_flame, ro: "106 Sleeping Volcano", why: "Thor volcano"}
+  # Foscari kazoo covers (base bundles, DLC-themed). Low priority; RO jokes:
+  - {vs_id: BGM_Foscari_KAZ,   vs_title: "Kazoo of the Foscari",  clip: bgm_elrond_foscariK,   ro: "66 Wanna Be Free!!"}
+  - {vs_id: BGM_Magic_KAZ,     vs_title: "An Introduction to Kazoo", clip: bgm_elrond_magicK, ro: "50 Out of Curiosity"}
+  - {vs_id: BGM_War_KAZ,       vs_title: "Slaying Kazoos",        clip: bgm_elrond_warK,       ro: "22 Backattack!!"}
+  - {vs_id: BGM_Deception_KAZ, vs_title: "Hide and Kazoo",        clip: bgm_elrond_deceptionK, ro: "51 Believe in myself"}
+  # Clips outside MUSIC_DATA (music library only):
+  extra_clips:
+    BGM_Library_Legacy (bgm_library): "43 (same as BGM_Library)"
+    BGM_Glitch: "keep VS (22050 Hz glitch gag) - or 997 Silence"
+    bgm_proooot: "keep (2 s joke sfx)"
+    bgm_TheEndIntro: "112 Good Night"
+    bgm_TheEndMain: "01 Title - the RO login theme closes the game (homage)"
+    VS_Music_v04-01 (bundle vs_music_v04-01): "duplicate of bgm_will_beginning (same 908896 B) -> same as BGM_Forest"
+  menu_and_title:
+    title_jingle: "sfx_titleIntro / sfx_titleIntroB (5.5 s, resources.assets) -> first 5.5 s of 01 Title + fade"
+    note: "VS has no MUSIC_DATA menu track; menus run on sfx + last BGM. If a menu track is ever wired, use 01 Title (login screen) or 08 Theme of Prontera."
+  album:
+    ALBUM_DATA titles: "Vampire Survivors Side A/B/C -> 'Ragnarok Online BGM - Lado A/B/C' (EN 'Side A/B/C'); author SoundTeMP"
+    covers: "vs_ingame_album_vs_sidea/b/c bundles (256x256 ASTC) -> RO login art / loading screens"
+
+sfx:
+  strategy: |
+    187 AudioClips live in data.unity3d/resources.assets with bytes in the LOOSE file Data/resources.resource
+    (16.5 MB, FSB5; mostly IMA ADPCM 44.1 kHz). Replace by appending a new FSB5 to resources.resource and
+    repointing that AudioClip's m_Resource offset/size (+ m_Length/m_Channels/m_Frequency/m_CompressionFormat)
+    with unitypatch.replace_object on resources.assets. Long jingles live in their own bundles (sfx_treasure_*,
+    sfx_wind, sfx_geiger*). RO wavs are short PCM .wav at the top of data/wav/ (1962 + subfolder effect/).
+    Mix: RO sfx are quieter/low-rate (mostly 22 kHz) - normalize to the VS clip's RMS so balance stays.
+    Gameplay-critical feedback (gem pickup, hit) must keep similar length; never make a per-hit clip longer.
+  mappings:
+    # vs clip                    -> RO wav (data/wav/...)                        notes
+    sfx_enemyHit:                {ro: "_enemy_hit_normal1.wav (rotate _2.._4)",  confidence: high}
+    sfx_gem:                     {ro: "se_ding1.wav",                            confidence: med, note: "XP gem pickup; very frequent -> keep < 0.3 s"}
+    sfx_littlepickup:            {ro: "se_equip_item_01.wav",                    confidence: med}
+    sfx_coin_double4:            {ro: "se_get_coin.wav",                         confidence: high}
+    sfx_itemDrop:                {ro: "se_equip_item_03.wav",                    confidence: low}
+    sfx_levelup:                 {ro: "levelup.wav",                             confidence: high, note: "THE iconic RO level-up"}
+    sfx_levelupB:                {ro: "levelup.wav + complete.wav tail",         confidence: med}
+    sfx_autoLevel / sfx_autoLB:  {ro: "levelup.wav (shortened)",                 confidence: med}
+    sfx_treasure_found / _foundB: {ro: "tming_success.wav",                      confidence: med}
+    sfx_treasure_1/2/3 (+B) bundles: {ro: "roulette.wav loop + complete.wav ending, stretched to 9.6/14.6/19.1 s", confidence: med, note: "chest jingle length tracks the chest video; keep durations"}
+    sfx_victory1 / sfx_victory2: {ro: "complete.wav / welcome.wav",              confidence: med}
+    sfx_gameOver / sfx_gameOverB: {ro: "dying.wav (+ die_male.wav)",             confidence: med}
+    sfx_deathscream / sfx_death_4: {ro: "die_male.wav / die_novice_female.wav",  confidence: med}
+    sxf_loss:                    {ro: "damage_male.wav",                         confidence: low}
+    sfx_potBreak:                {ro: "_stone_explosion.wav",                    confidence: med, note: "brazier/light-source break"}
+    sfx_sounds_pause7_in/out, sfx_sounds_interaction13: {ro: "버튼소리.wav (button)",   confidence: high}
+    sfx_error13 / sfx_KeyWrong:  {ro: "취소.wav (cancel)",                       confidence: high}
+    sfx_titleIntro/B:            {ro: "BGM 01 Title first 5.5 s",                confidence: med}
+    sfx_secret:                  {ro: "se_organ01.wav",                          confidence: low}
+    sfx_bell2 / belltoll / sfx_evilgong: {ro: "se_prtchbell_01..03.wav (Prontera church bells)", confidence: high}
+    sfx_wingsA / sfx_wingsB:     {ro: "monster_feather.wav",                     confidence: med}
+    sfx_frostimpact:             {ro: "_frozen_explosion.wav",                   confidence: high}
+    sfx_lightningimpact(Low) / sfx_mlightning1: {ro: "chainlight.wav (or effect/ Lord of Vermilion/Thunderstorm - verify)", confidence: med}
+    sfx_guns1..3 / sfx_weapon_singleshot*: {ro: "gunfire.wav, _hit_권총.wav (pistol), _hit_샷건.wav (shotgun)", confidence: high}
+    sfx_javelin / sfx_javelin2:  {ro: "attack_spear.wav",                        confidence: med}
+    sfx_wpn_punch2/4:            {ro: "_hit_fist1..4.wav",                       confidence: high}
+    sfx_projectile_magic*:       {ro: "effect/ bolt sounds (Fire/Cold/Lightning Bolt) - verify names in data/wav/effect/", confidence: low}
+    sfx_exp* / sfx_explo_*:      {ro: "_stone_explosion.wav, effect/ Meteor Storm/Magnum Break - verify", confidence: low}
+    sfx_sounds_powerup2/9/18 / Powerup / sfx_PowerUp12: {ro: "_heal_effect.wav", confidence: med}
+    sfx_dice_shake / sfx_wheelOfFortuneTick / _Fanfare: {ro: "roulette.wav / complete.wav", confidence: med}
+    Cat1..5 / CatE:              {ro: "se_cat01.wav",                            confidence: med}
+    sfx_wind bundle (72 s, Whiteout ambience): {ro: "se_field_wind_01..06.wav looped / se_moc_wind_strong.wav", confidence: med}
+    sfx_geiger1..4 bundles:      {ro: "se_machineloop01..03.wav",                confidence: low}
+    step01..04:                  {ro: "keep VS (or were_wolf_foot1/2.wav)",      confidence: low}
+    glass01..25 / cff_* / sfx_4* (Arcana/character gimmicks): {ro: "defer; map with the weapon/arcana pass", confidence: low}
+    weapon_sfx_note: "Per-weapon sfx follow the weapon->skill table in characters_weapons.yaml (attack_whip.wav for Bash/Whip, attack_book.wav for books...)."
+
+ui:
+  # asset (where)                                       -> RO source (data/texture/유저인터페이스/... unless noted) -> method
+  - asset: "Title logo 'title' 332x133 RGBA32, Switch-swizzled (sharedassets1.assets in data.unity3d)"
+    ro_source: "rag_title.bmp / rag_title2.bmp / rag_title3.bmp, ad_title*.bmp; logo text 'RAGNAROK SURVIVORS' composed in the RO title style"
+    method: "texture pixel replace, same size (swizzled RGBA32 -> extend unitypatch.replace_texture with UnityPy image_to_texture2d)"
+    risk: likely
+  - asset: "logoAnimation 1024x2048 ASTC swizzled, 105 sprites (resources.assets) - animated title logo frames"
+    ro_source: "same composed logo, per frame"
+    method: "pixel replace inside existing sprite rects; inspect alpha first (decodes as white mask)"
+    risk: likely
+  - asset: "titleSurvivaton 319x37 / titleDivider 390x5 (sharedassets1), 'UI' atlas header 'DEFINITIVE SURVIVATON'"
+    ro_source: "basic_interface title bars"
+    method: "pixel replace"
+    risk: likely
+  - asset: "Unity splash / publisher: Logo_bordered_-_1080X1080 RGBA32 + 1394x2048 and 2048x1152 RGB24 (globalgamemanagers.assets)"
+    ro_source: "login art (login_interface/bg_login.tga) - keep poncle/Unity logos untouched (credit)"
+    method: "leave as is (legal), optional"
+    risk: proven-ish (plain texture)
+  - asset: "Main-menu splash prefabs: imeldamenusplash (Imeldat 320x340 ASTC + introBG 400x300 DXT1Crunched), garlicparadisemenusplash (Poet 319x242), shemoonmenusplash (Shemoont 330x420), emptysplash; sharedassets1 introBG"
+    ro_source: "illust/ NPC cut-ins (1282 files: .bmp + .png) for the character; loading00..10.jpg / login art for introBG"
+    method: "ASTC: swizzled pixel replace; introBG is DXT1Crunched -> rewrite object as RGBA32 (replace_object, inline data)"
+    risk: "likely (ASTC) / research spike (crunched)"
+  - asset: "NowLoading_VS 512x74 ASTC (sharedassets1)"
+    ro_source: "loading screen text style"
+    method: "pixel replace"
+    risk: likely
+  - asset: "Character-select portraits"
+    ro_source: "the character's own sprite atlas (character_* bundles) - already handled by reskin_char.py; small 'B'-badge portraits in UI / UI_Menu atlases"
+    method: "covered by character pipeline; mini portraits in UI_Menu via sprite-rect pixel replace"
+    risk: proven (atlas) / likely (UI_Menu, ASTC swizzled)
+  - asset: "Stage select cards: UI_StageIcons 1024x1024 ASTC swizzled (bundle ui_stageicons, 32 sprites stage_*.png) + resources.assets copy + UI_Menu 1024x1024 (resources.assets, 551 sprites incl. stage cards)"
+    ro_source: "screenshots-style compositions from RO map art: map/ minimaps (825 .bmp), loading*.jpg, ground textures + mob sprites"
+    method: "pixel replace per sprite rect in BOTH copies (bundle + resources.assets)"
+    risk: likely
+  - asset: "Stage small icons: atlas 'UI' (sharedassets0, 1024x1024 ASTC, linear, 536 sprites; frameName stage_*_icon.png)"
+    ro_source: "map/ minimap thumbnails"
+    method: "pixel replace per rect"
+    risk: likely
+  - asset: "Bestiary backgrounds: UI_Bestiary 1024x2048 ASTC swizzled (bundle ui_bestiary, 16 sprites background_*.png)"
+    ro_source: "ground textures of the mapped region (필드바닥) + illust backdrops"
+    method: "pixel replace per rect"
+    risk: likely
+  - asset: "Item/weapon/passive icons: tps_lossless_icons 512x512 RGBA32 LINEAR (resources.assets, 671 sprites; WEAPON_DATA.texture='tps_lossless_icons', frameName 'Whip.png')"
+    ro_source: "item/ (6614 bmp, 24x24 inventory icons), collection/ (5391 bmp, 75x100 big art), cardbmp/ (883 card illustrations)"
+    method: "same path as proven character atlas (RGBA32 linear, no platform blob); icons are ~16-20 px so RO 24x24 icons downscale or recrop"
+    risk: proven-path
+  - asset: "Props/destructibles: tps_props 512x1024 ASTC swizzled (resources.assets, 227 sprites: braziers, candles, lamposts, carts)"
+    ro_source: "RO map objects (texture/외부소품 outdoor props, 내부소품 indoor props) or item sprites"
+    method: "pixel replace per rect"
+    risk: likely
+  - asset: "Chest opening: VideoClips chestnobg / chestnobg2 / chestnobg3 (bundles; H.264 Constrained Baseline mp4, 634x332 stored, declared 1268x664, 60 fps, 655/1030/1136 frames, no audio)"
+    ro_source: "RO treasure box / Old Blue Box open (sprites), card/item reveal; render with ffmpeg"
+    method: "replace the bundle's inner .resource with a same-profile mp4; update m_ExternalResources.m_Size + m_FrameCount in VideoClip (replace_object). Keep frame count to stay in sync with the sfx_treasure jingles"
+    risk: "likely (needs inner-resource swap in unitypatch)"
+  - asset: "Level-up screen / chest UI frames: UI and UI_Menu atlases (frames, buttons, 'LAP', finger badges), goldBG1/goldBG2 512 ASTC, shop 1024 ASTC"
+    ro_source: "basic_interface/ (588 bmp: windows, buttons), achievement/, item windows"
+    method: "pixel replace per rect; RO's blue-grey window skin over VS's gold frames"
+    risk: likely
+  - asset: "Damage numbers: TMP font asset 'DamageNumbers' (bundle damagenumbers: DamageNumbers Atlas 24x27 RGBA32 + dmg3 Atlas 32x32 Alpha8); legacy Font damNum-export (bundle damnum-export, 24x27); GoldenFinger_Numbers-export 72x73"
+    ro_source: "RO damage digits (sprite/이펙트 '숫자' sprite - outside 유저인터페이스; verify)"
+    method: "pixel replace inside the existing glyph rects (digits 0-9 + symbols); no font metrics change"
+    risk: likely
+  - asset: "Text fonts: LanaPixel (legacy Font + TMP SDF 512x512 Alpha8 atlases; CJK ranges in lanapixelsdf4e00..9fff bundles + resources.assets), Courier_HintedSmooth SDF8 (4 atlases), Arial Unicode MS SDF (54 atlases, CJK fallback), LiberationSans SDF"
+    ro_source: "none needed"
+    method: "KEEP. LanaPixel already covers PT-BR accents (ExtendedAscii atlas) and reads retro. A new RO-like font = regenerate TMP SDF atlas + glyph/character tables (TMP_FontAsset MonoBehaviour, no typetree under IL2CPP)"
+    risk: "keep = proven; replace = research spike (not worth it)"
+  - asset: "Bitmap title fonts: titleFont-export / titleFont-white (144x148 ASTC, legacy Font), RuneFont-export 110x108, Skullboy-export2x 281x281"
+    ro_source: "restyle glyphs to RO gold/blue title look"
+    method: "pixel replace inside existing CharacterInfo rects (same glyph boxes)"
+    risk: likely
+  - asset: "Adventures UI: AdventuresUI 1024x1024 (bundle adventuresui, 44 sprites ADV_*), ADV_Title_* 450x60 (resources.assets)"
+    ro_source: "RO quest/adventure banners"
+    method: "defer (adventures are mostly DLC content)"
+    risk: likely
+  - asset: "Secrets screen: SECRETS 512x320 RGB24, secretsPortrait 237x512 RGBA32, illustrations 413x477 (sharedassets1)"
+    ro_source: "illust/ cut-ins (e.g. a sage/scholar NPC), cardbmp/"
+    method: "pixel replace"
+    risk: likely
+  - asset: "Album covers: vs_ingame_album_vs_sidea/b/c (bundles 256x256 ASTC) + VS_InGame_Album_* in resources.assets (DLC albums)"
+    ro_source: "RO OST-style covers from login art"
+    method: "pixel replace"
+    risk: likely
+
+story:
+  text_strategy:
+    languages: |
+      Rewrite in EN (0) and PT-BR (5) only. For every term we rewrite, copy the EN text into the other 12
+      language slots too (so a FR/JA player sees RO English, never a stale VS name). Untouched terms keep all
+      14 languages. Do not drop languages from the table (I2Terms keeps the array size).
+    rewrite:
+      - "Names: weapons, passives, items, characters (charName/surname/prefix), enemies (bName), stages (stageName), arcanas, music titles (musicLang), skins (prefix/suffix)."
+      - "Lore-bearing descriptions: stageLang description, enemiesLang bDesc (bestiary), characterLang description where it is flavor, secretLang descriptions (they name VS places/items), adventureLang headers."
+      - "Any string that mentions a VS proper noun: automatic dictionary substitution (VS name -> RO name, EN and PT-BR separately, longest-match first), then human pass on the ~20% that read wrong."
+    keep:
+      - "lang/ UI verbs and menus (906 terms: START, OPTIONS, COLLECTION...) - PT-BR already complete (902/906)."
+      - "Glossary (314), onlineLang, partyLang, eventLang (except names), Xbox Achievements (not shown on Switch)."
+      - "weaponLang tips ('Ignores: Speed, Duration.') and all mechanical numbers/percentages - gameplay text must match VS behavior exactly."
+      - "powerUpLang: keep, or optional light rename to RO stat words (Might->ATK, Armor->DEF, Max Health->MaxHP, Recovery->HP Regen); descriptions stay."
+      - "Credits (lang/credits_*): keep every VS credit verbatim; ADD a mod credits block (Ragnarok Survivors mod; RO assets (c) Gravity Co., Ltd. / SoundTeMP BGM) by appending terms or reusing an unused credits_* slot."
+    rules:
+      - "PT-BR uses bRO official names when they exist (Espadachim, Mago, Prontera, Glast Heim, Satan Morroc); EN uses iRO names."
+      - "Never change string format tokens ({0}, <color>, \\n) - copy them through."
+      - "Keep length within ~120% of the original in PT-BR boxes (cards/tooltips overflow otherwise)."
+  lore_reframe:
+    world: "Rune-Midgard. The 'Belpaese family' becomes the adventurers of Prontera (classes from characters_weapons.yaml); the cursed land is the Rune-Midgard of the Ragnarok prophecy."
+    vampire_root_of_evil: "VS's unseen vampire/Count -> Satan Morroc (the demon whose rise drives RO's late story); Devil Room = his lair."
+    directer: "The Directer (meta author of the stages) -> Loki (trickster god who rewrites fate; enemies.yaml uses M Loki)."
+    reaper_red_death: "The Reaper at 30:00 -> Grim Reaper Ankou (enemies.yaml); 'Death comes for everyone at 30 minutes' = 'Ankou vem buscar todos aos 30 minutos'."
+    the_ender: "The Ender -> Gloom Under Night (enemies.yaml): the end-of-world MVP."
+    the_ending: "'The Ending' / final credits -> 'Ragnarök' - the twilight of the gods; the game title itself is the ending's name."
+    eudaimonia_machine: "-> Ymir's Heart, the engine under Juperos/Juno (fits the machine-of-happiness irony)."
+    cappella_magna: "-> Glast Heim (fallen kingdom and its church): central hub of secrets."
+    lycaeum: "-> Illusion of Under Water (deep-sea set)."
+    holy_forbidden_astral_stair: "-> Valhalla and Odin Temple: the climb to the gods (Valkyrie = Sigma)."
+    inverse_mode: "'Inverse' -> 'Espelho de Niflheim' (Niflheim Mirror) - world turned to the land of the dead."
+    hyper_mode: "keep 'Hyper' (UI term)."
+    arcanas: "Arcanas are tarot cards -> RO Cards fit perfectly (name each arcana as an MVP card); coordinate with the items/arcana pass."
+    coins_gold: "Gold -> Zeny (UI noun; check every '{0} Gold' string)."
+    humor: "VS is full of puns (roast chicken in walls, 'Vempair'). Replace with RO in-jokes (Poring, Jellopy, Kafra, 'Meat' healing item, Deviruchi) instead of translating the VS pun."
+  effort:
+    # Words = EN words in base-game terms (IDs present in the base *_DATA.json). Hours = one writer, EN+PT-BR.
+    - {category: "names (weapons 151 ids, chars 68, enemies ~180 bName, items 107, stages 24, arcanas ~22, music 46, skins)", terms: "~700 short strings", effort: "1.5 days (mostly decided in sibling yaml files; this is transcription + bRO name check)"}
+    - {category: stageLang, terms: 69, words: 797, effort: "0.5 day - full rewrite (descriptions are pure lore)"}
+    - {category: "enemiesLang bDesc (bestiary)", terms: "~183 descriptions", words: 8182, effort: "3-4 days to translate; RECOMMENDED: write new 1-2 sentence RO flavor per monster (~30 words) = ~5.5k words/lang, 2 days"}
+    - {category: characterLang, terms: 222, words: 651, effort: "0.5 day - descriptions are mechanical; only names + flavor lines"}
+    - {category: "weaponLang (names + descriptions)", terms: 403, words: 1553, effort: "1 day - descriptions are mechanical, substitution + name pass; tips untouched"}
+    - {category: itemLang, terms: 220, words: 929, effort: "0.5 day"}
+    - {category: "secretLang (166 secrets)", terms: "~176", words: 1029, effort: "0.5 day - auto-substitution of place/item names covers most; check riddles still make sense"}
+    - {category: "achievementLang (213 achievements)", terms: 509, words: 2990, effort: "0.5 day - auto-substitution; mechanical"}
+    - {category: "arcanaLang / musicLang / skinLang / eventLang / progressLang", terms: "~560", words: "~3.3k", effort: "1 day (progressLang is DLC adventures - defer)"}
+    - {category: "adventureLang + adv_* bundles", terms: 70, words: 394, effort: "defer - adventures shipped here are DLC (adv_chal x7, adv_foscari x5, adv_shemoon x2, adv_deathfight); keep VS text"}
+    - {category: credits, terms: "~65", effort: "0.25 day - add mod block only"}
+    - {category: "TOTAL base game", words: "~15-20k EN words touched per language (~60% by dictionary substitution)", effort: "~9-11 writer-days for EN+PT-BR"}
+
+# Atlas de tileset (STAGE_DATA tileset.setKey e afins) → mapas do RO de onde saem chão (.gnd) e vegetação/props
+# (.rsw → .rsm). Fases que dividem o atlas ficam com a região da fase principal. reskin_stage.py lê esta seção.
+tilesets:
+  ForestTexturePacked: [pay_fild01, pay_fild02, payon]          # Mad Forest (+ Lycaeum, Bat Country, Green Acres…)
+  LibraryTexturePacked: [glast_01, gl_cas01, gl_knt01]          # Inlaid Library → Glast Heim (+ Astral Stair)
+  PlantTexturePacked: [einbroch, ein_fild01, ein_dun01]         # Dairy Plant → Einbroch (+ Carlo Cart, Mazerella)
+  TowerTexturePacked: [c_tower1, c_tower2, alde_dun01]          # Gallo Tower → Clock Tower (+ Tiny Bridge)
+  ChapelTexturePacked: [abbey01, abbey02, nameless_n]           # Cappella Magna → Abadia (+ Holy Forbidden)
+  WaterTexturePacked: [iz_dun00, iz_dun01, izlude]              # Moongolow → Byalan
+  RashTexturePacked: [1@tower]                                  # Boss Rash → Endless Tower
+  MachineTexturePacked: [juperos_01, jupe_core]                 # Eudaimonia → Juperos
+  MoonspellTexturePacked: [xmas_fild01, xmas]                   # Whiteout → Lutie
+  CoopTexturePacked: [hugel, hu_fild01]                         # The Coop → Hugel
+  SpaceTexturePacked: [spl_fild01, jupe_core]                   # Space 54
+  FoscariTexturePacked: [rockrdg1, harboro1]                    # Westwoods → Rock Ridge
+  Westwoods_Tileset2: [rockrdg1, harboro1]
+  DevilRoomTexturePacked: [moc_fild22]                          # Devil Room → covil do Satan Morroc
+  LaborratoryTexturePacked: [lhz_dun01, lhz_dun02]              # Laborratory/Carlo Cart → Bio Lab
+  AstralStairTexturePacked: [odin_tem01]                        # Astral Stair → Templo de Odin
+  Mazerella_Tileset2: [prt_maze01]                              # Mazerella → Floresta Labirinto
+  Lycaeum: [1@ma_b, iz_ac01]                                    # Lycaeum → Ilusão Submersa
+
+# Efeitos sonoros: AudioClip do data.unity3d (resources.resource) → wav do RO (data/wav/…). Regras por palavra-chave
+# conferidas contra a lista de wavs do cliente; o que não casa cai no golpe padrão. build_sfx.py lê esta seção.
+sfx_clips:
+  Cat1: se_cat01.wav
+  Cat2: se_cat01.wav
+  Cat3: se_cat01.wav
+  Cat5: se_cat01.wav
+  CatE: se_cat01.wav
+  Gunastrophe_SFX: _hit_권총.wav
+  Powerup: _heal_effect.wav
+  Winner SFX: complete.wav
+  belltoll: se_prtchbell_03.wav
+  bumper2: _hit_fist1.wav
+  cff_acc: se_equip_item_01.wav
+  cff_gtr: se_equip_item_01.wav
+  cff_shm: se_equip_item_01.wav
+  cff_xlf: se_equip_item_01.wav
+  clap: effect/st_job_level_up.wav
+  glass01: se_ding1.wav
+  glass02: se_ding1.wav
+  glass03: se_ding1.wav
+  glass04: se_ding1.wav
+  glass05: se_ding1.wav
+  glass06: se_ding1.wav
+  glass07: se_ding1.wav
+  glass08: se_ding1.wav
+  glass09: se_ding1.wav
+  glass10: se_ding1.wav
+  glass11: se_ding1.wav
+  glass12: se_ding1.wav
+  glass13: se_ding1.wav
+  glass14: se_ding1.wav
+  glass15: se_ding1.wav
+  glass16: se_ding1.wav
+  glass17: se_ding1.wav
+  glass18: se_ding1.wav
+  glass19: se_ding1.wav
+  glass20: se_ding1.wav
+  glass21: se_ding1.wav
+  glass22: se_ding1.wav
+  glass23: se_ding1.wav
+  glass24: se_ding1.wav
+  glass25: se_ding1.wav
+  haha: effect/st_job_level_up.wav
+  sfx_4fud: se_equip_item_01.wav
+  sfx_4hana: se_equip_item_01.wav
+  sfx_4max: se_equip_item_01.wav
+  sfx_4mud: se_equip_item_01.wav
+  sfx_4seasons: se_equip_item_01.wav
+  sfx_4tai: se_equip_item_01.wav
+  sfx_Key1: 버튼소리.wav
+  sfx_Key2: 버튼소리.wav
+  sfx_Key3: 버튼소리.wav
+  sfx_Key4: 버튼소리.wav
+  sfx_Key5: 버튼소리.wav
+  sfx_KeyWrong: 취소.wav
+  sfx_PowerUp12: _heal_effect.wav
+  sfx_WorldEater_8: effect/ef_fireball.wav
+  sfx_alarm_loop6: se_watch3.wav
+  sfx_attack1: _hit_fist1.wav
+  sfx_autoLB: levelup.wav
+  sfx_autoLevel: levelup.wav
+  sfx_bangu: effect/ef_fireball.wav
+  sfx_bell2: se_prtchbell_03.wav
+  sfx_bubble: se_inwater1.wav
+  sfx_bumper3: _hit_fist1.wav
+  sfx_cheers: effect/st_job_level_up.wav
+  sfx_clones: _heal_effect.wav
+  sfx_coin_double4: effect/ef_coin1.wav
+  sfx_crystal6: se_ding1.wav
+  sfx_crystal8: se_ding1.wav
+  sfx_crystal_12: se_ding1.wav
+  sfx_crystal_quick: se_ding1.wav
+  sfx_dice_shake: roulette.wav
+  sfx_digit: effect/ef_coin1.wav
+  sfx_enemyHit: _enemy_hit_normal1.wav
+  sfx_error13: 취소.wav
+  sfx_evilgong: se_prtchbell_03.wav
+  sfx_exp45: effect/ef_fireball.wav
+  sfx_exp5: effect/ef_fireball.wav
+  sfx_exp_cluster5: effect/ef_fireball.wav
+  sfx_exp_cluster8: effect/ef_fireball.wav
+  sfx_exp_double1: effect/ef_fireball.wav
+  sfx_exp_medium11: effect/ef_fireball.wav
+  sfx_exp_odd1: effect/ef_fireball.wav
+  sfx_exp_short_hard15: effect/ef_fireball.wav
+  sfx_exp_short_soft6: effect/ef_fireball.wav
+  sfx_exp_short_soft9: effect/ef_fireball.wav
+  sfx_exp_shortest_soft10: effect/ef_fireball.wav
+  sfx_explo_night: effect/ef_fireball.wav
+  sfx_explo_soft: effect/ef_fireball.wav
+  sfx_fireloop: effect/ef_firewall.wav
+  sfx_flikA: _hit_arrow.wav
+  sfx_forbiddenSpell: effect/ef_beginspell.wav
+  sfx_frostimpact: effect/wl_jackfrost.wav
+  sfx_gem: se_ding1.wav
+  sfx_giant: effect/ef_fireball.wav
+  sfx_groove: se_equip_item_01.wav
+  sfx_guns1: _hit_권총.wav
+  sfx_guns2: _hit_권총.wav
+  sfx_guns3: _hit_권총.wav
+  sfx_impact: _hit_fist1.wav
+  sfx_itemDrop: se_equip_item_01.wav
+  sfx_javelin: attack_spear.wav
+  sfx_javelin2: attack_spear.wav
+  sfx_levelup: levelup.wav
+  sfx_levelupB: levelup.wav
+  sfx_lightningimpact: effect/ef_thunderstorm.wav
+  sfx_lightningimpactLow: effect/ef_thunderstorm.wav
+  sfx_littlepickup: se_equip_item_01.wav
+  sfx_magic_chanting: effect/ef_beginspell.wav
+  sfx_magic_charge4: effect/ef_beginspell.wav
+  sfx_magistone: effect/ef_soulstrike.wav
+  sfx_mlightning1: effect/ef_thunderstorm.wav
+  sfx_moon_beat: effect/ef_soulstrike.wav
+  sfx_moon_finisher: effect/ef_soulstrike.wav
+  sfx_moon_starter: effect/ef_soulstrike.wav
+  sfx_morph: _heal_effect.wav
+  sfx_movement_jump14: _enemy_hit_normal3.wav
+  sfx_mwind1: effect/storm.wav
+  sfx_naplow: effect/storm.wav
+  sfx_noise: effect/storm.wav
+  sfx_noise_bubbles: se_inwater1.wav
+  sfx_ophion1: effect/ef_soulstrike.wav
+  sfx_ophion2: effect/ef_soulstrike.wav
+  sfx_ophion3: effect/ef_soulstrike.wav
+  sfx_pan: se_equip_item_01.wav
+  sfx_paradoxMist: effect/ef_beginspell.wav
+  sfx_party: effect/st_job_level_up.wav
+  sfx_piano: se_equip_item_01.wav
+  sfx_potBreak: _stone_explosion.wav
+  sfx_projectile: _hit_arrow.wav
+  sfx_projectile_magic: effect/ef_soulstrike.wav
+  sfx_projectile_magic2: effect/ef_soulstrike.wav
+  sfx_projectile_magic4: effect/ef_soulstrike.wav
+  sfx_ringing: se_prtchbell_03.wav
+  sfx_rosexpl: effect/ef_fireball.wav
+  sfx_secret: effect/ef_beginspell.wav
+  sfx_soleSAnticipation: _heal_effect.wav
+  sfx_soleSFirstImpact: _heal_effect.wav
+  sfx_soleSSecondImpact: _heal_effect.wav
+  sfx_sounds_ban: 취소.wav
+  sfx_sounds_impact15_2: _enemy_hit_normal1.wav
+  sfx_sounds_impact9: _enemy_hit_normal1.wav
+  sfx_sounds_impact9Echo: _enemy_hit_normal1.wav
+  sfx_sounds_interaction13: 버튼소리.wav
+  sfx_sounds_pause7_in: 버튼소리.wav
+  sfx_sounds_pause7_out: 버튼소리.wav
+  sfx_sounds_powerup18: _heal_effect.wav
+  sfx_sounds_powerup2: _heal_effect.wav
+  sfx_sounds_powerup9: _heal_effect.wav
+  sfx_steal1: effect/ef_steal.wav
+  sfx_steal2: effect/ef_steal.wav
+  sfx_stream: effect/storm.wav
+  sfx_strike: _hit_fist1.wav
+  sfx_string: _hit_arrow.wav
+  sfx_strom: effect/ef_thunderstorm.wav
+  sfx_titleIntro: effect/warp.wav
+  sfx_titleIntroB: effect/warp.wav
+  sfx_treasure_found: complete.wav
+  sfx_treasure_foundB: complete.wav
+  sfx_vacuum2: effect/storm.wav
+  sfx_vehicle_breaks: _stone_explosion.wav
+  sfx_victory1: complete.wav
+  sfx_victory2: effect/st_job_level_up.wav
+  sfx_weapon_shotgun2: _hit_샷건.wav
+  sfx_weapon_singleshot18: _hit_권총.wav
+  sfx_weapon_singleshot5: _hit_권총.wav
+  sfx_wheelOfFortuneFanfare: complete.wav
+  sfx_wheelOfFortuneTick: 버튼소리.wav
+  sfx_whistle: se_watch3.wav
+  sfx_window: _stone_explosion.wav
+  sfx_wingsA: monster_feather_s.wav
+  sfx_wingsB: monster_feather_s.wav
+  sfx_wpn_cannon3: effect/g카트캐논.wav
+  sfx_wpn_punch2: _hit_fist1.wav
+  sfx_wpn_punch4: _hit_fist1.wav
+  snowAttack_1: effect/wl_jackfrost.wav
+  snowCharge_1: effect/wl_jackfrost.wav
+  step01: se_pay_grass_01.wav
+  step02: se_pay_grass_01.wav
+  step03: se_pay_grass_01.wav
+  step04: se_pay_grass_01.wav
+  synth3: se_equip_item_01.wav
+# fundos inteiros (sem tiles) das fases que não usam tileset, mesma ferramenta em modo grade (stages tilesets)
+backgrounds:
+  bg_forest: [pay_fild01, pay_fild02, payon]     # Green Acres / Boss Rash usam o fundo de floresta
+  bg_green: [prt_fild05, prt_fild08]              # Green Acres → campos de Prontera
+  bg_bonezone: [niflheim, nif_fild01]             # Bone Zone → Niflheim
+  bg_boneN: [niflheim, nif_fild01]
+  bg_molise: [umbala, um_fild01]                  # Il Molise → Umbala
+  bg_water: [iz_dun00, iz_dun01, izlude]          # Moongolow → Byalan
+  bg_ram: [mjo_dun01, ein_dun01]
+  backgroundDevil: [moc_fild22]
+  background_Astral: [odin_tem01]
+  backgroundLycaeum: [1@ma_b, iz_ac01]
+  backgroundSpace: [spl_fild01, jupe_core]
+  backgroundW: [xmas_fild01, xmas]
+  background4: [glast_01, gl_cas01]
+  background6: [c_tower1, c_tower2]
+  backgroundX: [valkyrie, odin_tem01]
+
+# Áudios em bundle próprio (jingles do baú, vento, geiger): wav do RO ou faixa de BGM, em loop e cortados na duração
+# exata do clipe do VS (o jingle do baú acompanha o vídeo), com fade de 0,5 s no fim. build_sfx.py lê esta seção.
+sfx_bundles:
+  sfx_treasure_1: wav roulette.wav
+  sfx_treasure_1B: wav roulette.wav
+  sfx_treasure_2: wav roulette.wav
+  sfx_treasure_2B: wav roulette.wav
+  sfx_treasure_3: wav roulette.wav
+  sfx_treasure_3B: wav roulette.wav
+  sfx_darkassoJingle: bgm 113
+  sfx_geiger1: wav se_machineloop01.wav
+  sfx_geiger2: wav se_machineloop01.wav
+  sfx_geiger3: wav se_machineloop01.wav
+  sfx_geiger4: wav se_machineloop01.wav
+  sfx_wind: wav se_field_wind_01.wav

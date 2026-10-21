@@ -1,0 +1,446 @@
+{
+ "enemiesLang/{FS_SNAK1}bDesc": {
+  "en": "Yes, another Side Winder. Same rattle, same venom, same smug little smile, only in a different shade. Your humble Lorekeeper was paid by the entry and refuses to apologise. Hiss responsibly. ",
+  "pt": "Sim, outra Cascavel. Mesmo chocalho, mesmo veneno, mesmo sorrisinho convencido, só que de outra cor. Seu humilde Cronista ganha por verbete e se recusa a pedir desculpas. Sibile com moderação."
+ },
+ "enemiesLang/{GHOST}bDesc": {
+  "en": "Whispers are not real. They are draughts. Very cold, very giggly draughts that drift through Glast Heim and the Payon woods and happen to shrug off ordinary swords. If your blade passes right through one, that is simply poor aim. Draughts have hit points too!",
+  "pt": "Sussurros não existem. São correntes de ar. Correntes de ar muito frias e muito risonhas, que vagam por Glast Heim e pelas matas de Payon e por acaso ignoram espadas comuns. Se sua lâmina atravessar uma, é só falta de mira. Correntes de ar também têm pontos de vida!"
+ },
+ "enemiesLang/{GOLEM1}bDesc": {
+  "en": "Einbroch’s engineers built Golems to haul ore through the factory, then forgot to install an off switch. They now lumber the assembly lines forever, stacking crates nobody ordered. The union has filed a complaint. The Golems have filed it too, under ‘rocks’.",
+  "pt": "Os engenheiros de Einbroch criaram os Golems para carregar minério pela fábrica e esqueceram de instalar um botão de desligar. Hoje eles vagam pelas linhas de montagem empilhando caixas que ninguém pediu. O sindicato reclamou. Os Golems arquivaram a reclamação na pasta ‘pedras’."
+ },
+ "enemiesLang/{HARPY}bDesc": {
+  "en": "Half woman, half bird, entirely in a bad mood. Harpies nest over the cliffs of Rock Ridge and the Labyrinth Forest and swoop on anything that moves. Their wind magic is strong, their talons stronger, and their singing should be reported to the Prontera guard.",
+  "pt": "Metade mulher, metade pássaro, inteiramente mal-humorada. As Harpias fazem ninho nos penhascos de Rock Ridge e da Floresta Labirinto e dão rasantes em tudo que se mexe. A magia de vento é forte, as garras são mais fortes, e o canto devia ser denunciado à guarda de Prontera."
+ },
+ "enemiesLang/{HEMO}bDesc": {
+  "en": "Raw elemental slurry, discharged from places no adventurer should be crawling through. A Plasma pops, fizzes and leaves a stain of pure darkness wherever it goes. Mages swear it is a refined state of matter. Everyone else calls it what it looks like and holds their nose. (Editor’s note: flush this entry before publication.)",
+  "pt": "Mingau elemental cru, despejado de lugares onde nenhum aventureiro deveria se enfiar. O Plasma estoura, borbulha e deixa uma mancha de pura escuridão por onde passa. Os magos juram que é um estado refinado da matéria. Todo o resto chama pelo nome que parece e tapa o nariz. (Nota do editor: dar descarga neste verbete antes de publicar.)"
+ },
+ "enemiesLang/{IMP}bDesc": {
+  "en": "Fire-born pranksters from the deep volcanic vents. Imps specialise in hotfoots, singed eyebrows and the occasional cheeky Fire Wall across your only escape route. Laughing is mandatory; surviving is optional.",
+  "pt": "Pregadores de peças nascidos do fogo, vindos das fendas vulcânicas. Os Diabretes são especialistas em pé quente, sobrancelha chamuscada e uma ou outra Barreira de Fogo bem na sua única rota de fuga. Rir é obrigatório; sobreviver é opcional."
+ },
+ "enemiesLang/{JELLYFISH}bDesc": {
+  "en": "Byalan’s drifting Marinas look like jelly and sting like regret. Mermen keep them as pets, mostly because no one else will. Do not hug one, no matter how much it wobbles at you.",
+  "pt": "As Marinas que flutuam por Byalan parecem gelatina e ardem feito arrependimento. Os Tritões as criam como bichos de estimação, principalmente porque mais ninguém quer. Não abrace uma, por mais que ela balance pra você."
+ },
+ "enemiesLang/{KALI1}bDesc": {
+  "en": "Four-armed temple warriors who swore to guard their halls forever and took ‘forever’ very literally. A Tamruan can parry, slash, block and point at you accusingly at the same time. Now patrolling the Cursed Abbey, with excellent posture.",
+  "pt": "Guerreiros de templo com quatro braços que juraram guardar seus salões para sempre e levaram o ‘para sempre’ ao pé da letra. Um Tamruan consegue aparar, cortar, bloquear e apontar acusadoramente pra você ao mesmo tempo. Agora patrulha a Abadia Amaldiçoada, com ótima postura."
+ },
+ "enemiesLang/{LEM_JIMBAT2}bDesc": {
+  "en": "A Familiar that wandered out of a card-game table and never found its way back to the caves of Payon. Its face looks suspiciously like a jester’s, but scholars insist it is just a bat. The bat insists on being dealt in. It always folds.",
+  "pt": "Um Familiar que saiu voando de uma mesa de cartas e nunca achou o caminho de volta às cavernas de Payon. A cara lembra suspeitamente a de um bobo da corte, mas os estudiosos garantem que é só um morcego. O morcego insiste em entrar na rodada. Sempre desiste da mão."
+ },
+ "enemiesLang/{LEM_MANTIS}bDesc": {
+  "en": "A Mantis that learned to play cards in the forests around Payon and cannot refuse a challenge. Always let it win: those scythe-arms deal far more than hands, and it is a terrible loser.",
+  "pt": "Um Louva-a-Deus que aprendeu a jogar cartas nas florestas de Payon e não consegue recusar um desafio. Deixe-o ganhar sempre: aqueles braços de foice distribuem bem mais que cartas, e ele é péssimo perdedor."
+ },
+ "enemiesLang/{LEM_SUNFLOWERS}bDesc": {
+  "en": "Mandragoras that claim they can triple their damage with a lucky multiplier. The math never works out, but the vines still hurt. Do not pull them up; they scream.",
+  "pt": "Mandrágoras que juram triplicar o dano com um multiplicador de sorte. A conta nunca fecha, mas os cipós doem do mesmo jeito. Não as arranque; elas gritam."
+ },
+ "enemiesLang/{LEM_WEREWOLF}bDesc": {
+  "en": "Card-sharp Wolves from the Payon woods who only turn vicious under a full house. Greedy, gluttonous and terrible at bluffing, they wear little hats purely for brand recognition. Do not bet your Jellopy.",
+  "pt": "Lobos trapaceiros das matas de Payon que só ficam ferozes quando sai um full house. Gananciosos, glutões e péssimos de blefe, usam chapeuzinhos só pra fortalecer a marca. Não aposte seu Jellopy."
+ },
+ "enemiesLang/{LIZARD1_2}bDesc": {
+  "en": "Anolians slither through the flooded tunnels under Einbroch, hoarding scrap and sulking about the smog. They took over the factory pipes years ago and have been charging rent ever since. Payment accepted in blood or Iron Ore.",
+  "pt": "Os Anolians rastejam pelos túneis alagados sob Einbroch, acumulando sucata e reclamando da fumaça. Tomaram os canos da fábrica anos atrás e desde então cobram aluguel. Aceitam pagamento em sangue ou Minério de Ferro."
+ },
+ "enemiesLang/{LIZARD2_3}bDesc": {
+  "en": "Alligators are the muscle of the reptile occupation of the Dead Pit. They lack strategy, discipline and table manners, but they compensate with an enormous number of teeth. Mostly the teeth.",
+  "pt": "Os Jacarés são os brutamontes da ocupação réptil da Mina Abandonada. Faltam estratégia, disciplina e modos à mesa, mas compensam com uma quantidade enorme de dentes. Principalmente os dentes."
+ },
+ "enemiesLang/{MASK_GOLD}bDesc": {
+  "en": "Randgris, the Valkyrie who judges the worthy in Odin’s halls. Her golden helm shines like the Sun, and she will happily let you see it from very close up.",
+  "pt": "Randgris, a Valquíria que julga os dignos nos salões de Odin. Seu elmo dourado brilha como o Sol, e ela adora deixar você vê-lo bem de pertinho."
+ },
+ "enemiesLang/{MASK_LEFT}bDesc": {
+  "en": "A Skogul purified by Odin’s light, sworn to order, law and civilisation. Its holy wrath is spotless, and it will not tolerate littering.",
+  "pt": "Uma Skogul purificada pela luz de Odin, devota da ordem, da lei e da civilização. Sua ira sagrada é impecável, e ela não tolera lixo no chão."
+ },
+ "enemiesLang/{MASK_RIGHT}bDesc": {
+  "en": "A Valkyrie of the Odin Temple, chooser of the slain and keeper of the fury of battle. Seething heat follows her wings. She has strong opinions about a mortal named Joe.",
+  "pt": "Uma Valquíria do Templo de Odin, escolhedora dos caídos e guardiã da fúria da batalha. Um calor fervente segue suas asas. Ela tem opiniões fortes sobre um mortal chamado Joe."
+ },
+ "enemiesLang/{MASK_SILVER}bDesc": {
+  "en": "Skogul, the dark mirror of the Valkyries, cold and silver as the Moon over Odin’s ruined halls. Something to look at on long nights, if you enjoy being judged.",
+  "pt": "Skogul, o espelho sombrio das Valquírias, fria e prateada como a Lua sobre os salões arruinados de Odin. Algo pra olhar nas noites longas, se você gosta de ser julgado."
+ },
+ "enemiesLang/{MEDUSA1}bDesc": {
+  "en": "Few monsters are loathed as much as Medusa. One look and you are a statue in a lovely pose, forever. Adventurers keep an Acolyte with Blessing handy; Medusa keeps a sculpture garden. Neither side considers this a fair trade.",
+  "pt": "Poucos monstros são tão odiados quanto a Medusa. Um olhar e você vira estátua numa pose bonita, pra sempre. Aventureiros andam com um Noviço que saiba Bênção; a Medusa mantém um jardim de esculturas. Nenhum dos lados acha a troca justa."
+ },
+ "enemiesLang/{MIGNO1_5}bDesc": {
+  "en": "Yes, it is a bull. Yes, it carries a hammer the size of a door. No, it does not give milk. Please stop asking Minorous.",
+  "pt": "Sim, é um touro. Sim, ele carrega um martelo do tamanho de uma porta. Não, ele não dá leite. Parem de perguntar ao Minorous."
+ },
+ "enemiesLang/{MIGNO_3_5SWARM}bDesc": {
+  "en": "A Minorous from your worst nightmares, hammer and all. Its steaks would sell for a fortune in Prontera, but every butcher who tried to collect ended up tenderised first. \n",
+  "pt": "Um Minorous saído dos seus piores pesadelos, martelo e tudo. Seu filé valeria uma fortuna em Prontera, mas todo açougueiro que tentou buscar acabou amaciado primeiro. \n"
+ },
+ "enemiesLang/{MILK}bDesc": {
+  "en": "Behold Marin, the Poring that went to sea and came back purple. Squishy, watery and unbearably cheerful, it bounces through Einbroch and the Labyrinth Forest as if nothing were wrong. Anyone who tried to pop one learned it pops back. This entry has been diluted for easier reading.",
+  "pt": "Eis o Marin, o Poring que foi pro mar e voltou roxo. Fofo, aguado e insuportavelmente alegre, ele quica por Einbroch e pela Floresta Labirinto como se nada estivesse errado. Quem tentou estourar um descobriu que ele estoura de volta. Este verbete foi diluído para facilitar a leitura."
+ },
+ "enemiesLang/{MOLISANO_BASE}bDesc": {
+  "en": "A Wootan that’s grumpy. \n",
+  "pt": "Um Wootan rabugento. \n"
+ },
+ "enemiesLang/{MOLISANO_BELLO}bDesc": {
+  "en": "A Leaf Cat you could bring home to your parents.",
+  "pt": "Um Gato-Folha que dá pra levar pra conhecer seus pais."
+ },
+ "enemiesLang/{MOLISANO_COLONNA}bDesc": {
+  "en": "A Wootan that remembers when Umbala was only yay high. \n",
+  "pt": "Um Wootan que lembra de quando Umbala era deste tamanhinho. \n"
+ },
+ "enemiesLang/{MOLISANO_GIALLO}bDesc": {
+  "en": "A Mime Monkey that’s happy. \n",
+  "pt": "Um Macaco Mímico feliz. \n"
+ },
+ "enemiesLang/{MOLISANO_VECCHIO}bDesc": {
+  "en": "A Wootan that doesn’t really do much at all, because it’s really, really ancient. \n",
+  "pt": "Um Wootan que não faz quase nada, porque é muito, muito ancestral. \n"
+ },
+ "enemiesLang/{MOON_CRABBINO}bDesc": {
+  "en": "Did you know that crabs in a bucket do not actually drag each other down? That is anti-crab propaganda. King Dramoh, sovereign of the Byalan depths, has spent centuries trying to clear his people’s name. He mostly does it by pinching adventurers until they agree. Your humble author agrees completely. Please let go.",
+  "pt": "Sabia que caranguejos no balde não puxam uns aos outros pra baixo? Isso é propaganda anticaranguejo. O Rei Dramoh, soberano das profundezas de Byalan, passou séculos tentando limpar o nome do seu povo. Faz isso basicamente beliscando aventureiros até eles concordarem. Seu humilde autor concorda plenamente. Pode soltar."
+ },
+ "enemiesLang/{MOON_EYE2}bDesc": {
+  "en": "It sees me. The Beholder floats in the dark and stares, and stares, and does not blink, because it has nothing to blink with. Its gaze presses on me like the lid of a coffin. Paranoid? Me? You’re paranoid. Who is looking at me from behind that eye?",
+  "pt": "Ele me vê. O Observador flutua no escuro e encara, e encara, e não pisca, porque não tem com o que piscar. Seu olhar me esmaga como tampa de caixão. Paranoico? Eu? Você que é paranoico. Quem está me olhando de trás daquele olho?"
+ },
+ "enemiesLang/{MOON_GARLIC}bDesc": {
+  "en": "A Hermit Plant hides under its shell on the shores of Byalan and waits. Despite rumours, it is not garlic, so do not count on it to save you when the vampires show up.",
+  "pt": "A Planta Eremita se esconde na concha nas margens de Byalan e espera. Apesar dos boatos, não é alho, então não conte com ela pra salvar você quando os vampiros aparecerem."
+ },
+ "enemiesLang/{MOON_MASK3}bDesc": {
+  "en": "Beautiful and baleful, the Valkyries of Odin’s Temple choose who lives, who dies and who has to fill in the paperwork. Are they goddesses, constructs or something stranger still? They are certainly not ghosts, so cross that off the list. Their helms are glorious, but none survives the fall of its wearer.",
+  "pt": "Belas e funestas, as Valquírias do Templo de Odin escolhem quem vive, quem morre e quem preenche a papelada. São deusas, constructos ou algo ainda mais estranho? Fantasmas é que não são, então risque essa da lista. Seus elmos são gloriosos, mas nenhum sobrevive à queda de quem o usa."
+ },
+ "enemiesLang/{MOON_NIGHTSHADE}bDesc": {
+  "en": "Drosera, the sundew of Byalan, lures prey with sticky nectar and then simply refuses to let go. Three farmers once tried to make jam out of one. The jam made them instead. It was a ridiculous way to go.",
+  "pt": "A Drosera, planta carnívora de Byalan, atrai as presas com néctar grudento e simplesmente se recusa a soltar. Três fazendeiros tentaram fazer geleia de uma. A geleia fez deles. Foi um jeito ridículo de partir."
+ },
+ "enemiesLang/{MOON_SHADEBLUE}bDesc": {
+  "en": "Sohee weeps by the water for a groom who never came. She is very sad about it, and will make you very sad about it too.",
+  "pt": "A Sohee chora à beira d’água por um noivo que nunca veio. Ela está muito triste com isso, e vai deixar você muito triste também."
+ },
+ "enemiesLang/{MOON_SNEK}bDesc": {
+  "en": "Known among reptile scholars as ‘the long rattler’, Side Winders are happy little noodles with a venomous punchline. So nobody feels guilty mowing them down by the thousand, let’s agree they love it. They really, really love it.",
+  "pt": "Conhecidas pelos estudiosos de répteis como ‘chocalho comprido’, as Cascavéis são macarrõezinhos felizes com uma piada venenosa no fim. Pra ninguém se sentir culpado ceifando milhares, vamos combinar que elas adoram. Adoram mesmo."
+ },
+ "enemiesLang/{MS_KAMAITACHI}bDesc": {
+  "en": "Amatsu’s Shinobi strike from the shadows of the castle bridge, vanish in a puff of smoke and reappear behind you to finish the joke. The jokes are terrible. Those who say so tend to lose more than their audience, one way or another.",
+  "pt": "Os Shinobi de Amatsu atacam das sombras da ponte do castelo, somem numa nuvem de fumaça e reaparecem atrás de você pra terminar a piada. As piadas são péssimas. Quem fala isso costuma perder mais que a plateia, de um jeito ou de outro."
+ },
+ "enemiesLang/{MUDMAN1}bDesc": {
+  "en": "The Orc Warriors of the Orc Village guard their huts with axes and a very strong opinion about trespassers. They march in packs, shout in a language nobody bothered to learn and drop Orcish Vouchers that are worth exactly nothing outside the village.",
+  "pt": "Os Guerreiros Orcs da Vila dos Orcs guardam suas cabanas com machados e uma opinião muito firme sobre invasores. Marcham em bando, gritam numa língua que ninguém se deu ao trabalho de aprender e soltam Vales Orcs que não valem nada fora da vila."
+ },
+ "enemiesLang/{MUD}bDesc": {
+  "en": "Glast Heim’s libraries are so old that their dust learned to walk. Sandmen shuffle between the shelves, grains of forbidden lore swirling inside them, and sprinkle sleep on anyone who reads too slowly. Lucky for us, sand has no tongue to recite what it knows. Unlucky for us, it has fists.",
+  "pt": "As bibliotecas de Glast Heim são tão velhas que a poeira aprendeu a andar. Os Homens-Areia se arrastam entre as estantes, com grãos de saber proibido girando por dentro, e espalham sono em quem lê devagar demais. Sorte nossa que areia não tem língua pra recitar o que sabe. Azar nosso que tem punhos."
+ },
+ "enemiesLang/{MUMMY}bDesc": {
+  "en": "Not true mummies of Morroc’s Pyramids at all, these were wrapped up in Glast Heim by sorcerers who just really liked the look. The real Pharaohs are furious about it. The copies say it is a tribute and that the originals should be flattered instead of so touchy about their bandages all the time.",
+  "pt": "Nem são múmias de verdade das Pirâmides de Morroc: foram enroladas em Glast Heim por feiticeiros que só curtiam o visual. Os Faraós de verdade estão furiosos. As cópias dizem que é homenagem, e que os originais deviam se sentir lisonjeados em vez de serem tão melindrosos com suas faixas."
+ },
+ "enemiesLang/{PILE1}bDesc": {
+  "en": "Anacondaqs coil around the Einbroch pipes and swallow anything that fits, and several things that don’t. One gulp for solids, one gulp for liquids, one for dessert.",
+  "pt": "As Anacondas se enrolam nos canos de Einbroch e engolem tudo que cabe, e várias coisas que não cabem. Uma bocada pra sólidos, uma pra líquidos, uma pra sobremesa."
+ },
+ "enemiesLang/{PILE2}bDesc": {
+  "en": "Disguise wears a pretty face and a long flowing robe. Underneath is a demon, which explains the red. You can tell it’s demonic because it is a bit red.",
+  "pt": "O Disfarce usa um rosto bonito e uma túnica esvoaçante. Por baixo é um demônio, o que explica o vermelho. Dá pra ver que é demoníaco porque é meio vermelho."
+ },
+ "enemiesLang/{PILE3}bDesc": {
+  "en": "Bloody Murderer stalks Niflheim with a cleaver and a grin stitched on. It isn’t overcompensating for anything. It is simply, perfectly murderous.",
+  "pt": "O Assassino Sangrento vaga por Niflheim com um cutelo e um sorriso costurado. Ele não está compensando nada. É só perfeitamente assassino."
+ },
+ "enemiesLang/{PILE4}bDesc": {
+  "en": "In Niflheim, even the trees are dead, and some of them got up and walked. A Gibbet is a gallows that grew legs and kept its last guests hanging around for company. They are not thrilled with the arrangement, but they look cheerful enough, so at least the mood stays up.",
+  "pt": "Em Niflheim até as árvores estão mortas, e algumas levantaram e saíram andando. A Forca é um patíbulo que criou pernas e manteve seus últimos hóspedes pendurados pra fazer companhia. Eles não estão felizes com o arranjo, mas parecem animados, então pelo menos o clima não cai."
+ },
+ "enemiesLang/{POLTER}bDesc": {
+  "en": "There is a perfectly rational explanation for a lantern that floats on its own and fires icy bolts at you. Perhaps a Wizard’s prank, or a contraption from Juperos. Perhaps it is full of very angry fireflies pushing from the inside. Let us rule all of that out before anyone says the word ‘ghost’. The word is Lichtern.",
+  "pt": "Existe uma explicação perfeitamente racional pra uma lanterna que flutua sozinha e atira rajadas geladas em você. Talvez uma pegadinha de um Bruxo, ou uma geringonça de Juperos. Talvez esteja cheia de vaga-lumes furiosos empurrando por dentro. Vamos descartar tudo isso antes que alguém diga ‘fantasma’. A palavra é Lichtern."
+ },
+ "enemiesLang/{REDUSA}bDesc": {
+  "en": "To the seasoned adventurer, a gorgon is no longer strange, merely another stop on the way to a statue garden. This Medusa, however, is something altogether more dire, deadly and downright diabolical. For a start, it is red. If that does not terrify you, I am afraid I have no second point. Sorry. ",
+  "pt": "Para o aventureiro experiente, uma górgona já não tem nada de estranho, é só mais uma parada no caminho para o jardim de estátuas. Esta Medusa, porém, é algo bem mais terrível, letal e diabólico. Pra começar, é vermelha. Se isso não te assusta, receio não ter um segundo argumento. Desculpe."
+ },
+ "enemiesLang/{RELLYFISH}bDesc": {
+  "en": "Red has long been the colour of danger, passion and blood, stirring our deepest fears and wildest desires. A Marine Sphere stirs neither. It just floats around Byalan, minding its own business, until someone pokes it, and then it explodes. Every time. Please stop poking the Marine Sphere. Nobody ever listens. ",
+  "pt": "O vermelho sempre foi a cor do perigo, da paixão e do sangue, despertando nossos medos mais profundos e nossos desejos mais selvagens. A Esfera Marinha não desperta nenhum dos dois. Só flutua por Byalan cuidando da própria vida, até alguém cutucá-la, e aí ela explode. Toda vez. Parem de cutucar a Esfera Marinha. Ninguém nunca escuta."
+ },
+ "enemiesLang/{SHADERED}bDesc": {
+  "en": "Some grief is so heavy it tears its bearer out of the world entirely. Resentful Sohee wept so long that her sorrow curdled into fury, and now she drifts, half-real, one bad thought away from shrieking oblivion. Do not mention weddings. \n",
+  "pt": "Há lutos tão pesados que arrancam quem os carrega do mundo. A Sohee Ressentida chorou tanto que a tristeza azedou em fúria, e agora ela vaga, meio real, a um pensamento ruim de um esquecimento aos gritos. Não fale de casamentos. \n"
+ },
+ "enemiesLang/{SKELANGUE}bDesc": {
+  "en": "Bones made of blood. Or blood made of bones. It is a Scatleton, and blood is involved somewhere. It wants more.",
+  "pt": "Ossos feitos de sangue. Ou sangue feito de ossos. É um Scatleton, e tem sangue no meio em algum lugar. Ele quer mais."
+ },
+ "enemiesLang/{SKELENIN1}bDesc": {
+  "en": "Archer Skeletons are the elite marksmen of Niflheim’s undead army, trained in ambush, stealth and sniping from cover. This would be far more effective if they didn’t rattle so loudly every time they draw a bow.",
+  "pt": "Os Esqueletos Arqueiros são os atiradores de elite do exército morto de Niflheim, treinados em emboscada, furtividade e tiro de cobertura. Seria bem mais eficaz se não chocalhassem tão alto toda vez que puxam o arco."
+ },
+ "enemiesLang/{SKELEPANTHER}bDesc": {
+  "en": "When a great cat’s hunger outlives the cat, a Skelion is what prowls back out of Niflheim’s fog. It still pounces, still bites, and still cannot work out why its dinner keeps falling straight through its ribs.",
+  "pt": "Quando a fome de um grande felino sobrevive ao próprio felino, o que volta rondando da névoa de Niflheim é um Skelion. Ele ainda dá o bote, ainda morde, e ainda não entende por que o jantar continua caindo pelas costelas."
+ },
+ "enemiesLang/{SKELETONE}bDesc": {
+  "en": "More skeleton per Skeleton. Skeletons that skeleton harder than the average Skeleton. Hobbies include rattling, thinking about bones, and casual skeletoning around Payon Cave. Honestly, the word ‘skeleton’ is weird.",
+  "pt": "Mais esqueleto por Esqueleto. Esqueletos que esqueletam mais que o Esqueleto médio. Hobbies: chacoalhar, pensar em ossos e esqueletar casualmente pela Caverna de Payon. Sinceramente, a palavra ‘esqueleto’ é esquisita."
+ },
+ "enemiesLang/{SKELETON}bDesc": {
+  "en": "What would Niflheim be without Skeletons? They are disciplined, vengeful, and very, very unionised!",
+  "pt": "O que seria de Niflheim sem Esqueletos? São disciplinados, vingativos e muito, muito sindicalizados!"
+ },
+ "enemiesLang/{SKELEWING}bDesc": {
+  "en": "Fleshless, featherless and frankly furious, the Wraith flies in the face of every rule of aerodynamics. Scholars suspect it was stitched together from spare ribs and spite.",
+  "pt": "Sem carne, sem penas e francamente furioso, o Espectro desafia todas as regras da aerodinâmica. Os estudiosos suspeitam que foi costurado com costelas avulsas e rancor."
+ },
+ "enemiesLang/{SKETAMARI}bDesc": {
+  "en": "Once the inmates of Glast Heim’s prison, the Skeleton Prisoners never got their parole, so they started piling up instead. Drawn to anywhere bones gather, the heap rolls along absorbing more inmates and growing bigger and bigger. Why? Nobody knows. Escape plan, perhaps. Pray it never reaches the size of a moon.",
+  "pt": "Antigos detentos da prisão de Glast Heim, os Esqueletos Prisioneiros nunca ganharam condicional, então começaram a se amontoar. Atraído por qualquer lugar com ossos, o monte rola absorvendo mais detentos e crescendo cada vez mais. Por quê? Ninguém sabe. Plano de fuga, talvez. Reze para que nunca chegue ao tamanho de uma lua."
+ },
+ "enemiesLang/{SKULLINO}bDesc": {
+  "en": "Ludes are the restless little ghosts of Niflheim’s children, haunting the streets in hoods and carrying pumpkin lanterns they found who knows where. They play games forever, but no one ever wins and no one ever goes home. They can no longer lift their old toys, so they float around nibbling at adventurers instead. Silently. Endlessly.",
+  "pt": "Os Ludes são os fantasminhas inquietos das crianças de Niflheim, que assombram as ruas de capuz e carregam lanternas de abóbora achadas sabe-se lá onde. Brincam pra sempre, mas ninguém ganha e ninguém volta pra casa. Como não conseguem mais erguer os brinquedos, flutuam por aí mordiscando aventureiros. Em silêncio. Sem fim."
+ },
+ "enemiesLang/{SKULLNOAURA}bDesc": {
+  "en": "Nobody knows where Quves came from. Nobody stops to ask, because they are floating skulls with a nasty laugh and they will eat your horse.",
+  "pt": "Ninguém sabe de onde vieram os Quves. Ninguém para pra perguntar, porque são caveiras flutuantes de risada maligna e vão comer o seu cavalo."
+ },
+ "enemiesLang/{SKULOROSSO}bDesc": {
+  "en": "Heirozoists are Niflheim’s tiny demon clerks, filing souls in triplicate and stamping them ‘denied’. They float faster when they are angry, which is always. Lacking hands, they hold their stamps in their teeth. The last one left holding the stamp gets the paperwork, and quietly loses a little more faith in the afterlife.",
+  "pt": "Os Heirozoists são os pequenos escriturários demoníacos de Niflheim, que arquivam almas em três vias e carimbam ‘negado’. Flutuam mais rápido quando estão bravos, ou seja, sempre. Sem mãos, seguram o carimbo nos dentes. O último que fica com o carimbo leva a papelada, e perde em silêncio um pouco mais da fé no além."
+ },
+ "enemiesLang/{STAGEKILLER}bDesc": {
+  "en": "“How many heroes have climbed Thanatos Tower? How many made it to the top, only to end with a weak, pathetic bleating? Fight us if you will, forget us if you can. Soon you shall be just another fragment of us. Defeated.”",
+  "pt": "“Quantos heróis já subiram a Torre de Thanatos? Quantos chegaram ao topo só pra terminar num balido fraco e patético? Lute contra nós se quiser, esqueça-nos se puder. Em breve você será só mais um fragmento de nós. Derrotado.”"
+ },
+ "enemiesLang/{STARDUST_CHAIR}bDesc": {
+  "en": "Those who know the strange corners of Lutie’s Toy Factory have learned to fear the Myst Case. It looks like a present. It is not a present. To open its lid is to invite wear and tear and a nasty bite on the hand. But hey, it’s a gift. Who could resist?",
+  "pt": "Quem conhece os cantos estranhos da Fábrica de Brinquedos de Lutie aprendeu a temer a Caixa Misteriosa. Parece um presente. Não é um presente. Abrir a tampa é pedir desgaste e uma mordida feia na mão. Mas ei, é presente. Quem resiste?"
+ },
+ "enemiesLang/{STARDUST_ELEMENTAL}bDesc": {
+  "en": "Sand from the stars, tuned to the syncopated rhythms of the cosmos. Untouchable to those not on the right astral wavelength. Or maybe these Sandmen are just mad lads who like to boogie down.",
+  "pt": "Areia das estrelas, sintonizada nos ritmos sincopados do cosmos. Intocável para quem não está no comprimento de onda astral certo. Ou talvez esses Homens-Areia sejam só uns doidos que adoram dançar."
+ },
+ "enemiesLang/{STARDUST_JOE}bDesc": {
+  "en": "Some see death as the great equaliser, stripping away rank, wealth and creed. Those people have clearly never met Wraith Dead, who collects spectral taxes in Niflheim and keeps immaculate records. Or so it would be, if there were such things as ghosts. Which there are not. Pay up anyway.",
+  "pt": "Há quem veja a morte como a grande niveladora, que tira posto, riqueza e crença. Essas pessoas nunca conheceram o Espectro Morto, que cobra impostos espectrais em Niflheim e mantém registros impecáveis. Ou seria assim, se fantasmas existissem. Não existem. Pague mesmo assim."
+ },
+ "enemiesLang/{STARDUST_MUD}bDesc": {
+  "en": "Up on this astral plane, cosmic heat gets into the minds of the Sandmen and drives them into a frenzy of harmonic discord. A veritable disco desert, if you will. You won’t? Fair. Strike that bit from the record.",
+  "pt": "Neste plano astral, o calor cósmico entra na cabeça dos Homens-Areia e os leva a um frenesi de discórdia harmônica. Um verdadeiro deserto discoteca, se me permite. Não permite? Justo. Risquem isso dos registros."
+ },
+ "enemiesLang/{STARDUST_PORTRAIT_A}bDesc": {
+  "en": "Some pages hold the souls of scholars who sold them for one more footnote. But let’s talk about The Paper instead.\nAs adventurers grow ever more tired and ink-stained, this sheet only grows crisper and smells faintly of lavender. It folds, it flutters, it gives nasty paper cuts. Who wouldn’t want one on display?",
+  "pt": "Algumas páginas guardam as almas de estudiosos que as venderam por mais uma nota de rodapé. Mas, em vez disso, vamos falar d’O Papel.\nConforme os aventureiros ficam mais cansados e manchados de tinta, esta folha fica mais lisinha e com um leve cheiro de lavanda. Ela dobra, esvoaça e dá cortes de papel horríveis. Quem não ia querer uma na parede?"
+ },
+ "enemiesLang/{SUCCUBUS}bDesc": {
+  "en": "The Succubi came to the Cursed Abbey hoping to tempt its pious monks into ruin. They have been bitterly disappointed, since you cannot corrupt what was rotten long before you arrived. Still, they drain HP and SP with real enthusiasm, so the trip wasn’t a total loss.",
+  "pt": "As Súcubos vieram à Abadia Amaldiçoada para tentar levar seus monges à ruína. Ficaram amargamente decepcionadas, porque não se corrompe o que já estava podre muito antes de você chegar. Ainda assim, drenam HP e SP com muito entusiasmo, então a viagem não foi perdida."
+ },
+ "enemiesLang/{TP_AXEARMOR_01}bDesc": {
+  "en": "Is a Raydric a cursed knight or just an empty suit of armour that walks? Glast Heim scholars still argue. Nobody has been brave enough to bring a can opener.",
+  "pt": "Um Raydric é um cavaleiro amaldiçoado ou só uma armadura vazia que anda? Os estudiosos de Glast Heim ainda discutem. Ninguém teve coragem de levar um abridor de latas."
+ },
+ "enemiesLang/{TP_BOSS_BAT}bDesc": {
+  "en": "Countless Drainliars swarm the depths of the Geffen Dungeon, each touched by a sliver of Dracula’s power and bound to his bidding. They were lured by generous salaries (fruit) and an unbeatable pension plan (becoming part of the Count’s cape forever). They act as his eyes and ears, which is a pity, because they can barely see. Dracula refuses to compromise on the aesthetic.",
+  "pt": "Incontáveis Drainliars infestam as profundezas do Calabouço de Geffen, cada um tocado por uma lasca do poder do Drácula e preso às suas ordens. Foram atraídos por salários generosos (fruta) e um plano de previdência imbatível (virar parte da capa do Conde pra sempre). Servem de olhos e ouvidos dele, uma pena, porque mal enxergam. O Drácula se recusa a abrir mão da estética."
+ },
+ "enemiesLang/{TP_BOSS_DEVIL}bDesc": {
+  "en": "Deviruchi, the little devil of the Geffen Dungeon, has many names, most of them trademarked. Speak not its cute moniker aloud, lest ye be cursed with endless plushie merchandise.",
+  "pt": "O Deviruchi, diabinho do Calabouço de Geffen, tem muitos nomes, quase todos marcas registradas. Não pronuncie seu nome fofo em voz alta, ou será amaldiçoado com pelúcias infinitas."
+ },
+ "enemiesLang/{TP_BOSS_GIANTBAT}bDesc": {
+  "en": "A bunch of Drainliars promoted to middle management and merged into one enormous executive. It takes credit for every swarm’s hard work, drains your HP without filling a single report, and is deathly afraid of overtime.",
+  "pt": "Um bando de Drainliars promovidos à gerência e fundidos num executivo enorme. Leva o crédito por todo o trabalho do enxame, drena seu HP sem preencher um relatório e morre de medo de hora extra."
+ },
+ "enemiesLang/{TP_BOSS_GIANTMEDUSAHEAD}bDesc": {
+  "en": "A Medusa, but massive. Rumour says you can make one by sticking a bicycle pump into one of her snakes and inflating until something gives. Sounds absurd, but we already accept that every gorgon is named Medusa and that a glance turns you to stone, so who is to say what’s silly anymore?",
+  "pt": "Uma Medusa, só que gigante. Dizem que dá pra fazer uma enfiando uma bomba de bicicleta numa das cobras dela e inflando até algo ceder. Parece absurdo, mas já aceitamos que toda górgona se chama Medusa e que um olhar vira você em pedra, então quem pode dizer o que é bobagem?"
+ },
+ "enemiesLang/{TP_BOSS_MEDUSA}bDesc": {
+  "en": "The girl you call when you want to get stoned. Her snakes are all in a band, though not the same one, so rehearsals are a scheduling nightmare.",
+  "pt": "A garota que você chama quando quer ficar petrificado. As cobras do cabelo têm todas uma banda, mas não a mesma, então os ensaios são um pesadelo de agenda."
+ },
+ "enemiesLang/{TP_BOSS_MUMMY}bDesc": {
+  "en": "This Mummy was a wise and just ruler in life, but in death he is driven only by the curse that haunts his royal line. He specifically requested cremation to avoid exactly this, and now shambles around Glast Heim holding an eternal grudge against embalmers who don’t bloody listen.",
+  "pt": "Esta Múmia foi um governante sábio e justo em vida, mas na morte só a move a maldição que assombra sua linhagem real. Ele pediu cremação justamente pra evitar isso, e agora se arrasta por Glast Heim guardando um rancor eterno de embalsamadores que não escutam."
+ },
+ "enemiesLang/{TP_DISCARMOR}bDesc": {
+  "en": "A Raydric’s whirling blades can be repurposed as spinning tops, and Glast Heim’s barracks once ran an entire competitive league. The Lord of the castle banned it after too many heads went flying, which might explain all the headless knights wandering about.",
+  "pt": "As lâminas giratórias de um Raydric dão ótimos piões, e os quartéis de Glast Heim já tiveram uma liga competitiva inteira. O senhor do castelo proibiu depois que cabeças demais saíram voando, o que talvez explique tantos cavaleiros sem cabeça por aí."
+ },
+ "enemiesLang/{TP_DULLAHAN_01}bDesc": {
+  "en": "Yet another knight with a detachable head. Glast Heim really needs to order more glue.",
+  "pt": "Mais um cavaleiro de cabeça destacável. Glast Heim precisa urgentemente comprar mais cola."
+ },
+ "enemiesLang/{TP_FISHMAN_01}bDesc": {
+  "en": "Mermen once ruled the reefs off Byalan, until the tides changed and they moved into the castle cellars. Their interests include drowning humans, drowning animals, and peacefully campaigning for ocean conservation. They know the true meaning of a deep debt.",
+  "pt": "Os Tritões já reinaram nos recifes de Byalan, até a maré mudar e eles se mudarem pros porões do castelo. Seus interesses incluem afogar humanos, afogar animais e fazer campanhas pacíficas pela preservação dos oceanos. Conhecem bem o que é estar afogado em dívidas."
+ },
+ "enemiesLang/{TP_FLEAARMOR}bDesc": {
+  "en": "Armed and armoured, this Raydric hops around with suspicious agility for a knight in full plate. Are its legs so strong they defy physics? No, it’s just very into cosplay and stupendously skilled with foam rubber. ",
+  "pt": "Armado e blindado, este Raydric saltita com uma agilidade suspeita para um cavaleiro de armadura completa. As pernas são tão fortes que desafiam a física? Não, ele só curte muito cosplay e é muito bom com espuma de borracha."
+ },
+ "enemiesLang/{TP_FLYINGSKELETON}bDesc": {
+  "en": "Death from above, on bony wings stitched with leathery hide. Nobody knows whether this Skeleton was once a demon, a bird or just a really frightening Peco Peco.",
+  "pt": "A morte vinda do alto, em asas de osso costuradas com couro. Ninguém sabe se este Esqueleto já foi um demônio, um pássaro ou só um Peco Peco muito assustador."
+ },
+ "enemiesLang/{TP_GHOST}bDesc": {
+  "en": "Your rational author remains adamant that ghosts do not exist. Then again, the creatures in this section come from a reality where Dracula keeps a castle, so perhaps Whispers could indeed be spirits of the dead?\n\nWhat am I saying? They must be bedsheets on fishing wire!",
+  "pt": "Seu autor racional continua inflexível em afirmar que fantasmas não existem. Por outro lado, as criaturas desta seção vêm de uma realidade em que o Drácula tem castelo, então talvez os Sussurros sejam mesmo espíritos dos mortos?\n\nAh, o que estou dizendo? Devem ser lençóis pendurados em linha de pesca!"
+ },
+ "enemiesLang/{TP_HARPY}bDesc": {
+  "en": "The easiest way to enrage a Harpy is to sing ‘If You’re Harpy and You Know It’. They don’t mind the pun, but they really hate the part where you clap your hands.",
+  "pt": "O jeito mais fácil de enfurecer uma Harpia é cantar ‘Se Você Está Harpiada, Bata Palmas’. Ela não liga pro trocadilho, mas odeia a parte das palmas."
+ },
+ "enemiesLang/{TP_IMP}bDesc": {
+  "en": "The Imps of Dracula’s castle look remarkably like the Imps of the Clock Tower. Indeed, many creatures of Rune-Midgard bear a striking resemblance to the horrors of that castle, to the point where one could reasonably assume somebody was paying a shameless homage. Nobody is suing. Yet.",
+  "pt": "Os Diabretes do castelo do Drácula são incrivelmente parecidos com os Diabretes da Torre do Relógio. Aliás, muitas criaturas de Rune-Midgard lembram bastante os horrores daquele castelo, a ponto de dar pra supor que alguém fez uma homenagem descarada. Ninguém processou. Ainda."
+ },
+ "enemiesLang/{TP_MEDUSAHEAD}bDesc": {
+  "en": "Born beheaded and permanently hangry, these Medusa heads drift through the castle hunting for snacks, knowing the Count hides whole roast meals inside the walls. Gravity does not bind them, but a tragic lack of hands, or whips, keeps dinner forever out of reach.",
+  "pt": "Nascidas sem corpo e eternamente famintas, estas cabeças de Medusa vagam pelo castelo atrás de lanche, sabendo que o Conde esconde refeições inteiras dentro das paredes. A gravidade não as prende, mas a trágica falta de mãos, ou de chicotes, deixa o jantar sempre fora de alcance."
+ },
+ "enemiesLang/{TP_MUDMAN_01}bDesc": {
+  "en": "Rather than jelly made of slime, it is slime made of jelly. Becoming a Poring is a voluntary process; there’s a whole underground scene devoted to it. Drops Jellopy.",
+  "pt": "Em vez de gelatina feita de gosma, é gosma feita de gelatina. Virar Poring é um processo voluntário; existe uma cena underground inteira dedicada a isso. Dropa Jellopy."
+ },
+ "enemiesLang/{TP_SKELETONAPE}bDesc": {
+  "en": "Once happy primates of the Payon hills, they were wiped out in a territorial war with a very rude tribe of crocodiles. They have forgotten almost everything about their former lives, but these Skeletons still remember how to throw a barrel.",
+  "pt": "Antes primatas felizes das colinas de Payon, foram dizimados numa guerra territorial com uma tribo muito mal-educada de crocodilos. Esqueceram quase tudo da vida passada, mas estes Esqueletos ainda lembram como arremessar um barril."
+ },
+ "enemiesLang/{TP_SKELETONSPEAR}bDesc": {
+  "en": "Drawn to the castle by a fishing contest, these anglers were bewitched by the Count’s haunted lake full of man-eating fish. Skilled enough with spears to land the beasts, they were not quite skilled enough to survive the very annoyed school that followed. Their Skeletons now serve in the undead army, lured by a promise of unlimited sushi. The sushi has yet to arrive.",
+  "pt": "Atraídos ao castelo por um torneio de pesca, estes pescadores foram enfeitiçados pelo lago assombrado do Conde, cheio de peixes carnívoros. Eram bons de lança pra fisgar as feras, mas não bons o bastante pra sobreviver ao cardume muito irritado que veio depois. Seus Esqueletos agora servem no exército morto-vivo, atraídos pela promessa de sushi à vontade. O sushi ainda não chegou."
+ },
+ "enemiesLang/{TP_SUCCUBUS}bDesc": {
+  "en": "A seductively seditious dispenser of violence. She can bring kings to their knees with subtle manipulation, though she gets results faster by simply draining their SP.",
+  "pt": "Uma distribuidora sedutoramente subversiva de violência. Ela põe reis de joelhos com manipulação sutil, embora consiga resultados mais rápido simplesmente drenando o SP deles."
+ },
+ "enemiesLang/{TP_WEREWOLF}bDesc": {
+  "en": "Nobody knows why being a Wolf in the woods around Payon also makes you ripped as heck and fluent in martial arts with no formal training. Regardless, there is a whole crowd of adventurers who find the look rather fetching, a distraction the Wolf uses to its carnivorous advantage. Bring a Novice as bait.",
+  "pt": "Ninguém sabe por que ser Lobo nas matas de Payon também te deixa sarado e mestre em artes marciais sem treino nenhum. Seja como for, tem uma turma inteira de aventureiros que acha o visual bem atraente, distração que o Lobo usa a seu favor carnívoro. Leve um Aprendiz de isca."
+ },
+ "enemiesLang/{TRAINEE_ANY}bDesc": {
+  "en": "The interns of the underworld, reaping anything but a paycheck. Isn’t the work experience enough? Every Necromancer in the Cursed Abbey hopes to impress the Abbey’s dark masters enough to finally raise the dead on commission.",
+  "pt": "Os estagiários do submundo, que colhem tudo menos salário. A experiência não basta? Todo Necromante da Abadia Amaldiçoada espera impressionar os senhores sombrios da Abadia o bastante pra enfim erguer mortos por comissão."
+ },
+ "enemiesLang/{TRINACRIA}bDesc": {
+  "en": "A Tri Joint has three joints, three legs and three times the attitude. It crawled out of a crack in the Cursed Abbey’s floor, a gateway to pure chaos. Pure… evil. Look at it. Isn’t it beautiful?",
+  "pt": "O Tri Joint tem três juntas, três pernas e três vezes mais atitude. Rastejou de uma rachadura no chão da Abadia Amaldiçoada, um portal para o caos puro. Puro… mal. Olhe pra ele. Não é lindo?"
+ },
+ "enemiesLang/{WEREWOLF}bDesc": {
+  "en": "Said to descend from the hounds of a forgotten god, the Wolves of Payon hunt in packs and howl at anyone who questions their pedigree. Ask whether they are just big dogs and they will tear you to shreds with uncommon brutality. They are quite sensitive about it.",
+  "pt": "Dizem que descendem dos cães de um deus esquecido. Os Lobos de Payon caçam em matilha e uivam pra quem duvida do pedigree. Pergunte se são só cachorros grandes e eles te despedaçam com uma brutalidade incomum. São bem sensíveis com isso."
+ },
+ "enemiesLang/{WITCH1}bDesc": {
+  "en": "Kikimoras, the house spirits of Moscovia, keep secrets that could topple dynasties. Four fifths of them are about who left the dishes. The bribe money keeps every one of them in fine headscarves.",
+  "pt": "As Kikimoras, espíritos domésticos de Moscovia, guardam segredos capazes de derrubar dinastias. Quatro quintos são sobre quem deixou a louça suja. O dinheiro de suborno mantém todas com lenços finíssimos."
+ },
+ "enemiesLang/{WITCH2}bDesc": {
+  "en": "The Death Witch came all the way from Moscovia to Glast Heim to study the one subject her coven refused to teach. Her sisters swore to stop her and anyone who fights at her side. She swore back, with considerably more lightning. Maybe one day they will accept that anyone can be a Sassy Witch if they truly want to be.",
+  "pt": "A Bruxa da Morte veio de Moscovia até Glast Heim estudar a única matéria que seu clã se recusava a ensinar. As irmãs juraram detê-la e a todos que lutam ao lado dela. Ela jurou de volta, com bem mais relâmpagos. Talvez um dia aceitem que qualquer um pode ser uma Bruxa Atrevida se quiser de verdade."
+ },
+ "enemiesLang/{XLARCHDEMON}bDesc": {
+  "en": "Big. Buzzing. Horned. Beelzebub, Lord of the Flies, rules the Cursed Abbey from its deepest crypt and is about as demonic as it gets. He swears a lot, too.",
+  "pt": "Grande. Zumbidor. Chifrudo. Belzebu, o Senhor das Moscas, governa a Abadia Amaldiçoada da cripta mais funda e é o mais demoníaco possível. E fala muito palavrão."
+ },
+ "enemiesLang/{XLARMOR1}bDesc": {
+  "en": "Khalitzburg was once Glast Heim’s most decorated knight. Now he is a tower of cursed iron with a sword far too large to swing sensibly. That hardly matters, since it still crushes you flat like some genocidal butter churner. His fan club in the Clock Tower insists the sword is ‘to scale’.",
+  "pt": "Khalitzburg já foi o cavaleiro mais condecorado de Glast Heim. Hoje é uma torre de ferro amaldiçoado com uma espada grande demais pra girar com bom senso. Pouco importa, porque ela ainda te achata como uma batedeira de manteiga genocida. Seu fã-clube na Torre do Relógio jura que a espada está ‘em escala’."
+ },
+ "enemiesLang/{XLARMOR2}bDesc": {
+  "en": "A deluxe Raydric with exactly the same stats at twice the price. Sold as a luxury bodyguard, the Bloody Knight hides behind its red paint the fact that it is mostly recycled helmets and old buckets.\n",
+  "pt": "Um Raydric de luxo, com exatamente os mesmos atributos pelo dobro do preço. Vendido como guarda-costas de grife, o Cavaleiro Sangrento esconde atrás da pintura vermelha que é feito quase todo de elmos reciclados e baldes velhos.\n"
+ },
+ "enemiesLang/{XLARMOR_GOLD}bDesc": {
+  "en": "Gilded knights bound to the Cursed Abbey to keep the peace forever. They don’t so much keep the peace as keep breaking the stained glass with their mindless lumbering. They are exactly as expensive as they look.",
+  "pt": "Cavaleiros dourados presos à Abadia Amaldiçoada para manter a paz pra sempre. Mais do que manter a paz, vivem quebrando os vitrais com seu andar desajeitado. São exatamente tão caros quanto parecem."
+ },
+ "enemiesLang/{XLARMOR_GREEN}bDesc": {
+  "en": "“When in doubt, add more lightning.” This design philosophy gave birth to the Stormy Knight, whose sword hurls blizzards and storm bolts and occasionally even hits the enemy.",
+  "pt": "“Na dúvida, mais relâmpago.” Essa filosofia de design deu origem ao Cavaleiro da Tempestade, cuja espada lança nevascas e raios e às vezes até acerta o inimigo."
+ },
+ "enemiesLang/{XLARMOR_SWORD}bDesc": {
+  "en": "Abysmal Knights are not knights who carry swords, but rather guardians of their swords. They attack anyone who so much as glances at their mighty blades, which is practically everyone, because look at the size of ’em!",
+  "pt": "Os Cavaleiros do Abismo não são cavaleiros que carregam espadas, mas guardiões de suas espadas. Atacam qualquer um que sequer olhe para suas lâminas, ou seja, praticamente todo mundo, porque olha o tamanho delas!"
+ },
+ "enemiesLang/{XLBAT}bDesc": {
+  "en": "A Poring that rolled through the treasure room of a rich Merchant and came out gilded. Golden Porings shine, jingle and run away from anyone holding a Knife. Catching one is the dream of every Novice and the punchline of every veteran.",
+  "pt": "Um Poring que rolou pela sala do tesouro de um Mercador rico e saiu dourado. Os Porings Dourados brilham, tilintam e fogem de quem segura uma Faca. Pegar um é o sonho de todo Aprendiz e a piada de todo veterano."
+ },
+ "enemiesLang/{XLCHIMERA}bDesc": {
+  "en": "A resentful beast with a lion’s body, a goat’s grudge, a serpent for a tail and the wings of something that has wings. The Chimera breathes fire and spreads poison, and loves to remind adventurers it was made in a lab, as if that were an achievement.",
+  "pt": "Uma fera ressentida com corpo de leão, rancor de bode, uma serpente no lugar da cauda e asas de alguma coisa que tem asas. A Quimera cospe fogo e espalha veneno, e adora lembrar aos aventureiros que foi criada em laboratório, como se isso fosse uma conquista."
+ },
+ "enemiesLang/{XLCOCKATRICE}bDesc": {
+  "en": "The Clock Tower’s engineers suffered recurring nightmares of being turned to stone, from the feet up. Far worse were their dreams of an enormous, heavily armoured lizard with a petrifying stare. The Combat Basilisk’s birth was the moment they realised that weaponised fear might not count as therapy.",
+  "pt": "Os engenheiros da Torre do Relógio tinham pesadelos frequentes de virar pedra, dos pés pra cima. Bem piores eram os sonhos com um lagarto enorme e blindado de olhar petrificante. O nascimento do Basilisco de Combate foi quando perceberam que transformar medo em arma talvez não contasse como terapia."
+ },
+ "enemiesLang/{XLDEMON}bDesc": {
+  "en": "Nightmare Terrors gallop out of bad dreams and into the Cursed Abbey, spreading depravity, debasement and sleepless nights wherever they roam. Their flaming manes are the least alarming thing about them. Seriously, these horses are into some nasty, nasty stuff.",
+  "pt": "Os Pesadelos Aterrorizantes galopam pra fora dos sonhos ruins e pra dentro da Abadia Amaldiçoada, espalhando depravação, baixaria e noites em claro por onde passam. A crina flamejante é o que menos assusta. Sério, esses cavalos curtem umas coisas muito, muito pesadas."
+ },
+ "enemiesLang/{XLDRAGON1}bDesc": {
+  "en": "When a festival dragon puppet yearns to be a real dragon above all else, the spirits of Louyang may take pity and grant it a mighty form. Or rather, an almost-mighty form. Turns out the most they could manage was Zhu Po Long, a dancing dragon who mostly dances. Still, the puppet is thrilled!",
+  "pt": "Quando um boneco de dragão de festival deseja mais que tudo virar dragão de verdade, os espíritos de Louyang podem se compadecer e lhe dar uma forma poderosa. Ou melhor, quase poderosa. O máximo que conseguiram foi o Zhu Po Long, um dragão dançante que basicamente dança. Mesmo assim, o boneco está radiante!"
+ },
+ "enemiesLang/{XLFLOWER}bDesc": {
+  "en": "Flora’s centre looks like an inviting blossom, but it is little more than a lure, clever petals waved about by the carnivorous plant beneath. Adventurers who stop to smell the flowers in Payon are likely to become fertiliser.",
+  "pt": "O centro da Flora parece uma flor convidativa, mas é só uma isca, pétalas espertas sacudidas pela planta carnívora logo abaixo. Aventureiros que param pra cheirar as flores em Payon costumam virar adubo."
+ },
+ "enemiesLang/{XLGOLEM1}bDesc": {
+  "en": "Big, Big Golem! Ice it over and what do you get? A Stalactic Golem Construction Set! Freeze it up! Stomp along! Smash it down! Big Big Golem!",
+  "pt": "Golem, Golemzão! Congela tudo e o que é que dá? Kit de Montar Golem Estalactite! Congela! Pisoteia! Esmaga! Golem, Golemzão!"
+ },
+ "enemiesLang/{XLGOLEM3}bDesc": {
+  "en": "After the Clock Tower’s builders vanished, its management was left to whoever remained, which turned out to be a giant pile of gears with a clipboard. The Clock Tower Manager enforces punctuality at any cost. Being late is punished by death. So is being early.",
+  "pt": "Depois que os construtores da Torre do Relógio sumiram, a gerência ficou com quem sobrou, que acabou sendo uma pilha gigante de engrenagens com uma prancheta. O Gerente da Torre do Relógio cobra pontualidade a qualquer custo. Atrasar é punido com a morte. Adiantar também."
+ },
+ "enemiesLang/{XLMAGIO}bDesc": {
+  "en": "Elders are the oldest wizards of the Clock Tower’s hidden academy. Here they hone devastating spells, mentor the gifted youth of Al De Baran and perfect the art of lacemaking.",
+  "pt": "Os Anciões são os magos mais velhos da academia oculta da Torre do Relógio. Ali aprimoram feitiços devastadores, orientam os jovens talentosos de Al De Baran e aperfeiçoam a arte da renda."
+ },
+ "enemiesLang/{XLMANTIS}bDesc": {
+  "en": "Some say the Mantises of the Payon forests are failed alchemy experiments dumped in the woods when it became clear they couldn’t be trained and tasted terrible. The Mantises say nothing. They just sharpen their arms and wait.",
+  "pt": "Dizem que os Louva-a-Deus das florestas de Payon são experimentos alquímicos fracassados, largados no mato quando ficou claro que não dava pra treiná-los e que tinham um gosto horrível. Os Louva-a-Deus não dizem nada. Só afiam os braços e esperam."
+ },
+ "enemiesLang/{XLMEDUSA}bDesc": {
+  "en": "Isis, the serpent queen of Morroc’s Pyramids, whose hypnotic gaze lures even stubborn scholars to an early grave.",
+  "pt": "Ísis, a rainha serpente das Pirâmides de Morroc, cujo olhar hipnótico leva até estudiosos teimosos a uma cova precoce."
+ },
+ "enemiesLang/{XLMUMMY}bDesc": {
+  "en": "Despite appearances, Ancient Mummies change their bandages daily. Whatever lies beneath all those wrappings remains a Pyramid secret, but one presumes it is thoroughly disgusting.",
+  "pt": "Apesar das aparências, as Múmias Anciãs trocam as faixas todo dia. O que há por baixo de tanto pano continua um segredo das Pirâmides, mas presume-se que seja nojentíssimo."
+ },
+ "enemiesLang/{XLSKELETON}bDesc": {
+  "en": "The answer to the question ‘What if skeletons had an officer corps?’ Niflheim’s necromancers heard it every day in a whiny tone that made it clear someone really wanted one but was too embarrassed to ask. They eventually just made a Skeleton General, and he has been barking orders ever since.",
+  "pt": "A resposta à pergunta: ‘E se os esqueletos tivessem oficiais?’ Os necromantes de Niflheim ouviam isso todo dia num tom choroso que deixava claro que alguém queria muito um, mas tinha vergonha de pedir. No fim fizeram logo um General Esqueleto, e ele vive dando ordens desde então."
+ },
+ "enemiesLang/{XLTRITON}bDesc": {
+  "en": "Mighty warriors of the deep, Stroufs are famed for their stunning good looks and devastating Water Ball. Their haircare routine is one of the most treasured secrets in Rune-Midgard, with whole kingdoms having fallen in violent pursuit of it.",
+  "pt": "Guerreiros poderosos das profundezas, os Stroufs são famosos pela beleza estonteante e pela Esfera d’Água devastadora. A rotina de cuidados com o cabelo é um dos segredos mais bem guardados de Rune-Midgard, e reinos inteiros já caíram tentando descobri-la."
+ },
+ "enemiesLang/{XXLBAT}bDesc": {
+  "en": "All that glitters is not gold. Sometimes it is Dracula, lord of the Geffen Dungeon, in a bat-shaped mood. Such an apparition may seem to herald something truly momentous, but rest assured, it is just a vampire who really likes bats. Very, very much.",
+  "pt": "Nem tudo que reluz é ouro. Às vezes é o Drácula, senhor do Calabouço de Geffen, num momento morcego. Uma aparição assim parece anunciar algo grandioso, mas fique tranquilo: é só um vampiro que gosta muito de morcegos. Muito, muito mesmo."
+ },
+ "enemiesLang/{ZOMBIE}bDesc": {
+  "en": "“Why simply work the peasants to death? Work them beyond it!” So laughed the necromancers of Payon Cave as they turned to the grave for cheap labour that needed neither rest nor food. Sadly for them, while the Zombies never slept, feeding was another matter entirely.",
+  "pt": "“Por que só trabalhar os camponeses até a morte? Trabalhe-os além dela!” Assim riam os necromantes da Caverna de Payon ao recorrer à cova por mão de obra barata que não precisava de descanso nem comida. Pena pra eles: os Zumbis nunca dormiam, mas comer era outra história."
+ }
+}

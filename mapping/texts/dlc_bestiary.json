@@ -1,0 +1,742 @@
+{
+  "enemiesLang/{MS_MIKOS}bDesc": {
+    "en": "Fiendish tricksters with a taste for human flesh, these hermits pose as wise Taoist sages to deceive pilgrims on the road to Kunlun. You’d think the floating and the glowing eyes would be a giveaway, but you’d be surprised what you get away with, with a little bit of confidence.",
+    "pt": "Trapaceiros diabólicos com gosto por carne humana, esses eremitas se passam por sábios taoistas para enganar peregrinos a caminho de Kunlun. Você acharia que flutuar e ter olhos brilhando os entregaria, mas ficaria surpreso com o que dá pra fazer com um pouco de confiança."
+  },
+  "enemiesLang/{MS_HITOT}bDesc": {
+    "en": "A Louyang critter that lures villagers with cursed lanterns or trays of lucky dumplings. Despite its usually playful demeanour, it despises games of catch - it keeps trying to eat the ball.",
+    "pt": "Um bichinho de Louyang que atrai aldeões com lanternas amaldiçoadas ou bandejas de bolinhos da sorte. Apesar do jeito brincalhão, odeia brincar de pegar - sempre tenta comer a bola."
+  },
+  "enemiesLang/{MS_KAPPA}bDesc": {
+    "en": "The slimy bottom-feeders of Amatsu’s rivers; even other monsters are put off by their mossy breath, clammy skin and lewd predilections. A Kapha could once be disarmed by forcing it to bow and spill its head water, but the modern variety is far too uncouth to return such courtesies.",
+    "pt": "Os comedores de lodo dos rios de Amatsu; até outros monstros se incomodam com o bafo de musgo, a pele pegajosa e as preferências indecentes. Antes, dava pra desarmar um Kapha fazendo-o se curvar e derramar a água da cabeça, mas a variedade moderna é grosseira demais para retribuir cortesias."
+  },
+  "enemiesLang/{MS_TSUCHINOKO}bDesc": {
+    "en": "Oh, plump Side Winder of such mysterious origin. So coveted, so pleasingly squat, a delicious secret in scaly form. If I cannot have you, then may you be dashed upon the rocks by a survivor, aloof serpent!",
+    "pt": "Ó, rechonchudo Side Winder de origem tão misteriosa. Tão cobiçado, tão agradavelmente atarracado, um segredo delicioso em forma de escamas. Se não posso tê-lo, que um sobrevivente o esmague nas pedras, serpente esnobe!"
+  },
+  "enemiesLang/{MS_YAMAMBA1}bDesc": {
+    "en": "Nymph, witch, champion of frustrated wives; said to descend from the hills of Kunlun to curse abusive fathers, husbands and monks. Perhaps due to the higher literacy rates among such people, she has nonetheless garnered a reputation as an Evil Nymph.",
+    "pt": "Ninfa, bruxa, defensora das esposas frustradas; dizem que desce das colinas de Kunlun para amaldiçoar pais, maridos e monges abusivos. Talvez pela maior taxa de alfabetização entre essa gente, mesmo assim ela ganhou a fama de Ninfa Maligna."
+  },
+  "enemiesLang/{MS_RAIJU}bDesc": {
+    "en": "A foxy critter that descends to the earth inside lightning bolts, hailing from another plane of existence. Where it comes from, and how exactly it’s a worse place to be than Amatsu, remains a mystery. Its nine tails are not up for discussion.",
+    "pt": "Uma raposinha que desce à terra dentro de raios, vinda de outro plano de existência. De onde vem, e por que exatamente lá é pior que Amatsu, continua um mistério. As nove caudas não estão em discussão."
+  },
+  "enemiesLang/{MS_ONI1}bDesc": {
+    "en": "Despite the assumptions people make from their club and horns, Dokebi are amongst the most laid back and sociable goblins of the east. While they may sometimes steal children, they’re usually decent enough to leave the parents some Zeny.",
+    "pt": "Apesar do que as pessoas presumem pelo porrete e pelos chifres, os Dokebi estão entre os duendes mais tranquilos e sociáveis do oriente. Embora às vezes roubem crianças, costumam ter a decência de deixar alguns Zenys para os pais."
+  },
+  "enemiesLang/{MS_ONITHUNDER}bDesc": {
+    "en": "Cunning, violent and vindictive - this serpent lord has crossed mountains, seas and the whole of Amatsu to enact petty revenge. Thankfully for most of its victims, having no legs means these treks are mostly in the wrong direction.",
+    "pt": "Astuto, violento e vingativo - este lorde serpente já atravessou montanhas, mares e Amatsu inteira para executar vinganças mesquinhas. Para sorte da maioria das vítimas, não ter pernas faz essas jornadas irem quase sempre na direção errada."
+  },
+  "enemiesLang/{MS_ONIWIND}bDesc": {
+    "en": "The closest thing Kunlun has to a sage, Tao Gunka holds in its thick skull all manner of obscure ephemera. It’s worth noting, of course, that most of this lore is about how best to crush and eat various other creatures.",
+    "pt": "O mais perto de um sábio que Kunlun tem, o Tao Gunka guarda no crânio grosso todo tipo de curiosidade obscura. Vale notar, claro, que quase todo esse saber é sobre a melhor forma de esmagar e comer outras criaturas."
+  },
+  "enemiesLang/{MS_TSUCHIGUMO}bDesc": {
+    "en": "Said to be formed from the souls of those who died in haste, cursed with a monstrous form that has enough legs to complete tasks in record speed. It’s supposed to be a curse, anyway; most Giant Spiders seem to find it rather convenient.",
+    "pt": "Dizem que nascem das almas de quem morreu com pressa, amaldiçoadas com uma forma monstruosa com pernas suficientes para terminar tarefas em tempo recorde. Era pra ser uma maldição; a maioria das Aranhas Gigantes acha bem conveniente."
+  },
+  "enemiesLang/{MS_TANUKI}bDesc": {
+    "en": "Rotund Payon trickster, always seen carrying a leaf on his head. Hang on, I’m getting a note passed to me. Oh. Actually it’s not about the leaf. Probably best you look this up yourself.",
+    "pt": "Trapaceiro rechonchudo de Payon, sempre visto com uma folha na cabeça. Espera, estão me passando um bilhete. Ah. Na verdade não é sobre a folha. Melhor você pesquisar por conta própria."
+  },
+  "enemiesLang/{MS_TENGU}bDesc": {
+    "en": "Mysterious warriors that descend from the mountaintops of Amatsu to meddle in the affairs of mortals. Friend or foe, they’re always putting their nose in where it doesn’t belong.",
+    "pt": "Guerreiros misteriosos que descem dos picos de Amatsu para se meter nos assuntos dos mortais. Amigos ou inimigos, estão sempre metendo o nariz onde não são chamados."
+  },
+  "enemiesLang/{MS_GOSHADOKURO}bDesc": {
+    "en": "It’s a big skeleton knight. You want a big skeleton? Look no further buddy, this here Khalitzburg is a big skeleton. You think Glast Heim showed you big skeletons? Friend, you’ve seen nothing. Show us someone with a bigger skeleton, and we’ll show you a liar.",
+    "pt": "É um cavaleiro esqueleto grande. Quer um esqueleto grande? Pode parar de procurar, amigo, esse Khalitzburg aqui é um esqueleto grande. Acha que Glast Heim te mostrou esqueletos grandes? Você não viu nada. Mostre alguém com esqueleto maior e a gente te mostra um mentiroso."
+  },
+  "enemiesLang/{MS_OROCHIMARIO}bDesc": {
+    "en": "Ancient serpent queen of immense power and wisdom. With six arms, one tail, and a love for strong red wine, if she invites you for a night out, best decline. She’ll be a nightmare to carry home.",
+    "pt": "Antiga rainha serpente de imenso poder e sabedoria. Com seis braços, uma cauda e paixão por vinho tinto forte, se a Naga te convidar para uma noitada, recuse. Vai ser um pesadelo carregá-la para casa."
+  },
+  "enemiesLang/{MS_NINETYNINE}bDesc": {
+    "en": "Crafty spinner of the Amatsu forests, this Giant Spider guards the Night Sword from unworthy wielders. It is yet to be determined how many legs it actually has, as all who try to count get to around fifty before being wrapped up.",
+    "pt": "Tecelã astuta das florestas de Amatsu, esta Aranha Gigante protege a Espada da Noite de portadores indignos. Ainda não se sabe quantas pernas ela tem, já que todos que tentam contar chegam a umas cinquenta antes de virar casulo."
+  },
+  "enemiesLang/{MS_SPIRIT1}bDesc": {
+    "en": "There’s simply no such thing as Whispers. This is probably just a Poring covered in snow, and nothing else.",
+    "pt": "Whisper é coisa que não existe. Isso deve ser só um Poring coberto de neve, e nada mais."
+  },
+  "enemiesLang/{FS_GOBLIN}bDesc": {
+    "en": "Poor little Goblins who are tired of being misrepresented as sneaky backstabbing thieves. Be warned, for if you choose to slander them, they might just sneak up on you, stab you in the back, and swipe your Zeny.",
+    "pt": "Pobres Goblins, cansados de serem retratados como ladrões traiçoeiros. Cuidado: se você os difamar, eles podem se esgueirar, te esfaquear pelas costas e afanar seus Zenys."
+  },
+  "enemiesLang/{FS_SALMON}bDesc": {
+    "en": "Among the very first beasts to make their home in the lakes of Rachel, Phen understand their secrets and mysteries better than perhaps any other. It’s a great irony, then, that casual observers only see them as fish out of water.",
+    "pt": "Entre as primeiras criaturas a fazer morada nos lagos de Rachel, os Phen conhecem seus segredos e mistérios melhor que talvez ninguém. Grande ironia, então, que os observadores casuais só os vejam como peixes fora d’água."
+  },
+  "enemiesLang/{FS_SELKIE}bDesc": {
+    "en": "It seems Seals are descended from catfish, as suggested by their facial whiskers, heavy flattened heads, and curious feeding habits in which they pose as virginal maidens and lure gullible lotharios to their ice floes.",
+    "pt": "Parece que as Focas descendem dos bagres, como sugerem os bigodes, a cabeça achatada e pesada, e o curioso hábito alimentar de se passar por donzelas e atrair galanteadores ingênuos para seus blocos de gelo."
+  },
+  "enemiesLang/{FS_WULVER}bDesc": {
+    "en": "Do not be fooled into thinking these furry fishermen are related in any way to the common Wolf. Have you ever seen a Payon Wolf catch a largemouth bass? No, that one time doesn’t count.",
+    "pt": "Não se engane achando que esses pescadores peludos têm qualquer parentesco com o Lobo comum. Você já viu um Lobo de Payon pescar um robalo? Não, aquela vez não conta."
+  },
+  "enemiesLang/{FS_LAMB}bDesc": {
+    "en": "Descended from the legendary Vegetable Lamb, a goat suspended above the ground by a mighty plant stalk connected through an umbilical cord. It sprouts other goats from its body like bizarre woolen fruit. Your humble Lorekeeper is not making this one up. Seriously, it’s in books. Go home, folklore, you’re drunk.",
+    "pt": "Descende do lendário Cordeiro Vegetal, um bicho suspenso no ar por um caule poderoso ligado por um cordão umbilical. Brotam outras cabras do seu corpo como frutas bizarras de lã. Seu humilde Guardião do Saber não está inventando. Sério, está nos livros. Vá pra casa, folclore, você está bêbado."
+  },
+  "enemiesLang/{FS_HTROW}bDesc": {
+    "en": "Once a feared race of conquering warmongers until they learned how appealing their whimsical appearance was to Prontera’s children. They’ve since erased their bloody past and convinced the world they’re nothing but the inspiration for a line of adorable Hodremlin plushies. This is how you rule Rune-Midgard - not through war, but through merchandising opportunities.",
+    "pt": "Antes uma raça temida de conquistadores belicosos, até descobrirem o quanto sua aparência excêntrica encantava as crianças de Prontera. Desde então apagaram o passado sangrento e convenceram o mundo de que são só a inspiração de uma linha de pelúcias fofas de Hodremlin. É assim que se domina Rune-Midgard - não pela guerra, mas pelo licenciamento."
+  },
+  "enemiesLang/{FS_STROW}bDesc": {
+    "en": "Unlike their hillier cousins, the Quve are neither fearsome enough for war nor cute enough to become the next big toy fad. Embracing their inescapable mediocrity, they’ve become keen hobbyists, spending most of their days painting figurines and beachcombing.",
+    "pt": "Ao contrário dos primos das colinas, os Quve não são temíveis o bastante para a guerra nem fofos o bastante para virar a próxima febre de brinquedos. Abraçando a mediocridade inescapável, viraram hobbistas dedicados, passando os dias pintando miniaturas e catando conchas na praia."
+  },
+  "enemiesLang/{FS_CLOWN}bDesc": {
+    "en": "Don’t frown, don’t frown, it’s the Pierrotzoist come to town! When dusk draws near, it’s him you’ll hear, but feel no fear should he appear. Just smile and laugh with the merry mooncalf, just smile and laugh while he tears you in half. He’ll dance, he’ll prance, he’ll slaughter whole families, given the chance. Don’t frown, don’t frown, for the Pierrotzoist has come to your town.",
+    "pt": "Não fique tristinho, não fique tristinho, o Pierrotzoist chegou ao caminho! Quando a noite vem, é ele que se ouve, mas não tema se ele aparecer. Só sorria e ria com o palhaço lunar, só sorria e ria enquanto ele te partir ao meio. Ele dança, ele pula, mata famílias inteiras se puder. Não fique tristinho, não fique tristinho, o Pierrotzoist chegou ao caminho."
+  },
+  "enemiesLang/{FS_CAKE}bDesc": {
+    "en": "It’s the Caterpillar cake from Ragnarok Survivors(™) and the Ragnarok Survivors family of products! If you’re aged 30+, you owe it to yourself to have a Caterpillar for your birthday cake. The Caterpillar is a trademark of the Ragnarok Survivors(™) brand. The Caterpillar is not suitable for children of ages 1-29. The Caterpillar is not edible. The Caterpillar is not responsible for any Caterpillar related injuries.",
+    "pt": "É o bolo de Lagarta de Ragnarok Survivors(™) e da família de produtos Ragnarok Survivors! Se você tem 30 anos ou mais, merece uma Lagarta como bolo de aniversário. A Lagarta é marca registrada de Ragnarok Survivors(™). A Lagarta não é adequada para crianças de 1 a 29 anos. A Lagarta não é comestível. A Lagarta não se responsabiliza por ferimentos relacionados à Lagarta."
+  },
+  "enemiesLang/{FS_BROWN}bDesc": {
+    "en": "Once friendly Juperos folk who lived harmoniously in human homes and merrily performed household chores, asking only kindness in return. This peaceful coexistence continued until landlords started counting Knockers as additional occupants for rent purposes, forcing poor villagers to turn them out in droves. Their pickaxes, once wielded in the name of domestic cleanliness, are now poised to draw blood… or at least cause moderate bruising.",
+    "pt": "Antes um povinho amigável que vivia em harmonia nas casas humanas e fazia as tarefas domésticas com alegria, pedindo apenas gentileza em troca. A convivência pacífica durou até os senhorios começarem a contar os Knockers como moradores extras no aluguel, obrigando os pobres aldeões a expulsá-los aos montes. Suas picaretas, antes empunhadas em nome da limpeza, agora estão prontas para tirar sangue… ou pelo menos deixar uns hematomas."
+  },
+  "enemiesLang/{FS_GREEN}bDesc": {
+    "en": "The original Stormy Knight would challenge brave warriors to freely strike him anywhere on his armour, vowing to return the blow a year later. His storm-blue imitators know the legend well, using his fabled challenge to lure enemies close before kicking them right in the plums and chopping their bewildered heads off.",
+    "pt": "O Cavaleiro da Tempestade original desafiava guerreiros corajosos a golpeá-lo em qualquer ponto da armadura, jurando devolver o golpe um ano depois. Seus imitadores azul-tempestade conhecem bem a lenda e usam o famoso desafio para atrair inimigos antes de chutá-los bem nas partes baixas e decepar suas cabeças confusas."
+  },
+  "enemiesLang/{FS_AILLEN}bDesc": {
+    "en": "Its magic harp can put people to sleep in their hundreds. Its fiery gastrointestinal outbursts can wake people up in their thousands. The compulsive nature of this Bard Kavach’s explosive expulsions provides relative safety for any who fall foul of its lowly lullaby.",
+    "pt": "Sua harpa mágica põe centenas de pessoas para dormir. Suas explosões gastrointestinais flamejantes acordam milhares. A natureza compulsiva das expulsões explosivas deste Bardo Kavach garante relativa segurança a quem cair na sua cantiga de ninar."
+  },
+  "enemiesLang/{FS_DUERG}bDesc": {
+    "en": "They’re Giearth. Just regular ol’ earth dwarves. What more do you want, exactly? Some sort of clever twist on familiar folklore? A delightful parody full of puns and unsubtle political allegories? Sorry, but I’ve got not a damn thing to say about them other than the fact they’re dwarves and they believe in free universal healthcare.",
+    "pt": "São Giearth. Só anões da terra comuns. O que mais você quer? Uma reviravolta esperta no folclore? Uma paródia cheia de trocadilhos e alegorias políticas nada sutis? Desculpe, mas não tenho mais nada a dizer sobre eles além de que são anões e acreditam em saúde pública universal e gratuita."
+  },
+  "enemiesLang/{FS_GLORY}bDesc": {
+    "en": "The pickled paws of purloining prisoners, plucked from Gibbets, propagate perilous pains with pinches, punches, and plenty of picked pockets. Also they’re just really creepy and gross, EEW!",
+    "pt": "As patas em conserva de presos pilantras, penduradas em Gibbets, provocam pavorosas pancadas com puxões, petelecos e pilhas de bolsos punguados. E também são muito sinistras e nojentas, ECA!"
+  },
+  "enemiesLang/{FS_MARI}bDesc": {
+    "en": "There is much debate as to whether this horse-skulled Nightmare of Glast Heim predates the Prontera church. Clearly it does, otherwise the first historical record of its sighting would definitely have read, “Odin’s beard, what is that godforsaken thing?”",
+    "pt": "Há muito debate sobre se este Pesadelo de Glast Heim é anterior à igreja de Prontera. Claramente é, senão o primeiro registro histórico de sua aparição certamente diria: “Pelas barbas de Odin, que coisa amaldiçoada é essa?”"
+  },
+  "enemiesLang/{FS_NJUGG}bDesc": {
+    "en": "A beautiful but malicious mule with all the strengths of its two compositing forms and none of the weaknesses. The size, strength, and stamina of a horse paired with the unrivaled cruelty of a lack of head. Those who dare mount it are swiftly dragged to the bottom of the lake, seemingly unaware that they could just get off and swim away.",
+    "pt": "Uma mula bela mas maliciosa, com todas as forças de suas duas formas e nenhuma das fraquezas. O tamanho, a força e o fôlego de um cavalo somados à crueldade incomparável de não ter cabeça. Quem ousa montá-la é arrastado rapidinho para o fundo do lago, sem perceber que podia simplesmente descer e nadar para longe."
+  },
+  "enemiesLang/{FS_HAG}bDesc": {
+    "en": "If you wish to win favor with Baba-Yaga, you must prepare her favorite meal - hagberry and hagfish stew with a side of haggis. You can’t just present the dish as a freely given gift, however, since she’ll insist on haggling for it.",
+    "pt": "Se quiser cair nas graças da Baba-Yaga, prepare o prato favorito dela - ensopado de frutinhas de bruxa e peixe-bruxa com um acompanhamento de buchada. Mas não adianta entregar o prato de presente, porque ela vai insistir em pechinchar."
+  },
+  "enemiesLang/{FS_MUSH_HP}bDesc": {
+    "en": "The Biosynthesis skill allows the Poison Spore to restore 250 HP over 5 seconds, during which time its Healing Beam ability grants 50% more health. Cloud of Spores deals 134 damage and slows all enemies that enter its radius for four seconds. While clearly born for battle, the fact it does none of these things in a fight renders it rather useless.",
+    "pt": "A habilidade Biossíntese permite ao Esporo Venenoso recuperar 250 de HP em 5 segundos, período em que seu Raio Curativo concede 50% a mais de vida. Nuvem de Esporos causa 134 de dano e deixa lentos todos os inimigos que entram no raio por quatro segundos. Embora claramente nascido para a batalha, o fato de não fazer nada disso numa luta o torna bem inútil."
+  },
+  "enemiesLang/{FS_GGHOST}bDesc": {
+    "en": "A genuine, bona fide, honest-to-goodness Banshee. Only kidding. Ghosts aren’t real, and never will be. I’d sooner call this thing a vampire than an actual ghost, and I haven’t seen one of those yet either.",
+    "pt": "Uma Banshee genuína, legítima, de verdade verdadeira. Brincadeira. Fantasmas não existem e nunca vão existir. Eu chamaria isso de vampiro antes de chamar de fantasma, e também nunca vi um desses."
+  },
+  "enemiesLang/{FS_BOSS_AGAEA}bDesc": {
+    "en": "When the very natural order is under threat, all of life’s benevolence coalesces into a Dryad of such grace and beauty as to bring civilizations to their knees in awe. The purest embodiment of that which is virtuous and true, the very heart of the forest given form. It once caved a man’s head in with a branch for peeing in the lake. Blood and bits of skull everywhere.",
+    "pt": "Quando a própria ordem natural está ameaçada, toda a benevolência da vida se une numa Dríade de tamanha graça e beleza que civilizações se ajoelham maravilhadas. A personificação mais pura do que é virtuoso e verdadeiro, o coração da floresta em forma física. Uma vez ela afundou a cabeça de um homem com um galho porque ele fez xixi no lago. Sangue e pedaços de crânio por todo lado."
+  },
+  "enemiesLang/{FS_CAULD}bDesc": {
+    "en": "He’s as cold as ice, he’s willing to sacrifice our love. He never takes advice, someday he’ll pay the price, I know. I’ve seen it before, it happens all the time, he’s closing the door, he leaves the world behind. He’s a Dark Shadow digging for gold, throwing away a fortune in feelings, but someday he’ll pay.",
+    "pt": "Ele é frio como gelo, disposto a sacrificar nosso amor. Nunca aceita conselho, um dia vai pagar o preço, eu sei. Já vi isso antes, acontece o tempo todo, ele fecha a porta, deixa o mundo pra trás. É uma Sombra Escura cavando ouro, jogando fora uma fortuna em sentimentos, mas um dia vai pagar."
+  },
+  "enemiesLang/{FS_ROTGHOUL}bDesc": {
+    "en": "The stench of decomposition clings to every foul inch of these pestilential Ghouls. Once innocent villagers of Glast Heim, they were twisted by the Priesthood of Putrefaction into foot soldiers. They’d cling on every word their Decayed Deacons say, if any of them had enough fingers left with which to cling.",
+    "pt": "O fedor de decomposição gruda em cada centímetro desses Carniçais pestilentos. Antes aldeões inocentes de Glast Heim, foram distorcidos pelo Sacerdócio da Putrefação em soldados rasos. Se agarrariam a cada palavra dos seus Diáconos Decompostos, se ainda tivessem dedos suficientes para se agarrar."
+  },
+  "enemiesLang/{FS_FLAMINGSKULL}bDesc": {
+    "en": "Despite their combat prowess, Flame Skulls primarily serve the rather boring purpose of incinerating trash. This is because necromancers are absurdly extra and can’t even do garbage day like a sensible adult. Still, to not take these cremating craniums seriously is to burn with the rest of the rubbish.",
+    "pt": "Apesar da habilidade em combate, as Caveiras Flamejantes servem principalmente ao propósito chato de incinerar lixo. Isso porque necromantes são exagerados demais e não conseguem nem levar o lixo pra fora como um adulto sensato. Ainda assim, não levar esses crânios crematórios a sério é queimar junto com o resto do lixo."
+  },
+  "enemiesLang/{FS_WORM}bDesc": {
+    "en": "Poisonous Anacondaqs that slither from their river lairs aboard the boats of blasphemers to deliver divine intervention. Once on deck, they unleash a torrent of merciless proselytizing and acoustic guitar music in the name of their god. They’ve not won the Squirm Mother many converts this way, since they inevitably kill and eat any prospective new worshippers.",
+    "pt": "Anacondaqs venenosas que rastejam dos covis no rio para os barcos dos blasfemos, trazendo intervenção divina. No convés, soltam uma torrente de pregação impiedosa e música de violão em nome de seu deus. Não conseguiram muitos convertidos para a Mãe Rastejante assim, já que inevitavelmente matam e comem qualquer possível novo fiel."
+  },
+  "enemiesLang/{FS_SHOOTER1}bDesc": {
+    "en": "Who can say why a headless horseman comes with so many color variants. Mutation? Sorcery? A bestiary writer with a bucket of paint trying to up their word count? Nobody knows for sure.",
+    "pt": "Quem sabe por que um cavaleiro sem cabeça vem em tantas cores? Mutação? Feitiçaria? Um escritor de bestiário com um balde de tinta tentando aumentar a contagem de palavras? Ninguém sabe ao certo."
+  },
+  "enemiesLang/{FS_MEATBALL}bDesc": {
+    "en": "Spicy.",
+    "pt": "Picante."
+  },
+  "enemiesLang/{FS_MEATY}bDesc": {
+    "en": "A mage from Juno swore its cold, smoky face resembled a great scholar who abandoned her tower and disappeared without a trace. He boldly dared to speak with the creature, and did so for hours. None dared intervene, even as the fumes thickened and the mage, transfixed, choked with them. Witnesses say he uttered one last thing as the tears in his eyes ran dry: “She is alive there.”",
+    "pt": "Um mago de Juno jurou que o rosto frio e enfumaçado da criatura lembrava uma grande estudiosa que abandonou sua torre e sumiu sem deixar rastros. Ousado, ele conversou com ela por horas. Ninguém ousou intervir, nem quando a fumaça engrossou e o mago, hipnotizado, sufocou com ela. Testemunhas dizem que ele disse uma última coisa enquanto as lágrimas secavam: “Ela está viva lá.”"
+  },
+  "enemiesLang/{FS_EDNA}bDesc": {
+    "en": "At first glance, it may look like a lazy alchemist bolted a spider onto a sea creature and called it a day. At second and third glance, it may still look like that. Its creator absolutely swears that’s not what he did though, and that the Brinaranea is a valid monster worthy of record.",
+    "pt": "À primeira vista, parece que um alquimista preguiçoso parafusou uma aranha numa criatura marinha e deu o dia por encerrado. Na segunda e na terceira olhada, continua parecendo. O criador jura que não foi isso que fez, e que a Brinaranea é um monstro legítimo digno de registro."
+  },
+  "enemiesLang/{FS_HORCAULD}bDesc": {
+    "en": "In his life there’s been heartache and pain. This Evil Shadow don’t know if he can face it again. Can’t stop now, he’s traveled so far, to change this lonely life… never gonna give you up, never gonna let you down, never gonna run around and desert you.",
+    "pt": "Na vida dele só houve dor e sofrimento. Esta Sombra Maligna não sabe se aguenta tudo de novo. Não pode parar agora, viajou tanto pra mudar essa vida solitária… nunca vai te abandonar, nunca vai te decepcionar, nunca vai sair por aí e te deixar."
+  },
+  "enemiesLang/{FS_HORWORM}bDesc": {
+    "en": "This motivational tentacle screams unsolicited advice about health and mindfulness to any who sail over the deep it calls home. It’s a wellbeing Kraken. Hydrate. Breathe. Get dragged under.",
+    "pt": "Este tentáculo motivacional grita conselhos não solicitados sobre saúde e atenção plena para quem navega sobre o abismo que chama de lar. É um Kraken do bem-estar. Hidrate-se. Respire. Seja arrastado pro fundo."
+  },
+  "enemiesLang/{FS_HORNJUGG}bDesc": {
+    "en": "How wild do you have to get in order to be considered a wild version of something that was already wild? About as wild as the Wild Rider, a reckless equestrian that took the phrase “live fast” to its galloping extreme. Despite its mastery of the saddle, the cruel irony is that the leading cause of death among its kind is falling off. It would rather a dusty grave than live slow and steady, for it understands that faster is better.",
+    "pt": "Quão selvagem é preciso ser para virar a versão selvagem de algo que já era selvagem? Tão selvagem quanto o Wild Rider, um cavaleiro imprudente que levou a frase “viva intensamente” ao extremo galopante. Apesar de dominar a sela, a cruel ironia é que a principal causa de morte entre os seus é cair do cavalo. Prefere um túmulo empoeirado a viver devagar e sempre, pois entende que mais rápido é melhor."
+  },
+  "enemiesLang/{FS_HORAILLEN}bDesc": {
+    "en": "A Kavach that’s always harping on about how hot it is. Can’t say it’s lying though, given its status as one of the sexiest beasts in the Veins sky. Scholars of aberrant creatures have spent years studying this desirable icarus to understand exactly why it’s so lusted after, but such forbidden knowledge has clearly driven them off the edge of sanity. Their fevered writings are little more than insensible mantras full of references to an eldritch god named Dummy Thicc.",
+    "pt": "Um Kavach que vive tocando a mesma corda sobre o quanto é gostoso. E não dá pra dizer que mente, dado seu status de uma das feras mais sensuais do céu de Veins. Estudiosos de criaturas aberrantes passaram anos analisando este ícaro desejável para entender por que desperta tanta luxúria, mas esse saber proibido claramente os levou à loucura. Seus escritos febris são mantras sem sentido cheios de referências a um deus ancestral chamado Dummy Thicc."
+  },
+  "enemiesLang/{FS_HORDUERG}bDesc": {
+    "en": "Each Pitman swears it’s definitely a real dwarf miner and not a human who’s done that thing where you strap your shoes to your knees and pretend you’re a lot shorter than you are. Prone to loudly professing that they’re not disguised as dwarves to access their healthcare, which is generally considered 50% more advanced and 100% less profit motivated.",
+    "pt": "Cada Pitman jura que é um minerador anão de verdade e não um humano que amarrou os sapatos nos joelhos para fingir ser bem mais baixo. Vivem proclamando em alto e bom som que não estão disfarçados de anões para usar o sistema de saúde deles, que é considerado 50% mais avançado e 100% menos movido a lucro."
+  },
+  "enemiesLang/{FS_HORGLORY}bDesc": {
+    "en": "Here to give you a big hand. The Iron Fist likes to collect plush dolls and impart life upon them with a snap of its mighty fingers, watching with glee as they brutalize each other in a violent melee before spitefully bringing a fist down on the winner. Prepare for a real brawl with this one - it likes to smash.",
+    "pt": "Veio te dar uma mãozinha. O Punho de Ferro gosta de colecionar bonecos de pelúcia e dar vida a eles com um estalo dos dedos poderosos, assistindo feliz enquanto se espancam numa briga violenta antes de descer o punho no vencedor por pura maldade. Prepare-se para uma briga de verdade - ele adora esmagar."
+  },
+  "enemiesLang/{FS_HORMARI}bDesc": {
+    "en": "Imagine this Nightmare Terror galloping in through your window at night, wheezing with a whispered rasp as it shudders its way up the stairs. It approaches your bedroom, trembling hooves on the floorboards, staring through a crack in the door. Watching. Waiting. Admiring you while you sleep. After an hour, maybe two, it cannot resist any longer and it wriggles into the room without moving the door an inch. It’s here. It’s here to lick your eyebrows. It wants the nutrients, you see, the minerals your eyebrows hide. It’s going to do this every Wednesday for a year.",
+    "pt": "Imagine este Pesadelo Aterrorizante entrando a galope pela sua janela à noite, chiando num sussurro rouco enquanto sobe as escadas tremendo. Ele se aproxima do quarto, cascos trêmulos no assoalho, espiando por uma fresta da porta. Observando. Esperando. Te admirando enquanto você dorme. Depois de uma hora, talvez duas, não resiste mais e se esgueira para dentro sem mover a porta um centímetro. Ele está aqui. Está aqui para lamber suas sobrancelhas. Quer os nutrientes, sabe, os minerais que suas sobrancelhas escondem. Vai fazer isso toda quarta-feira durante um ano."
+  },
+  "enemiesLang/{FS_FMCETHLENN}bDesc": {
+    "en": "H3lloo0! H@llo?/? whERe r U hiDiNG?  whEEEEEEEre ha..ve u g0n? GONE? goNnNnNnNNNnNnNN??? W3 h@ve LoOKeD loooooked evERyWhERe for yoU. SaID you w3re AT Glast HEim CHivAlry but u WEREn’t th33333re! sAid u wErE in TH3 PRISON BEEEEEEEEEELOW but W3 C@nT f111111nD u! \n\nOh… wait… there you are. \n\nFOunD Y0000000000000000000000000000000000000000000000000000000000000000000U!\n",
+    "pt": "0Lááá! 0i?/? ONdE vC tÁ sE eSCoNdEnDo?  oNdEEEEEEEEE vc f0..i? FOI? fOiIiIiIIIiIiII??? N0s pRoCUrAmOs pROcuuuuramos eM tOdO lUgAR. DiSSe qUE eStAvA nA CaVAlArIa De GlAsT hEiM mAs nÃO eStAvA lÁÁÁÁÁ! dISsE qUe eStAvA nA PRISÃO LÁÁÁÁ EMBAIXO mAs nÃ0 te AcH@m00000s! \n\nAh… espera… aí está você. \n\nAcHAm0S V0000000000000000000000000000000000000000000000000000000000000000000CÊ!\n"
+  },
+  "enemiesLang/{FS_BOSS_JENEVIV}bDesc": {
+    "en": "The dread devourer, the grand consumer, the eater of ships. The Deep Sea Witch has tasted all that the ocean has to offer, and all of it is reflected in her ravening form. She is part human. Part monster. Part undead. Part demon. Part abomination. She is not a vampire. She is yet to meet a vampire. She would very much like to eat a vampire. She wants to know if you’ve seen any vampires. She will be far too busy eating you and everything around you to ask.",
+    "pt": "A devoradora temida, a grande consumidora, a comedora de navios. A Bruxa das Profundezas já provou tudo o que o oceano tem a oferecer, e tudo se reflete em sua forma voraz. Ela é parte humana. Parte monstro. Parte morta-viva. Parte demônio. Parte abominação. Ela não é vampira. Ainda não conheceu um vampiro. Adoraria comer um vampiro. Quer saber se você viu algum vampiro. Vai estar ocupada demais comendo você e tudo ao redor para perguntar."
+  },
+  "enemiesLang/{FS_GEF}bDesc": {
+    "en": "It’s said Yoyos are among the most intelligent creatures in all of Rune-Midgard. One is skeptical of such a claim, however, as they seem to do nothing more clever than run mindlessly toward their enemies in droves. When has that ever worked?",
+    "pt": "Dizem que os Yoyos estão entre as criaturas mais inteligentes de Rune-Midgard. Há quem duvide, já que eles não fazem nada mais esperto do que correr às cegas na direção dos inimigos em bandos. Quando foi que isso funcionou?"
+  },
+  "enemiesLang/{CHAL_BINNN_SUS}bDesc": {
+    "en": "All I see is a Juperos trash can, a child’s tin construction toy, and a chicken nugget. These must have been added by mistake, nothing suspicious here.",
+    "pt": "Só vejo uma lata de lixo de Juperos, um brinquedo de montar de lata e um nugget de frango. Devem ter sido adicionados por engano, nada suspeito aqui."
+  },
+  "enemiesLang/{CHAL_GHOST}bDesc": {
+    "en": "The creeping Death Soul of your mistakes. What if you had connected those wires faster? What if you’d trusted that party member a little less? What if you put the damn card in the reader the right way the first time? Well, it’s dead and you’re not, so I wouldn’t worry about it too much.",
+    "pt": "A Alma da Morte rastejante dos seus erros. E se você tivesse ligado aqueles fios mais rápido? E se tivesse confiado um pouco menos naquele colega de grupo? E se tivesse passado a porcaria do cartão do jeito certo na primeira vez? Bem, ela está morta e você não, então eu não me preocuparia tanto."
+  },
+  "enemiesLang/{CHAL_LAVAA}bDesc": {
+    "en": "When you’re a shapeshifter abandoned in the depths of Juperos, you have to start getting creative or risk losing your marbles. These Magmarings have managed to imitate the more uncommon states of physical matter, but they can’t help bouncing like Porings too, it’s simply too fun.",
+    "pt": "Quando você é um metamorfo abandonado nas profundezas de Juperos, precisa ser criativo ou acaba perdendo o juízo. Esses Magmarings conseguiram imitar os estados mais incomuns da matéria, mas não resistem a quicar feito Porings também, é divertido demais."
+  },
+  "enemiesLang/{CHAL_MEATT}bDesc": {
+    "en": "The repulsive meaty effluence of a vicious, yet very cute, Bio Lab experiment. It’s hotly debated whether these Human Kimeras are some sort of offspring, or merely a biological defence mechanism.",
+    "pt": "O repulsivo refugo carnudo de um experimento cruel, porém muito fofo, do Laboratório de Lighthalzen. Debate-se acaloradamente se essas Quimeras Humanas são algum tipo de prole ou só um mecanismo de defesa biológico."
+  },
+  "enemiesLang/{CHAL_SHIFT}bDesc": {
+    "en": "The most successful of shapeshifters eventually become arrogant and egotistical, neglecting useful Disguises in favour of more obvious tentacle-ridden forms. This is part of the natural life cycle of the species, for once they reach this point they don’t tend to last much longer.",
+    "pt": "Os metamorfos mais bem-sucedidos acabam ficando arrogantes e egocêntricos, deixando de lado Disfarces úteis em favor de formas bem mais óbvias e cheias de tentáculos. Faz parte do ciclo de vida natural da espécie, pois quando chegam a esse ponto não costumam durar muito."
+  },
+  "enemiesLang/{CHAL_BRIA}bDesc": {
+    "en": "This Octopus is something of a biological oxymoron. It’s so lazy it developed eight arms for the sole purpose of automating every aspect of its life. After this herculean feat of effort it spent the following few millennia wallowing in inactivity.",
+    "pt": "Este Polvo é uma espécie de paradoxo biológico. É tão preguiçoso que desenvolveu oito braços com o único propósito de automatizar todos os aspectos da vida. Depois desse esforço hercúleo, passou os milênios seguintes chafurdando na inatividade."
+  },
+  "enemiesLang/{CHAL_FRIGGI}bDesc": {
+    "en": "Smart, mechanically adept, and devastatingly sarcastic, Hillthrions are always the preferred hire for Juperos engineering crews. All their instructions drip with sardonic irony, so it’s best to do the opposite of whatever they say.",
+    "pt": "Espertos, habilidosos com máquinas e devastadoramente sarcásticos, os Hillthrion são sempre os preferidos nas equipes de engenharia de Juperos. Todas as instruções deles pingam ironia, então é melhor fazer o contrário do que dizem."
+  },
+  "enemiesLang/{CHAL_MOLO2}bDesc": {
+    "en": "Part of a twin pair of machines that exist in a state of mutually beneficial symbiosis. One will live underground in the Juperos ruins, farming and building; the other will live above ground in abundant luxury. Every hundred years or so they swap places, so don’t expect to see the other one any time soon.",
+    "pt": "Parte de um par gêmeo de máquinas que vivem em simbiose mutuamente benéfica. Uma vive no subsolo das ruínas de Juperos, cultivando e construindo; a outra vive na superfície em luxo abundante. A cada cem anos mais ou menos elas trocam de lugar, então não espere ver a outra tão cedo."
+  },
+  "enemiesLang/{CHAL_OTTERR}bDesc": {
+    "en": "One of the most intelligent and technologically advanced species in Rune-Midgard. However, due to their intense intellect, Sea Otters have wisely decided that floating on their backs, cracking shellfish, and writing poetry are the best uses of their time.",
+    "pt": "Uma das espécies mais inteligentes e tecnologicamente avançadas de Rune-Midgard. Porém, graças ao intelecto intenso, as Lontras Marinhas decidiram sabiamente que boiar de costas, quebrar mariscos e escrever poesia são o melhor uso do seu tempo."
+  },
+  "enemiesLang/{CHAL_MONKEY}bDesc": {
+    "en": "These lanky Dolorians fancy themselves the only truly objective creatures in existence, able to look at the universe without bias corrupting their perception. They are of course wrong about almost everything, but it’s best not to argue - especially about pizza toppings.",
+    "pt": "Esses Dolorians esguios se acham as únicas criaturas realmente objetivas que existem, capazes de olhar o universo sem que vieses corrompam a percepção. Claro que estão errados sobre quase tudo, mas é melhor não discutir - principalmente sobre sabores de pizza."
+  },
+  "enemiesLang/{CHAL_CREATU}bDesc": {
+    "en": "This thing is the result of a Bio Lab researcher realising that the key to reanimation lies not in the animal world, but the plant world. Using Rekenber tech, he revived a long-dead master in a more arboreal form. Unfortunately, the seeds have spread far beyond Lighthalzen, and for some reason they’ve all given themselves the same title: Zombie Master.",
+    "pt": "Isto é o resultado de um pesquisador do Laboratório perceber que a chave da reanimação não está no reino animal, mas no vegetal. Com tecnologia da Rekenber, reviveu um mestre morto há muito numa forma mais arbórea. Infelizmente, as sementes se espalharam para muito além de Lighthalzen, e por algum motivo todas se deram o mesmo título: Mestre Zumbi."
+  },
+  "enemiesLang/{CHAL_MARTIA}bDesc": {
+    "en": "Did you know there is a face in the mines of Juperos? Well, there’s actually more than one, they’re made of Bradium, and they’re all furious. Some suspect this murderous rage is a response to hearing industrialist fantasies of strip-mining their home, but the language barrier makes it difficult to tell for sure.",
+    "pt": "Sabia que existe um rosto nas minas de Juperos? Na verdade são vários, feitos de Bradium, e todos furiosos. Há quem suspeite que essa fúria assassina seja uma resposta às fantasias de industriais de escavar o lar deles, mas a barreira do idioma dificulta ter certeza."
+  },
+  "enemiesLang/{CHAL_ROBOTT}bDesc": {
+    "en": "A venerable old battle-bot with a legacy of service stretching back centuries. Unfortunately its friendly fire protocols have deprecated, so rampaging groups of Venatu terrorise the abandoned halls of Juperos to this day.",
+    "pt": "Um venerável robô de batalha com séculos de serviço. Infelizmente seus protocolos contra fogo amigo ficaram obsoletos, então grupos de Venatu enfurecidos aterrorizam os salões abandonados de Juperos até hoje."
+  },
+  "enemiesLang/{CHAL_NDROID}bDesc": {
+    "en": "Sauntering statuesquely around Juperos, these iconic robotic supermodels have inspired designs across Rune-Midgard. Despite their glamorous looks, Dimiks have terrible table manners and respond to most questions with a blast of their laser cannon.",
+    "pt": "Desfilando escultóricos por Juperos, esses icônicos supermodelos robóticos inspiraram designs por toda Rune-Midgard. Apesar da aparência glamourosa, os Dimik têm péssimos modos à mesa e respondem à maioria das perguntas com uma rajada do canhão laser."
+  },
+  "enemiesLang/{CHAL_TRIPOD}bDesc": {
+    "en": "Some say more legs are better than two, but these lumbering war machines tend to fall over frequently when attempting to conquer cities. Despite their ungainly gait, Apocalypses have managed to \"invade\" seventy-five towns by setting up chains of low-cost Kafra knock-offs in the name of their lazy Juperos masters.",
+    "pt": "Dizem que mais pernas são melhores que duas, mas essas máquinas de guerra desajeitadas caem com frequência ao tentar conquistar cidades. Apesar do andar trôpego, os Apocalipses conseguiram \"invadir\" setenta e cinco cidades abrindo redes de imitações baratas da Kafra em nome dos seus mestres preguiçosos de Juperos."
+  },
+  "enemiesLang/{CHAL_ANIMEXXL}bDesc": {
+    "en": "They say the eyes are the windows to the soul. I’m not sure this Giant Octopus has a soul, but it definitely has an unnervingly \"cute\" face, and a lot of gross tentacles. I’d recommend cutting them off as soon as possible and sending this murderous meat-blob to the Alberta fish market, along with a side of Meat Beans. Also known as Granbeanlloon.",
+    "pt": "Dizem que os olhos são a janela da alma. Não sei se este Polvo Gigante tem alma, mas com certeza tem uma cara perturbadoramente \"fofa\" e um monte de tentáculos nojentos. Recomendo cortá-los o quanto antes e mandar essa bolha de carne assassina para o mercado de peixe de Alberta, com uma porção de Feijões de Carne. Também conhecido como Granbeanlloon."
+  },
+  "enemiesLang/{FB_GREEDER}bDesc": {
+    "en": "A name given to the dullard infantry of Rekenber’s private army, Aliots haven’t even brought a knife to this gun fight. Unarmed, unbothered, and unburdened by any thoughts of personal safety or battlefield strategy, Aliots charge directly at their enemies to bludgeon them to death with their bulky bodies. Their strategy is less \"run and gun\", more \"run at gun\".",
+    "pt": "Nome dado à infantaria tapada do exército particular da Rekenber, os Aliots não trouxeram nem uma faca para este tiroteio. Desarmados, despreocupados e livres de qualquer pensamento sobre segurança ou estratégia, os Aliots correm direto contra os inimigos para matá-los a pancadas com seus corpos volumosos. A estratégia deles é menos \"correr e atirar\", mais \"correr para o tiro\"."
+  },
+  "enemiesLang/{FB_LEDDER}bDesc": {
+    "en": "Making up the majority of Rekenber’s security forces, these rifle-wielding Special Guards willingly let the Bio Lab alter their DNA to empower their battlefield abilities. Unfortunately for them, every one of them mutated in the same way, developing wobbly eye-stalks that make them look more like gun-toting snails than deadly soldiers.",
+    "pt": "Formando a maior parte da segurança da Rekenber, esses Guardas Especiais armados de fuzil deixaram o Laboratório alterar seu DNA para melhorar o desempenho em combate. Azar o deles: todos mutaram do mesmo jeito, ganhando olhos em antenas moles que os fazem parecer mais lesmas armadas do que soldados mortais."
+  },
+  "enemiesLang/{FB_WARLORD}bDesc": {
+    "en": "Rekenber’s executives made a huge hiring push to gather only the most muscular Gremlins around to serve as grenadiers. This groundbreaking campaign had predictably poor results. The ironically named \"Warlord\" squad used up all its munitions during training and is now forced to use literal hand-to-hand combat in the field.",
+    "pt": "Os executivos da Rekenber fizeram uma enorme campanha para contratar só os Gremlins mais musculosos como granadeiros. Essa campanha revolucionária teve resultados previsivelmente ruins. O pelotão ironicamente chamado de \"Senhores da Guerra\" gastou toda a munição no treino e agora é obrigado a lutar literalmente no braço."
+  },
+  "enemiesLang/{FB_ALIENCENTIPEDE}bDesc": {
+    "en": "Birthed through the Bio Lab’s biotechnological experiments, these multilegged Centipedes just love crawling around. Though they may seem aggressive, they are simply obsessed with scurrying, unaware of the effects their spiky, toxic bodies have on bystanders they bump into. Were they not currently being deployed as weapons, these beasts would make challenging but rewarding pets, or at least an excellent source of protein.",
+    "pt": "Nascidas dos experimentos biotecnológicos do Laboratório, essas Centopeias de mil pernas adoram rastejar por aí. Embora pareçam agressivas, são apenas obcecadas por correr de um lado pro outro, sem perceber o efeito que seus corpos espinhosos e tóxicos causam em quem esbarram. Se não estivessem sendo usadas como armas, dariam bichos de estimação difíceis mas recompensadores, ou pelo menos uma ótima fonte de proteína."
+  },
+  "enemiesLang/{FB_CHICKEN}bDesc": {
+    "en": "By combining the fearsome firepower of a siege cannon with the bipedal versatility of a Grand Peco, Rekenber’s engineers have created a war machine that is somehow less than the sum of its parts in every conceivable way. Prone to tumbling over due to its top-heavy design and unable to aim its turret up or down, its riders rely on clumsily stomping their enemies underfoot as the most reliable means of victory. Every guard does, however, remark on how cool they look and how badass it feels to ride one of these horrendous feathered hot-rods.",
+    "pt": "Combinando o poder de fogo temível de um canhão de cerco com a versatilidade bípede de um Grand Peco, os engenheiros da Rekenber criaram uma máquina de guerra que é, de algum jeito, menos que a soma das partes em todos os sentidos imagináveis. Propensa a tombar pelo peso no topo e incapaz de mirar o canhão para cima ou para baixo, seus pilotos dependem de pisotear os inimigos desajeitadamente como forma mais confiável de vencer. Todo guarda, porém, comenta como eles são estilosos e como é sinistro pilotar um desses horrendos carrões de penas."
+  },
+  "enemiesLang/{FB_METALALIEN}bDesc": {
+    "en": "Forged to be the perfect metallic killer amongst an army of tyrannical invaders, the Abysmal Knight has only one weakness: rust. Also, it can be brought down by hitting it a lot. This is less a weakness and more a fairly universal property of matter barraged by high speed adventurers.",
+    "pt": "Forjado para ser o assassino metálico perfeito num exército de invasores tirânicos, o Cavaleiro Abissal tem uma única fraqueza: ferrugem. Além disso, dá pra derrubá-lo batendo muito. Isso é menos uma fraqueza e mais uma propriedade universal da matéria bombardeada por aventureiros em alta velocidade."
+  },
+  "enemiesLang/{FB_HUMANFACEDDOG}bDesc": {
+    "en": "When the Bio Lab first tried to win over Lighthalzen’s public, it struggled to overcome humanity’s innate distrust of the other. Researchers began engineering a pseudo-human mouthpiece, but scrapped the idea as humans didn’t seem to trust other humans either. Here we have attempt number two, a Human Kimera inspired by humanity’s near universal trust of canines. The human face was a design misstep.",
+    "pt": "Quando o Laboratório tentou conquistar o público de Lighthalzen, esbarrou na desconfiança inata da humanidade pelo diferente. Os pesquisadores começaram a criar um pseudo-humano porta-voz, mas abandonaram a ideia, já que humanos também não confiam muito em outros humanos. Aqui temos a tentativa número dois, uma Quimera Humana inspirada na confiança quase universal da humanidade nos cães. O rosto humano foi um erro de design."
+  },
+  "enemiesLang/{FB_GARTH}bDesc": {
+    "en": "Paratroopers are a relic of the past, at least according to Rekenber, which prefers to outfit its airborne infantry as stone-winged Gargoyles. Those who point out the obvious fallacy of aerial warriors made of incredibly heavy stone invariably find themselves crushed beneath a pile of angry elbow-dropping Gargoyles. Eschewing most weaponry in favour of using their arms to better control their wings, every Gargoyle is nonetheless incredibly intimidating due to their universally well practiced bird impressions.",
+    "pt": "Paraquedistas são coisa do passado, pelo menos segundo a Rekenber, que prefere equipar sua infantaria aérea como Gárgulas de asas de pedra. Quem aponta a falácia óbvia de guerreiros aéreos feitos de pedra pesadíssima acaba esmagado sob uma pilha de Gárgulas furiosas dando cotoveladas voadoras. Dispensando quase todas as armas para usar os braços no controle das asas, toda Gárgula é mesmo assim muito intimidadora graças às imitações de pássaro bem treinadas."
+  },
+  "enemiesLang/{FB_HELLRIDER}bDesc": {
+    "en": "50% goblin, 50% engine, and 100% physically merged with their steam bike, Goblin Steamriders have no choice but to accelerate at max velocity into combat (apparently Lighthalzen engineering has not yet developed to the point that brakes can be added). Undoubtedly dangerous, they channel their rage at being unable to take a slow, scenic drive into deadly efficiency on the battlefield.",
+    "pt": "50% goblin, 50% motor e 100% fundidos fisicamente à moto a vapor, os Goblins a Vapor não têm escolha senão acelerar ao máximo rumo ao combate (pelo visto a engenharia de Lighthalzen ainda não chegou ao ponto de adicionar freios). Inegavelmente perigosos, eles canalizam a raiva de não poder fazer um passeio lento e cênico em eficiência mortal no campo de batalha."
+  },
+  "enemiesLang/{FB_JUNKYARDCAR}bDesc": {
+    "en": "Lighthalzen is well known for its rascal rogue mechanics, strange individuals who stalk the slums performing wild engineering experiments on unattended carts. Fresh graduates of Rekenber’s elite engineering courses pour out into a city with absolutely no engineering work available. Executives determined that had they mentioned all the work had already moved to Juperos, tuition income would drop.\n\nMany of these rogue mechanics idolise the great adventurers, inspiring them to bolt weapons and spider legs onto junkyard carts. Ironically, these armed Spider Chariots provided perfect resources for the bio-mechanical tinkering of the Bio Lab.",
+    "pt": "Lighthalzen é famosa pelos mecânicos trambiqueiros, figuras estranhas que rondam a favela fazendo experimentos malucos em carroças abandonadas. Recém-formados dos cursos de elite da Rekenber se espalham por uma cidade sem nenhum trabalho de engenharia. Os executivos concluíram que, se mencionassem que todo o trabalho já tinha ido para Juperos, a receita das mensalidades cairia.\n\nMuitos desses mecânicos idolatram os grandes aventureiros, o que os inspirou a parafusar armas e pernas de aranha em carroças de ferro-velho. Ironicamente, essas Carruagens Aranha armadas viraram matéria-prima perfeita para os ajustes biomecânicos do Laboratório."
+  },
+  "enemiesLang/{FB_FLIGHTZAKO}bDesc": {
+    "en": "The original Alicel design was born when a Rekenber director checkmated one of his lieutenants using a bishop, giving him the idea of attacking adventurers diagonally rather than purely on a horizontal plane. \nRefinements in design have allowed this battle-bot to travel in almost any direction using its thrusters, especially after pilfering some advanced code from Juperos, though for some reason some recently constructed Alicel units are expressing a desire to \"Party like it’s 1994\".",
+    "pt": "O projeto original do Alicel nasceu quando um diretor da Rekenber deu xeque-mate num tenente usando um bispo, o que lhe deu a ideia de atacar aventureiros na diagonal em vez de só na horizontal. \nMelhorias no design permitiram que este robô de batalha se mova em quase qualquer direção com seus propulsores, principalmente depois de surrupiar código avançado de Juperos, mas por algum motivo algumas unidades Alicel recém-construídas estão expressando o desejo de \"Curtir como se fosse 1994\"."
+  },
+  "enemiesLang/{FB_M78}bDesc": {
+    "en": "A cyborg supposedly modelled after the visually intimidating but tactically ineffectual Centipede, the Dolomedes has advanced \"artificial insidiousness\" to make it a true battlefield predator. Its body is raised on tall legs to supposedly protect it from grounded threats; adventurers have nonetheless found it very vulnerable to being run over by a cart. Reluctantly lauded by Rekenber guards for its prowess when providing fire support, the Dolomedes is despised for the really annoying sound it makes when it walks.",
+    "pt": "Um ciborgue supostamente inspirado na Centopeia, visualmente intimidadora mas taticamente inútil, o Dolomedes tem \"insidiosidade artificial\" avançada para ser um verdadeiro predador de batalha. Seu corpo fica erguido sobre pernas altas para, em tese, protegê-lo de ameaças no chão; os aventureiros descobriram mesmo assim que ele é bem vulnerável a ser atropelado por uma carroça. Elogiado a contragosto pelos guardas da Rekenber pelo apoio de fogo, o Dolomedes é odiado pelo barulho irritante que faz ao andar."
+  },
+  "enemiesLang/{FB_BUGGER}bDesc": {
+    "en": "Born haters, these desert Scorpions are apparently only hours old but desire only to eat the faces of adventurers. Experts have suggested they might behave less aggressively in situations where massively muscular, arsenal-wielding warriors weren’t charging into their home, but it’s impossible to tell.",
+    "pt": "Odiadores natos, esses Escorpiões do deserto aparentemente têm poucas horas de vida, mas só querem comer a cara dos aventureiros. Especialistas sugeriram que eles talvez fossem menos agressivos se guerreiros musculosos e armados até os dentes não invadissem sua casa, mas é impossível saber."
+  },
+  "enemiesLang/{FB_POISONOUSINSECTGEL}bDesc": {
+    "en": "The Bio Lab nerds who gave this abomination its unimaginative (but accurate) name really hit a negative triple whammy. Venomous? Yuck. Floating? Creepy. Gas? Smelly. Best to strike it down from a distance, as it doesn’t smell great either.",
+    "pt": "Os nerds do Laboratório que deram a essa abominação um nome sem imaginação (mas preciso) acertaram um combo triplo negativo. Venenoso? Eca. Flutuante? Sinistro. Gasoso? Fedido. Melhor derrubá-lo à distância, porque o cheiro também não é dos melhores."
+  },
+  "enemiesLang/{FB_BUNDLE}bDesc": {
+    "en": "Blessed with the ability to partially ignore gravity, but cursed with a dense over-sized head, these Faceworm Larvae tumble clumsily forward in an endless roly-poly. The dizziness of such an existence infuriates them, but unfortunately they’re more angry with adventurers than with the Faceworm Queen that spawned them. Attempts to unionise the larvae against their overlord have thus far been a non-starter.",
+    "pt": "Abençoadas com a capacidade de ignorar parcialmente a gravidade, mas amaldiçoadas com uma cabeça densa e grande demais, essas Larvas de Verme-Face rolam desajeitadas para a frente sem parar. A tontura dessa existência as enfurece, mas infelizmente elas ficam mais bravas com os aventureiros do que com a Rainha Verme-Face que as gerou. As tentativas de sindicalizar as larvas contra a soberana até agora não deram em nada."
+  },
+  "enemiesLang/{FB_ZAKOALIEN}bDesc": {
+    "en": "Many Rekenber volunteers mistakenly believe that mutations brought about through the Bio Lab serum will lead to enhanced might and enlightenment. Sadly, most of these unfortunates mutate into Venedi, drooling animalistic simpletons bound by a ravenous gestalt consciousness.",
+    "pt": "Muitos voluntários da Rekenber acreditam erroneamente que as mutações do soro do Laboratório trarão força e iluminação. Infelizmente, a maioria desses coitados vira Venedi, simplórios animalescos e babões unidos por uma consciência coletiva voraz."
+  },
+  "enemiesLang/{FB_KIMKOH}bDesc": {
+    "en": "A composite creature fused from numerous life-forms in the depths of the Bio Lab, each being that comprises The One retains full awareness of its situation. Ordinarily, one would think of this as a kind of living hell, but thankfully they all really like each other’s company, so it works out.",
+    "pt": "Uma criatura composta, fundida a partir de várias formas de vida nas profundezas do Laboratório; cada ser que forma The One mantém plena consciência da situação. Normalmente isso seria uma espécie de inferno em vida, mas felizmente todos gostam muito da companhia uns dos outros, então dá certo."
+  },
+  "enemiesLang/{BOSS_FB_TAKA}bDesc": {
+    "en": "Originally bioengineered as a self-replicating beast of burden, this armoured behemoth was found to have the temperament of an especially misanthropic badger. Immune to even the most sycophantic encouragement, it was fitted with a general’s helm and a complex harness to direct its unstoppable homicidal charges toward someone other than its masters. Nothing can stop it from spitting out offspring, unfortunately.",
+    "pt": "Criado originalmente como animal de carga auto-replicante, este gigante blindado revelou ter o temperamento de um texugo especialmente misantropo. Imune até aos elogios mais bajuladores, recebeu um elmo de general e um arreio complexo para direcionar suas investidas homicidas imparáveis para alguém que não seus mestres. Infelizmente, nada o impede de cuspir filhotes."
+  },
+  "enemiesLang/{BOSS_FB_BIGFUZZ}bDesc": {
+    "en": "Colossal armoured protector of illicit Rekenber munitions factories across the Schwarzwald Republic. Near immune to small-arms fire and capable of ripping apart a cart with its bare pincers, this Scorpion is also considered an expert in industrial relations and complex labour legal manoeuvrings, and is thus widely respected by the factory workers.",
+    "pt": "Colossal protetor blindado das fábricas ilegais de munição da Rekenber por toda a República de Schwarzwald. Quase imune a armas leves e capaz de despedaçar uma carroça com as próprias pinças, este Escorpião também é considerado especialista em relações industriais e manobras jurídicas trabalhistas complexas, e por isso é muito respeitado pelos operários."
+  },
+  "enemiesLang/{FB_EVILSNOWMAN}bDesc": {
+    "en": "Trotting orb of strange charisma. Will you be our friend, o Snowier of ungainly stride and frosty carrot nose? Would that we could hold your spherical form in our arms, and admire your stubby limbs. Save us, Snowier, take us away to pastures new and round.",
+    "pt": "Orbe saltitante de estranho carisma. Serás nosso amigo, ó Snowier de passo desengonçado e nariz de cenoura gelado? Quem dera pudéssemos segurar tua forma esférica nos braços e admirar teus membros curtinhos. Salva-nos, Snowier, leva-nos a pastos novos e redondos."
+  },
+  "enemiesLang/{FB_MUTANTCRAWLER}bDesc": {
+    "en": "The elite among the Bio Lab’s menagerie of bizarre serum-exposed beasts. These artisanally crafted Mutant Dragonoids are aged in finely crafted mutation pods, then triple-steeped in organically harvested cells from only the best batches of homegrown protoplasmic slurry.",
+    "pt": "A elite do zoológico de feras bizarras expostas ao soro do Laboratório. Esses Dragões Mutantes feitos artesanalmente são maturados em cápsulas de mutação refinadas e depois imersos três vezes em células colhidas organicamente apenas dos melhores lotes de gosma protoplasmática caseira."
+  },
+  "enemiesLang/{FB_GIGAFLY}bDesc": {
+    "en": "What could possibly be done, evil scientists wondered, to make the average fly even more irritating? Simplicity itself! Increase its size considerably, bolt on a sharp stinger, and give it a horrible little face. The Hunter Fly: a potent soldier and a form of psychological warfare, all in one.",
+    "pt": "O que se poderia fazer, se perguntaram cientistas malignos, para deixar a mosca comum ainda mais irritante? Simples! Aumentar bastante o tamanho, parafusar um ferrão afiado e dar a ela uma carinha horrível. A Mosca Caçadora: soldado potente e guerra psicológica, tudo num só."
+  },
+  "enemiesLang/{FB_WALKINGBALL}bDesc": {
+    "en": "Pale imitation of a superior design, the Excavator Robot was supposed to be an \"improvement\" to the unimpeachable perfection of the Snowier. The Juperos contractor responsible was rightfully pilloried by shareholders, the public, and the press. They went out of business swiftly, and good riddance.",
+    "pt": "Imitação pálida de um design superior, o Robô Escavador deveria ser uma \"melhoria\" da perfeição inquestionável do Snowier. A empreiteira de Juperos responsável foi merecidamente crucificada por acionistas, público e imprensa. Faliu rapidinho, e já vai tarde."
+  },
+  "enemiesLang/{FB_GORDEA}bDesc": {
+    "en": "Rekenber’s top scientists and engineers devised a complex war machine designed to be assembled in the field. Five different classes of inconspicuous cart would deconstruct themselves on the battlefield, reconstituting into a war machine of incomparable power. It turned out to be extremely impractical, so they built this giant robot, EL1-A17T, instead.",
+    "pt": "Os melhores cientistas e engenheiros da Rekenber projetaram uma máquina de guerra complexa para ser montada em campo. Cinco classes diferentes de carroças discretas se desmontariam no campo de batalha e se reconstituiriam numa máquina de poder incomparável. Isso se mostrou extremamente impraticável, então construíram este robô gigante, o EL1-A17T, no lugar."
+  },
+  "enemiesLang/{FB_MOSQUITO}bDesc": {
+    "en": "There’s an ongoing academic debate on the etymology of this creature’s name. \"Anopheles\" is Greek for \"useless\", which is relatively uncontroversial, but it leads one to wonder whether the namer had ever been bitten by one. The leading theory is that the namer had a very dry sense of humour and a very itchy arm.",
+    "pt": "Há um debate acadêmico em andamento sobre a etimologia do nome desta criatura. \"Anopheles\" vem do grego para \"inútil\", o que é relativamente pacífico, mas faz pensar se quem deu o nome já foi picado por um. A teoria mais aceita é que essa pessoa tinha um humor muito seco e um braço coçando muito."
+  },
+  "enemiesLang/{FB_SIMONDO}bDesc": {
+    "en": "This Suspicious Intruder is a unique being. Self-built (don’t ask how) in a Lighthalzen junkyard, he learned to communicate by listening to old music boxes abandoned in the garbage piles, and fueled himself with discarded takeaways (fish-shaped pastries are his favourite). Somewhere along the line he became a WoE champion by mistake, but his true loves are singing, eating, and arcade games.",
+    "pt": "Este Intruso Suspeito é um ser único. Construído por ele mesmo (não pergunte como) num ferro-velho de Lighthalzen, aprendeu a se comunicar ouvindo velhas caixinhas de música jogadas no lixo e se abasteceu com comida de delivery descartada (bolinhos em forma de peixe são seus favoritos). Em algum momento virou campeão de GdE por engano, mas seus verdadeiros amores são cantar, comer e fliperama."
+  },
+  "enemiesLang/{TP_BOSS_LEGION}bDesc": {
+    "en": "It spreads slick membranes and pulsing tissue over everything it can. Since moving into Glast Heim, this Corrupted Soul has infested many halls, engulfed many of its denizens, and made the castle veinier.",
+    "pt": "Espalha membranas viscosas e tecido pulsante sobre tudo que pode. Desde que se mudou para Glast Heim, esta Alma Corrompida infestou muitos salões, engoliu muitos habitantes e deixou o castelo mais venoso."
+  },
+  "enemiesLang/{TP_BOSS_BEELZEBUB}bDesc": {
+    "en": "The Lord of Flies which is, objectively, the worst thing to be a lord of. Look at the state of Beelzebub, he is an absolute disaster dug up from Niflheim’s stinkiest dumpster.",
+    "pt": "O Senhor das Moscas, que é, objetivamente, a pior coisa para ser senhor. Olhe o estado do Belzebu, um desastre completo desenterrado da caçamba mais fedorenta de Niflheim."
+  },
+  "enemiesLang/{TP_FLEARIDER}bDesc": {
+    "en": "Quvis Minimus, the lesser form of what we colloquially call the “Lude”, lacks the prodigious intellect of its more refined cousin, Ludus Aerodynamica. Ornithologically inclined, it barbarously strikes from empyrean vantage points. This Quve-saurus is really paying off.",
+    "pt": "Quvis Minimus, a forma menor do que chamamos coloquialmente de “Lude”, não tem o intelecto prodigioso do primo mais refinado, Ludus Aerodynamica. Com inclinações ornitológicas, ataca barbaramente de pontos de vista celestiais. Esse Quve-sauro está valendo a pena."
+  },
+  "enemiesLang/{TP_FROZENSHADE}bDesc": {
+    "en": "A chilling chandler of cheerlessness with a cold, cold heart. Banshees steal the heat from victims’ bodies to try and remember what it felt like to be alive, but the air around them is too frigid to keep even a sliver of thermal nostalgia.",
+    "pt": "Uma vendedora gélida de desânimo, com um coração frio, frio. As Banshees roubam o calor do corpo das vítimas para tentar lembrar como era estar vivo, mas o ar ao redor é gelado demais para guardar sequer uma lasca de nostalgia térmica."
+  },
+  "enemiesLang/{TP_BOSS_MINOTAUR}bDesc": {
+    "en": "A startling number of Minorous have escaped the Labyrinth and now march on the Prontera Milk Plant, seeking to overthrow its ruling lactocracy and hand power to the workforce. They bullishly intend to maintain a siege until the cows come home.",
+    "pt": "Um número assustador de Minorous escapou do Labirinto e agora marcha sobre a Leiteria de Prontera, querendo derrubar a lactocracia governante e entregar o poder aos trabalhadores. Pretendem, teimosos como touros, manter o cerco até as vacas voltarem pra casa."
+  },
+  "enemiesLang/{TP_MOLDYCORPSE}bDesc": {
+    "en": "Adventurers who ate cursed mushrooms after being promised the trip of a lifetime, which was true in a manner of speaking. These Ragged Zombies now crawl Glast Heim, puppeteered by the shrooms themselves while hallucinating for all eternity.",
+    "pt": "Aventureiros que comeram cogumelos amaldiçoados depois de prometerem a viagem de suas vidas, o que de certo modo era verdade. Esses Zumbis Esfarrapados agora rastejam por Glast Heim, manipulados pelos próprios cogumelos enquanto alucinam por toda a eternidade."
+  },
+  "enemiesLang/{TP_SPITTLEBONE_01}bDesc": {
+    "en": "The poor creatures have had their bones broken into crude mockeries that scuttle hither and thither. A just punishment, the Dark Lord deemed, for Skeleton Workers attempting to form a union in his castle.",
+    "pt": "As pobres criaturas tiveram os ossos quebrados em imitações grosseiras que correm pra lá e pra cá. Um castigo justo, decidiu o Lorde das Trevas, para Esqueletos Operários que tentaram formar um sindicato no castelo dele."
+  },
+  "enemiesLang/{TP_VALHALLAKNIGHT}bDesc": {
+    "en": "A dead knight that seeks to fight for all eternity. You know those horse costumes you can wear like pants with fake legs made to look as if you’re riding them? Tell the Abysmal Knight he resembles that and you’ll quickly resemble his steed.",
+    "pt": "Um cavaleiro morto que busca lutar por toda a eternidade. Sabe aquelas fantasias de cavalo que você veste como calça, com pernas falsas para parecer que está montando? Diga ao Cavaleiro Abissal que ele parece isso e você logo vai parecer a montaria dele."
+  },
+  "enemiesLang/{TP_BITTERFLY}bDesc": {
+    "en": "The common Bloody Butterfly has adapted to Glast Heim’s dark caverns and perpetual night, hunting solely by sound. Due to its ears serving as wings, it can only hear its own flapping and frequently starves to death. The species’ naturally invisible state means explorers often trip over the bodies.",
+    "pt": "A Borboleta Sangrenta comum se adaptou às cavernas escuras e à noite perpétua de Glast Heim, caçando só pelo som. Como as orelhas servem de asas, ela só ouve o próprio bater e com frequência morre de fome. O estado naturalmente invisível da espécie faz os exploradores tropeçarem nos corpos."
+  },
+  "enemiesLang/{TP_BOSS_CREATURE}bDesc": {
+    "en": "He wants to be your sledgehammer. While this tome uses his most popularised name for the sake of readability, those more learned know it to be a misnomer. All scholars know Stefan J.E. Wolf was the name of the man, not the monster.",
+    "pt": "Ele quer ser sua marreta. Embora este tomo use o nome mais popular por questão de legibilidade, os mais estudados sabem que é um equívoco. Todo estudioso sabe que Stefan J.E. Wolf era o nome do homem, não do monstro."
+  },
+  "enemiesLang/{TP_FLEAMAN}bDesc": {
+    "en": "When items are stolen and pranks are played, Niflheim dwellers know to hunt down the Lude. Ludes find themselves hilariously adorable but they’re the only ones who do. Their evasive jumping ability is an evolutionary response to everyone wanting to kick their heads in.",
+    "pt": "Quando itens são roubados e pegadinhas acontecem, os moradores de Niflheim já sabem que devem caçar o Lude. Os Ludes se acham hilariamente adoráveis, mas são os únicos. A habilidade de pular para esquivar é uma resposta evolutiva ao fato de todo mundo querer chutar a cabeça deles."
+  },
+  "enemiesLang/{TP_FLYINGZOMBIE_01}bDesc": {
+    "en": "Neither death nor bisection can stop these Zombie Prisoners - their levitating torsos continue their pursuit of their mortal foes even after being cut in half.\nThe Dark Lord rips apart his legion of prisoners whenever he’s feeling moody (which is always, so there are loads of these ghouls).",
+    "pt": "Nem a morte nem ser partido ao meio detém esses Zumbis Prisioneiros - seus torsos levitando continuam perseguindo os inimigos mortais mesmo depois de cortados em dois.\nO Lorde das Trevas despedaça sua legião de prisioneiros sempre que está de mau humor (ou seja, sempre, então tem muitos desses carniçais)."
+  },
+  "enemiesLang/{TP_GURKHAKNIFEMASTER}bDesc": {
+    "en": "A Bloody Knight with a bloody knife. Is the knight named after the blood, or is the blood named for the knight? Since the Internet hasn’t been invented in Rune-Midgard, we may never know.",
+    "pt": "Um Cavaleiro Sangrento com uma faca sangrenta. O cavaleiro tem o nome do sangue, ou o sangue tem o nome do cavaleiro? Como a Internet não foi inventada em Rune-Midgard, talvez nunca saibamos."
+  },
+  "enemiesLang/{TP_GORGON}bDesc": {
+    "en": "Many-headed brutes whose breath can turn living things to stone. The milk of the goat head is too calcified to drink, but it’s proven popular as an alternative to cement. Cheap as the stuff is, its use in Glast Heim has led to a number of easily breakable walls.",
+    "pt": "Brutos de várias cabeças cujo hálito transforma seres vivos em pedra. O leite da cabeça de cabra é calcificado demais para beber, mas fez sucesso como alternativa ao cimento. Barato como é, seu uso em Glast Heim gerou várias paredes fáceis de quebrar."
+  },
+  "enemiesLang/{TP_BONEGOLEM}bDesc": {
+    "en": "A terrifying amalgamation of stone, stone, and bones. More bones than can be counted, more bones than the human mind may comprehend. Within the unholy form of the Stalactic Golem, you can make out the remains of a big skeleton, a little skeleton, and a dog skeleton.",
+    "pt": "Um amálgama aterrorizante de pedra, pedra e ossos. Mais ossos do que se pode contar, mais ossos do que a mente humana compreende. Dentro da forma profana do Golem Estalactite dá pra distinguir os restos de um esqueleto grande, um esqueleto pequeno e um esqueleto de cachorro."
+  },
+  "enemiesLang/{TP_MALACHI}bDesc": {
+    "en": "For centuries, the Dark Illusion has been described as a pagan creature, though contemporary researchers question this. For one thing, it listed its own beliefs as “agnostic” on the last Glast Heim census.",
+    "pt": "Por séculos, a Ilusão Sombria foi descrita como criatura pagã, mas pesquisadores contemporâneos questionam isso. Para começar, ela declarou suas crenças como “agnóstica” no último censo de Glast Heim."
+  },
+  "enemiesLang/{TP_BOSS_DEATH}bDesc": {
+    "en": "From worlds known to worlds most frigid, from fabled lakes to the depths of Niflheim, even to the far-flung future, one truth remains immutable in every reality we discover. This truth is the Lord of the Dead. Here though, in Glast Heim, even he serves another. His loyalty is admirable, and its implications are terrifying.",
+    "pt": "De mundos conhecidos aos mais gélidos, de lagos lendários às profundezas de Niflheim, até o futuro mais distante, uma verdade permanece imutável em toda realidade que descobrimos. Essa verdade é o Senhor dos Mortos. Aqui, porém, em Glast Heim, até ele serve a outro. Sua lealdade é admirável, e as implicações são aterrorizantes."
+  },
+  "enemiesLang/{TP_BOSS_JIANGSHI}bDesc": {
+    "en": "These hopping undead hail from Louyang, yet claim to have met and battled the Dark Lord’s very own son when he was a child. There is no record of the heir ever visiting Louyang in his childhood, so it’s quite possible the Bonguns are just trying to kid the Dark Lord.",
+    "pt": "Esses mortos-vivos saltitantes vêm de Louyang, mas dizem ter conhecido e enfrentado o próprio filho do Lorde das Trevas quando ele era criança. Não há registro do herdeiro visitando Louyang na infância, então é bem possível que os Bonguns estejam só tirando uma com o Lorde das Trevas."
+  },
+  "enemiesLang/{TP_BOSS_KEREMET}bDesc": {
+    "en": "A wailing spirit bound to an otherworldly cauldron, the Banshee Master is both ghastly and low-key adorable. It flings globules of ectoplasm to attack, which is notable because globules is a great word. It has patented the concept of its own existence, believing “Ghost in a Pot” could become a lucrative fidget toy.",
+    "pt": "Um espírito lamurioso preso a um caldeirão de outro mundo, o Mestre Banshee é medonho e meio adorável. Ataca arremessando glóbulos de ectoplasma, o que é notável porque glóbulos é uma ótima palavra. Ele patenteou o conceito da própria existência, acreditando que “Fantasma na Panela” pode virar um brinquedo antiestresse lucrativo."
+  },
+  "enemiesLang/{TP_BOSS_ZEPHYR}bDesc": {
+    "en": "A demon that mastered time itself. The Clock Tower Manager is trying to professionally headhunt him, believing he could improve Aldebaran’s clock efficiency. The Bloody Murderer’s been unwilling to negotiate thanks to some adventurers trying to literally headhunt him.",
+    "pt": "Um demônio que dominou o próprio tempo. O Gerente da Torre do Relógio está tentando recrutá-lo profissionalmente, achando que ele melhoraria a eficiência do relógio de Aldebaran. O Assassino Sangrento não quer negociar por causa de uns aventureiros tentando literalmente caçar a cabeça dele."
+  },
+  "enemiesLang/{TP_BOSS_BEHEMOTH}bDesc": {
+    "en": "Its hatred keeps it moving beyond death, letting not even decomposition put an end to the grudge. They say only two things may remove the Wicked Chimera’s soul from the world - the combined strength of every Valkyrie in Valhalla, or therapy.",
+    "pt": "O ódio o mantém em movimento além da morte, e nem a decomposição põe fim ao rancor. Dizem que só duas coisas podem tirar a alma da Quimera Perversa do mundo - a força combinada de todas as Valquírias de Valhala, ou terapia."
+  },
+  "enemiesLang/{TP_BOSS_TREANT}bDesc": {
+    "en": "Ancient Trees filled with evil by an evil god of pollution whose toxic love makes wastelands of woodlands. Their hunger for desolation makes them effective lobbyists, ensuring deforestation goes unchallenged across Rune-Midgard.",
+    "pt": "Árvores Anciãs preenchidas de maldade por um deus maligno da poluição cujo amor tóxico transforma bosques em desertos. A fome de desolação faz delas lobistas eficazes, garantindo que o desmatamento siga sem contestação por toda Rune-Midgard."
+  },
+  "enemiesLang/{TP_BOSS_ABBADON}bDesc": {
+    "en": "Summoning hordes of bugs to attack its enemies in the clergy, Diabolic has long been reviled as a sects pest. It treats plagues as performances, directing swarms with its wand as a conductor would an orchestra. Very stylish for a guy who doesn’t wear trousers.",
+    "pt": "Invocando hordas de insetos contra seus inimigos no clero, o Diabolic há muito é odiado como praga das seitas. Trata pragas como espetáculos, regendo enxames com sua varinha como um maestro rege uma orquestra. Muito estiloso para um sujeito que não usa calças."
+  },
+  "enemiesLang/{TP_BOSS_MENACE}bDesc": {
+    "en": "A monstrosity of sorrowful despair. A fool who fancied himself the Dark Lord’s successor created Amdarais in a failed bid to claim ultimate power. The miracle of birth is said to be a beautiful thing, but those claiming so have never watched a giant armoured bone knight explode its way out of a very confused man.",
+    "pt": "Uma monstruosidade de desespero pesaroso. Um tolo que se achava o sucessor do Lorde das Trevas criou Amdarais numa tentativa fracassada de obter o poder supremo. Dizem que o milagre do nascimento é algo lindo, mas quem diz isso nunca viu um cavaleiro de ossos gigante e blindado explodir para fora de um homem muito confuso."
+  },
+  "enemiesLang/{TP_BOSS_ELIGOR}bDesc": {
+    "en": "A nightmare designed by committee. Its sophisticated barding should represent infernal innovation but instead highlights the demonic tech industry’s need to over engineer things regardless of efficiency. Let’s not even get started on the AI features they shoehorned into the Nightmare Terror.",
+    "pt": "Um pesadelo projetado por comitê. Sua armadura sofisticada deveria representar a inovação infernal, mas só evidencia a mania da indústria demoníaca de complicar tudo sem ligar para a eficiência. Nem vamos falar dos recursos de IA que enfiaram à força no Nightmare Terror."
+  },
+  "enemiesLang/{TP_BOSS_PUPPETMASTER}bDesc": {
+    "en": "The cursed manipulator of corpses has surfaced, exerting a will unbreakable as diamond. A keen jester, the Necromancer’s wit is sharper than a blade, and it’ll tunnel its way into your head to leech off your life force and torch what’s left.",
+    "pt": "O manipulador amaldiçoado de cadáveres emergiu, impondo uma vontade inquebrável como diamante. Brincalhão afiado, o Necromante tem uma língua mais afiada que uma lâmina, e vai cavar até sua cabeça para sugar sua força vital e queimar o que sobrar."
+  },
+  "enemiesLang/{TP_BOSS_BLACKMORE}bDesc": {
+    "en": "If you’re scared of your own shadow, you do not want to meet Violy. The darkness cast by her violin grows in size and strength with every soul she consumes. If you couldn’t tell, she’s played a lot of encores.",
+    "pt": "Se você tem medo da própria sombra, não vai querer conhecer a Violy. A escuridão lançada pelo violino dela cresce em tamanho e força a cada alma consumida. Caso não tenha percebido, ela já tocou muitos bis."
+  },
+  "enemiesLang/{TP_BOSS_PARANOIA}bDesc": {
+    "en": "Living proof that something is out to get you. The Disguise makes its home inside mirrors, where the world makes more sense. It’s never been able to adjust to being suddenly right-handed whenever it leaves its natural habitat.",
+    "pt": "Prova viva de que algo está atrás de você. O Disguise mora dentro dos espelhos, onde o mundo faz mais sentido. Nunca conseguiu se acostumar a virar destro de repente sempre que sai do seu habitat natural."
+  },
+  "enemiesLang/{TP_BOSS_BUGBEAR}bDesc": {
+    "en": "The Dark Lord literally has eyes everywhere, and the Leib Olmai is one of the bigger ones. Some have protested such constant surveillance as authoritarian, but the castle’s master democratically resolved any controversy via public debate followed by public executions.",
+    "pt": "O Lorde das Trevas tem literalmente olhos em todo lugar, e o Leib Olmai é um dos maiores. Alguns protestaram contra a vigilância constante, chamando-a de autoritária, mas o senhor do castelo resolveu democraticamente a polêmica com um debate público seguido de execuções públicas."
+  },
+  "enemiesLang/{TP_HIPPOGRYPH}bDesc": {
+    "en": "Necromantic testing is ethically and morally wrong, even if said testing results in a cool skeletal horse with flaming hooves. Nobody is saying those experiments were right, but if we were to play the Dark Lord’s advocate… c’mon! It’s like someone made a Nightmare in real life!",
+    "pt": "Testes necromânticos são ética e moralmente errados, mesmo que resultem num cavalo esquelético maneiro com cascos em chamas. Ninguém diz que esses experimentos estavam certos, mas se formos bancar o advogado do Lorde das Trevas… qual é! É como se alguém tivesse feito um Pesadelo na vida real!"
+  },
+  "enemiesLang/{TP_BONEPILLAR}bDesc": {
+    "en": "Animated Hydra bones originally created to make the Juno museum more interesting to kids. They succeeded, with the unfortunate side effect of making museums more lethal to kids as well.",
+    "pt": "Ossos de Hidra animados, criados originalmente para deixar o museu de Juno mais interessante para crianças. Deu certo, com o infeliz efeito colateral de deixar museus mais letais para crianças também."
+  },
+  "enemiesLang/{TP_MAGICBOOK_01}bDesc": {
+    "en": "“The Old Gods haven’t left this place, and they still grant power to those who venerate them. Power to defy even death.” So some say of the silent world from which this Rideword was stolen… but that’s definitely just a rumour. In truth, these tomes simply got sick of being mishandled by voracious Glast Heim scholars and decided to bite back. Those that devour books in the library will find themselves devoured instead.",
+    "pt": "“Os Deuses Antigos não deixaram este lugar, e ainda concedem poder a quem os venera. Poder para desafiar até a morte.” É o que dizem do mundo silencioso de onde este Rideword foi roubado… mas com certeza é só boato. Na verdade, esses tomos cansaram de ser maltratados pelos estudiosos vorazes de Glast Heim e resolveram morder de volta. Quem devora livros na biblioteca acaba devorado."
+  },
+  "enemiesLang/{TP_YORICK_01}bDesc": {
+    "en": "It’s heard every joke about “losing your head” imaginable. It doesn’t understand comedy though, since everything goes over its head. Get it? Because it’s on the ground? It’s a slightly different head joke.\n\nWhy are there so many headless Skeletons in Glast Heim anyway?",
+    "pt": "Já ouviu todas as piadas possíveis sobre “perder a cabeça”. Mas não entende comédia, já que tudo passa por cima da cabeça dele. Entendeu? Porque ela está no chão? É uma piada de cabeça um pouco diferente.\n\nAliás, por que tem tantos Esqueletos sem cabeça em Glast Heim?"
+  },
+  "enemiesLang/{TP_ALASTOR}bDesc": {
+    "en": "Swords once possessed by the souls of violent warriors; now the warriors’ souls have taken control in an altogether more frightful manner. While their spirits inhabit the blade itself, it casts a malevolent shadow in the form of a commander of destruction. But who truly possesses these possessed possessions? The Dark Lord, probably.",
+    "pt": "Espadas antes possuídas pelas almas de guerreiros violentos; agora as almas tomaram o controle de um jeito bem mais assustador. Enquanto os espíritos habitam a própria lâmina, ela projeta uma sombra malévola na forma de um comandante da destruição. Mas quem de fato possui essas posses possuídas? O Lorde das Trevas, provavelmente."
+  },
+  "enemiesLang/{TP_BOSS_GERGOTH}bDesc": {
+    "en": "A graceful and gentle giant, known for its beautifully iridescent eyes, magnificent scaly tail, and plush hide that smells faintly of elderflowers. Its song can soothe even the most fiery of souls, and glimpsing the Lost Dragon in the wild is considered a sign of wholesome tidings. \n\n[Note: following a certain incident involving certain sorcerers and certain unspeakable crimes against decency, this entry requires a significant rewrite] \n",
+    "pt": "Um gigante gracioso e gentil, conhecido pelos olhos lindamente iridescentes, pela magnífica cauda escamosa e pelo couro macio com leve aroma de flor de sabugueiro. Seu canto acalma até as almas mais ardentes, e avistar o Dragão Perdido na natureza é considerado sinal de boas notícias. \n\n[Nota: após um certo incidente envolvendo certos feiticeiros e certos crimes indizíveis contra a decência, esta entrada exige uma reescrita significativa] \n"
+  },
+  "enemiesLang/{TP_WARG_01}bDesc": {
+    "en": "Baby Hatii! What is it good for? Absolutely trampling your spine into the snow, ripping off both your arms, and shredding your throat with merciless fangs while you gurgle screams through your soup of a neck. That answers that.",
+    "pt": "Filhote de Hatii! Serve pra quê? Pra pisotear sua coluna na neve, arrancar seus dois braços e retalhar sua garganta com presas impiedosas enquanto você gargareja gritos pelo caldo que virou seu pescoço. Pergunta respondida."
+  },
+  "enemiesLang/{TP_UKOBACK}bDesc": {
+    "en": "This spicy little demon is always up for some hot spooning. Also known as a Cauldron Demon, the Mini Demon carries fire from Niflheim itself to the pots of the blasphemous for obscene rituals and naughty soups.",
+    "pt": "Este demoninho apimentado sempre topa uma conchinha quente. Também conhecido como Demônio do Caldeirão, o Mini Demônio leva fogo do próprio Niflheim para as panelas dos blasfemos, para rituais obscenos e sopas safadas."
+  },
+  "enemiesLang/{TP_SPECTRE}bDesc": {
+    "en": "A fiend that only lives twice. When its mortal body expires, the soul remains as some sort of incorporeal entity. There’s another name for such an undead remnant, a Wraith maybe, but I can’t think what it is right now.",
+    "pt": "Um demônio que só vive duas vezes. Quando o corpo mortal expira, a alma permanece como uma espécie de entidade incorpórea. Há outro nome para esse resto morto-vivo, Wraith talvez, mas não consigo lembrar agora."
+  },
+  "enemiesLang/{TP_PERSEPHONE_01}bDesc": {
+    "en": "Alice has sworn to clean her master’s home until the end of time - she’d never tarnish his reputation by leaving him maidless.",
+    "pt": "Alice jurou limpar a casa do seu mestre até o fim dos tempos - jamais mancharia a reputação dele deixando-o sem criada."
+  },
+  "enemiesLang/{TP_BONEARK}bDesc": {
+    "en": "The archer at the top is borderline useless with no applicable skills of its own, yet it holds dominion over the laborers whose backs it coasts on. It’s currently entertaining high ranking job offers from a number of Rune-Midgard guilds.",
+    "pt": "O arqueiro lá em cima é quase inútil, sem nenhuma habilidade aplicável, mas domina os trabalhadores em cujas costas pega carona. No momento está avaliando propostas de cargos altos de várias guildas de Rune-Midgard."
+  },
+  "enemiesLang/{TP_KILLERDOLL}bDesc": {
+    "en": "Loves to animate in front of children who abuse their toys, traumatizing them for life. Each Marionette is manufactured by Battel, one of the Dark Lord’s many commercial subsidiaries.",
+    "pt": "Adora ganhar vida na frente de crianças que maltratam seus brinquedos, traumatizando-as para sempre. Cada Marionete é fabricada pela Battel, uma das muitas subsidiárias comerciais do Lorde das Trevas."
+  },
+  "enemiesLang/{TP_CORPSEWEED_WALL}bDesc": {
+    "en": "A Dark Pinguicula drawing nutrients from a corpse will take on the appearance of the corpse itself. Should that corpse ever reanimate, it will try to feed on the plant in turn, taking on the appearance of the plant which, if reanimated, will… well, let’s just say horticultural necromancers love locking Pinguiculas and dead bodies in rooms together.",
+    "pt": "Uma Pinguícula Sombria que suga nutrientes de um cadáver assume a aparência do próprio cadáver. Se esse cadáver reanimar, vai tentar se alimentar da planta por sua vez, assumindo a aparência da planta que, se reanimada, vai… bem, digamos que necromantes jardineiros adoram trancar Pinguículas e cadáveres juntos num quarto."
+  },
+  "enemiesLang/{TP_BOSS_GALAMOTH}bDesc": {
+    "en": "This hulking dark guardian has been sought out by the reptilian occupiers of Prontera’s Milk Plant to defend against the Minorous armies. That’s right, we’re establishing deep lore here, the kind of rich worldbuilding your author could lend to any hypothetical adaptation or merchandising opportunity!",
+    "pt": "Este guardião sombrio colossal foi recrutado pelos ocupantes reptilianos da Leiteria de Prontera para se defender dos exércitos de Minorous. Isso mesmo, estamos estabelecendo lore profunda aqui, o tipo de construção de mundo rica que seu autor poderia emprestar a qualquer adaptação hipotética ou oportunidade de licenciamento!"
+  },
+  "enemiesLang/{TP_AMALARICSNIPER}bDesc": {
+    "en": "It’s fallen and it can’t get up. Raydric Archers were once uncanny marksmen whose arrows always struck true. Then Gravity rebalanced their aim, claiming they were too overpowered.",
+    "pt": "Caiu e não consegue levantar. Os Raydric Arqueiros já foram atiradores impressionantes cujas flechas sempre acertavam. Aí a Gravity rebalanceou a mira deles, alegando que estavam fortes demais."
+  },
+  "enemiesLang/{TP_BOSS_BRACHYURA}bDesc": {
+    "en": "Despite being a damage sponge, this enemy is definitely a Kraken, and comes from the depths of Byalan history.\nFinally, a giant enemy sea monster that is historically accurate!",
+    "pt": "Apesar de ser uma esponja de dano, este inimigo é definitivamente um Kraken, e vem das profundezas da história de Byalan.\nFinalmente, um monstro marinho gigante historicamente preciso!"
+  },
+  "enemiesLang/{TP_BOSS_DOPPLEGANGER}bDesc": {
+    "en": "A dazzlingly beautiful creature, but only sometimes. Truly confused shapeshifters that occasionally spell their name incorrectly, Doppelgangers labour under the dreadful delusion that they are the original, and that anyone who looks like them must perish. Fortunately they are incredibly predictable and manipulable combatants vulnerable to cheesy fighting techniques.",
+    "pt": "Uma criatura deslumbrantemente bela, mas só às vezes. Metamorfos muito confusos que de vez em quando escrevem o próprio nome errado, os Doppelgangers vivem sob a terrível ilusão de que são o original, e de que qualquer um parecido com eles deve morrer. Felizmente são combatentes incrivelmente previsíveis e manipuláveis, vulneráveis a técnicas de luta apelonas."
+  },
+  "enemiesLang/{TP_BOSS_SLOGRA}bDesc": {
+    "en": "Peek through the ribs of this skeletal spear-wielder and you’ll see it’s completely heartless, unless your name is Gaibon. The Skeleton General originally used its spear simply to stab food from further away before the Lord of the Dead saw its potential as a combat knight.",
+    "pt": "Espie entre as costelas deste lanceiro esquelético e verá que ele não tem coração, a não ser que seu nome seja Gaibon. O General Esqueleto usava a lança só para espetar comida de longe, até que o Senhor dos Mortos viu seu potencial como cavaleiro de combate."
+  },
+  "enemiesLang/{TP_BRAUNERSPAINTING}bDesc": {
+    "en": "Critics have decried this series of self-portraits as “derivative”, “self indulgent”, and “stinking of blood”. Now the Dark Frames are out for revenge, using what little sorcerous power still suffuses them to fling themselves at any observer and bludgeon them to death.",
+    "pt": "Críticos condenaram esta série de autorretratos como “derivativa”, “autoindulgente” e “fedendo a sangue”. Agora as Molduras Sombrias querem vingança, usando o pouco poder feiticeiro que ainda as impregna para se atirar sobre qualquer observador e espancá-lo até a morte."
+  },
+  "enemiesLang/{TP_BOSS_GAIBON}bDesc": {
+    "en": "The Lord of the Dead’s demonic servant has only three desires: spicy food, a horrible end to the enemies of the grim reaper, and to hang out with Slogra.",
+    "pt": "O servo demoníaco do Senhor dos Mortos tem só três desejos: comida apimentada, um fim horrível para os inimigos do ceifador e passar o tempo com Slogra."
+  },
+  "enemiesLang/{TP_WARGRIDER}bDesc": {
+    "en": "Brave indeed is the skeleton that dares to mount a wild beast, though few of the Dark Lord’s bony minions realise these steeds consider armoured skeletons to be incredibly stylish hats. Armoured mounts are consistently seen as the most desirable, completely destabilising the mating habits of the delicate Wild Rider ecosystem.",
+    "pt": "Corajoso mesmo é o esqueleto que ousa montar uma fera selvagem, embora poucos lacaios ossudos do Lorde das Trevas percebam que essas montarias consideram esqueletos de armadura chapéus extremamente estilosos. As montarias com armadura são sempre as mais desejadas, desestabilizando completamente os hábitos de acasalamento do delicado ecossistema dos Cavaleiros Selvagens."
+  },
+  "enemiesLang/{TP_BOSS_STONEROSE}bDesc": {
+    "en": "These petrifyingly beautiful Floras bred to feast on flesh are responsible for the high rate of turnover in Glast Heim’s gardening staff. They’ve learned that skeletons don’t have much meat on them, but are more than keen to munch on an adventurer.",
+    "pt": "Essas Floras de beleza petrificante, criadas para se banquetear de carne, são responsáveis pela alta rotatividade dos jardineiros de Glast Heim. Aprenderam que esqueletos não têm muita carne, mas estão mais que dispostas a mastigar um aventureiro."
+  },
+  "enemiesLang/{TP_CAVETROLL}bDesc": {
+    "en": "Their long luring antennae may seem to invite innuendo, but such jokes cannot be made because whatever gag you think of, the nasty little Phendarks have already done it for real. Just don’t ask to see “that face”, because they WILL show you.",
+    "pt": "As longas antenas de isca podem parecer um convite a piadinhas, mas não dá pra fazê-las, porque qualquer piada que você pensar, os Phendarks safadinhos já fizeram de verdade. Só não peça para ver “aquela cara”, porque eles VÃO mostrar."
+  },
+  "enemiesLang/{TP_PERSEPHONEVACCUUM}bDesc": {
+    "en": "Powered by the \"Abominable Intelligence\" of demonic souls transplanted into primitive cleaning machines, these hovering Alicel horrors were intended to make every maid’s job easier. Unfortunately this horde of fiendish cleaning devices is hungry for both dust and blood.",
+    "pt": "Movidos pela \"Inteligência Abominável\" de almas demoníacas transplantadas em máquinas de limpeza primitivas, esses horrores Alicel flutuantes deveriam facilitar o trabalho de toda criada. Infelizmente essa horda de aparelhos de limpeza diabólicos tem fome de poeira e de sangue."
+  },
+  "enemiesLang/{EME_CALAMITY_B}bDesc": {
+    "en": "Obsidians only feel the opposite of the expression carved into their faces, except every Tuesday when the emotion matches the appearance. Unless of course it happens to be the 12th or 22nd of the month, in which case they’re slightly to the emotional right of how they look. \n\nSaid to be the elemental manifestation of the malign influence spreading across Payon and Beyond, saving the realm might require a mystical therapy session to bring them back to neutrality. \n",
+    "pt": "As Obsidianas só sentem o oposto da expressão esculpida no rosto, exceto toda terça-feira, quando a emoção combina com a aparência. A não ser, claro, que seja dia 12 ou 22, quando ficam um pouquinho à direita emocional do que aparentam. \n\nDizem ser a manifestação elemental da influência maligna que se espalha por Payon e Além; salvar o reino talvez exija uma sessão de terapia mística para trazê-las de volta à neutralidade. \n"
+  },
+  "enemiesLang/{EME_ALRAUNE}bDesc": {
+    "en": "A naughty veggie boy with a penchant for nudging things. The Hermit Plant has caused real horticultural havoc around Payon, and likes to fiddle around in your garden while poking potholes, chomping on grass, and tickling spuds like the cheeky little spud tickler he is.",
+    "pt": "Um vegetalzinho travesso com mania de cutucar as coisas. A Planta Eremita já causou um caos hortícola de verdade em Payon, e adora mexer no seu jardim, abrindo buracos, mastigando grama e fazendo cócegas em batatas como o pequeno cosquento de batatas que é."
+  },
+  "enemiesLang/{EME_ANT}bDesc": {
+    "en": "Their name isn’t mere wordplay (heavens forbid we start doing puns) but an allusion to the very real hatred Maya Purples feel towards other ants. They hate the Andre of the Ant Hell, coined the cruel moniker “Lesser Ants” for the Deniros, and even found a way to travel through a Warp Portal to insult the esoteric Space Ants. \n\nThey claim they’re not ant racists, they just want an Ant Hell for the Mayas. They’re total ant racists, and frankly their views on caterpillars are pretty disgusting too. \n",
+    "pt": "O nome não é mero trocadilho (os céus nos livrem de fazer trocadilhos), mas uma alusão ao ódio muito real que as Mayas Púrpuras sentem por outras formigas. Odeiam os Andre do Formigueiro Infernal, criaram o apelido cruel “Formigas Menores” para os Deniro e até acharam um jeito de atravessar um Portal para insultar as esotéricas Formigas Espaciais. \n\nDizem não ser racistas contra formigas, só querem um Formigueiro Infernal para as Mayas. São totalmente racistas contra formigas, e francamente as opiniões delas sobre lagartas também são bem nojentas. \n"
+  },
+  "enemiesLang/{EME_BALL}bDesc": {
+    "en": "There’s nothing outwardly fiery about these flapping facial freaks, which makes one wonder… why are they called Banaspaty? Are the shamans of Umbala just having a laugh with these names? Oh gods… they’re not burning inside, are they? I swear, if these things are supposed to be packed with flames and they’re grinning about it, I quit. I quit monsters forever.",
+    "pt": "Não há nada aparentemente flamejante nessas aberrações faciais esvoaçantes, o que faz pensar… por que se chamam Banaspaty? Os xamãs de Umbala estão de brincadeira com esses nomes? Ai, deuses… eles não estão queimando por dentro, estão? Juro, se essas coisas forem cheias de chamas e estiverem sorrindo por isso, eu desisto. Desisto de monstros para sempre."
+  },
+  "enemiesLang/{EME_BAT}bDesc": {
+    "en": "A Drainliar’s fangs can shatter bones and puncture full plate armor with its Interrupting Tackle technique, preying on the passenger ships of Comodo and other un-ceilinged places. Even scarier, its mouth can be used to gossip about other Drainliars, which these meddling little scandal merchants do all the time. Each monster is involved in at least three slander lawsuits.",
+    "pt": "As presas de um Drainliar quebram ossos e perfuram armaduras completas com sua técnica Investida Interruptora, atacando os navios de passageiros de Comodo e outros lugares sem teto. Mais assustador ainda, a boca serve para fofocar sobre outros Drainliars, o que esses mexeriqueiros fazem o tempo todo. Cada monstro responde a pelo menos três processos por calúnia."
+  },
+  "enemiesLang/{EME_BIRD}bDesc": {
+    "en": "Fearsome beasts with the wings of a bird, the talons of a bird, and the taxonomic designation of a bird. Sure, a Condor might not be the most exciting monster, but I once saw one strangle an ape with its Feather Shot. Yes, strangle. Do you know how determined a bird has to be in order to strangle an ape? Using only its feathers? Terrifying.",
+    "pt": "Feras temíveis com asas de pássaro, garras de pássaro e a classificação taxonômica de pássaro. Tá, um Condor pode não ser o monstro mais empolgante, mas uma vez vi um estrangular um macaco com seu Disparo de Penas. Sim, estrangular. Sabe o quão determinado um pássaro precisa ser para estrangular um macaco? Só com as penas? Aterrorizante."
+  },
+  "enemiesLang/{EME_BOAR}bDesc": {
+    "en": "Savages and their redder cousins make for an ordered and effective military force known for rudely interrupting adventurers from Payon to Umbala with meaty counterattacks. Their fronts are heavily armored, but if you think the hind portions are vulnerable, you aren’t prepared for the natural defenses they can deploy at a moment’s notice.",
+    "pt": "Os Savages e seus primos mais vermelhos formam uma força militar ordenada e eficaz, conhecida por interromper grosseiramente aventureiros de Payon a Umbala com contra-ataques carnudos. A frente é muito blindada, mas se você acha que a traseira é vulnerável, não está preparado para as defesas naturais que eles soltam a qualquer momento."
+  },
+  "enemiesLang/{EME_DOG}bDesc": {
+    "en": "Dangerous dog-beasts native to the Payon forest are usually called either Wolves or Desert Wolves, though they’re clearly different colours and have very little else in common. Wolf specimens studied at the Juno academy are well known for their propensity to tear anything left unattended to shreds with their fearsome fangs, and for tearing up the dance floor with their Azure Dance. \n\nDesert Wolves, on the other hand, once were genies who became infernal meanies. They love to eat paninis and get wasted on martinis. As beasts go they’re teeny and they look cute in a beanie, but don’t assume they’re weenies, they still tempted Paganini. These claims were made by a somewhat wobbly citizen after being unfrozen in Lutie, so they might not be entirely accurate.\n",
+    "pt": "Feras caninas perigosas nativas da floresta de Payon costumam ser chamadas de Lobos ou Lobos do Deserto, embora tenham cores claramente diferentes e quase nada mais em comum. Os Lobos estudados na academia de Juno são conhecidos pela tendência de despedaçar qualquer coisa deixada sem vigia com presas temíveis, e por arrasar na pista com sua Dança Celeste. \n\nJá os Lobos do Deserto foram gênios que viraram malvados infernais. Adoram comer paninis e se embebedar de martínis. Como feras, são pequeninos e ficam fofos de touca, mas não pense que são bobinhos, já tentaram até Paganini. Essas afirmações foram feitas por um cidadão meio cambaleante depois de ser descongelado em Lutie, então podem não ser totalmente precisas.\n"
+  },
+  "enemiesLang/{EME_FROG}bDesc": {
+    "en": "Amphibious conquerors who wish to be feared but cannot conquer the universal truth that frogs are funny. Roda Frogs have proved powerful largely because their enemies are often too busy laughing to fight back. Their Amphibian Assault techniques have conquered foes and left their summoners consumed by fits of laughter in Lutie and Comodo, leaving the froggy fighters with a frequent confused malaise. If they only wished to make the world a happier place, they would want for nothing.",
+    "pt": "Conquistadores anfíbios que querem ser temidos, mas não conseguem conquistar a verdade universal de que sapos são engraçados. Os Sapos Roda se mostraram poderosos principalmente porque os inimigos costumam estar ocupados demais rindo para revidar. Suas técnicas de Assalto Anfíbio já venceram adversários e deixaram seus invocadores em crises de riso em Lutie e Comodo, deixando os guerreiros sapos num mal-estar confuso frequente. Se só quisessem tornar o mundo mais feliz, não lhes faltaria nada."
+  },
+  "enemiesLang/{EME_GOBLIN}bDesc": {
+    "en": "Ancient legends from Payon claim Goblins are former humans who opted out of society to live free and lawless. Their love of liberty is so extreme that merely implying they can’t do something will be met with angry insistence on doing that thing, which is why over 200 Goblins a year die eating poison berries, often using their famed “Lick and Cut” technique. A belief in freedom so zealous as to be indistinguishable from chains.",
+    "pt": "Lendas antigas de Payon dizem que os Goblins são ex-humanos que abandonaram a sociedade para viver livres e sem lei. O amor deles pela liberdade é tão extremo que basta insinuar que não podem fazer algo para insistirem furiosos em fazer, e é por isso que mais de 200 Goblins por ano morrem comendo frutinhas venenosas, muitas vezes usando a famosa técnica “Lambe e Corta”. Uma crença na liberdade tão fervorosa que não se distingue de correntes."
+  },
+  "enemiesLang/{EME_KELPIE}bDesc": {
+    "en": "Though sailors on the high seas off Comodo refer to these unimaginatively as “Blue Drakes”, I believe the Petite may be a distant relative of the dragon, which I’ve classified as the Webbed Longneck-Goofbeak Petite. Its unusual appearance may lead bestiary authors to underestimate it, perhaps even taunt it during a field study, only to regret doing so when one of the things barfs up its Putrid Breath and stuns their sister with its stench.",
+    "pt": "Embora os marinheiros dos mares de Comodo os chamem, sem nenhuma imaginação, de “Dracos Azuis”, acredito que o Petite seja parente distante dos dragões, que classifiquei como Petite Pescoçudo-Bicobobo-de-Membranas. A aparência incomum pode levar autores de bestiário a subestimá-lo, talvez até provocá-lo durante um estudo de campo, só para se arrepender quando um deles vomita seu Hálito Pútrido e atordoa a irmã do autor com o fedor."
+  },
+  "enemiesLang/{EME_MOCH}bDesc": {
+    "en": "Despite looking like something you’d chop for firewood, this deciduous decimator’s giant crushing hands make the Wooden Golem the most deadly palm plant in existence. At first nobody took it seriously, as warnings about an outbreak of golem battles were perilously misunderstood. Now, they’re known for their wandering nature, strange life cycle, and their ironically named Felling Blow deployed against daring lumberjacks.",
+    "pt": "Apesar de parecer algo que você cortaria para lenha, as mãos esmagadoras gigantes deste dizimador decíduo fazem do Golem de Madeira a planta mais mortal que existe. No começo ninguém o levou a sério, já que os alertas sobre um surto de batalhas de golem foram perigosamente mal interpretados. Hoje são conhecidos pela natureza errante, pelo ciclo de vida estranho e pelo ironicamente chamado Golpe de Derrubada, usado contra lenhadores ousados."
+  },
+  "enemiesLang/{EME_OGRE}bDesc": {
+    "en": "Colloquially known as the Psych-Orc, but you probably shouldn’t tell them that. Advanced mental abilities allow High Orcs to perceive so much more than depth, having skipped the first two eyes and jumped straight to the third. Studies of specimens haven’t gone far, as their Mind Blast tends to make any potential Juno investigators forget anything they’ve learned, as well as what they had for breakfast.",
+    "pt": "Conhecidos popularmente como Psico-Orcs, mas é melhor não dizer isso a eles. Habilidades mentais avançadas permitem aos Orcs Superiores perceber muito mais que profundidade, já que pularam os dois primeiros olhos e foram direto para o terceiro. Os estudos não avançaram muito, pois sua Explosão Mental faz qualquer pesquisador de Juno esquecer tudo o que aprendeu, e também o que comeu no café da manhã."
+  },
+  "enemiesLang/{EME_RASCAL}bDesc": {
+    "en": "Speculated to have evolved from a race of talkative fluffy creatures that humans kept as pets in the distant past of the 1990s. Biologists dismiss this idea as pure fantasy because stupid science has to ruin everything with stupid facts and stupid research. Fortunately, these feathery foes are experts in Metal magic and making their allies move faster, all the better to smash up the labs of Juno.",
+    "pt": "Especula-se que evoluíram de uma raça de criaturinhas fofas e tagarelas que os humanos criavam como bichos de estimação no passado distante dos anos 1990. Biólogos descartam a ideia como pura fantasia, porque a ciência idiota tem que estragar tudo com fatos idiotas e pesquisas idiotas. Felizmente, esses Pickys emplumados são especialistas em magia de Metal e em deixar os aliados mais rápidos, o melhor para destruir os laboratórios de Juno."
+  },
+  "enemiesLang/{EME_SKELETON}bDesc": {
+    "en": "Though the bony Orc undead haven’t figured out how to unionize yet, they do have a tribal system of proto-socialism that seems like it would work quite well - if they had any method of communicating with one another beyond rattling their ribcages and dancing. \n\nJuno researchers have observed that the most proficient Orc Skeleton dancers can deploy a Devilish Smash ability, making them particularly good at escaping high-tech containment systems to hold impromptu breakdance competitions.",
+    "pt": "Embora os mortos-vivos orcs ossudos ainda não tenham descoberto como se sindicalizar, eles têm um sistema tribal de protossocialismo que pareceria funcionar bem - se tivessem algum jeito de se comunicar além de chacoalhar as costelas e dançar. \n\nPesquisadores de Juno observaram que os Esqueletos Orcs mais habilidosos na dança conseguem usar a habilidade Golpe Diabólico, o que os torna especialmente bons em escapar de sistemas de contenção de alta tecnologia para fazer competições improvisadas de breakdance."
+  },
+  "enemiesLang/{EME_SLIME}bDesc": {
+    "en": "Often referenced by the avant-garde poets of Comodo, Ancient Worms are sensitive about a spurious verse suggesting they’re the blasphemous result of an alchemist eating gummy worms too close to an experiment. It’s suggested you don’t refer to one as a “Horribo” unless you want a furious coil of understandably indignant segments to deal with.",
+    "pt": "Muito citados pelos poetas de vanguarda de Comodo, os Vermes Ancestrais são sensíveis a um verso duvidoso sugerindo que são o resultado blasfemo de um alquimista comendo minhocas de goma perto demais de um experimento. Recomenda-se não chamar um deles de “Horribo”, a menos que você queira lidar com uma espiral furiosa de segmentos compreensivelmente indignados."
+  },
+  "enemiesLang/{EME_WEREWOLF}bDesc": {
+    "en": "Bestiary writers being paid per entry has nothing to do with how many wolves are listed in the average creature compendium. It’s simply important to categorize every wolf from every possible reality (including Niflheim), for reasons far too complicated to discuss. Anyway, this Vagabond Wolf has brown knickers on.",
+    "pt": "Escritores de bestiário receberem por entrada não tem nada a ver com quantos lobos aparecem no compêndio de criaturas médio. É simplesmente importante catalogar todo lobo de toda realidade possível (incluindo Niflheim), por motivos complicados demais para discutir. Enfim, este Lobo Errante está de calcinha marrom."
+  },
+  "enemiesLang/{EME_GATEBOSS_DRAGON}bDesc": {
+    "en": "Named not just for its elemental affinity, but because seeing one makes you soil yourself. A single scale is equal in weight to a large boulder, which makes the Ferus’s ability to fly quite baffling, not to mention terrifying during molting season. \n\nIn the aftermath of the war at Nidhoggur’s Nest at least one Ferus has taken to peaceful gardening, using its Gliding Spikes technique to more effectively plant rows of beautiful flowers and crops.  \n",
+    "pt": "Recebeu esse nome não só pela afinidade elemental, mas porque vê-lo faz você se sujar todo. Uma única escama pesa tanto quanto um pedregulho, o que torna a capacidade de voo do Ferus bem intrigante, sem falar no terror durante a época de troca de escamas. \n\nDepois da guerra no Ninho de Nidhogg, pelo menos um Ferus passou a se dedicar à jardinagem pacífica, usando sua técnica Espinhos Planadores para plantar com mais eficiência fileiras de lindas flores e plantações.  \n"
+  },
+  "enemiesLang/{EME_GATEBOSS_SPIRITBEAST}bDesc": {
+    "en": "Spirits of the water known for their divinity. The water is what they are spirits of, and divine is the trait by which these spirits are known. Not to be confused with Infernal Puddle Spookies. Ask yourself if it is in water, is a spirit, and is divine - if the answer to all three is “yes” then it’s probably a Hydrolancer. \n\nThe stunning Brilliance of the Hydrolancer should spell the end for many adventurers in the depths, but fortunately they’re more interested in swimming about and screaming than they are with eating any nearly-defeated prey. \n",
+    "pt": "Espíritos da água conhecidos pela divindade. A água é aquilo de que são espíritos, e divino é o traço pelo qual são conhecidos. Não confundir com Assombrações Infernais de Poça. Pergunte a si mesmo se está na água, se é um espírito e se é divino - se a resposta for “sim” para as três, provavelmente é um Hydrolancer. \n\nO Brilho atordoante do Hydrolancer deveria ser o fim de muitos aventureiros nas profundezas, mas felizmente eles se interessam mais em nadar por aí gritando do que em comer qualquer presa quase derrotada. \n"
+  },
+  "enemiesLang/{EME_GATEBOSS_SPECTER}bDesc": {
+    "en": "Juno boffins have found no evidence of the inscrutable Lord of the Dead obeying any form of speed limit, and plenty of evidence that its spiky chariot wheels aren’t just for show, especially when used in conjunction with a devastating Axel Turn. Fast, apparently immortal, and a big fan of throwing exploding heads at its enemies, it ranks highly amongst the forces of chaos in Niflheim. Its subordinates often mishear its orders as it speeds around, but that just ensures truly chaotic operations.",
+    "pt": "Os cientistas de Juno não encontraram nenhuma prova de que o inescrutável Senhor dos Mortos respeite qualquer limite de velocidade, e muitas provas de que as rodas espinhosas da carruagem não são só enfeite, especialmente quando usadas com um devastador Giro de Eixo. Rápido, aparentemente imortal e grande fã de arremessar cabeças explosivas nos inimigos, ele ocupa posto alto entre as forças do caos em Niflheim. Os subordinados costumam entender errado as ordens enquanto ele passa voando, mas isso só garante operações verdadeiramente caóticas."
+  },
+  "enemiesLang/{EME_GATEBOSS_IRONMAIDEN}bDesc": {
+    "en": "These quasi-bestial horrors are thought to be manifestations of maleficent thoughts, born to constrain others with their Freezing Blaster. Chimeras coalesce occasionally amongst the dour labs of Juno, though one appeared to seal away the power of the Dark Lord in Glast Heim, probably out of spite. \n\nAs it turns out, most folk’s nasty notions take on the physical form of a gigantic lion-goat-snake-thing with gorgeous flowing mane and a venomous tail, but I’m not a psychologist or a theologist so I couldn’t tell you what that means. \n",
+    "pt": "Acredita-se que esses horrores quase bestiais sejam manifestações de pensamentos maléficos, nascidos para conter os outros com seu Disparo Congelante. As Quimeras se formam de vez em quando entre os laboratórios sombrios de Juno, embora uma tenha surgido para selar o poder do Lorde das Trevas em Glast Heim, provavelmente por despeito. \n\nPelo visto, os pensamentos maldosos da maioria das pessoas assumem a forma física de uma coisa gigante de leão-cabra-serpente com uma linda juba esvoaçante e uma cauda venenosa, mas não sou psicólogo nem teólogo, então não sei dizer o que isso significa. \n"
+  },
+  "enemiesLang/{EME_GATEBOSS_FINALEMPEROR}bDesc": {
+    "en": "Sometimes a simple string of bad decisions is all it takes for your local magical ruler to transform into a Dark Lord, capable of interrupting any discourse with a Demonic Counter or a rude swipe of its monstrous claws. Active participation in the politics of your realm is the easiest way to prevent these lords from menacingly blocking access to your nearest Warp Portal.",
+    "pt": "Às vezes basta uma sequência de más decisões para o governante mágico local se transformar num Lorde das Trevas, capaz de interromper qualquer discurso com um Contra-Ataque Demoníaco ou um golpe grosseiro das garras monstruosas. Participar ativamente da política do seu reino é o jeito mais fácil de impedir esses lordes de bloquear ameaçadoramente o acesso ao Portal mais próximo."
+  },
+  "enemiesLang/{EME_GATEBOSS_LIVINGANGUISH}bDesc": {
+    "en": "Thanatos, is this fate? Or just destiny? What lies atop the Tower, unknowable, but forced to threaten the Conjoined Worlds. Remember the forbidden lyrics, find your voice, give us one last song and dance.",
+    "pt": "Thanatos, isto é sina? Ou só destino? O que jaz no topo da Torre, incognoscível, mas forçado a ameaçar os Mundos Unidos. Lembre as letras proibidas, encontre sua voz, nos dê uma última canção e dança."
+  },
+  "enemiesLang/{LEM_ZOMBALATRO}bDesc": {
+    "en": "They got a raw deal when the Reaper called their number, shuffling off this mortal coil in dire straights. Rather than just lay down, these Living Dead reraised and now openly limp through Comodo’s casino in search of guts to open with their fouled hands. \n\nI bet this entry polarizes readers who’ve hit the limit on wordplay, but I think I aced it.  \n",
+    "pt": "Receberam uma mão ruim quando o Ceifador chamou o número deles, saindo desta vida numa sequência trágica. Em vez de simplesmente largar o jogo, esses Mortos-Vivos dobraram a aposta e agora mancam abertamente pelo cassino de Comodo atrás de tripas para abrir com suas mãos encardidas. \n\nAposto que esta entrada divide os leitores que já estouraram o limite de trocadilhos, mas acho que mandei um ás.  \n"
+  },
+  "enemiesLang/{LEM_MRBONES}bDesc": {
+    "en": "Skeletal jokers who have had their last laugh. It is said Skeletons have the power to protect a comedian from dying on stage if at least 25% of their jokes are funny.",
+    "pt": "Esqueletos brincalhões que já deram a última risada. Dizem que eles têm o poder de impedir um comediante de morrer no palco se pelo menos 25% das piadas forem engraçadas."
+  },
+  "enemiesLang/{LEM_SPECTRAL}bDesc": {
+    "en": "Everybody knows Wind Ghost Cards aren’t real. The very idea that cards can become ghosts really highlights how stupid the ghost truther movement is. Spectral cards are a hoax created by jokers in cheap Halloween costumes that aren’t fooling anyone.",
+    "pt": "Todo mundo sabe que a Carta Fantasma do Vento não existe. A própria ideia de cartas virarem fantasmas mostra como o movimento dos crentes em fantasmas é idiota. Cartas espectrais são uma farsa criada por coringas com fantasias baratas de Halloween que não enganam ninguém."
+  },
+  "enemiesLang/{LEM_VENUS}bDesc": {
+    "en": "Jesters who tell particularly risqué jokes at the Comodo casino are sometimes punished by being fed to a Muscipular. That’s what you get for being a blue joker.",
+    "pt": "Bobos da corte que contam piadas picantes demais no cassino de Comodo às vezes são punidos virando comida de Muscipular. É isso que dá ser um coringa indecente."
+  },
+  "enemiesLang/{LEM_BOSS_SMALLBLIND}bDesc": {
+    "en": "It seems the Familiars of Comodo’s caves took exception to the phrase “blind as a bat” and are using this Blue Crystal blind with which to bludgeon us all. It’s just a small one though, so it’s nothing to worry about.",
+    "pt": "Parece que os Familiares das cavernas de Comodo se ofenderam com a expressão “cego feito morcego” e estão usando este Cristal Azul como pingo cego para nos espancar. Mas é só um pequeno, então não há com que se preocupar."
+  },
+  "enemiesLang/{LEM_BOSS_BIGBLIND}bDesc": {
+    "en": "The bats have upped the ante with this Magic Seal! Like a Small Blind, only bigger and therefore much more dangerous. Unfortunately, you can’t choose to skip it in exchange for some bonus rewards, so your only choice is to survive!",
+    "pt": "Os morcegos aumentaram a aposta com este Selo Mágico! Como um Small Blind, só que maior e, portanto, muito mais perigoso. Infelizmente você não pode pulá-lo em troca de recompensas extras, então a única escolha é sobreviver!"
+  },
+  "enemiesLang/{LEM_BOSS_OX}bDesc": {
+    "en": "Majoruros can steal the Zeny right out of your pocket, which the bats spend on comic books, cola cubes, and offshore investments. Due to its thieving nature, it is colloquially known as the “Robs You” Blind.",
+    "pt": "O Majoruros consegue roubar os Zenys direto do seu bolso, que os morcegos gastam em gibis, balas de cola e investimentos em paraísos fiscais. Por sua natureza ladra, é conhecido popularmente como o Blind “Te Roubo”."
+  },
+  "enemiesLang/{LEM_BOSS_WALL}bDesc": {
+    "en": "A Barricade that comes in extra large, which is great news for the plus size market. Nothing fancy about this one, it can simply take loads and loads of damage. You’d think you could just target the bats so they drop it, but they don’t teach target selection in Ragnarok Survivors school.",
+    "pt": "Uma Barricada em tamanho extra grande, ótima notícia para o mercado plus size. Nada de especial nesta aqui, ela simplesmente aguenta muito, muito dano. Você acharia que dá pra mirar nos morcegos para que a larguem, mas não ensinam seleção de alvo na escola de Ragnarok Survivors."
+  },
+  "enemiesLang/{LEM_BOSS_MANACLE}bDesc": {
+    "en": "Don’t touch the Gibbet or it’ll bite a finger off, inflicting minus one to your hand size. Can you believe this bestiary is free? Funny AND well researched, what a bargain! \n\nAnyway, I think this monster is based on something from a game called Clown Cards.",
+    "pt": "Não toque no Gibbet ou ele arranca um dedo, aplicando menos um no tamanho da sua mão. Dá pra acreditar que este bestiário é de graça? Engraçado E bem pesquisado, que pechincha! \n\nEnfim, acho que este monstro é baseado em algo de um jogo chamado Cartas de Palhaço."
+  },
+  "enemiesLang/{LEM_BOSS_CRIMSONHEART}bDesc": {
+    "en": "A weapon to surpass the Boss Blind, it’s the BIG Boss Blind! This Pink Crystal is no joke, which is a really great joke if you get the joke. Take heart when the chips are down, and poke her face with whatever you’ve got to hand. Survive this showdown or we’ll all be as extinct as the gros michel!",
+    "pt": "Uma arma para superar o Boss Blind, é o GRANDE Boss Blind! Este Cristal Rosa não é brincadeira, o que é uma ótima piada se você entender a piada. Tenha coragem quando as fichas estiverem baixas e cutuque a cara dela com o que tiver na mão. Sobreviva a este confronto ou ficaremos todos tão extintos quanto a banana gros michel!"
+  },
+  "enemiesLang/{TP_ORLOX}bDesc": {
+    "en": "Over 500,000 pages of research notes have been compiled and triple-checked to classify this antagonistic aristocrat of Glast Heim, and it would appear he is a… Dracula. An actual, factual, Dracula at last! Now we just need to work out what the heck a Dracula is. What do those things actually do?",
+    "pt": "Mais de 500.000 páginas de anotações foram compiladas e conferidas três vezes para classificar este aristocrata antagonista de Glast Heim, e ao que parece ele é um… Drácula. Um Drácula de verdade, finalmente! Agora só falta descobrir que diabos é um Drácula. O que essas coisas fazem, afinal?"
+  },
+  "enemiesLang/{TP_BOSS_GAIBONANDSLORGA}bDesc": {
+    "en": "This spiteful and rowdy Gargoyle and Skeleton General love only one thing - each other. They plan to celebrate their upcoming anniversary by romantically devouring all of you. So cute!",
+    "pt": "Essa Gárgula e esse General Esqueleto, rancorosos e baderneiros, amam só uma coisa - um ao outro. Pretendem comemorar o aniversário de namoro devorando todos vocês romanticamente. Que fofos!"
+  },
+  "enemiesLang/{TP_KILLERFISH}bDesc": {
+    "en": "They’ve had it up to the gills with adventurers! Diving into battle, dripping with anger, tridents sharpened on wet stones, these Mermen never reel from defeat as they hold the line. They trawl Glast Heim in a bid to sink the heroes’ hopes, but they’re squirts in comparison due to a lack of level scaling and shallow damage soak.",
+    "pt": "Estão até as guelras com os aventureiros! Mergulhando na batalha, pingando de raiva, tridentes afiados em pedras molhadas, esses Tritões nunca se deixam fisgar pela derrota e mantêm a linha. Varrem Glast Heim tentando afundar as esperanças dos heróis, mas são peixe pequeno por falta de escalonamento de nível e resistência rasa a dano."
+  }
+}

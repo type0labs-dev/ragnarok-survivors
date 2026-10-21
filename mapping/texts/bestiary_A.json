@@ -1,0 +1,410 @@
+{
+ "enemiesLang/{ANGEL1}bDesc": {
+  "en": "Holy-element imposters haunting the Cursed Abbey on Nameless Island. Their wings are real, their halos are real, and their sermons on charity are real too, right up until they ask you to tithe your entire inventory. Do not trust anything that glows and smiles at the same time.",
+  "pt": "Impostores do elemento Sagrado que assombram a Abadia Amaldiçoada da Ilha Sem Nome. As asas são reais, as auréolas também, e os sermões sobre caridade idem, até o momento em que pedem o dízimo do seu inventário inteiro. Nunca confie em algo que brilha e sorri ao mesmo tempo."
+ },
+ "enemiesLang/{ANGEL2}bDesc": {
+  "en": "A Poring that found a halo and a pair of wings and never looked back. Angelings bounce through the Cursed Abbey with smug serenity, convinced they are holier than every other jelly in Rune-Midgard. They are not. They are still just a jelly.",
+  "pt": "Um Poring que achou uma auréola e um par de asas e nunca mais olhou pra trás. O Angeling quica pela Abadia Amaldiçoada com uma serenidade arrogante, certo de que é mais santo que qualquer outra geleia de Rune-Midgard. Não é. Continua sendo só uma geleia."
+ },
+ "enemiesLang/{ANGEL3}bDesc": {
+  "en": "The Angeling's older, holier and far more condescending sibling. It hovers above the Cursed Abbey pews judging everyone's build, and its Holy attacks hurt about as much as its opinions.",
+  "pt": "O irmão mais velho, mais santo e muito mais condescendente do Angeling. Paira sobre os bancos da Abadia Amaldiçoada julgando a build de todo mundo, e seus ataques Sagrados doem quase tanto quanto suas opiniões."
+ },
+ "enemiesLang/{ARMORSPEAR_6}bDesc": {
+  "en": "A Raydric built to respond to any command, provided the command involves shooting something. Einbroch hired these hollow sentries for the factory. Nobody found the off switch.",
+  "pt": "O Raydric que tirou o palito curto e o arco longo. Einbroch contratou essas sentinelas ocas para vigiar a fábrica, e elas respondem a qualquer comando atirando nele. Ninguém achou o botão de desligar."
+ },
+ "enemiesLang/{ARMOR_6}bDesc": {
+  "en": "An empty suit of armor from Glast Heim, now moonlighting on the Einbroch factory floor. No body, no soul, no lunch breaks. Just a big sword and an unshakable work ethic, which management considers the ideal employee.",
+  "pt": "Uma armadura vazia de Glast Heim, agora fazendo bico no chão da Fábrica de Einbroch. Sem corpo, sem alma, sem pausa pro almoço. Só uma espadona e uma ética de trabalho inabalável, que a gerência considera o funcionário ideal."
+ },
+ "enemiesLang/{ARMOR_FIRE}bDesc": {
+  "en": "A Raydric that guarded the Cursed Abbey's furnace for so long it caught fire, and rather than put itself out it decided this was its new look. The demons of Nameless Island love it. The fire marshal of Rune-Midgard has filed seventeen complaints, all of which were also set on fire.",
+  "pt": "Um Raydric que vigiou a fornalha da Abadia Amaldiçoada por tanto tempo que pegou fogo e, em vez de se apagar, decidiu que esse era o novo visual. Os demônios da Ilha Sem Nome adoram. O corpo de bombeiros de Rune-Midgard já abriu dezessete reclamações, e todas também pegaram fogo."
+ },
+ "enemiesLang/{BAT1}bDesc": {
+  "en": "The most famous jelly in Rune-Midgard. Porings bounce out of every field around Prontera in such numbers that some scholars believe they are not born at all, merely copied. Pick up its Jellopy: every adventurer's first fortune.",
+  "pt": "A gelatina mais famosa de Rune-Midgard. Os Porings saltam de todo campo em volta de Prontera em tal quantidade que alguns estudiosos acham que eles não nascem, só são copiados. Pegue o Jellopy: a primeira fortuna de todo aventureiro."
+ },
+ "enemiesLang/{BAT6}bDesc": {
+  "en": "A Poring that swallowed too much iron ore near Einbroch and decided it was a robot now. Metalings clank, sparkle and refuse to admit they are still mostly jelly. Their Iron Ore is very real, though.",
+  "pt": "Um Poring que engoliu minério de ferro demais perto de Einbroch e decidiu que agora é um robô. Os Metalings tilintam, brilham e se recusam a admitir que ainda são quase só gelatina. O Minério de Ferro deles é bem real, porém."
+ },
+ "enemiesLang/{BOSS_BLINDER_NORMAL}bDesc": {
+  "en": "A Reaper that considers itself a true visionary. The Dark Illusion of Glast Heim can wrap any hero in a veil of darkness with a single touch, but every time it shows up the screen is already so full of skill effects, damage numbers and Porings that nobody can see a damn thing anyway. It settles for watching heroes hunt for Meat on the floor in the chaos. \n",
+  "pt": "Um ceifador que se considera um verdadeiro visionário. A Ilusão Sombria de Glast Heim envolve qualquer herói num véu de escuridão com um só toque, mas, toda vez que aparece, a tela já está tão cheia de efeitos de skill, números de dano e Porings que ninguém enxerga nada mesmo."
+ },
+ "enemiesLang/{BOSS_COUNT1}bDesc": {
+  "en": "The Moscovian witch of legend, guest of honour at Glast Heim, flying around in a mortar and judging everyone's potion recipes. Baba-Yaga loves being a cackling, terrifying crone and has never once apologised for it. She calls every Acolyte \"my pretty\" and every Merchant \"dinner.\" Good for her.",
+  "pt": "A bruxa lendária de Moscovia, convidada de honra em Glast Heim, voando num pilão e julgando a receita de poção de todo mundo. Baba-Yaga adora ser uma velha gargalhante e aterrorizante e nunca pediu desculpas por isso. Chama todo Noviço de \"queridinho\" e todo Mercador de \"jantar\". Tão certa, ela."
+ },
+ "enemiesLang/{BOSS_COUNT2}bDesc": {
+  "en": "The Arc Elder spent centuries in the Glast Heim library searching for the ultimate spell, and ended up with nothing but a very long beard and a lot of opinions about Int builds. Some swear his mumbling contains real wisdom. Fools or charlatans, nobody can deny there is power in a really long cast time.",
+  "pt": "O Arquiancião passou séculos na biblioteca de Glast Heim em busca da magia definitiva e acabou só com uma barba enorme e muitas opiniões sobre build de Int. Há quem jure que seus resmungos contêm sabedoria. Tolos ou charlatões, ninguém nega que há poder num tempo de conjuração bem longo."
+ },
+ "enemiesLang/{BOSS_DRAGOGION}bDesc": {
+  "en": "The dragon lord of the Abyss Lake, now squatting near the top of the Endless Tower. Detardeurus breathes darkness, hoards treasure and refuses to pay rent. Climbers who reach his floor usually wish they'd stopped at floor 25.",
+  "pt": "O senhor dragão do Lago do Abismo, agora invadindo os andares altos da Torre Sem Fim. Detardeurus cospe escuridão, acumula tesouro e se recusa a pagar aluguel. Quem chega ao andar dele geralmente queria ter parado no 25."
+ },
+ "enemiesLang/{BOSS_DROWNER_NORMAL}bDesc": {
+  "en": "A Reaper and a fragment of Thanatos's despair, sealed at the top of the Thanatos Tower. Legend says it once wept so hard it flooded the tower for forty days. In battle it prefers to drown its foes in sorrow and literal water. Despero's mood forecast: 100% chance of rain, and of you.",
+  "pt": "Um ceifador, fragmento do desespero de Thanatos, selado no topo da Torre de Thanatos. Diz a lenda que, certa vez, chorou tanto que inundou a torre por quarenta dias. Em combate, prefere afogar os inimigos em tristeza e em água de verdade. Previsão do humor do Desespero: 100% de chance de chuva, e de você."
+ },
+ "enemiesLang/{BOSS_ENDER}bDesc": {
+  "en": "When the power of friendship goes cosmic. Gloom Under Night is what's left when every grudge in Rune-Midgard condenses into a single creature: Death, Madness, Obsession, Deceit, and a really bad aura. Its arrival is a final warning to those on a doomed quest: whatever you're looking for isn't on this server, or the next.",
+  "pt": "Quando o poder da amizade vira cósmico. Noite Sombria é o que sobra quando todos os rancores de Rune-Midgard se condensam numa única criatura: morte, loucura, obsessão, logro e uma aura péssima. Sua chegada é um último aviso a quem embarcou numa missão furada: o que você procura não está neste servidor, nem no próximo."
+ },
+ "enemiesLang/{BOSS_GIANT_MIMIC1}bDesc": {
+  "en": "Your favorite Payon Zombies like you've never seen them before... BIG!",
+  "pt": "Seus Zumbis de Payon favoritos, como você nunca viu... GRANDES!"
+ },
+ "enemiesLang/{BOSS_GIANT_MIMIC2}bDesc": {
+  "en": "Were the last BIG monsters not BIG enough for you? Try these Mini Demons on for size! They're not mini anymore! They're so BIG!",
+  "pt": "Os últimos GRANDES monstros não foram GRANDES o suficiente pra você? Que tal esses Mini Demônios?! Não são mais mini! São muito GRANDES!"
+ },
+ "enemiesLang/{BOSS_GIANT_MIMIC3}bDesc": {
+  "en": "How are you not impressed by how BIG these Tamruans are? They're so BIG!",
+  "pt": "Não se impressionou com como esses Tamruans são GRANDES? Eles são muito GRANDES!"
+ },
+ "enemiesLang/{BOSS_MADDENER_NORMAL}bDesc": {
+  "en": "A Reaper and the fragment of Thanatos's pain, whose true form lies beyond the edge of sanity. It bends reality inside the Thanatos Tower to confuse and disorient, and feeds on the anguish of lost adventurers. Robbed of its power to beguile, however, it falls prey to the very fear it causes, its sense of self drowned in sheer panic.",
+  "pt": "Um ceifador, o fragmento da dor de Thanatos, cuja forma verdadeira ultrapassa os limites da sanidade. Ele distorce a realidade dentro da Torre de Thanatos para confundir e desorientar, e se alimenta da angústia de aventureiros perdidos. Mas, quando perde o poder de enganar, vira vítima do próprio medo que causa, e sua consciência se afoga em puro pânico."
+ },
+ "enemiesLang/{BOSS_STALKER_NORMAL}bDesc": {
+  "en": "A Reaper that can't take a hint. Odium is the hatred of Thanatos given form, and once it picks a target nothing will dissuade it. Many victims simply give up after years of being chased up and down the Thanatos Tower. Teleporting won't help. Fly Wings won't help. Wherever you go, it follows.",
+  "pt": "Um ceifador que não se toca. O Ódio é a raiva de Thanatos em forma física e, ao escolher um alvo, nada o dissuade. Muitas vítimas simplesmente desistem após anos sendo perseguidas pela Torre de Thanatos. Teleportar não ajuda. Asa de Mosca não ajuda. Aonde quer que você vá, ele segue."
+ },
+ "enemiesLang/{BOSS_TRICKSTER_NORMAL}bDesc": {
+  "en": "A Reaper that specialises in murder by illusion, born from the sorrow of Thanatos. Treasure hunters are its favourite marks: they eagerly pocket the gems it conjures and learn too late they've stuffed their bags with explosives. Loves to be the death of the party, then cry about it.",
+  "pt": "Um ceifador especialista em assassinar com ilusões, nascido da tristeza de Thanatos. Caçadores de tesouro são suas vítimas favoritas: pegam as joias que ele conjura e descobrem tarde demais que encheram a mochila de explosivos. Adora transformar a festa em enterro e depois chorar por isso."
+ },
+ "enemiesLang/{BOSS_XLBLINDER}bDesc": {
+  "en": "A Reaper that considers itself a true visionary. The Dark Illusion of Glast Heim can wrap any hero in a veil of darkness with a single touch, but every time it shows up the screen is already so full of skill effects, damage numbers and Porings that nobody can see a damn thing anyway. It settles for watching heroes desperately hunt for Meat on the floor amidst the colorful chaos.",
+  "pt": "Um ceifador que se considera um verdadeiro visionário. A Ilusão Sombria de Glast Heim envolve qualquer herói num véu de escuridão com um só toque, mas, toda vez que aparece, a tela já está tão cheia de efeitos de skill, números de dano e Porings que ninguém enxerga nada mesmo. Ela se contenta em ver heróis desesperados caçando Carne no chão em meio ao caos colorido."
+ },
+ "enemiesLang/{BOSS_XLCRAB}bDesc": {
+  "en": "Crowned ruler of the crabs and Dramohs of Byalan Island, King Dramoh was cast as a villain by a society that never tried to understand him. Did you know crustaceans have their own culture under Izlude? Schools of philosophy? Arts and education? A whole parliament of Vadons? Bigotry truly is a sad, sad thing.",
+  "pt": "Soberano coroado dos caranguejos e Dramohs da Ilha de Byalan, o Rei Dramoh foi escalado como vilão por uma sociedade que nunca tentou compreendê-lo. Sabia que os crustáceos têm cultura própria sob Izlude? Correntes filosóficas? Artes e educação? Um parlamento inteiro de Vadons? A discriminação é, de verdade, algo muito triste."
+ },
+ "enemiesLang/{BOSS_XLDEATH}bDesc": {
+  "en": "Run from him. Defy him. Maybe even kill him, should you prove so arrogant. No matter the outcome, Reaper Yanku always collects in the end. You can close your eyes, warp to Prontera and scream at the Kafra, but with time you all shall wear his mask.",
+  "pt": "Corra dele. Desafie-o. Talvez até o mate, se quiser demonstrar sua arrogância. Não importa o desfecho, o Ceifador Ankou sempre vem cobrar no fim. Você pode fechar os olhos, se teleportar para Prontera e gritar com a Kafra, mas, um dia, todos vocês vão usar a máscara dele."
+ },
+ "enemiesLang/{BUER}bDesc": {
+  "en": "Gryphons nest in the dark towers of Glast Heim and dive into the Dead Pit to hunt. Half eagle, half lion, all attitude. Noble beasts of legend, sure, but legend never mentions how much they shed, or that they think every Swordman's helmet is a perfectly good nest.",
+  "pt": "Os Grifos fazem ninho nas torres escuras de Glast Heim e mergulham na Mina Abandonada para caçar. Metade águia, metade leão, inteiramente marrentos. Feras nobres das lendas, claro, mas as lendas nunca contam quanta pena eles soltam, nem que acham o elmo de todo Espadachim um ótimo ninho."
+ },
+ "enemiesLang/{COOP_ABRAXASCROWN}bDesc": {
+  "en": "The noblest of Hugel's feathered fiends, the Owl Duke glides silently over the farm and lands on its victims' skulls with such force that locals coined the term \"head porridge.\" Many heads have been porridged, and at least one was mueslied.\n\nDespite its legendary wisdom, it can still be fooled by a leaf-covered hole and a sign reading \"free mice.\" \n",
+  "pt": "O mais nobre dos inimigos emplumados de Hugel, o Duque Coruja plana em silêncio sobre a granja e pousa no crânio das vítimas com tanta força que os moradores criaram o termo \"mingau de miolos\". Muitos miolos já viraram mingau, e pelo menos um virou papa.\n\nApesar da sabedoria lendária, ainda cai num buraco coberto de folhas com uma placa escrita \"ratos grátis\". \n"
+ },
+ "enemiesLang/{COOP_ABRAXASHALO}bDesc": {
+  "en": "Owl Magic is one of the oldest arts a Sage can study in the Juno academy. Some say it's just regular magic with a tenuously shoehorned bird theme, but take not lightly the dark powers of hootomancy. Not only can it summon lightning on the Hugel farm, it gave rise to the most dreaded monster of all: the Owl Duke's palette swap with buffed stats!",
+  "pt": "A Magia das Corujas é uma das artes mais antigas que um Sábio pode estudar na academia de Juno. Alguns dizem que é só magia comum com um tema de pássaro encaixado à força, mas nunca subestime os poderes sombrios da piomancia. Além de chamar raios sobre a granja de Hugel, ela deu origem ao monstro mais temido de todos: o Duque Coruja com outra paleta e atributos melhorados!"
+ },
+ "enemiesLang/{COOP_ABRAXAS}bDesc": {
+  "en": "Is it a god, is it a demon, or is it just a bird of paradise that got really, really big? Cendrawasih, sacred bird of Ayothaya, flew all the way to the Hugel farm to lead the poultry uprising. Science suggests a very large bird. Contractual obligation suggests something far more fowl.\n\nWho doesn't love a bit of birdplay?\n",
+  "pt": "É um deus, um demônio ou só uma ave-do-paraíso que ficou muito, muito grande? O Cendrawasih, ave sagrada de Ayothaya, voou até a granja de Hugel para liderar a revolta das aves. A ciência diz que é só um pássaro enorme. Nossas obrigações contratuais dizem que é coisa de outro galinheiro.\n\nReflitam.\n"
+ },
+ "enemiesLang/{COOP_CHICKEN}bDesc": {
+  "en": "Tired of being hunted by Novices for Feathers, the Pickies of the Prontera fields launched a violent rebellion on the Hugel farm. Perhaps the feather tithe was a mistake. Now it is we who shall be plucked as the world becomes a clucking hell.",
+  "pt": "Cansados de serem caçados por Aprendizes em troca de Penas, os Pickies dos Campos de Prontera iniciaram uma rebelião violenta na granja de Hugel. Talvez o dízimo das penas tenha sido um erro. Agora, somos nós que seremos depenados enquanto o mundo vira um inferno cacarejante."
+ },
+ "enemiesLang/{COOP_CHIK}bDesc": {
+  "en": "Early waves of Picky violence went unreported, as nobody wanted to admit they'd been savaged by an adorable chick still wearing its eggshell as a helmet. One Swordman bled out rather than confess his arms had been pecked off, insisting he still had both hands even as they disappeared down the brood.\n\nThey're so cute though! \n",
+  "pt": "As primeiras ondas de violência dos Pickies passaram despercebidas, já que ninguém queria admitir ter sido atacado por um pintinho adorável que ainda usa a casca do ovo como elmo. Um Espadachim preferiu sangrar até a morte a confessar que seus braços tinham sido arrancados a bicadas, insistindo que ainda tinha as duas mãos enquanto elas sumiam goela abaixo da ninhada.\n\nMas ai, como eles são fofinhos! \n"
+ },
+ "enemiesLang/{COOP_COCK}bDesc": {
+  "en": "Anyone who refused to take the poultry rebellion seriously got a wake-up call when the Peco Pecos joined in. Once the proud mounts of Prontera's Knights, they've thrown off their saddles and now command the chickenfantry so humanity's hubris may come home to roost.",
+  "pt": "Quem se recusou a levar a rebelião das aves a sério levou um choque de realidade quando os Peco Pecos entraram na briga. Antes orgulhosas montarias dos Cavaleiros de Prontera, eles largaram as selas e agora comandam as Galinhas Bélicas para fazer a humanidade pagar por sua arrogância."
+ },
+ "enemiesLang/{COOP_EGG}bDesc": {
+  "en": "These crack troops are often used as ordnance, their shellfire creating a yolk of suppression. Always in the vanguard, Peco Peco Eggs arrive before the Peco Pecos do. Even if Hugel falls to killer birds, it's nice to have settled that debate.",
+  "pt": "Essas tropas craqueladas são usadas como munição, criando uma gema de supressão com seu fogo de artilharia. Sempre na vanguarda, os Ovos de Peco Peco chegam antes dos Peco Pecos. Pelo menos esse debate foi encerrado antes de Hugel cair."
+ },
+ "enemiesLang/{COOP_ROAST_CHICKEN}bDesc": {
+  "en": "Particularly zealous birds may undergo \"Condorification\" - set ablaze in the volcanic wastes past Veins and returned to the Hugel farm still burning and fully aware.\n\nPosing as tasty floor food, they devour anyone who eats them from the inside out. Fear the army that marches in your stomach. \n",
+  "pt": "Aves especialmente devotas podem passar pela \"Condorização\": incendiadas nas terras vulcânicas além de Veins e devolvidas à granja de Hugel ainda em chamas e plenamente conscientes.\n\nDisfarçadas de franguinhos deliciosos no chão, devoram quem as come de dentro para fora. Tema o exército que marcha no seu estômago. \n"
+ },
+ "enemiesLang/{COSMIC_EGG}bDesc": {
+  "en": "When Odin first looked upon the empty void before Midgard was made, the void spoke thus: \"Canst thou provide substance? Canst thou provide form?\" And the All-Father answered: \"As a tonic for thy formless sorrow, I shall lay a beginning of things. A scaled and embryonic gift, sealed within the halls of my temple, containing a whole dragon's worth of reality.\" In modern Rune-Midgardian: \"Can I offer you a dragon egg in this trying time?\"",
+  "pt": "Quando Odin contemplou pela primeira vez o vazio antes de Midgard existir, o vazio assim falou: \"Podeis prover a substância? Podeis prover a forma?\" E o Pai de Todos respondeu: \"Como tônico para vossa soturnidade disforme, porei um princípio das coisas. Um presente embrionário e escamoso, selado nos salões do meu templo, contendo um dragão inteiro de realidade\". Em português moderno de Rune-Midgard: \"Posso lhe oferecer um ovo de dragão neste momento difícil?\""
+ },
+ "enemiesLang/{DEMON_FAST}bDesc": {
+  "en": "When the Cursed Abbey began ordaining the undead, some suggested the integrity of the clergy had been compromised. What foolishness. The Dark Priests of Nameless Island never had any integrity to begin with, only very long sermons.",
+  "pt": "Quando a Abadia Amaldiçoada começou a ordenar mortos-vivos, alguns sugeriram que a integridade do clero estava comprometida. Quanta tolice. Os Sacerdotes Sombrios da Ilha Sem Nome nunca tiveram integridade, só sermões muito longos."
+ },
+ "enemiesLang/{DEVIL1}bDesc": {
+  "en": "Faustian and furious! Deviruchis march out of the Clock Tower armed with tiny pitchforks and an encyclopedic knowledge of the harshest places to shove them. Some Rune-Midgardians keep one as a pet. Those people have problems.",
+  "pt": "Faustiano e furioso! Os Deviruchis marcham da Torre do Relógio armados com forquilhas minúsculas e um conhecimento enciclopédico dos piores lugares onde enfiá-las. Tem gente em Rune-Midgard que cria um de bichinho. Essa gente tem problemas."
+ },
+ "enemiesLang/{DEVIL_HP_11}bDesc": {
+  "en": "Technically demons, these terror-dogs have all chosen the shape of a horrible hellhound, finding it perfect for mauling enemies and receiving demonic belly rubs. Satan Morroc keeps them as sentinels at the gates of his lair, though the cleverer ones sneak out to possess Morroc citizens on secret missions - if they don't get distracted by a particularly appealing Pet Food first. ",
+  "pt": "Tecnicamente demônios, esses cães do terror escolheram a forma de uma horrível fera infernal, perfeita para atacar inimigos e receber carinho demoníaco na barriga. Satan Morroc os mantém como sentinelas nos portões do seu covil, mas os mais espertos fogem para possuir cidadãos de Morroc em missões secretas — isso se antes não se distraírem com uma Ração de Bichinho especialmente apetitosa."
+ },
+ "enemiesLang/{DEVIL_HP_13}bDesc": {
+  "en": "Once the hidden terror beneath the desert sands, this fragment of Morroc was unable to predict its own fate - shattered by the heroes of Rune-Midgard and bound to an eternal guard shift in its master's lair. ",
+  "pt": "Outrora o terror escondido sob as areias do deserto, este fragmento de Morroc não conseguiu prever o próprio destino: ser despedaçado pelos heróis de Rune-Midgard e preso a um plantão eterno no covil do seu mestre."
+ },
+ "enemiesLang/{DEVIL_HP_14}bDesc": {
+  "en": "Another shard of Satan Morroc's essence, this one formed from the part of him that was deeply embarrassed. When the heroes of Rune-Midgard sealed him away, this incarnation was caught mid-bathroom-break and has been furious about it ever since. It now guards the lair with the wrath of something that never got to wash its hands.",
+  "pt": "Mais um fragmento da essência de Satan Morroc, este formado pela parte dele que sentiu muita vergonha. Quando os heróis de Rune-Midgard o selaram, esta encarnação foi pega bem no meio da pausa pro banheiro e está furiosa desde então. Agora guarda o covil com a fúria de quem nunca conseguiu lavar as mãos."
+ },
+ "enemiesLang/{DEVIL_HP_15}bDesc": {
+  "en": "The ancient demon king who tore Morroc in half and nearly ended Rune-Midgard. After witnessing mortal Assassins dual-wielding Katars, he decided to one-up them with two enormous wings, a crown of horns and an army of incarnations. Sadly, an unreasonable infernal deadline meant nobody made him any weapons, and he still suffers from a minor case of impostor syndrome. \n",
+  "pt": "O antigo rei demônio que partiu Morroc ao meio e quase acabou com Rune-Midgard. Depois de ver Mercenários mortais empunhando duas Katares, resolveu superá-los com duas asas enormes, uma coroa de chifres e um exército de encarnações. Infelizmente, um prazo infernal irracional fez com que ninguém lhe forjasse armas, e ele ainda sofre de uma pontinha de síndrome do impostor.\n"
+ },
+ "enemiesLang/{DEVIL_HP_1}bDesc": {
+  "en": "Even as infant demons, Mini Demons would scrawl \"BLOOD\" on the walls of the underworld and carve it into their satanic schooldesks. Among the most irritating of all hellspawn, they flap around chanting about their bottomless bloodlust, loudly declaring they just cannot get enough of that vital red stuff. Wherever Satan Morroc's forces breach reality, from the Dead Pit to his own lair, these little horrors are sent to the front line, mostly because everyone just wants them to go away. ",
+  "pt": "Mesmo ainda bebês, os Mini Demônios rabiscavam \"SANGUE\" nas paredes do submundo e entalhavam a palavra em suas carteiras escolares satânicas. Entre as crias infernais mais irritantes, eles voam por aí cantando sobre sua sede de sangue sem fim, anunciando aos berros que não se cansam do líquido vermelho vital. Onde quer que as forças de Satan Morroc rompam a realidade, da Mina Abandonada ao próprio covil, esses pestinhas são mandados para a linha de frente, principalmente porque todos querem que eles sumam."
+ },
+ "enemiesLang/{DEVIL_HP_7}bDesc": {
+  "en": "Have you ever heard the tragedy of Octopus the Sly? It's not a story many sailors of Byalan Island would tell you. Octopus was a sea-witch thrall, so mighty and sly they could command the tides through occult incantations, manipulating the very ocean. This creature had such knowledge of hydromancy it could even keep a drowning sailor alive... though, yes, mostly it used these powers to drown people. Octopus became so mighty the only thing it feared was losing its eight arms. Eventually, of course, it did. It taught its apprentice every dark art it knew, and the apprentice ate it while it was taking a nap. Isn't it ironic? Octopus could save others from the deep, but not itself.\nAnyway, this one was apparently hired by Satan Morroc for reasons nobody has bothered to explain. Honestly, the less said, the better. ",
+  "pt": "Você já ouviu a tragédia do Polvo, o Astuto? Não é uma história que os marinheiros da Ilha de Byalan costumam contar. O Polvo era um servo de uma bruxa do mar, tão poderoso e astuto que comandava as marés com encantamentos ocultos, manipulando o próprio oceano. Conhecia tanto de hidromancia que podia até manter vivo um marinheiro se afogando... apesar de, na maioria das vezes, usar esses poderes para afogar gente. O Polvo ficou tão poderoso que a única coisa que temia era perder seus oito braços. Em dado momento, é claro, perdeu. Ele ensinou ao aprendiz todas as artes das trevas que conhecia, e o aprendiz o comeu enquanto ele tirava uma soneca. Irônico, não é? O Polvo podia salvar os outros das profundezas, mas não a si mesmo.\nEnfim, este aqui foi contratado por Satan Morroc por motivos que ninguém se deu ao trabalho de explicar. Sinceramente, quanto menos se falar, melhor. "
+ },
+ "enemiesLang/{DIRECTER}bDesc": {
+  "en": "Boundless gifts. Sights beyond reality. Glimpses of the unthinkable. Loki is watching.",
+  "pt": "Presentes ilimitados. Visões além da realidade. Vislumbres do inconcebível. Loki está observando."
+ },
+ "enemiesLang/{DULL0}bDesc": {
+  "en": "Incredibly self-conscious about their appearance due to a glaringly obvious abnormality. If you're unlucky enough to meet one in the Clock Tower, on no account ever point out that it's always five minutes late.",
+  "pt": "Incrivelmente complexado com a própria aparência por conta de uma anormalidade evidente. Se tiver o azar de encontrar um na Torre do Relógio, sob nenhuma hipótese comente que ele está sempre cinco minutos atrasado."
+ },
+ "enemiesLang/{ECTO1}bDesc": {
+  "en": "Cursed by the vengeful librarians of Glast Heim for the crime of reading out loud, Ghostrings are perhaps the most pitiable of all wretches. Neither Poring nor ghost, they drift for eternity, immune to your sword. To slay one with magic is an act of mercy. You'd probably get good karma for it, if Rune-Midgard had a morality system.",
+  "pt": "Amaldiçoados pelos bibliotecários vingativos de Glast Heim pelo crime de ler em voz alta, os Ghostrings talvez sejam os mais patéticos de todos os desgraçados. Nem Poring nem fantasma, vagam pela eternidade imunes à sua espada. Destruí-los com magia é um ato de misericórdia. Você ganharia bom karma, se Rune-Midgard tivesse um sistema de moralidade."
+ },
+ "enemiesLang/{EX_17COLOSSUS}bDesc": {
+  "en": "What happened to the previous sixteen Tao Gunkas? Officially they're fiction, despite persistent rumours from the Turtle Island. Why does the bestiary skip straight to this one, then? I'm seriously asking.\n\nWe know one thing for sure - the Tao Gunka is a gentle and peaceful giant, beloved by all of Turtle Island. Can you imagine hurting something so precious, so innocent, so dedicated to the art of minding its own enormous business? You'd have to be a world-class Peco Peco thief to even consider it.\n\nAlmost as bad as leaving your Peco at the Kafra and never coming back. \n",
+  "pt": "O que aconteceu com os dezesseis Tao Gunkas anteriores? Oficialmente são ficção, apesar dos boatos persistentes da Ilha da Tartaruga. Mas então, por que o bestiário pula direto pra este? Pergunta séria.\n\nMas sabemos de uma coisa: o Tao Gunka é um gigante gentil e pacífico, amado por toda a Ilha da Tartaruga. Quem machucaria um ser tão precioso, tão inocente, tão dedicado à arte de cuidar da própria vida enorme? Tem que ser muito ladrão de Peco Peco pra pensar nisso.\n\nQuase tão ruim quanto deixar seu Peco na Kafra e nunca mais voltar. \n"
+ },
+ "enemiesLang/{EX_AHUIZOTL}bDesc": {
+  "en": "One would imagine the Deep Sea Swordfish uses its blade-like snout to skewer prey, but shockingly, these wet pets were bred by the ancient Juperos engineers to be excellent fencers. Consigned to the Illusion of Under Water when their city sank, they have nobody left to duel, causing immeasurable piscine fury they unleash at every opportunity.\n",
+  "pt": "É de se imaginar que o Peixe-Espada das Profundezas use o focinho afiado para espetar presas, mas, surpreendentemente, esses bichos aquáticos foram criados por antigos engenheiros de Juperos para serem esgrimistas. Condenados à Ilusão Submersa quando a cidade afundou, não têm mais ninguém com quem duelar, o que lhes causa uma fúria piscina sem medida que liberam sempre que podem.\n"
+ },
+ "enemiesLang/{EX_ANT}bDesc": {
+  "en": "The Andres of the Ash Vacuum build complex tunnel networks through every floating rock, lit by crystals and oxygenated by mushroom colonies. However, their perfect and orderly society has done little to stop the rest of Rune-Midgard calling them the basement-dwelling losers of the cosmos.",
+  "pt": "Os Andres do Vácuo de Cinzas constroem redes complexas de túneis em cada rocha flutuante, iluminadas por cristais e oxigenadas por colônias de cogumelos. No entanto, sua sociedade perfeita e ordenada não impediu o resto de Rune-Midgard de chamá-los de fracassados do cosmos."
+ },
+ "enemiesLang/{EX_APEX}bDesc": {
+  "en": "What is the most dangerous game? Seyren Windsor, Lord Knight turned experiment, scoured Rune-Midgard to find out, hunting Peco Pecos, Grand Pecos and even a few Baphomets. Now Wolfchev's machines have convinced him the most dangerous game of all is hunting adventurers in the depths of the Lighthalzen Bio Lab. ",
+  "pt": "Qual é a caça mais perigosa? Seyren Windsor, Lorde Cavaleiro transformado em experimento, vasculhou Rune-Midgard para descobrir, caçando Peco Pecos, Grand Pecos e até alguns Bafomés. Agora, as máquinas de Wolfchev o convenceram de que a caça mais perigosa de todas são os aventureiros nas profundezas do Laboratório de Lighthalzen."
+ },
+ "enemiesLang/{EX_BARM}bDesc": {
+  "en": "Coyotes are sworn to protect Rock Ridge's stash of wanted posters, though the posters they guard all feature drawings of dubious artistic value. It's best not to describe the pictures, so let's just say the Kafra Corporation is pushing to have them censored.",
+  "pt": "Os Coiotes juraram proteger o estoque de cartazes de procurado de Rock Ridge, embora os que guardam tenham desenhos de valor artístico duvidoso. Melhor não descrever, mas digamos que a Corporação Kafra está tentando bani-los."
+ },
+ "enemiesLang/{EX_BATDRAKELET}bDesc": {
+  "en": "Dragons have four legs plus a pair of wings. Dracos have two legs, a pair of wings and a deep inferiority complex about it. Both are real in Rune-Midgard, unfortunately.\n\nDracos seem to be summoned by the Lost Dragon, so they may share some sort of symbiotic relationship. I hesitate to suggest the Lost Dragon actually hatches them, as it mostly uses them as meat shields, which would be abhorrent parenting even for a dragon who lost its way out of the Abyss Lake. ",
+  "pt": "Dragões têm quatro patas e um par de asas. Dracos têm duas patas, um par de asas e um profundo complexo de inferioridade por isso. Ambos existem em Rune-Midgard, infelizmente.\n\nOs Dracos parecem ser invocados pelo Dragão Perdido, então devem ter algum tipo de relação simbiótica. Não ouso sugerir que o Dragão Perdido os choque, já que ele os usa principalmente como escudos vivos, o que seria um comportamento parental reprovável até para um dragão que se perdeu na saída do Lago do Abismo. "
+ },
+ "enemiesLang/{EX_BATGOBLIN}bDesc": {
+  "en": "The Goblin economy runs on trickle-down plunder, and these tiny troublemakers are sick of the inequality. The Goblin Leader has seen right through the unfair system that lets MVPs hoard treasure chests while regular mobs drop nothing but Jellopy - but no longer! His warband is redistributing stolen loot amongst the goblin masses, so please don't disturb them.  ",
+  "pt": "A economia goblin funciona no saque de gotejamento, e esses pequenos arruaceiros estão cansados da desigualdade. O Líder Goblin percebeu o sistema injusto que deixa os MVPs acumularem baús de tesouro enquanto monstros comuns só dropam Jellopy — mas não mais! Seu bando está redistribuindo o saque entre as massas goblins, então, não os incomode."
+ },
+ "enemiesLang/{EX_BATSPACE_ALL4}bDesc": {
+  "en": "A flying war machine from the ruins of Juperos, built on nature's perfect predator - the bat. Unfortunately, the engineers who designed this rotor-powered soldier were not informed about the existence of Hammer Fall.",
+  "pt": "Uma máquina de guerra voadora das ruínas de Juperos, inspirada no predador perfeito da natureza: o morcego. Infelizmente, os engenheiros que projetaram este soldado com hélices não foram avisados da existência do Martelo de Thor."
+ },
+ "enemiesLang/{EX_BOSS_BATDRAGON_1}bDesc": {
+  "en": "Sinister shadows fall over the Geffen countryside, flapping, roaring, and freakishly bloody big. Some say the Lost Dragon was once a guardian of the Abyss Lake who simply took a wrong turn, but as nobody has ever asked it for directions, I'm inclined to believe it's just a very large bat with an attitude problem.\n\nWhat's certain is that anyone foolish enough to disturb one is marked for death, as the Lost Dragon uses its size, speed and keen senses to chase its targets relentlessly until its hunger is sated. Its love of caves and nocturnal hunting almost certainly confirms it isn't a dragon at all - it's a bat, and nothing more.\nI hope. \n",
+  "pt": "Sombras sinistras caem sobre os campos de Geffen, batendo asas, rugindo e terrivelmente enormes. Dizem que o Dragão Perdido foi um guardião do Lago do Abismo que só pegou o caminho errado, mas como ninguém nunca lhe pediu informações, prefiro acreditar que é só um morcego gigante com problemas de atitude.\n\nA única certeza é que qualquer tolo que perturbe um está condenado, já que o Dragão Perdido usa tamanho, velocidade e sentidos aguçados para perseguir os alvos até saciar a fome. Seu gosto por cavernas e caçadas noturnas confirma quase totalmente que não é um dragão — é apenas um morcego.\nEu espero. \n"
+ },
+ "enemiesLang/{EX_BOSS_KITSUNE}bDesc": {
+  "en": "A nine-tailed fox spirit from the Payon caves capable of summoning dire illusions, the Moonlight Flower is a treacherous adversary that moves with formidable grace and speed, and hits heavily with her flaming tails. She is heavily slowed down by snow and hates fire.",
+  "pt": "Um espírito de raposa de nove caudas das cavernas de Payon, capaz de invocar ilusões terríveis. A Flor do Luar é uma adversária ardilosa que se move com graça e velocidade descomunais, e suas caudas flamejantes golpeiam com força. A neve reduz muito a velocidade dela, e ela odeia fogo."
+ },
+ "enemiesLang/{EX_BOSS_PINKJELLYFISH}bDesc": {
+  "en": "When the Deep Sea Kraken blushes, its translucent tentacles turn completely sea-through. Unfortunately, it finds having its innards on display in the Illusion of Under Water incredibly embarrassing, causing it to blush even more in a vicious (and potentially viscous) cycle of awkwardness.",
+  "pt": "Quando o Kraken das Profundezas fica com vergonha, seus tentáculos translúcidos ficam completamente transparentes. Infelizmente, ele acha extremamente constrangedor ficar com as entranhas expostas na Ilusão Submersa, o que o deixa com ainda mais vergonha, num ciclo vicioso (e potencialmente viscoso) de constrangimento."
+ },
+ "enemiesLang/{EX_BOSS_SEASPHYNX}bDesc": {
+  "en": "Eldest and soggiest of the sunken guardians, the Kraken poses riddles to all who dare swim into its hallowed depths. Since nobody in Rune-Midgard has figured out how to talk underwater, the only answer it has ever received is \"glub glub\", which has made it so mad it just started grabbing people instead.",
+  "pt": "O mais antigo e encharcado dos guardiões submersos, o Kraken propõe charadas a todos que ousam nadar até suas profundezas sagradas. Como ninguém em Rune-Midgard descobriu como falar debaixo d'água, a única resposta que ele já ouviu foi \"glub glub\", o que o irritou tanto que ele começou a agarrar as pessoas mesmo."
+ },
+ "enemiesLang/{EX_BOUNTYHUNTER}bDesc": {
+  "en": "\"Why do adventurers keep breaking into Wolfchev's lab? They should be breaking into MY guild hall!\" After a cavalcade of such envious complaints, the Rekenber Corporation opened its vast coffers and hired the Guillotine Cross Eremes Guile to stop anyone getting into or out of the Lighthalzen Bio Lab. He's been prowling its corridors for years now, trying to work out how to escape without his fellow experiments noticing. ",
+  "pt": "\"Por que os aventureiros não param de invadir o laboratório do Wolfchev? Eles deveriam invadir a MINHA sede de clã!\" Depois de incansáveis reclamações invejosas, a Corporação Rekenber abriu seus vastos cofres e contratou o Sicário Eremes Guile para impedir que qualquer pessoa entrasse ou saísse do Laboratório de Lighthalzen. Há anos ele ronda os corredores, tentando descobrir como fugir sem que os outros experimentos percebam."
+ },
+ "enemiesLang/{EX_BUKAVAC}bDesc": {
+  "en": "If you put a Roda Frog in boiling water, it will jump out. If you put it in cold water and slowly heat it up, you're being weird. If you drop it into the cursed depths of the Illusion of Under Water, it'll eventually become a Deep Sea Strouf, yet another reason why it really isn't safe to be down there at all.",
+  "pt": "Se você colocar um Sapo de Roda na água fervente, ele pula fora. Se colocar na água fria e aquecer devagar, você é uma pessoa estranha. Se jogá-lo nas profundezas amaldiçoadas da Ilusão Submersa, ele vai virar um Strouf das Profundezas. Viu? Mais um motivo para não descer lá de jeito nenhum."
+ },
+ "enemiesLang/{EX_CARDSHARP}bDesc": {
+  "en": "On reflection, the Kafra guy might be onto something. If I write a bunch of vague nonsense in the Rock Ridge saloon and arbitrarily redact half the words, we'll be knee-deep in forum theories and selling Joker cards by the boatload. I bet the Novices will eat it up.\n\n(Note to self: remove this incriminating note before sending the latest volume for publication) \n",
+  "pt": "Pensando bem, talvez o cara da Kafra esteja certo. Se eu escrever um monte de baboseira vaga no saloon de Rock Ridge e cortar metade das palavras aleatoriamente, vamos ficar atolados em teorias de fórum e vender cartas de Coringa aos montes. Aposto que os Aprendizes vão adorar.\n\n(Lembrete: remover esta nota incriminadora antes de mandar o próximo volume pra publicação) \n"
+ },
+ "enemiesLang/{EX_CASINOGHOUL}bDesc": {
+  "en": "The Rock Ridge saloon has a strict \"no rotting body parts at the poker table\" policy. To comply, its Ghouls are sewn into their Sunday best and doused in cheap cologne. Most of them deal cards until they go irrevocably mad from no longer being able to scratch their itchy infections.",
+  "pt": "O saloon de Rock Ridge proíbe terminantemente \"partes de corpo podres na mesa de pôquer\". Para cumprir a regra, seus Carniçais são costurados nas melhores roupas e encharcados de perfume barato. A maioria dá as cartas até enlouquecer por não conseguir coçar as feridas pustulentas."
+ },
+ "enemiesLang/{EX_CLUBBIE}bDesc": {
+  "en": "The Buffalo Bandit Sharpshooters of Rock Ridge are the only outlaws not cursed by the town's haunted saloon. They soon felt left out, however, as being cursed became the hot new trend. Now they pretend to be as enthralled as everyone else, hoping to stave off the most dreadful curse of all - FOMO.",
+  "pt": "Os Bandidos Búfalo Atiradores de Rock Ridge são os únicos foras da lei não amaldiçoados pelo saloon assombrado da cidade. No entanto, logo se sentiram excluídos, já que ser amaldiçoado virou a nova moda. Agora fingem estar tão enfeitiçados quanto os outros, na esperança de afastar a pior maldição de todas: o tal do FOMO."
+ },
+ "enemiesLang/{EX_COSMICEYE}bDesc": {
+  "en": "The Beholder sees no such file.",
+  "pt": "O Observador não vê arquivo."
+ },
+ "enemiesLang/{EX_CUBE_HITS_STERILE}bDesc": {
+  "en": "Burner of libraries, champion of crashes, hogger of memories, this Plasma blob from the Juperos ruins is made to look bright and appealing while it's actually full of half-digested sludge that slowly seeps through its surface, leaving anyone who fell for its enticing glow and dared to touch it sticky, icky, slow, frustrated, bombarded by Kafra newsletters, and suddenly charged hidden storage fees.\nAlso a necessary evil.",
+  "pt": "Incendiário de bibliotecas, campeão de travamentos e devorador de memórias, este Plasma das Ruínas de Juperos é feito para parecer brilhante e atraente, mas está cheio de lodo mal digerido que vaza lentamente pela superfície, deixando quem se encantou com seu brilho e ousou tocá-lo todo peguento, nojento, lento, frustrado, bombardeado por newsletters da Kafra e de bolsos vazios por taxas ocultas de armazém.\nMas é um mal necessário."
+ },
+ "enemiesLang/{EX_DAIMON}bDesc": {
+  "en": "There's this Merchant in Rock Ridge selling keychains of these things who keeps asking me to make them \"a thing.\" I refuse to burn my integrity contriving merchandisable \"lore\" for a lump of Purple Ore. It's a rock. A stinky little rock. There's nothing deeper to it.",
+  "pt": "Tem um Mercador em Rock Ridge vendendo chaveiros dessas coisas que vive pedindo pra eu \"fazer elas pegarem\". Me recuso a sacrificar minha integridade inventando \"historinha\" comercializável pra um pedaço de Minério Roxo. É uma pedra. Uma pedrinha fedida. Não tem nada de mais."
+ },
+ "enemiesLang/{EX_DANDYBRINE}bDesc": {
+  "en": "Rock Ridge's fanciest outlaw never draws his Bowie knife without checking his moustache in the blade. Loyal to the gang, as long as it buys his hair wax.",
+  "pt": "O fora da lei mais vaidoso de Rock Ridge, o Bandido Búfalo Bowie nunca saca a faca sem antes conferir o bigode na lâmina. É fiel ao bando, desde que o bando continue comprando cera de cabelo."
+ },
+ "enemiesLang/{EX_DUCK_SWARM}bDesc": {
+  "en": "Within a generation, the ducks of the Ash Vacuum have advanced with unprecedented speed. Developing technology for locomotion, weaponry and aeronautics, they've tackled some of the most pressing questions of Juno's scholars. But the story of the ducklings has barely begun.",
+  "pt": "No período de uma geração, os patos do Vácuo de Cinzas avançaram numa velocidade nunca vista. Desenvolvendo tecnologias de locomoção, armamento e aeronáutica, enfrentaram algumas das questões mais urgentes dos estudiosos de Juno. Mas a história dos patinhos mal começou."
+ },
+ "enemiesLang/{EX_ECTOGOLD}bDesc": {
+  "en": "Some say Golden Porings are the cursed souls of Merchants who got rich overcharging Novices at the Prontera fountain and hoarding every zeny. After amassing fabulous wealth, they even sold their own carts to pocket a little more.\n\nThis idea has been dismissed as mere myth, for surely no Merchant could be so thoroughly greedy.  \n",
+  "pt": "Dizem que os Porings Dourados são as almas amaldiçoadas de Mercadores que enriqueceram cobrando caro demais dos Aprendizes na fonte de Prontera e acumulando cada zeny. Depois de juntar uma fortuna fabulosa, venderam até o próprio carrinho para embolsar mais um troquinho.\n\nEssa ideia é tratada como mito, é claro — afinal, nenhum Mercador seria tão ganancioso. \n"
+ },
+ "enemiesLang/{EX_GAMBERGAR}bDesc": {
+  "en": "Unlike his dusty cousins in the desert, this Gaster guards a treasure trove of holy scriptures, temperance pamphlets and family-friendly stories full of moral lessons. His corner of Rock Ridge is roughly ten thousand times less popular than the saloon next door.",
+  "pt": "Diferente dos primos empoeirados do deserto, este Gaster guarda um tesouro de escrituras sagradas, panfletos de temperança e historinhas para toda a família, recheadas de lições de moral. Seu canto de Rock Ridge é, mais ou menos, dez mil vezes menos popular que o saloon ao lado."
+ },
+ "enemiesLang/{EX_GAMBLIN}bDesc": {
+  "en": "He'd like you to pick a card, any card. You'll lose no matter your choice, for every single one has been up the Duelist's sleeve, and his boots, and places we won't mention. A laugh at your expense is the cheapest thing Rock Ridge has to offer.",
+  "pt": "Ele quer que você escolha uma carta. Qualquer carta. Não importa qual, você vai perder, porque todas passaram pela manga do Duelista, pelas botas e por lugares que não vamos citar. Rir da sua cara é a coisa mais barata que Rock Ridge tem a oferecer."
+ },
+ "enemiesLang/{EX_GOLDPILE}bDesc": {
+  "en": "It resembles an ordinary treasure chest but is in fact an Ancient Mimic, a hybrid of furniture and appetite. While aggressive, it's worth cracking open for the golden yields inside. If one turns up in your house, it'll be the only time you celebrate having a Mimic problem.",
+  "pt": "Parece um baú comum, mas é na verdade um Mímico Ancião, um híbrido de mobília e apetite. Apesar de agressivo, vale a pena arrombar pelo ouro que rende. Se aparecer um na sua casa, vai ser a única vez que você comemora ter um problema de Mímico."
+ },
+ "enemiesLang/{EX_GOLEM_ICE}bDesc": {
+  "en": "Sometimes so much cold gathers in the Rachel Ice Cave that there aren't enough creatures to contain it. When that happens, the frost soaks into the very walls and brings them to life, raising the cavern itself into berserk Ice Titans that stomp all the way to Lutie. Available in white and blue.",
+  "pt": "Às vezes o frio acumulado na Caverna de Gelo de Rachel é tanto que não há criaturas suficientes para contê-lo. Quando isso acontece, a geada se infiltra nas paredes e elas ganham vida, erguendo a própria caverna em Titãs de Gelo desvairados que marcham até Lutie. Disponível nas cores branca e azul."
+ },
+ "enemiesLang/{EX_GYORUNTIN}bDesc": {
+  "en": "Insanity is doing the same thing over and over again and expecting different results. Unless you're Kiel Hyre and you build the same robot 13 times, then you know what happens? Kiel D-01! ",
+  "pt": "Loucura é fazer a mesma coisa de novo e de novo e esperar resultados diferentes. A menos que você seja Kiel Hyre e construa o mesmo robô 13 vezes. Aí sabe o que acontece? Kiel D-01!"
+ },
+ "enemiesLang/{EX_ICHTHYOCENTAUR_01}bDesc": {
+  "en": "Half-man, half-fish, half-ghost, and fully confusing. The Deep Sea Merman turned his back on the Mermen of Byalan Island, choosing instead to study the soaked tomes of the Illusion of Under Water and invent his own underwater games.",
+  "pt": "Meio-homem, meio-peixe, meio-fantasma e totalmente confuso. O Tritão das Profundezas virou as costas para os Tritões da Ilha de Byalan, preferindo estudar os livros encharcados da Ilusão Submersa e inventar seus próprios jogos subaquáticos."
+ },
+ "enemiesLang/{EX_ILLUSION}bDesc": {
+  "en": "Despite appearances, a Gazeti is absolutely not a ghost, but just the frozen spirit of a very angry snow lady from Lutie who lost every- actually she looks like she's singing now- no she's dancing- wait is she sculpting snowballs- could someone pause that animation loop please?",
+  "pt": "Apesar da aparência, um Gazeti certamente não é um fantasma, mas só o espírito congelado de uma dama da neve muito zangada de Lutie que perdeu tudo... Na verdade, parece que ela está cantando agora... Não, está dançando... Calma, ela tá fazendo bolas de neve...? Alguém pode pausar a animação, por favor?"
+ },
+ "enemiesLang/{EX_JASTOR}bDesc": {
+  "en": "Legend has it that an Elite Buffalo Bandit is born whenever a writer struggles to come up with a pun involving cowboys and buffalo. It's such a specific scenario that these outlaws are exceedingly rare. Anyway, I once saw one kick a Lunatic clean across Rock Ridge. True story.",
+  "pt": "Diz a lenda que um Bandido Búfalo de Elite nasce sempre que um escritor trava tentando bolar uma piada com caubóis e búfalos. É um cenário tão específico que esses foras da lei são raríssimos. Enfim... uma vez, eu vi um chutar um Lunático de um lado ao outro de Rock Ridge. Juro."
+ },
+ "enemiesLang/{EX_JELLYBAG_RED}bDesc": {
+  "en": "When a Poring eats too much loot, a terrifying transformation takes place whereby it turns from a living jelly into a sealed box with a question mark on it. Kind of obvious, really. Nobody should be eating that many Old Blue Boxes.\n\nNo idea what's in these things, by the way. \n",
+  "pt": "Quando um Poring come saque demais, ocorre uma transformação aterrorizante: ele deixa de ser uma geleia viva e vira uma caixa lacrada com um ponto de interrogação. Bom, sem surpresa aí, né? Ninguém devia comer tanta Caixa Azul Antiga.\n\nAh, e antes que perguntem — nem ideia do que tem dentro. \n"
+ },
+ "enemiesLang/{EX_JOYATAURO}bDesc": {
+  "en": "A Minorous that evolved after one too many laps of the Labyrinth Forest. Its rage rapidly matures along with it, developing into a potent hammer swing. Too heavy to be dodged by Agi builds, it must be survived via sheer HP.",
+  "pt": "Um Minorous que evoluiu depois de voltas demais na Floresta Labirinto. Sua raiva amadurece rapidamente junto com ele, virando um golpe de martelo potente. Pesado demais para ser esquivado por builds de Agi, só se sobrevive a ele na base do HP."
+ },
+ "enemiesLang/{EX_MAZERELLA_DANCER}bDesc": {
+  "en": "All sinning, all dancing, these rhythmic recidivists will cut a rug as soon as a purse. Josephina's modus operandi is to beguile before she burgles, a two-step job where she taps a victim's coin pouch and whisks away the zeny before waltzing off - quite the caper, if she can swing it.\n\nHer troupe uses the Comodo beach stage as a legitimate front, but the ticket prices are the most criminal thing about them. \n",
+  "pt": "Tão cantante e dançante, essa facínora fascinante não perde o ritmo nem na hora do roubo. O modus operandi de Josephina é seduzir antes de surrupiar: um arrasta-pé enganoso para afanar a bolsinha da vítima e levar todos os zenys antes de sair de cena — uma façanha e tanto, se não bailar antes.\n\nSua trupe usa o palco da praia de Comodo como fachada legítima, mas o preço do ingresso é a coisa mais criminosa por lá. \n"
+ },
+ "enemiesLang/{EX_MEANATAUR}bDesc": {
+  "en": "A fully enraged Minorous, artificially evolved by the nightmares of the Labyrinth Forest. It no longer guards the maze; it simply charges at anything that moves, including trees, other Minorous and its own reflection.\n\nThe transformation may give a layperson pause, but let's be honest, it ranks fairly low on the list of terrible things a Blacksmith is willing to forge a hammer for. \n",
+  "pt": "Um Minorous totalmente enfurecido, evoluído artificialmente pelos pesadelos da Floresta Labirinto. Ele não guarda mais o labirinto; só investe contra qualquer coisa que se mexa, inclusive árvores, outros Minorous e o próprio reflexo.\n\nA transformação pode assustar um leigo, mas, sinceramente, está bem baixo na lista de coisas terríveis pelas quais um Ferreiro aceita forjar um martelo. \n"
+ },
+ "enemiesLang/{EX_OLM}bDesc": {
+  "en": "These sea-lizards once had eyes and a high standing in Byalan society before they glimpsed something forbidden in the Illusion of Under Water that forever changed their minds, bodies and souls. Some say the Deep Sea Sropho still searches for its lost sight, but I reckon it's just blindly whipping anyone nearby with its tail.",
+  "pt": "Esses lagartos marinhos já tiveram olhos e uma posição de destaque na sociedade de Byalan, antes de avistarem algo proibido na Ilusão Submersa que mudou para sempre suas mentes, corpos e almas. Alguns dizem que o Sropho das Profundezas ainda procura a visão perdida, mas, cá entre nós, ele só sai chicoteando com a cauda quem estiver por perto."
+ },
+ "enemiesLang/{EX_PHALIEN_XL}bDesc": {
+  "en": "Archdams are actually super friendly ancient Juperos machines that just want to deliver you a pleasant Experience. Unfortunately, nobody told them their greeting protocol involves a lot of very large guns. ",
+  "pt": "Os Archdams são, na verdade, máquinas antigas de Juperos superamigáveis que só querem oferecer a você uma Experiência agradável. Infelizmente, ninguém avisou que o protocolo de boas-vindas envolve muitas armas enormes."
+ },
+ "enemiesLang/{EX_PICKLE}bDesc": {
+  "en": "Ancient scrolls found in the Juperos ruins foretold that the Ripe Watermelons would conquer the world. They did not, in fact, conquer anywhere, but got chased off by a Novice wielding a kitchen knife. ",
+  "pt": "Pergaminhos antigos achados nas ruínas de Juperos previam que as Melancias Maduras conquistariam o mundo. Na verdade, não conquistaram nada e foram expulsas por um Aprendiz armado com uma faca de cozinha."
+ },
+ "enemiesLang/{EX_RABBIT_SWARM}bDesc": {
+  "en": "All Lunatics come from the moon, it is known.",
+  "pt": "É de conhecimento geral que todo Lunático vem da lua."
+ },
+ "enemiesLang/{EX_RETROBOT}bDesc": {
+  "en": "The Rekenber Corporation's experiments often have unforeseen side-effects, such as the Aliot. When one of Kiel Hyre's assembly lines went awry, it spat out a batch of clanking robots with a fondness for obsolete technology and a very short temper. ",
+  "pt": "Os experimentos da Corporação Rekenber costumam ter efeitos colaterais inesperados, como o Aliot. Quando uma das linhas de montagem de Kiel Hyre deu errado, cuspiu um lote de robôs barulhentos com um apreço por tecnologia obsoleta e um pavio muito curto."
+ },
+ "enemiesLang/{EX_ROULETTEMUSH}bDesc": {
+  "en": "When a gambler wins too much for the Rock Ridge saloon's liking, they may find themself forcibly frisked by furious forest fungi. Red Mushrooms are the bouncers that enforce the cap on winnings.",
+  "pt": "Quando um apostador ganha demais pro gosto do saloon de Rock Ridge, pode acabar revistado à força por fungos florestais furiosos. Os Cogumelos Vermelhos são os seguranças que mantêm o teto nos ganhos."
+ },
+ "enemiesLang/{EX_SEAANGEL}bDesc": {
+  "en": "As above, so below. These strange watery spirits rise from the sunken streets of the Illusion of Under Water, rumoured to be souls that fled the chaos of the Cursed Abbey, only to find that not everything is better down where it's wetter. Whatever their origin, the Aqua Elemental's song vibrates through the water with perfect clarity, harmonising with the barks of the Deep Seals to form a choir that tugs and twists the soul.",
+  "pt": "Assim na terra como no mar. Esses estranhos espíritos aquáticos emergem das ruas submersas da Ilusão Submersa. Dizem que são almas que fugiram do caos da Abadia Amaldiçoada, apenas para descobrir que nem tudo são conchas e corais lá embaixo, onde é mais molhado. Seja qual for sua origem, o canto do Elemental de Água vibra pela água com perfeita clareza, harmonizando com os latidos das Focas para formar um coro que puxa e torce a alma."
+ },
+ "enemiesLang/{EX_SEAPIG}bDesc": {
+  "en": "Though they look like the perfect cuddle, the Seals of the Illusion of Under Water are too ethereal to hug, dissipating into ghostly mist the moment any arm gets near them. Drifting up from sunken trenches, they possess an air of ancient intelligence, despite the way they float mindlessly into masses of projectiles with no sense of self-preservation.",
+  "pt": "Parecem perfeitas para um abraço, mas as Focas da Ilusão Submersa são etéreas demais, dissipando-se em névoa fantasmagórica assim que um braço se aproxima. Subindo das fossas submersas, carregam um ar de inteligência ancestral, apesar de flutuarem sem pensar em massas de projéteis, sem nenhum senso de autopreservação."
+ },
+ "enemiesLang/{EX_SEASLUG}bDesc": {
+  "en": "Considered a delicacy by absolutely nobody, Hydras combine all the slimy wetness of a regular Byalan sea anemone with the cursed dampness of the Illusion of Under Water. I don't think they have any idea of the arcane significance of the sunken city, or that Izlude is just up the road - in fact, I'm not even sure they have brains. \n",
+  "pt": "Consideradas iguarias por absolutamente ninguém, as Hidras combinam toda a viscosidade molhada de uma anêmona comum de Byalan com a umidade amaldiçoada da Ilusão Submersa. Acho que não fazem ideia do significado místico da cidade submersa, nem de que Izlude fica logo ali. Na verdade, acho que nem cérebro elas têm. \n"
+ },
+ "enemiesLang/{EX_SKELEGEM}bDesc": {
+  "en": "Gem bones, gem bones, gem dry bones! The Experience Gem fused into this Skeleton Worker grants enhanced tactical instinct and strategic knowledge. It's smart enough to briefly consider its options before running directly at Survivors, pickaxe first.",
+  "pt": "Ossos de joia, ossos de joia, ossos secos de joia! A Joia de Experiência fundida a este Esqueleto Operário aprimora o instinto tático e o conhecimento estratégico. É esperto o bastante para pensar nas opções antes de correr na direção dos sobreviventes, picareta na frente."
+ },
+ "enemiesLang/{EX_SNOWMAN_HAUNTED}bDesc": {
+  "en": "Where do all of Lutie's snowmen go when it's not Christmas? Here.",
+  "pt": "Para onde vão os bonecos de neve de Lutie fora do Natal? Pra cá."
+ },
+ "enemiesLang/{EX_SPADEKNIGHT1}bDesc": {
+  "en": "His heart is harder than an Elunium, he'll club you to death, and he's not afraid to call a spade a spade. Know when to fold 'em if you hear this corrupted White Knight shuffle your way, lest he deck you. You'll collapse like a house of cards.",
+  "pt": "Coração mais duro que Elunium, porrete mortífero e zero medo de chamar espada de espada. Capriche no blefe se ouvir este Cavaleiro Branco corrompido se aproximando, ou vai direto pro descarte. Vai desabar feito um castelo de cartas."
+ },
+ "enemiesLang/{EX_SPIRIT1}bDesc": {
+  "en": "Frozen whispers from Lutie's distant past, trapped in shards of ice. Some carry ancient memories and might hiss the worst things people said when they walked the earth, like \"you have to pay 20 zeny per Kafra teleport\". Today, nobody remembers them.",
+  "pt": "Sussurros congelados do passado distante de Lutie, presos em lascas de gelo. Alguns carregam lembranças antigas e podem sibilar os maiores disparates de quando ainda tinham vida, como \"vocês precisam pagar 20 zenys por teleporte da Kafra\". Hoje, ninguém mais se lembra deles..."
+ },
+ "enemiesLang/{EX_SQUILLER_1}bDesc": {
+  "en": "The Spring Rabbits of Rock Ridge knew nothing of money before the saloon opened. Now they hoard zeny over carrots, abandoning their cosy burrows for penthouse hideouts in the canyon walls. This newfound avarice has hastened the town's fall to gentrification.",
+  "pt": "Os Coelhos da Primavera de Rock Ridge nem sabiam o que era dinheiro antes do saloon abrir. Agora trocam cenouras por zeny, abandonando as tocas aconchegantes por coberturas nos paredões do cânion. Essa avareza recém-descoberta acelerou a gentrificação da cidade."
+ },
+ "enemiesLang/{EX_TOLL2}bDesc": {
+  "en": "Any adventurer foolish enough to want into Rock Ridge has got to pay the spider toll to get in. At least, that's what the naive Spider Chariot seems to think. It's a canyon town, you can just walk in from any direction.",
+  "pt": "Qualquer aventureiro bobo o bastante para querer entrar em Rock Ridge precisa pagar o pedágio da aranha. Ou, pelo menos, é o que a Carruagem-Aranha acha. É uma cidade no cânion, ué. Dá pra entrar por qualquer lado."
+ },
+ "enemiesLang/{EX_TORINO}bDesc": {
+  "en": "Savage Babes come from the deepest part of the Labyrinth Forest, famous for its wildlife tours, a sort of \"safari\" zone if you will. Hunters tried to catch them all after learning how adorable they were as pets. Many instead caught a pair of tusks with their all-too fragile ribcages.",
+  "pt": "Os Filhotes de Savage vêm da parte mais funda da Floresta Labirinto, famosa pelo turismo de vida selvagem — quase uma \"zona de safári\". Caçadores tentaram pegar todos quando descobriram como eram adoráveis de bichinho. Em vez disso, muitos levaram uma presada nas frágeis costelas."
+ },
+ "enemiesLang/{EX_TREASURE_VICIOUSHUNGER}bDesc": {
+  "en": "Greed incarnate, these baneful eyeballs are the final fate of those who succumb to the ancient idiom \"eyes bigger than belly\". Hoard Meat at your peril, lest the foul magics of Juperos transform you into a Beholder Master, a mouthless orb cursed with insatiable hunger. Unless you're a Poring - Porings are immune to this, for whatever reason.\n",
+  "pt": "A própria ganância encarnada, esses olhos malignos são o destino final de quem sucumbe à antiga expressão \"olho maior que a barriga\". Acumule Carne por sua conta e risco, ou a magia corrompida de Juperos vai te transformar num Mestre Observador, um orbe sem boca amaldiçoado por uma fome insaciável — a menos que você seja um Poring. Porings são imunes, sabe-se lá por quê.\n"
+ },
+ "enemiesLang/{EX_VALENTINE}bDesc": {
+  "en": "The heart of the gang, unless that phrase is trademarked, in which case it's the primary circulatory organ of the toughest Buffalo Bandit in Rock Ridge, commonly used in activities such as poker, train robbery and garlic rummy.",
+  "pt": "O coração do bando, a menos que essa expressão seja marca registrada — nesse caso, é o principal órgão circulatório do Bandido Búfalo mais durão de Rock Ridge, comumente usado em atividades como pôquer, assalto a trem e mexe-mexe."
+ },
+ "enemiesLang/{EX_XLDRAGON_GOLD}bDesc": {
+  "en": "Valorous dragon dancers of Louyang who were rewarded by the Emperor and dipped in molten gold to shine forevermore. Should a dancer refuse this agonizing honor, they're branded a traitor and dipped in molten lead instead. Nobody has dared tell the Emperor that the \"molten\" part is the problem.",
+  "pt": "Valorosos dançarinos-dragão de Louyang que foram agraciados pelo Imperador e mergulhados em ouro derretido para brilhar para sempre. O dançarino que recusa essa honra agonizante é tachado de traidor e mergulhado em chumbo derretido. Ninguém teve coragem de contar ao Imperador que o problema está no \"derretido\"."
+ },
+ "enemiesLang/{EX_XLMANTIS_GOLD}bDesc": {
+  "en": "A Lighthalzen alchemist made a fortune selling Mantis specimens to the Rekenber Corporation. Pressured to deliver another killing machine, he developed the Killer Mantis: Gold Edition. He definitely didn't just spray-paint a dead bug and cash in before anyone noticed.",
+  "pt": "Um alquimista de Lighthalzen encheu os bolsos vendendo espécimes de Louva-a-Deus para a Corporação Rekenber. Sob pressão para entregar outra máquina mortífera, desenvolveu o Louva-a-Deus Assassino: Edição Dourada. Não, é claro que ele não pintou um inseto morto com spray e embolsou a grana antes que alguém notasse. Imagina."
+ },
+ "enemiesLang/{FISHMAN_1}bDesc": {
+  "en": "They reek of fish, drip saltwater everywhere, and talk with really off-putting gurgly voices. Striving to please the Damp God of Byalan Island, the Mermen climbed out of Izlude's undersea tunnels and joined in the overthrow of the Einbroch factory.",
+  "pt": "Fedem a peixe, deixam água salgada em todo canto e têm uma voz de gargarejo muito perturbadora. A fim de agradar o Deus Úmido da Ilha de Byalan, os Tritões saíram dos túneis submarinos de Izlude e se juntaram à tomada da Fábrica de Einbroch."
+ },
+ "enemiesLang/{FLOWER}bDesc": {
+  "en": "Said to have first sprouted where a Payon hunter cried at a total eclipse, Mandragoras appear when they are least needed, which is to say they appear all the time.",
+  "pt": "Dizem que brotaram onde um caçador de Payon chorou num eclipse total. As Mandrágoras surgem nas piores horas. Ou seja, o tempo todo."
+ },
+ "enemiesLang/{EX_LEAFYSEAHORSE_01}bDesc": {
+  "en": "Whoever named these moist monstrosities was clearly dehydrated, as they're only found in the Illusion of Under Water and nobody has ever ridden one. These leafy Seahorses drift around the sunken city aimlessly, taking issue with any intruders who disturb their ponderings on the meaning of Byalan.",
+  "pt": "Quem quer que tenha nomeado essas monstruosidades encharcadas claramente tinha um parafuso solto, já que só existem na Ilusão Submersa e ninguém nunca montou num. Esses Seahorses folhosos vagam sem rumo pela cidade submersa, arrumando briga com qualquer intruso que atrapalhe suas reflexões sobre o sentido de Byalan."
+ }
+}

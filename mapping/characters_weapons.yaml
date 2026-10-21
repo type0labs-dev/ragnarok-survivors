@@ -1,0 +1,2257 @@
+# Ragnarok Survivors - VS -> RO de-para: characters, weapons, passives, shop powerups
+# Rules used:
+#  - VS gameplay numbers untouched; only names/art/icons/fx/text change.
+#  - RO pick chosen by on-screen MECHANIC first, theme second.
+#  - Characters: core cast = RO classes (early unlock -> 1st job, later -> 2nd/trans/3rd);
+#    odd/secret/joke characters = iconic RO NPCs/monsters. Each keeps its VS starting weapon,
+#    whose RO skill is that class's signature where possible. Gender follows the VS character.
+#  - Weapons -> RO skills; evolutions -> higher-job/stronger version of the same skill line.
+#  - Passives -> RO items (rAthena Id verified against asset-catalog item_db_*.yml).
+#  - Shop PowerUps -> RO stats / buffs / skills.
+#  - asset: ok = exported sprite exists; str = needs .str conversion from data/texture/effect;
+#    missing = no asset (fallback suggested). Many classic skill fx (bolts, Soul Strike, Bash...)
+#    are client-hardcoded, hence missing.
+#  - ro_ptbr: bRO naming where known; "[trad]" = my translation, not confirmed bRO.
+#  - Scope: base game + contentGroup EXTRA. Helper ids (*_COUNTER, *_STATIC*, FOLLOWER_*) point to `parent`.
+characters:
+- vs_id: ANTONIO
+  vs_name: Antonio Belpaese
+  ro_en: Dancer (F)
+  ro_ptbr: Odalisca
+  ro_ref: body/female/dancer_female
+  why: 'Zero 16/10: whip → dancer (o chicote é arma de Odalisca)'
+  confidence: high
+  asset: ok
+  # CAST.md (2026-10-16): unlock path = RO job change
+- vs_id: IMELDA
+  vs_name: Imelda Belpaese
+  ro_en: Mage (F)
+  ro_ptbr: Maga
+  ro_ref: body/female/magician_female
+  why: Magic Wand->Soul Strike, Mage 1st-job signature; female.
+  confidence: high
+  asset: ok
+- vs_id: PASQUALINA
+  vs_name: Pasqualina Belpaese
+  ro_en: Acolyte (F)
+  ro_ptbr: Noviça
+  ro_ref: body/female/acolyte_female
+  why: Runetracer->Holy Light, Acolyte projectile; young female.
+  confidence: med
+  asset: ok
+- vs_id: GENNARO
+  vs_name: Gennaro Belpaese
+  ro_en: Thief (M)
+  ro_ptbr: Gatuno
+  ro_ref: body/male/thief_male
+  why: 'Zero 16/10: faca → gatuno'
+  confidence: high
+  asset: ok
+- vs_id: CIRO
+  vs_name: Arca Ladonna
+  ro_en: Wizard (M)
+  ro_ptbr: Bruxo
+  ro_ref: body/male/wizard_male
+  why: Arca, fire mage brother; Fire Wand->Fire Ball.
+  confidence: high
+  asset: ok
+- vs_id: PORTA
+  vs_name: Porta Ladonna
+  ro_en: High Wizard (M)
+  ro_ptbr: Arquimago
+  ro_ref: body/male/high_wizard_male
+  why: Lightning->Thunderstorm/Lord of Vermilion; +Area suits AoE caster.
+  confidence: med
+  asset: ok
+- vs_id: LAMA
+  vs_name: Lama Ladonna
+  ro_en: Merchant (F)
+  ro_ptbr: Mercadora
+  ro_ref: body/female/merchant_female
+  why: Axe = Mammonite; Merchants fight with axes.
+  confidence: med
+  asset: ok
+  # CAST.md (2026-10-16): unlock path = RO job change
+- vs_id: CAMILLO
+  vs_name: Poe Ratcho
+  ro_en: Swordman (M)
+  ro_ptbr: Espadachim
+  ro_ref: body/male/swordsman_male
+  why: Unlock Garlic Lv7 = Magnum Break Lv7 opens the Swordman job.
+  confidence: med
+  asset: ok (8-dir walk proven)
+  # CAST.md (2026-10-16): unlock path = RO job change
+- vs_id: GERMANA
+  vs_name: Clerici
+  ro_en: Priest (F)
+  ro_ptbr: Sacerdotisa
+  ro_ref: body/female/priest_female
+  why: Nun with Santa Water->Sanctuary; HP regen bonus.
+  confidence: high
+  asset: ok
+- vs_id: DOMMARIO
+  vs_name: Dommario
+  ro_en: Sage (M)
+  ro_ptbr: Sábio
+  ro_ref: body/male/sage_male
+  why: 'Zero 16/10: livro é arma de Sábio'
+  confidence: med
+  asset: ok
+- vs_id: CROCI
+  vs_name: Krochi Freetto
+  ro_en: Crusader (M)
+  ro_ptbr: Templário
+  ro_ref: body/male/crusader_male
+  why: Cross->Shield Boomerang; holy warrior with revivals.
+  confidence: high
+  asset: ok
+- vs_id: CRISTINA
+  vs_name: Christine Davain
+  ro_en: High Priest (F)
+  ro_ptbr: Sumo Sacerdotisa
+  ro_ref: body/female/priest_h_female
+  why: Pentagram screen-clear->Magnus Exorcismus.
+  confidence: med
+  asset: ok
+- vs_id: PUGNALA
+  vs_name: Pugnala Provola
+  ro_en: Gunslinger (F)
+  ro_ptbr: Justiceira
+  ro_ref: body/female/건너_female (raw mojibake folder name)
+  why: Twin pistols->Triple Action/Rapid Shower.
+  confidence: high
+  asset: ok
+- vs_id: GIOVANNA
+  vs_name: Giovanna Grana
+  ro_en: Alchemist (F)
+  ro_ptbr: Alquimista
+  ro_ref: body/female/alchemist_female + homun/vanilmirth
+  why: Capricious cats->Vanilmirth Caprice; homunculus = summoned pet.
+  confidence: med
+  asset: ok
+- vs_id: POPPEA
+  vs_name: Poppea Pecorina
+  ro_en: Gypsy (F)
+  ro_ptbr: Cigana
+  ro_ref: body/female/집시_female
+  why: 'Zero 16/10: a Odalisca é o Antonio; a Cigana canta'
+  confidence: med
+  asset: ok
+  # CAST.md (2026-10-16): unlock path = RO job change
+- vs_id: CONCETTA
+  vs_name: Concetta Caciotta
+  ro_en: Assassin (F)
+  ro_ptbr: Mercenária
+  ro_ref: body/female/assassin_female
+  why: 'Zero 16/10: o Gatuno é o Gennaro; névoa venenosa é skill de Mercenário'
+  confidence: med
+  asset: ok
+  # CAST.md (2026-10-16): unlock path = RO job change
+- vs_id: MORTACCIO
+  vs_name: Mortaccio
+  ro_en: Skeleton (NPC/mob)
+  ro_ptbr: Esqueleto
+  ro_ref: npc/skeleton
+  why: Skeleton throwing bones; joke character.
+  confidence: high
+  asset: ok
+- vs_id: CAVALLO
+  vs_name: Cavallo
+  ro_en: Peco Peco (NPC)
+  ro_ptbr: Peco Peco
+  ro_ref: npc/4_pecopeco
+  why: VS horse -> RO mount bird.
+  confidence: med
+  asset: ok
+- vs_id: MARIA
+  vs_name: Ramba
+  ro_en: Blacksmith (F)
+  ro_ptbr: Ferreira
+  ro_ref: body/female/blacksmith_female
+  why: Carrello = cart; Cart Revolution belongs to the Merchant/Blacksmith line.
+  confidence: med
+  asset: ok
+  # CAST.md (2026-10-16): unlock path = RO job change
+- vs_id: TATANKA
+  vs_name: O'Sole Meeo
+  ro_en: Star Emperor (M)
+  ro_ptbr: Imperador Estelar [trad]
+  ro_ref: body/male/star_emperor_male
+  why: Sun-headed O'Sole -> Sun/Moon/Star class; Falling Star.
+  confidence: med
+  asset: ok
+- vs_id: AMBROGIO
+  vs_name: Ambrojoe
+  ro_en: Alchemist Guildmaster (NPC)
+  ro_ptbr: Mestre Alquimista [trad]
+  ro_ref: npc/2_m_alche
+  why: La Robba random stuff->Potion Pitcher bouncing bottles.
+  confidence: low
+  asset: ok
+- vs_id: PINO
+  vs_name: Gallo Valletto
+  ro_en: Rooster (NPC)
+  ro_ptbr: Galo [trad]
+  ro_ref: npc/4_nfcock
+  why: Gallo = rooster; Clock Lancet->Frost Diver.
+  confidence: med
+  asset: ok
+- vs_id: FEBBRA
+  vs_name: Divano Thelma
+  ro_en: Sister (NPC)
+  ro_ptbr: Irmã [trad]
+  ro_ref: npc/4_f_sister
+  why: Laurel shield->Kyrie Eleison; armor growth, nun.
+  confidence: low
+  asset: ok
+- vs_id: ASSUNTA
+  vs_name: Zi'Assunta Belpaese
+  ro_en: Assassin Cross (F)
+  ro_ptbr: Algoz
+  ro_ref: body/female/assassin_cross_female
+  why: Vento Sacro crit slashes->Sonic Blow; secret grand-aunt.
+  confidence: low
+  asset: ok
+- vs_id: EXDASH
+  vs_name: Exdash Exiviiq
+  ro_en: Lunatic (NPC)
+  ro_ptbr: Lunatic
+  ro_ref: npc/4_lunatic
+  why: '"At least they''re lucky": rabbit''s foot luck; joke.'
+  confidence: med
+  asset: ok
+- vs_id: PANINI
+  vs_name: Toastie
+  ro_en: Poring (NPC)
+  ro_ptbr: Poring
+  ro_ref: npc/4_poring
+  why: '"So much potential": weakest RO icon; joke.'
+  confidence: high
+  asset: ok
+- vs_id: SMITH
+  vs_name: Smith IV
+  ro_en: White Teddy Bear (NPC)
+  ro_ptbr: Urso de Pelúcia Branco [trad]
+  ro_ref: npc/4_teddy_bear_w
+  why: '"The quirky white bear" literal.'
+  confidence: high
+  asset: ok
+- vs_id: ARENGIJUS
+  vs_name: Random
+  ro_en: Joker (NPC/mob)
+  ro_ptbr: Coringa
+  ro_ref: npc/joker
+  why: Random character select -> Joker.
+  confidence: med
+  asset: ok
+- vs_id: NEO
+  vs_name: Marrabbio
+  ro_en: Ninja (M)
+  ro_ptbr: Ninja
+  ro_ref: body/male/ninja_male
+  why: 'Zero 16/10: shuriken é arma de Ninja'
+  confidence: med
+  asset: ok
+- vs_id: AVATAR
+  vs_name: Avatar Infernas
+  ro_en: Baphomet (NPC/mob)
+  ro_ptbr: Bafomé
+  ro_ref: npc/4_baphomet
+  why: Avatar Infernas demon -> RO demon icon.
+  confidence: med
+  asset: ok
+- vs_id: GRAZIELLA
+  vs_name: Minnah Mannarah
+  ro_en: Wanderer (F)
+  ro_ptbr: Musa
+  ro_ref: body/female/wanderer_female
+  why: 'Zero 16/10: chicote → Musa (evolução da Cigana)'
+  confidence: med
+  asset: ok
+- vs_id: VERANDA
+  vs_name: Leda
+  ro_en: Dark Lord (NPC/mob)
+  ro_ptbr: Senhor das Trevas
+  ro_ref: npc/4_dark_lord
+  why: Leda boss -> RO caster MVP; Holy Wand->Napalm Vulcan.
+  confidence: low
+  asset: ok
+- vs_id: PAVONE
+  vs_name: Cosmo Pavone
+  ro_en: Grand Peco (mob)
+  ro_ptbr: Grand Peco
+  ro_ref: monster/GRAND_PECO (mob 1369)
+  why: Peacock royalty -> regal bird.
+  confidence: low
+  asset: ok
+- vs_id: PEPPINO
+  vs_name: Peppino
+  ro_en: Mandragora (NPC/mob)
+  ro_ptbr: Mandrágora
+  ro_ref: npc/mandragora
+  why: Plant creature with Soul Eater.
+  confidence: low
+  asset: ok
+- vs_id: PANTALONE
+  vs_name: Trouser
+  ro_en: Kafra (NPC)
+  ro_ptbr: Kafra
+  ro_ref: npc/4_f_kafra1
+  why: Candybox pick-any = Kafra storage; greed/zeny. Gender mismatch.
+  confidence: med
+  asset: ok
+- vs_id: FINO
+  vs_name: missingN
+  ro_en: Doppelganger (NPC/mob)
+  ro_ptbr: Doppelganger
+  ro_ref: npc/8_doppel
+  why: missingN glitch copy -> doppel.
+  confidence: low
+  asset: ok
+- vs_id: BOROS
+  vs_name: Gains Boros
+  ro_en: Paladin (M)
+  ro_ptbr: Paladino
+  ro_ref: body/male/paladin_male
+  why: Heaven Sword->Grand Cross, Paladin signature.
+  confidence: high
+  asset: ok
+- vs_id: DRAGOGION
+  vs_name: Gyorunton
+  ro_en: Black Dragon (NPC)
+  ro_ptbr: Dragão Negro [trad]
+  ro_ref: npc/4_blackdragon
+  why: Gyorunton dragon; triple bolts.
+  confidence: med
+  asset: ok
+- vs_id: NOSTRO
+  vs_name: Red Death
+  ro_en: Death (NPC)
+  ro_ptbr: Morte [trad]
+  ro_ref: npc/4_m_death
+  why: Red Death reaper literal.
+  confidence: high
+  asset: ok
+- vs_id: SIGMA
+  vs_name: Sigma
+  ro_en: Valkyrie (NPC)
+  ro_ptbr: Valquíria
+  ro_ref: npc/4_f_valkyrie
+  why: '"She owns everything": RO goddess of job change.'
+  confidence: high
+  asset: ok
+- vs_id: TUPU
+  vs_name: Robbert
+  ro_en: Dracula (NPC)
+  ro_ptbr: Drácula
+  ro_ref: npc/4_dracula
+  why: Bats + regains HP at critical health = vampire.
+  confidence: high
+  asset: ok
+- vs_id: EX_ZIAPPUNTA
+  vs_name: Zi'Appunta Belpaese
+  ro_en: Rebellion (F)
+  ro_ptbr: Insurgente [trad]
+  ro_ref: body/female/rebellion_female
+  why: Gun-slinging aunt; Ammo Appalate->Fire Dance.
+  confidence: high
+  asset: ok
+- vs_id: EX_BIGTROUBLER
+  vs_name: Troubler
+  ro_en: Chinese General (NPC)
+  ro_ptbr: General [trad]
+  ro_ref: npc/4_m_chngenerl
+  why: Big Trouble parody, lightning sorcery->Jupitel.
+  confidence: low
+  asset: ok
+- vs_id: SHEMOONITA
+  vs_name: She-Moon Eeta
+  ro_en: Moonlight Flower (NPC/mob)
+  ro_ptbr: Moonlight Flower
+  ro_ref: npc/4_moonlight
+  why: She-Moon -> moon fox lady; ice spear.
+  confidence: med
+  asset: ok
+- vs_id: EX_PARACOOLIO
+  vs_name: Coolio
+  ro_en: Doram Summoner (M)
+  ro_ptbr: Invocador [trad]
+  ro_ref: doram/body/male/summoner_male
+  why: Tuna weapons = Doram Tuna Party.
+  confidence: med
+  asset: ok
+- vs_id: SANTA
+  vs_name: Santa Ladonna
+  ro_en: Santa (M)
+  ro_ptbr: Papai Noel
+  ro_ref: body/male/santa_male
+  why: Santa Ladonna literal; Santa Javelin->Spear Boomerang.
+  confidence: high
+  asset: ok
+- vs_id: YOLO
+  vs_name: Gazebo
+  ro_en: Medusa (NPC/mob)
+  ro_ptbr: Medusa
+  ro_ref: npc/medusa
+  why: Gaze of Gaea defang = petrifying gaze.
+  confidence: med
+  asset: ok
+- vs_id: EX_CHULAREH
+  vs_name: Chula-Reh
+  ro_en: Rune Knight (M)
+  ro_ptbr: Cavaleiro Rúnico
+  ro_ref: body/male/rune_knight_male
+  why: Magi-Stones = rune stones.
+  confidence: med
+  asset: ok
+- vs_id: SPACEDUDE
+  vs_name: Space Dude
+  ro_en: Mechanic on Madogear (M)
+  ro_ptbr: Mecânico
+  ro_ref: body/male/magic_gear_male
+  why: Space sci-fi lasers -> Madogear arms.
+  confidence: high
+  asset: ok
+- vs_id: BATSBATSBATS
+  vs_name: Bats Bats
+  ro_en: Familiar (mob)
+  ro_ptbr: Familiar
+  ro_ref: npc/farmiliar
+  why: Bats literal; Mazzo Familiar name match.
+  confidence: high
+  asset: ok
+- vs_id: ROSE
+  vs_name: Rose De Infernas
+  ro_en: Bathory (NPC/mob)
+  ro_ptbr: Bathory
+  ro_ref: npc/bathory
+  why: Rose De Infernas, infernal witch-queen.
+  confidence: low
+  asset: ok
+- vs_id: TORINO
+  vs_name: Torino
+  ro_en: Bull (NPC)
+  ro_ptbr: Touro [trad]
+  ro_ref: npc/4_bull
+  why: Torino/JoyaTauro = bull.
+  confidence: high
+  asset: ok
+- vs_id: SCOREJ
+  vs_name: Scorej-Oni
+  ro_en: Dokebi (NPC/mob)
+  ro_ptbr: Dokebi
+  ro_ref: npc/dokebi
+  why: Oni -> Korean goblin; hidden lightning.
+  confidence: med
+  asset: ok
+- vs_id: GYORUNTIN
+  vs_name: Gyoruntin
+  ro_en: Petite (NPC/mob)
+  ro_ptbr: Petite
+  ro_ref: npc/petit
+  why: Small dragon kin of Gyorunton.
+  confidence: med
+  asset: ok
+- vs_id: EX_GIOCARE
+  vs_name: Secretino
+  ro_en: Masked Man (NPC)
+  ro_ptbr: Mascarado [trad]
+  ro_ref: npc/4_m_maskman
+  why: Secretino = secret identity.
+  confidence: low
+  asset: ok
+- vs_id: SPACEDUDETTE
+  vs_name: Space Dette
+  ro_en: Mechanic on Madogear (F)
+  ro_ptbr: Mecânica
+  ro_ref: body/female/magic_gear_female
+  why: Female counterpart of Space Dude.
+  confidence: high
+  asset: ok
+- vs_id: FOLLOWER_BATSBATSBATS
+  vs_name: Bats Bats
+  ro_en: (group)
+  ro_ptbr: (grupo)
+  ro_ref: parent BATSBATSBATS
+  why: Helper/follower id; grouped with parent.
+  confidence: high
+  asset: see parent
+  parent: BATSBATSBATS
+- vs_id: FOLLOWER_MOONRABBIT
+  vs_name: Rabbit
+  ro_en: Lunatic (follower)
+  ro_ptbr: Lunatic
+  ro_ref: npc/4_lunatic
+  why: Helper/follower id; grouped with parent.
+  confidence: high
+  asset: see parent
+  parent: SPACEDUDE
+- vs_id: FOLLOWER_MOONDUCK
+  vs_name: Duck
+  ro_en: Duckling (follower)
+  ro_ptbr: Patinho [trad]
+  ro_ref: npc/duckling
+  why: Helper/follower id; grouped with parent.
+  confidence: high
+  asset: see parent
+  parent: SPACEDUDE
+- vs_id: FOLLOWER_ENEMY
+  vs_name: Thrall
+  ro_en: (group)
+  ro_ptbr: (grupo)
+  ro_ref: parent (generic thrall; reuse enemy sprite)
+  why: Helper/follower id; grouped with parent.
+  confidence: high
+  asset: see parent
+  parent: (generic thrall; reuse enemy sprite)
+- vs_id: FS_FOLLOWER_HILLTROW
+  vs_name: ''
+  ro_en: (group)
+  ro_ptbr: (grupo)
+  ro_ref: parent (follower; reuse enemy sprite)
+  why: Helper/follower id; grouped with parent.
+  confidence: high
+  asset: see parent
+  parent: (follower; reuse enemy sprite)
+- vs_id: FS_FOLLOWER_BROWNIE
+  vs_name: ''
+  ro_en: (group)
+  ro_ptbr: (grupo)
+  ro_ref: parent (follower; reuse enemy sprite)
+  why: Helper/follower id; grouped with parent.
+  confidence: high
+  asset: see parent
+  parent: (follower; reuse enemy sprite)
+- vs_id: FOLLOWER_SOB1
+  vs_name: Red Death
+  ro_en: (group)
+  ro_ptbr: (grupo)
+  ro_ref: parent NOSTRO
+  why: Helper/follower id; grouped with parent.
+  confidence: high
+  asset: see parent
+  parent: NOSTRO
+- vs_id: FOLLOWER_SOB2
+  vs_name: Red Death
+  ro_en: (group)
+  ro_ptbr: (grupo)
+  ro_ref: parent NOSTRO
+  why: Helper/follower id; grouped with parent.
+  confidence: high
+  asset: see parent
+  parent: NOSTRO
+- vs_id: FOLLOWER_SOB3
+  vs_name: Red Death
+  ro_en: (group)
+  ro_ptbr: (grupo)
+  ro_ref: parent NOSTRO
+  why: Helper/follower id; grouped with parent.
+  confidence: high
+  asset: see parent
+  parent: NOSTRO
+- vs_id: FOLLOWER_SOB4
+  vs_name: Red Death
+  ro_en: (group)
+  ro_ptbr: (grupo)
+  ro_ref: parent NOSTRO
+  why: Helper/follower id; grouped with parent.
+  confidence: high
+  asset: see parent
+  parent: NOSTRO
+- vs_id: FOLLOWER_SOB5
+  vs_name: Red Death
+  ro_en: (group)
+  ro_ptbr: (grupo)
+  ro_ref: parent NOSTRO
+  why: Helper/follower id; grouped with parent.
+  confidence: high
+  asset: see parent
+  parent: NOSTRO
+- vs_id: FOLLOWER_SOB6
+  vs_name: Red Death
+  ro_en: (group)
+  ro_ptbr: (grupo)
+  ro_ref: parent NOSTRO
+  why: Helper/follower id; grouped with parent.
+  confidence: high
+  asset: see parent
+  parent: NOSTRO
+weapons:
+- vs_id: WHIP
+  vs_name: Whip
+  ro_en: Whip
+  ro_ptbr: Chicote
+  ro_ref: item 1960 Whip (휩)
+  why: 'Zero: whip é whip (arma de Dancer) (revisão 16/10: arma do VS → arma do RO)'
+  confidence: med
+  asset: 'missing: hand-made slash from knife sprite'
+  # CAST.md (2026-10-16): unlock path = RO job change
+- vs_id: VAMPIRICA
+  vs_name: Bloody Tear
+  ro_en: Rapture Rose
+  ro_ptbr: Rosa Arrebatadora
+  ro_ref: item 1963 Rapture Rose (랩쳐로즈)
+  why: 'evolução do chicote: chicote de rosa vermelha (revisão 16/10: arma do VS → arma do RO)'
+  confidence: med
+  asset: 'missing: client-hardcoded hit; fallback sword.str/hit.str'
+  # CAST.md (2026-10-16): unlock path = RO job change
+- vs_id: MAGIC_MISSILE
+  vs_name: Magic Wand
+  ro_en: Staff
+  ro_ptbr: Cajado
+  ro_ref: item 1607 Staff (스태프)
+  why: 'Zero: magic wand é o Staff (revisão 16/10: arma do VS → arma do RO)'
+  confidence: high
+  asset: 'missing: hardcoded; candidate sprite effect/soule (verify)'
+- vs_id: HOLY_MISSILE
+  vs_name: Holy Wand
+  ro_en: Mighty Staff
+  ro_ptbr: Cajado Poderoso
+  ro_ref: item 1613 Mighty Staff (마이트스태프)
+  why: 'Zero: holy wand vira um staff mais forte (revisão 16/10: arma do VS → arma do RO)'
+  confidence: med
+  asset: 'missing: hardcoded; fallback soul_explosion sprite'
+- vs_id: KNIFE
+  vs_name: Knife
+  ro_en: Knife
+  ro_ptbr: Faca
+  ro_ref: item 1201 Knife (나이프)
+  why: 'faca é faca (revisão 16/10: arma do VS → arma do RO)'
+  confidence: high
+  asset: 'missing: arrow projectile from item arrow sprite; fallback arrowshot.str'
+- vs_id: THOUSAND
+  vs_name: Thousand Edge
+  ro_en: Shuriken
+  ro_ptbr: Shuriken
+  ro_ref: item 13250 Shuriken (수리검)
+  why: 'chuva de lâminas arremessadas (revisão 16/10: arma do VS → arma do RO)'
+  confidence: med
+  asset: 'missing: fallback arrowshot.str'
+- vs_id: AXE
+  vs_name: Axe
+  ro_en: Two-Handed Axe
+  ro_ptbr: Machado de Duas Mãos
+  ro_ref: item 1360 Two-Handed Axe (투핸드액스)
+  why: 'Zero: machado de duas mãos (revisão 16/10: arma do VS → arma do RO)'
+  confidence: med
+  asset: 'ok: effect/동전 (coins)'
+- vs_id: SCYTHE
+  vs_name: Death Spiral
+  ro_en: Crescent Scythe
+  ro_ptbr: Foice Crescente
+  ro_ref: item 1466 Crescent Scythe (크레센트사이더)
+  why: 'Zero: foice que também tem no RO (revisão 16/10: arma do VS → arma do RO)'
+  confidence: med
+  asset: 'missing: fallback cartrevolution.str'
+- vs_id: CROSS
+  vs_name: Cross
+  ro_en: Holy Guard
+  ro_ptbr: Guarda Sagrada
+  ro_ref: item 2110 Holy Guard (홀리 가드)
+  why: 'o RO não tem cruz-arma: escudo que o Cruzado arremessa (revisão 16/10: arma do VS → arma do RO)'
+  confidence: high
+  asset: 'ok: shield sprite as projectile'
+- vs_id: HEAVENSWORD
+  vs_name: Heaven Sword
+  ro_en: Holy Avenger
+  ro_ptbr: Vingadora Sagrada
+  ro_ref: item 1145 Holy Avenger (홀리 어벤져)
+  why: 'Zero: Holy Avenger (revisão 16/10: arma do VS → arma do RO)'
+  confidence: med
+  asset: 'str: cross.str / holy_cross.str'
+- vs_id: HOLYBOOK
+  vs_name: King Bible
+  ro_en: Hardcover Book
+  ro_ptbr: Livro de Capa Dura
+  ro_ref: 'item 1561 Hardback'
+  why: 'Zero 16/10: Hardcover Book (1561); efeito orbitando do VS'
+  confidence: high
+  asset: 'missing: hardcoded orbs; fallback particle sprites'
+- vs_id: VESPERS
+  vs_name: Unholy Vespers
+  ro_en: Apocalypse
+  ro_ptbr: Apocalipse
+  ro_ref: item 1557 Apocalypse (묵시록)
+  why: 'evolução do livro (revisão 16/10: arma do VS → arma do RO)'
+  confidence: low
+  asset: 'missing: fallback particle sprites'
+- vs_id: FIREBALL
+  vs_name: Fire Wand
+  ro_en: Fire Ball
+  ro_ptbr: Bola de Fogo
+  ro_ref: skill MG_FIREBALL
+  why: Heavy fireball at random enemy.
+  confidence: high
+  asset: 'ok: effect/fireball'
+- vs_id: HELLFIRE
+  vs_name: Hellfire
+  ro_en: Crimson Rock
+  ro_ptbr: Rocha Carmesim [trad]
+  ro_ref: skill WL_CRIMSONROCK
+  why: Giant fireball plowing through enemies.
+  confidence: med
+  asset: 'str: crimson_r.str'
+- vs_id: GARLIC
+  vs_name: Garlic
+  ro_en: Magnum Break
+  ro_ptbr: Impacto Explosivo
+  ro_ref: skill SM_MAGNUM
+  why: Fire burst around caster, knockback.
+  confidence: high
+  asset: 'missing: hardcoded; fallback firehit.str'
+- vs_id: VORTEX
+  vs_name: Soul Eater
+  ro_en: Ignition Break
+  ro_ptbr: Ruptura Ignea [trad]
+  ro_ref: skill RK_IGNITIONBREAK
+  why: Rune Knight evolution of Magnum Break aura.
+  confidence: high
+  asset: 'str: 이그니션브레이크.str'
+- vs_id: HOLYWATER
+  vs_name: Santa Water
+  ro_en: Bottle Grenade
+  ro_ptbr: Fogo Grego
+  ro_ref: 'item 7135 Bottle_Grenade'
+  why: 'Zero 16/10: fogo grego (frasco incendiário do Alquimista) no lugar da poção azul'
+  confidence: high
+  asset: 'str: sanctuary.str'
+- vs_id: BORA
+  vs_name: La Borra
+  ro_en: Basilica
+  ro_ptbr: Basílica
+  ro_ref: skill HP_BASILICA
+  why: Big holy zone centred on caster, follows you.
+  confidence: med
+  asset: 'missing: fallback sanctuary.str'
+- vs_id: DIAMOND
+  vs_name: Runetracer
+  ro_en: Holy Light
+  ro_ptbr: Luz Divina
+  ro_ref: skill AL_HOLYLIGHT
+  why: Light bolt piercing and bouncing.
+  confidence: med
+  asset: 'missing: hardcoded; fallback holyhit.str'
+- vs_id: ROCHER
+  vs_name: NO FUTURE
+  ro_en: Adoramus
+  ro_ptbr: Adoramus
+  ro_ref: skill AB_ADORAMUS
+  why: Arch Bishop holy blast, exploding light.
+  confidence: low
+  asset: 'missing: fallback holyhit.str'
+- vs_id: LIGHTNING
+  vs_name: Lightning Ring
+  ro_en: Thunderstorm
+  ro_ptbr: Tempestade de Raios
+  ro_ref: skill MG_THUNDERSTORM
+  why: Random lightning strikes in area.
+  confidence: high
+  asset: 'ok: effect/썬더스톰 + thunderstorm.str'
+- vs_id: LOOP
+  vs_name: Thunder Loop
+  ro_en: Lord of Vermilion
+  ro_ptbr: Ira de Thor
+  ro_ref: skill WZ_VERMILION
+  why: Massive repeated lightning; strikes twice.
+  confidence: high
+  asset: 'missing: hardcoded; fallback effect/item_thunder + lightning.str'
+- vs_id: PENTAGRAM
+  vs_name: Pentagram
+  ro_en: Magnus Exorcismus
+  ro_ptbr: Magnus Exorcismus
+  ro_ref: skill PR_MAGNUS
+  why: Huge holy cross wipes the screen.
+  confidence: med
+  asset: 'str: magnus.str'
+- vs_id: SIRE
+  vs_name: Gorgeous Moon
+  ro_en: Judex
+  ro_ptbr: Judex
+  ro_ref: skill AB_JUDEX
+  why: Arch Bishop judgment upgrade.
+  confidence: low
+  asset: 'missing: fallback holyhit.str'
+- vs_id: SILF
+  vs_name: Peachone
+  ro_en: Blitz Beat
+  ro_ptbr: Ataque do Falcão
+  ro_ref: skill HT_BLITZBEAT
+  why: White falcon dives around you.
+  confidence: high
+  asset: 'ok: effect/매, soul_falcon'
+- vs_id: SILF2
+  vs_name: Ebony Wings
+  ro_en: Dark Crow
+  ro_ptbr: Corvo Negro [trad]
+  ro_ref: skill GC_DARKCROW
+  why: Black crows = Ebony Wings.
+  confidence: high
+  asset: 'str: gc_darkcrow.str'
+- vs_id: SILF3
+  vs_name: Vandalier
+  ro_en: Falcon Assault
+  ro_ptbr: Assalto do Falcão [trad]
+  ro_ref: skill SN_FALCONASSAULT
+  why: Union bird ultimate.
+  confidence: med
+  asset: 'ok: effect/매, soul_falcon'
+- vs_id: GUNS
+  vs_name: Phiera Der Tuphello
+  ro_en: Six Shooter
+  ro_ptbr: Six Shooter
+  ro_ref: item 13100 Six Shooter (식스 슈터)
+  why: 'pistola = revólver do Gunslinger (revisão 16/10: arma do VS → arma do RO)'
+  confidence: high
+  asset: 'ok: effect/트리플액션'
+- vs_id: GUNS2
+  vs_name: Eight The Sparrow
+  ro_en: Crimson Bolt
+  ro_ptbr: Crimson Bolt
+  ro_ref: item 13102 Crimson Bolt (크림즌 볼트)
+  why: 'pistola = revólver do Gunslinger (revisão 16/10: arma do VS → arma do RO)'
+  confidence: high
+  asset: 'ok: effect/래피드샤워'
+- vs_id: GUNS3
+  vs_name: Phieraggi
+  ro_en: The Cyclone
+  ro_ptbr: The Cyclone
+  ro_ref: item 13151 The Cyclone (더 사이클론)
+  why: 'união das pistolas = gatling do Gunslinger (revisão 16/10: arma do VS → arma do RO)'
+  confidence: high
+  asset: 'ok: effect/데스페라도'
+- vs_id: GATTI
+  vs_name: Gatti Amari
+  ro_en: Caprice (Vanilmirth)
+  ro_ptbr: Capricho [trad]
+  ro_ref: skill HVAN_CAPRICE
+  why: Literally "capricious" random homunculus bolts.
+  confidence: med
+  asset: 'missing: bolt fx hardcoded; vanilmirth sprite ok'
+- vs_id: STIGRANGATTI
+  vs_name: Vicious Hunger
+  ro_en: Change Material
+  ro_ptbr: Mudar Material [trad]
+  ro_ref: skill GN_CHANGEMATERIAL
+  why: Transmutes anything = turns things to gold.
+  confidence: low
+  asset: 'str: changematerial_su.str'
+- vs_id: SONG
+  vs_name: Song of Mana
+  ro_en: Severe Rainstorm
+  ro_ptbr: Tempestade Severa [trad]
+  ro_ref: skill WM_SEVERE_RAINSTORM
+  why: Vertical rain columns from singer class.
+  confidence: med
+  asset: 'missing: fallback arrowstorm.str'
+- vs_id: MANNAGGIA
+  vs_name: Mannajja
+  ro_en: Please Don't Forget Me
+  ro_ptbr: Não Me Esqueça [trad]
+  ro_ref: skill DC_DONTFORGETME
+  why: Dance that slows enemies.
+  confidence: med
+  asset: 'missing: fallback note_1.str'
+- vs_id: TRAPANO
+  vs_name: Shadow Pinion
+  ro_en: Venom Dust
+  ro_ptbr: Névoa Venenosa [trad]
+  ro_ref: skill AS_VENOMDUST
+  why: Leaves poison zones along the path; Thief line.
+  confidence: med
+  asset: 'missing: fallback effect poison cloud'
+  # CAST.md (2026-10-16): unlock path = RO job change
+- vs_id: TRAPANO2
+  vs_name: Valkyrie Turner
+  ro_en: Venom Splasher
+  ro_ptbr: Explosão Tóxica [trad]
+  ro_ref: skill AS_SPLASHER
+  why: Stronger Thief-line poison burst.
+  confidence: low
+  asset: 'missing: fallback effect'
+  # CAST.md (2026-10-16): unlock path = RO job change
+- vs_id: LANCET
+  vs_name: Clock Lancet
+  ro_en: Frost Diver
+  ro_ptbr: Rajada Congelante
+  ro_ref: skill MG_FROSTDIVER
+  why: Beam that freezes enemies.
+  confidence: high
+  asset: 'missing: hardcoded; fallback freezing.str'
+- vs_id: CORRIDOR
+  vs_name: Infinite Corridor
+  ro_en: Storm Gust
+  ro_ptbr: Nevasca
+  ro_ref: skill WZ_STORMGUST
+  why: Mass freeze, devastating upgrade.
+  confidence: med
+  asset: 'str: stormgust.str'
+- vs_id: LAUREL
+  vs_name: Laurel
+  ro_en: Kyrie Eleison
+  ro_ptbr: Kyrie Eleison
+  ro_ref: skill PR_KYRIE
+  why: Barrier that blocks hits.
+  confidence: high
+  asset: 'str: kyrie.str'
+- vs_id: SHROUD
+  vs_name: Crimson Shroud
+  ro_en: Assumptio
+  ro_ptbr: Assumptio
+  ro_ref: skill HP_ASSUMPTIO
+  why: Caps/halves incoming damage.
+  confidence: med
+  asset: 'missing: fallback kyrie.str'
+- vs_id: VENTO
+  vs_name: Vento Sacro
+  ro_en: Jur
+  ro_ptbr: Jur
+  ro_ref: 'item 1250 Jur (쥬르)'
+  why: 'Zero: vento = katar, a Jur (revisão 16/10)'
+  confidence: med
+  asset: 'str: sonicblow.str'
+- vs_id: VENTO2
+  vs_name: Fuwalafuwaloo
+  ro_en: Infiltrator
+  ro_ptbr: Infiltrador
+  ro_ref: 'item 1261 Infiltrator (등 뒤를 베는자)'
+  why: 'evolução do katar (revisão 16/10)'
+  confidence: med
+  asset: 'missing: fallback sui_explosion.str'
+- vs_id: BONE
+  vs_name: Bone
+  ro_en: Throw Stone (Skel-Bone)
+  ro_ptbr: Atirar Pedra (osso)
+  ro_ref: skill TF_THROWSTONE + item 932 Skel-Bone art
+  why: Bouncing thrown bone.
+  confidence: low
+  asset: 'missing: bone drop sprite to check; fallback effect/spear'
+- vs_id: BONE2
+  vs_name: Anima of Mortaccio
+  ro_en: Hell Judgement
+  ro_ptbr: Julgamento Infernal [trad]
+  ro_ref: skill NPC_HELLJUDGEMENT
+  why: Undead monster burst, special-only.
+  confidence: low
+  asset: 'missing: fallback darkbreath sprite'
+- vs_id: CHERRY
+  vs_name: Cherry Bomb
+  ro_en: Demonstration (Bomb)
+  ro_ptbr: 'Fogo Grego? [trad: Demonstração]'
+  ro_ref: skill AM_DEMONSTRATION
+  why: Thrown fire bottle explodes.
+  confidence: med
+  asset: 'ok: item sprite 화염병제조책-family; fx missing'
+- vs_id: CHERRY2
+  vs_name: Yatta Daikarin
+  ro_en: Acid Demonstration
+  ro_ptbr: Bomba Ácida [trad]
+  ro_ref: skill CR_ACIDDEMONSTRATION
+  why: Bigger bomb explosions.
+  confidence: med
+  asset: 'missing: fallback sui_explosion.str'
+- vs_id: CART2
+  vs_name: Carréllo
+  ro_en: Cart Revolution
+  ro_ptbr: Carrinho Revolução [trad]
+  ro_ref: skill MC_CARTREVOLUTION
+  why: Cart smashes and bounces.
+  confidence: high
+  asset: 'str: cartrevolution.str + effect/손수레'
+- vs_id: CART2EVO
+  vs_name: Carozza!
+  ro_en: Cart Cannon
+  ro_ptbr: Canhão de Carrinho [trad]
+  ro_ref: skill GN_CARTCANNON
+  why: Genetic cart ultimate.
+  confidence: med
+  asset: 'ok: effect/마도카트, 손수레'
+- vs_id: FLOWER
+  vs_name: Celestial Dusting
+  ro_en: Falling Star
+  ro_ptbr: Estrela Cadente [trad]
+  ro_ref: skill SJ_FALLINGSTAR
+  why: Celestial dusting = falling stars.
+  confidence: med
+  asset: 'missing: fallback superstar.str / moonstar.str'
+- vs_id: FLOWER2
+  vs_name: Profusione D'Amore
+  ro_en: Solar Burst
+  ro_ptbr: Explosão Solar [trad]
+  ro_ref: skill SJ_SOLARBURST
+  why: Chain solar explosions.
+  confidence: med
+  asset: 'missing: fallback firehit.str'
+- vs_id: ROBBA
+  vs_name: La Robba
+  ro_en: Potion Pitcher
+  ro_ptbr: Arremessar Poção [trad]
+  ro_ref: skill AM_POTIONPITCHER
+  why: Bouncing thrown bottles = random stuff.
+  confidence: low
+  asset: 'ok: potion item sprites'
+- vs_id: JUBILEE
+  vs_name: Greatest Jubilee
+  ro_en: Pyrotechnics
+  ro_ptbr: Pirotecnia
+  ro_ref: 'effect 파이로테크닉 (magia); ícone item 12018 Firecracker'
+  why: 'fogos pela tela = pirotecnia (revisão 16/10)'
+  confidence: med
+  asset: 'ok: effect/폭죽_*, item 폭죽'
+- vs_id: TRIASSO1
+  vs_name: Bracelet
+  ro_en: Cold Bolt
+  ro_ptbr: Lanças de Gelo
+  ro_ref: skill MG_COLDBOLT
+  why: Three bolts at random enemy (lv3).
+  confidence: med
+  asset: 'missing: hardcoded; fallback icecrash.str'
+- vs_id: TRIASSO2
+  vs_name: Bi-Bracelet
+  ro_en: Fire Bolt
+  ro_ptbr: Lanças de Fogo
+  ro_ref: skill MG_FIREBOLT
+  why: Second bracelet = second element.
+  confidence: med
+  asset: 'missing: hardcoded; fallback firehit.str'
+- vs_id: TRIASSO3
+  vs_name: Tri-Bracelet
+  ro_en: Lightning Bolt
+  ro_ptbr: Relâmpago
+  ro_ref: skill MG_LIGHTNINGBOLT
+  why: Third bracelet = third element.
+  confidence: med
+  asset: 'missing: hardcoded; fallback lightning.str'
+- vs_id: CANDYBOX
+  vs_name: Candybox
+  ro_en: Abracadabra
+  ro_ptbr: Abracadabra
+  ro_ref: skill SA_ABRACADABRA
+  why: Random pick of any skill.
+  confidence: high
+  asset: 'missing: fallback item 물음표상자'
+- vs_id: CANDYBOX2
+  vs_name: Super Candybox II Turbo
+  ro_en: Improvised Song
+  ro_ptbr: Canção Improvisada [trad]
+  ro_ref: skill WM_RANDOMIZESPELL
+  why: Advanced random skill.
+  confidence: low
+  asset: 'missing: fallback note_1.str'
+- vs_id: BATTILIA
+  vs_name: Pako Battilia
+  ro_en: Summon Familiars
+  ro_ptbr: Invocar Familiares [trad]
+  ro_ref: skill NPC_SUMMONSLAVE (Familiar)
+  why: Bats fly out when hurt.
+  confidence: high
+  asset: 'ok: effect/박쥐, mob farmiliar'
+- vs_id: BATTILIA2
+  vs_name: Mazzo Familiar
+  ro_en: Blood Drain
+  ro_ptbr: Dreno de Sangue [trad]
+  ro_ref: skill NPC_BLOODDRAIN
+  why: Dracula bat swarm scaling with HP.
+  confidence: med
+  asset: 'ok: effect/박쥐'
+- vs_id: EX_AMMO1
+  vs_name: Ammo Appalate
+  ro_en: Fire Dance
+  ro_ptbr: Dança do Fogo [trad]
+  ro_ref: skill RL_FIREDANCE
+  why: Gun volley at random enemy ahead.
+  confidence: high
+  asset: 'missing: fallback effect/래피드샤워'
+- vs_id: EX_AMMO2
+  vs_name: Gunastrophe
+  ro_en: Fire Rain
+  ro_ptbr: Chuva de Fogo [trad]
+  ro_ref: skill RL_FIRE_RAIN
+  why: Bullets across the screen.
+  confidence: high
+  asset: 'missing: fallback effect/데스페라도'
+- vs_id: EX_FLIK1
+  vs_name: Unearthly Bolt
+  ro_en: Jupitel Thunder
+  ro_ptbr: Trovão de Júpiter
+  ro_ref: skill WZ_JUPITEL
+  why: Lightning bolt, crit zones.
+  confidence: med
+  asset: 'missing: hardcoded; fallback lightning.str'
+- vs_id: EX_FLIK2
+  vs_name: Spirit Disturbance
+  ro_en: Chain Lightning
+  ro_ptbr: Corrente de Raios [trad]
+  ro_ref: skill WL_CHAINLIGHTNING
+  why: Always-crit chained lightning.
+  confidence: med
+  asset: 'str: chainlight.str'
+- vs_id: VICTORY
+  vs_name: Victory Sword
+  ro_en: Auto Counter
+  ro_ptbr: Contra-Ataque
+  ro_ref: skill KN_AUTOCOUNTER
+  why: Combo at nearest + retaliation.
+  confidence: med
+  asset: 'str: autocounter.str'
+- vs_id: SOLES
+  vs_name: Sole Solution
+  ro_en: Berserk (Frenzy)
+  ro_ptbr: Frenesi [trad]
+  ro_ref: skill LK_BERSERK
+  why: Grows stronger as fight rages.
+  confidence: med
+  asset: 'str: 버서크.str'
+- vs_id: MISSPELL
+  vs_name: Flames of Misspell
+  ro_en: Dragon Breath
+  ro_ptbr: Sopro do Dragão [trad]
+  ro_ref: skill RK_DRAGONBREATH
+  why: Cone of flames.
+  confidence: high
+  asset: 'ok: effect/rk_dragonbreath_water (recolor to fire)'
+- vs_id: MISSPELL2
+  vs_name: Ashes of Muspell
+  ro_en: Hell Inferno
+  ro_ptbr: Inferno [trad]
+  ro_ref: skill WL_HELLINFERNO
+  why: Muspell = fire realm, hellfire.
+  confidence: med
+  asset: 'str: hell_in.str'
+- vs_id: ICELANCE
+  vs_name: Glass Fandango
+  ro_en: Freezing Spear
+  ro_ptbr: Lança Congelante [trad]
+  ro_ref: skill KO_ (Freezing Spear)
+  why: Ice lance thrown, freezes.
+  confidence: med
+  asset: 'ok: effect/프리징스피어'
+- vs_id: ICELANCE2
+  vs_name: Celestial Voulge
+  ro_en: Diamond Dust
+  ro_ptbr: Pó de Diamante [trad]
+  ro_ref: skill SO_DIAMONDDUST
+  why: Big freezing ice upgrade.
+  confidence: med
+  asset: 'missing: fallback ice_status_crash.str'
+- vs_id: EX_PENSHIN
+  vs_name: Penshin Facha
+  ro_en: Tuna Party
+  ro_ptbr: Festa do Atum [trad]
+  ro_ref: skill SU_TUNAPARTY
+  why: Tuna weapons = Doram Tuna.
+  confidence: high
+  asset: 'ok: effect/su_tunaparty'
+- vs_id: EX_PENSHIN_SELECTOR_EVO
+  vs_name: Penshin Facha
+  ro_en: Tuna Party (evo selector)
+  ro_ptbr: Festa do Atum
+  ro_ref: -> EX_PENSHIN
+  why: Helper id; points to parent.
+  confidence: high
+  asset: ok
+- vs_id: EX_PENSHIN_EVO1
+  vs_name: Tonne
+  ro_en: Tuna Belly
+  ro_ptbr: Barriga de Atum [trad]
+  ro_ref: skill SU_TUNABELLY
+  why: Tonne = tuna.
+  confidence: med
+  asset: 'missing: fallback su_tunaparty'
+- vs_id: EX_PENSHIN_EVO2
+  vs_name: Tonnado
+  ro_en: Catnip Meteor
+  ro_ptbr: Meteoro de Erva-de-gato [trad]
+  ro_ref: skill SU_CN_METEOR
+  why: Tonnado = big falling tuna.
+  confidence: med
+  asset: 'ok: effect/su_cn_meteor'
+- vs_id: EX_PENSHIN_EVO3
+  vs_name: Tonn'omoto
+  ro_en: Lunatic Carrot Beat
+  ro_ptbr: Batida de Cenoura [trad]
+  ro_ref: skill SU_LUNATICCARROTBEAT
+  why: Doram variant.
+  confidence: low
+  asset: 'ok: effect/su_lunaticcarrotbeat'
+- vs_id: EX_PENSHIN_EVO4
+  vs_name: Tonn'oddeo
+  ro_en: Silvervine Root Twist
+  ro_ptbr: Raiz Retorcida [trad]
+  ro_ref: skill SU_SV_ROOTTWIST
+  why: Doram variant.
+  confidence: low
+  asset: 'ok: effect/su_sv_roottwist'
+- vs_id: EX_PENSHIN_EVO6
+  vs_name: Unsurpassed
+  ro_en: Spirit of Marble
+  ro_ptbr: Bola Espiritual [trad]
+  ro_ref: skill SU_SPRITEMABLE
+  why: Doram variant.
+  confidence: low
+  asset: 'ok: effect/su_spritemable'
+- vs_id: EX_PENSHIN_EVO7
+  vs_name: Tonno Subito
+  ro_en: Silvervine Stem Spear
+  ro_ptbr: Lança de Caule [trad]
+  ro_ref: skill SU_SV_STEMSPEAR
+  why: Doram variant.
+  confidence: low
+  asset: 'ok: effect/sv_stemspear'
+- vs_id: EX_PENSHIN_UNION
+  vs_name: Miracle of Multiplication
+  ro_en: Tuna Party (union)
+  ro_ptbr: Festa do Atum Suprema [trad]
+  ro_ref: skill SU_TUNAPARTY (max)
+  why: Union of all tuna.
+  confidence: low
+  asset: 'ok: effect/su_tunaparty'
+- vs_id: SANTAJAVELIN
+  vs_name: Santa Javelin
+  ro_en: Spear Boomerang
+  ro_ptbr: Lança Bumerangue
+  ro_ref: skill KN_SPEARBOOMERANG
+  why: Thrown javelin, crit.
+  confidence: high
+  asset: 'str: spearboomerang.str'
+- vs_id: SANTAJAVELIN2
+  vs_name: Seraphic Cry
+  ro_en: Hundred Spear
+  ro_ptbr: Cem Lanças [trad]
+  ro_ref: skill RK_HUNDREDSPEAR
+  why: Javelin barrage upgrade.
+  confidence: high
+  asset: 'ok: effect/헌드레드스피어'
+- vs_id: EX_GAEA1
+  vs_name: Gaze of Gaea
+  ro_en: Stone Curse
+  ro_ptbr: Petrificar
+  ro_ref: skill MG_STONECURSE
+  why: Gaze that disables (defang).
+  confidence: high
+  asset: 'str: stonecurse.str'
+- vs_id: EX_GAEA2
+  vs_name: Embrace of Gaea
+  ro_en: Earthquake
+  ro_ptbr: Terremoto [trad]
+  ro_ref: skill NPC_EARTHQUAKE
+  why: Gaea earth retaliation.
+  confidence: med
+  asset: 'ok: effect/어스퀘이크'
+- vs_id: EX_MAGISTONE1
+  vs_name: Magi-Stones
+  ro_en: Rune Stone (Rune Mastery)
+  ro_ptbr: Pedra Rúnica [trad]
+  ro_ref: skill RK_RUNEMASTERY
+  why: Magi-stones = rune stones, level-scaled.
+  confidence: med
+  asset: 'str: rune_success.str'
+- vs_id: EX_MAGISTONE2
+  vs_name: Kyra-Stones
+  ro_en: Lux Anima
+  ro_ptbr: Lux Anima
+  ro_ref: skill RK_LUXANIMA
+  why: Rune Knight ultimate rune.
+  confidence: med
+  asset: 'str: rk_luxanima.str'
+- vs_id: PHASER
+  vs_name: Phas3r
+  ro_en: Vulcan Arm
+  ro_ptbr: Braço Vulcano [trad]
+  ro_ref: skill NC_VULCANARM
+  why: Madogear laser-ish rapid shots.
+  confidence: med
+  asset: 'missing: fallback effect/매지컬불릿'
+- vs_id: PHASER2
+  vs_name: Photonstorm
+  ro_en: Arm Cannon
+  ro_ptbr: Canhão de Braço [trad]
+  ro_ref: skill NC_ARMSCANNON
+  why: Madogear cannon storm.
+  confidence: med
+  asset: 'missing: fallback sui_explosion.str'
+- vs_id: FOLLOWER_KNIFE1
+  vs_name: Grant Knife
+  ro_en: Double Strafe (follower)
+  ro_ptbr: Rajada de Flechas
+  ro_ref: -> KNIFE
+  why: Follower copy of Knife.
+  confidence: high
+  asset: see KNIFE
+- vs_id: FOLLOWER_KNIFE2
+  vs_name: .
+  ro_en: Sharp Shooting (follower)
+  ro_ptbr: Tiro Preciso
+  ro_ref: -> THOUSAND
+  why: Follower evo copy.
+  confidence: high
+  asset: see THOUSAND
+- vs_id: ARMADIO
+  vs_name: Arma Dio
+  ro_en: Old Purple Box
+  ro_ptbr: Caixa Roxa Antiga
+  ro_ref: 'item 617 Old_Violet_Box (Old Purple Box)'
+  why: 'Zero: armadio = OPB (arma aleatória) (revisão 16/10)'
+  confidence: med
+  asset: 'ok: item sprite 낡은카드첩'
+- vs_id: NDUJA
+  vs_name: Nduja Fritta
+  ro_en: Fire Wall
+  ro_ptbr: Barreira de Fogo
+  ro_ref: 'skill MG_FIREWALL'
+  why: 'rastro de fogo = barreira de fogo (revisão 16/10)'
+  confidence: med
+  asset: 'ok: effect/칠리에어'
+- vs_id: NDUJA_COUNTER
+  vs_name: Nduja Fritta
+  ro_en: Chili Air (counter)
+  ro_ptbr: Ar Picante
+  ro_ref: -> NDUJA
+  why: Helper id.
+  confidence: high
+  asset: see NDUJA
+- vs_id: CONEOFCOLD
+  vs_name: Sorbetto
+  ro_en: Frost Misty
+  ro_ptbr: Névoa Gelada [trad]
+  ro_ref: skill WL_FROSTMISTY
+  why: Cone of cold.
+  confidence: med
+  asset: 'missing: fallback freezing.str'
+- vs_id: CONEOFCOLD_COUNTER
+  vs_name: Sorbetto
+  ro_en: Frost Misty (counter)
+  ro_ptbr: Névoa Gelada
+  ro_ref: -> CONEOFCOLD
+  why: Helper id.
+  confidence: high
+  asset: see CONEOFCOLD
+- vs_id: FLOOD
+  vs_name: Acquazzone
+  ro_en: Water Ball
+  ro_ptbr: Esfera d'Água [trad]
+  ro_ref: skill WZ_WATERBALL
+  why: Downpour of water.
+  confidence: med
+  asset: 'ok: effect/waterball'
+- vs_id: CART
+  vs_name: Dairy Cart
+  ro_en: Cart Termination
+  ro_ptbr: Terminação de Carrinho [trad]
+  ro_ref: skill WS_CARTTERMINATION
+  why: Dairy cart hazard rolls through.
+  confidence: med
+  asset: 'ok: effect/손수레'
+- vs_id: TRAINHAZARD
+  vs_name: Take Us Away
+  ro_en: Cart Termination (train)
+  ro_ptbr: Terminação de Carrinho
+  ro_ref: skill WS_CARTTERMINATION
+  why: Train hazard = giant cart.
+  confidence: low
+  asset: 'ok: effect/포링카트'
+- vs_id: SARABANDE
+  vs_name: Sarabande of Healing
+  ro_en: Heal
+  ro_ptbr: Curar
+  ro_ref: skill AL_HEAL
+  why: Healing hymn.
+  confidence: high
+  asset: 'missing: fallback recovery.str'
+- vs_id: WINDOW
+  vs_name: Stained Glass
+  ro_en: Lex Divina
+  ro_ptbr: Lex Divina
+  ro_ref: skill PR_LEXDIVINA
+  why: Stained glass holy seal.
+  confidence: low
+  asset: 'str: lexdivina.str'
+- vs_id: WINDOW2
+  vs_name: Game Killer
+  ro_en: Lex Aeterna
+  ro_ptbr: Lex Aeterna
+  ro_ref: skill PR_LEXAETERNA
+  why: '"Game Killer" doubles next hit.'
+  confidence: low
+  asset: 'str: lexaeterna.str'
+- vs_id: FIREEXPLOSION
+  vs_name: Heart of Fire
+  ro_en: Fire Pillar
+  ro_ptbr: Coluna de Fogo [trad]
+  ro_ref: skill WZ_FIREPILLAR
+  why: Heart of Fire burst.
+  confidence: med
+  asset: 'str: firepillarbomb.str'
+- vs_id: COLDEXPLOSION
+  vs_name: Out of Bounds
+  ro_en: Frost Nova
+  ro_ptbr: Nova Congelante [trad]
+  ro_ref: skill WZ_FROSTNOVA
+  why: Cold burst.
+  confidence: med
+  asset: 'missing: fallback freezing.str'
+- vs_id: BLOODLINE
+  vs_name: Divine Bloodline
+  ro_en: Blessing
+  ro_ptbr: Bênção
+  ro_ref: skill AL_BLESSING
+  why: Divine Bloodline buff aura.
+  confidence: low
+  asset: 'ok: effect/축복'
+- vs_id: ASTRONOMIA
+  vs_name: Blood Astronomia
+  ro_en: Meteor Storm
+  ro_ptbr: Chuva de Meteoros
+  ro_ref: skill WZ_METEOR
+  why: Blood astronomia = falling stars.
+  confidence: med
+  asset: 'str: meteor1-4.str'
+- vs_id: D20_JETBLACK
+  vs_name: Wandering the Jet Black
+  ro_en: Gravitation Field
+  ro_ptbr: Campo Gravitacional [trad]
+  ro_ref: skill HW_GRAVITATION
+  why: Jet-black dark field.
+  confidence: low
+  asset: 'missing: fallback darkbreath sprite'
+- vs_id: D13_MADMOON
+  vs_name: Wandering the Jet Black
+  ro_en: Gravitation Field
+  ro_ptbr: Campo Gravitacional [trad]
+  ro_ref: -> D20_JETBLACK
+  why: Same VS name, same skill.
+  confidence: low
+  asset: see D20_JETBLACK
+- vs_id: NOVA_FIRE
+  vs_name: Fire Nova
+  ro_en: Fire Expansion
+  ro_ptbr: Expansão de Fogo [trad]
+  ro_ref: skill GN_FIRE_EXPANSION
+  why: Fire nova.
+  confidence: low
+  asset: 'missing: fallback firehit.str'
+- vs_id: NOVA_ICEE
+  vs_name: Ice Nova
+  ro_en: Frost Joker
+  ro_ptbr: Piada Gelada [trad]
+  ro_ref: skill BA_FROSTJOKER
+  why: Screen freeze nova.
+  confidence: low
+  asset: 'missing: fallback freeze.str'
+- vs_id: NOVA_FEAR
+  vs_name: Fear Nova
+  ro_en: Scream
+  ro_ptbr: Grito [trad]
+  ro_ref: skill DC_SCREAM
+  why: Fear nova = stun scream.
+  confidence: med
+  asset: 'missing: fallback loud.str'
+- vs_id: EX_GROUNDHIT
+  vs_name: Ground Hit
+  ro_en: Hammer Fall
+  ro_ptbr: Martelo de Thor [trad]
+  ro_ref: skill BS_HAMMERFALL
+  why: Ground hit stun.
+  confidence: high
+  asset: 'str: black_hammerfall.str'
+- vs_id: EX_TOHILSTATUE
+  vs_name: Tohil Idol
+  ro_en: Heaven's Drive
+  ro_ptbr: Fúria da Terra [trad]
+  ro_ref: skill WZ_HEAVENDRIVE
+  why: Idol summons earth spikes.
+  confidence: low
+  asset: 'missing: fallback earthhit.str'
+- vs_id: INSATIABLE
+  vs_name: Insatiable
+  ro_en: Soul Drain
+  ro_ptbr: Absorver Alma
+  ro_ref: 'skill HW_SOULDRAIN'
+  why: 'drena vida = absorver alma (revisão 16/10)'
+  confidence: med
+  asset: 'ok: effect/블러드러스트'
+- vs_id: FOLLOWER_GARLIC
+  vs_name: Garlic
+  ro_en: Magnum Break (follower)
+  ro_ptbr: Impacto Explosivo
+  ro_ref: -> GARLIC
+  why: Follower copy.
+  confidence: high
+  asset: see GARLIC
+- vs_id: SILF_COUNTER
+  vs_name: Cygnus
+  ro_en: (group)
+  ro_ptbr: (grupo)
+  ro_ref: -> SILF
+  why: Helper id; uses parent visuals.
+  confidence: high
+  asset: see parent
+  parent: SILF
+- vs_id: SILF2_COUNTER
+  vs_name: Zhar Ptytsia
+  ro_en: (group)
+  ro_ptbr: (grupo)
+  ro_ref: -> SILF2
+  why: Helper id; uses parent visuals.
+  confidence: high
+  asset: see parent
+  parent: SILF2
+- vs_id: GUNS_COUNTER
+  vs_name: Red Muscle
+  ro_en: (group)
+  ro_ptbr: (grupo)
+  ro_ref: -> GUNS
+  why: Helper id; uses parent visuals.
+  confidence: high
+  asset: see parent
+  parent: GUNS
+- vs_id: GUNS2_COUNTER
+  vs_name: Twice Upon a Time
+  ro_en: (group)
+  ro_ptbr: (grupo)
+  ro_ref: -> GUNS2
+  why: Helper id; uses parent visuals.
+  confidence: high
+  asset: see parent
+  parent: GUNS2
+- vs_id: GATTI_COUNTER
+  vs_name: Flock Destroyer
+  ro_en: (group)
+  ro_ptbr: (grupo)
+  ro_ref: -> GATTI
+  why: Helper id; uses parent visuals.
+  confidence: high
+  asset: see parent
+  parent: GATTI
+- vs_id: EX_AMMO1_COUNTER
+  vs_name: Ammo Appalate
+  ro_en: (group)
+  ro_ptbr: (grupo)
+  ro_ref: -> EX_AMMO1
+  why: Helper id; uses parent visuals.
+  confidence: high
+  asset: see parent
+  parent: EX_AMMO1
+- vs_id: SANTAJAVELINCOUNTER
+  vs_name: Levelin'EEE
+  ro_en: (group)
+  ro_ptbr: (grupo)
+  ro_ref: -> SANTAJAVELIN
+  why: Helper id; uses parent visuals.
+  confidence: high
+  asset: see parent
+  parent: SANTAJAVELIN
+- vs_id: EX_PENSHIN_STATIC1
+  vs_name: Tonne
+  ro_en: (group)
+  ro_ptbr: (grupo)
+  ro_ref: -> EX_PENSHIN_EVO1
+  why: Helper id; uses parent visuals.
+  confidence: high
+  asset: see parent
+  parent: EX_PENSHIN_EVO1
+- vs_id: EX_PENSHIN_STATIC2
+  vs_name: Tonnado
+  ro_en: (group)
+  ro_ptbr: (grupo)
+  ro_ref: -> EX_PENSHIN_EVO2
+  why: Helper id; uses parent visuals.
+  confidence: high
+  asset: see parent
+  parent: EX_PENSHIN_EVO2
+- vs_id: EX_PENSHIN_STATIC3
+  vs_name: Tonn'omoto
+  ro_en: (group)
+  ro_ptbr: (grupo)
+  ro_ref: -> EX_PENSHIN_EVO3
+  why: Helper id; uses parent visuals.
+  confidence: high
+  asset: see parent
+  parent: EX_PENSHIN_EVO3
+- vs_id: EX_PENSHIN_STATIC4
+  vs_name: Tonn'oddeo
+  ro_en: (group)
+  ro_ptbr: (grupo)
+  ro_ref: -> EX_PENSHIN_EVO4
+  why: Helper id; uses parent visuals.
+  confidence: high
+  asset: see parent
+  parent: EX_PENSHIN_EVO4
+- vs_id: EX_PENSHIN_STATIC6
+  vs_name: Unsurpassed
+  ro_en: (group)
+  ro_ptbr: (grupo)
+  ro_ref: -> EX_PENSHIN_EVO6
+  why: Helper id; uses parent visuals.
+  confidence: high
+  asset: see parent
+  parent: EX_PENSHIN_EVO6
+- vs_id: EX_PENSHIN_STATIC7
+  vs_name: Tonno Subito
+  ro_en: (group)
+  ro_ptbr: (grupo)
+  ro_ref: -> EX_PENSHIN_EVO7
+  why: Helper id; uses parent visuals.
+  confidence: high
+  asset: see parent
+  parent: EX_PENSHIN_EVO7
+passives:
+- vs_id: POWER
+  vs_name: Spinach
+  ro_en: Oridecon
+  ro_ptbr: Oridecon
+  ro_ref: 'item 984 Oridecon'
+  why: 'aumentar dano = oridecon (Zero, 16/10)'
+  confidence: med
+  asset: 'ok: drop sprite item/버서크포션; icon from texture/유저인터페이스/item'
+- vs_id: ARMOR
+  vs_name: Armor
+  ro_en: Full Plate
+  ro_ptbr: Armadura Completa [trad]
+  ro_ref: item 2316 Plate_Armor (Full Plate)
+  why: Heavy armor reduces damage.
+  confidence: high
+  asset: 'ok: drop sprite item/플레이트 (verify); icon from texture/유저인터페이스/item (verify name)'
+- vs_id: MAXHEALTH
+  vs_name: Hollow Heart
+  ro_en: Flame Heart
+  ro_ptbr: Coração Flamejante
+  ro_ref: 'item 994 Flame_Heart'
+  why: 'Hollow Heart = coração flamejante (Zero, 16/10)'
+  confidence: low
+  asset: 'ok: drop sprite item/그녀의마음; icon from texture/유저인터페이스/item'
+- vs_id: REGEN
+  vs_name: Pummarola
+  ro_en: Red Herb
+  ro_ptbr: Erva Vermelha
+  ro_ref: item 507 Red_Herb (Red Herb)
+  why: Herb = recovery over time.
+  confidence: med
+  asset: ok
+  # 2026-10-16: troca pra não colidir com pickup (Apple/Pocket Watch/Blue Gemstone já são itens do chão)
+- vs_id: COOLDOWN
+  vs_name: Empty Tome
+  ro_en: Berserk Potion
+  ro_ptbr: Poção da Fúria Selvagem
+  ro_ref: 'item 657 Berserk_Potion'
+  why: 'poção da fúria combina com recarga (Zero, 16/10)'
+  confidence: med
+  asset: 'ok: drop sprite item/마법책_무; icon from texture/유저인터페이스/item'
+- vs_id: AREA
+  vs_name: Candelabrador
+  ro_en: Forbidden Red Candle
+  ro_ptbr: Vela Vermelha Proibida [trad]
+  ro_ref: item 660 Prohibition_Red_Candle (Forbidden Red Candle)
+  why: Candle = Candelabrador light radius.
+  confidence: med
+  asset: 'ok: drop sprite item/금단의붉은양초; icon from texture/유저인터페이스/item'
+- vs_id: SPEED
+  vs_name: Bracer
+  ro_en: Bow Thimble
+  ro_ptbr: Dedal de Arqueiro
+  ro_ref: item 2619 Thimble_Of_Archer (Bow Thimble)
+  why: Archer gear; faster shots.
+  confidence: med
+  asset: 'ok: drop sprite item/활골무; icon from texture/유저인터페이스/item'
+- vs_id: DURATION
+  vs_name: Spellbinder
+  ro_en: Clock Card
+  ro_ptbr: Carta Relógio
+  ro_ref: item 4299 Clock_Card (Clock Card)
+  why: Clock = longer duration.
+  confidence: med
+  asset: ok
+  # 2026-10-16: troca pra não colidir com pickup (Apple/Pocket Watch/Blue Gemstone já são itens do chão)
+- vs_id: AMOUNT
+  vs_name: Duplicator
+  ro_en: Crystal Mirror
+  ro_ptbr: Espelho de Cristal
+  ro_ref: item 747 Crystal_Mirror (Crystal Mirror)
+  why: Mirror duplicates = more projectiles.
+  confidence: med
+  asset: 'ok: drop sprite item/수정거울; icon from texture/유저인터페이스/item'
+- vs_id: MOVESPEED
+  vs_name: Wings
+  ro_en: Sleipnir
+  ro_ptbr: Sleipnir
+  ro_ref: item 2410 Sleipnir (Sleipnir)
+  why: Odin's 8-legged horse boots; Valkyrie link.
+  confidence: high
+  asset: 'ok: drop sprite item/슬레이프니르; icon from texture/유저인터페이스/item'
+- vs_id: MAGNET
+  vs_name: Attractorb
+  ro_en: Magnetic Field Generator
+  ro_ptbr: Gerador de Campo Magnético
+  ro_ref: item 2805 Magnetic_Field_Generator (Magnetic Field Generator)
+  why: Literal magnet = pickup range.
+  confidence: high
+  asset: ok
+  # 2026-10-16: troca pra não colidir com pickup (Apple/Pocket Watch/Blue Gemstone já são itens do chão)
+- vs_id: LUCK
+  vs_name: Clover
+  ro_en: Four Leaf Clover
+  ro_ptbr: Trevo de Quatro Folhas
+  ro_ref: item 706 Four_Leaf_Clover (Four Leaf Clover)
+  why: Luck literal.
+  confidence: high
+  asset: 'ok: drop sprite item/네잎클로버; icon from texture/유저인터페이스/item'
+- vs_id: GROWTH
+  vs_name: Crown
+  ro_en: Battle Manual
+  ro_ptbr: Manual de Combate
+  ro_ref: item 12208 Battle_Manual (Battle Manual)
+  why: RO +50% EXP item.
+  confidence: high
+  asset: 'ok: drop sprite item/전투교범; icon from texture/유저인터페이스/item'
+- vs_id: GREED
+  vs_name: Stone Mask
+  ro_en: Bubble Gum
+  ro_ptbr: Chiclete
+  ro_ref: item 12210 Bubble_Gum (Bubble Gum)
+  why: RO drop-rate booster = more loot/gold.
+  confidence: med
+  asset: 'ok: drop sprite item/풍선껌; icon from texture/유저인터페이스/item'
+- vs_id: CURSE
+  vs_name: Skull O'Maniac
+  ro_en: Dead Branch
+  ro_ptbr: Galho Seco
+  ro_ref: item 604 Branch_Of_Dead_Tree (Dead Branch)
+  why: Summons monsters = more enemies.
+  confidence: high
+  asset: 'ok: drop sprite item/고목나무가지; icon from texture/유저인터페이스/item'
+- vs_id: REVIVAL
+  vs_name: Tiragisú
+  ro_en: Yggdrasil Leaf
+  ro_ptbr: Folha de Yggdrasil
+  ro_ref: item 610 Leaf_Of_Yggdrasil (Yggdrasil Leaf)
+  why: RO resurrection item.
+  confidence: high
+  asset: 'ok: drop sprite item/이그드라실잎; icon from texture/유저인터페이스/item'
+- vs_id: PANDORA
+  vs_name: Torrona's Box
+  ro_en: Old Purple Box
+  ro_ptbr: Caixa Roxa Antiga
+  ro_ref: item 617 Old_Violet_Box (Old Purple Box)
+  why: Risky box, cursed but rewarding.
+  confidence: med
+  asset: 'ok: drop sprite item/오래된보라상자; icon from texture/유저인터페이스/item'
+- vs_id: PARMA
+  vs_name: 'Parm Aegis '
+  ro_en: Valkyrja's Shield
+  ro_ptbr: Escudo de Valquíria
+  ro_ref: item 2115 Valkyrja's_Shield (Valkyrja's Shield)
+  why: Aegis shield = invulnerability window.
+  confidence: med
+  asset: 'ok: drop sprite item/발키리아쉴드; icon from texture/유저인터페이스/item'
+- vs_id: DOMINION
+  vs_name: Karoma's Mana
+  ro_en: Bloody Branch
+  ro_ptbr: Galho Sangrento
+  ro_ref: item 12103 Bloody_Dead_Branch (Bloody Branch)
+  why: Summons boss-tier monsters = more spawns.
+  confidence: low
+  asset: 'ok: drop sprite item/피묻은나뭇가지; icon from texture/유저인터페이스/item'
+- vs_id: TETRAFORCE
+  vs_name: Tetraforce
+  ro_en: Elunium
+  ro_ptbr: Elunium
+  ro_ref: 'item 985 Elunium'
+  why: 'oridecon foi pro Spinach (Zero, 16/10)'
+  confidence: low
+  asset: 'ok: drop sprite item/오리데오콘; icon from texture/유저인터페이스/item'
+- vs_id: SILVER
+  vs_name: Silver Ring
+  ro_en: Silver Ring
+  ro_ptbr: Anel de Prata
+  ro_ref: item 2611 Silver_Ring (Silver Ring)
+  why: Literal ring match.
+  confidence: high
+  asset: 'ok: drop sprite item/은반지; icon from texture/유저인터페이스/item'
+- vs_id: GOLD
+  vs_name: Gold Ring
+  ro_en: Gold Ring
+  ro_ptbr: Anel de Ouro
+  ro_ref: item 2610 Gold_Ring (Gold Ring)
+  why: Literal ring match.
+  confidence: high
+  asset: 'ok: drop sprite item/금반지; icon from texture/유저인터페이스/item'
+- vs_id: LEFT
+  vs_name: Metaglio Left
+  ro_en: Morrigane's Belt
+  ro_ptbr: Cinto de Morrigane
+  ro_ref: item 2650 Morrigane's_Belt (Morrigane's Belt)
+  why: Dark-goddess set piece, protective half.
+  confidence: med
+  asset: 'ok: drop sprite item/모리아네의벨트; icon from texture/유저인터페이스/item'
+- vs_id: RIGHT
+  vs_name: Metaglio Right
+  ro_en: Morrigane's Pendant
+  ro_ptbr: Pingente de Morrigane
+  ro_ref: item 2651 Morrigane's_Pendant (Morrigane's Pendant)
+  why: Dark-goddess set piece, cursed half.
+  confidence: med
+  asset: 'ok: drop sprite item/모리아네팬던트; icon from texture/유저인터페이스/item'
+- vs_id: EX_COINTOSS1
+  vs_name: Sossoldi
+  ro_en: Gold Coin
+  ro_ptbr: Moeda de Ouro
+  ro_ref: item 671 Gold_Coin (Gold Coin)
+  why: Coin toss literal.
+  confidence: high
+  asset: 'ok: drop sprite item/골드코인; icon from texture/유저인터페이스/item'
+- vs_id: EX_RUMBA1
+  vs_name: Rumba
+  ro_en: Poring Egg
+  ro_ptbr: Ovo de Poring
+  ro_ref: item 9001 Poring_Egg (Poring Egg)
+  why: Porings loot items off the floor = pull pickups.
+  confidence: low
+  asset: 'missing: no exported sprite; icon BMP in texture/유저인터페이스/item (not exported)'
+powerups:
+- vs_id: POWER
+  vs_name: Might
+  ro_en: STR
+  ro_ptbr: FOR (Força)
+  ro_ref: stat STR
+  why: Strength = damage.
+  confidence: high
+  asset: 'str: food_str.str'
+- vs_id: ARMOR
+  vs_name: Armor
+  ro_en: Angelus
+  ro_ptbr: Angelus
+  ro_ref: skill AL_ANGELUS
+  why: Raises DEF.
+  confidence: high
+  asset: 'str: angelus.str'
+- vs_id: MAXHEALTH
+  vs_name: Max Health
+  ro_en: VIT
+  ro_ptbr: VIT (Vitalidade)
+  ro_ref: stat VIT
+  why: Vitality = max HP.
+  confidence: high
+  asset: 'str: food_vit.str'
+- vs_id: REGEN
+  vs_name: Recovery
+  ro_en: Increase HP Recovery
+  ro_ptbr: Aumentar Recuperação de HP [trad]
+  ro_ref: skill SM_RECOVERY
+  why: Passive HP regen.
+  confidence: high
+  asset: 'missing: fallback recovery.str'
+- vs_id: COOLDOWN
+  vs_name: Cooldown
+  ro_en: Suffragium
+  ro_ptbr: Suffragium
+  ro_ref: skill PR_SUFFRAGIUM
+  why: Faster casting.
+  confidence: high
+  asset: 'str: suffragium.str'
+- vs_id: AREA
+  vs_name: Area
+  ro_en: INT
+  ro_ptbr: INT (Inteligência)
+  ro_ref: stat INT
+  why: Magic power = bigger spells.
+  confidence: low
+  asset: 'str: food_int.str'
+- vs_id: SPEED
+  vs_name: Speed
+  ro_en: DEX
+  ro_ptbr: DES (Destreza)
+  ro_ref: stat DEX
+  why: Ranged speed/accuracy.
+  confidence: med
+  asset: 'str: food_dex.str'
+- vs_id: DURATION
+  vs_name: Duration
+  ro_en: Memorize
+  ro_ptbr: Memorizar [trad]
+  ro_ref: skill PF_MEMORIZE
+  why: Prolonged casting effect.
+  confidence: low
+  asset: 'str: maemor.str/memor_min.str (verify)'
+- vs_id: AMOUNT
+  vs_name: Amount
+  ro_en: Double Casting
+  ro_ptbr: Conjuração Dupla [trad]
+  ro_ref: skill PF_DOUBLECASTING
+  why: Extra bolt per cast.
+  confidence: high
+  asset: 'missing: no fx'
+- vs_id: MOVESPEED
+  vs_name: Move Speed
+  ro_en: Increase AGI
+  ro_ptbr: Aumentar Agilidade
+  ro_ref: skill AL_INCAGI
+  why: Move speed buff.
+  confidence: high
+  asset: 'missing: hardcoded; fallback food_agi.str'
+- vs_id: MAGNET
+  vs_name: Magnet
+  ro_en: Greed
+  ro_ptbr: Ganância [trad]
+  ro_ref: skill BS_GREED
+  why: Picks up all nearby items.
+  confidence: high
+  asset: 'missing: no fx'
+- vs_id: LUCK
+  vs_name: Luck
+  ro_en: LUK
+  ro_ptbr: SOR (Sorte)
+  ro_ref: stat LUK
+  why: Luck literal.
+  confidence: high
+  asset: 'str: food_luk.str'
+- vs_id: GROWTH
+  vs_name: Growth
+  ro_en: Battle Manual buff
+  ro_ptbr: Manual de Combate
+  ro_ref: item 12208 buff
+  why: RO EXP booster, pairs with Crown.
+  confidence: med
+  asset: 'ok: item sprite 전투교범'
+- vs_id: GREED
+  vs_name: Greed
+  ro_en: Overcharge
+  ro_ptbr: Superfaturar [trad]
+  ro_ref: skill MC_OVERCHARGE
+  why: Sell for more zeny.
+  confidence: high
+  asset: 'missing: no fx'
+- vs_id: CURSE
+  vs_name: Curse
+  ro_en: Curse
+  ro_ptbr: Maldição
+  ro_ref: status Curse
+  why: Cursed status literal.
+  confidence: high
+  asset: 'ok: effect/status-curse'
+- vs_id: REVIVAL
+  vs_name: Revival
+  ro_en: Kaizel
+  ro_ptbr: Kaizel
+  ro_ref: skill SL_KAIZEL
+  why: Auto-revive once.
+  confidence: high
+  asset: 'missing: fallback resurrection.str'
+- vs_id: PANDORA
+  vs_name: Omni
+  ro_en: Blessing
+  ro_ptbr: Bênção
+  ro_ref: skill AL_BLESSING
+  why: STR/DEX/INT all-round boost.
+  confidence: high
+  asset: 'ok: effect/축복'
+- vs_id: CHARM
+  vs_name: Charm
+  ro_en: Provoke
+  ro_ptbr: Provocar
+  ro_ref: skill SM_PROVOKE
+  why: Attracts enemies.
+  confidence: high
+  asset: 'str: provoke.str'
+- vs_id: DEFANG
+  vs_name: Defang
+  ro_en: Strip Weapon
+  ro_ptbr: Remover Arma [trad]
+  ro_ref: skill RG_STRIPWEAPON
+  why: Disarmed enemies deal no damage.
+  confidence: high
+  asset: 'str: strip_weapon.str'
+- vs_id: REROLL
+  vs_name: Reroll
+  ro_en: Tarot Card of Fate
+  ro_ptbr: Cartas do Destino [trad]
+  ro_ref: skill CG_TAROTCARD
+  why: Random draw = reroll choices.
+  confidence: med
+  asset: 'missing: no fx'
+- vs_id: SKIP
+  vs_name: Skip
+  ro_en: Teleport
+  ro_ptbr: Teleporte
+  ro_ref: skill AL_TELEPORT
+  why: Skip ahead; butterfly/fly wing feel.
+  confidence: med
+  asset: 'missing: fallback item 나비의날개'
+- vs_id: BANISH
+  vs_name: Banish
+  ro_en: Dispell
+  ro_ptbr: Dispel [trad]
+  ro_ref: skill SA_DISPELL
+  why: Removes an option.
+  confidence: high
+  asset: 'str: 디스펠.str'
+- vs_id: RECYCLE
+  vs_name: Recycle
+  ro_en: Repair Weapon
+  ro_ptbr: Consertar Arma [trad]
+  ro_ref: skill BS_REPAIRWEAPON
+  why: Restores used actions.
+  confidence: low
+  asset: 'str: repairweapon.str'
+- vs_id: SEAL
+  vs_name: Seal I
+  ro_en: Lex Divina I
+  ro_ptbr: Lex Divina
+  ro_ref: skill PR_LEXDIVINA
+  why: Seal = silence an item.
+  confidence: med
+  asset: 'str: lexdivina.str'
+- vs_id: SEAL2
+  vs_name: Seal II
+  ro_en: Lex Divina II
+  ro_ptbr: Lex Divina
+  ro_ref: skill PR_LEXDIVINA
+  why: Rank II.
+  confidence: med
+  asset: 'str: lexdivina.str'
+- vs_id: SEAL3
+  vs_name: Seal III
+  ro_en: Lex Divina III
+  ro_ptbr: Lex Divina
+  ro_ref: skill PR_LEXDIVINA
+  why: Rank III.
+  confidence: med
+  asset: 'str: lexdivina.str'
+- vs_id: SEAL4
+  vs_name: Seal IV
+  ro_en: Lex Divina IV
+  ro_ptbr: Lex Divina
+  ro_ref: skill PR_LEXDIVINA
+  why: Rank IV.
+  confidence: med
+  asset: 'str: lexdivina.str'
+- vs_id: FEVER
+  vs_name: Antipiretic
+  ro_en: Cure
+  ro_ptbr: Medicar [trad]
+  ro_ref: skill AL_CURE
+  why: Antipyretic = cure fever.
+  confidence: low
+  asset: 'str: cure.str'
+- vs_id: INVUL
+  vs_name: Invul Time
+  ro_en: Safety Wall
+  ro_ptbr: Escudo Mágico
+  ro_ref: skill MG_SAFETYWALL
+  why: Brief invulnerability.
+  confidence: high
+  asset: 'str: safetywall.str'
+
+# Visual das armas no atlas vfx (data.unity3d) → fonte do RO. "effect X" = sprite de efeito exportado
+# (exported-sprites/effect/X, quadros na ordem); "item N" = ícone do item. O quadro cabe no rect do VS (o jogo gira e
+# escala o projétil; no mundo tamanho = pixels). reskin_vfx.py lê esta seção.
+vfx_families:
+  # slash: VS (Zero 16/10: o golpe do chicote original fica melhor)
+  slash_sword: effect 그림자베기
+  axeSlash: effect 그림자베기
+  dualSlash: effect 그림자베기
+  ex_red_slash: effect 안개베기
+  desatSlash: effect 일섬
+  # ProjectileKnife: item 1201            # Knife → Rajada de Flechas (flecha)   # Zero 16/10: efeito original do VS
+  ProjectileArrow: item 1750
+  2Arrow: item 1750
+  # ProjectileBlue: effect soule          # Magic Wand → Ataque Espiritual   # Zero 16/10: efeito original do VS
+  # ProjectileHoly: effect soule          # Holy Wand   # Zero 16/10: efeito original do VS
+  ProjectileGreen: effect soule
+  ProjectileAxe: item 1360              # Axe → Mammonita (machado de duas mãos, pedido do Zero)
+  ProjectileScythe: item 1466
+  ProjectileCross: item 2110            # Cross → Arremesso de Escudo (escudo)
+  ProjectileSword: item 1145            # Heaven Sword
+  Sword: item 1145
+  SwordBW: item 1101
+  # HolyBook: VS (Zero 16/10: livro orbitando com o efeito original)
+  # Page: effect 축복   # Zero 16/10: efeito original do VS
+  ProjectileFireball: effect fireball   # Fire Wand → Bola de Fogo
+  ProjectileFireballDouble: effect fireball
+  ProjectileHellfireLarge: effect fireball
+  ProjectileHellfireSmall: effect fireball
+  ProjectileFlameRed: effect fireball
+  ProjectileFlameBlue: effect fireball
+  ProjectileFlameGreen: effect fireball
+  ProjectileFlameHoly: effect fireball
+  Flame: effect firewall
+  flame: effect firewall
+  fiamma: effect 화염진
+  ProjectileBottle: item 7135              # Santa Water → Fogo Grego (Zero, 16/10)
+  Lightning: effect 썬더스톰 rot90 fill   # Lightning Ring → Tempestade de Raios (deitado e esticado na faixa do VS)
+  lightning: effect 라이트닝스피어
+  Electricity: effect 라이트닝스피어
+  ProjectileBone: item 932              # Bone → osso
+  ProjectileBird: effect 매             # Peachone/Ebony → falcão
+  ProjectileBird_C: effect 매
+  ProjectileBullet: effect 트리플액션    # Phiera/Eight → Ação Tripla
+  ProjectileJavelin: effect 창
+  Pierce: effect 창
+  icicle: effect 프리징스피어
+  IceCrystMini: effect icemine
+  snowb: effect ef_snow
+  trapano: effect 독                    # Shadow Pinion → Névoa Venenosa
+  petal: effect 단풍                    # Celestial Dusting → folhas
+  leaf: effect 단풍
+  flo: effect sakura01
+  ProjectileWave: effect 거스트
+  rock: effect 어스퀘이크
+  rockBreak: effect 어스퀘이크
+  ProjectileRock: effect 어스퀘이크
+  ProjectileSpike: effect 창
+  Rings: effect cconfine
+  Star: effect 축복
+  Shockwave2: tex round_sphere              # anel do Laurel → esfera do Kyrie que o RO desenha em volta do personagem no golpe (Zero, 16/10)
+# resto figurativo do atlas vfx (levantamento 16/10: 675 sprites ainda do VS; brilho/gradiente/névoa abstratos
+# ficam — neutros de estilo). Criaturas viram monstros do RO andando de lado; objetos viram itens; magia vira efeito.
+  Shockwave: effect particle6           # anel de acerto
+  Bat1_i: monster drainliar 1
+  Bat2_i: monster drainliar 1
+  Bat3_i: monster drainliar 1
+  cat_i: monster cat_o_nine_tail 1
+  cat2_i: monster cat_o_nine_tail 1
+  cat3_i: monster cat_o_nine_tail 1
+  cat4_i: monster cat_o_nine_tail 1
+  cat5_i: monster cat_o_nine_tail 1
+  cat6_i: monster cat_o_nine_tail 1
+  Dog: monster desert_wolf_b 1
+  Dog_05 - Copy: monster desert_wolf_b 1
+  snakeS: monster snake 1
+  snakeS_i: monster snake 0
+  snakeW: monster side_winder 1
+  snakeW_i: monster side_winder 0
+  Salmon_i: monster phen 1
+  Ecto: monster whisper 0
+  Gash_arm_i: monster zombie 1
+  pumpkin: monster jakk 0
+  Scythe_i: effect soul_reaper/soul_reaper
+  Flame1_rotated: effect fireball
+  FlexSproutB: item 717
+  FlexSproutY: item 715
+  FlexSproutP: item 719
+  FlexSproutV: item 716
+  FlexFlower: item 721
+  BulletAqua: effect 매지컬불릿
+  BulletBlue: effect 매지컬불릿
+  BulletBrown: effect 매지컬불릿
+  BulletRed: effect 매지컬불릿
+  bulletFourSeasons: effect 매지컬불릿
+  bulletNightA: effect black_bubble/small/blackbubble_small
+  bulletNightB: effect black_bubble/small/blackbubble_small
+  eye: effect sight
+  eyeanim: effect sight
+  vfx_gEye: effect sight
+  k_fire: item 994
+  k_water: item 995
+  k_wind: item 996
+  k_earth: item 997
+  k_spring: effect sakura01
+  k_summer: effect fireball
+  k_autumn: effect 단풍
+  k_winter: effect ef_snow
+  k_void: effect black_bubble/small/blackbubble_small
+  k_fudomyoo: effect 화염진
+  vfxHeartMini: effect vallentine
+  party: effect vallentine
+  nightSword: item 1101
+  nightSwordCrit: item 1101
+  fangNight: item 1101
+  victory: item 1101
+  victoryCrit: item 1101
+  hCartEnd: effect 손수레
+  prayerScroll: effect book_of_creatingstar/book_of_creatingstar
+  mask: item 2281
+  MagicCircleRed: effect 화염진
+  summon: effect 축복
+  2Arrow3P: item 1750
+  2Arrow3Y: item 1750
+  2Spell: effect 축복
+  2Spell3Blue: effect 축복
+  2Spell3Orange: effect 축복
+  2Spell3Purple: effect 축복
+  2Spell3Red: effect 축복
+  2Spell4Blue: effect 축복
+  2Spell4Orange: effect 축복
+  2Spell4Purple: effect 축복
+  2Spell4Red: effect 축복
+  2Strike: effect 일섬
+  3_dragonforce: effect rk_dragonbreath_water
+  ProjectileCloud: effect smoke
+  ProjectileFluff: effect smoke
+  ProjectileSpin: effect 그림자베기
+  spinThick: effect 그림자베기
+  Blood: effect particle6
+  bloodMin: effect particle6
+  bubble: effect waterball
+  bubbleSphere: effect waterball
+  bubblevb: effect waterball
+  _OPBubble: effect waterball
+  aeroBubble: effect waterball
+  feedback: effect particle6
+  inner: effect cconfine
+  _runes: effect cconfine
+  _santaJavelin: effect 창
+
+# faíscas e fumaça de acerto (todo golpe): brilho e fumaça do RO
+  Hit: effect particle6
+  HitBlack: effect particle6
+  HitBlue: effect particle6
+  HitGreen: effect particle6
+  HitRed: effect particle6
+  HitWhite: effect particle6
+  HitStar: effect particle6
+  HitStarRed: effect particle6
+  HitStarWhite: effect particle6
+  HitCross: effect particle6
+  HitCrossImpact: effect particle6
+  HitMoon: effect particle6
+  HitBoom: effect particle6
+  HitSmoke: effect smoke
+  HitSmokeA: effect smoke
+  HitSmokeB: effect smoke
+  HitSmokeC: effect smoke
+  HitSmokeD: effect smoke
+  HitSmokeE: effect smoke
+  HitSmokeF: effect smoke
+  HitSmokeG: effect smoke
+  HitCloud: effect smoke
+  HitCloudDesat: effect smoke
+  Smoke: effect smoke
+  SmokeB: effect smoke
+
+# Bundles weapon_* (texturas de armas específicas) → efeito/item do RO aplicado a todas as famílias do bundle
+weapon_bundles:
+  vfx_enemyexplosion: effect soul_explosion/soul_explosion   # explosão de morte de inimigo (auditoria 16/10)
+  mapas: minimap odin_tem01                                  # mapa da relíquia da Astral Stair = minimapa do Templo de Odin
+  weapon_crystal: effect icemine
+  weapon_descent_misery: effect 그림자베기
+  weapon_ex_flik: effect 화염진
+  weapon_ex_penshinfacha: effect 거스트
+  weapon_flower: effect 단풍
+  weapon_heavensroad: effect 축복
+  weapon_icelance: effect 프리징스피어
+  weapon_insatiable: effect 유령
+  weapon_luminaire: effect cconfine
+  weapon_nofuture: effect 어스퀘이크
+  weapon_ophion: effect 독
+  weapon_pentagram: effect cconfine
+  weapon_planets: effect 축복
+  weapon_robba: item 501
+  weapon_rocketscience: effect 블래스트
+  weapon_train: effect 손수레
+  weapon_window: effect cconfine
+
+# Tocador de quadros do hook (tools/rofx.py + ProjectileFx em main.cpp): classe do projétil do VS → animação inteira
+# do RO, no lugar da imagem parada. size = lado maior no mundo (px do VS, o do sprite que o prefab usa); field = campo
+# do SpriteRenderer no projétil (padrão 0x80 = _renderer; [a, b] = campo b dentro do objeto em a); rot = giro (graus, anti-horário) pra apontar pra direita
+# como o sprite do VS; fps do RO = 1000 / (delay do .act × 25 ms); loop: false = toca uma vez e para no último;
+# alpha = opacidade imposta no renderer (o VS esmaece alguns, como o anel do Garlic); py = pivô vertical (0 = base);
+# hide = [campo, campo] até um SpriteRenderer do VS que é desligado.
+ro_fx:
+  FireballProjectile: {ref: effect fireball, fps: 10, size: 34, rot: 90}       # Fire Wand → Bola de Fogo
+  HellfireProjectile: {ref: effect fireball, fps: 10, size: 44, rot: 90}       # Hellfire (sprite do VS 32×27)
+  GarlicWeapon: {ref: str firehit, fps: 12, size: 56, field: 0x158, alpha: 1.0}          # Garlic → anel de fogo (Impacto Explosivo); o anel é da arma
+  # PentagramProjectile: VS (Zero, 17/10: sem skill equivalente no RO; o estilhaço de tela do VS fica)
+  DiamondProjectile: {ref: str holyhit, fps: 12, size: 28, alpha: 1.0}                 # Runetracer → Luz Divina
+  # LightningProjectile: VS por enquanto. O raio é um SpriteScroller (rola no shader, não aceita atlas) e o brilho do
+  # chão (_groundFx +0xE8 → +0x28) nasce com escala 0 e alfa 0,15 sob tween; o quadro do RO não apareceu (17/10).
+  #   tentativas: field [0xE8, 0x28] e field 0x80 (+ SetActive), ambos com hide [0xD0, 0x40]: no 0x80 só um ponto cinza
+  NdujaProjectile: {ref: effect firewall, fps: 10, size: 256, field: 0xD0}     # Nduja → Barreira de Fogo (_GroundFx)

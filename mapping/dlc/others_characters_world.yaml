@@ -1,0 +1,2315 @@
+# Ragnarok Survivors - VS -> RO de-para for 6 DLCs: characters, weapons, stages, music, tilesets, items.
+# Drafted 2026-10-16. Same rules as ../characters_weapons.yaml (mechanic first, theme second; gameplay numbers unchanged).
+#  - Keys: moonspell = Legacy of the Moonspell, foscari = Tides of the Foscari, chalcedony = Emergency Meeting,
+#    firstblood = Operation Guns, emeralds = Emerald Diorama, lemon = Ante Chamber.
+#  - DLC characters use job bodies NOT in the base cast (other gender, trans/3rd/4th jobs, mounted variants);
+#    the starting weapon is a skill of that class; evolution = the next job's skill where possible.
+#  - Skill AEGIS ids for 4th jobs (NW_, WH_, MT_, ABR_, IG_, DK_, SHC_, AG_, EM_, TR_, BO_, SP_) are from memory: verify
+#    against the client skill table before cooking. Item ids verified in asset-catalog item_db_*.yml.
+#  - music.ro = "NN title" when known, else "NN (map)" from mp3NameTable.txt. Every map listed has a .gnd.
+#  - Helper ids (*_COUNTER, hidden *_HAZARD, EME_*_RAVE...) point to a parent with '-> ID'.
+moonspell:
+  episode: 'Legacy of the Moonspell -> "Amatsu / Kunlun: the Moonspell clan" (Amatsu castle + shrine, Kunlun peaks, Moscovia snow forest); Ninja line'
+  characters:
+  - vs_id: MIANG
+    vs_name: Miang Moonspell
+    ro_en: Ninja (F)
+    ro_ptbr: Ninja
+    ro_ref: body/female/ninja_female
+    start_weapon: SILVERWIND
+    why: Clan heiress with wind magic; Ninja is the Amatsu base job and First Wind is its wind blade. Over-heal perk unchanged.
+    confidence: med
+    asset: ok
+  - vs_id: MENYA
+    vs_name: Menya Moonspell
+    ro_en: Oboro (F)
+    ro_ptbr: Oboro
+    ro_ref: body/female/oboro_female
+    start_weapon: FOURSEASONS
+    why: Four Seasons = four elemental charms (fire/ice/wind/earth) of the Kagerou/Oboro Spirit Charm set.
+    confidence: med
+    asset: ok
+  - vs_id: SYUUTO
+    vs_name: Syuuto Moonspell
+    ro_en: Kagerou (M)
+    ro_ptbr: Kagerou
+    ro_ref: body/male/kagerou_male
+    start_weapon: SUMMONNIGHT
+    why: Male clan swordsman; Kagerou is the male Ninja 2nd job, fire/shadow zones around himself.
+    confidence: med
+    asset: ok
+  - vs_id: MEGAMENYA
+    vs_name: Menya (charged)
+    ro_en: Nine Tail
+    ro_ptbr: Nove Caudas
+    ro_ref: npc/nine_tail
+    start_weapon: VOID
+    why: Invincible yokai form that vanishes at the time limit = the nine-tailed fox spirit of Amatsu/Kunlun.
+    confidence: med
+    asset: ok
+  - vs_id: MEGASYUUTO
+    vs_name: Syuuto (beast)
+    ro_en: Kagerou on Frog (M)
+    ro_ptbr: Kagerou (montaria Sapo) [trad]
+    ro_ref: body/male/frog_kagerou_male
+    start_weapon: NIGHTSWORD
+    why: The beast transformation = same Kagerou mounted on his giant frog; distinct silhouette, same job.
+    confidence: med
+    asset: ok
+  - vs_id: ONNA
+    vs_name: Babi-Onna
+    ro_en: White Lady (Bacsojin)
+    ro_ptbr: Dama Branca
+    ro_ref: monster/BACSOJIN
+    start_weapon: MIRAGEROBE
+    why: Seductive cold yokai woman -> Kunlun's White Lady MVP (beauty in white robes).
+    confidence: med
+    asset: ok
+  - vs_id: MCCOY
+    vs_name: McCoy-Oni
+    ro_en: Tengu
+    ro_ptbr: Tengu
+    ro_ref: monster/TENGU
+    start_weapon: BOCCE
+    why: Brutish red-faced Amatsu yokai; area-pulse perk fits a big bruiser.
+    confidence: med
+    asset: ok
+  - vs_id: TONY
+    vs_name: Gab'Et-Oni
+    ro_en: Kapha
+    ro_ptbr: Kapha
+    ro_ref: monster/KAPHA
+    start_weapon: BUBBLES
+    why: Water yokai (kappa) of Amatsu; bubbles = water balls.
+    confidence: med
+    asset: ok
+  weapons:
+  - vs_id: SILVERWIND
+    vs_name: Silver Wind
+    ro_en: First Wind
+    ro_ptbr: Primeiro Vento [trad]
+    ro_ref: skill NJ_KAMAITACHI
+    why: Wind blade sweeping ahead; hearts drop on kills (unchanged).
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: SILVERWIND2
+    vs_name: Festive Winds
+    ro_en: Moonlight Fantasy
+    ro_ptbr: Fantasia Lunar [trad]
+    ro_ref: skill OB_OBOROGENSOU
+    why: Ninja -> Oboro job change; Oborogensou makes targets take more damage = "weakens defenses"; moon = Moonspell.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: FOURSEASONS
+    vs_name: Four Seasons
+    ro_en: Spirit Charms (Charm Spread)
+    ro_ptbr: Amuletos Espirituais [trad]
+    ro_ref: skill KO_ZENKAI
+    why: Four elemental charms thrown as four ground blasts.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: FOURSEASONS2
+    vs_name: Godai Shuffle
+    ro_en: Release Charm
+    ro_ptbr: Liberar Amuleto [trad]
+    ro_ref: skill KO_KAIHOU
+    why: Releasing the stored charm = the extra (fifth) blast.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: SUMMONNIGHT
+    vs_name: Summon Night
+    ro_en: Crimson Fire Formation
+    ro_ptbr: Formação Pétala Escarlate [trad]
+    ro_ref: skill NJ_KAENSIN
+    why: Places damaging fire zones around the caster.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: SUMMONNIGHT2
+    vs_name: Night's Reach
+    ro_en: Shadow Trampling
+    ro_ptbr: Pisotear Sombras [trad]
+    ro_ref: skill KG_KAGEHUMI
+    why: Kagerou shadow AoE around his feet ("zones below").
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: MIRAGEROBE
+    vs_name: Mirage Robe
+    ro_en: Freezing Trap
+    ro_ptbr: Armadilha Congelante
+    ro_ref: skill HT_FREEZINGTRAP
+    why: Mines that freeze, chance to explode = a freezing trap literally.
+    confidence: high
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: MIRAGEROBE2
+    vs_name: J'Odore
+    ro_en: Wink of Charm
+    ro_ptbr: Piscadela [trad]
+    ro_ref: skill DC_WINKCHARM
+    why: Moving charms that confuse enemies = Gypsy wink (seduction yokai).
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: NIGHTSWORD
+    vs_name: Night Sword
+    ro_en: Cross Slash
+    ro_ptbr: Corte Cruzado [trad]
+    ro_ref: skill KO_JYUMONJIKIRI
+    why: Combo strike on nearest enemy; Kagerou signature melee.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: NIGHTSWORD2
+    vs_name: Muramasa
+    ro_en: Muramasa
+    ro_ptbr: Muramasa
+    ro_ref: item 1164 Muramasa
+    why: Same cursed katana exists in RO (crit, self-drain) - literal match.
+    confidence: high
+    asset: 'ok: icon 1164 + hand-built slash'
+  - vs_id: BUBBLES
+    vs_name: Mille Bolle Blu
+    ro_en: Summon Water Ball
+    ro_ptbr: Invocar Bola d'Água [trad]
+    ro_ref: skill WL_SUMMONWB
+    why: Lingering floating water orbs.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: BUBBLES2
+    vs_name: Boo Roo Boolle
+    ro_en: Water Ball
+    ro_ptbr: Bola d'Água
+    ro_ref: skill WZ_WATERBALL (shared with base FLOOD)
+    why: Multi-hit water balls on the same target.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: BOCCE
+    vs_name: 108 Bocce
+    ro_en: Kunai Splash
+    ro_ptbr: Chuva de Kunais [trad]
+    ro_ref: skill KO_HAPPOKUNAI
+    why: '"Happo" = 8 directions: "actually it''s just 8" around the player.'
+    confidence: high
+    asset: 'missing: fx TBD (.str or hand-built)'
+  stages:
+  - vs_id: MOONSPELL
+    vs_name: Mt.Moonspell
+    ro_region: 'Amatsu castle grounds + Kunlun peaks (snowy lake/cave parts: Moscovia forest)'
+    ro_maps:
+    - ama_fild01
+    - amatsu
+    - ama_dun01
+    - gon_fild01
+    - mosk_fild02
+    ro_ground_textures: Amatsu field/town floors (wood, stone path, sakura), Kunlun cliffs; snow from mosk_fild
+    vs_bundle: moonspell (+01castlegrounds..06tanukiforest scene bundles, MoonspellTexturePacked)
+    bgm_normal:
+      vs_key: BMG_Moonspell
+      ro: 73 (ama_fild01)
+    bgm_b:
+      vs_key: BMG_Moonspell
+      ro: 73 (ama_fild01)
+    en_name: Amatsu Highlands
+    ptbr_name: Planalto de Amatsu [trad]
+    why: Ancestral clan castle overrun by yokai/oni -> Amatsu castle (ama_dun = haunted castle) and Kunlun mountains; Amatsu/Kunlun mobs are the yokai set (Tengu, Kapha, Miyabi Doll, Nine Tail).
+    confidence: med
+  music:
+  - vs_id: BMG_Moonspell
+    vs_title: Legacy of the Moonspell
+    clip: bgm_moonspell_theme
+    ro: 73 (ama_fild01)
+    why: Amatsu/Kunlun field theme
+  - vs_id: BGM_Silver
+    vs_title: Festive Breeze
+    clip: bgm_elrond_miang
+    ro: 76 (amatsu)
+    why: Miang; Amatsu town (festive). Also base Tiny Bridge B - shared
+  - vs_id: BGM_FourSeasons
+    vs_title: Rumble Kachara
+    clip: bgm_elrond_kachara
+    ro: 74 (gonryun)
+    why: Menya; Kunlun town
+  - vs_id: BGM_Night1
+    vs_title: Haze of Night
+    clip: bgm_elrond_night1
+    ro: 75 (gon_dun01)
+    why: Syuuto; Kunlun dungeon
+  - vs_id: BGM_Night2
+    vs_title: Hell Night
+    clip: bgm_elrond_night2
+    ro: 80 (lou_dun01)
+    why: beast Syuuto; Louyang royal tomb
+  - vs_id: BGM_Mirage
+    vs_title: Crystal Allure
+    clip: bgm_elrond_mirage
+    ro: 116 (mosk_dun01)
+    why: Babi-Onna; Moscovia enchanted forest
+  tilesets:
+    MoonspellTexturePacked:
+    - ama_fild01
+    - amatsu
+    - gon_fild01
+    _note: 'CONFLICT: base maps MoonspellTexturePacked (Whiteout) to Lutie. The DLC ships its own moonspelltexturepacked bundle; if both load the same atlas name, pick one look (Amatsu snow-free vs Lutie
+      snow) or keep Lutie snow + Amatsu props.'
+  items:
+  - vs_id: RELIC_MAP_MS
+    vs_name: Mt.Moonspell Map
+    ro_en: Treasure Map3
+    ro_ptbr: Mapa do Tesouro III
+    ro_ref: '7964'
+    why: already in base items.yaml (relics); listed for completeness
+    confidence: medium
+    asset: assumed
+foscari:
+  episode: Tides of the Foscari -> "Rachel lakes & the Abyss" (Rachel fields + Hugel coast, Abyss Lake dungeon, Juno Sage Academy); Sage/Sorcerer/Elemental line, fairies
+  characters:
+  - vs_id: ELEANOR
+    vs_name: Eleanor Uziron
+    ro_en: Sorcerer (F)
+    ro_ptbr: Feiticeira
+    ro_ref: body/female/sorcerer_female
+    start_weapon: SPELL_STRING
+    why: Spell-weaving academy mage; Sorcerer (Sage 3rd) owns Spell Fist / Psychic Wave / Varetyr Spear = her three spells.
+    confidence: high
+    asset: ok
+  - vs_id: VICTOR
+    vs_name: Maruto Cuts
+    ro_en: Knight (M)
+    ro_ptbr: Cavaleiro
+    ro_ref: body/male/knight_male
+    start_weapon: SWORD
+    why: Academy swordsman, armor when hit + retaliation = Knight; evolves into Dragon Knight servant blades.
+    confidence: med
+    asset: ok
+  - vs_id: KEIRA
+    vs_name: Keitha Muort
+    ro_en: Ranger (F)
+    ro_ptbr: Sentinela
+    ro_ref: body/female/ranger_female
+    start_weapon: FLASHARROW
+    why: Lucky crit archer; Ranger 3rd job (base archers are Archer/Sniper male).
+    confidence: med
+    asset: ok
+  - vs_id: LUMINAIRE
+    vs_name: Luminaire Foscari
+    ro_en: Fairy
+    ro_ptbr: Fada [trad]
+    ro_ref: npc/4_f_fairy
+    start_weapon: PRISMATICMISS
+    why: Ancient fae light spirit of the lake -> RO fairy NPC; prismatic = all elements.
+    confidence: med
+    asset: ok
+  - vs_id: GENEVIEVE
+    vs_name: Genevieve Gruyère
+    ro_en: Professor (F)
+    ro_ptbr: Professora
+    ro_ref: body/female/professor_female
+    start_weapon: SHADOWSERVANT
+    why: Dark scholar-witch; Professor (Sage trans.) Fiber Lock slows like Shadow Servant.
+    confidence: med
+    asset: ok
+  - vs_id: MEGAGENEVIEVE
+    vs_name: Je-Ne-Viv
+    ro_en: Thanatos Phantom
+    ro_ptbr: Fantasma de Thanatos
+    ro_ref: monster/THANATOS
+    start_weapon: SHADOWSERVANT
+    why: World-eating sealed darkness = the sealed horror of Thanatos Tower (next to Rachel/Hugel).
+    confidence: med
+    asset: ok
+  - vs_id: CTRPCAKE
+    vs_name: Sammy
+    ro_en: Merchant Cat
+    ro_ptbr: Gato Mercador [trad]
+    ro_ref: npc/4_m_mercat1
+    start_weapon: STIGRANGATTI
+    why: Gains XP from coins = a merchant; cat keeps the base Gatti line (Stigrangatti).
+    confidence: low
+    asset: ok
+  - vs_id: GHOUL
+    vs_name: Rottin'Ghoul
+    ro_en: Ghoul
+    ro_ptbr: Carniçal
+    ro_ref: monster/GHOUL
+    start_weapon: PARTY
+    why: Rotten ghoul = RO Ghoul (same creature).
+    confidence: high
+    asset: ok
+  - vs_id: FS_FOLLOWER_LEGIONNAIRE
+    vs_name: Legionnaire (follower)
+    ro_en: Phantom Knight
+    ro_ptbr: Cavaleiro Fantasma [trad]
+    ro_ref: npc/4_m_knight_silver
+    start_weapon: SWORD
+    why: Follower clone of Maruto; silver knight NPC as the phantom.
+    confidence: low
+    asset: ok
+  weapons:
+  - vs_id: SPELL_STRING
+    vs_name: SpellString
+    ro_en: Spell Fist
+    ro_ptbr: Punho Arcano [trad]
+    ro_ref: skill SO_SPELLFIST
+    why: Strikes nearby enemies with charged spell.
+    confidence: high
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: SPELL_STREAM
+    vs_name: SpellStream
+    ro_en: Psychic Wave
+    ro_ptbr: Onda Psíquica
+    ro_ref: skill SO_PSYCHIC_WAVE
+    why: Expanding damaging zone.
+    confidence: high
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: SPELL_STRIKE
+    vs_name: SpellStrike
+    ro_en: Varetyr Spear
+    ro_ptbr: Lança de Varetyr
+    ro_ref: skill SO_VARETYR_SPEAR
+    why: Bolt on the nearest enemy.
+    confidence: high
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: SPELL_STROM
+    vs_name: SpellStrom
+    ro_en: Elemental Buster
+    ro_ptbr: Explosão Elemental [trad]
+    ro_ref: skill EM_ELEMENTAL_BUSTER
+    why: Union of three = Elemental Master 4th (Sorcerer -> EM job change).
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: SWORD
+    vs_name: Eskizzibur
+    ro_en: Bowling Bash
+    ro_ptbr: Impacto de Tyr
+    ro_ref: skill KN_BOWLINGBASH
+    why: Knight hits nearby enemies; retaliation kept from VS.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: SWORD2
+    vs_name: Legionnaire
+    ro_en: Servant Weapon
+    ro_ptbr: Arma Serva [trad]
+    ro_ref: skill DK_SERVANTWEAPON
+    why: Phantom blades that strike back = extra retaliation projectiles (Knight -> Dragon Knight).
+    confidence: high
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: FLASHARROW
+    vs_name: Flash Arrow
+    ro_en: Aimed Bolt
+    ro_ptbr: Disparo Certeiro [trad]
+    ro_ref: skill RA_AIMEDBOLT
+    why: Single crit-heavy arrow.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: FLASHARROW2
+    vs_name: Millionaire
+    ro_en: Arrow Storm
+    ro_ptbr: Tempestade de Flechas
+    ro_ref: skill RA_ARROWSTORM
+    why: Many extra arrows.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: PRISMATICMISS
+    vs_name: Prismatic Missile
+    ro_en: Tetra Vortex
+    ro_ptbr: Tetra Vortex
+    ro_ref: skill WL_TETRAVORTEX
+    why: Explosions of all four elements around the caster.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: PRISMATICMISS2
+    vs_name: Luminaire
+    ro_en: Duple Light
+    ro_ptbr: Luz Dupla [trad]
+    ro_ref: skill AB_DUPLELIGHT
+    why: Light-spirit evolution; extra holy light procs.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: SHADOWSERVANT
+    vs_name: Shadow Servant
+    ro_en: Fiber Lock
+    ro_ptbr: Teia de Aranha [trad]
+    ro_ref: skill PF_SPIDERWEB
+    why: Chance to slow/hold enemies.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: SHADOWSERVANT2
+    vs_name: Ophion
+    ro_en: Soul Burn
+    ro_ptbr: Queima de Almas [trad]
+    ro_ref: skill PF_SOULBURN
+    why: Burns the soul out (chance of instant kill).
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: PARTY
+    vs_name: Party Popper
+    ro_en: Sling Item
+    ro_ptbr: Arremessar Item [trad]
+    ro_ref: skill GN_SLINGITEM
+    why: Thrown bouncing goodies.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: ACADEMYBADGE
+    vs_name: Academy Badge
+    ro_en: Token of Siegfried
+    ro_ptbr: Emblema de Siegfried
+    ro_ref: item 7621 Token_Of_Siegfried
+    why: Revival token = the badge trades Growth for Revivals/Amount.
+    confidence: med
+    asset: 'assumed: icon 7621'
+  - vs_id: SHADOWSERVANT_COUNTER
+    ro_ref: -> SHADOWSERVANT
+    why: Silver Sliver = Gemini counterpart
+    confidence: high
+    asset: parent
+  - vs_id: PARTY_COUNTER
+    ro_ref: -> PARTY
+    why: Party Pooper = Gemini counterpart
+    confidence: high
+    asset: parent
+  stages:
+  - vs_id: FOSCARI
+    vs_name: Lake Foscari
+    ro_region: Rachel lakeside fields + Hugel coast (Odin shrine shore)
+    ro_maps:
+    - ra_fild01
+    - ra_fild12
+    - hu_fild05
+    ro_ground_textures: Rachel grass/lake shore floors, Hugel coast
+    vs_bundle: foscari (FoscariTexturePacked), background_foscari
+    bgm_normal:
+      vs_key: BGM_Foscari
+      ro: 98 (ra_fild01)
+    bgm_b:
+      vs_key: BGM_Foscari
+      ro: 98 (ra_fild01)
+    en_name: Rachel Lakes
+    ptbr_name: Lagos de Rachel [trad]
+    why: Enchanted lake forest with fae -> the lakes and woods around Rachel/Hugel; fairy NPCs and elementals fit.
+    confidence: med
+  - vs_id: FOSCARI2
+    vs_name: Abyss Foscari
+    ro_region: Abyss Lake dungeon (Hugel)
+    ro_maps:
+    - abyss_01
+    - abyss_02
+    - abyss_03
+    ro_ground_textures: Abyss Lake cave floors (dark, dragons)
+    vs_bundle: foscari2 (Foscari2TexturePacked)
+    bgm_normal:
+      vs_key: BGM_Foscari2
+      ro: 100 Abyss
+    bgm_b:
+      vs_key: BGM_Foscari2
+      ro: 100 Abyss
+    en_name: Abyss Lake
+    ptbr_name: Lago do Abismo
+    why: '"Abyss Foscari", sealed darkness under the lake = RO Abyss Lake under Hugel; literal name match.'
+    confidence: high
+  music:
+  - vs_id: BGM_Foscari
+    vs_title: Tides of the Foscari
+    clip: bgm_elrond_foscari
+    ro: 98 (ra_fild01)
+    why: Rachel fields
+  - vs_id: BGM_Magic
+    vs_title: An Introduction to Sorcery
+    clip: bgm_elrond_magic
+    ro: 70 (yuno)
+    why: Eleanor; Juno = Sage Academy city
+  - vs_id: BGM_War
+    vs_title: Slaying Dragons
+    clip: bgm_elrond_war
+    ro: 104 (veins)
+    why: Maruto; Veins canyon (dragons, warriors)
+  - vs_id: BGM_Deception
+    vs_title: Hide and Steal
+    clip: bgm_elrond_deception
+    ro: 105 (ve_fild01)
+    why: Keitha; Veins fields
+  - vs_id: BGM_Luminaire
+    vs_title: The Heart of the World
+    clip: bgm_elrond_luminaire
+    ro: 95 (ra_temple)
+    why: Luminaire; Freya temple (holy, light)
+  - vs_id: BGM_Foscari2
+    vs_title: Ashes of the Banished
+    clip: bgm_elrond_foscari2
+    ro: 100 Abyss
+    why: Abyss Lake; shared with base Lycaeum
+  - vs_id: BGM_Genevieve
+    vs_title: The World Eater
+    clip: bgm_elrond_genevieve
+    ro: 108 (tha_t07)
+    why: Thanatos Tower top = Je-Ne-Viv
+  extra_clips:
+    bgm_elrond_hb: not in musicData (unused/jingle?) -> 99 (hu_fild05) if wired
+    bgm_nature: ambient -> keep or RO ambient wav
+  tilesets:
+    FoscariTexturePacked:
+    - ra_fild01
+    - ra_fild12
+    - hu_fild05
+    Foscari2TexturePacked:
+    - abyss_01
+    - abyss_03
+    _note: 'CONFLICT: base maps FoscariTexturePacked (Westwoods) to Rock Ridge. DLC ships its own foscaritexturepacked bundle; decide which look wins if the atlas is shared.'
+  items:
+  - vs_id: RELIC_MAP_FS
+    vs_name: Lake Foscari Map
+    ro_en: Treasure Map4
+    ro_ptbr: Mapa do Tesouro IV
+    ro_ref: '7965'
+    why: already in base items.yaml; listed for completeness
+    confidence: medium
+    asset: assumed
+  - vs_id: FOSCARI_SEAL_1
+    vs_name: Foscari Seal 1 (prop)
+    ro_en: Sealed Energy (black)
+    ro_ptbr: Energia Selada [trad]
+    ro_ref: npc 4_energy_black
+    why: Seal props that contain the darkness; dark energy orb NPC
+    confidence: low
+    asset: ok
+  - vs_id: FOSCARI_SEAL_2
+    vs_name: Foscari Seal 2 (prop)
+    ro_en: Sealed Energy (black)
+    ro_ptbr: Energia Selada [trad]
+    ro_ref: npc 4_energy_black
+    why: same as seal 1
+    confidence: low
+    asset: ok
+  - vs_id: FOSCARI_SEAL_3
+    vs_name: Foscari Seal 3 (prop)
+    ro_en: Sealed Energy (black)
+    ro_ptbr: Energia Selada [trad]
+    ro_ref: npc 4_energy_black
+    why: same as seal 1
+    confidence: low
+    asset: ok
+chalcedony:
+  episode: Emergency Meeting -> "Kiel Hyre's robot lab" (Verus ruins + Kiel Hyre factory + Lighthalzen labs); Genetic/Mechanic/Meister line, robots
+  characters:
+  - vs_id: C1_CREWMATE
+    vs_name: Crewmate Dino
+    ro_en: Genetic (M)
+    ro_ptbr: Bioquímico
+    ro_ref: body/male/genetic_male
+    start_weapon: C1_REPORT1
+    why: Default lab crew member; Genetic cart skills push enemies back.
+    confidence: low
+    asset: ok
+  - vs_id: C1_ENGINEER
+    vs_name: Engineer Gino
+    ro_en: Mechanic (M)
+    ro_ptbr: Mecânico
+    ro_ref: body/male/mechanic_male
+    start_weapon: C1_SWIPECARD1
+    why: Engineer = Mechanic (out of Madogear; the riding body is base SPACEDUDE).
+    confidence: high
+    asset: ok
+  - vs_id: C1_GHOST
+    vs_name: Ghost Lino
+    ro_en: Ghostring
+    ro_ptbr: Ghostring
+    ro_ref: monster/GHOSTRING
+    start_weapon: C1_MEDICAL1
+    why: Untouchable ghost that only heals; Ghostring is RO's friendly-looking ghost.
+    confidence: high
+    asset: ok
+  - vs_id: C1_SHAPESHIFTER
+    vs_name: Shapeshifter Nino
+    ro_en: Shadow Chaser (M)
+    ro_ptbr: Renegado
+    ro_ref: body/male/shadow_chaser_male
+    start_weapon: C1_VENT1
+    why: Copies other characters' bonuses = Shadow Chaser Reproduce/Auto Shadow Spell.
+    confidence: high
+    asset: ok
+  - vs_id: C1_GUARDIAN
+    vs_name: Guardian Pina
+    ro_en: Imperial Guard (F)
+    ro_ptbr: Guarda Imperial [trad]
+    ro_ref: body/female/IMPERIAL_GUARD_female
+    start_weapon: C1_GARBA1
+    why: 'Protector who shields nearby allies = Royal Guard line (4th: Imperial Guard).'
+    confidence: med
+    asset: ok
+  - vs_id: C1_IMPOSTOR
+    vs_name: Impostor Rina
+    ro_en: Guillotine Cross (F)
+    ro_ptbr: Sicária
+    ro_ref: body/female/guillotine_cross_female
+    start_weapon: C1_TONGUE1
+    why: The hidden killer = Guillotine Cross (Assassin 3rd).
+    confidence: high
+    asset: ok
+  - vs_id: C1_SCIENTIST
+    vs_name: Scientist Mina
+    ro_en: Biolo (F)
+    ro_ptbr: Bióloga [trad]
+    ro_ref: body/female/BIOLO_female
+    start_weapon: C1_SAMPLES1
+    why: Lab scientist with samples = Genetic 4th (Biolo).
+    confidence: med
+    asset: ok
+  - vs_id: C1_HORSE
+    vs_name: Horse
+    ro_en: Nightmare
+    ro_ptbr: Pesadelo
+    ro_ref: monster/NIGHTMARE
+    start_weapon: C1_HATCOLLECTION1
+    why: Joke horse character = RO's horse monster.
+    confidence: med
+    asset: ok
+  - vs_id: C1_MEGAIMPOSTOR
+    vs_name: Impostor (revealed)
+    ro_en: Ancient Mimic
+    ro_ptbr: Mímico Ancestral
+    ro_ref: monster/ANCIENT_MIMIC
+    start_weapon: VOID
+    why: '"Wasn''t me": the thing pretending to be a chest, with a big tongue.'
+    confidence: med
+    asset: ok
+  weapons:
+  - vs_id: C1_REPORT1
+    vs_name: Reporting Device
+    ro_en: Cart Tornado
+    ro_ptbr: Tornado de Carrinho
+    ro_ref: skill GN_CART_TORNADO
+    why: Damages and pushes enemies away.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: C1_REPORT2
+    vs_name: Emergency Meeting
+    ro_en: Howling of Mandragora
+    ro_ptbr: Uivo de Mandrágora [trad]
+    ro_ref: skill GN_MANDRAGORA
+    why: The alarm scream that wipes a whole enemy type.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: C1_SWIPECARD1
+    vs_name: Card Swipe
+    ro_en: Boost Knuckle
+    ro_ptbr: Punho Foguete [trad]
+    ro_ref: skill NC_BOOSTKNUCKLE
+    why: Repeated machine hits.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: C1_SWIPECARD2
+    vs_name: Wire Fix
+    ro_en: Spark Blaster
+    ro_ptbr: Disparo de Faíscas [trad]
+    ro_ref: skill MT_SPARK_BLASTER
+    why: Electric wires over a larger area (Mechanic -> Meister).
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: C1_MEDICAL1
+    vs_name: Medical Scan
+    ro_en: Coluceo Heal
+    ro_ptbr: Cura Coluceo
+    ro_ref: skill AB_CHEAL
+    why: Area heal that also reaches other players.
+    confidence: high
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: C1_MEDICAL2
+    vs_name: Paranormal Scan
+    ro_en: Canto Candidus
+    ro_ptbr: Canto Candidus
+    ro_ref: skill AB_CANTO
+    why: Random stat boost -> stat song/buff.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: C1_VENT1
+    vs_name: Just Vent
+    ro_en: Feint Bomb
+    ro_ptbr: Bomba Fantasma [trad]
+    ro_ref: skill SC_FEINTBOMB
+    why: Leaves a blast and teleports away.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: C1_VENT2
+    vs_name: Ejection
+    ro_en: Maelstrom
+    ro_ptbr: Redemoinho [trad]
+    ro_ref: skill SC_MAELSTROM
+    why: Draws in all enemies.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: C1_GARBA1
+    vs_name: Clear Debris
+    ro_en: Earth Drive
+    ro_ptbr: Impulso Terrestre [trad]
+    ro_ref: skill LG_EARTHDRIVE
+    why: Ground zone that pushes enemies.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: C1_GARBA2
+    vs_name: Clear Asteroids
+    ro_en: Ray of Genesis
+    ro_ptbr: Raio da Gênese
+    ro_ref: skill LG_RAYOFGENESIS
+    why: Rays raining down = asteroid hitboxes.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: C1_TONGUE1
+    vs_name: Killer Tongue
+    ro_en: Cross Impact
+    ro_ptbr: Impacto Cruzado
+    ro_ref: skill GC_CROSSIMPACT
+    why: Fast hits in front of you.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: C1_TONGUE2
+    vs_name: Assassination
+    ro_en: Dark Illusion
+    ro_ptbr: Ilusão Sombria [trad]
+    ro_ref: skill GC_DARKILLUSION
+    why: Blinks onto the strongest enemy and kills it.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: C1_SAMPLES1
+    vs_name: Propellant Sampling
+    ro_en: Spore Explosion
+    ro_ptbr: Explosão de Esporos
+    ro_ref: skill GN_SPORE_EXPLOSION
+    why: Zones that explode on touch.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: C1_SAMPLES2
+    vs_name: Rocket Science
+    ro_en: Explosive Powder
+    ro_ptbr: Pó Explosivo [trad]
+    ro_ref: skill BO_EXPLOSIVE_POWDER
+    why: Biolo 4th finisher (verify AEGIS id).
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: C1_HATCOLLECTION1
+    vs_name: Hats
+    ro_en: Hat collection
+    ro_ptbr: Coleção de Chapéus [trad]
+    ro_ref: item 5060 Party_Hat (+ random RO headgear icons)
+    why: Bouncing hats with random properties = random RO headgears.
+    confidence: med
+    asset: 'ok: headgear drop sprites'
+  - vs_id: C1_TONGUE1_COUNTER
+    vs_name: Silver Tongue
+    ro_en: Counter Slash
+    ro_ptbr: Contra-Ataque Cortante [trad]
+    ro_ref: skill GC_COUNTERSLASH
+    why: Hits behind you.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: C1_SHRINK_CREWMA
+    vs_name: Shrunk Crewmate
+    ro_en: Venatu (mini)
+    ro_ptbr: Venatu
+    ro_ref: monster/VENATU
+    why: Tiny Juperos robot that "shouts".
+    confidence: low
+    asset: 'ok: monster sprite'
+  - vs_id: C1_SHRINK_ENGINE
+    vs_name: Shrunk Engineer
+    ro_en: Dimik (mini)
+    ro_ptbr: Dimik
+    ro_ref: monster/DIMIK
+    why: Small robot that electrocutes.
+    confidence: low
+    asset: 'ok: monster sprite'
+  - vs_id: C1_SHRINK_GHOSTT
+    vs_name: Shrunk Ghost
+    ro_en: Ghostring (mini)
+    ro_ptbr: Ghostring
+    ro_ref: monster/GHOSTRING
+    why: Frightening ghost freezes enemies.
+    confidence: med
+    asset: 'ok: monster sprite'
+  - vs_id: C1_SHRINK_SHAPES
+    vs_name: Shrunk Shapeshifter
+    ro_en: Alicel (mini)
+    ro_ptbr: Alicel
+    ro_ref: monster/ALICEL
+    why: Transforming Kiel robot flings parts.
+    confidence: low
+    asset: 'ok: monster sprite'
+  - vs_id: C1_SHRINK_GUARDI
+    vs_name: Shrunk Guardian
+    ro_en: Archdam (mini)
+    ro_ptbr: Archdam
+    ro_ref: monster/ARCHDAM
+    why: Armored robot that blocks damage.
+    confidence: low
+    asset: 'ok: monster sprite'
+  - vs_id: C1_SHRINK_IMPOST
+    vs_name: Shrunk Impostor
+    ro_en: Aliza (mini)
+    ro_ptbr: Aliza
+    ro_ref: monster/ALIZA
+    why: Kiel maid robot with a sudden stab.
+    confidence: low
+    asset: 'ok: monster sprite'
+  - vs_id: C1_SHRINK_SCIENT
+    vs_name: Shrunk Scientist
+    ro_en: Plasma (mini)
+    ro_ptbr: Plasma
+    ro_ref: monster/PLASMA_Y
+    why: Throws "science" = plasma orb.
+    confidence: low
+    asset: 'ok: monster sprite'
+  - vs_id: C1_SHRINK_HORSEE
+    vs_name: Shrunk Horse
+    ro_en: Nightmare (mini)
+    ro_ptbr: Pesadelo
+    ro_ref: monster/NIGHTMARE
+    why: Mini of the Horse character.
+    confidence: med
+    asset: 'ok: monster sprite'
+  stages:
+  - vs_id: POLUS
+    vs_name: Polus
+    ro_region: Verus ruins + Kiel Hyre robot factory (Lighthalzen labs)
+    ro_maps:
+    - verus01
+    - verus03
+    - kh_kiehl01
+    - lhz_dun03
+    ro_ground_textures: Verus lab ruins, Kiel Hyre factory metal floors
+    vs_bundle: polus (+collab1_tileset1_v6, collab1parallax*); stageData tileset key = ForestTexturePacked
+    bgm_normal:
+      vs_key: BGM_CAL_MainTheme
+      ro: 161 (verus01)
+    bgm_b:
+      vs_key: BGM_CAL_MainTheme
+      ro: 161 (verus01)
+    en_name: Verus Laboratory
+    ptbr_name: Laboratório de Verus [trad]
+    why: Sci-fi research base full of crew and impostors -> RO's ruined lab city with robots and experiments (Verus) and Kiel's robot factory.
+    confidence: med
+  music:
+  - vs_id: BGM_CAL_MainTheme
+    vs_title: Emergency Meeting
+    clip: BGM_VICA_CA_01
+    ro: 161 (verus01)
+    why: clip order assumed = musicData order (verify)
+  - vs_id: BGM_CAL_HideSeek
+    vs_title: Hide and Survive
+    clip: BGM_VICA_CA_02
+    ro: 101 (kh_mansion)
+    why: Impostor; Kiel mansion
+  - vs_id: BGM_CAL_NoDucks
+    vs_title: No Ducks Among Us
+    clip: BGM_VICA_CA_03
+    ro: 89 (kh_kiehl01)
+    why: Engineer; factory. Shared with base Eudaimonia (89)
+  - vs_id: BGM_CAL_NoAliens
+    vs_title: No Pirates Among Us
+    clip: BGM_VICA_CA_04
+    ro: 164 (verus03)
+    why: Crewmate
+  - vs_id: BGM_CAL_NoGhosts
+    vs_title: No Ghosts Among Us
+    clip: BGM_VICA_CA_05
+    ro: 124 (lhz_dun_n)
+    why: Ghost; dark Bio Lab
+  - vs_id: BGM_CAL_NoVamps
+    vs_title: No Vampires Among Us
+    clip: BGM_VICA_CA_06
+    ro: 163 (1@uns)
+  tilesets:
+    Collab1_Tileset1_V6:
+    - verus01
+    - verus03
+    - kh_kiehl01
+    ForestTexturePacked: (stageData key; base -> Payon. If Polus really draws Forest, the floor stays Payon - check which atlas the polus scene binds)
+  items:
+  - vs_id: RELIC_MAP_CHAL
+    vs_name: Polus Replica Map
+    ro_en: Realm Map (magic)
+    ro_ptbr: Mapa do Reino
+    ro_ref: '25101'
+    why: already in base items.yaml; listed for completeness
+    confidence: low
+    asset: unverified
+firstblood:
+  episode: Operation Guns -> "Rekenber war front" (Lighthalzen/Einbroch frontier, Rachel border); Gunslinger/Rebellion/Night Watch, Einbroch soldiers, Kiel robots
+  characters:
+  - vs_id: FB_BILLRIZER
+    vs_name: Bill Rizer
+    ro_en: Rebellion (M)
+    ro_ptbr: Insurgente
+    ro_ref: body/male/rebellion_male_기관총 (machine-gun variant; fallback rebellion_male)
+    start_weapon: FB_FULLAUTO
+    why: Lead commando with full-auto rifle = Rebellion machine-gun body.
+    confidence: high
+    asset: ok
+  - vs_id: FB_LANCE
+    vs_name: Lance Bean
+    ro_en: Gunslinger (M)
+    ro_ptbr: Justiceiro
+    ro_ref: body/male/건너_male (raw mojibake folder name)
+    start_weapon: FB_RAPIDFIRE
+    why: Second commando, rapid fire = Gunslinger (base Gunslinger is female).
+    confidence: high
+    asset: ok
+  - vs_id: FB_ARIANA
+    vs_name: Ariana
+    ro_en: Rebellion on Peco (F)
+    ro_ptbr: Insurgente (montaria) [trad]
+    ro_ref: body/female/peco_rebellion_female
+    start_weapon: FB_SPREAD
+    why: Movement speed -> armor = mounted gunner; distinct from base Rebellion (F).
+    confidence: med
+    asset: ok
+  - vs_id: FB_LUCIA
+    vs_name: Lucia Zero
+    ro_en: Meister (F)
+    ro_ptbr: Mestra [trad]
+    ro_ref: body/female/MEISTER_female
+    start_weapon: FB_LASER
+    why: Cyborg-tech soldier with a laser = Meister (Mechanic 4th) Triple Laser.
+    confidence: med
+    asset: ok
+  - vs_id: FB_BRADFANG
+    vs_name: Brad Fang
+    ro_en: Werewolf
+    ro_ptbr: Lobisomem
+    ro_ref: npc/were_wolf
+    start_weapon: FB_FIREARM
+    why: Cyborg werewolf; strong up close.
+    confidence: high
+    asset: ok
+  - vs_id: FB_BROWNY
+    vs_name: Browny
+    ro_en: Kiel Robot (mini)
+    ro_ptbr: Robô [trad]
+    ro_ref: npc/4_scr_mt_robots
+    start_weapon: FB_SONIC
+    why: Tiny combat robot; RO robot NPC sprite (verify it has walk frames).
+    confidence: low
+    asset: ok
+  - vs_id: FB_SHEENA
+    vs_name: Sheena Etranzi
+    ro_en: Windhawk (F)
+    ro_ptbr: Falcoeira [trad]
+    ro_ref: body/female/WINDHAWK_female
+    start_weapon: FB_BLADECROSSBOW
+    why: Crossbow boomerang = Windhawk Hawk Boomerang.
+    confidence: med
+    asset: ok
+  - vs_id: FB_PROBO
+    vs_name: Probotector
+    ro_en: Apocalypse
+    ro_ptbr: Apocalipse
+    ro_ref: monster/APOCALIPS
+    start_weapon: FB_PRISMCUTLASS
+    why: Robot soldier = Juperos war robot.
+    confidence: med
+    asset: ok
+  - vs_id: FB_STANLEY
+    vs_name: Stanley
+    ro_en: Einbroch Soldier
+    ro_ptbr: Soldado de Einbroch [trad]
+    ro_ref: npc/4_m_ein_soldier
+    start_weapon: FB_HOMING
+    why: Soldier with homing missiles; Einbroch army NPC.
+    confidence: low
+    asset: ok
+  - vs_id: FB_NEWT
+    vs_name: Newt Plissken
+    ro_en: Rebellion Veteran
+    ro_ptbr: Insurgente Veterano [trad]
+    ro_ref: npc/4_m_rebellion2
+    start_weapon: FB_DIVERMINES
+    why: Mines are a Rebellion skill (Howling Mine); Rebellion NPC look.
+    confidence: low
+    asset: ok
+  - vs_id: FB_COLONEL
+    vs_name: Colonel Bahamut
+    ro_en: Lighthalzen Guard Captain
+    ro_ptbr: Capitão da Guarda [trad]
+    ro_ref: npc/4_m_lgtguard
+    start_weapon: FB_METALCLAW
+    why: Rogue colonel of a corporate army = Rekenber/Lighthalzen guard.
+    confidence: low
+    asset: ok
+  - vs_id: FB_SIMONDO
+    vs_name: Simondo
+    ro_en: Taekwon (M)
+    ro_ptbr: Taekwon
+    ro_ref: body/male/taekwon_male
+    start_weapon: VOID
+    why: '"Doesn''t need weapons" = the barehanded Taekwon kid.'
+    confidence: med
+    asset: ok
+  weapons:
+  - vs_id: FB_FULLAUTO
+    vs_name: Full Auto
+    ro_en: Gatling Fever
+    ro_ptbr: Febre de Gatling [trad]
+    ro_ref: skill GS_GATLINGFEVER
+    why: Fully automatic fire.
+    confidence: high
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: FB_PROTOTYPE_A
+    vs_name: Prototype A
+    ro_en: Vigilante at Night
+    ro_ptbr: Vigilante Noturno [trad]
+    ro_ref: skill NW_THE_VIGILANTE_AT_NIGHT
+    why: Night Watch (gun 4th) sustained fire.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: FB_RAPIDFIRE
+    vs_name: Rapid Fire
+    ro_en: Chain Action
+    ro_ptbr: Ação em Cadeia [trad]
+    ro_ref: skill GS_CHAINACTION
+    why: Rapid stream where you face.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: FB_PROTOTYPE_B
+    vs_name: Prototype B
+    ro_en: Wild Fire
+    ro_ptbr: Fogo Selvagem [trad]
+    ro_ref: skill NW_WILD_FIRE
+    why: Night Watch barrage.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: FB_SPREAD
+    vs_name: Spread Shot
+    ro_en: Spread Attack
+    ro_ptbr: Ataque Disperso [trad]
+    ro_ref: skill GS_SPREADATTACK
+    why: Wide shotgun spread; literal.
+    confidence: high
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: FB_PROTOTYPE_C
+    vs_name: Prototype C
+    ro_en: Shatter Storm
+    ro_ptbr: Tempestade Estilhaçante [trad]
+    ro_ref: skill RL_S_STORM
+    why: Rebellion wide spread.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: FB_LASER
+    vs_name: C-U-Laser
+    ro_en: Triple Laser
+    ro_ptbr: Laser Triplo [trad]
+    ro_ref: skill MT_TRIPLE_LASER
+    why: Piercing laser.
+    confidence: high
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: FB_PROTONBEAM
+    vs_name: Proton Beam
+    ro_en: Dual Cannon Fire
+    ro_ptbr: Fogo de Canhão Duplo [trad]
+    ro_ref: skill ABR_DUAL_CANNON_FIRE
+    why: Meister's ABR robot cannon.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: FB_FIREARM
+    vs_name: Fire Arm
+    ro_en: Flame Launcher
+    ro_ptbr: Lança-Chamas [trad]
+    ro_ref: skill NC_FLAMELAUNCHER
+    why: Close-range flamethrower.
+    confidence: high
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: FB_FIREWALL
+    vs_name: Fire L3G5
+    ro_en: Fire Wall
+    ro_ptbr: Barreira de Fogo
+    ro_ref: skill MG_FIREWALL
+    why: Lingering fire wall.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: FB_SONIC
+    vs_name: Sonic Bloom
+    ro_en: Metallic Sound
+    ro_ptbr: Som Metálico [trad]
+    ro_ref: skill WM_METALICSOUND
+    why: Expanding sound/energy rings.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: FB_WAVE
+    vs_name: Wave Beam
+    ro_en: Infinity Buster
+    ro_ptbr: Disparo Infinito [trad]
+    ro_ref: skill ABR_INFINITY_BUSTER
+    why: Charged robot shot when standing still.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: FB_HOMING
+    vs_name: Homing
+    ro_en: Tracking
+    ro_ptbr: Rastreamento [trad]
+    ro_ref: skill GS_TRACKING
+    why: Homing shots; literal name.
+    confidence: high
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: FB_MULTISTAGE
+    vs_name: Multistage Missile
+    ro_en: Mission Bombard
+    ro_ptbr: Bombardeio [trad]
+    ro_ref: skill NW_MISSION_BOMBARD
+    why: Night Watch missile barrage.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: FB_DIVERMINES
+    vs_name: Diver Mines
+    ro_en: Howling Mine
+    ro_ptbr: Mina Uivante [trad]
+    ro_ref: skill RL_H_MINE
+    why: Exploding mines; literal.
+    confidence: high
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: FB_CRUSH
+    vs_name: Atmo-Torpedo
+    ro_en: Grenades Dropping
+    ro_ptbr: Chuva de Granadas [trad]
+    ro_ref: skill NW_GRENADES_DROPPING
+    why: Damaging blast zones.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: FB_BLADECROSSBOW
+    vs_name: Blade Crossbow
+    ro_en: Hawk Boomerang
+    ro_ptbr: Bumerangue do Falcão [trad]
+    ro_ref: skill WH_HAWKBOOMERANG
+    why: Aims at nearest, returns like a boomerang.
+    confidence: high
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: FB_CROSSBOWCRASH
+    vs_name: BFC2000
+    ro_en: Gale Storm
+    ro_ptbr: Tempestade de Vento [trad]
+    ro_ref: skill WH_GALESTORM
+    why: Windhawk storm of bolts.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: FB_PRISMCUTLASS
+    vs_name: Prism Cutlass
+    ro_en: Cold Slower
+    ro_ptbr: Retardador Gélido [trad]
+    ro_ref: skill NC_COLDSLOWER
+    why: Horizontal cold blast that may freeze.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: FB_TIMEWARP
+    vs_name: Time Warp
+    ro_en: Jack Frost
+    ro_ptbr: Jack Frost
+    ro_ref: skill WL_JACKFROST
+    why: Damages and freezes all around.
+    confidence: high
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: FB_METALCLAW
+    vs_name: Metal Claw
+    ro_en: Rolling Cutter
+    ro_ptbr: Lâmina Giratória [trad]
+    ro_ref: skill GC_ROLLINGCUTTER
+    why: Claw marks that stack and linger.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: FB_BIGFUZZYFIST
+    vs_name: Big Fuzzy Fist
+    ro_en: Asura Strike
+    ro_ptbr: Punho Supremo de Asura
+    ro_ref: skill MO_EXTREMITYFIST
+    why: Smashes the strongest enemy.
+    confidence: high
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: FB_WEAPONPU
+    vs_name: Weapon Power-Up
+    ro_en: Enriched Oridecon
+    ro_ptbr: Oridecon Enriquecido
+    ro_ref: item 7620 Enriched_Oridecon
+    why: Upgrades a weapon (refine); base TETRAFORCE is plain Oridecon.
+    confidence: med
+    asset: 'assumed: icon 7620'
+  - vs_id: FB_FIREEXPLOSION
+    vs_name: First Blood Explosion (hidden)
+    ro_en: Explosion fx
+    ro_ptbr: Explosão
+    ro_ref: effect (bomb .str / fire explosion)
+    why: Hidden hazard damage source; fx only.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: FB_EXPLOBARRELHAZARD
+    vs_name: Explosive Barrel (hidden)
+    ro_en: Bomb Poring blast
+    ro_ptbr: Explosão do Poring Bomba [trad]
+    ro_ref: -> items.yaml props FB_EXPLOBARREL (Bomb Poring)
+    why: Damage source of the barrel prop.
+    confidence: med
+    asset: parent prop
+  - vs_id: FB_EXPLOCARHAZARD
+    vs_name: Explosive Car (hidden)
+    ro_en: Magic Gear Cart blast
+    ro_ptbr: Explosão do Carrinho [trad]
+    ro_ref: -> items.yaml props FB_EXPLOCAR
+    why: Damage source of the car prop.
+    confidence: low
+    asset: parent prop
+  - vs_id: FB_PRISMCUTLASS_COUNTER
+    ro_ref: -> FB_PRISMCUTLASS
+    why: helper/counter entry; reuses parent art and name
+    confidence: high
+    asset: parent
+  stages:
+  - vs_id: FB_GALUGA
+    vs_name: Hectic Highway (Galuga jungle)
+    ro_region: Lighthalzen fields / Einbroch frontier (Rekenber war zone)
+    ro_maps:
+    - lhz_fild01
+    - lhz_fild02
+    - ein_fild06
+    ro_ground_textures: Lighthalzen/Einbroch field floors (dry grass, industrial)
+    vs_bundle: fb_galuga (+fb_unifiedtileset, backgroundhighway); stageData tileset key = CoopTexturePacked
+    bgm_normal:
+      vs_key: BGM_FB_COVER_00_Jung
+      ro: 91 (lhz_fild01)
+    bgm_b:
+      vs_key: BGM_FB_K00_Jung
+      ro: 72 (yuno_fild01)
+    en_name: Rekenber Front
+    ptbr_name: Front de Rekenber [trad]
+    why: Soldiers vs alien/bio-weapons -> Rekenber corporation's war zone around Lighthalzen and its Bio Lab mutants; Einbroch soldiers.
+    confidence: med
+  - vs_id: FB_HIGHWAY
+    vs_name: A highway
+    ro_region: Juno-Lighthalzen highway (side-scrolling road)
+    ro_maps:
+    - lhz_fild02
+    - yuno_fild01
+    ro_ground_textures: road/field floors (tiling horizontal road)
+    vs_bundle: fbhighway / fbhighway1 (tiling road)
+    bgm_normal:
+      vs_key: BGM_FB_COVER_05_Yoro
+      ro: 31 (mjolnir_01)
+    bgm_b:
+      vs_key: BGM_FB_COVER_05_Yoro
+      ro: 31 (mjolnir_01)
+    en_name: Rekenber Highway
+    ptbr_name: Rodovia de Rekenber [trad]
+    why: Horizontal chase road -> the route linking Juno and Lighthalzen.
+    confidence: low
+  music:
+  - vs_id: BGM_FB_COVER_00_Jung
+    vs_title: Battle in the Jungle - VS version
+    clip: bgm_vica_fb_jungle
+    ro: 91 (lhz_fild01)
+  - vs_id: BGM_FB_COVER_02_Wate
+    vs_title: Bloody Falls - VS version
+    clip: bgm_vica_fb_waterfall
+    ro: 87 (ein_fild01)
+    why: Bill
+  - vs_id: BGM_FB_COVER_11_Fort
+    vs_title: Military Fortress - VS version
+    clip: bgm_vica_fb_fortress
+    ro: 90 (lighthalzen)
+  - vs_id: BGM_FB_COVER_06_Hard
+    vs_title: The Hard Corps - VS version
+    clip: bgm_vica_fb_hardcore
+    ro: 132 March with Irish Whistle
+    why: job_gun = Gunslinger guild; shared with base
+  - vs_id: BGM_FB_COVER_05_Yoro
+    vs_title: Yoru no Nikusyokujyu - VS version
+    clip: bgm_vica_fb_yoru
+    ro: 31 (mjolnir_01)
+  - vs_id: BGM_FB_COVER_09_Gtra
+    vs_title: GTR Attack! - VS version
+    clip: bgm_vica_fb_attack
+    ro: 124 (lhz_dun_n)
+  - vs_id: BGM_FB_K00_Jung
+    vs_title: Battle in the Jungle - Normal
+    clip:
+    - 16 Jungle Normal_intro
+    - 16 Jungle Normal_loop
+    ro: 72 (yuno_fild01)
+  - vs_id: BGM_FB_K08_JNHD
+    vs_title: Battle in the Jungle - Hard
+    clip:
+    - 17 Jungle Hard_intro
+    - 17 Jungle Hard_loop
+    ro: 71 (yuno_fild02)
+  - vs_id: BGM_FB_K02_Wate
+    vs_title: Bloody Falls
+    clip:
+    - 21 Waterfall_intro
+    - 21 Waterfall_loop
+    ro: 97 (ra_fild02)
+    why: Rachel border
+  - vs_id: BGM_FB_K06_Hard
+    vs_title: The Hard Corps
+    clip:
+    - The Hard Corps_intro
+    - The Hard Corps_loop
+    ro: 126 (mid_camp)
+    why: military camp
+  - vs_id: BGM_FB_K05_Yoro
+    vs_title: Yoru no Nikusyokujyu
+    clip:
+    - Yoru no Nikusyokujyu_intro
+    - Yoru no Nikusyokujyu_loop
+    ro: 34 (mjolnir_05)
+  - vs_id: BGM_FB_K09_Gtra
+    vs_title: GTR Attack!
+    clip:
+    - 15 GTR Attack!_intro
+    - 15 GTR Attack!_loop
+    ro: 160 (1@mcd)
+  - vs_id: BGM_FB_K01_Spir
+    vs_title: A Spirit of Bushi
+    clip:
+    - 04 A Spirit of Bushi_intro
+    - 04 A Spirit of Bushi_loop
+    ro: 82 (ayo_dun01)
+  - vs_id: BGM_FB_K04_Blue
+    vs_title: Blue Gale
+    clip:
+    - 22 Contra the Blue Gale_intro
+    - 22 Contra the Blue Gale_loop
+    ro: 117 (mosk_fild01)
+  - vs_id: BGM_FB_K03_Zeph
+    vs_title: Zephyr
+    clip:
+    - 09 Zephyr_intro
+    - 09 Zephyr_loop
+    ro: 140 (bif_fild01)
+  - vs_id: BGM_FB_K07_Some
+    vs_title: Something Wonderful
+    clip:
+    - 14 Something Wonderful_intro
+    - 14 Something Wonderful_loop
+    ro: 131 (manuk)
+  - vs_id: BGM_FB_K10_Moon
+    vs_title: Moonlit Army
+    clip:
+    - 23 Moonlit Army_intro
+    - 23 Moonlit Army_loop
+    ro: 129 (nyd_dun01)
+  - vs_id: BGM_FB_K12_Last
+    vs_title: Last Springsteen
+    clip:
+    - 24 Last Springsteen_intro
+    - 24 Last Springsteen_loop
+    ro: 159 (1@ge_sn)
+  - vs_id: BGM_FB_K13_Rave
+    vs_title: R.A.V.E.
+    clip:
+    - 07 R.A.V.E._intro
+    - 07 R.A.V.E._loop
+    ro: 147 (1@cash)
+  tilesets:
+    FB_Unified Tileset:
+    - lhz_fild01
+    - lhz_fild02
+    - ein_fild06
+    CoopTexturePacked: (stageData key for both FB stages; base -> Hugel. Check which atlas the FB scenes bind)
+  items:
+  - vs_id: FB_RAPIDFIRE
+    vs_name: Rapid Fire (pickup)
+    ro_en: Awakening Potion
+    ro_ptbr: Poção do Despertar
+    ro_ref: '656'
+    why: Temporary attack-speed boost = doubles Speed/halves Cooldown
+    confidence: high
+    asset: ok
+  - vs_id: FB_BARRIER
+    vs_name: Barrier (pickup)
+    ro_en: LV5 Assumptio Scroll
+    ro_ptbr: Pergaminho de Assumptio Nv.5
+    ro_ref: '12218'
+    why: Temporary damage shield
+    confidence: med
+    asset: assumed
+  - vs_id: FB_GRENADE
+    vs_name: Grenade (pickup)
+    ro_en: Bottle Grenade
+    ro_ptbr: Granada de Garrafa [trad]
+    ro_ref: '7135'
+    why: Thrown explosive hitting everything on screen
+    confidence: high
+    asset: ok
+  - vs_id: RELIC_MAP_FB
+    vs_name: Galuga Jungle Map
+    ro_en: Realm Map (sword)
+    ro_ptbr: Mapa do Reino
+    ro_ref: '25100'
+    why: already in base items.yaml; listed for completeness
+    confidence: low
+    asset: unverified
+emeralds:
+  episode: Emerald Diorama -> "Payon-Comodo diorama" (Payon town/caves, Comodo beach, Lasagna = Doram homeland); expanded/4th jobs + Doram
+  characters:
+  - vs_id: EME_RAPIERDUAL
+    vs_name: Tsunanori Mido
+    ro_en: Lord Knight (M)
+    ro_ptbr: Lorde
+    ro_ref: body/male/lord_knight_male
+    start_weapon: EME_RAPIER1
+    why: Fencer with a 3-tier rapier line (Pierce -> Spiral Pierce -> Charging Pierce); base LK is female.
+    confidence: med
+    asset: ok
+  - vs_id: EME_PUNCHKICK
+    vs_name: Bonnie Blair
+    ro_en: Sura (F)
+    ro_ptbr: Shura
+    ro_ref: body/female/sura_female
+    start_weapon: EME_PUNCH1
+    why: Punch/kick fighter = Monk line (base Monk is male).
+    confidence: high
+    asset: ok
+  - vs_id: EME_CANNONGUN
+    vs_name: Formina Franklyn
+    ro_en: Rebellion (F, gatling)
+    ro_ptbr: Insurgente
+    ro_ref: body/female/rebellion_female_기관총
+    start_weapon: EME_CANNON1
+    why: Machine-gun girl; gatling variant of the Rebellion body (base EX_ZIAPPUNTA uses the plain one).
+    confidence: med
+    asset: ok
+  - vs_id: EME_MECHKATANA
+    vs_name: Diva No. 5
+    ro_en: Meister on Madogear (F)
+    ro_ptbr: Mestra (Madogear) [trad]
+    ro_ref: body/female/MEISTER_MADOGEAR1_female
+    start_weapon: EME_MECH1
+    why: Mech pilot with missiles; Meister Madogear body (base madogear bodies are magic_gear_*).
+    confidence: med
+    asset: ok
+  - vs_id: EME_MAGICALL
+    vs_name: Ameya Aisling
+    ro_en: Arch Mage (F)
+    ro_ptbr: Arquimaga Suprema [trad]
+    ro_ref: body/female/arch_mage_female
+    start_weapon: EME_MAGIC1
+    why: Witch with rings of five elements = Wizard 4th.
+    confidence: med
+    asset: ok
+  - vs_id: EME_SWORDBITE
+    vs_name: Siugnas
+    ro_en: Rune Knight (F)
+    ro_ptbr: Cavaleira Rúnica
+    ro_ref: body/female/rune_knight_female
+    start_weapon: EME_LONGSWORD1
+    why: Long-sword line; base Rune Knight is male.
+    confidence: med
+    asset: ok
+  - vs_id: EME_EXGREATSWORD
+    vs_name: Final Emperor
+    ro_en: Imperial Guard (M)
+    ro_ptbr: Guarda Imperial [trad]
+    ro_ref: body/male/IMPERIAL_GUARD_male
+    start_weapon: EME_GREATSWORD1
+    why: '"Emperor" with greatsword = Imperial Guard.'
+    confidence: med
+    asset: ok
+  - vs_id: EME_EXAXE
+    vs_name: Dolores
+    ro_en: Whitesmith (F)
+    ro_ptbr: Mestra-Ferreira
+    ro_ref: body/female/whitesmith_female
+    start_weapon: EME_AXE1
+    why: Axe fighter; Blacksmith trans (base Blacksmith F is Ramba).
+    confidence: med
+    asset: ok
+  - vs_id: EME_EXKNIFE
+    vs_name: Macha
+    ro_en: Rogue (F)
+    ro_ptbr: Arruaceira
+    ro_ref: body/female/rogue_female
+    start_weapon: EME_KNIFE1
+    why: Knife thrower = Rogue.
+    confidence: med
+    asset: ok
+  - vs_id: EME_EXSPEAR
+    vs_name: Lita
+    ro_en: Knight on Peco (F)
+    ro_ptbr: Cavaleira (Peco)
+    ro_ref: body/female/pecopeco_knight_female
+    start_weapon: EME_SPEAR1
+    why: Spear user = Knight spear skills, mounted to stand apart.
+    confidence: med
+    asset: ok
+  - vs_id: EME_PUPALL
+    vs_name: Kugutsu
+    ro_en: Miyabi Doll
+    ro_ptbr: Boneca Miyabi
+    ro_ref: monster/MIYABI_NINGYO
+    start_weapon: EME_KATANA1
+    why: Puppet (kugutsu) with katana and puppet followers = Amatsu living doll.
+    confidence: med
+    asset: ok
+  - vs_id: EME_MRS
+    vs_name: Mr. S
+    ro_en: Sage (M)
+    ro_ptbr: Sábio
+    ro_ref: body/male/sage_male
+    start_weapon: EME_SELECTOR
+    why: '"Inspiration: choose a sub-weapon" = Hindsight (Auto Spell) where the Sage picks the spell.'
+    confidence: high
+    asset: ok
+  - vs_id: EME_CATS
+    vs_name: Lolo, Hiss, Meow and Purr
+    ro_en: Doram Summoner (F)
+    ro_ptbr: Invocadora Doram
+    ro_ref: doram/body/female/summoner_female
+    start_weapon: VOID
+    why: Four cats = the Doram cat-folk; base Doram is male.
+    confidence: high
+    asset: ok
+  - vs_id: EME_KINA
+    vs_name: Kina
+    ro_en: Soul Linker (F)
+    ro_ptbr: Espiritualista
+    ro_ref: body/female/soul_linker_female
+    start_weapon: (none)
+    why: No VS weapon/description to go on; spirit medium placeholder.
+    confidence: low
+    asset: ok
+  - vs_id: EME_IMAKOO
+    vs_name: Imakoo
+    ro_en: Cat Adventurer
+    ro_ptbr: Gato Aventureiro [trad]
+    ro_ref: npc/4_cat_adv1
+    start_weapon: (none)
+    why: No VS weapon/description; diorama mascot placeholder.
+    confidence: low
+    asset: ok
+  - vs_id: EME_DEMON
+    vs_name: Malevolent Door Spirit
+    ro_en: Lord of the Dead
+    ro_ptbr: Senhor dos Mortos
+    ro_ref: monster/LORD_OF_DEATH
+    start_weapon: EME_BLOOD2
+    why: Demonic emperor with blood magic = the undead lord MVP.
+    confidence: med
+    asset: ok
+  - vs_id: EME_PUPKATANA_FOLLOWER
+    vs_name: Kugutsu (follower)
+    ro_en: Miyabi Doll
+    ro_ptbr: Boneca Miyabi
+    ro_ref: monster/MIYABI_NINGYO
+    start_weapon: EME_KATANA1
+    why: -> EME_PUPALL
+    confidence: high
+    asset: ok
+  - vs_id: EME_PUPKNIFE_FOLLOWER
+    vs_name: Komachi the Kugutsu
+    ro_en: Marionette
+    ro_ptbr: Marionete
+    ro_ref: monster/MARIONETTE
+    start_weapon: EME_KNIFE1
+    why: Puppet follower with knife.
+    confidence: med
+    asset: ok
+  - vs_id: EME_PUPGUN_FOLLOWER
+    vs_name: Boh the Kugutsu
+    ro_en: Firelock Soldier
+    ro_ptbr: Soldado com Mosquete [trad]
+    ro_ref: monster/ANTIQUE_FIRELOCK
+    start_weapon: EME_PISTOL1
+    why: Gun-wielding Amatsu-style puppet soldier.
+    confidence: med
+    asset: ok
+  - vs_id: EME_PUPPUNCH_FOLLOWER
+    vs_name: Sukune the Kugutsu
+    ro_en: Wootan Fighter
+    ro_ptbr: Lutador Wootan [trad]
+    ro_ref: monster/WOOTAN_FIGHTER
+    start_weapon: EME_PUNCH1
+    why: Brawler follower.
+    confidence: med
+    asset: ok
+  - vs_id: EME_CATS_FOLLOWER
+    vs_name: Lolo, Hiss, Meow, and Purr (follower)
+    ro_en: Tricolor Cat
+    ro_ptbr: Gato Tricolor [trad]
+    ro_ref: npc/4_cat_3color
+    start_weapon: VOID
+    why: Cat followers.
+    confidence: med
+    asset: ok
+  weapons:
+  - vs_id: EME_RAPIER1
+    vs_name: Fleuret
+    ro_en: Pierce
+    ro_ptbr: Perfurar
+    ro_ref: skill KN_PIERCE
+    why: Rapier thrust.
+    confidence: high
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_RAPIER2
+    vs_name: Estoc
+    ro_en: Spiral Pierce
+    ro_ptbr: Perfuração em Espiral
+    ro_ref: skill LK_SPIRALPIERCE
+    why: Tier 2 thrust (trans).
+    confidence: high
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_RAPIER3
+    vs_name: Espada Ropera
+    ro_en: Charging Pierce
+    ro_ptbr: Investida Perfurante [trad]
+    ro_ref: skill DK_CHARGINGPIERCE
+    why: Tier 3 thrust (4th job).
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_LONGSWORD1
+    vs_name: Town Sword
+    ro_en: Sonic Wave
+    ro_ptbr: Onda Sônica [trad]
+    ro_ref: skill RK_SONICWAVE
+    why: Sword wave.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_LONGSWORD2
+    vs_name: Lordstar
+    ro_en: Wind Cutter
+    ro_ptbr: Cortador de Vento [trad]
+    ro_ref: skill RK_WINDCUTTER
+    why: Tier 2 sword arc.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_LONGSWORD3
+    vs_name: Dayblade
+    ro_en: Storm Blast
+    ro_ptbr: Explosão Tempestuosa [trad]
+    ro_ref: skill RK_STORMBLAST
+    why: Tier 3 sword burst.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_DUAL1
+    vs_name: Splashers
+    ro_en: Dancing Knife
+    ro_ptbr: Faca Dançante [trad]
+    ro_ref: skill SHC_DANCING_KNIFE
+    why: Dual blades flying.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_DUAL2
+    vs_name: Pursuant Blades
+    ro_en: Eternal Slash
+    ro_ptbr: Corte Eterno [trad]
+    ro_ref: skill SHC_ETERNAL_SLASH
+    why: Chasing blades.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_GREATSWORD1
+    vs_name: Flamberge
+    ro_en: Exceed Break
+    ro_ptbr: Ruptura Excedente [trad]
+    ro_ref: skill LG_EXEEDBREAK
+    why: Big two-hand swing.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_GREATSWORD2
+    vs_name: Zweihander
+    ro_en: Cross Rain
+    ro_ptbr: Chuva Cruzada [trad]
+    ro_ref: skill IG_CROSS_RAIN
+    why: Imperial Guard tier 2.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_GREATSWORD3
+    vs_name: Galatyn
+    ro_en: Grand Judgement
+    ro_ptbr: Grande Julgamento [trad]
+    ro_ref: skill IG_GRAND_JUDGEMENT
+    why: Imperial Guard tier 3.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_PUNCH1
+    vs_name: Punch
+    ro_en: Raging Trifecta Blow
+    ro_ptbr: Golpe Triplo
+    ro_ref: skill MO_TRIPLEATTACK
+    why: Basic punch combo.
+    confidence: high
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_PUNCH2
+    vs_name: Pressure Point
+    ro_en: Occult Impaction
+    ro_ptbr: Impacto Oculto [trad]
+    ro_ref: skill MO_INVESTIGATE
+    why: Pressure-point strike; literal.
+    confidence: high
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_PUNCH3
+    vs_name: Gilded Hand
+    ro_en: Tiger Cannon
+    ro_ptbr: Canhão do Tigre [trad]
+    ro_ref: skill SR_TIGERCANNON
+    why: Sura finisher.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_KICK1
+    vs_name: Kick
+    ro_en: Tornado Kick
+    ro_ptbr: Chute Tornado
+    ro_ref: skill TK_STORMKICK
+    why: Basic kick.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_KICK2
+    vs_name: Triangle Kick
+    ro_en: Sky Net Blow
+    ro_ptbr: Golpe Rede Celeste [trad]
+    ro_ref: skill SR_SKYNETBLOW
+    why: Multi-angle kicks.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_CANNON1
+    vs_name: Saber Machine Gun
+    ro_en: Round Trip
+    ro_ptbr: Ida e Volta [trad]
+    ro_ref: skill RL_R_TRIP
+    why: Machine-gun spray around.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_CANNON2
+    vs_name: Hecaton Machine Gun
+    ro_en: Anti-Material Blast
+    ro_ptbr: Disparo Antimaterial [trad]
+    ro_ref: skill RL_AM_BLAST
+    why: Heavy gun tier 2.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_CANNON3
+    vs_name: Divergence
+    ro_en: Hammer of God
+    ro_ptbr: Martelo de Deus [trad]
+    ro_ref: skill RL_HAMMER_OF_GOD
+    why: Rebellion finisher.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_MECH1
+    vs_name: Super Missile
+    ro_en: Silver Sniper
+    ro_ptbr: Atirador Prateado [trad]
+    ro_ref: skill NC_SILVERSNIPER
+    why: Deployed turret firing.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_MECH2
+    vs_name: Hydra Cannon
+    ro_en: Magic Decoy
+    ro_ptbr: Chamariz Mágico [trad]
+    ro_ref: skill NC_MAGICDECOY
+    why: Several elemental turrets = hydra heads.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_MECH3
+    vs_name: Hyperion Bazooka
+    ro_en: Arm Cannon
+    ro_ptbr: Canhão de Braço
+    ro_ref: skill NC_ARMSCANNON (shared with base PHASER2)
+    why: Big Madogear cannon.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_PISTOL1
+    vs_name: Eagle Gun
+    ro_en: Piercing Shot
+    ro_ptbr: Tiro Perfurante [trad]
+    ro_ref: skill GS_PIERCINGSHOT
+    why: Pistol shot.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_PISTOL2
+    vs_name: Pendragon
+    ro_en: Bull's Eye
+    ro_ptbr: Na Mosca [trad]
+    ro_ref: skill GS_BULLSEYE
+    why: Stronger pistol shot.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_KNIFE1
+    vs_name: Khukuri
+    ro_en: Throw Venom Knife
+    ro_ptbr: Arremessar Faca Envenenada [trad]
+    ro_ref: skill AS_VENOMKNIFE
+    why: Thrown knife.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_KNIFE2
+    vs_name: Jetstream
+    ro_en: Triangle Shot
+    ro_ptbr: Tiro Triangular [trad]
+    ro_ref: skill SC_TRIANGLESHOT
+    why: Rogue -> Shadow Chaser volley.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_KATANA1
+    vs_name: Twin Dragon
+    ro_en: Shadow Slash
+    ro_ptbr: Corte Sombrio [trad]
+    ro_ref: skill NJ_KIRIKAGE
+    why: Katana dash slash.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_KATANA2
+    vs_name: Gekkabijin
+    ro_en: Distorted Crescent
+    ro_ptbr: Lua Crescente Distorcida [trad]
+    ro_ref: skill OB_ZANGETSU
+    why: '"Moon beauty" = crescent moon slash.'
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_AXE1
+    vs_name: Bullova
+    ro_en: Power Swing
+    ro_ptbr: Golpe Poderoso [trad]
+    ro_ref: skill NC_POWERSWING
+    why: Axe swing.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_AXE2
+    vs_name: Bilqis
+    ro_en: Axe Stomp
+    ro_ptbr: Pisão do Machado [trad]
+    ro_ref: skill MT_AXE_STOMP
+    why: Meister axe tier 2.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_BLOOD1
+    vs_name: Sanguine Star
+    ro_en: Blood Sucker
+    ro_ptbr: Sanguessuga [trad]
+    ro_ref: skill GN_BLOOD_SUCKER
+    why: Blood-draining tech.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_BLOOD2
+    vs_name: Blood Chalice
+    ro_en: Bloody Lust
+    ro_ptbr: Luxúria Sangrenta [trad]
+    ro_ref: skill SC_BLOODYLUST
+    why: Blood zone.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_SPEAR1
+    vs_name: Glaive
+    ro_en: Brandish Spear
+    ro_ptbr: Brandir Lança
+    ro_ref: skill KN_BRANDISHSPEAR
+    why: Polearm sweep.
+    confidence: high
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_SPEAR2
+    vs_name: Feather Spear
+    ro_en: Spear Stab
+    ro_ptbr: Estocada
+    ro_ref: skill KN_SPEARSTAB
+    why: Spear thrust line.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_SPEAR3
+    vs_name: Lohengrin
+    ro_en: Pinpoint Attack
+    ro_ptbr: Ataque Preciso [trad]
+    ro_ref: skill LG_PINPOINTATTACK
+    why: Legendary spear finisher.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_MAGIC1
+    vs_name: Spirit Rings
+    ro_en: Summon Elementals
+    ro_ptbr: Invocar Espíritos [trad]
+    ro_ref: skill SO_SUMMON_AGNI / AQUA / VENTUS / TERA
+    why: Orbiting elemental spirit rings.
+    confidence: med
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_MAGIC2
+    vs_name: Rings of Calamity
+    ro_en: Astral Strike
+    ro_ptbr: Golpe Astral [trad]
+    ro_ref: skill AG_ASTRAL_STRIKE
+    why: Arch Mage calamity.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_WAVE
+    vs_name: Emerald Rapture
+    ro_en: Nyang Grass
+    ro_ptbr: Grama Nyang [trad]
+    ro_ref: skill SU_NYANGGRASS
+    why: Green wave/field (Doram).
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_WAVE2
+    vs_name: Emerald Wave
+    ro_en: Spirit of Savage
+    ro_ptbr: Espírito Selvagem [trad]
+    ro_ref: skill SU_SVG_SPIRIT
+    why: Doram big green blast.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_SELECTOR
+    vs_name: Inspiration
+    ro_en: Hindsight
+    ro_ptbr: Retrospectiva [trad]
+    ro_ref: skill SA_AUTOSPELL
+    why: Choose a sub-weapon = choose the autocast spell.
+    confidence: high
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_RING_FIRE
+    vs_name: Sunlight
+    ro_en: Crimson Arrow
+    ro_ptbr: Flecha Carmesim [trad]
+    ro_ref: skill AG_CRIMSON_ARROW
+    why: Fire ring.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_RING_WATER
+    vs_name: Aqua Sphere
+    ro_en: Rain of Crystal
+    ro_ptbr: Chuva de Cristais [trad]
+    ro_ref: skill AG_RAIN_OF_CRYSTAL
+    why: Water ring.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_RING_WOOD
+    vs_name: Heaven's Thunder
+    ro_en: Storm Cannon
+    ro_ptbr: Canhão Tempestade [trad]
+    ro_ref: skill AG_STORM_CANNON
+    why: Thunder ring.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_RING_EARTH
+    vs_name: Hypergravity
+    ro_en: Violent Quake
+    ro_ptbr: Terremoto Violento [trad]
+    ro_ref: skill AG_VIOLENT_QUAKE
+    why: Earth ring.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_RING_METAL
+    vs_name: Vermillion Sands
+    ro_en: Earth Grave
+    ro_ptbr: Túmulo de Terra [trad]
+    ro_ref: skill SO_EARTHGRAVE
+    why: Metal/sand ring.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_RING_CHAOS
+    vs_name: Chaos Disaster
+    ro_en: Deadly Projection
+    ro_ptbr: Projeção Mortal [trad]
+    ro_ref: skill AG_DEADLY_PROJECTION
+    why: Chaos ring.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: EME_MECH_RAVE
+    ro_ref: -> EME_MECH3
+    why: helper/counter entry; reuses parent art and name
+    confidence: high
+    asset: parent
+  - vs_id: EME_MECH_BALLMISS
+    ro_ref: -> EME_MECH3
+    why: helper/counter entry; reuses parent art and name
+    confidence: high
+    asset: parent
+  - vs_id: EME_AXE_HELLFURY
+    ro_ref: -> EME_AXE2
+    why: helper/counter entry; reuses parent art and name
+    confidence: high
+    asset: parent
+  - vs_id: EME_BLOOD_BLOODRAGE
+    ro_ref: -> EME_BLOOD2
+    why: helper/counter entry; reuses parent art and name
+    confidence: high
+    asset: parent
+  - vs_id: EME_SWORD_SWALLOW
+    ro_ref: -> EME_LONGSWORD1
+    why: helper/counter entry; reuses parent art and name
+    confidence: high
+    asset: parent
+  - vs_id: EME_SWORD_GALE
+    ro_ref: -> EME_LONGSWORD2
+    why: helper/counter entry; reuses parent art and name
+    confidence: high
+    asset: parent
+  weapons_store_note: weaponData_Emeralds_STORE.json = same 37 ids (WIP names); same mapping applies.
+  stages:
+  - vs_id: EMERALD
+    vs_name: Emeralds (Emerald Diorama)
+    ro_region: Payon-Comodo-Lasagna diorama (7 biome tiles)
+    ro_maps:
+    - payon
+    - pay_dun03
+    - lasagna
+    - lasa_fild01
+    - cmd_fild01
+    - beach_dun
+    ro_ground_textures: per biome, see tilesets
+    vs_bundle: emeralds / emeralds001 + eme_tileset_* (tiling 2048)
+    bgm_normal:
+      vs_key: BGM_EME_QUICK
+      ro: 14 (payon)
+    bgm_b:
+      vs_key: BGM_EME_DESTINY
+      ro: 170 (lasagna)
+    en_name: Rune-Midgard Diorama
+    ptbr_name: Diorama de Rune-Midgard [trad]
+    why: A diorama of many biomes -> a miniature tour of Payon (city/caves), Lasagna (Doram) and Comodo (beach/caves).
+    confidence: med
+  music:
+  - vs_id: BGM_EME_QUICK
+    vs_title: A Quick Warm-Up - VS version
+    clip:
+    - A Quick Warm-up_intro
+    - A Quick Warm-up_loop
+    ro: 14 (payon)
+  - vs_id: BGM_EME_DESTINY
+    vs_title: Emerald Destinies - VS version
+    clip:
+    - Emerald Destinies_intro
+    - Emerald Destinies_loop
+    ro: 170 (lasagna)
+  - vs_id: BGM_EME_POLICE
+    vs_title: CCPD, Moving Out! - VS version
+    clip:
+    - CCPD, Moving Out!_intro
+    - CCPD, Moving Out!_loop
+    ro: 37 (cmd_fild08)
+  - vs_id: BGM_EME_BEAT
+    vs_title: Feel the Beat - VS version
+    clip:
+    - feel the Beat_intro
+    - feel the Beat_loop
+    ro: 63 (cmd_fild01)
+  - vs_id: BGM_EME_ENCHANTED
+    vs_title: Yumeha, Chipper as Ever! - VS version
+    clip:
+    - Yumeha, Chipper as Ever!_intro
+    - Yumeha, Chipper as Ever!_loop
+    ro: 169 (lasa_fild01)
+  - vs_id: BGM_EME_DARKNESS
+    vs_title: Darkness Incarned - VS version
+    clip:
+    - Darkness Incarnate_intro
+    - Darkness Incarnate_loop
+    ro: 47 (pay_dun03)
+  - vs_id: BGM_EME_FIERCE
+    vs_title: A Fierce Engagement - VS version
+    clip:
+    - A Fierce Engagement_intro
+    - A Fierce Engagement_loop
+    ro: 20 (pay_dun00)
+  - vs_id: BGM_EME_ODDS
+    vs_title: Against All Odds - VS version
+    clip:
+    - Against All Odds_intro
+    - Against All Odds_loop
+    ro: 168 (lasa_dun01)
+  - vs_id: BGM_EME_WORLD
+    vs_title: The World's Heartbeat - VS version
+    clip:
+    - The World's Heartbeat_intro
+    - The World's Heartbeat_loop
+    - 10 - The World's Heartbeat short
+    ro: 41 (beach_dun)
+  tilesets:
+    EME_Tileset_001_Miyako City and Pulchra:
+    - payon
+    - pay_fild08
+    EME_Tileset_003_Avalon:
+    - lasagna
+    - lasa_fild01
+    EME_Tileset_005_Yomi:
+    - pay_dun03
+    EME_Tileset_006_Providence:
+    - cmd_fild01
+    EME_Tileset_007_Grelon:
+    - beach_dun
+    - cmd_fild08
+    eme_map_biome1..7: pause-map art; redraw from the same RO maps
+  items:
+  - vs_id: RELIC_EME_DISK
+    vs_name: Emerald Disk
+    ro_en: Green Bijou
+    ro_ptbr: Bijou Verde
+    ro_ref: '7445'
+    why: Green gem that opens the diorama (base Malachite already took Emerald 721)
+    confidence: med
+    asset: assumed
+  - vs_id: EME_CATY
+    vs_name: Cat (pickup)
+    ro_en: Cat
+    ro_ptbr: Gato
+    ro_ref: npc 4_cat
+    why: '"Is cat." = RO cat NPC on the floor'
+    confidence: high
+    asset: ok
+  - vs_id: EME_TELEPORTER
+    vs_name: Teleporter (pickup)
+    ro_en: Butterfly Wing
+    ro_ptbr: Asa de Borboleta
+    ro_ref: '602'
+    why: Pickup that moves you = RO teleport item
+    confidence: med
+    asset: ok
+lemon:
+  episode: Ante Chamber (Balatro) -> "Comodo Casino" (jokers and cards); Clown/Bard line, Joker card
+  characters:
+  - vs_id: LEM_JIMBO
+    vs_name: Jimbo
+    ro_en: Clown (M)
+    ro_ptbr: Menestrel
+    ro_ref: body/male/클라운_male (raw folder name)
+    start_weapon: LEM_INFERNO1
+    why: The joker itself = the jester job (Bard trans; base Bard/Clown unused).
+    confidence: med
+    asset: ok
+  - vs_id: LEM_CANIO
+    vs_name: Canio
+    ro_en: Minstrel (M)
+    ro_ptbr: Trovador
+    ro_ref: body/male/minstrel_male
+    start_weapon: LEM_FIBONACCI1
+    why: Legendary joker (sad clown) = Clown 3rd job.
+    confidence: med
+    asset: ok
+  - vs_id: LEM_CHICOT
+    vs_name: Chicot
+    ro_en: Troubadour (M)
+    ro_ptbr: Trovador Lírico [trad]
+    ro_ref: body/male/TROUBADOUR_male
+    start_weapon: LEM_BANANA1
+    why: Legendary jester; 4th job of the line.
+    confidence: low
+    asset: ok
+  - vs_id: LEM_PERKEO
+    vs_name: Perkeo
+    ro_en: Soul Linker (M)
+    ro_ptbr: Espiritualista
+    ro_ref: body/male/soul_linker_male
+    start_weapon: LEM_PLANETS1
+    why: Planet/negative-card joker -> star spirits caster.
+    confidence: low
+    asset: ok
+  - vs_id: LEM_FOLLOWER_SABOTEUR
+    vs_name: Outer Saboteur (follower)
+    ro_en: Joker
+    ro_ptbr: Coringa
+    ro_ref: npc/joker
+    start_weapon: EX_COINTOSS1
+    why: Floating joker head; shares the Joker sprite with base ARENGIJUS.
+    confidence: med
+    asset: ok
+  weapons:
+  - vs_id: LEM_INFERNO1
+    vs_name: Infernolatro
+    ro_en: Arrow Vulcan
+    ro_ptbr: Vulcão de Flechas
+    ro_ref: skill CG_ARROWVULCAN
+    why: Burning barrage of the Clown.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: LEM_INFERNO2
+    vs_name: NaneInferno
+    ro_en: Metallic Fury
+    ro_ptbr: Fúria Metálica [trad]
+    ro_ref: skill TR_METALIC_FURY
+    why: Troubadour 4th inferno.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: LEM_FIBONACCI1
+    vs_name: Fibonacci Spritz
+    ro_en: Unchained Serenade
+    ro_ptbr: Serenata Dissonante
+    ro_ref: skill BA_DISSONANCE
+    why: Spiraling sound stream.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: LEM_FIBONACCI2
+    vs_name: Royal Flush
+    ro_en: Tarot Card of Fate
+    ro_ptbr: Carta do Destino
+    ro_ref: skill CG_TAROTCARD
+    why: A winning card hand = Clown's card of fate.
+    confidence: high
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: LEM_BANANA1
+    vs_name: Gros Michel
+    ro_en: Banana (thrown)
+    ro_ptbr: Banana
+    ro_ref: item 513 Banana
+    why: Literal banana.
+    confidence: high
+    asset: 'ok: drop sprite 바나나 / icon 513'
+  - vs_id: LEM_BANANA2
+    vs_name: Cavendish
+    ro_en: Tropical Banana
+    ro_ptbr: Banana Tropical
+    ro_ref: item 634 Tropical_Banana
+    why: Better banana.
+    confidence: high
+    asset: 'assumed: icon 634'
+  - vs_id: LEM_BANANA2_HIDDEN
+    ro_ref: -> LEM_BANANA2
+    why: Bananastrophe burst; banana fx
+    confidence: high
+    asset: parent
+  - vs_id: LEM_PLANETS1
+    vs_name: Celestial Booster
+    ro_en: Esma
+    ro_ptbr: Esma
+    ro_ref: skill SL_SMA
+    why: Star-spirit bolts.
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: LEM_PLANETS2
+    vs_name: Negative Space
+    ro_en: Soul Explosion
+    ro_ptbr: Explosão de Almas [trad]
+    ro_ref: skill SP_SOULEXPLOSION
+    why: Void burst (Soul Reaper).
+    confidence: low
+    asset: 'missing: fx TBD (.str or hand-built)'
+  - vs_id: LEM_ACC_SABOTEUR
+    vs_name: Outer Saboteur
+    ro_en: Joker Card
+    ro_ptbr: Carta Coringa
+    ro_ref: item 4139 Joker_Card
+    why: Card that evolves every joker weapon.
+    confidence: high
+    asset: 'assumed: card icon'
+  stages:
+  - vs_id: LEM_CHAMBER
+    vs_name: Ante Chamber
+    ro_region: Comodo Casino
+    ro_maps:
+    - cmd_in02
+    - comodo
+    ro_ground_textures: casino carpet/tiles (cmd_in02), Comodo cave town
+    vs_bundle: lem_test_tileset (tiling); stageData key ForestTexturePacked
+    bgm_normal:
+      vs_key: BGM_LEM_CHAMBER
+      ro: 62 (comodo)
+    bgm_b:
+      vs_key: BGM_LEM_CHAMBER
+      ro: 62 (comodo)
+    en_name: Comodo Casino
+    ptbr_name: Cassino de Comodo
+    why: Card game with jokers -> RO's casino town; Joker/card monsters fit.
+    confidence: high
+  music:
+  - vs_id: BGM_LEM_CHAMBER
+    vs_title: Ante Chamber - Balatro Main Theme
+    clip:
+    - bgm_elrond_lemo_intro
+    - bgm_elrond_lemo_loop
+    ro: 62 (comodo)
+    why: Comodo / casino
+  tilesets:
+    LEM_TEST_Tileset:
+    - cmd_in02
+    ForestTexturePacked: (stageData key; base -> Payon. Check which atlas the chamber binds)
+  items:
+  - vs_id: RELIC_LEM_DISK
+    vs_name: Joker Disk
+    ro_en: Joker Jester
+    ro_ptbr: Chapéu de Bobo [trad]
+    ro_ref: '5003'
+    why: Joker headgear opens the joker chamber (Joker Card is taken by LEM_ACC_SABOTEUR)
+    confidence: med
+    asset: assumed

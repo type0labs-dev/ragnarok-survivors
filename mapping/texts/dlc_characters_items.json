@@ -1,0 +1,2870 @@
+{
+ "characterLang/{MIANG}description": {
+  "en": "Recovery also multiplies all healing sources. Over-healing slightly increases Max Health.",
+  "pt": "Recuperação também multiplica todas as fontes de cura. Curar além da Vida Máx. aumenta ligeiramente a Vida Máx."
+ },
+ "characterLang/{MENYA}description": {
+  "en": "Becomes stronger and invincible for a fixed interval after defeating a large amount of enemies.",
+  "pt": "Após derrotar uma quantidade grande de inimigos, fica mais forte e invencível por um intervalo fixo."
+ },
+ "characterLang/{SYUUTO}description": {
+  "en": "Starts with hidden Cross Slash. Morphs into a stronger version when his base weapon evolves.",
+  "pt": "Começa com Corte Cruzado oculto. Transforma-se em uma versão mais forte quando sua arma base evolui."
+ },
+ "characterLang/{ONNA}description": {
+  "en": "Ignores weapons cooldown. Weapons fire at a fixed interval when moving.",
+  "pt": "Ignora a recarga das armas. Ao se mover, armas disparam a um intervalo fixo."
+ },
+ "characterLang/{MCCOY}description": {
+  "en": "Area temporarily increases at fixed intervals.",
+  "pt": "Área aumenta a intervalos fixos temporariamente."
+ },
+ "characterLang/{MEGAMENYA}description": {
+  "en": "Cannot be damaged, but disappears after reaching the current Time Limit. Starts with hidden Kunai Splash.",
+  "pt": "Não pode sofrer dano, mas desaparece ao alcançar o Limite de Tempo atual. Começa com Chuva de Kunais oculta."
+ },
+ "characterLang/{MEGASYUUTO}description": {
+  "en": "Gains +1% Might every level.",
+  "pt": "Ganha +1% de Poder a cada nível."
+ },
+ "characterLang/{TONY}description": {
+  "en": "Gets more projectiles every 20 levels (max +4).",
+  "pt": "Ganha mais projéteis a cada 20 níveis (máx. de +4)."
+ },
+ "characterLang/{ELEANOR}description": {
+  "en": "Receives Psychic Wave at Level 10 and Varetyr Spear at Level 20. Receives Token of Siegfried at Level 30.",
+  "pt": "Recebe Onda Psíquica no nível 10 e Lança de Varetyr no nível 20. Recebe Emblema de Siegfried no nível 30."
+ },
+ "characterLang/{VICTOR}description": {
+  "en": "Gains a temporary Armor bonus after getting damaged. Receives Token of Siegfried at Level 30.",
+  "pt": "Ao sofrer dano, ganha Armadura temporária de bônus. Recebe Emblema de Siegfried no nível 30."
+ },
+ "characterLang/{KEIRA}description": {
+  "en": "Luck-based Charge ability: fires a volley of Flash Arrows. Gains +1% Luck every level. Receives Token of Siegfried at Level 30.",
+  "pt": "Habilidade de carga baseada em Sorte: dispara uma saraivada de Flechas Flash. Ganha +1% de Sorte a cada nível. Recebe Emblema de Siegfried no nível 30."
+ },
+ "characterLang/{LUMINAIRE}description": {
+  "en": "Triggers a Rosary when levelling up. Gets a temporary Might, Cooldown, and Move Speed bonus after reviving.",
+  "pt": "Ativa um Rosário ao subir de nível. Recebe um bônus temporário de Poder, Recarga e Velocidade de Movimento após ressuscitar."
+ },
+ "characterLang/{MEGAGENEVIEVE}description": {
+  "en": "It will literally eat the world.",
+  "pt": "Devora o mundo, literalmente."
+ },
+ "characterLang/{GHOUL}description": {
+  "en": "Gets more projectiles every 20 levels (max +4).",
+  "pt": "Ganha mais projéteis a cada 20 níveis (máx. de +4)."
+ },
+ "characterLang/{C1_CREWMATE}description": {
+  "en": "Gains stat bonuses every time anyone's weapon is brought to max level.",
+  "pt": "Ganha bônus de atributos sempre que a arma de alguém chega ao nível máx."
+ },
+ "characterLang/{C1_ENGINEER}description": {
+  "en": "Chooses an extra passive weapon at level 2, 12, and 22.",
+  "pt": "Escolhe uma arma passiva extra nos níveis 2, 12 e 22."
+ },
+ "characterLang/{C1_GHOST}description": {
+  "en": "Can't be damaged or deal damage, but disappears after reaching the current Time Limit. Ignores walls.",
+  "pt": "Não sofre nem causa dano, mas desaparece após chegar ao Limite de Tempo atual. Atravessa paredes."
+ },
+ "characterLang/{C1_SHAPESHIFTER}description": {
+  "en": "Leaves behind excess body parts when damaged and may shift forms. ",
+  "pt": "Deixa partes do corpo sobressalentes para trás ao sofrer dano e pode mudar de forma."
+ },
+ "characterLang/{C1_GUARDIAN}description": {
+  "en": "May gain +1 Revival when anyone revives. Increases Armor and Recovery of nearby characters. Ignores walls.",
+  "pt": "Pode ganhar +1 Ressurreição quando alguém ressuscita. Aumenta a Armadura e a Recuperação de personagens próximos. Atravessa paredes."
+ },
+ "characterLang/{C1_IMPOSTOR}description": {
+  "en": "Becomes stronger and briefly invincible after defeating a large amount of enemies, or an ally.",
+  "pt": "Fica mais forte e temporariamente invencível após derrotar um grande número de inimigos ou um aliado."
+ },
+ "characterLang/{C1_SCIENTIST}description": {
+  "en": "Gets -10% Luck every 10 levels (max -90%). Can choose a per-level bonus every 10 levels (max 5 times).",
+  "pt": "Recebe -10% de Sorte a cada 10 níveis (máx. de -90%). Pode escolher um bônus por nível a cada 10 níveis (máx. de 5 vezes)."
+ },
+ "characterLang/{C1_HORSE}description": {
+  "en": "Gets more projectiles every 20 levels (max +4).",
+  "pt": "Ganha mais projéteis a cada 20 níveis (máx. de +4)."
+ },
+ "characterLang/{C1_MEGAIMPOSTOR}description": {
+  "en": "I'm not the Mimic.",
+  "pt": "Eu não sou o Mímico."
+ },
+ "characterLang/{FB_BILLRIZER}description": {
+  "en": "Receives a bonus to Projectile Speed (max 50%) and to Might when defeating many enemies. Can find special pickups.",
+  "pt": "Recebe bônus de Velocidade de Projéteis (máx. de 50%) e de Poder ao derrotar muitos inimigos. Pode encontrar coletáveis especiais."
+ },
+ "characterLang/{FB_LANCE}description": {
+  "en": "Receives a bonus to Projectile Speed (max 50%) and to Cooldown (max -25%) when defeating many enemies. Can find special pickups.",
+  "pt": "Recebe bônus de Velocidade de Projéteis (máx. de 50%) e de Recarga (máx. de -25%) ao derrotar muitos inimigos. Pode encontrar coletáveis especiais."
+ },
+ "characterLang/{FB_BRADFANG}description": {
+  "en": "When Health is low, Cooldown is decreased and Move Speed and Speed increase. Can find special Pickups.",
+  "pt": "Quando a Vida está baixa, a Recarga é reduzida, e a Velocidade e a Velocidade de Movimento aumentam. Pode encontrar coletáveis especiais."
+ },
+ "characterLang/{FB_BROWNY}description": {
+  "en": "Decreasing Cooldown increases Area. Can find special pickups.",
+  "pt": "Reduzir a Recarga aumenta a Área. Pode encontrar coletáveis especiais."
+ },
+ "characterLang/{FB_LUCIA}description": {
+  "en": "Gains a bonus to all stats after Reviving. Can find special pickups.",
+  "pt": "Recebe bônus em todos os atributos após ressuscitar. Pode encontrar coletáveis especiais."
+ },
+ "characterLang/{FB_PROBO}description": {
+  "en": "Armour increases Might. Can find special pickups.",
+  "pt": "Armadura aumenta o Poder. Pode encontrar coletáveis especiais."
+ },
+ "characterLang/{FB_SHEENA}description": {
+  "en": "Move Speed decreases Cooldown. Can find special pickups.",
+  "pt": "Velocidade de Movimento reduz a Recarga. Pode encontrar coletáveis especiais."
+ },
+ "characterLang/{FB_STANLEY}description": {
+  "en": "Might increases Armour. Can find special pickups.",
+  "pt": "Poder aumenta a Armadura. Pode encontrar coletáveis especiais."
+ },
+ "characterLang/{FB_ARIANA}description": {
+  "en": "Move Speed increases Armour. Can find special pickups.",
+  "pt": "Velocidade de Movimento aumenta a Armadura. Pode encontrar coletáveis especiais."
+ },
+ "characterLang/{FB_COLONEL}description": {
+  "en": "Greed and Curse increase Might. Can find special pickups.",
+  "pt": "Ganância e Maldição aumentam o Poder. Pode encontrar coletáveis especiais."
+ },
+ "characterLang/{FB_SIMONDO}description": {
+  "en": "The Taekwon says he doesn't even need guns. Gets more projectiles every 20 levels (max +4).",
+  "pt": "O Taekwon diz que nem precisa de armas. Ganha mais projéteis a cada 20 níveis (máx. de +4)."
+ },
+ "characterLang/{FB_NEWT}description": {
+  "en": "Projectile Speed increases Might. Can find extra explosive props and special pickups.",
+  "pt": "Velocidade do Projétil aumenta Poder. Pode encontrar explosivos extras e coletáveis especiais."
+ },
+ "characterLang/{TP_ALBUS}description": {
+  "en": "Gains a bonus to Might and Cooldown depending on how many enemies are in sight.",
+  "pt": "Ganha um bônus de Poder e Recarga, dependendo de quantos inimigos estão à vista."
+ },
+ "characterLang/{TP_ALUCARD}description": {
+  "en": "Charge: Soul Reaper.\nLevelUp: Dark Inferno.\nOverheal +8: Soul Expansion.\nHP-Critical: Servant Weapon.\nImmune to health drain.",
+  "pt": "Carga: Ceifar Almas.\nNível+: Inferno Sombrio.\nVida excessiva +8: Expansão da Alma.\nPV críticos: Arma Serva.\nImune a drenagem de vida."
+ },
+ "characterLang/{TP_AXEARMOR}description": {
+  "en": "Six axes axe axes as axes axe.",
+  "pt": "Seis Machados"
+ },
+ "characterLang/{TP_CARMILLA}description": {
+  "en": "Charge ability affected by Curse: triggers all equipped Estin, Estun, and Esma. Immune to health drain. Flies.",
+  "pt": "Habilidade de carga afetada por Maldição: ativa Estin, Estun e Esma equipadas. Imune a drenagem de vida. Voa."
+ },
+ "characterLang/{TP_CHARLOTTE}description": {
+  "en": "Charge ability affected by Growth: triggers all equipped weapons from the Forbidden Spellbook.",
+  "pt": "Habilidade de carga afetada por Crescimento: aciona todas as armas equipadas do Grimório Proibido."
+ },
+ "characterLang/{TP_CORNELL}description": {
+  "en": "Morphs into a stronger version when equipped with Summon Slave (Baby Hatii).",
+  "pt": "Transforma-se em uma versão mais forte quando equipado com Invocar Servos (Filhote de Hatii)."
+ },
+ "characterLang/{TP_DEATH}description": {
+  "en": "Doesn't appreciate getting blasphemously mockered.",
+  "pt": "Não gosta de ser ridicularizada com blasfêmia."
+ },
+ "characterLang/{TP_DRACULA}description": {
+  "en": "Gains +1% Might every level and +1 Revival every 100 levels. Curse increases Might. Incoming damage capped at 10. Immune to health drain.",
+  "pt": "Ganha +1% de Poder a cada nível e +1 de Ressurreição a cada 100 níveis. Maldição aumenta Poder. O dano sofrido é limitado a 10. Imune a drenagem de vida."
+ },
+ "characterLang/{TP_ELIZABETH}description": {
+  "en": "Increases enemies spawn quantity by 50. Immune to health drain.",
+  "pt": "Aumenta em 50 a quantidade de inimigos que surgem. Imune a drenagem de vida."
+ },
+ "characterLang/{TP_ERIC}description": {
+  "en": "Becomes invincible and deals damage to nearby enemies for 20 seconds when health reaches a critically low level.",
+  "pt": "Se torna invencível e causa dano a inimigos próximos por 20 segundos quando a Vida chega a um nível crítico."
+ },
+ "characterLang/{TP_GALAMOTH}description": {
+  "en": "Bigger is better.",
+  "pt": "Maior é melhor."
+ },
+ "characterLang/{TP_GRANT}description": {
+  "en": "Triggers any equipped knives in retaliation or when overhealing by +8. Can find special pickups.",
+  "pt": "Aciona quaisquer facas equipadas em retaliação ou ao recuperar +8 de vida excessiva. Pode encontrar coletáveis especiais."
+ },
+ "characterLang/{TP_HECTOR}description": {
+  "en": "Gains a random Familiar as a follower every 10 levels (max 4).",
+  "pt": "Recebe um Familiar aleatório como seguidor a cada 10 níveis (máx. de 4)."
+ },
+ "characterLang/{TP_HENRY}description": {
+  "en": "Gains a bonus to Area and Luck depending on how many enemies are in sight.",
+  "pt": "Ganha um bônus de Área e Sorte, dependendo de quantos inimigos estão à vista."
+ },
+ "characterLang/{TP_ISAAC}description": {
+  "en": "Gains a random Familiar as a follower every 10 levels (max 6).",
+  "pt": "Recebe um Familiar aleatório como seguidor a cada 10 níveis (máx. de 6)."
+ },
+ "characterLang/{TP_JONATHAN}description": {
+  "en": "Charge ability affected by Speed: triggers all equipped weapons from the Bible.",
+  "pt": "Habilidade de carga afetada por Velocidade: aciona todas as armas equipadas da Bíblia."
+ },
+ "characterLang/{TP_JUSTE}description": {
+  "en": "Can receive Forbidden Spellbook as 4th level up option until Level 7. Every 6 levels automatically levels up any equipped spell from the Forbidden Spellbook.",
+  "pt": "Pode receber o Grimório Proibido como 4ª opção ao subir de nível até o nível 7. A cada 6 níveis, aumenta automaticamente o nível de qualquer feitiço equipado do Grimório Proibido."
+ },
+ "characterLang/{TP_LEON}description": {
+  "en": "Receives a hidden Fire Walk at Level 5. Gets a bonus to most stats when Grand Judgement is equipped. Can find special pickups.",
+  "pt": "Recebe Rastro de Fogo oculto no nível 5. Recebe bônus na maioria dos atributos com Julgamento Supremo equipado. Pode encontrar coletáveis especiais."
+ },
+ "characterLang/{TP_LORETTA}description": {
+  "en": "Immune to health drain.",
+  "pt": "Imune a drenagem de vida."
+ },
+ "characterLang/{TP_MARIAA}description": {
+  "en": "Gains a follower every 10 levels starting from level 2. Overhealing slightly increases Might. Overhealing by +32 temporarily boosts all current followers.",
+  "pt": "Ganha um seguidor a cada 10 níveis, a partir do nível 2. Recuperar vida excessiva concede pequeno aumento de Poder. Recuperar +32 de vida excessiva aumenta todos os seguidores atuais temporariamente."
+ },
+ "characterLang/{TP_MARIAB}description": {
+  "en": "Cannot be damaged, but disappears after reaching the current Time Limit.",
+  "pt": "Não pode sofrer dano, mas desaparece após alcançar o limite de tempo atual."
+ },
+ "characterLang/{TP_OLROX}description": {
+  "en": "Count on him to change halfway through dinner.",
+  "pt": "Pode apostar que ele vai se transformar no meio do jantar."
+ },
+ "characterLang/{TP_SHAFT}description": {
+  "en": "Gains +1% Curse every level. Becomes invincible and deals damage to nearby enemies for 20 seconds when health reaches a critically low level.",
+  "pt": "Ganha +1% de Maldição a cada nível. Se torna invencível e causa dano a inimigos próximos por 20 segundos quando a Vida chega a um nível crítico."
+ },
+ "characterLang/{TP_SHANOA}description": {
+  "en": "Gains +1% Might every level. Charge ability: triggers all equipped weapons from the Book of the Devil. Can find special pickups.",
+  "pt": "Ganha +1% de Poder a cada nível. Habilidade de carga: ativa todas as armas equipadas do Livro do Demônio. Pode encontrar coletáveis especiais."
+ },
+ "characterLang/{TP_SIMON}description": {
+  "en": "Growth can occasionally affect Might and Armor. Can find special pickups.",
+  "pt": "Crescimento às vezes pode afetar Poder e Armadura. Pode encontrar coletáveis especiais."
+ },
+ "characterLang/{TP_SOMA}description": {
+  "en": "Gains +1% Might every level. Immune to health drain. Once per life, triggers Soul Reaper after receiving fatal damage.",
+  "pt": "Ganha +1% de Poder a cada nível. Imune a drenagem de vida. Uma vez por vida, ativa Ceifar Almas depois de receber dano fatal."
+ },
+ "characterLang/{TP_SONIA}description": {
+  "en": "Gains a temporary Cooldown reduction when overhealing by +8. Can find special pickups.",
+  "pt": "Ganha uma redução temporária de Recarga ao recuperar +8 de vida excessiva. Pode encontrar coletáveis especiais."
+ },
+ "characterLang/{TP_STELLA}description": {
+  "en": "Immune to health drain.",
+  "pt": "Imune a drenagem de vida."
+ },
+ "characterLang/{TP_CHRISTOPHER}description": {
+  "en": "Greed can occasionally affect Might and Armor. Can find special pickups.",
+  "pt": "Ganância às vezes pode afetar Poder e Armadura. Pode encontrar coletáveis especiais."
+ },
+ "characterLang/{TP_SARA}description": {
+  "en": "Gains +0.02 Recovery every level. Once per life, triggers Firebreathing for every character after receiving fatal damage. Evolves the Overbrand when reviving.",
+  "pt": "Ganha +0,02 de Recuperação a cada nível. Uma vez por vida, ativa Cospe-fogo para cada personagem após receber dano fatal. Evolui o Overbrand ao reviver."
+ },
+ "characterLang/{TP_DARIO}description": {
+  "en": "Increases the base damage of every equipped fire-type weapon when levelling up.",
+  "pt": "Ao subir de nível, aumenta o dano de base de todas as armas de tipo fogo equipadas."
+ },
+ "characterLang/{TP_DMITRI}description": {
+  "en": "Gets a hidden clone of the latest equipped weapon or evolution.",
+  "pt": "Recebe um clone oculto da arma ou evolução mais recente equipada."
+ },
+ "characterLang/{TP_CELIA}description": {
+  "en": "Obtains a Soul Scroll every 2 levels",
+  "pt": "Recebe um Pergaminho da Alma a cada 2 níveis."
+ },
+ "characterLang/{TP_QUINCY}description": {
+  "en": "Charge ability affected by Might: attempts to safely trigger Self Destruction.",
+  "pt": "Habilidade de carga afetada por Poder: tenta ativar Autodestruição com segurança."
+ },
+ "characterLang/{TP_MAXIM}description": {
+  "en": "Overhealing slightly increases Speed. Might is greatly increased while Invulnerable.",
+  "pt": "Recuperação de vida excessiva aumenta um pouco a velocidade. Grande aumento de Poder quando invulnerável."
+ },
+ "characterLang/{TP_BARLOWE}description": {
+  "en": "Overhealing slightly increases Might and Curse. Might receive Book of the Devil as 4th level up option until Level 11.",
+  "pt": "Recuperar vida excessiva aumenta um pouco o Poder e a Maldição. Pode receber o Livro do Demônio como 4ª opção ao subir de nível até o nível 11."
+ },
+ "characterLang/{TP_CHAOS}description": {
+  "en": "Starts with Arcana I, II, III, IV, V, VI, VII, VIII, IX, X, XI, XII, XIII, XIV, XV, XVI, XVII, XVIII, XIX, XX, and XXI.",
+  "pt": "Começa com Arcana I, II, III, IV, V, VI, VII, VIII, IX, X, XI, XII, XIII, XIV, XV, XVI, XVII, XVIII, XIX, XX e XXI."
+ },
+ "characterLang/{TP_WIND}description": {
+  "en": "Retaliates with Asura Strike. Triggers Asura Strike and a random equipped weapon from the Bible when overhealing by +8.",
+  "pt": "Retalia com Punho Supremo de Asura. Ativa Punho Supremo de Asura e uma arma equipada aleatória da Bíblia ao recuperar +8 de vida excessiva."
+ },
+ "characterLang/{TP_ASTARTE}description": {
+  "en": "Starts with a hidden Petitio. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers.",
+  "pt": "Começa com um Petitio oculto. Inimigos têm 15% de chance de surgir com Debilidade. Pode transformar inimigos derrotados em seguidores."
+ },
+ "characterLang/{TP_LIBRARIAN}description": {
+  "en": "Deeply moved by money.",
+  "pt": "Movido só pelo dinheiro."
+ },
+ "characterLang/{TP_HAMMER}description": {
+  "en": "Get more projectiles every 20 levels (Max +3). Amount is doubled while invulnerable.",
+  "pt": "Ganha mais projéteis a cada 20 níveis (máx. de +3). Quantidade é dobrada quando invulnerável."
+ },
+ "characterLang/{TP_SOLEIL}description": {
+  "en": "Fights well with (and against) his father.",
+  "pt": "Luta bem com (e contra) seu pai."
+ },
+ "characterLang/{TP_JOACHIM}description": {
+  "en": "Immune to health drain. Can choose a per-level bonus.",
+  "pt": "Imune a drenagem de vida. Pode escolher um bônus por nível."
+ },
+ "characterLang/{TP_CAVETROLL}description": {
+  "en": "Gets more projectiles every 20 levels (max +4).",
+  "pt": "Ganha mais projéteis a cada 20 níveis (máx. de +4)."
+ },
+ "characterLang/{TP_FERRYMAN}description": {
+  "en": "Water included.",
+  "pt": "Água inclusa."
+ },
+ "characterLang/{TP_CHARLOTTE_AND_JONATHAN}description": {
+  "en": "Warlock! Royal Guard! Warlock! Royal Guard! Warlock! Royal Guard! Warlock! Royal Guard! Warlock! Royal Guard! Warlock! Royal Guard!",
+  "pt": "Arcano! Guardião! Arcano! Guardião! Arcano! Guardião! Arcano! Guardião! Arcano! Guardião! Arcano! Guardião!"
+ },
+ "characterLang/{TP_STELLA_AND_LORETTA}description": {
+  "en": "Immune to health drain.",
+  "pt": "Imune a drenagem de vida."
+ },
+ "characterLang/{TP_JONATHAN_AND_CHARLOTTE}description": {
+  "en": "Royal Guard! Warlock! Royal Guard! Warlock! Royal Guard! Warlock! Royal Guard! Warlock! Royal Guard! Warlock! Royal Guard! Warlock!",
+  "pt": "Guardião! Arcano! Guardião! Arcano! Guardião! Arcano! Guardião! Arcano! Guardião! Arcano! Guardião! Arcano!"
+ },
+ "characterLang/{TP_LORETTA_AND_STELLA}description": {
+  "en": "Immune to health drain.",
+  "pt": "Imune a drenagem de vida."
+ },
+ "characterLang/{TP_FOLLOWER_IMP}description": {
+  "en": "Where did it get that meat?",
+  "pt": "De onde veio essa carne?"
+ },
+ "characterLang/{TP_FOLLOWER_BITTERFLY}description": {
+  "en": "Flies bitterly.",
+  "pt": "Voa com amargura."
+ },
+ "characterLang/{TP_FOLLOWER_UKOBAK}description": {
+  "en": "Pyromaniacal gremlin.",
+  "pt": "Gremlin piromaníaco."
+ },
+ "characterLang/{TP_FOLLOWER_GHOST}description": {
+  "en": "Potentially a poltergeist",
+  "pt": "Provavelmente um poltergeist."
+ },
+ "characterLang/{TP_INNOCENT_DEVILS}description": {
+  "en": "Gets more projectiles every 20 levels (max +3).",
+  "pt": "Ganha mais projéteis a cada 20 níveis (máx. de +3)."
+ },
+ "characterLang/{TP_FOLLOWER_WIZARD}description": {
+  "en": "Can't see much beyond the hat.",
+  "pt": "Não dá para ver muito fora o chapéu."
+ },
+ "characterLang/{TP_FOLLOWER_FAIRY}description": {
+  "en": "Sees something funny in the walls.",
+  "pt": "Acha graça das paredes."
+ },
+ "characterLang/{TP_FOLLOWER_PUMPKIN}description": {
+  "en": "The spookiest devil.",
+  "pt": "O demônio mais assustador."
+ },
+ "characterLang/{TP_CORNELL_BCM}description": {
+  "en": "Gains +1% Might every level.",
+  "pt": "Ganha +1% de Poder a cada nível."
+ },
+ "characterLang/{TP_FAMILIARS}description": {
+  "en": "Gets more projectiles every 20 levels (max +3).",
+  "pt": "Ganha mais projéteis a cada 20 níveis (máx. de +3)."
+ },
+ "characterLang/{TP_ELIZABETH_MEGA}description": {
+  "en": "Increases enemies spawn quantity by 50. Immune to health drain.",
+  "pt": "Aumenta em 50 a quantidade de inimigos que surgem. Imune a drenagem de vida."
+ },
+ "characterLang/{TP_FLEAMAN}description": {
+  "en": "He doesn't understand the game.",
+  "pt": "Ele não entende o jogo."
+ },
+ "characterLang/{TP_SNIPER}description": {
+  "en": "Gains +1% Luck every level. Can fly.",
+  "pt": "Ganha +1% de Sorte a cada nível. Voa."
+ },
+ "characterLang/{TP_MALPHAS}description": {
+  "en": "Has hidden weapons that grow stronger when levelling up. Can fly.",
+  "pt": "Tem armas ocultas que ficam mais fortes ao subir de nível. Voa."
+ },
+ "characterLang/{TP_BLACKMORE}description": {
+  "en": "Can choose a per-level bonus after defeating a set amount of enemies (max 5 times).",
+  "pt": "Pode escolher um bônus por nível após derrotar uma quantidade específica de inimigos (máx. 5 vezes)."
+ },
+ "characterLang/{TP_DEATH_MEGA}description": {
+  "en": "Doesn't appreciate getting blasphemously mockered.",
+  "pt": "Não gosta de blasfêmias ridicularizantes."
+ },
+ "characterLang/{TP_WALTER}description": {
+  "en": "Triggers a random equipped weapon from the Book of the Devil when overhealing by +8. Immune to health drain.",
+  "pt": "Ativa uma arma equipada aleatoriamente do Livro do Demônio ao recuperar +8 de vida excessiva. Imune a drenagem de vida."
+ },
+ "characterLang/{TP_OLROX_MEGA}description": {
+  "en": "Count on him to change halfway through dinner.",
+  "pt": "Pode apostar que ele vai se transformar no meio do jantar."
+ },
+ "characterLang/{TP_DRACULA_MEGA}description": {
+  "en": "Gains +1% Might every level and +1 Revival every 100 levels. Curse increases Might. Incoming damage capped at 10. Immune to health drain.",
+  "pt": "Ganha +1% de Poder a cada nível e +1 de Ressurreição a cada 100 níveis. Maldição aumenta Poder. O dano sofrido é limitado a 10. Imune a drenagem de vida."
+ },
+ "characterLang/{EME_RAPIERDUAL}description": {
+  "en": "Obtains a Miyabi Doll follower every 20 levels (max 4). Triggers Showstopper at critical health.",
+  "pt": "Ganha uma Boneca Miyabi como seguidora a cada 20 níveis (máx. de 4). Ativa Apoteose ao atingir um nível crítico de Vida."
+ },
+ "characterLang/{EME_MAGICALL}description": {
+  "en": "Gains stat bonuses when collecting her summoned cats. Triggers Showstopper at critical health.",
+  "pt": "Fica mais forte ao coletar seus gatos invocados. Ativa Apoteose ao atingir um nível crítico de Vida."
+ },
+ "characterLang/{EME_PUNCHKICK}description": {
+  "en": "Gains Might when using glimmered techs. Teams up with the Rebellion. Triggers Showstopper at critical health.",
+  "pt": "Ganha Poder ao usar técnicas realçadas. Une-se à Insurgente. Ativa Apoteose ao atingir um nível crítico de Vida."
+ },
+ "characterLang/{EME_CANNONGUN}description": {
+  "en": "Gains Duration when using glimmered techs. Teams up with the Sura. Triggers Showstopper at critical health.",
+  "pt": "Ganha Duração ao usar técnicas realçadas. Une-se à Shura. Ativa Apoteose ao atingir um nível crítico de Vida."
+ },
+ "characterLang/{EME_MECHKATANA}description": {
+  "en": "Different skins have different stats. Triggers Showstopper at critical health.",
+  "pt": "Visuais diferentes têm atributos diferentes. Ativa Apoteose ao atingir um nível crítico de Vida."
+ },
+ "characterLang/{EME_SWORDBITE}description": {
+  "en": "Defeated enemies become followers. Increasing MaxHealth increases maximum followers. Triggers Showstopper at critical health.",
+  "pt": "Inimigos derrotados se tornam seguidores. Aumentar Vida Máxima aumenta também o máximo de seguidores. Ativa Apoteose ao atingir um nível crítico de Vida."
+ },
+ "characterLang/{EME_EXAXE}description": {
+  "en": "Triggers Showstopper at critical health and on revival.\nGains a bonus to Cooldown every time Showstopper is triggered (Max -20%).",
+  "pt": "Ativa Apoteose ao atingir um nível crítico de Vida e ao ressuscitar.\nGanha um bônus de Recarga sempre que Apoteose é ativada (máx. de -20%)."
+ },
+ "characterLang/{EME_EXGREATSWORD}description": {
+  "en": "Triggers glimmered techs more often than normal. Triggers Showstopper at critical health.",
+  "pt": "Ativa técnicas realçadas com mais frequência. Ativa Apoteose ao atingir um nível crítico de Vida."
+ },
+ "characterLang/{EME_EXKNIFE}description": {
+  "en": "Starts with a hidden Astral Strike. Increases enemy spawn quantity by 50. Triggers Showstopper at critical health.",
+  "pt": "Começa com Golpe Astral oculto. Aumenta em 50 a quantidade de inimigos que surgem. Ativa Apoteose ao atingir um nível crítico de Vida."
+ },
+ "characterLang/{EME_EXSPEAR}description": {
+  "en": "Innately knows the \"Storm Cannon\" tech. Triggers Showstopper at critical health.",
+  "pt": "Domina a técnica \"Canhão Tempestade\" instintivamente. Ativa Apoteose ao atingir um nível crítico de Vida."
+ },
+ "characterLang/{EME_PUPALL}description": {
+  "en": "Gains 1 Revival and 5% Growth every time they glimmer a new tech.\nTriggers Showstopper at critical health.",
+  "pt": "Ganha 1 Ressurreição e 5% de Crescimento sempre que realçar uma nova técnica.\nAtiva Apoteose ao atingir um nível crítico de Vida."
+ },
+ "characterLang/{EME_MRS}description": {
+  "en": "The Sage will showcase his skills with techs. Gets more projectiles every 20 levels (max +4).",
+  "pt": "O Sábio exibirá suas habilidades com técnicas. Ganha mais projéteis a cada 20 níveis (máx. de +4)."
+ },
+ "characterLang/{EME_PUPKATANA_FOLLOWER}custom_suffix": {
+  "en": "the Miyabi Doll",
+  "pt": "a Boneca Miyabi"
+ },
+ "characterLang/{EME_CATS}description": {
+  "en": "Triggers Showstopper at critical health. Gain a follower whenever Showstopper is triggered. ",
+  "pt": "Ativa Apoteose com nível crítico de Vida. Ganha um seguidor ao ativar Apoteose."
+ },
+ "characterLang/{EME_DEMON}description": {
+  "en": "Innately knows the \"Earth Grave\" tech.",
+  "pt": "Domina a técnica \"Túmulo de Terra\" instintivamente."
+ },
+ "characterLang/{EME_IMAKOO}description": {
+  "en": "Innately knows the \"Hell's Fury\" and \"Blood Rage\" techs.\nGain bonus Might whenever Showstopper is triggered at critical health. ",
+  "pt": "Domina as técnicas \"Fúria de Sangue\" e \"Fúria Infernal\" instintivamente.\nGanha bônus de Poder ao ativar Apoteose com nível crítico de Vida. "
+ },
+ "characterLang/{EME_KINA}description": {
+  "en": "Innately knows the \"Swallow Slice\" and \"Airwave\" techs.\nGains bonus Recovery whenever Showstopper is triggered at critical health. ",
+  "pt": "Domina as técnicas \"Corte de Andorinha\" e \"Rajada Cortante\" instintivamente.\nGanha bônus de Recuperação ao ativar Apoteose com nível crítico de Vida. "
+ },
+ "characterLang/{LEM_JIMBO}description": {
+  "en": "Can always find Survarots. Starts with a Survarot draft. Has a Survarot level Multiplier of 4.",
+  "pt": "Pode sempre encontrar Surtarôs. Começa com uma tiragem de Surtarô. Tem um Multiplicador de nível de Surtarô de 4."
+ },
+ "characterLang/{LEM_CANIO}description": {
+  "en": "Using Skip when levelling up has a chance to trigger a Survarot draft.",
+  "pt": "Usar Adiar ao subir de nível gera uma chance de tiragem de Surtarô."
+ },
+ "characterLang/{LEM_CHICOT}description": {
+  "en": "Can always find Survarots. Starts with a Survarot draft. Reduces boss health and blocks some special attacks.",
+  "pt": "Pode sempre encontrar Surtarôs. Começa com uma tiragem de Surtarô. Reduz Vida de chefes e bloqueia alguns ataques especiais."
+ },
+ "characterLang/{LEM_PERKEO}description": {
+  "en": "Can always find Survarots. Can equip up to 100 Passive Weapons.",
+  "pt": "Pode sempre encontrar Surtarôs. Pode equipar até 100 armas passivas."
+ },
+ "characterLang/{TP_HUGH}description": {
+  "en": "Adept with Sonic Wave. Might receive Bible as 4th level up option until Level 15",
+  "pt": "Hábil com Onda Sônica. Pode receber a Bíblia como 4ª opção ao subir de nível até o nível 15."
+ },
+ "characterLang/{TP_PERSEPHONE}description": {
+  "en": "Her hidden vaccuum draws in items, destructibles, and enemies.",
+  "pt": "Seu aspirador oculto absorve itens, elementos destrutíveis e inimigos."
+ },
+ "characterLang/{TP_TERA}description": {
+  "en": "Starts with temporarily reduced Cooldown. Overhealing slightly decreases Cooldown. Rosaries are easier to find.",
+  "pt": "Começa com redução temporária de Recarga. Recuperar vida excessiva diminui um pouco a Recarga. Encontra Rosários mais facilmente."
+ },
+ "characterLang/{TP_ANNETTE}description": {
+  "en": "Summons a selection of clockwork weapons.",
+  "pt": "Invoca uma seleção de armas mecânicas."
+ },
+ "characterLang/{TP_JIANGSHI}description": {
+  "en": "Triggers a random equipped weapon every 13th hop. Immune to health drain.",
+  "pt": "Ativa uma arma equipada aleatória a cada 13 saltos. Imune a drenagem de vida."
+ },
+ "characterLang/{TP_GENYA}description": {
+  "en": "Totally not Seyren Windsor.",
+  "pt": "Com certeza não é o Seyren Windsor."
+ },
+ "characterLang/{TP_WATERMAGICIAN}description": {
+  "en": "Overhealing by +32 triggers any equipped weapon from the Bible and slowly floods the environment.",
+  "pt": "Ao recuperar +32 de vida excessiva, ativa qualquer arma equipada da Bíblia e inunda lentamente o ambiente."
+ },
+ "characterLang/{TP_SWORDRULER}description": {
+  "en": "Grows additional swords when accumulatively Overhealing by an increasingly larger amount (Max 12 swords).",
+  "pt": "Materializa espadas adicionais ao acumular uma quantidade cade vez mais alta de vida excessiva (máx. de 12 espadas)."
+ },
+ "characterLang/{TP_DROLTA}description": {
+  "en": "Overhealing by +32 triggers any equipped weapon from the Forbidden Spellbook.",
+  "pt": "Ao recuperar +32 de vida excessiva, ativa uma arma equipada do Grimório Proibido."
+ },
+ "characterLang/{TP_FAKE_TRIO}description": {
+  "en": "A trio of Bio Lab clones posing as heroes.",
+  "pt": "Um trio de clones do Laboratório disfarçados de heróis."
+ },
+ "characterLang/{TP_STONESKULL}description": {
+  "en": "Gains +1 Armor every 5 levels. Horizontally impaired. Retaliates.",
+  "pt": "Ganha +1 de Armadura a cada 5 níveis. Limitada horizontalmente. Retalia."
+ },
+ "characterLang/{TP_SLOGRA_AND_GAIBON}description": {
+  "en": "Adept with Mayhemic Thorns. Always followed by Gaibon. Gets enraged if its partner dies.",
+  "pt": "Hábil com Espinhos Caóticos. Sempre seguido por Gaibon. Se enfurece se o parceiro morre."
+ },
+ "weaponLang/{SILVERWIND}description": {
+  "en": "Defeated enemies might drop Apples.",
+  "pt": "Inimigos derrotados podem deixar Maçãs."
+ },
+ "weaponLang/{SILVERWIND2}description": {
+  "en": "Evolved First Wind. Weakens enemies defenses.",
+  "pt": "Evolução do Primeiro Vento. Enfraquece as defesas dos inimigos."
+ },
+ "weaponLang/{SILVERWIND2}tips": {
+  "en": "Requires Max: Red Herb.",
+  "pt": "Requer máx. de: Erva Vermelha."
+ },
+ "weaponLang/{FOURSEASONS}description": {
+  "en": "Generates 4 explosions. Amount and Duration affect damage instead.",
+  "pt": "Gera 4 explosões. Quantidade e Duração passam a afetar dano."
+ },
+ "weaponLang/{FOURSEASONS}tips": {
+  "en": "Ignores: Speed.",
+  "pt": "Ignora: Velocidade."
+ },
+ "weaponLang/{FOURSEASONS2}description": {
+  "en": "Evolved Spirit Charms. Generates an additional explosion.",
+  "pt": "Evolução de Amuletos Espirituais. Gera uma explosão adicional."
+ },
+ "weaponLang/{FOURSEASONS2}tips": {
+  "en": "Requires Max: Forbidden Red Candle.",
+  "pt": "Requer máx. de: Vela Vermelha Proibida."
+ },
+ "weaponLang/{SUMMONNIGHT}description": {
+  "en": "Generates damaging zones above the character.",
+  "pt": "Gera acima do personagem zonas que causam dano."
+ },
+ "weaponLang/{SUMMONNIGHT}tips": {
+  "en": "Ignores: Speed.",
+  "pt": "Ignora: Velocidade."
+ },
+ "weaponLang/{SUMMONNIGHT2}description": {
+  "en": "Evolved Crimson Fire Formation. Also generates damaging zones below the character.",
+  "pt": "Evolução da Formação Pétala Escarlate. Também gera abaixo do personagem zonas que causam dano."
+ },
+ "weaponLang/{SUMMONNIGHT2}tips": {
+  "en": "Requires Max: Crystal Mirror.",
+  "pt": "Requer máx. de: Espelho de Cristal."
+ },
+ "weaponLang/{MIRAGEROBE}description": {
+  "en": "Generates freezing static projectiles with a chance to explode.",
+  "pt": "Gera projéteis estáticos e paralisantes que têm a chance de explodir."
+ },
+ "weaponLang/{MIRAGEROBE}tips": {
+  "en": "Ignores: Speed.",
+  "pt": "Ignora: Velocidade."
+ },
+ "weaponLang/{MIRAGEROBE}customDescValue": {
+  "en": "%0% chance to explode.",
+  "pt": "%0% de chance de explodir."
+ },
+ "weaponLang/{MIRAGEROBE2}description": {
+  "en": "Evolved Freezing Trap. Projectiles move and confuse enemies.",
+  "pt": "Evolução da Armadilha Congelante. Projéteis se movimentam e confundem inimigos."
+ },
+ "weaponLang/{MIRAGEROBE2}tips": {
+  "en": "Requires Max: Magnetic Field Generator.",
+  "pt": "Requer máx. de: Gerador de Campo Magnético."
+ },
+ "weaponLang/{BUBBLES}description": {
+  "en": "Fires lingering projectiles.",
+  "pt": "Dispara projéteis duradouros."
+ },
+ "weaponLang/{BUBBLES2}description": {
+  "en": "Evolved Summon Water Ball. Projectiles can hit the same target more than once.",
+  "pt": "Evolução de Invocar Bola d'Água. Projéteis podem atingir o mesmo alvo mais de uma vez."
+ },
+ "weaponLang/{BUBBLES2}tips": {
+  "en": "Requires Max: Clock Card.",
+  "pt": "Requer máx. de: Carta Relógio."
+ },
+ "weaponLang/{NIGHTSWORD}description": {
+  "en": "Retaliates with a bonus damage affected by Greed. Might steal Apples.",
+  "pt": "Retalia com dano bônus afetado pela Ganância. Pode roubar Maçãs."
+ },
+ "weaponLang/{NIGHTSWORD}tips": {
+  "en": "Ignores: Speed, Duration.",
+  "pt": "Ignora: Velocidade, Duração."
+ },
+ "weaponLang/{NIGHTSWORD2}description": {
+  "en": "Evolved Cross Slash. Enables critical hits and combo finisher. Drains Health.",
+  "pt": "Evolução do Corte Cruzado. Ativa acertos críticos e finalizador de combo. Drena Vida."
+ },
+ "weaponLang/{NIGHTSWORD2}tips": {
+  "en": "Requires Max: Bubble Gum.",
+  "pt": "Requer máx. de: Chiclete."
+ },
+ "weaponLang/{BOCCE}description": {
+  "en": "Actually it's just 8. Damage affected by the difference between Curse and Luck.",
+  "pt": "Na verdade, é só 8. Dano afetado pela diferença entre Maldição e Sorte."
+ },
+ "weaponLang/{BOCCE}tips": {
+  "en": "Ignores: Amount, Duration, Speed.",
+  "pt": "Ignora: Quantidade, Duração, Velocidade."
+ },
+ "weaponLang/{SPELL_STRING}description": {
+  "en": "Strikes at nearby enemies. Damage multiplied by Speed.",
+  "pt": "Golpeia inimigos próximos. O dano é multiplicado pela Velocidade."
+ },
+ "weaponLang/{SPELL_STRING}tips": {
+  "en": "Ignores: Area, Duration.",
+  "pt": "Ignora: Área, Duração."
+ },
+ "weaponLang/{SPELL_STREAM}description": {
+  "en": "Generates an expanding damaging zone. Damage multiplied by Area.",
+  "pt": "Gera uma zona de dano crescente. O dano é multiplicado pela Área."
+ },
+ "weaponLang/{SPELL_STREAM}tips": {
+  "en": "Ignores: Amount.",
+  "pt": "Ignora: Quantidade."
+ },
+ "weaponLang/{SPELL_STRIKE}description": {
+  "en": "Strikes at the nearest enemy. Damage further multiplied by Might.",
+  "pt": "Golpeia o inimigo mais próximo. O dano é multiplicado pelo Poder."
+ },
+ "weaponLang/{SPELL_STRIKE}tips": {
+  "en": "Ignores: Area, Duration.",
+  "pt": "Ignora: Área, Duração."
+ },
+ "weaponLang/{SPELL_STROM}description": {
+  "en": "Union of Spell Fist, Psychic Wave, and Varetyr Spear. Grows stronger after every singularity.",
+  "pt": "União de Punho Arcano, Onda Psíquica e Lança de Varetyr. Fica mais forte a cada singularidade."
+ },
+ "weaponLang/{SWORD}description": {
+  "en": "Attacks nearby enemies. Retaliates.",
+  "pt": "Ataca inimigos próximos. Retalia."
+ },
+ "weaponLang/{SWORD}tips": {
+  "en": "Ignores: Speed, Duration.",
+  "pt": "Ignora: Velocidade, Duração."
+ },
+ "weaponLang/{SWORD2}description": {
+  "en": "Evolved Bowling Bash. Generates additional projectiles that deal retaliatory damage.",
+  "pt": "Evolução de Impacto de Tyr. Gera projéteis adicionais que causam dano retaliativo."
+ },
+ "weaponLang/{SWORD2}tips": {
+  "en": "Requires Max: Full Plate.",
+  "pt": "Requer máx. de: Armadura Completa."
+ },
+ "weaponLang/{FLASHARROW}description": {
+  "en": "Can deal critical damage. Amount affects damage instead.",
+  "pt": "Pode causar dano crítico. Quantidade passa a afetar o dano."
+ },
+ "weaponLang/{FLASHARROW}tips": {
+  "en": "Ignores: Duration.",
+  "pt": "Ignora: Duração."
+ },
+ "weaponLang/{FLASHARROW2}description": {
+  "en": "Evolved Aimed Bolt. Fires additional projectiles based on Amount and when picking up Zeny.",
+  "pt": "Evolução do Disparo Certeiro. Dispara projéteis adicionais com base na Quantidade e ao coletar Zeny."
+ },
+ "weaponLang/{FLASHARROW2}tips": {
+  "en": "Requires Max: Bow Thimble.",
+  "pt": "Requer máx. de: Dedal de Arqueiro."
+ },
+ "weaponLang/{PRISMATICMISS}description": {
+  "en": "Generates explosions around the character. Affected by the first chosen Arcana between II, XIV, or XIX.",
+  "pt": "Gera explosões ao redor do personagem. Afetado pela primeira Arcana escolhida entre II, XIV ou XIX."
+ },
+ "weaponLang/{PRISMATICMISS}tips": {
+  "en": "Ignores: Duration.",
+  "pt": "Ignora: Duração."
+ },
+ "weaponLang/{PRISMATICMISS2}description": {
+  "en": "Evolved Tetra Vortex. Increases the value of gemstones and Zeny on the ground.",
+  "pt": "Evolução do Tetra Vortex. Aumenta o valor das gemas e do Zeny no chão."
+ },
+ "weaponLang/{PRISMATICMISS2}tips": {
+  "en": "Requires Max: Battle Manual.",
+  "pt": "Requer máx. de: Manual de Combate."
+ },
+ "weaponLang/{SHADOWSERVANT}description": {
+  "en": "Has a chance to slow enemies down.",
+  "pt": "Tem a chance de causar lentidão nos inimigos."
+ },
+ "weaponLang/{SHADOWSERVANT}tips": {
+  "en": "Best with: Luck.",
+  "pt": "Melhor com: Sorte."
+ },
+ "weaponLang/{SHADOWSERVANT2}description": {
+  "en": "Evolved Fiber Lock. Has a chance to instantly kill enemies.",
+  "pt": "Evolução da Teia de Aranha. Tem a chance de eliminar inimigos instantaneamente."
+ },
+ "weaponLang/{SHADOWSERVANT2}tips": {
+  "en": "Requires Max: Dead Branch.",
+  "pt": "Requer máx. de: Galho Seco."
+ },
+ "weaponLang/{PARTY}description": {
+  "en": "Throws bouncing projectiles.",
+  "pt": "Lança projéteis ricocheteantes."
+ },
+ "weaponLang/{PARTY}tips": {
+  "en": "Best with: Duration, Speed.",
+  "pt": "Melhor com: Velocidade, Duração."
+ },
+ "weaponLang/{ACADEMYBADGE}description": {
+  "en": "Will provide bonus Amount and Revivals in exchange for Growth.",
+  "pt": "Fornece Quantidade e Ressurreições de bônus em troca de Crescimento."
+ },
+ "weaponLang/{SHADOWSERVANT_COUNTER}description": {
+  "en": "Counterpart to Fiber Lock and Soul Burn from Arcana I - The Magician.",
+  "pt": "Contrapartida de Teia de Aranha e Queima de Almas da Arcana I - O Mago."
+ },
+ "weaponLang/{PARTY_COUNTER}description": {
+  "en": "Counterpart to Sling Item from Arcana I - The Magician.",
+  "pt": "Contrapartida de Arremessar Item da Arcana I - O Mago."
+ },
+ "weaponLang/{SWORD}customDescValue": {
+  "en": "Every fifth activation has a combo finisher.",
+  "pt": "Uma sequência finalizadora a cada cinco ativações."
+ },
+ "weaponLang/{C1_REPORT1}description": {
+  "en": "Damages enemies and pushes them away.",
+  "pt": "Causa dano e empurra inimigos."
+ },
+ "weaponLang/{C1_REPORT1}tips": {
+  "en": "Ignores: Duration.",
+  "pt": "Ignora: Duração."
+ },
+ "weaponLang/{C1_REPORT1}customDescValue": {
+  "en": "Knockback factor increased by %0.",
+  "pt": "Aumenta o fator de empurrão em %0."
+ },
+ "weaponLang/{C1_REPORT2}description": {
+  "en": "Evolved Cart Tornado. Occasionally destroys all of one type of enemy.",
+  "pt": "Evolução do Tornado de Carrinho. Pode destruir todos os inimigos de um tipo."
+ },
+ "weaponLang/{C1_REPORT2}tips": {
+  "en": "Requires Max: Venatu.",
+  "pt": "Requer máx. de: Venatu."
+ },
+ "weaponLang/{C1_SWIPECARD1}description": {
+  "en": "The amount of attacks is affected by Amount and by low Luck.",
+  "pt": "O número de ataques é afetado pela Quantidade e pela Sorte baixa."
+ },
+ "weaponLang/{C1_SWIPECARD1}tips": {
+  "en": "Ignores: Duration.",
+  "pt": "Ignora: Duração."
+ },
+ "weaponLang/{C1_SWIPECARD2}description": {
+  "en": "Evolved Boost Knuckle. Attacks in up to four directions.",
+  "pt": "Evolução de Punho Foguete. Ataca em até quatro direções."
+ },
+ "weaponLang/{C1_SWIPECARD2}tips": {
+  "en": "Requires Max: Dimik.",
+  "pt": "Requer máx. de: Dimik."
+ },
+ "weaponLang/{C1_MEDICAL1}description": {
+  "en": "Restores HP based on Amount and Recovery.",
+  "pt": "Recupera PV com base na Quantidade e na Recuperação."
+ },
+ "weaponLang/{C1_MEDICAL1}tips": {
+  "en": "Area affects other players.",
+  "pt": "Área afeta outros jogadores."
+ },
+ "weaponLang/{C1_MEDICAL2}description": {
+  "en": "Evolved Coluceo Heal. Periodically grants a random stat boost for the rest of the run.",
+  "pt": "Evolução da Cura Coluceo. Concede um aumento de atributo aleatório pelo resto da partida."
+ },
+ "weaponLang/{C1_MEDICAL2}tips": {
+  "en": "Requires Max: Ghostring.",
+  "pt": "Requer máx. de: Ghostring."
+ },
+ "weaponLang/{C1_VENT1}description": {
+  "en": "Destroys or heavily damages enemies. Amount affects how many times it can trigger.",
+  "pt": "Destrói ou causa alto dano a inimigos. Quantidade afeta quantas vezes pode ser ativado."
+ },
+ "weaponLang/{C1_VENT1}tips": {
+  "en": "Ignores: Speed.",
+  "pt": "Ignora: Velocidade."
+ },
+ "weaponLang/{C1_VENT1}customDescValue": {
+  "en": "Uses increased by %0.",
+  "pt": "Aumenta os usos em %0."
+ },
+ "weaponLang/{C1_VENT2}description": {
+  "en": "Evolved Feint Bomb. Sucks in enemies.",
+  "pt": "Evolução de Bomba Fantasma. Aspira os inimigos."
+ },
+ "weaponLang/{C1_VENT2}tips": {
+  "en": "Requires Max: Alicel.",
+  "pt": "Requer máx. de: Alicel."
+ },
+ "weaponLang/{C1_GARBA1}description": {
+  "en": "Generates projectile spawning zones that follow the player.",
+  "pt": "Gera zonas de surgimento de projéteis que seguem o jogador."
+ },
+ "weaponLang/{C1_GARBA2}description": {
+  "en": "Evolved Earth Drive. Amount creates cluster explosions.",
+  "pt": "Evolução do Impulso Terrestre. Quantidade cria explosões em cadeia."
+ },
+ "weaponLang/{C1_GARBA2}tips": {
+  "en": "Requires Max: Archdam.",
+  "pt": "Requer máx. de: Archdam."
+ },
+ "weaponLang/{C1_TONGUE1}description": {
+  "en": "Strikes enemies in front of you. Damage multiplied by Recovery.",
+  "pt": "Ataca inimigos à sua frente. Dano multiplicado pela Recuperação."
+ },
+ "weaponLang/{C1_TONGUE2}description": {
+  "en": "Evolved Cross Impact. Deals high damage to the strongest enemy and anything in its path. ",
+  "pt": "Evolução do Impacto Cruzado. Causa dano alto ao inimigo mais forte e a tudo em seu caminho."
+ },
+ "weaponLang/{C1_TONGUE2}tips": {
+  "en": "Requires Max: Aliza.",
+  "pt": "Requer máx. de: Aliza."
+ },
+ "weaponLang/{C1_SAMPLES1}description": {
+  "en": "Generates zones that explode when touched by a player. Amount affects the number of explosion clusters. ",
+  "pt": "Gera zonas que explodem ao serem tocadas por jogadores. Quantidade afeta o número de explosões."
+ },
+ "weaponLang/{C1_SAMPLES1}tips": {
+  "en": "Ignores: Speed.",
+  "pt": "Ignora: Velocidade."
+ },
+ "weaponLang/{C1_SAMPLES2}description": {
+  "en": "Evolved Spore Explosion. Triggers a finisher when the right conditions are met.",
+  "pt": "Evolução da Explosão de Esporos. Ativa um finalizador nas condições certas."
+ },
+ "weaponLang/{C1_SAMPLES2}tips": {
+  "en": "Requires Max: Plasma.",
+  "pt": "Requer máx. de: Plasma."
+ },
+ "weaponLang/{C1_HATCOLLECTION1}description": {
+  "en": "Throws cute bouncing projectiles with random properties.",
+  "pt": "Lança projéteis ricocheteantes e fofos com propriedades aleatórias."
+ },
+ "weaponLang/{C1_SHRINK_CREWMA}description": {
+  "en": "Might occasionally shout at nearby enemies.",
+  "pt": "Pode gritar com inimigos próximos."
+ },
+ "weaponLang/{C1_SHRINK_CREWMA}tips": {
+  "en": "Obtained by levelling up Cart Tornado.",
+  "pt": "Obtido ao elevar o nível de Tornado de Carrinho."
+ },
+ "weaponLang/{C1_SHRINK_ENGINE}description": {
+  "en": "Might occasionally electrocute enemies.",
+  "pt": "Pode eletrocutar inimigos."
+ },
+ "weaponLang/{C1_SHRINK_ENGINE}tips": {
+  "en": "Obtained by levelling up Boost Knuckle.",
+  "pt": "Obtido ao elevar o nível de Punho Foguete."
+ },
+ "weaponLang/{C1_SHRINK_GHOSTT}description": {
+  "en": "Might occasionally freeze enemies in fear.",
+  "pt": "Pode deixar inimigos paralisados de medo."
+ },
+ "weaponLang/{C1_SHRINK_GHOSTT}tips": {
+  "en": "Obtained by levelling up Coluceo Heal.",
+  "pt": "Obtido ao elevar o nível da Cura Coluceo."
+ },
+ "weaponLang/{C1_SHRINK_SHAPES}description": {
+  "en": "Might occasionally fling leftover body parts at enemies.",
+  "pt": "Pode atirar partes do seu corpo em inimigos."
+ },
+ "weaponLang/{C1_SHRINK_SHAPES}tips": {
+  "en": "Obtained by levelling up Feint Bomb.",
+  "pt": "Obtido ao elevar o nível de Bomba Fantasma."
+ },
+ "weaponLang/{C1_SHRINK_GUARDI}description": {
+  "en": "Might occasionally take a hit for you. ",
+  "pt": "Pode sofrer dano em seu lugar."
+ },
+ "weaponLang/{C1_SHRINK_GUARDI}tips": {
+  "en": "Obtained by levelling up Earth Drive. ",
+  "pt": "Obtido ao elevar o nível de Impulso Terrestre."
+ },
+ "weaponLang/{C1_SHRINK_IMPOST}description": {
+  "en": "Might occasionally stab enemies.",
+  "pt": "Pode esfaquear inimigos."
+ },
+ "weaponLang/{C1_SHRINK_IMPOST}tips": {
+  "en": "Obtained by levelling up Cross Impact.",
+  "pt": "Obtido ao elevar o nível de Impacto Cruzado."
+ },
+ "weaponLang/{C1_SHRINK_SCIENT}description": {
+  "en": "Might occasionally throw science at enemies.",
+  "pt": "Pode arremessar ciência nos inimigos."
+ },
+ "weaponLang/{C1_SHRINK_SCIENT}tips": {
+  "en": "Obtained by levelling up Spore Explosion.",
+  "pt": "Obtido ao elevar o nível de Explosão de Esporos."
+ },
+ "weaponLang/{C1_SHRINK_HORSEE}description": {
+  "en": "Might occasionally infect you with its relentless happiness.",
+  "pt": "Pode contagiar você com sua felicidade inabalável."
+ },
+ "weaponLang/{C1_SHRINK_HORSEE}tips": {
+  "en": "Obtained by levelling up Hat Collection.",
+  "pt": "Obtido ao elevar o nível de Coleção de Chapéus."
+ },
+ "weaponLang/{C1_SHRINK_CREWMA}customDescValue": {
+  "en": "Allegedly offers better moral support.",
+  "pt": "Supostamente oferece um apoio moral melhor."
+ },
+ "weaponLang/{C1_SHRINK_ENGINE}customDescValue": {
+  "en": "Allegedly offers better moral support.",
+  "pt": "Supostamente oferece um apoio moral melhor."
+ },
+ "weaponLang/{C1_SHRINK_GHOSTT}customDescValue": {
+  "en": "Allegedly offers better moral support.",
+  "pt": "Supostamente oferece um apoio moral melhor."
+ },
+ "weaponLang/{C1_SHRINK_SHAPES}customDescValue": {
+  "en": "Allegedly offers better moral support.",
+  "pt": "Supostamente oferece um apoio moral melhor."
+ },
+ "weaponLang/{C1_SHRINK_GUARDI}customDescValue": {
+  "en": "Allegedly offers better moral support.",
+  "pt": "Supostamente oferece um apoio moral melhor."
+ },
+ "weaponLang/{C1_SHRINK_IMPOST}customDescValue": {
+  "en": "Allegedly offers better moral support.",
+  "pt": "Supostamente oferece um apoio moral melhor."
+ },
+ "weaponLang/{C1_SHRINK_SCIENT}customDescValue": {
+  "en": "Allegedly offers better moral support.",
+  "pt": "Supostamente oferece um apoio moral melhor."
+ },
+ "weaponLang/{C1_SHRINK_HORSEE}customDescValue": {
+  "en": "Allegedly offers better moral support.",
+  "pt": "Supostamente oferece um apoio moral melhor."
+ },
+ "weaponLang/{C1_VENT2}enemiesEjected": {
+  "en": "%0 enemies were ejected.",
+  "pt": "%0 inimigos foram ejetados."
+ },
+ "weaponLang/{C1_TONGUE1_COUNTER}description": {
+  "en": "Strikes enemies behind you. Damage multiplied by Recovery.",
+  "pt": "Ataca inimigos atrás de você. Dano multiplicado pela Recuperação."
+ },
+ "weaponLang/{FB_FULLAUTO}description": {
+  "en": "Fires constantly in the faced direction.",
+  "pt": "Dispara constantemente para frente."
+ },
+ "weaponLang/{FB_FULLAUTO}tips": {
+  "en": "Ignores: Duration.",
+  "pt": "Ignora: Duração."
+ },
+ "weaponLang/{FB_RAPIDFIRE}description": {
+  "en": "Fires bursts of decaying projectiles horizontally. ",
+  "pt": "Dispara horizontalmente sequências de projéteis em decomposição."
+ },
+ "weaponLang/{FB_RAPIDFIRE}tips": {
+  "en": "Best with: Amount, Area.",
+  "pt": "Melhor com: Quantidade, Área."
+ },
+ "weaponLang/{FB_SPREAD}description": {
+  "en": "Fires in a wide spread in the faced direction.",
+  "pt": "Dispara de forma dispersa para a frente."
+ },
+ "weaponLang/{FB_SPREAD}tips": {
+  "en": "Ignores: Duration.",
+  "pt": "Ignora: Duração."
+ },
+ "weaponLang/{FB_SONIC}description": {
+  "en": "Fires growing projectiles in the faced direction. ",
+  "pt": "Dispara projéteis que aumentam para frente."
+ },
+ "weaponLang/{FB_SONIC}tips": {
+  "en": "Best with: Might.",
+  "pt": "Melhor com: Poder."
+ },
+ "weaponLang/{FB_BLADECROSSBOW}description": {
+  "en": "Fires homing projectiles that spin in place when they hit.",
+  "pt": "Dispara projéteis direcionados que giram ao atingir alvos."
+ },
+ "weaponLang/{FB_BLADECROSSBOW}tips": {
+  "en": "Best with: Area, Duration.",
+  "pt": "Melhor com: Área, Duração."
+ },
+ "weaponLang/{FB_WAVE}description": {
+  "en": "Evolved Metallic Sound. Charges up a more powerful auto-aimed blast when standing still.",
+  "pt": "Evolução de Som Metálico. Carrega uma explosão de mira automática mais poderosa quando o personagem estiver parado."
+ },
+ "weaponLang/{FB_WAVE}tips": {
+  "en": "Best with: Cooldown.",
+  "pt": "Melhor com: Recarga."
+ },
+ "weaponLang/{FB_LASER}description": {
+  "en": "Fires a piercing projectile in the faced direction. ",
+  "pt": "Dispara um projétil perfurante para frente."
+ },
+ "weaponLang/{FB_LASER}tips": {
+  "en": "Best with: Duration.",
+  "pt": "Melhor com: Duração."
+ },
+ "weaponLang/{FB_FIREARM}description": {
+  "en": "Fires spinning projectiles at the nearest enemy. ",
+  "pt": "Dispara projéteis giratórios no inimigo mais próximo."
+ },
+ "weaponLang/{FB_FIREARM}tips": {
+  "en": "Best with: Duration, Speed.",
+  "pt": "Melhor com: Duração, Velocidade."
+ },
+ "weaponLang/{FB_METALCLAW}description": {
+  "en": "Cooldown is affected by missing health.",
+  "pt": "A Vida perdida afeta a Recarga."
+ },
+ "weaponLang/{FB_METALCLAW}tips": {
+  "en": "Best with: MaxHealth, Armor.",
+  "pt": "Melhor com: Vida Máx., Armadura."
+ },
+ "weaponLang/{FB_DIVERMINES}description": {
+  "en": "Fires explosive projectiles that travel along walls.",
+  "pt": "Dispara projéteis explosivos que viajam pelas paredes."
+ },
+ "weaponLang/{FB_DIVERMINES}tips": {
+  "en": "Best with: Duration, Speed.",
+  "pt": "Melhor com: Duração, Velocidade."
+ },
+ "weaponLang/{FB_HOMING}description": {
+  "en": "Fires exploding projectiles that home in on enemies.",
+  "pt": "Dispara projéteis explosivos que são atraídos por inimigos."
+ },
+ "weaponLang/{FB_HOMING}tips": {
+  "en": "Best with: Amount, Area.",
+  "pt": "Melhor com: Quantidade, Área."
+ },
+ "weaponLang/{FB_PRISMCUTLASS}description": {
+  "en": "Has a small chance to freeze enemies.",
+  "pt": "Chance pequena de paralisar inimigos."
+ },
+ "weaponLang/{FB_PRISMCUTLASS}tips": {
+  "en": "Best with: Area.",
+  "pt": "Melhor com: Área."
+ },
+ "weaponLang/{FB_WEAPONPU}description": {
+  "en": "Levels up a random equipped weapon. Gives +1 Revival. Does not occupy a weapon slot. ",
+  "pt": "Eleva o nível de uma arma equipada aleatória. Concede +1 de Ressurreição. Não ocupa um espaço de arma."
+ },
+ "weaponLang/{FB_WEAPONPU}tips": {
+  "en": "Stat bonuses persists after consuming the item.",
+  "pt": "Bônus de atributo permanece após consumir o item."
+ },
+ "weaponLang/{FB_PROTONBEAM}description": {
+  "en": "Evolved Triple Laser. Lasers split into multiple beams when they hit.",
+  "pt": "Evolução de Laser Triplo. Os lasers se dividem em vários feixes ao atingir alvos."
+ },
+ "weaponLang/{FB_PROTONBEAM}tips": {
+  "en": "Requires: Enriched Oridecon, Yggdrasil Leaf.",
+  "pt": "Requer: Oridecon Enriquecido, Folha de Yggdrasil."
+ },
+ "weaponLang/{FB_FIREWALL}description": {
+  "en": "Evolved Flame Launcher. Fires again when destroying a light source or destructible item.",
+  "pt": "Evolução do Lança-Chamas. Dispara novamente ao destruir uma fonte de luz ou um item destrutível."
+ },
+ "weaponLang/{FB_FIREWALL}tips": {
+  "en": "Requires: Enriched Oridecon, Forbidden Red Candle.",
+  "pt": "Requer: Oridecon Enriquecido, Vela Vermelha Proibida."
+ },
+ "weaponLang/{FB_BIGFUZZYFIST}description": {
+  "en": "Evolved Rolling Cutter. Pummels the most powerful enemies in sight.",
+  "pt": "Evolução da Lâmina Giratória. Esmaga os inimigos mais poderosos na tela."
+ },
+ "weaponLang/{FB_BIGFUZZYFIST}tips": {
+  "en": "Requires: Enriched Oridecon, Her Heart.",
+  "pt": "Requer: Oridecon Enriquecido, Coração Dela."
+ },
+ "weaponLang/{FB_MULTISTAGE}description": {
+  "en": "Evolved Tracking. Projectiles split into smaller ones when they hit. ",
+  "pt": "Evolução do Rastreamento. Os projéteis se dividem em projéteis menores ao atingir alvos."
+ },
+ "weaponLang/{FB_MULTISTAGE}tips": {
+  "en": "Requires: Enriched Oridecon, Crystal Mirror.",
+  "pt": "Requer: Oridecon Enriquecido, Espelho de Cristal."
+ },
+ "weaponLang/{FB_TIMEWARP}description": {
+  "en": "Evolved Cold Slower. May freeze, slow down, or DeFang enemies.",
+  "pt": "Evolução do Retardador Gélido. Pode paralisar, desacelerar ou debilitar inimigos."
+ },
+ "weaponLang/{FB_TIMEWARP}tips": {
+  "en": "Requires: Enriched Oridecon, Sleipnir.",
+  "pt": "Requer: Oridecon Enriquecido, Sleipnir."
+ },
+ "weaponLang/{FB_CROSSBOWCRASH}description": {
+  "en": "Evolved Hawk Boomerang. Calls forth divine intervention with a Luck-based frequency.",
+  "pt": "Evolução do Bumerangue do Falcão. Invoca intervenção divina com uma frequência baseada na Sorte."
+ },
+ "weaponLang/{FB_CROSSBOWCRASH}tips": {
+  "en": "Requires: Enriched Oridecon, Four Leaf Clover.",
+  "pt": "Requer: Oridecon Enriquecido, Trevo de Quatro Folhas."
+ },
+ "weaponLang/{FB_PROTOTYPE_A}description": {
+  "en": "Evolved Gatling Fever. Calls forth 2 drones for support fire.",
+  "pt": "Evolução da Febre de Gatling. Convoca 2 drones para apoio."
+ },
+ "weaponLang/{FB_PROTOTYPE_A}tips": {
+  "en": "Requires: Enriched Oridecon.",
+  "pt": "Requer: Oridecon Enriquecido."
+ },
+ "weaponLang/{FB_PROTOTYPE_B}description": {
+  "en": "Evolved Chain Action. Calls forth 2 drones for support fire.",
+  "pt": "Evolução da Ação em Cadeia. Convoca 2 drones para apoio."
+ },
+ "weaponLang/{FB_PROTOTYPE_B}tips": {
+  "en": "Requires: Enriched Oridecon, Bow Thimble.",
+  "pt": "Requer: Oridecon Enriquecido, Dedal de Arqueiro."
+ },
+ "weaponLang/{FB_PROTOTYPE_C}description": {
+  "en": "Evolved Spread Attack. Calls forth 2 drones for support fire.",
+  "pt": "Evolução do Ataque Disperso. Convoca 2 drones para apoio."
+ },
+ "weaponLang/{FB_PROTOTYPE_C}tips": {
+  "en": "Requires: Enriched Oridecon, Book of Magic.",
+  "pt": "Requer: Oridecon Enriquecido, Livro de Magia."
+ },
+ "weaponLang/{FB_CRUSH}description": {
+  "en": "Evolved Howling Mine. Creates damaging zones that attract enemies. ",
+  "pt": "Evolução da Mina Uivante. Cria zonas de dano que atraem inimigos."
+ },
+ "weaponLang/{FB_CRUSH}tips": {
+  "en": "Requires: Enriched Oridecon, Magnetic Field Generator.",
+  "pt": "Requer: Oridecon Enriquecido, Gerador de Campo Magnético."
+ },
+ "weaponLang/{FB_PRISMCUTLASS_COUNTER}description": {
+  "en": "Has a small chance to freeze enemies.",
+  "pt": "Chance pequena de paralisar inimigos."
+ },
+ "weaponLang/{FB_PRISMCUTLASS_COUNTER}tips": {
+  "en": "Best with: Area.",
+  "pt": "Melhor com: Área."
+ },
+ "weaponLang/{FB_FULLAUTO}customDescValue": {
+  "en": "Cooldown reduced by %0ms.",
+  "pt": "Reduz a Recarga em %0 ms."
+ },
+ "weaponLang/{TP_FIRE1}description": {
+  "en": "Generates an exploding damaging zone.",
+  "pt": "Gera uma zona de dano explosiva."
+ },
+ "weaponLang/{TP_FIRE1}tips": {
+  "en": "Best with: Cooldown, Duration.",
+  "pt": "Melhor com: Recarga, Duração."
+ },
+ "weaponLang/{TP_ICE1}description": {
+  "en": "Generates damaging zones in a straight line.",
+  "pt": "Gera zonas de dano em linha reta."
+ },
+ "weaponLang/{TP_ICE1}tips": {
+  "en": "Best with: Cooldown, Duration.",
+  "pt": "Melhor com: Recarga, Duração."
+ },
+ "weaponLang/{TP_WIND1}description": {
+  "en": "Fires light-hitting projectiles backwards.",
+  "pt": "Dispara, ao contrário, projéteis que causam dano leve."
+ },
+ "weaponLang/{TP_WIND1}tips": {
+  "en": "Best with: Cooldown, Duration.",
+  "pt": "Melhor com: Recarga, Duração."
+ },
+ "weaponLang/{TP_EARTH1}description": {
+  "en": "Fires projectiles from a fixed location.",
+  "pt": "Dispara projéteis de um local fixo."
+ },
+ "weaponLang/{TP_EARTH1}tips": {
+  "en": "Best with: Cooldown, Duration.",
+  "pt": "Melhor com: Recarga, Duração."
+ },
+ "weaponLang/{TP_ELEC1}description": {
+  "en": "Strikes at fixed locations.",
+  "pt": "Ataca em locais fixos."
+ },
+ "weaponLang/{TP_ELEC1}tips": {
+  "en": "Best with: Cooldown, Duration.",
+  "pt": "Melhor com: Recarga, Duração."
+ },
+ "weaponLang/{TP_ACID1}description": {
+  "en": "Fires slow moving damaging zones.",
+  "pt": "Dispara zonas de dano que se movem lentamente."
+ },
+ "weaponLang/{TP_ACID1}tips": {
+  "en": "Best with: Cooldown, Duration.",
+  "pt": "Melhor com: Recarga, Duração."
+ },
+ "weaponLang/{TP_EVIL1}description": {
+  "en": "Generates a moving damaging zone. Damage affected by Curse.",
+  "pt": "Gera uma zona de dano que se move. Maldição afeta o dano."
+ },
+ "weaponLang/{TP_EVIL1}tips": {
+  "en": "Best with: Cooldown, Duration.",
+  "pt": "Melhor com: Recarga, Duração."
+ },
+ "weaponLang/{TP_HOLY1}description": {
+  "en": "Generates a damaging zone that also provides light healing.",
+  "pt": "Gera uma zona de dano que também concede cura leve."
+ },
+ "weaponLang/{TP_HOLY1}tips": {
+  "en": "Best with: Cooldown, Duration.",
+  "pt": "Melhor com: Recarga, Duração."
+ },
+ "weaponLang/{TP_ENERGY1}description": {
+  "en": "Fires two bouncing projectiles. Amount affects Duration.",
+  "pt": "Dispara dois projéteis ricocheteantes. Quantidade afeta a Duração."
+ },
+ "weaponLang/{TP_ENERGY1}tips": {
+  "en": "Best with: Speed, Duration.",
+  "pt": "Melhor com: Velocidade, Duração."
+ },
+ "weaponLang/{TP_SPITE1}description": {
+  "en": "Fires two penetrating projectiles.",
+  "pt": "Dispara dois projéteis penetrantes."
+ },
+ "weaponLang/{TP_SPITE1}tips": {
+  "en": "Ignores: Duration.",
+  "pt": "Ignora: Duração."
+ },
+ "weaponLang/{TP_LIGHT1}description": {
+  "en": "Fires spinning projectiles made of light.",
+  "pt": "Dispara projéteis giratórios feitos de luz."
+ },
+ "weaponLang/{TP_LIGHT1}tips": {
+  "en": "Best with: Duration.",
+  "pt": "Melhor com: Duração."
+ },
+ "weaponLang/{TP_DARK1}description": {
+  "en": "Fires spinning projectiles made of darkness.",
+  "pt": "Dispara projéteis giratórios feitos de trevas."
+ },
+ "weaponLang/{TP_DARK1}tips": {
+  "en": "Best with: Duration.",
+  "pt": "Melhor com: Duração."
+ },
+ "weaponLang/{TP_RAPIDUS1}description": {
+  "en": "Increases Move Speed by 10% per level and damages nearby enemies. Area and Speed increase damage.",
+  "pt": "Aumenta a Velocidade de Movimento em 10% por nível e causa dano a inimigos próximos. Área e Velocidade aumentam o dano."
+ },
+ "weaponLang/{TP_RAPIDUS1}tips": {
+  "en": "Ignores: Amount.",
+  "pt": "Ignora: Quantidade."
+ },
+ "weaponLang/{TP_DOMINUS1}description": {
+  "en": "Fires a penetrating projectile. Drains Health.",
+  "pt": "Dispara um projétil penetrante. Consome Vida."
+ },
+ "weaponLang/{TP_DOMINUS1}tips": {
+  "en": "Best with: Recovery, MaxHealth.",
+  "pt": "Melhor com: Recuperação, Vida Máx."
+ },
+ "weaponLang/{TP_DOMINUS2}description": {
+  "en": "Fires projectiles from above. Drains Health.",
+  "pt": "Dispara projéteis de cima. Consome Vida."
+ },
+ "weaponLang/{TP_DOMINUS2}tips": {
+  "en": "Best with: Recovery, MaxHealth.",
+  "pt": "Melhor com: Recuperação, Vida Máx."
+ },
+ "weaponLang/{TP_DOMINUS3}description": {
+  "en": "Increases Might, Speed, Duration, and Area. Drains Health.",
+  "pt": "Aumenta Poder, Velocidade, Duração e Área. Consome Vida."
+ },
+ "weaponLang/{TP_DOMINUS3}tips": {
+  "en": "Best with: Recovery, MaxHealth.",
+  "pt": "Melhor com: Recuperação, Vida Máx."
+ },
+ "weaponLang/{TP_CUSTOS1}description": {
+  "en": "Summons Hatii's fiery breath in faced direction.",
+  "pt": "Lança o sopro flamejante de Hatii para a frente."
+ },
+ "weaponLang/{TP_CUSTOS1}tips": {
+  "en": "Ignores: Speed, Duration.",
+  "pt": "Ignora: Velocidade, Duração."
+ },
+ "weaponLang/{TP_CUSTOS2}description": {
+  "en": "Summons Hatii's icy breath in faced direction.",
+  "pt": "Lança o sopro congelante de Hatii para a frente."
+ },
+ "weaponLang/{TP_CUSTOS2}tips": {
+  "en": "Ignores: Speed, Duration.",
+  "pt": "Ignora: Velocidade, Duração."
+ },
+ "weaponLang/{TP_CUSTOS3}description": {
+  "en": "Summons Hatii's vengeful howl. Boosts Armor, Recovery and Cooldown when damaged.",
+  "pt": "Invoca o uivo vingativo de Hatii. Aumenta Armadura, Recuperação e Recarga ao receber dano."
+ },
+ "weaponLang/{TP_CUSTOS3}tips": {
+  "en": "Ignores: Speed.",
+  "pt": "Ignora: Velocidade."
+ },
+ "weaponLang/{TP_CONFODERE1}description": {
+  "en": "Attacks nearby enemies. Speed affects damage.",
+  "pt": "Ataca inimigos próximos. Velocidade afeta dano."
+ },
+ "weaponLang/{TP_CONFODERE2}description": {
+  "en": "Attacks nearby enemies. Speed affects damage.",
+  "pt": "Ataca inimigos próximos. Velocidade afeta dano."
+ },
+ "weaponLang/{TP_CONFODERE3}description": {
+  "en": "Attacks nearby enemies. Speed affects Cooldown and damage.",
+  "pt": "Ataca inimigos próximos. Velocidade afeta Recarga e dano."
+ },
+ "weaponLang/{TP_IRONBALL1}description": {
+  "en": "Damage affected by Armor",
+  "pt": "Armadura afeta o dano."
+ },
+ "weaponLang/{TP_IRONBALL2}description": {
+  "en": "Evolved Axe Stomp. Fires a very heavy projectile.",
+  "pt": "Evolução do Pisão do Machado. Dispara um projétil muito pesado."
+ },
+ "weaponLang/{TP_IRONBALL2}tips": {
+  "en": "Requires: Full Plate.",
+  "pt": "Requer: Armadura Completa."
+ },
+ "weaponLang/{TP_COATOFARMS}description": {
+  "en": "Allows you to choose from a selection of monster-hunting tools.",
+  "pt": "Permite escolher entre diferentes ferramentas de caça a monstros."
+ },
+ "weaponLang/{TP_SPELLBOOK}description": {
+  "en": "Allows you to choose from a selection of spells.",
+  "pt": "Permite escolher entre diferentes feitiços."
+ },
+ "weaponLang/{TP_DIABOLOGUE}description": {
+  "en": "Allows you to choose from a selection of ambiguous powers.",
+  "pt": "Permite escolher entre diferentes poderes ambíguos."
+ },
+ "weaponLang/{TP_MORNINGSTAR}description": {
+  "en": "Allows you to choose from a selection of knightly sweeps.",
+  "pt": "Permite escolher entre diferentes golpes de cavaleiro."
+ },
+ "weaponLang/{TP_ALCHEMYWHIP1}description": {
+  "en": "Grows stronger every time a boss enemy is defeated.",
+  "pt": "Fica mais forte cada vez que um chefe é derrotado."
+ },
+ "weaponLang/{TP_ALCHEMYWHIP1}tips": {
+  "en": "Ignores: Speed, Duration.",
+  "pt": "Ignora: Velocidade, Duração."
+ },
+ "weaponLang/{TP_ALCHEMYWHIP2}description": {
+  "en": "Evolved Overbrand. Every 3rd activation fires additional projectiles. Intense sunlight incinerates boss enemies.",
+  "pt": "Evolução do Overbrand. A cada três ativações, dispara projéteis extras. A luz solar intensa incinera os inimigos chefes."
+ },
+ "weaponLang/{TP_ALCHEMYWHIP2}tips": {
+  "en": "Requires: Yggdrasil Leaf.",
+  "pt": "Requer: Folha de Yggdrasil."
+ },
+ "weaponLang/{TP_MARTIALWHIP1}description": {
+  "en": "Strikes at the nearest enemy and generates a perpendicular damaging zone. Zone damage affected by MaxHealth.",
+  "pt": "Golpeia o inimigo mais próximo e gera uma zona de dano perpendicular. Vida Máx. afeta a zona de dano."
+ },
+ "weaponLang/{TP_MARTIALWHIP1}tips": {
+  "en": "Ignores: Speed, Duration.",
+  "pt": "Ignora: Velocidade, Duração."
+ },
+ "weaponLang/{TP_MARTIALWHIP2}description": {
+  "en": "Evolved Sky Net Blow. Every 7th activation generates an explosion.",
+  "pt": "Evolução do Golpe Celeste. A cada sete ativações, gera uma explosão."
+ },
+ "weaponLang/{TP_MARTIALWHIP2}tips": {
+  "en": "Requires: Her Heart.",
+  "pt": "Requer: Coração Dela."
+ },
+ "weaponLang/{TP_PLATINUMWHIP1}description": {
+  "en": "Every 3rd activation fires projectiles in fixed directions.",
+  "pt": "A cada três ativações, dispara projéteis em direções fixas."
+ },
+ "weaponLang/{TP_PLATINUMWHIP2}description": {
+  "en": "Evolved Bowling Bash. Every 7th activation also fires special projectiles.",
+  "pt": "Evolução do Impacto de Tyr. A cada sete ativações, também dispara projéteis especiais."
+ },
+ "weaponLang/{TP_PLATINUMWHIP2}tips": {
+  "en": "Requires: Four Leaf Clover.",
+  "pt": "Requer: Trevo de Quatro Folhas."
+ },
+ "weaponLang/{TP_DRAGONWATER1}description": {
+  "en": "Every 7th activation fires a snaking dragon projectile.",
+  "pt": "A cada sete ativações, dispara um projétil de dragão."
+ },
+ "weaponLang/{TP_DRAGONWATER2}description": {
+  "en": "Evolved Dragon Breath - Water. Every 13th activation generates damaging waves based on Projectile Speed and Duration.",
+  "pt": "Evolução do Sopro do Dragão - Água. A cada 13 ativações, gera ondas de dano com base na Velocidade de Projéteis e na Duração."
+ },
+ "weaponLang/{TP_DRAGONWATER2}tips": {
+  "en": "Requires: Magnetic Field Generator.",
+  "pt": "Requer: Gerador de Campo Magnético."
+ },
+ "weaponLang/{TP_WINDWHIP1}description": {
+  "en": "Damage affected by Growth.",
+  "pt": "Crescimento afeta o dano."
+ },
+ "weaponLang/{TP_WINDWHIP2}description": {
+  "en": "Evolved Wind Cutter. Every 7th activation summons a spirit that violently collects XP Gemstones for you.",
+  "pt": "Evolução do Cortador de Vento. A cada sete ativações, invoca um espírito que coleta violentamente Gemas de EXP para você."
+ },
+ "weaponLang/{TP_WINDWHIP2}tips": {
+  "en": "Requires: Battle Manual.",
+  "pt": "Requer: Manual de Combate."
+ },
+ "weaponLang/{TP_FIRE2}description": {
+  "en": "Evolved Sightrasher. Also summons a snake of fire.",
+  "pt": "Evolução da Supernova. Também invoca uma serpente de fogo."
+ },
+ "weaponLang/{TP_FIRE2}tips": {
+  "en": "Requires Max: Berserk Potion",
+  "pt": "Requer máx. de: Poção da Fúria Selvagem."
+ },
+ "weaponLang/{TP_ICE2}description": {
+  "en": "Evolved Ice Wall. Also triggers a freezing wind.",
+  "pt": "Evolução da Barreira de Gelo. Também ativa um vento congelante."
+ },
+ "weaponLang/{TP_ICE2}tips": {
+  "en": "Requires Max: Clock Card.",
+  "pt": "Requer máx. de: Carta Relógio."
+ },
+ "weaponLang/{TP_WIND2}description": {
+  "en": "Evolved Violent Gale. Also triggers a spinning tornado.",
+  "pt": "Evolução do Furacão. Também ativa um tornado."
+ },
+ "weaponLang/{TP_WIND2}tips": {
+  "en": "Requires Max: Bow Thimble.",
+  "pt": "Requer máx. de: Dedal de Arqueiro."
+ },
+ "weaponLang/{TP_EARTH2}description": {
+  "en": "Evolved Earth Spike. Also triggers a rain of crystals that can turn enemies into valuable jewels.",
+  "pt": "Evolução dos Espinhos de Terra. Também ativa uma chuva de cristais que transforma inimigos em joias valiosas."
+ },
+ "weaponLang/{TP_EARTH2}tips": {
+  "en": "Requires Max: Bubble Gum.",
+  "pt": "Requer máx. de: Chiclete."
+ },
+ "weaponLang/{TP_ELEC2}description": {
+  "en": "Evolved Varetyr Spear. Also triggers ball lightnings.",
+  "pt": "Evolução da Lança de Varetyr. Também ativa bolas de raio."
+ },
+ "weaponLang/{TP_ELEC2}tips": {
+  "en": "Requires Max: Crystal Mirror.",
+  "pt": "Requer máx. de: Espelho de Cristal."
+ },
+ "weaponLang/{TP_ACID2}description": {
+  "en": "Evolved Acid Terror. Also triggers a slimy swarm that chases enemies down.",
+  "pt": "Evolução do Terror Ácido. Também ativa um enxame pegajoso que persegue inimigos."
+ },
+ "weaponLang/{TP_ACID2}tips": {
+  "en": "Requires Max: Full Plate.",
+  "pt": "Requer máx. de: Armadura Completa."
+ },
+ "weaponLang/{TP_EVIL2}description": {
+  "en": "Evolved Curse Attack. Also triggers a negative energy zone that doubles Curse when stepped into.",
+  "pt": "Evolução do Ataque Amaldiçoado. Também ativa uma zona de energia negativa que duplica a Maldição quando adentrada."
+ },
+ "weaponLang/{TP_EVIL2}tips": {
+  "en": "Requires Max: Dead Branch.",
+  "pt": "Requer máx. de: Galho Seco."
+ },
+ "weaponLang/{TP_HOLY2}description": {
+  "en": "Evolved Ruwach. At fixed intervals, also fully heals characters and purifies all enemies in sight.",
+  "pt": "Evolução do Ruwach. Em intervalos fixos, também cura o personagem totalmente e purifica todos os inimigos à vista."
+ },
+ "weaponLang/{TP_HOLY2}tips": {
+  "en": "Requires Max: Four Leaf Clover.",
+  "pt": "Requer máx. de: Trevo de Quatro Folhas."
+ },
+ "weaponLang/{TP_ENERGY2}description": {
+  "en": "Evolved Napalm Beat. Fires a piercing energy beam in the faced direction.",
+  "pt": "Evolução do Ataque Espiritual Napalm. Dispara raios de energia perfurantes para frente."
+ },
+ "weaponLang/{TP_ENERGY2}tips": {
+  "en": "Requires Max: Book of Magic.",
+  "pt": "Requer máx. de: Livro de Magia."
+ },
+ "weaponLang/{TP_SPITE2}description": {
+  "en": "Evolved Tracking. Damage is affected by the amount of defeated enemies.",
+  "pt": "Evolução do Tiro Preciso. A quantidade de inimigos derrotados afeta o dano."
+ },
+ "weaponLang/{TP_SPITE2}tips": {
+  "en": "Requires Max: Bloody Branch.",
+  "pt": "Requer máx. de: Galho Sangrento."
+ },
+ "weaponLang/{TP_LIGHT2}description": {
+  "en": "Evolved Duple Light. Damage, Speed, Area, and Duration affected by Growth.",
+  "pt": "Evolução de Luz Dupla. Crescimento afeta dano, velocidade, duração e área."
+ },
+ "weaponLang/{TP_LIGHT2}tips": {
+  "en": "Requires Max: Battle Manual.",
+  "pt": "Requer máx. de: Manual de Combate."
+ },
+ "weaponLang/{TP_DARK2}description": {
+  "en": "Evolved Dark Strike. Damage, Speed, Area, and Duration affected by Magnet.",
+  "pt": "Evolução de Golpe Sombrio. Magnetismo afeta velocidade, área e duração."
+ },
+ "weaponLang/{TP_DARK2}tips": {
+  "en": "Requires Max: Magnetic Field Generator.",
+  "pt": "Requer máx. de: Gerador de Campo Magnético."
+ },
+ "weaponLang/{TP_RAPIDUS2}description": {
+  "en": "Evolved Sprint. Also triggers a single shield charge.",
+  "pt": "Evolução da Corrida. Também ativa um escudo uma vez."
+ },
+ "weaponLang/{TP_RAPIDUS2}tips": {
+  "en": "Requires Max: Sleipnir.",
+  "pt": "Requer máx. de: Sleipnir."
+ },
+ "weaponLang/{TP_DOMINUS4}description": {
+  "en": "Union of Estin, Estun, and Esma. Deals critical damage to anything in sight. Drains health.",
+  "pt": "União de Estin, Estun e Esma. Causa dano crítico a tudo à vista. Consome Vida."
+ },
+ "weaponLang/{TP_CUSTOS4}description": {
+  "en": "Union of Fire Breath, Ice Breath, and Power Up.",
+  "pt": "União de Sopro de Fogo, Sopro de Gelo e Fortalecer."
+ },
+ "weaponLang/{TP_JAVELIN1}description": {
+  "en": "Fires a penetrating projectile in a fixed direction.",
+  "pt": "Dispara um projétil penetrante em uma direção fixa."
+ },
+ "weaponLang/{TP_JAVELIN2}description": {
+  "en": "Evolved Cannon Spear. Projectiles reappear after leaving the screen.",
+  "pt": "Evolução da Lança Canhão. Os projéteis reaparecem após saírem da tela."
+ },
+ "weaponLang/{TP_JAVELIN2}tips": {
+  "en": "Requires: Clock Card.",
+  "pt": "Requer: Carta Relógio."
+ },
+ "weaponLang/{TP_BWAKA1}description": {
+  "en": "Fires a spinning projectile at a random enemy.",
+  "pt": "Dispara um projétil giratório em um inimigo aleatório."
+ },
+ "weaponLang/{TP_BWAKA2}description": {
+  "en": "Evolved Throw Venom Knife. Projectiles bounce forever until Duration expires.",
+  "pt": "Evolução de Arremessar Faca Envenenada. Projéteis ricocheteiam até o fim da duração."
+ },
+ "weaponLang/{TP_BWAKA2}tips": {
+  "en": "Requires: Bow Thimble.",
+  "pt": "Requer: Dedal de Arqueiro."
+ },
+ "weaponLang/{TP_SHURIKEN1}description": {
+  "en": "Fires projectiles in the faced direction.",
+  "pt": "Dispara projéteis para a frente."
+ },
+ "weaponLang/{TP_SHURIKEN2}description": {
+  "en": "Evolved Throw Shuriken. Fires with no delay.",
+  "pt": "Evolução de Arremessar Shuriken. Dispara sem intervalo."
+ },
+ "weaponLang/{TP_SHURIKEN2}tips": {
+  "en": "Requires: Book of Magic.",
+  "pt": "Requer: Livro de Magia."
+ },
+ "weaponLang/{TP_DISCUS1}description": {
+  "en": "Fires a defensive projectile.",
+  "pt": "Dispara um projétil defensivo."
+ },
+ "weaponLang/{TP_DISCUS2}description": {
+  "en": "Evolved Huuma Shuriken - Grasp. Travels along walls. Deals critical damage if the user is invulnerable.",
+  "pt": "Evolução de Fuuma Shuriken - Agarrar. Percorre as paredes. Causa dano crítico se o usuário estiver invulnerável."
+ },
+ "weaponLang/{TP_DISCUS2}tips": {
+  "en": "Requires Max: Valkyrja's Shield.",
+  "pt": "Requer máx. de: Escudo de Valquíria."
+ },
+ "weaponLang/{TP_WINEGLASS1}description": {
+  "en": "Throws an exploding projectile.",
+  "pt": "Dispara um projétil explosivo."
+ },
+ "weaponLang/{TP_WINEGLASS1}tips": {
+  "en": "Ignores: Duration.",
+  "pt": "Ignora: Duração."
+ },
+ "weaponLang/{TP_WINEGLASS2}description": {
+  "en": "Evolved Drain Life. Soulful food deals Revival-based damage to unrefined palates.",
+  "pt": "Evolução de Drenar Vida. Comida com alma causa dano baseado em Ressurreições a paladares pouco refinados."
+ },
+ "weaponLang/{TP_WINEGLASS2}tips": {
+  "en": "Requires Max: Yggdrasil Leaf.",
+  "pt": "Requer máx. de: Folha de Yggdrasil."
+ },
+ "weaponLang/{TP_RPG1}description": {
+  "en": "Fires an exploding projectile.",
+  "pt": "Dispara um projétil explosivo."
+ },
+ "weaponLang/{TP_RPG2}description": {
+  "en": "Evolved Soul Explosion. Explosions propagate.",
+  "pt": "Evolução da Explosão de Alma. As explosões se propagam."
+ },
+ "weaponLang/{TP_RPG2}tips": {
+  "en": "Requires Max: Forbidden Red Candle.",
+  "pt": "Requer máx. de: Vela Vermelha Proibida."
+ },
+ "weaponLang/{TP_GUN1}description": {
+  "en": "Fires a powerful projectile, six times.",
+  "pt": "Dispara seis vezes um projétil poderoso."
+ },
+ "weaponLang/{TP_GUN2}description": {
+  "en": "Evolved Quick Draw Shot. Critical hits instantly kill enemies and turn them into jewels.",
+  "pt": "Evolução do Saque Rápido. Acertos críticos eliminam inimigos instantaneamente e os transformam em joias."
+ },
+ "weaponLang/{TP_GUN2}tips": {
+  "en": "Requires: Bloody Branch.",
+  "pt": "Requer: Galho Sangrento."
+ },
+ "weaponLang/{TP_SLASH1}description": {
+  "en": "Has boomerang effect, can deal critical damage.",
+  "pt": "Atua como um bumerangue. Pode causar dano crítico."
+ },
+ "weaponLang/{TP_SLASH2}description": {
+  "en": "Evolved Eternal Slash. Critical damage also affected by Area, Speed, and Duration.",
+  "pt": "Evolução do Corte Eterno. Área, Velocidade e Duração também afetam o dano crítico."
+ },
+ "weaponLang/{TP_SLASH2}tips": {
+  "en": "Requires: Berserk Potion.",
+  "pt": "Requer: Poção da Fúria Selvagem."
+ },
+ "weaponLang/{TP_SACREDBEASTS1}description": {
+  "en": "Summons defensive followers. Overhealing triggers additional follower's attacks.",
+  "pt": "Convoca seguidores defensivos. Ao recuperar vida excessiva, aciona ataques adicionais do seguidor."
+ },
+ "weaponLang/{TP_SACREDBEASTS1}tips": {
+  "en": "Best with: Recovery, Duration.",
+  "pt": "Melhor com: Recuperação, Duração."
+ },
+ "weaponLang/{TP_SACREDBEASTS2}description": {
+  "en": "Evolved Talisman of Protection. Overhealing also triggers a period of invulnerability.",
+  "pt": "Evolução do Talismã de Proteção. Ao recuperar vida excessiva, aciona um período de invulnerabilidade."
+ },
+ "weaponLang/{TP_SACREDBEASTS2}tips": {
+  "en": "Requires: Red Herb.",
+  "pt": "Requer: Erva Vermelha."
+ },
+ "weaponLang/{TP_STARFLAIL1}description": {
+  "en": "Fires lingering projectiles. Damage multiplied by Recovery.",
+  "pt": "Dispara projéteis duradouros. Dano multiplicado pela Recuperação."
+ },
+ "weaponLang/{TP_STARFLAIL1}tips": {
+  "en": "Best with: Amount, Recovery.",
+  "pt": "Melhor com: Quantidade, Recuperação."
+ },
+ "weaponLang/{TP_STARFLAIL2}description": {
+  "en": "Evolved Petitio. Projectiles are shot in the faced direction.",
+  "pt": "Evolução do Petitio. Dispara projéteis para a frente."
+ },
+ "weaponLang/{TP_STARFLAIL2}tips": {
+  "en": "Requires Max: Red Herb.",
+  "pt": "Requer máx. de: Erva Vermelha."
+ },
+ "weaponLang/{TP_CHAUVE1}description": {
+  "en": "Strikes at fixed locations.",
+  "pt": "Ataca em locais fixos."
+ },
+ "weaponLang/{TP_CHAUVE2}description": {
+  "en": "Evolved Mayhemic Thorns. Critical hits also fire a damaging beam.",
+  "pt": "Evolução de Espinhos Caóticos. Acertos críticos também disparam um raio que causa dano."
+ },
+ "weaponLang/{TP_CHAUVE2}tips": {
+  "en": "Requires Max: Crystal Mirror.",
+  "pt": "Requer máx. de: Espelho de Cristal."
+ },
+ "weaponLang/{TP_MACE1}description": {
+  "en": "Amount affects number of hits.",
+  "pt": "Quantidade afeta o número de acertos."
+ },
+ "weaponLang/{TP_MACE2}description": {
+  "en": "Evolved Cart Tornado. Has a catastrophically high critical damage multiplier.",
+  "pt": "Evolução do Carrinho Giratório. Tem um multiplicador de dano crítico catastroficamente alto."
+ },
+ "weaponLang/{TP_MACE2}tips": {
+  "en": "Requires Max: Her Heart.",
+  "pt": "Requer máx. de: Coração Dela."
+ },
+ "weaponLang/{TP_ALUCARDSPEAR1}description": {
+  "en": "Executes a spinning attack when changing horizontal direction.",
+  "pt": "Executa um ataque giratório ao mudar de direção horizontal."
+ },
+ "weaponLang/{TP_ALUCARDSPEAR2}description": {
+  "en": "Evolved Spear Stab. Every 7th activation triggers a special attack based on Speed.",
+  "pt": "Evolução da Estocada. A cada sete ativações, ativa um ataque especial com base na Velocidade."
+ },
+ "weaponLang/{TP_ALUCARDSPEAR2}tips": {
+  "en": "Requires: Sleipnir.",
+  "pt": "Requer: Sleipnir."
+ },
+ "weaponLang/{TP_ALUCARDSWORD1}description": {
+  "en": "Allegedly strikes at the nearest enemy.",
+  "pt": "Supostamente ataca o inimigo mais próximo."
+ },
+ "weaponLang/{TP_ALUCARDSWORD2}description": {
+  "en": "Evolved Charge Attack. Apparitions of the sword's true bearer seek out enemies.",
+  "pt": "Evolução da Investida. Aparições do legítimo portador da espada perseguem inimigos."
+ },
+ "weaponLang/{TP_ALUCARDSHIELD}description": {
+  "en": "Gift of Servant Weapon: Phantom. Absorbs and triggers all other equipped evolutions. Hovering shield damages enemies.",
+  "pt": "Dom de Arma Serva: Fantasma. Absorve e ativa todas as outras evoluções equipadas. O escudo flutuante causa dano aos inimigos."
+ },
+ "weaponLang/{TP_ALUCARDSHIELD}tips": {
+  "en": "Requires Max: any 6 evolutions, any 6 passives.",
+  "pt": "Requer máx. de: quaisquer 6 evoluções, quaisquer 6 itens passivos."
+ },
+ "weaponLang/{TP_UNIVERSITAS}description": {
+  "en": "Gift of Framen and Dark Cross. Meteors rain down on enemies at fixed intervals.",
+  "pt": "Dom de Framen e Cruz Sombria. Causa uma chuva de meteoros nos inimigos em intervalos fixos."
+ },
+ "weaponLang/{TP_SPECTRALSWORD}description": {
+  "en": "Allows you to choose from a selection of magic weapons.",
+  "pt": "Permite escolher entre diferentes armas mágicas."
+ },
+ "weaponLang/{TP_SHIELD1}description": {
+  "en": "Retaliates by shooting lingering projectiles.",
+  "pt": "Retalia disparando projéteis duradouros."
+ },
+ "weaponLang/{TP_SHIELD1}tips": {
+  "en": "Best with: Armor, Valkyrja's Shield.",
+  "pt": "Melhor com: Armadura, Escudo de Valquíria."
+ },
+ "weaponLang/{TP_SHIELD2}description": {
+  "en": "Evolved Smite. Critical hits retaliate with spinning swords.",
+  "pt": "Evolução da Punição Divina. Acertos críticos retaliam com espadas giratórias."
+ },
+ "weaponLang/{TP_SHIELD2}tips": {
+  "en": "Requires: Valkyrja's Shield.",
+  "pt": "Requer: Escudo de Valquíria."
+ },
+ "weaponLang/{TP_SONICWHIP1}description": {
+  "en": "Chance to instant kill based on curse.",
+  "pt": "Maldição afeta chance de morte instantânea."
+ },
+ "weaponLang/{TP_SONICWHIP2}description": {
+  "en": "Evolved Metallic Sound. Every 5th activation also triggers a blast of damaging waves.",
+  "pt": "Evolução do Som Metálico. A cada cinco ativações, aciona uma sequência de ondas de dano."
+ },
+ "weaponLang/{TP_SONICWHIP2}tips": {
+  "en": "Requires: Dead Branch.",
+  "pt": "Requer: Galho Seco."
+ },
+ "weaponLang/{TP_LEMURIA1}description": {
+  "en": "Strikes at the nearest enemy and generates a linear damaging zone.",
+  "pt": "Golpeia o inimigo mais próximo e gera uma zona de dano linear."
+ },
+ "weaponLang/{TP_LEMURIA2}description": {
+  "en": "Evolved Brandish Spear. Every 8th activation also triggers damaging zones.",
+  "pt": "Evolução de Brandir Lança. A cada oito ativações, aciona zonas que causam dano."
+ },
+ "weaponLang/{TP_LEMURIA2}tips": {
+  "en": "Requires: Bubble Gum.",
+  "pt": "Requer: Chiclete."
+ },
+ "weaponLang/{TP_NEUTRON_WEAPON}description": {
+  "en": "This one doesn't bounce.",
+  "pt": "Essa não ricocheteia."
+ },
+ "weaponLang/{TP_NEUTRON_WEAPON}tips": {
+  "en": "Best with: Cooldown, Amount.",
+  "pt": "Melhor com: Recarga, Quantidade."
+ },
+ "weaponLang/{TP_NEUTRON_PICKUP}description": {
+  "en": "This one doesn't bounce.",
+  "pt": "Essa não ricocheteia."
+ },
+ "weaponLang/{TP_NEUTRON_PICKUP}tips": {
+  "en": "Best with: Cooldown, Amount.",
+  "pt": "Melhor com: Recarga, Quantidade."
+ },
+ "weaponLang/{TP_SOULSTEAL_WEAPON}description": {
+  "en": "Damages all enemies in sight and attempts to turn them into Apples.",
+  "pt": "Causa dano a todos os inimigos à vista e tenta transformá-los em Maçãs."
+ },
+ "weaponLang/{TP_SOULSTEAL_WEAPON}tips": {
+  "en": "Best with: Cooldown, Luck.",
+  "pt": "Melhor com: Recarga, Sorte."
+ },
+ "weaponLang/{TP_SOULSTEAL_WEAPON}customDescValue": {
+  "en": "%0% chance to generate an Apple.",
+  "pt": "%0% de chance de gerar uma Maçã."
+ },
+ "weaponLang/{TP_SOULSTEAL_PICKUP}description": {
+  "en": "Damages all enemies in sight and attempts to turn them into Apples.",
+  "pt": "Causa dano a todos os inimigos à vista e tenta transformá-los em Maçãs."
+ },
+ "weaponLang/{TP_SOULSTEAL_PICKUP}tips": {
+  "en": "Best with: Cooldown, Luck.",
+  "pt": "Melhor com: Recarga, Sorte."
+ },
+ "weaponLang/{TP_GEARS_WEAPON}description": {
+  "en": "Also triggers other clockwork weapons. Damage increased by Amount and currently found Pocket Watches.",
+  "pt": "Também ativa outras armas mecânicas. O dano aumenta com a Quantidade e os Relógios de Bolso encontrados."
+ },
+ "weaponLang/{TP_GEARS_WEAPON}tips": {
+  "en": "Best with: Speed, Duration.",
+  "pt": "Melhor com: Velocidade, Duração."
+ },
+ "weaponLang/{TP_PENDULUM_WEAPON}description": {
+  "en": "Also triggers other clockwork weapons. Damage increased by Amount and currently found Pocket Watches.",
+  "pt": "Também ativa outras armas mecânicas. O dano aumenta com a Quantidade e os Relógios de Bolso encontrados."
+ },
+ "weaponLang/{TP_PENDULUM_WEAPON}tips": {
+  "en": "Best with: Speed, Duration.",
+  "pt": "Melhor com: Velocidade, Duração."
+ },
+ "weaponLang/{TP_HOLYWHIP1}description": {
+  "en": "Strikes at the nearest enemy and generates a cluster of explosions.",
+  "pt": "Golpeia o inimigo mais próximo e gera um conjunto de explosões."
+ },
+ "weaponLang/{TP_HOLYWHIP1}tips": {
+  "en": "Ignores: Duration.",
+  "pt": "Ignora: Duração."
+ },
+ "weaponLang/{TP_HOLYWHIP2}description": {
+  "en": "Evolved Over Slash. Critical hits maximise amount of projectiles.",
+  "pt": "Evolução do Golpe Supremo. Acertos críticos maximizam a quantidade de projéteis."
+ },
+ "weaponLang/{TP_HOLYWHIP2}tips": {
+  "en": "Requires: Forbidden Red Candle.",
+  "pt": "Requer: Vela Vermelha Proibida."
+ },
+ "weaponLang/{TP_SAVROG_WEAPON}description": {
+  "en": "Generates damaging zones when moving.",
+  "pt": "Gera zonas de dano ao se movimentar."
+ },
+ "weaponLang/{TP_SAVROG_WEAPON}tips": {
+  "en": "Ignores: Speed.",
+  "pt": "Ignora: Velocidade."
+ },
+ "weaponLang/{TP_GOTH_MISSILE}description": {
+  "en": "Critical hits maximise amount of projectiles.",
+  "pt": "Acertos críticos maximizam a quantidade de projéteis."
+ },
+ "weaponLang/{TP_GOTH_MISSILE}tips": {
+  "en": "Ignores: Duration.",
+  "pt": "Ignora: Duração."
+ },
+ "weaponLang/{TP_GOTH_MISSILE_HOLYWHIP2}description": {
+  "en": "Critical hits maximise amount of projectiles.",
+  "pt": "Acertos críticos maximizam a quantidade de projéteis."
+ },
+ "weaponLang/{TP_GOTH_MISSILE_HOLYWHIP2}tips": {
+  "en": "Ignores: Duration.",
+  "pt": "Ignora: Duração."
+ },
+ "weaponLang/{TP_HYDROSTORM}tips": {
+  "en": "Ignores: Amount.",
+  "pt": "Ignora: Quantidade."
+ },
+ "weaponLang/{TP_HYDROSTORM}description": {
+  "en": "Generates damaging waves based on Projectile Speed and Duration.",
+  "pt": "Gera ondas de dano com base na Velocidade de Projéteis e Duração."
+ },
+ "weaponLang/{TP_HYDROSTORM_WATERDRAGONWHIP}tips": {
+  "en": "Ignores: Amount.",
+  "pt": "Ignora: Quantidade."
+ },
+ "weaponLang/{TP_HYDROSTORM_WATERDRAGONWHIP}description": {
+  "en": "Generates damaging waves based on Projectile Speed and Duration.",
+  "pt": "Gera ondas de dano com base na Velocidade de Projéteis e Duração."
+ },
+ "weaponLang/{TP_DARKRIFT}description": {
+  "en": "Generates vertical damaging zones.",
+  "pt": "Gera zonas de dano verticais."
+ },
+ "weaponLang/{TP_DARKRIFT_JETBLACKWHIP}description": {
+  "en": "Generates vertical damaging zones.",
+  "pt": "Gera zonas de dano verticais."
+ },
+ "weaponLang/{TP_SUMMON_SPIRIT}description": {
+  "en": "Fires a homing projectile.",
+  "pt": "Dispara um projétil direcionado."
+ },
+ "weaponLang/{TP_SUMMON_SPIRIT}tips": {
+  "en": "Best with: Duration.",
+  "pt": "Melhor com: Duração."
+ },
+ "weaponLang/{TP_SWORD_BROTHERS}description": {
+  "en": "Grants a brief moment of Invulnerability and generates a damaging wave.",
+  "pt": "Concede um breve período de invulnerabilidade e gera uma onda de dano."
+ },
+ "weaponLang/{TP_SWORD_BROTHERS}tips": {
+  "en": "Ignores: Speed, Duration.",
+  "pt": "Ignora: Velocidade, Duração."
+ },
+ "weaponLang/{TP_VALMANWAY}description": {
+  "en": "Fires faster when moving.",
+  "pt": "Dispara mais rápido ao se movimentar."
+ },
+ "weaponLang/{TP_VALMANWAY}tips": {
+  "en": "Best with: Move Speed.",
+  "pt": "Melhor com: Velocidade de Movimento."
+ },
+ "weaponLang/{TP_VALMANWAY_SONICWHIP}description": {
+  "en": "Fires faster when moving.",
+  "pt": "Dispara mais rápido ao se movimentar."
+ },
+ "weaponLang/{TP_VALMANWAY_SONICWHIP}tips": {
+  "en": "Best with: Move Speed.",
+  "pt": "Melhor com: Velocidade de Movimento."
+ },
+ "weaponLang/{TP_GRANDCROSS}description": {
+  "en": "Summons holy light.",
+  "pt": "Invoca a luz sagrada."
+ },
+ "weaponLang/{TP_GRANDCROSS}tips": {
+  "en": "Best with: Cooldown.",
+  "pt": "Melhor com: Recarga."
+ },
+ "weaponLang/{TP_GRANDCROSS_PLATINUMWHIP}description": {
+  "en": "Summons holy light.",
+  "pt": "Invoca a luz sagrada."
+ },
+ "weaponLang/{TP_GRANDCROSS_PLATINUMWHIP}tips": {
+  "en": "Best with: Cooldown.",
+  "pt": "Melhor com: Recarga."
+ },
+ "weaponLang/{TP_SPIRITTORNADO}description": {
+  "en": "Summons spirits that will occasionally pick up XP Gemstones for you.",
+  "pt": "Invoca espíritos que coletam Gemas de EXP para você de vez em quando."
+ },
+ "weaponLang/{TP_SPIRITTORNADO_WINDWHIP}description": {
+  "en": "Summons spirits that will occasionally pick up XP Gemstones for you.",
+  "pt": "Invoca espíritos que coletam Gemas de EXP para você de vez em quando."
+ },
+ "weaponLang/{TP_ELEVATOR_WEAPON}description": {
+  "en": "Also triggers other clockwork weapons. Damage increased by Amount and currently found Pocket Watches.",
+  "pt": "Também ativa outras armas mecânicas. O dano aumenta com a Quantidade e os Relógios de Bolso encontrados."
+ },
+ "weaponLang/{TP_ELEVATOR_WEAPON}tips": {
+  "en": "Best with: Speed, Duration.",
+  "pt": "Melhor com: Velocidade, Duração."
+ },
+ "weaponLang/{TP_HEADS_WEAPON}description": {
+  "en": "Also triggers other clockwork weapons. Damage increased by Amount and currently found Pocket Watches.",
+  "pt": "Também ativa outras armas mecânicas. O dano aumenta com a Quantidade e os Relógios de Bolso encontrados."
+ },
+ "weaponLang/{TP_HEADS_WEAPON}tips": {
+  "en": "Best with: Speed, Duration.",
+  "pt": "Melhor com: Velocidade, Duração."
+ },
+ "weaponLang/{TP_CLOCKTOWER_WEAPON}description": {
+  "en": "Union of FAW Silver Sniper, FAW Magic Decoy, Pile Bunker, and Boost Knuckle.",
+  "pt": "União de FAW Atirador Prateado, FAW Isca Mágica, Bate-Estaca e Soco Foguete."
+ },
+ "weaponLang/{TP_FIRE1_COUNTER}description": {
+  "en": "Obtained only through Arcana I - The Magician.",
+  "pt": "Obtido apenas com a Arcana I - O Mago."
+ },
+ "weaponLang/{TP_ICE1_COUNTER}description": {
+  "en": "Obtained only through Arcana I - The Magician.",
+  "pt": "Obtido apenas com a Arcana I - O Mago."
+ },
+ "weaponLang/{TP_WIND1_COUNTER}description": {
+  "en": "Obtained only through Arcana I - The Magician.",
+  "pt": "Obtido apenas com a Arcana I - O Mago."
+ },
+ "weaponLang/{TP_EARTH1_COUNTER}description": {
+  "en": "Obtained only through Arcana I - The Magician.",
+  "pt": "Obtido apenas com a Arcana I - O Mago."
+ },
+ "weaponLang/{TP_ELEC1_COUNTER}description": {
+  "en": "Obtained only through Arcana I - The Magician.",
+  "pt": "Obtido apenas com a Arcana I - O Mago."
+ },
+ "weaponLang/{TP_ACID1_COUNTER}description": {
+  "en": "Obtained only through Arcana I - The Magician.",
+  "pt": "Obtido apenas com a Arcana I - O Mago."
+ },
+ "weaponLang/{TP_HOLY1_COUNTER}description": {
+  "en": "Obtained only through Arcana I - The Magician.",
+  "pt": "Obtido apenas com a Arcana I - O Mago."
+ },
+ "weaponLang/{TP_EVIL1_COUNTER}description": {
+  "en": "Obtained only through Arcana I - The Magician.",
+  "pt": "Obtido apenas com a Arcana I - O Mago."
+ },
+ "weaponLang/{TP_ENERGY1_COUNTER}description": {
+  "en": "Obtained only through Arcana I - The Magician.",
+  "pt": "Obtido apenas com a Arcana I - O Mago."
+ },
+ "weaponLang/{TP_AURABLAST_WEAPON}description": {
+  "en": "Generates explosions sideways.",
+  "pt": "Gera explosões laterais."
+ },
+ "weaponLang/{TP_AURABLAST_WEAPON}tips": {
+  "en": "Ignores: Speed, Duration.",
+  "pt": "Ignora: Velocidade, Duração."
+ },
+ "weaponLang/{TP_AURABLAST_MARTIALWHIP}description": {
+  "en": "Generates explosions sideways.",
+  "pt": "Gera explosões laterais."
+ },
+ "weaponLang/{TP_AURABLAST_MARTIALWHIP}tips": {
+  "en": "Ignores: Speed, Duration.",
+  "pt": "Ignora: Velocidade, Duração."
+ },
+ "weaponLang/{TP_ACC_FAMILIAR_UKOBACK}description": {
+  "en": "Summons an angry familiar.",
+  "pt": "Invoca um familiar furioso."
+ },
+ "weaponLang/{TP_ACC_FAMILIAR_BITTERFLY}description": {
+  "en": "Summons a quiet familiar.",
+  "pt": "Invoca um familiar quieto."
+ },
+ "weaponLang/{TP_ACC_FAMILIAR_IMP}description": {
+  "en": "Summons a naughty familiar.",
+  "pt": "Invoca um familiar sapeca."
+ },
+ "weaponLang/{TP_ACC_FAMILIAR_ALLEGEDGHOST}description": {
+  "en": "Summons a non-existent familiar.",
+  "pt": "Invoca um familiar inexistente."
+ },
+ "weaponLang/{TP_ACC_FAMILIAR_WIZARD}description": {
+  "en": "Summons a magical familiar.",
+  "pt": "Invoca um familiar mágico."
+ },
+ "weaponLang/{TP_ACC_FAMILIAR_FAIRY}description": {
+  "en": "Summons a good natured familiar.",
+  "pt": "Invoca um familiar de boa índole."
+ },
+ "weaponLang/{TP_ACC_FAMILIAR_PUMPKIN}description": {
+  "en": "Summons a mad familiar.",
+  "pt": "Invoca um familiar insano."
+ },
+ "weaponLang/{TP_FAMILIARFORGE}description": {
+  "en": "Allows you to summon a familiar.",
+  "pt": "Permite invocar um familiar."
+ },
+ "weaponLang/{TP_ACC_FAMILIAR_CARDINAL}description": {
+  "en": "Summons a fiery familiar.",
+  "pt": "Invoca um familiar abrasador."
+ },
+ "weaponLang/{TP_ACC_FAMILIAR_DRAGON}description": {
+  "en": "Summons a fizzy familiar.",
+  "pt": "Invoca um familiar borbulhante."
+ },
+ "weaponLang/{TP_ACC_FAMILIAR_TIGER}description": {
+  "en": "Summons a chilled familiar.",
+  "pt": "Invoca um familiar tranquilo."
+ },
+ "weaponLang/{TP_ACC_FAMILIAR_TURTLE}description": {
+  "en": "Summons a grounded familiar.",
+  "pt": "Invoca um familiar parrudo."
+ },
+ "weaponLang/{TP_DOMINUS3}customDescValue": {
+  "en": "Increases total Area, Might, Speed and Duration by 8%",
+  "pt": "Aumenta o total de área, poder, velocidade e duração em 8%."
+ },
+ "weaponLang/{TP_ICEBRAND}description": {
+  "en": "Fires lingering projectiles. Might freeze enemies.",
+  "pt": "Dispara projéteis duradouros. Pode paralisar inimigos."
+ },
+ "weaponLang/{TP_BLUEFIRE_WEAPON}description": {
+  "en": "Creates a damaging aura when health is low.",
+  "pt": "Cria uma aura de dano quando a vida está baixa."
+ },
+ "weaponLang/{TP_POWEROFLIRE}description": {
+  "en": "Turns everything in sight into money.",
+  "pt": "Transforma tudo na tela em dinheiro."
+ },
+ "weaponLang/{TP_DEATHHAND}description": {
+  "en": "Deadly digits",
+  "pt": "Dígitos mortais"
+ },
+ "weaponLang/{TP_DRACULAHAND}description": {
+  "en": "Bloody Hands",
+  "pt": "Mãos Sangrentas"
+ },
+ "weaponLang/{EME_RAPIER1}description": {
+  "en": "Speed affects damage. Can glimmer the \"Crystalline Carve\" tech.",
+  "pt": "Velocidade afeta dano. Permite realçar a técnica \"Entalhe Cristalino\"."
+ },
+ "weaponLang/{EME_RAPIER1}tips": {
+  "en": "Ignores: Duration.",
+  "pt": "Ignora: Duração."
+ },
+ "weaponLang/{EME_RAPIER2}description": {
+  "en": "Evolved Pierce. Can glimmer the \"Shocking Rush\" tech.",
+  "pt": "Evolução de Perfurar. Permite realçar a técnica \"Urgência Chocante\"."
+ },
+ "weaponLang/{EME_RAPIER2}tips": {
+  "en": "Requires: \"Crystalline Carve\" tech.",
+  "pt": "Requer: técnica \"Entalhe Cristalino\"."
+ },
+ "weaponLang/{EME_RAPIER3}description": {
+  "en": "Evolved Spiral Pierce. Allows to glimmer the \"Mega Thrust\" tech.",
+  "pt": "Evolução da Perfuração em Espiral. Permite realçar a técnica \"Mega Impulso\"."
+ },
+ "weaponLang/{EME_RAPIER3}tips": {
+  "en": "Requires: \"Shocking Rush\" tech.",
+  "pt": "Requer: técnica \"Urgência Chocante\"."
+ },
+ "weaponLang/{EME_DUAL1}description": {
+  "en": "Duration affects damage. Can glimmer the \"Dual Whirlwind\" tech.",
+  "pt": "Duração afeta dano. Permite realçar a técnica \"Redemoinho Duplo\"."
+ },
+ "weaponLang/{EME_DUAL1}tips": {
+  "en": "Best with: Duration.",
+  "pt": "Melhor com: Duração."
+ },
+ "weaponLang/{EME_DUAL2}description": {
+  "en": "Evolved Dancing Knife. Can glimmer the \"Dual Torrent\" tech.",
+  "pt": "Evolução de Faca Dançante. Permite realçar a técnica \"Torrente Dupla\"."
+ },
+ "weaponLang/{EME_DUAL2}tips": {
+  "en": "Requires: Clock Card, \"Dual Whirlwind\" tech.",
+  "pt": "Requer: técnica \"Redemoinho Duplo\", Carta Relógio."
+ },
+ "weaponLang/{EME_MECH1}description": {
+  "en": "Fires exploding projectiles. Can glimmer the \"Ballistic Missiles\" tech.",
+  "pt": "Dispara projéteis explosivos. Permite realçar a técnica \"Mísseis Balísticos\"."
+ },
+ "weaponLang/{EME_MECH1}tips": {
+  "en": "Ignores: Duration.",
+  "pt": "Ignora: Duração."
+ },
+ "weaponLang/{EME_MECH2}description": {
+  "en": "Evolved Silver Sniper. Can glimmer the \"Artificial Hailstorm\" tech.",
+  "pt": "Evolução de Atirador Prateado. Permite realçar a técnica \"Granizo Artificial\"."
+ },
+ "weaponLang/{EME_MECH2}tips": {
+  "en": "Requires: \"Ballistic Missiles\" tech.",
+  "pt": "Requer \"Mísseis Balísticos\"."
+ },
+ "weaponLang/{EME_MECH3}tips": {
+  "en": "Requires: \"Artificial Hailstorm\" tech.",
+  "pt": "Requer: técnica \"Granizo Artificial\"."
+ },
+ "weaponLang/{EME_MECH3}description": {
+  "en": "Evolved Magic Decoy. Can glimmer the \"Cosmic Rave\" tech.",
+  "pt": "Evolução de Chamariz Mágico. Permite realçar a técnica \"Delírio Cósmico\"."
+ },
+ "weaponLang/{EME_KATANA1}tips": {
+  "en": "Ignores: Speed, Duration.",
+  "pt": "Ignora: Velocidade, Duração."
+ },
+ "weaponLang/{EME_KATANA1}description": {
+  "en": "Attacks horizontally. Can glimmer the \"Gravedigger\" tech.",
+  "pt": "Ataca na horizontal. Permite realçar a técnica \"Coveiro\"."
+ },
+ "weaponLang/{EME_KATANA2}tips": {
+  "en": "Requires: Bloody Branch, \"Gravedigger\" tech.",
+  "pt": "Requer: Galho Sangrento, técnica \"Coveiro\"."
+ },
+ "weaponLang/{EME_KATANA2}description": {
+  "en": "Evolved Shadow Slash. Can glimmer the \"Scattered Petals\" tech. ",
+  "pt": "Evolução de Corte Sombrio. Permite realçar a técnica \"Pétalas Espalhadas\"."
+ },
+ "weaponLang/{EME_PUNCH1}description": {
+  "en": "Attacks sideways. Can glimmer the \"Raksha\" tech.",
+  "pt": "Ataca para os lados. Permite realçar a técnica \"Raksha\"."
+ },
+ "weaponLang/{EME_PUNCH2}tips": {
+  "en": "Requires: \"Raksha\" tech.",
+  "pt": "Requer: técnica \"Raksha\"."
+ },
+ "weaponLang/{EME_PUNCH2}description": {
+  "en": "Evolved Raging Trifecta Blow. Can glimmer the \"Shenlong Firefist\" tech.",
+  "pt": "Evolução do Golpe Triplo. Permite realçar a técnica \"Soco de Fogo de Shenlong\"."
+ },
+ "weaponLang/{EME_PUNCH3}tips": {
+  "en": "Requires: \"Shenlong Firefist\" tech.",
+  "pt": "Requer: técnica \"Soco de Fogo de Shenlong\"."
+ },
+ "weaponLang/{EME_PUNCH3}description": {
+  "en": "Evolved Occult Impaction. Can glimmer the \"Guanyin\" tech.",
+  "pt": "Evolução de Impacto Oculto. Permite realçar a técnica \"Guanyin\"."
+ },
+ "weaponLang/{EME_KICK1}tips": {
+  "en": "Ignores: Speed, Duration.",
+  "pt": "Ignora: Velocidade, Duração."
+ },
+ "weaponLang/{EME_KICK1}description": {
+  "en": "Deal more damage when at full health. Can glimmer the \"Thunder Kick\" tech.",
+  "pt": "Causa mais dano com Vida cheia. Permite realçar a técnica \"Chute de Trovão\"."
+ },
+ "weaponLang/{EME_KICK2}tips": {
+  "en": "Requires: Red Herb, \"Thunder Kick\" tech.",
+  "pt": "Requer: Erva Vermelha, técnica \"Chute de Trovão\"."
+ },
+ "weaponLang/{EME_KICK2}description": {
+  "en": "Evolved Tornado Kick. Glimmers \"Triple Dragon\": damage affected by overheal total.",
+  "pt": "Evolução do Chute Tornado. Realça \"Dragão Triplo\": dano afetado pelo total de vida excessiva."
+ },
+ "weaponLang/{EME_MAGIC1}description": {
+  "en": "Triggers additional techs when Area, Speed, Duration, and/or Growth bonuses are at or above 155%.",
+  "pt": "Ativa técnicas adicionais quando bônus de Área, Velocidade, Duração e/ou Crescimento estão acima de 155%."
+ },
+ "weaponLang/{EME_MAGIC2}description": {
+  "en": "Evolved Summon Elementals. Also triggers the \"Deadly Projection\" tech.",
+  "pt": "Evolução de Invocar Espíritos. Também ativa a técnica \"Projeção Mortal\"."
+ },
+ "weaponLang/{EME_MAGIC2}tips": {
+  "en": "Requires Max: any 5 passives.",
+  "pt": "Requer máx. de: quaisquer 5 passivas."
+ },
+ "weaponLang/{EME_CANNON1}tips": {
+  "en": "Best with: Speed, Duration.",
+  "pt": "Melhor com: Velocidade, Duração."
+ },
+ "weaponLang/{EME_CANNON1}description": {
+  "en": "Fires in the faced direction. Can glimmer the \"Shockwave\" tech.",
+  "pt": "Dispara para frente. Permite realçar a técnica \"Onda de Choque\"."
+ },
+ "weaponLang/{EME_CANNON1}customDescValue": {
+  "en": "Projectiles last %0ms longer.",
+  "pt": "Projéteis têm mais %0 ms de duração."
+ },
+ "weaponLang/{EME_CANNON2}tips": {
+  "en": "Requires: \"Shockwave\" tech.",
+  "pt": "Requer: \"Onda de Choque\"."
+ },
+ "weaponLang/{EME_CANNON2}description": {
+  "en": "Evolved Round Trip. Can glimmer the \"Bombarding Fire\" tech.",
+  "pt": "Evolução de Ida e Volta. Permite realçar a técnica \"Bombardeio de Fogo\"."
+ },
+ "weaponLang/{EME_CANNON2}customDescValue": {
+  "en": "Projectiles last %0ms longer.",
+  "pt": "Projéteis têm mais %0 ms de duração."
+ },
+ "weaponLang/{EME_CANNON3}tips": {
+  "en": "Requires: \"Bombarding Fire\" tech.",
+  "pt": "Requer: técnica \"Bombardeio de Fogo\"."
+ },
+ "weaponLang/{EME_CANNON3}description": {
+  "en": "Evolved Anti-Material Blast. Can Glimmer the \"Sunlight Shower\" tech.",
+  "pt": "Evolução de Disparo Antimaterial. Permite realçar a técnica \"Chuva de Sol\"."
+ },
+ "weaponLang/{EME_CANNON3}customDescValue": {
+  "en": "Projectiles last %0ms longer.",
+  "pt": "Projéteis têm mais %0 ms de duração."
+ },
+ "weaponLang/{EME_PISTOL1}tips": {
+  "en": "Ignores: Duration.",
+  "pt": "Ignora: Duração."
+ },
+ "weaponLang/{EME_PISTOL1}description": {
+  "en": "Fires at nearby enemies. Can glimmer the \"Falconfire\" tech.",
+  "pt": "Dispara em inimigos próximos. Permite realçar a técnica \"Falcofogo\"."
+ },
+ "weaponLang/{EME_PISTOL2}tips": {
+  "en": "Requires: Berserk Potion, \"Falconfire\" tech.",
+  "pt": "Requer: Poção da Fúria Selvagem, técnica \"Falcofogo\"."
+ },
+ "weaponLang/{EME_PISTOL2}description": {
+  "en": "Evolved Piercing Shot. Can glimmer the \"Bounding Shot\" tech.",
+  "pt": "Evolução do Tiro Perfurante. Permite realçar a técnica \"Disparo Ricocheteante\"."
+ },
+ "weaponLang/{EME_LONGSWORD1}tips": {
+  "en": "Ignores: Speed, Duration.",
+  "pt": "Ignora: Velocidade, Duração."
+ },
+ "weaponLang/{EME_LONGSWORD1}description": {
+  "en": "Strikes in the faced direction. Can glimmer the \"Swallow Slice\" tech.",
+  "pt": "Desfere golpes para frente. Permite realçar a técnica \"Corte de Andorinha\"."
+ },
+ "weaponLang/{EME_LONGSWORD2}tips": {
+  "en": "Requires: \"Swallow Slice\" tech.",
+  "pt": "Requer: técnica \"Corte de Andorinha\"."
+ },
+ "weaponLang/{EME_LONGSWORD2}description": {
+  "en": "Evolved Sonic Wave. Can glimmer the \"Airwave\" tech: damage x5.",
+  "pt": "Evolução da Onda Sônica. Permite realçar a técnica \"Rajada Cortante\": dano x5."
+ },
+ "weaponLang/{EME_LONGSWORD3}tips": {
+  "en": "Requires: \"Airwave\" tech.",
+  "pt": "Requer: técnica \"Rajada Cortante\"."
+ },
+ "weaponLang/{EME_LONGSWORD3}description": {
+  "en": "Evolved Wind Cutter. Can glimmer the \"Life Sprinkler\" tech.",
+  "pt": "Evolução do Cortador de Vento. Permite realçar a técnica \"Borrifador de Vida\"."
+ },
+ "weaponLang/{EME_BLOOD1}tips": {
+  "en": "Ignores: Speed, Duration.",
+  "pt": "Ignora: Velocidade, Duração."
+ },
+ "weaponLang/{EME_BLOOD1}description": {
+  "en": "Strikes at the nearest enemies. Can glimmer the \"Blood Rage\" tech: damage x2, area x2.",
+  "pt": "Ataca os inimigos mais próximos. Permite realçar a técnica \"Fúria de Sangue\": dano x2, área x2."
+ },
+ "weaponLang/{EME_BLOOD2}tips": {
+  "en": "Requires: Bubble Gum, \"Blood Rage\" tech.",
+  "pt": "Requer: Chiclete, técnica \"Fúria de Sangue\"."
+ },
+ "weaponLang/{EME_BLOOD2}description": {
+  "en": "Evolved Blood Sucker. Can glimmer the \"Scarlet Harbinger\" tech: damage affected by Greed, might steal Apples.",
+  "pt": "Evolução de Sanguessuga. Permite realçar a técnica \"Arauto Escarlate\": dano afetado por Ganância, pode roubar Maçãs."
+ },
+ "weaponLang/{EME_KNIFE1}description": {
+  "en": "Shadow clones strike nearby enemies. Can glimmer the \"Moonfall Slash\" tech.",
+  "pt": "Clones de sombra acertam inimigos próximos. Permite realçar a técnica \"Corte do Luar\"."
+ },
+ "weaponLang/{EME_KNIFE1}tips": {
+  "en": "Best with: Speed, Duration.",
+  "pt": "Melhor com: Velocidade, Duração."
+ },
+ "weaponLang/{EME_KNIFE2}description": {
+  "en": "Evolved Throw Venom Knife. Critical hits may give temporary invulnerability. Can glimmer the \"Kaleidoscope\" tech.",
+  "pt": "Evolução de Arremessar Faca Envenenada. Acertos críticos podem conceder invencibilidade temporária. Permite realçar a técnica \"Caleidoscópio\"."
+ },
+ "weaponLang/{EME_KNIFE2}tips": {
+  "en": "Requires: Valkyrja's Shield, \"Moonfall Slash\" tech.",
+  "pt": "Requer: Escudo de Valquíria, técnica \"Corte do Luar\"."
+ },
+ "weaponLang/{EME_AXE1}description": {
+  "en": "Passes through enemies. Can glimmer the \"Hell's Fury\" tech.",
+  "pt": "Atravessa inimigos. Permite realçar a técnica \"Fúria Infernal\"."
+ },
+ "weaponLang/{EME_AXE1}tips": {
+  "en": "Ignores: Speed.",
+  "pt": "Ignora: Velocidade."
+ },
+ "weaponLang/{EME_AXE2}description": {
+  "en": "Evolved Power Swing. Can glimmer the \"Reverse Delta\" tech.",
+  "pt": "Evolução de Golpe Poderoso. Permite realçar a técnica \"Delta Reverso\"."
+ },
+ "weaponLang/{EME_AXE2}tips": {
+  "en": "Requires: Dead Branch, \"Hell's Fury\" tech.",
+  "pt": "Requer: Galho Seco, técnica \"Fúria Infernal\"."
+ },
+ "weaponLang/{EME_SPEAR1}description": {
+  "en": "Stabs in the faced direction. Can glimmer the \"Divine Lancer\" tech.",
+  "pt": "Desfere um golpe para frente. Permite realçar a técnica \"Lanceiro Divino\"."
+ },
+ "weaponLang/{EME_SPEAR1}tips": {
+  "en": "Ignores: Duration.",
+  "pt": "Ignora: Duração."
+ },
+ "weaponLang/{EME_SPEAR2}description": {
+  "en": "Evolved Brandish Spear. Can glimmer the \"Stardust\" tech.",
+  "pt": "Evolução de Brandir Lança. Permite realçar a técnica \"Poeira Estelar\"."
+ },
+ "weaponLang/{EME_SPEAR2}tips": {
+  "en": "Requires: \"Divine Lancer\" tech.",
+  "pt": "Requer: técnica \"Lanceiro Divino\"."
+ },
+ "weaponLang/{EME_SPEAR3}description": {
+  "en": "Evolved Spear Stab. Can glimmer the \"Triumvirate\" tech: damage x3.",
+  "pt": "Evolução da Estocada. Permite realçar a técnica \"Triunvirato\": dano x3."
+ },
+ "weaponLang/{EME_SPEAR3}tips": {
+  "en": "Requires: \"Stardust\" tech.",
+  "pt": "Requer: técnica \"Poeira Estelar\"."
+ },
+ "weaponLang/{EME_GREATSWORD1}description": {
+  "en": "Throws spinning swords upwards. Can glimmer the \"Bull Crush\" tech.",
+  "pt": "Lança espadas giratórias para cima. Permite realçar a técnica \"Fúria de Touro\"."
+ },
+ "weaponLang/{EME_GREATSWORD1}tips": {
+  "en": "Ignores: Speed, Duration.",
+  "pt": "Ignora: Velocidade, Duração."
+ },
+ "weaponLang/{EME_GREATSWORD2}description": {
+  "en": "Evolved Exceed Break. Can glimmer the \"Absetzen\" tech.",
+  "pt": "Evolução de Ruptura Excedente. Permite realçar a técnica \"Absetzen\"."
+ },
+ "weaponLang/{EME_GREATSWORD2}tips": {
+  "en": "Requires: \"Bull Crush\" tech.",
+  "pt": "Requer: técnica \"Fúria de Touro\"."
+ },
+ "weaponLang/{EME_GREATSWORD3}description": {
+  "en": "Evolved Cross Rain. Can glimmer the \"Vandalize\" tech.",
+  "pt": "Evolução de Chuva Cruzada. Permite realçar a técnica \"Vandalizar\"."
+ },
+ "weaponLang/{EME_GREATSWORD3}tips": {
+  "en": "Requires: \"Absetzen\" tech.",
+  "pt": "Requer: técnica \"Absetzen\"."
+ },
+ "weaponLang/{EME_WAVE}tips": {
+  "en": "Chance of striking affected by all stats.",
+  "pt": "Chance de ataque é afetada por todos os atributos."
+ },
+ "weaponLang/{EME_WAVE}description": {
+  "en": "Picks random enemies to teleport away, but they might not drop XP Gemstones.",
+  "pt": "Escolhe inimigos aleatórios para teletransportar para longe, mas eles podem não deixar Gemas de EXP."
+ },
+ "weaponLang/{EME_WAVE}customDescValue": {
+  "en": "Strikes more often. %0% better chance to leave XP intact.",
+  "pt": "Ataca com maior frequência. Mais %0% de chance de não afetar EXP."
+ },
+ "weaponLang/{EME_WAVE2}tips": {
+  "en": "Requires: Battle Manual.",
+  "pt": "Requer: Manual de Combate."
+ },
+ "weaponLang/{EME_WAVE2}description": {
+  "en": "Evolved Nyang Grass. Teleports any enemy on its path and they always drop their best XP Gemstones.",
+  "pt": "Evolução de Grama Nyang. Teletransporta qualquer inimigo no caminho, e ele sempre deixa suas melhores Gemas de EXP."
+ },
+ "weaponLang/{EME_SELECTOR}description": {
+  "en": "Allows you to choose from a selection of weapons from the Rune-Midgard Diorama.",
+  "pt": "Permite escolher entre diferentes armas do Diorama de Rune-Midgard."
+ },
+ "weaponLang/{LEM_INFERNO1}description": {
+  "en": "Creates a zone of flames in the faced direction. Empowered by enemy kills.",
+  "pt": "Cria uma zona de combustão à frente. Abater inimigos a fortalece."
+ },
+ "weaponLang/{LEM_INFERNO2}tips": {
+  "en": "Requires Max: Joker Card",
+  "pt": "Requer máx. de: Carta Coringa."
+ },
+ "weaponLang/{LEM_INFERNO2}description": {
+  "en": "Evolved Arrow Vulcan. Adds a second zone. Zone effects multiply when combined.",
+  "pt": "Evolução de Vulcão de Flechas. Adiciona uma segunda zona. Os efeitos das zonas se multiplicam ao serem combinados."
+ },
+ "weaponLang/{LEM_BANANA1}description": {
+  "en": "Flings curving bananas. 1 in 6 chance to critically hit and explode.",
+  "pt": "Lança bananas em curva. 1 chance em 6 de executar acerto crítico e explodir."
+ },
+ "weaponLang/{LEM_BANANA2}tips": {
+  "en": "Requires Max: Joker Card",
+  "pt": "Requer máx. de: Carta Coringa."
+ },
+ "weaponLang/{LEM_BANANA2}description": {
+  "en": "Evolved Banana. Always crits. Always explodes. Other weapons crit more often.",
+  "pt": "Evolução de Banana. Sempre causa dano crítico. Sempre explode. Outras armas causam dano crítico com mais frequência."
+ },
+ "weaponLang/{LEM_FIBONACCI1}description": {
+  "en": "Creates a spiral spray of fizzy water. Has a chance to fire another equipped weapon.",
+  "pt": "Cria um spray em espiral de água gasosa. Tem chance de disparar outra arma equipada."
+ },
+ "weaponLang/{LEM_FIBONACCI1}customDescValue": {
+  "en": "%0% chance to fire another weapon.",
+  "pt": "%0% de chance de disparar outra arma."
+ },
+ "weaponLang/{LEM_FIBONACCI2}tips": {
+  "en": "Requires Max: Joker Card",
+  "pt": "Requer máx. de: Carta Coringa."
+ },
+ "weaponLang/{LEM_FIBONACCI2}description": {
+  "en": "Evolved Unchained Serenade. Has a 55% chance to fire 1, 2, 3 or 5 other weapons.",
+  "pt": "Evolução da Serenata Dissonante. Tem 55% de chance de disparar 1, 2, 3 ou 5 outras armas."
+ },
+ "weaponLang/{LEM_PLANETS1}description": {
+  "en": "Planets orbit around you. Damage increases by amount of Zeny collected this run.",
+  "pt": "Planetas orbitam ao seu redor. O dano aumenta conforme o Zeny coletado na partida."
+ },
+ "weaponLang/{LEM_PLANETS2}tips": {
+  "en": "Requires Max: Joker Card",
+  "pt": "Requer máx. de: Carta Coringa."
+ },
+ "weaponLang/{LEM_PLANETS2}description": {
+  "en": "Evolved Esma. Reveals secret planets. Planets occasionally turn negative.",
+  "pt": "Evolução de Esma. Revela planetas secretos. Planetas ficam negativos esporadicamente."
+ },
+ "weaponLang/{LEM_ACC_SABOTEUR}tips": {
+  "en": "Projectiles improve based on amount of Zeny collected in the current run.",
+  "pt": "Os projéteis melhoram conforme o Zeny coletado na partida atual."
+ },
+ "weaponLang/{LEM_ACC_SABOTEUR}description": {
+  "en": "Gives you Zeny, then makes an improper use of your savings.",
+  "pt": "Concede Zeny e, depois, faz uso impróprio das suas economias."
+ },
+ "weaponLang/{LEM_ACC_SABOTEUR}customDescValue": {
+  "en": "Gain %0 Zeny.",
+  "pt": "Ganhe %0 Zeny."
+ },
+ "weaponLang/{TP_FROG}description": {
+  "en": "Summons frogs that damage enemies as they jump.",
+  "pt": "Invoca sapos que causam dano a inimigos ao pular."
+ },
+ "weaponLang/{TP_FROG2}description": {
+  "en": "Union of Summon Slave (Roda Frog) and Ignition Break. May actually eat enemies.",
+  "pt": "União de Invocar Servos (Sapo Roda) e Ruptura Ignea. Pode, literalmente, comer inimigos."
+ },
+ "weaponLang/{TP_FROG_COUNTER}tips": {
+  "en": "Obtained only through Arcana I - The Magician.",
+  "pt": "Obtido apenas com a Arcana I - O Mago."
+ },
+ "weaponLang/{TP_FROG_COUNTER}description": {
+  "en": "Summons frogs that damage enemies as they jump.",
+  "pt": "Invoca sapos que causam dano a inimigos ao pular."
+ },
+ "weaponLang/{TP_POCKET1}description": {
+  "en": "Throws a short-lived knife in the faced direction.",
+  "pt": "Dispara facas de curto alcance à frente."
+ },
+ "weaponLang/{TP_POCKET2}tips": {
+  "en": "Requires Max: Old Purple Box.",
+  "pt": "Requer máx. de: Caixa Roxa Antiga."
+ },
+ "weaponLang/{TP_POCKET2}description": {
+  "en": "Evolved Throw Kunai. Globally increases Might, Armor and Crit Damage for each enemy in sight.",
+  "pt": "Evolução de Arremessar Kunai. Aumenta Poder, Armadura e Dano Crítico para cada inimigo à vista."
+ },
+ "weaponLang/{TP_LAPISTE1}description": {
+  "en": "Throws a flurry of close-range punches.",
+  "pt": "Desfere uma saraivada de socos à queima-roupa."
+ },
+ "weaponLang/{TP_LAPISTE2}description": {
+  "en": "Union of Raging Triple Blow and Lightning Bolt. Launches a barrage of stony fists.",
+  "pt": "União de Combo Triplo e Relâmpago. Lança uma saraivada de punhos de pedra."
+ },
+ "weaponLang/{TP_NEUTRON_WEAPON2}description": {
+  "en": "Union of Explosive Powder and Adoramus. This one does in fact bounce.",
+  "pt": "União de Pó Explosivo e Adoramus. Essa ricocheteia de verdade."
+ },
+ "weaponLang/{TP_SAVROG_WEAPON2}description": {
+  "en": "Union of Fire Walk and Venom Splasher. Crimson clones dance with you in the flames.",
+  "pt": "União de Rastro de Fogo e Explosão Tóxica. Clones carmesins dançam com você nas chamas."
+ },
+ "weaponLang/{TP_HYDROSTORM2}description": {
+  "en": "Union of Aqua Play and Basilica. It never rains but it pours.",
+  "pt": "União de Aqua Play e Basílica. É só pé d'água."
+ },
+ "weaponLang/{TP_GRANDCROSS2}description": {
+  "en": "Union of Holy Cross and Grand Cross. Central beam pulses when crosses pass through it.",
+  "pt": "União de Cruz Sagrada e Cruz Magnum. O feixe central pulsa quando é atravessado pelas cruzes."
+ },
+ "weaponLang/{TP_DARKRIFT2}description": {
+  "en": "Union of Evil Land and Axe Tornado. Death becomes you.",
+  "pt": "União de Terra Maligna e Tornado de Machado. A morte se torna você."
+ },
+ "weaponLang/{TP_ICEBRAND2}description": {
+  "en": "Union of Frost Weapon and Zen. Hell truly has frozen over.",
+  "pt": "União de Arma Congelante e Zen. O inferno congelou mesmo."
+ },
+ "weaponLang/{TP_GOTH_MISSILE2}description": {
+  "en": "Union of Aimed Bolt and Please Don't Forget Me. Windhawks rain down arrows, even more so on critical hit.",
+  "pt": "União de Disparo Certeiro e Não Me Esqueça. Falcões do Vento fazem chover flechas, ainda mais com acerto crítico."
+ },
+ "weaponLang/{TP_VALMANWAY2}description": {
+  "en": "Union of Sonic Wave and Sharp Shooting. Slashes endlessly. Grows bigger with continuous movement.",
+  "pt": "União de Onda Sônica e Tiro Preciso. Corta sem parar. Cresce com o movimento contínuo."
+ },
+ "weaponLang/{TP_SWORD_BROTHERS2}description": {
+  "en": "Union of Servant Weapon and Lord of Vermilion. Lightning triggers sword explosions with brief Invulnerability.",
+  "pt": "União de Arma Serva e Ira de Thor. Raios ativam explosões de espada com Invulnerabilidade por um curto período."
+ },
+ "weaponLang/{TP_SUMMON_SPIRIT2}description": {
+  "en": "Union of Soul Expansion and Napalm Vulcan. Fires homing spirits from a portal of light.",
+  "pt": "União de Expansão da Alma e Vulcão de Napalm. Dispara espíritos guiados de um portal de luz."
+ },
+ "weaponLang/{TP_AURABLAST_WEAPON2}description": {
+  "en": "Union of Asura Strike and Crimson Rock. Calls forth a massive volcanic eruption.",
+  "pt": "União de Punho Supremo de Asura e Rocha Carmesim. Provoca uma erupção vulcânica gigantesca."
+ },
+ "weaponLang/{TP_SPIRITTORNADO2}description": {
+  "en": "Union of Vacuum Extreme and Judex. Love, Beauty and Light.",
+  "pt": "União de Vácuo Extremo e Judex. Amor, Beleza e Luz."
+ },
+ "weaponLang/{TP_SOULSTEAL_WEAPON2}description": {
+  "en": "Union of Soul Reaper and Change Material. Devours enemies with insatiable greed.",
+  "pt": "União de Ceifar Almas e Mudar Material. Devora inimigos com uma ganância insaciável."
+ },
+ "itemLang/{RELIC_MAP_MS}description": {
+  "en": "Displays a detailed map when in the Amatsu Highlands.",
+  "pt": "Exibe um mapa detalhado no Planalto de Amatsu."
+ },
+ "itemLang/{RELIC_MAP_MS}achievementTips": {
+  "en": "Treasure Map III.",
+  "pt": "Mapa do Tesouro III."
+ },
+ "itemLang/{RELIC_MAP_FS}description": {
+  "en": "Displays a detailed map when in the Rachel Lakes.",
+  "pt": "Exibe um mapa detalhado nos Lagos de Rachel."
+ },
+ "itemLang/{RELIC_MAP_FS}achievementTips": {
+  "en": "Treasure Map IV.",
+  "pt": "Mapa do Tesouro IV."
+ },
+ "itemLang/{RELIC_MAP_CHAL}description": {
+  "en": "Displays a detailed map when in the Verus Laboratory.",
+  "pt": "Exibe um mapa detalhado no Laboratório de Verus."
+ },
+ "itemLang/{RELIC_MAP_CHAL}achievementTips": {
+  "en": "Realm Map.",
+  "pt": "Mapa do Reino."
+ },
+ "itemLang/{FB_RAPIDFIRE}description": {
+  "en": "Temporarily gives +30% Speed and -30% Cooldown.",
+  "pt": "Concede +30% de Velocidade e -30% de Recarga temporariamente."
+ },
+ "itemLang/{FB_RAPIDFIRE}tips": {
+  "en": "Drop rate affected by Luck",
+  "pt": "A chance de aparecer depende da Sorte."
+ },
+ "itemLang/{FB_BARRIER}description": {
+  "en": "Prevents damage from the next incoming attack (max 10 stacks).",
+  "pt": "Impede o dano do próximo ataque (máx. de 10)."
+ },
+ "itemLang/{FB_BARRIER}achievementTips": {
+  "en": "Drop rate affected by Luck",
+  "pt": "A chance de aparecer depende da Sorte."
+ },
+ "itemLang/{FB_BARRIER}tips": {
+  "en": "Drop rate affected by Luck",
+  "pt": "A chance de aparecer depende da Sorte."
+ },
+ "itemLang/{FB_GRENADE}description": {
+  "en": "Deals high damage to all visible enemies.",
+  "pt": "Causa dano alto a todos inimigos visíveis."
+ },
+ "itemLang/{FB_GRENADE}tips": {
+  "en": "Drop rate affected by Luck",
+  "pt": "A chance de aparecer depende da Sorte."
+ },
+ "itemLang/{RELIC_MAP_FB}description": {
+  "en": "Displays a detailed map when in the Rekenber Front.",
+  "pt": "Exibe um mapa detalhado na Frente de Rekenber."
+ },
+ "itemLang/{RELIC_MAP_FB}achievementTips": {
+  "en": "Realm Map.",
+  "pt": "Mapa do Reino."
+ },
+ "itemLang/{TP_WALL_CHICKEN}description": {
+  "en": "Typical Glast Heim pot roast. Restores 60 Health points.",
+  "pt": "Assado típico de Glast Heim. Restaura 60 pontos de Vida."
+ },
+ "itemLang/{TP_WALL_CHICKEN}tips": {
+  "en": "Drop rate affected by Luck",
+  "pt": "A chance de aparecer depende da Sorte."
+ },
+ "itemLang/{TP_HEART_REFRESH}description": {
+  "en": "Temporarily gives +5 Recovery.",
+  "pt": "Concede +5 de Recuperação temporariamente."
+ },
+ "itemLang/{TP_HEART_REFRESH}tips": {
+  "en": "Drop rate affected by Luck",
+  "pt": "A chance de aparecer depende da Sorte."
+ },
+ "itemLang/{TP_MIRROR_OF_TRUTH}description": {
+  "en": "Temporarily doubles Amount. Activates all equipped weapons at once when picked up.",
+  "pt": "Dobra a Quantidade temporariamente. Assim que é coletado, ativa todas as armas equipadas ao mesmo tempo."
+ },
+ "itemLang/{TP_MIRROR_OF_TRUTH}tips": {
+  "en": "Drop rate affected by Luck",
+  "pt": "A chance de aparecer depende da Sorte."
+ },
+ "itemLang/{TP_NEUTRON_BOMB}description": {
+  "en": "Deals high damage in a large area.",
+  "pt": "Causa dano alto em uma área grande."
+ },
+ "itemLang/{TP_NEUTRON_BOMB}tips": {
+  "en": "Drop rate affected by Luck",
+  "pt": "A chance de aparecer depende da Sorte."
+ },
+ "itemLang/{TP_KARMA_COIN}description": {
+  "en": "Has a 50% chance to trigger Soul Reaper, which destroys all enemies in line of sight and turns them into Apples.",
+  "pt": "Tem 50% de chance de ativar Ceifar Almas, que destrói todos os inimigos à vista e os transforma em Maçãs."
+ },
+ "itemLang/{TP_KARMA_COIN}tips": {
+  "en": "Drop rate affected by Luck",
+  "pt": "A chance de aparecer depende da Sorte."
+ },
+ "itemLang/{TP_RELIC_PILEOFSECRETS}description": {
+  "en": "Allows to discover a little pile of new secrets.",
+  "pt": "Permite descobrir uma nova pilha de segredos."
+ },
+ "itemLang/{TP_RELIC_PILEOFSECRETS}achievementTips": {
+  "en": "New Secrets.",
+  "pt": "Novos Segredos."
+ },
+ "itemLang/{TP_RELIC_BLACK_DISK}description": {
+  "en": "As you can see, this is a Glast Heim Christmas Musicbox. Cut number one contains 20 more characters, so please do play it.",
+  "pt": "Como você pode ver, esta é uma Caixa de Música de Natal de Glast Heim. A faixa número um contém 20 personagens novos, então toque-a."
+ },
+ "itemLang/{TP_RELIC_BLACK_DISK}achievementTips": {
+  "en": "20 new unlockable characters.",
+  "pt": "20 novos personagens desbloqueáveis."
+ },
+ "itemLang/{TP_RELIC_TELEPORT1}description": {
+  "en": "Allows Regeneration Potions to materialise and grants access to a new part of Glast Heim Castle.",
+  "pt": "Permite que Poções de Regeneração apareçam e concede acesso a uma nova parte do Castelo de Glast Heim."
+ },
+ "itemLang/{TP_RELIC_TELEPORT1}achievementTips": {
+  "en": "Regeneration Potions, new teleporter for Glast Heim Castle.",
+  "pt": "Poções de Regeneração, novo teletransportador no Castelo de Glast Heim."
+ },
+ "itemLang/{TP_RELIC_TELEPORT2}description": {
+  "en": "Allows Soul Scrolls to materialise and grants access to a new part of Glast Heim Castle.",
+  "pt": "Permite que Pergaminhos da Alma apareçam e concede acesso a uma nova parte do Castelo de Glast Heim."
+ },
+ "itemLang/{TP_RELIC_TELEPORT2}achievementTips": {
+  "en": "Soul Scrolls, new teleporter for Glast Heim Castle.",
+  "pt": "Pergaminhos da Alma, novo teletransportador no Castelo de Glast Heim."
+ },
+ "itemLang/{TP_RELIC_TELEPORT3}description": {
+  "en": "Allows Splendid Mirrors to materialise and grants access to a new part of Glast Heim Castle.",
+  "pt": "Permite que Espelhos Esplêndidos apareçam e concede acesso a uma nova parte do Castelo de Glast Heim."
+ },
+ "itemLang/{TP_RELIC_TELEPORT3}achievementTips": {
+  "en": "Splendid Mirrors, new teleporter for Glast Heim Castle.",
+  "pt": "Espelhos Esplêndidos, novo teletransportador no Castelo de Glast Heim."
+ },
+ "itemLang/{TP_RELIC_TELEPORT4}description": {
+  "en": "Allows Explosive Powder to materialise and grants access to a new part of Glast Heim Castle.",
+  "pt": "Permite que Pó Explosivo apareça e concede acesso a uma nova parte do Castelo de Glast Heim."
+ },
+ "itemLang/{TP_RELIC_TELEPORT4}achievementTips": {
+  "en": "Explosive Powder, new teleporter for Glast Heim Castle.",
+  "pt": "Pó Explosivo, novo teletransportador no Castelo de Glast Heim."
+ },
+ "itemLang/{TP_RELIC_TELEPORT5}description": {
+  "en": "Allows clockwork weapons to materialise and grants access to a new part of Glast Heim Castle.",
+  "pt": "Permite que armas mecânicas apareçam e concede acesso a uma nova parte do Castelo de Glast Heim."
+ },
+ "itemLang/{TP_RELIC_TELEPORT5}achievementTips": {
+  "en": "Clockwork weapons, new teleporter for Glast Heim Castle.",
+  "pt": "Armas mecânicas, novo teletransportador no Castelo de Glast Heim."
+ },
+ "itemLang/{TP_RELIC_TELEPORT6}description": {
+  "en": "Grants access to a new part of Glast Heim Castle.",
+  "pt": "Concede acesso a uma nova parte do Castelo de Glast Heim."
+ },
+ "itemLang/{TP_RELIC_TELEPORT6}achievementTips": {
+  "en": "Secret weapons, new teleporter for Glast Heim Castle.",
+  "pt": "Armas secretas, novo teletransportador no Castelo de Glast Heim."
+ },
+ "itemLang/{TP_RELIC_LIBRARIAN}description": {
+  "en": "Summons the Library Master in any stage.",
+  "pt": "Invoca o Mestre da Biblioteca em qualquer fase."
+ },
+ "itemLang/{TP_RELIC_LIBRARIAN}achievementTips": {
+  "en": "New merchant.",
+  "pt": "Novo mercador."
+ },
+ "itemLang/{TP_RELIC_CASTLEMAP}description": {
+  "en": "Displays a detailed map when in Glast Heim Castle.",
+  "pt": "Exibe um mapa detalhado no Castelo de Glast Heim."
+ },
+ "itemLang/{TP_RELIC_CASTLEMAP}tips": {
+  "en": "Treasure Map.",
+  "pt": "Mapa do Tesouro."
+ },
+ "itemLang/{TP_RELIC_CASTLEMAP}achievementTips": {
+  "en": "Treasure Map.",
+  "pt": "Mapa do Tesouro."
+ },
+ "itemLang/{TP_RELIC_STONES}description": {
+  "en": "Allows the Death Witch, the Incubus, Dracula of Rage, and the Lord of the Dead to morph when special conditions are met.",
+  "pt": "Permite que a Bruxa da Morte, o Íncubo, o Drácula Furioso e o Senhor dos Mortos se transformem em condições especiais."
+ },
+ "itemLang/{TP_RELIC_STONES}achievementTips": {
+  "en": "Morph ability for Death Witch, Incubus, Dracula of Rage, and Lord of the Dead.",
+  "pt": "Habilidade de transformação para Bruxa da Morte, Íncubo, Drácula Furioso e Senhor dos Mortos."
+ },
+ "itemLang/{RELIC_EME_DISK}description": {
+  "en": "Allows entrance to the Rune-Midgard Diorama.",
+  "pt": "Permite entrar no Diorama de Rune-Midgard."
+ },
+ "itemLang/{RELIC_EME_DISK}achievementTips": {
+  "en": "Rune-Midgard Diorama Expansion.",
+  "pt": "Expansão Diorama de Rune-Midgard."
+ },
+ "itemLang/{RELIC_LEM_DISK}description": {
+  "en": "Allows entrance to the Comodo Casino.",
+  "pt": "Permite entrar no Cassino de Comodo."
+ },
+ "itemLang/{RELIC_LEM_DISK}achievementTips": {
+  "en": "Comodo Casino Expansion.",
+  "pt": "Expansão Cassino de Comodo."
+ },
+ "skinLang/{SKIN_ELEANOR_AREA}description": {
+  "en": "Receives Varetyr Spear at Level 10 and Spell Fist at Level 20. Receives Token of Siegfried at Level 30.",
+  "pt": "Recebe Lança de Varetyr no nível 10 e Punho Arcano no nível 20. Recebe Emblema de Siegfried no nível 30."
+ },
+ "skinLang/{SKIN_ELEANOR_MIGHT}description": {
+  "en": "Receives Spell Fist at Level 10 and Psychic Wave at Level 20. Receives Token of Siegfried at Level 30.",
+  "pt": "Recebe Punho Arcano no nível 10 e Onda Psíquica no nível 20. Recebe Emblema de Siegfried no nível 30."
+ },
+ "skinLang/{SKIN_EME_SOLO_FLEURET}description": {
+  "en": "Won't summon allies.",
+  "pt": "Não invoca aliados."
+ },
+ "skinLang/{SKIN_EME_SOLO_DUAL}description": {
+  "en": "Won't summon allies.",
+  "pt": "Não invoca aliados."
+ },
+ "skinLang/{SKIN_EME_SOLO_PUNCH}description": {
+  "en": "Won't summon allies.",
+  "pt": "Não invoca aliados."
+ },
+ "skinLang/{SKIN_EME_SOLO_KICK}description": {
+  "en": "Won't summon allies.",
+  "pt": "Não invoca aliados."
+ },
+ "skinLang/{SKIN_EME_SOLO_CANNON}description": {
+  "en": "Won't summon allies.",
+  "pt": "Não invoca aliados."
+ },
+ "skinLang/{SKIN_EME_SOLO_PISTOL}description": {
+  "en": "Won't summon allies.",
+  "pt": "Não invoca aliados."
+ },
+ "skinLang/{SKIN_EME_D_TANK}description": {
+  "en": "Charge: fires an array of Silver Snipers.",
+  "pt": "Carga: dispara uma saraivada de Atiradores Prateados."
+ },
+ "skinLang/{SKIN_EME_D_KATANA}description": {
+  "en": "Gains bonuses to Might, Projectile speed, Duration, Area, Cooldown, and Recovery based on the total of glimmered techs.",
+  "pt": "Ganha bônus de Poder, Velocidade de Projéteis, Duração, Área, Recarga e Recuperação com base no total de técnicas realçadas."
+ },
+ "skinLang/{SKIN_EME_D_PARA}description": {
+  "en": "Can fly. Can innately use the \"Cosmic Rave\" tech.",
+  "pt": "Pode voar. Domina a técnica \"Delírio Cósmico\" instintivamente."
+ },
+ "skinLang/{SKIN_EME_D_SHAN}description": {
+  "en": "Charge: triggers the \"Ballistic Missiles\" tech.",
+  "pt": "Carga: ativa a técnica \"Mísseis Balísticos\"."
+ },
+ "skinLang/{SKIN_EME_D_MOVE}description": {
+  "en": "Can fly. High Magnet and Move Speed, but low Max Health.",
+  "pt": "Pode voar. Alto Magnetismo e Velocidade de Movimento, mas Vida Máxima baixa."
+ },
+ "skinLang/{SKIN_TP_SOMA_DARKLORD}description": {
+  "en": "Also gains +1 Revival every 100 levels. Enemies drop Blue, Red, or Yellow Souls that increase Growth, Might, or Greed respectively when set amounts are collected.",
+  "pt": "Também ganha +1 de Ressurreição a cada 100 níveis. Inimigos concedem Almas Azuis, Vermelhas ou Amarelas que aumentam Crescimento, Poder e Ganância, respectivamente, ao coletar valores específicos."
+ },
+ "skinLang/{SKIN_KOOLIO_DOLPHIN_SPEED}description": {
+  "en": "Starting weapon can't evolve but its Limit Break is enhanced.",
+  "pt": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
+ },
+ "skinLang/{SKIN_KOOLIO_CRAB_AREA}description": {
+  "en": "Starting weapon can't evolve but its Limit Break is enhanced.",
+  "pt": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
+ },
+ "skinLang/{SKIN_KOOLIO_JELLY_DURATION}description": {
+  "en": "Starting weapon can't evolve but its Limit Break is enhanced.",
+  "pt": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
+ },
+ "skinLang/{SKIN_KOOLIO_SHARK_MIGHT}description": {
+  "en": "Starting weapon can't evolve but its Limit Break is enhanced.",
+  "pt": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
+ },
+ "skinLang/{SKIN_KOOLIO_SQUID_AMOUNT}description": {
+  "en": "Starting weapon can't evolve but its Limit Break is enhanced.",
+  "pt": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
+ },
+ "skinLang/{SKIN_KOOLIO_SWAP_1}description": {
+  "en": "Starting weapon can't evolve but its Limit Break is enhanced.",
+  "pt": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
+ },
+ "skinLang/{SKIN_KOOLIO_SWAP_7}description": {
+  "en": "Starting weapon can't evolve but its Limit Break is enhanced.",
+  "pt": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
+ },
+ "arcanaLang/{2002}description": {
+  "en": "OnRevive: triggers an Awakening Potion.",
+  "pt": "Ao Ressuscitar: ativa uma Poção do Despertar."
+ }
+}

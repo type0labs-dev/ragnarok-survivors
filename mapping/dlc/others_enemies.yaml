@@ -1,0 +1,3850 @@
+# Ragnarok Survivors — DLC enemy "de-para" (draft v1, 2026-10-16), six DLCs:
+#   moonspell  (Legacy of the Moonspell) MOONSPELL         -> Amatsu / Kunlun / Louyang (yokai, oni)
+#   foscari    (Tides of the Foscari)    FOSCARI, FOSCARI2 -> Rachel / Veins / lake + Celtic folklore horror (fairies, fish, Fomorians)
+#   chalcedony (Emergency Meeting)       POLUS             -> Juperos / Lighthalzen Bio Lab (robots; impostor = Doppelganger)
+#   firstblood (Operation Guns)          FB_GALUGA, FB_HIGHWAY -> Lighthalzen Bio Lab / Juperos (soldiers, chimeras, mechs)
+#   emeralds   (Emerald Diorama)         EMERALD           -> Payon / Comodo / Umbala (JRPG diorama beasts; gate bosses = MVPs)
+#   lemon      (Ante Chamber)            LEM_CHAMBER       -> Comodo casino (Joker is taken by base EX_CARDSHARP)
+# Source: dlc/<DLC>/data/enemyData_*.json + stageData_*.json; family = (textureName, frameNames[0] minus _0.png).
+# Same fields as ../enemies.yaml plus `dlc`. scope: dlc. Picks were checked against the actual sprites (UnityPy peek).
+# shared_base: true = the family draws from a base atlas sprite already mapped in ../enemies.yaml; the art is
+#   shared, so the pick MUST stay identical to the base row (change it there, not here).
+# Base-game enemies spawned in DLC stages (ZOMBIE, BAT1-3, BOSS_XLDEATH, EX_CARDSHARP/Joker, EX_SPADEKNIGHT...) are
+#   NOT repeated here; they keep their base picks and were counted in the per-stage no-repeat check.
+# role: boss when every id is a BOSS_*/stage boss; elite when max hp >= 15; segment = body part; event = breakable prop;
+#   projectile = bullet with an enemy row (no RO monster, map in the effects pass).
+# ro_ptbr: NOT verified against bRO strings; proper names kept as-is.
+enemies:
+  - vs_family: "spirit"
+    vs_texture: "moonspellEnemies"
+    vs_ids: [MS_SPIRIT1, MS_SPIRIT1_SWARM]
+    vs_bestiary_name: "Spirit"
+    stages: [MOONSPELL]
+    dlc: moonspell
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1179
+    ro_aegis: WHISPER
+    ro_sprite: whisper
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Whisper"
+    ro_ptbr: "Whisper"
+    why: "white wisp yokai -> Whisper, the stock small ghost"
+    confidence: med
+    asset: ok
+  - vs_family: "spirit_des"
+    vs_texture: "moonspellEnemies"
+    vs_ids: [MS_SPIRIT2, MS_SPIRIT2_SWARM, MS_EVILSPIRIT]
+    vs_bestiary_name: null
+    stages: [MOONSPELL]
+    dlc: moonspell
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1120
+    ro_aegis: GHOSTRING
+    ro_sprite: ghostring
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Ghostring"
+    ro_ptbr: "Ghostring"
+    why: "translucent tinted spirit variant -> Ghostring"
+    confidence: med
+    asset: ok
+  - vs_family: "hitotsumekozo"
+    vs_texture: "moonspellEnemies"
+    vs_ids: [MS_HITOT]
+    vs_bestiary_name: "Hitotsumekozo"
+    stages: [MOONSPELL]
+    dlc: moonspell
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1409
+    ro_aegis: RICE_CAKE_BOY
+    ro_sprite: rice_cake_boy
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Dumpling Child"
+    ro_ptbr: "Menino Bolinho"
+    why: "straw-hat one-eyed child yokai -> Dumpling Child (Louyang kid)"
+    confidence: med
+    asset: ok
+  - vs_family: "kappa"
+    vs_texture: "moonspellEnemies"
+    vs_ids: [MS_KAPPA]
+    vs_bestiary_name: "Kappa"
+    stages: [MOONSPELL]
+    dlc: moonspell
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1406
+    ro_aegis: KAPHA
+    ro_sprite: kapha
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Kapha"
+    ro_ptbr: "Kapha"
+    why: "kappa -> Kapha, Amatsu's own kappa"
+    confidence: high
+    asset: ok
+  - vs_family: "tsuchinoko"
+    vs_texture: "moonspellEnemies"
+    vs_ids: [MS_TSUCHINOKO]
+    vs_bestiary_name: "Tsuchinoko"
+    stages: [MOONSPELL]
+    dlc: moonspell
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1037
+    ro_aegis: SIDE_WINDER
+    ro_sprite: side_winder
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Side Winder"
+    ro_ptbr: "Side Winder"
+    why: "fat brown snake cryptid -> Side Winder"
+    confidence: med
+    asset: ok
+  - vs_family: "mikoshinyudo"
+    vs_texture: "moonspellEnemies"
+    vs_ids: [MS_MIKOS]
+    vs_bestiary_name: "Mikoshinyudo"
+    stages: [MOONSPELL]
+    dlc: moonspell
+    scope: dlc
+    role: boss
+    ro_mob_id: 1412
+    ro_aegis: EVIL_CLOUD_HERMIT
+    ro_sprite: evil_cloud_hermit
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Taoist Hermit"
+    ro_ptbr: "Eremita Taoista"
+    why: "towering robed monk yokai -> Taoist Hermit (Kunlun)"
+    confidence: med
+    asset: ok
+  - vs_family: "kamaitachi"
+    vs_texture: "enemiesM"
+    vs_ids: [MS_KAMAITACHI, MS_BOSS_KAMAITACHI]
+    vs_bestiary_name: "Kamaitachi"
+    stages: [MOONSPELL]
+    dlc: moonspell
+    scope: dlc
+    role: elite
+    ro_mob_id: 1401
+    ro_aegis: SHINOBI
+    ro_sprite: shinobi
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Shinobi"
+    ro_ptbr: "Shinobi"
+    why: "shared base sprite; inherits base pick (kamaitachi -> Shinobi, Amatsu)"
+    confidence: low
+    asset: ok
+    shared_base: true
+  - vs_family: "raiju"
+    vs_texture: "enemiesM"
+    vs_ids: [MS_RAIJU, MS_BOSS_RAIJU]
+    vs_bestiary_name: "Raiju"
+    stages: [MOONSPELL]
+    dlc: moonspell
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1180
+    ro_aegis: NINE_TAIL
+    ro_sprite: nine_tail
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Nine Tail"
+    ro_ptbr: "Nove Caudas"
+    why: "thunder beast yokai -> Nine Tail, the Amatsu-flavoured fox beast"
+    confidence: low
+    asset: ok
+  - vs_family: "yamamba"
+    vs_texture: "moonspellEnemies"
+    vs_ids: [MS_YAMAMBA1]
+    vs_bestiary_name: "Yamamba"
+    stages: [MOONSPELL]
+    dlc: moonspell
+    scope: dlc
+    role: elite
+    ro_mob_id: 1416
+    ro_aegis: WICKED_NYMPH
+    ro_sprite: wicked_nymph
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Evil Nymph"
+    ro_ptbr: "Ninfa Maligna"
+    why: "white-haired mountain hag -> Evil Nymph (Kunlun)"
+    confidence: low
+    asset: ok
+  - vs_family: "yamamba2"
+    vs_texture: "moonspellEnemies"
+    vs_ids: [MS_YAMAMBA2]
+    vs_bestiary_name: null
+    stages: [MOONSPELL]
+    dlc: moonspell
+    scope: dlc
+    role: elite
+    ro_mob_id: 1519
+    ro_aegis: CHUNG_E
+    ro_sprite: chung_e
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Green Maiden"
+    ro_ptbr: "Donzela Verde"
+    why: "blue-robed hag variant -> Green Maiden (Kunlun)"
+    confidence: low
+    asset: ok
+  - vs_family: "Tanuki"
+    vs_texture: "moonspellEnemies"
+    vs_ids: [MS_TANUKI, MS_BOSS_TANUKI, MS_ADV_TANUKIS1, MS_ADV_TANUKIS2, MS_ADV_TANUKIS3]
+    vs_bestiary_name: "Tanuki"
+    stages: [MOONSPELL]
+    dlc: moonspell
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1056
+    ro_aegis: SMOKIE
+    ro_sprite: smokie
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Smokie"
+    ro_ptbr: "Smokie"
+    why: "shapeshifting raccoon-dog -> Smokie, RO's transforming raccoon"
+    confidence: high
+    asset: ok
+  - vs_family: "Tengu"
+    vs_texture: "moonspellEnemies"
+    vs_ids: [MS_TENGU, MS_BOSS_TENGU]
+    vs_bestiary_name: "Tengu"
+    stages: [MOONSPELL]
+    dlc: moonspell
+    scope: dlc
+    role: elite
+    ro_mob_id: 1405
+    ro_aegis: TENGU
+    ro_sprite: tengu
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Tengu"
+    ro_ptbr: "Tengu"
+    why: "tengu -> Tengu, Amatsu's own"
+    confidence: high
+    asset: ok
+  - vs_family: "tsuchigumo"
+    vs_texture: "moonspellEnemies"
+    vs_ids: [MS_TSUCHIGUMO, MS_BOSS_TSUCHIGUMO, MS_NINETYNINE]
+    vs_bestiary_name: "Tsuchigumo"
+    stages: [MOONSPELL]
+    dlc: moonspell
+    scope: dlc
+    role: elite
+    ro_mob_id: 1304
+    ro_aegis: GIANT_SPIDER
+    ro_sprite: giant_spider
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Giant Spider"
+    ro_ptbr: "Aranha Gigante"
+    why: "earth-spider yokai -> Giant Spider"
+    confidence: med
+    asset: ok
+  - vs_family: "msFlower1"
+    vs_texture: "moonspellEnemies"
+    vs_ids: [MS_FLOWER1]
+    vs_bestiary_name: null
+    stages: [MOONSPELL]
+    dlc: moonspell
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1410
+    ro_aegis: LIVE_PEACH_TREE
+    ro_sprite: live_peach_tree
+    ro_size: Medium
+    ro_anim: idle
+    ro_en: "Enchanted Peach Tree"
+    ro_ptbr: "Pessegueiro Encantado"
+    why: "stationary plant wall -> Enchanted Peach Tree (Louyang)"
+    confidence: med
+    asset: ok
+  - vs_family: "msFlower3"
+    vs_texture: "moonspellEnemies"
+    vs_ids: [MS_FLOWER2]
+    vs_bestiary_name: null
+    stages: [MOONSPELL]
+    dlc: moonspell
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1413
+    ro_aegis: WILD_GINSENG
+    ro_sprite: wild_ginseng
+    ro_size: Small
+    ro_anim: idle
+    ro_en: "Hermit Plant"
+    ro_ptbr: "Planta Eremita"
+    why: "second plant wall -> Hermit Plant (Louyang ginseng)"
+    confidence: med
+    asset: ok
+  - vs_family: "spiritB"
+    vs_texture: "moonspellEnemies"
+    vs_ids: [MS_BOSS_SPIRIT, MS_BOSS_SPIRIT2]
+    vs_bestiary_name: null
+    stages: [MOONSPELL]
+    dlc: moonspell
+    scope: dlc
+    role: boss
+    ro_mob_id: 1186
+    ro_aegis: WHISPER_BOSS
+    ro_sprite: whisper_boss
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Giant Whisper"
+    ro_ptbr: "Whisper Gigante"
+    why: "big spirit boss -> Giant Whisper, boss of the Whisper line"
+    confidence: high
+    asset: ok
+  - vs_family: "oni_wind"
+    vs_texture: "moonspellEnemies"
+    vs_ids: [MS_ONIWIND, MS_BOSS_ONIWIND]
+    vs_bestiary_name: "Oni Wind"
+    stages: [MOONSPELL]
+    dlc: moonspell
+    scope: dlc
+    role: boss
+    ro_mob_id: 1583
+    ro_aegis: TAO_GUNKA
+    ro_sprite: tao_gunka
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Tao Gunka"
+    ro_ptbr: "Tao Gunka"
+    why: "Fujin wind oni boss -> Tao Gunka, horned oni-like giant [MVP]"
+    confidence: med
+    asset: ok
+  - vs_family: "loni"
+    vs_texture: "enemiesM"
+    vs_ids: [MS_ONITHUNDER, MS_BOSS_ONITHUNDER]
+    vs_bestiary_name: "Oni Thunder"
+    stages: [MOONSPELL]
+    dlc: moonspell
+    scope: dlc
+    role: boss
+    ro_mob_id: 1418
+    ro_aegis: DARK_SNAKE_LORD
+    ro_sprite: dark_snake_lord
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Evil Snake Lord"
+    ro_ptbr: "Lorde Serpente Maligno"
+    why: "shared base sprite; inherits base pick (bridge boss -> Evil Snake Lord MVP [MVP])"
+    confidence: low
+    asset: ok
+    shared_base: true
+  - vs_family: "oni"
+    vs_texture: "moonspellEnemies"
+    vs_ids: [MS_ONI1]
+    vs_bestiary_name: "Oni"
+    stages: [MOONSPELL]
+    dlc: moonspell
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1110
+    ro_aegis: DOKEBI
+    ro_sprite: dokebi
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Dokebi"
+    ro_ptbr: "Dokebi"
+    why: "red club-wielding oni -> Dokebi, RO's club goblin-oni"
+    confidence: med
+    asset: ok
+  - vs_family: "Gash_body"
+    vs_texture: "moonspellEnemies"
+    vs_ids: [MS_GOSHADOKURO]
+    vs_bestiary_name: "Gashadokuro"
+    stages: []
+    dlc: moonspell
+    scope: dlc
+    role: elite
+    ro_mob_id: 1132
+    ro_aegis: KHALITZBURG
+    ro_sprite: khalitzburg
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Khalitzburg"
+    ro_ptbr: "Khalitzburg"
+    why: "giant skeleton (gashadokuro) -> Khalitzburg; RO has no Asian giant skeleton"
+    confidence: low
+    asset: ok
+  - vs_family: "Orochi_body"
+    vs_texture: "moonspellEnemies"
+    vs_ids: [MS_OROCHIMARIO_INVUL, MS_OROCHIMARIO]
+    vs_bestiary_name: "Orochimario"
+    stages: [MOONSPELL]
+    dlc: moonspell
+    scope: dlc
+    role: elite
+    ro_mob_id: 1993
+    ro_aegis: NAGA
+    ro_sprite: naga
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Naga"
+    ro_ptbr: "Naga"
+    why: "eight-headed serpent body -> Naga, giant snake"
+    confidence: med
+    asset: ok
+  - vs_family: "Orochi_head"
+    vs_texture: "moonspellEnemies"
+    vs_ids: [MS_OROCHIHEAD, MS_OROCHIHEAD_INVUL]
+    vs_bestiary_name: null
+    stages: []
+    dlc: moonspell
+    scope: dlc
+    role: segment
+    ro_mob_id: 1514
+    ro_aegis: DANCING_DRAGON
+    ro_sprite: dancing_dragon
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Zhu Po Long"
+    ro_ptbr: "Zhu Po Long"
+    why: "Orochi heads (segments) -> Zhu Po Long, Louyang snake-dragon"
+    confidence: med
+    asset: ok
+  - vs_family: "vadBeast"
+    vs_texture: "moonspellEnemies"
+    vs_ids: [BOSS_MEGASYUUTO]
+    vs_bestiary_name: null
+    stages: []
+    dlc: moonspell
+    scope: dlc
+    role: boss
+    ro_mob_id: 1492
+    ro_aegis: INCANTATION_SAMURAI
+    ro_sprite: incantation_samurai
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Samurai Specter"
+    ro_ptbr: "Samurai Espectral"
+    why: "white-maned kabuki warrior mega boss -> Samurai Specter [MVP]"
+    confidence: med
+    asset: ok
+  - vs_family: "Goblin"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_GOBLIN, FS_GOBLIN_RED, FOSCARI_COUNTER]
+    vs_bestiary_name: "Chompo"
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1122
+    ro_aegis: GOBLIN_1
+    ro_sprite: goblin_1
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Goblin"
+    ro_ptbr: "Goblin"
+    why: "green knife goblin (Chompo) -> Goblin"
+    confidence: high
+    asset: ok
+  - vs_family: "Gef"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_GEF]
+    vs_bestiary_name: "Ceffoose"
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1057
+    ro_aegis: YOYO
+    ro_sprite: yoyo
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Yoyo"
+    ro_ptbr: "Yoyo"
+    why: "Gef the talking mongoose -> Yoyo, small brown monkey"
+    confidence: med
+    asset: ok
+  - vs_family: "Salmon"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_SALMON_DUSA, FS_SALMON, FS_SALMON2, FS_SALMON_HP]
+    vs_bestiary_name: "Wiseparke"
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1158
+    ro_aegis: PHEN
+    ro_sprite: phen
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Phen"
+    ro_ptbr: "Phen"
+    why: "Salmon of Knowledge -> Phen fish"
+    confidence: med
+    asset: ok
+  - vs_family: "pSalmon"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_SALMON_PINK]
+    vs_bestiary_name: null
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: fodder
+    ro_mob_id: 20809
+    ro_aegis: ILL_PHEN
+    ro_sprite: ill_phen
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Deep Sea Phen"
+    ro_ptbr: "Phen das Profundezas"
+    why: "pink salmon recolor -> Deep Sea Phen, Phen recolor"
+    confidence: med
+    asset: ok
+  - vs_family: "Selkie"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_SELKIE, FS_BOSS_SELKIE]
+    vs_bestiary_name: "Nutmeg"
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1317
+    ro_aegis: FUR_SEAL
+    ro_sprite: fur_seal
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Seal"
+    ro_ptbr: "Foca"
+    why: "selkie (seal-folk) -> Seal"
+    confidence: high
+    asset: ok
+  - vs_family: "Wulver"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_WULVER, FS_BOSS_WULVER]
+    vs_bestiary_name: "Vulvio"
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 1092
+    ro_aegis: VAGABOND_WOLF
+    ro_sprite: vagabond_wolf
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Vagabond Wolf"
+    ro_ptbr: "Lobo Errante"
+    why: "spear-carrying wolf-man (wulver) -> Vagabond Wolf"
+    confidence: med
+    asset: ok
+  - vs_family: "Lamb"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_LAMB, FS_BOSS_LAMB]
+    vs_bestiary_name: "Lammuga"
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 1372
+    ro_aegis: GOAT
+    ro_sprite: goat
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Goat"
+    ro_ptbr: "Cabra"
+    why: "sheep -> Goat; RO has no sheep"
+    confidence: med
+    asset: ok
+  - vs_family: "TrowH"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_HTROW, FS_HTROW_HP]
+    vs_bestiary_name: "Hill Trow"
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1773
+    ro_aegis: HODREMLIN
+    ro_sprite: hodremlin
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Hodremlin"
+    ro_ptbr: "Hodremlin"
+    why: "small hill troll -> Hodremlin (Rachel)"
+    confidence: low
+    asset: ok
+  - vs_family: "TrowS"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_STROW, FS_STROW_HP]
+    vs_bestiary_name: "Sea Trow"
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1508
+    ro_aegis: QUVE
+    ro_sprite: quve
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Quve"
+    ro_ptbr: "Quve"
+    why: "pale hunched sea trow -> Quve, small ghost"
+    confidence: low
+    asset: ok
+  - vs_family: "Clown"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_CLOWN, FS_BOSS_CLOWN, FS_CLOWN_SWARM]
+    vs_bestiary_name: "Sam the Sundown Clown"
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 20942
+    ro_aegis: PIERROTZOIST
+    ro_sprite: pierrotzoist
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Pierrotzoist"
+    ro_ptbr: "Pierrotzoist"
+    why: "green jester fairy -> Pierrotzoist; Joker reserved for Ante Chamber"
+    confidence: med
+    asset: ok
+  - vs_family: "Cake"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_CAKE]
+    vs_bestiary_name: "Sammy"
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1300
+    ro_aegis: CATERPILLAR
+    ro_sprite: caterpillar
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Caterpillar"
+    ro_ptbr: "Lagarta"
+    why: "segmented caterpillar sprite -> Caterpillar"
+    confidence: high
+    asset: ok
+  - vs_family: "Brownie"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_BROWN, FS_BROWN_HP]
+    vs_bestiary_name: "Brownie"
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1838
+    ro_aegis: KNOCKER
+    ro_sprite: knocker
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Knocker"
+    ro_ptbr: "Knocker"
+    why: "broom-carrying house fairy -> Knocker, Veins fairy"
+    confidence: med
+    asset: ok
+  - vs_family: "GreenKnight"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_GREEN, FS_BOSS_GREEN_28]
+    vs_bestiary_name: "Green Knight"
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 1251
+    ro_aegis: KNIGHT_OF_WINDSTORM
+    ro_sprite: knight_of_windstorm
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Stormy Knight"
+    ro_ptbr: "Cavaleiro da Tempestade"
+    why: "Green Knight boss -> Stormy Knight [MVP]"
+    confidence: low
+    asset: ok
+  - vs_family: "rGreenKnight"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_GREEN_RED, FS_BOSS_GREEN_RED_28]
+    vs_bestiary_name: null
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 1268
+    ro_aegis: BLOODY_KNIGHT
+    ro_sprite: bloody_knight
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Bloody Knight"
+    ro_ptbr: "Cavaleiro Sangrento"
+    why: "red Green Knight -> Bloody Knight"
+    confidence: med
+    asset: ok
+  - vs_family: "gGreenKnight"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_BOSS_GREEN_GREEN, FS_BOSS_GREEN_GREEN_28]
+    vs_bestiary_name: null
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: boss
+    ro_mob_id: 1219
+    ro_aegis: KNIGHT_OF_ABYSS
+    ro_sprite: knight_of_abyss
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Abysmal Knight"
+    ro_ptbr: "Cavaleiro Abissal"
+    why: "third Green Knight color -> Abysmal Knight"
+    confidence: low
+    asset: ok
+  - vs_family: "Mush"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_MUSH_PATROL, FS_MUSH_HP, FS_MUSH_BOSS, FS_MUSH_BOSSMINION]
+    vs_bestiary_name: "Fungoman"
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 1077
+    ro_aegis: POISON_SPORE
+    ro_sprite: poison_spore
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Poison Spore"
+    ro_ptbr: "Esporo Venenoso"
+    why: "mushroom-cap man (Fungoman) -> Poison Spore"
+    confidence: med
+    asset: ok
+  - vs_family: "Aillen"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_AILLEN]
+    vs_bestiary_name: "Crocifriggitore"
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 2424
+    ro_aegis: L_KAVAC
+    ro_sprite: l_kavac
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Bard Kavach"
+    ro_ptbr: "Bardo Kavach"
+    why: "harp-playing fairy musician (Aillen) -> Bard Kavach"
+    confidence: med
+    asset: ok
+  - vs_family: "Duergar"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_DUERG]
+    vs_bestiary_name: "Notadam"
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1121
+    ro_aegis: GIEARTH
+    ro_sprite: giearth
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Giearth"
+    ro_ptbr: "Giearth"
+    why: "hooded dwarf with torch -> Giearth, earth gnome"
+    confidence: med
+    asset: ok
+  - vs_family: "Glory"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_GLORY]
+    vs_bestiary_name: "Hand of Glory"
+    stages: [FOSCARI, FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 1503
+    ro_aegis: GIBBET
+    ro_sprite: gibbet
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Gibbet"
+    ro_ptbr: "Gibbet"
+    why: "Hand of Glory (hanged man's hand) -> Gibbet gallows"
+    confidence: low
+    asset: ok
+  - vs_family: "Mari"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_MARI]
+    vs_bestiary_name: "Maronna"
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 1061
+    ro_aegis: NIGHTMARE
+    ro_sprite: nightmare
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Nightmare"
+    ro_ptbr: "Pesadelo"
+    why: "Mari Lwyd horse skull -> Nightmare horse"
+    confidence: med
+    asset: ok
+  - vs_family: "Njuggles"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_NJUGG, FS_BOSS_NJUGGLES]
+    vs_bestiary_name: "Njuggles"
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: fodder
+    ro_mob_id: 2071
+    ro_aegis: HEADLESS_MULE
+    ro_sprite: headless_mule
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Headless Mule"
+    ro_ptbr: "Mula Sem Cabeca"
+    why: "Shetland water horse boss -> Headless Mule"
+    confidence: med
+    asset: ok
+  - vs_family: "NjugglesB"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_NJUGGB, FS_NJUGGB_HP]
+    vs_bestiary_name: null
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: fodder
+    ro_mob_id: null
+    ro_aegis: null
+    ro_sprite: seahores
+    ro_size: null
+    ro_anim: move
+    ro_en: "Seahorse"
+    ro_ptbr: "Cavalo-Marinho"
+    why: "recolored water horse -> Seahorse (folder seahores)"
+    confidence: low
+    asset: ok
+  - vs_family: "Worm"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_BOSS_WORM, FS_WORM]
+    vs_bestiary_name: "Missing Church"
+    stages: [FOSCARI, FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 1030
+    ro_aegis: ANACONDAQ
+    ro_sprite: anacondaq
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Anacondaq"
+    ro_ptbr: "Anacondaq"
+    why: "coiled black serpent boss -> Anacondaq"
+    confidence: med
+    asset: ok
+  - vs_family: "WormB"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_BOSS_WORMB, FS_WORM2]
+    vs_bestiary_name: null
+    stages: [FOSCARI, FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 1993
+    ro_aegis: NAGA
+    ro_sprite: naga
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Naga"
+    ro_ptbr: "Naga"
+    why: "second serpent boss -> Naga"
+    confidence: low
+    asset: ok
+  - vs_family: "hag"
+    vs_texture: "enemies"
+    vs_ids: [FS_HAG]
+    vs_bestiary_name: "Average Hag"
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 1882
+    ro_aegis: VAVAYAGA
+    ro_sprite: vavayaga
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Baba-Yaga"
+    ro_ptbr: "Baba-Yaga"
+    why: "shared base sprite; inherits base pick (Hag crone -> Baba-Yaga, literal witch-crone)"
+    confidence: high
+    asset: ok
+    shared_base: true
+  - vs_family: "XLMantis"
+    vs_texture: "enemies"
+    vs_ids: [FS_XLMANTIS_HP]
+    vs_bestiary_name: null
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1139
+    ro_aegis: MANTIS
+    ro_sprite: mantis
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Mantis"
+    ro_ptbr: "Louva-a-Deus"
+    why: "shared base sprite; inherits base pick (Mantichana -> Mantis, direct parallel (scale up))"
+    confidence: high
+    asset: ok
+    shared_base: true
+  - vs_family: "XLFlower1"
+    vs_texture: "enemies"
+    vs_ids: [FS_XLFLOWER_HP]
+    vs_bestiary_name: null
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1118
+    ro_aegis: FLORA
+    ro_sprite: flora
+    ro_size: Large
+    ro_anim: idle
+    ro_en: "Flora"
+    ro_ptbr: "Flora"
+    why: "shared base sprite; inherits base pick (Venus plant boss -> Flora (Large), stationary plant)"
+    confidence: high
+    asset: ok
+    shared_base: true
+  - vs_family: "XLCockatrice1"
+    vs_texture: "enemies"
+    vs_ids: [FS_COCKATRICE_BOSS1, FS_COCKATRICE_BOSS2, FS_COCKATRICE_BOSS3]
+    vs_bestiary_name: null
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: boss
+    ro_mob_id: 3503
+    ro_aegis: DR_BASILISK2
+    ro_sprite: dr_basilisk2
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Combat Basilisk"
+    ro_ptbr: "Basilisco de Combate"
+    why: "shared base sprite; inherits base pick (Gallotrice -> Combat Basilisk, cockatrice cousin)"
+    confidence: med
+    asset: ok
+    shared_base: true
+  - vs_family: "gGhost"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_GGHOST]
+    vs_bestiary_name: "Ghostly Apparition"
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1867
+    ro_aegis: BANSHEE
+    ro_sprite: banshee
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Banshee"
+    ro_ptbr: "Banshee"
+    why: "Celtic wailing apparition -> Banshee"
+    confidence: high
+    asset: ok
+  - vs_family: "ggGhost"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_GGGHOST]
+    vs_bestiary_name: null
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1974
+    ro_aegis: BANSHEE_MASTER
+    ro_sprite: banshee_master
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Banshee Master"
+    ro_ptbr: "Mestra Banshee"
+    why: "ghost variant -> Banshee Master"
+    confidence: med
+    asset: ok
+  - vs_family: "AGaea"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_BOSS_AGAEA]
+    vs_bestiary_name: "Avatar of Gaea"
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: boss
+    ro_mob_id: 1493
+    ro_aegis: DRYAD
+    ro_sprite: dryad
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Dryad"
+    ro_ptbr: "Driade"
+    why: "glowing deer spirit (Avatar of Gaea) -> Dryad; no deer in RO"
+    confidence: low
+    asset: ok
+  - vs_family: "Cauld"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_CAULD]
+    vs_bestiary_name: "Cauld"
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: fodder
+    ro_mob_id: 2023
+    ro_aegis: DARK_SHADOW
+    ro_sprite: dark_shadow
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Dark Shadow"
+    ro_ptbr: "Sombra Escura"
+    why: "shadowy cloaked wisp -> Dark Shadow"
+    confidence: med
+    asset: ok
+  - vs_family: "Redusa"
+    vs_texture: "enemiesM"
+    vs_ids: [REDUSA, FS_BOSS_REDUSA]
+    vs_bestiary_name: "Redusa Head"
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1148
+    ro_aegis: MEDUSA
+    ro_sprite: medusa
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Medusa"
+    ro_ptbr: "Medusa"
+    why: "shared base sprite; inherits base pick (red medusa -> Medusa)"
+    confidence: med
+    asset: ok
+    shared_base: true
+  - vs_family: "JellyRed"
+    vs_texture: "enemiesM"
+    vs_ids: [RELLYFISH, RELLYFISH_SWARM]
+    vs_bestiary_name: "Rellyfish"
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 1142
+    ro_aegis: MARINE_SPHERE
+    ro_sprite: marine_sphere
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Marine Sphere"
+    ro_ptbr: "Marine Sphere"
+    why: "shared base sprite; inherits base pick (Rellyfish -> Marine Sphere)"
+    confidence: low
+    asset: ok
+    shared_base: true
+  - vs_family: "Hemo1"
+    vs_texture: "enemiesM"
+    vs_ids: [HEMO]
+    vs_bestiary_name: "Blood Moss"
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1694
+    ro_aegis: PLASMA_R
+    ro_sprite: plasma_r
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Plasma"
+    ro_ptbr: "Plasma"
+    why: "shared base sprite; inherits base pick (stardust blob -> red Plasma)"
+    confidence: low
+    asset: ok
+    shared_base: true
+  - vs_family: "Hemo2"
+    vs_texture: "enemiesM"
+    vs_ids: [HEMO2]
+    vs_bestiary_name: null
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1696
+    ro_aegis: PLASMA_P
+    ro_sprite: plasma_p
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Plasma"
+    ro_ptbr: "Plasma"
+    why: "Hemo1 sibling (base = red Plasma) -> purple Plasma"
+    confidence: med
+    asset: ok
+  - vs_family: "Sleeper"
+    vs_texture: "enemiesM"
+    vs_ids: [BOSS_XLBLINDER, FS_BLINDER_PATROL]
+    vs_bestiary_name: null
+    stages: []
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 1302
+    ro_aegis: DARK_ILLUSION
+    ro_sprite: dark_illusion
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Dark Illusion"
+    ro_ptbr: "Ilusão Sombria"
+    why: "shared base sprite; inherits base pick (The Blinder -> Dark Illusion)"
+    confidence: med
+    asset: ok
+    shared_base: true
+  - vs_family: "bossFlamingSkull"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_BOSS_FLAMINGSKULL]
+    vs_bestiary_name: null
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: boss
+    ro_mob_id: 3027
+    ro_aegis: FULBUK
+    ro_sprite: fulbuk
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Fire Bug"
+    ro_ptbr: "Fire Bug"
+    why: "flaming skull boss -> Fire Bug (Fulbuk)"
+    confidence: low
+    asset: ok
+  - vs_family: "Meatball"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_BOSS_MEATY, FS_MEATY, FS_MEATY_FLYING]
+    vs_bestiary_name: "Frozen Meatball"
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 1620
+    ro_aegis: NOXIOUS
+    ro_sprite: noxious
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Noxious"
+    ro_ptbr: "Noxious"
+    why: "green flesh sphere (Frozen Meatball) -> Noxious gas blob"
+    confidence: low
+    asset: ok
+  - vs_family: "bossUskull"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_BOSS_MEATBALL, FS_BOSS_MEATBALL_29]
+    vs_bestiary_name: null
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: boss
+    ro_mob_id: 20941
+    ro_aegis: GROTE
+    ro_sprite: grote
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Grote"
+    ro_ptbr: "Grote"
+    why: "skull-meatball boss -> Grote"
+    confidence: low
+    asset: ok
+  - vs_family: "bossEdna"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_BOSS_EDNA]
+    vs_bestiary_name: null
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: boss
+    ro_mob_id: 1618
+    ro_aegis: UNGOLIANT
+    ro_sprite: ungoliant
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Ungoliant"
+    ro_ptbr: "Ungoliant"
+    why: "spider-woman boss -> Ungoliant"
+    confidence: low
+    asset: ok
+  - vs_family: "bossHworm"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_BOSS_HORWORM]
+    vs_bestiary_name: null
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: boss
+    ro_mob_id: 2202
+    ro_aegis: KRAKEN
+    ro_sprite: kraken
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Kraken"
+    ro_ptbr: "Kraken"
+    why: "well-serpent boss -> Kraken [MVP]"
+    confidence: med
+    asset: ok
+  - vs_family: "bossHmari"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_BOSS_HORMARI]
+    vs_bestiary_name: null
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: boss
+    ro_mob_id: 3754
+    ro_aegis: ILL_NIGHTMARE
+    ro_sprite: ill_nightmare
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Sweet Nightmare"
+    ro_ptbr: "Doce Pesadelo"
+    why: "Mari Lwyd boss -> Sweet Nightmare"
+    confidence: med
+    asset: ok
+  - vs_family: "bossHcauld"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_BOSS_HORCAULD]
+    vs_bestiary_name: null
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: boss
+    ro_mob_id: 2939
+    ro_aegis: MM_EVIL_SHADOW1
+    ro_sprite: mm_evil_shadow1
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Evil Shadow"
+    ro_ptbr: "Sombra Maligna"
+    why: "Cold Cauld boss -> Evil Shadow"
+    confidence: low
+    asset: ok
+  - vs_family: "bossMeatball"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_BOSS_MEATY_29]
+    vs_bestiary_name: null
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: boss
+    ro_mob_id: 1621
+    ro_aegis: VENOMOUS
+    ro_sprite: venomous
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Venomous"
+    ro_ptbr: "Venomous"
+    why: "meatball boss -> Venomous sludge"
+    confidence: low
+    asset: ok
+  - vs_family: "Ugul"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_ROTGHOUL, FS_ROTGHOUL_SWARM]
+    vs_bestiary_name: "Rotting Ghoul"
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 1036
+    ro_aegis: GHOUL
+    ro_sprite: ghoul
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Ghoul"
+    ro_ptbr: "Carnical"
+    why: "purple-headed rotting ghoul -> Ghoul"
+    confidence: med
+    asset: ok
+  - vs_family: "FlamingSkull"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_FLAMINGSKULL, FS_FLAMINGSKULL_FLYING]
+    vs_bestiary_name: "Burning Skull"
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1869
+    ro_aegis: FLAME_SKULL
+    ro_sprite: flame_skull
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Flame Skull"
+    ro_ptbr: "Caveira Flamejante"
+    why: "burning skull -> Flame Skull"
+    confidence: high
+    asset: ok
+  - vs_family: "snakeB"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_SNAK1, FS_SNAK2, FS_SNAK3, FS_SNAK4, FS_SNAK_SWARM, FS_SNAKBOMB, FS_SNAKSHIELD]
+    vs_bestiary_name: "Snek"
+    stages: [FOSCARI, FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1025
+    ro_aegis: SNAKE
+    ro_sprite: snake
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Boa"
+    ro_ptbr: "Jiboia"
+    why: "small black snake swarm -> Boa"
+    confidence: med
+    asset: ok
+  - vs_family: "Shooter"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_SHOOTER1, FS_SHOOTER2]
+    vs_bestiary_name: "Lost Head"
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 20935
+    ro_aegis: GAN_CEANN
+    ro_sprite: gan_ceann
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Gan Ceann"
+    ro_ptbr: "Gan Ceann"
+    why: "clawed floating head (Lost Head) -> Gan Ceann, Irish for headless"
+    confidence: med
+    asset: ok
+  - vs_family: "Uskull"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_MEATBALL, FS_MEATBALL_FLYING]
+    vs_bestiary_name: "Meatball"
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 20929
+    ro_aegis: GIANT_CAPUT
+    ro_sprite: giant_caput
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Giant Caput"
+    ro_ptbr: "Giant Caput"
+    why: "skull wrapped in flesh -> Giant Caput (caput = head)"
+    confidence: low
+    asset: ok
+  - vs_family: "Edna"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_EDNA]
+    vs_bestiary_name: "Edna"
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 3091
+    ro_aegis: MM_BRINARANEA
+    ro_sprite: mm_brinaranea
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Brinaranea"
+    ro_ptbr: "Brinaranea"
+    why: "pale long-legged spider-woman -> Brinaranea"
+    confidence: med
+    asset: ok
+  - vs_family: "Hcauld"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_HORCAULD, FS_HORCAULD_FLYING]
+    vs_bestiary_name: "Cold Cauld"
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 2940
+    ro_aegis: MM_EVIL_SHADOW2
+    ro_sprite: mm_evil_shadow2
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Evil Shadow"
+    ro_ptbr: "Sombra Maligna"
+    why: "hooded cold shade -> Evil Shadow (small)"
+    confidence: low
+    asset: ok
+  - vs_family: "Hworm"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_HORWORM]
+    vs_bestiary_name: "Well Dweller"
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 2206
+    ro_aegis: KRAKEN_LEG
+    ro_sprite: kraken_leg
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Kraken Tentacle"
+    ro_ptbr: "Tentaculo do Kraken"
+    why: "giant coiled well serpent -> Kraken Tentacle"
+    confidence: low
+    asset: ok
+  - vs_family: "Hnjuggles"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_HORNJUGG]
+    vs_bestiary_name: "Wet Njuggles"
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 2208
+    ro_aegis: WILD_RIDER
+    ro_sprite: wild_rider
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Wild Rider"
+    ro_ptbr: "Wild Rider"
+    why: "drowned dark water horse -> Wild Rider"
+    confidence: low
+    asset: ok
+  - vs_family: "Haillen"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_HORAILLEN]
+    vs_bestiary_name: "Crocifriggitone"
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 1656
+    ro_aegis: KAVAC
+    ro_sprite: kavac
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Kavach Icarus"
+    ro_ptbr: "Kavach Icarus"
+    why: "horror Aillen -> Kavach Icarus, Bio Lab bard"
+    confidence: med
+    asset: ok
+  - vs_family: "Hduergar"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_HORDUERG]
+    vs_bestiary_name: "Still Notadam"
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 1616
+    ro_aegis: PITMAN
+    ro_sprite: pitman
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Pitman"
+    ro_ptbr: "Pitman"
+    why: "undead dwarf -> Pitman, undead miner"
+    confidence: med
+    asset: ok
+  - vs_family: "Hglory"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_HORGLORY, FS_HORGLORY_FLYING]
+    vs_bestiary_name: "Glove of Glory"
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 1212
+    ro_aegis: IRON_FIST
+    ro_sprite: iron_fist
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Iron Fist"
+    ro_ptbr: "Punho de Ferro"
+    why: "grey gauntlet (Glove of Glory) -> Iron Fist, name pun"
+    confidence: low
+    asset: ok
+  - vs_family: "Hmari"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_HORMARI, FS_HORMARI_FLYING]
+    vs_bestiary_name: "Maronna Meea"
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 1379
+    ro_aegis: NIGHTMARE_TERROR
+    ro_sprite: nightmare_terror
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Nightmare Terror"
+    ro_ptbr: "Pesadelo Aterrorizante"
+    why: "horror Mari Lwyd -> Nightmare Terror"
+    confidence: med
+    asset: ok
+  - vs_family: "Balor"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_FMBALOR]
+    vs_bestiary_name: null
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 2309
+    ro_aegis: BUNGISNGIS
+    ro_sprite: bungisngis
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Bungisngis"
+    ro_ptbr: "Bungisngis"
+    why: "one-eyed Fomorian Balor -> Bungisngis, one-eyed giant"
+    confidence: low
+    asset: ok
+  - vs_family: "Cethl"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_FMCETHLENN]
+    vs_bestiary_name: "Fomorians"
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: boss
+    ro_mob_id: 1290
+    ro_aegis: SKELETON_GENERAL
+    ro_sprite: skeleton_general
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Skeleton General"
+    ro_ptbr: "Esqueleto General"
+    why: "antlered skeleton spearman (Fomorian) -> Skeleton General"
+    confidence: low
+    asset: ok
+  - vs_family: "Cona"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_FMCONAND]
+    vs_bestiary_name: null
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 1152
+    ro_aegis: ORC_SKELETON
+    ro_sprite: orc_skeleton
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Orc Skeleton"
+    ro_ptbr: "Esqueleto Orc"
+    why: "clawed skeletal beast (Fomorian) -> Orc Skeleton"
+    confidence: low
+    asset: ok
+  - vs_family: "Elat"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_FMELATHA]
+    vs_bestiary_name: null
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: boss
+    ro_mob_id: 1875
+    ro_aegis: TRISTAN_3RD
+    ro_sprite: tristan_3rd
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Tristan III"
+    ro_ptbr: "Tristan III"
+    why: "skeleton king in gold coffin (Fomorian) -> Tristan III"
+    confidence: low
+    asset: ok
+  - vs_family: "Impe"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_FMINDECH]
+    vs_bestiary_name: null
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: elite
+    ro_mob_id: 3199
+    ro_aegis: MM_M_MUTANT_DRAGON
+    ro_sprite: mm_m_mutant_dragon
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Wicked Mutant Dragon"
+    ro_ptbr: "Wicked Mutant Dragon"
+    why: "tentacled dragon skull (Fomorian) -> Wicked Mutant Dragon"
+    confidence: low
+    asset: ok
+  - vs_family: "Jeneviv"
+    vs_texture: "foscariEnemies"
+    vs_ids: [FS_BOSS_JENEVIV]
+    vs_bestiary_name: "Je-Ne-Viv"
+    stages: []
+    dlc: foscari
+    scope: dlc
+    role: boss
+    ro_mob_id: 20843
+    ro_aegis: ILL_ABYSMAL_WITCH
+    ro_sprite: ill_abysmal_witch
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Deep Sea Witch"
+    ro_ptbr: "Bruxa das Profundezas"
+    why: "swirling sea hag final boss -> Deep Sea Witch [MVP]"
+    confidence: med
+    asset: ok
+  - vs_family: "crate"
+    vs_texture: "enemiesM"
+    vs_ids: [FS_CRATE_HP]
+    vs_bestiary_name: null
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: event
+    ro_mob_id: 1191
+    ro_aegis: MIMIC
+    ro_sprite: mimic
+    ro_size: Medium
+    ro_anim: idle
+    ro_en: "Mimic"
+    ro_ptbr: "Mimic"
+    why: "breakable crate with HP -> Mimic chest"
+    confidence: low
+    asset: ok
+  - vs_family: "pot"
+    vs_texture: "enemiesM"
+    vs_ids: [FS_POT_HP]
+    vs_bestiary_name: null
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: event
+    ro_mob_id: 2203
+    ro_aegis: POT_DOFLE
+    ro_sprite: pot_dofle
+    ro_size: Small
+    ro_anim: idle
+    ro_en: "Pot Dofle"
+    ro_ptbr: "Pot Dofle"
+    why: "breakable pot with HP -> Pot Dofle"
+    confidence: low
+    asset: ok
+  - vs_family: "H1"
+    vs_texture: "enemiesM"
+    vs_ids: [FS_ANFORA_HP]
+    vs_bestiary_name: null
+    stages: [FOSCARI2]
+    dlc: foscari
+    scope: dlc
+    role: event
+    ro_mob_id: 1699
+    ro_aegis: ANCIENT_MIMIC
+    ro_sprite: ancient_mimic
+    ro_size: Large
+    ro_anim: idle
+    ro_en: "Ancient Mimic"
+    ro_ptbr: "Mimico Ancestral"
+    why: "breakable amphora with HP -> Ancient Mimic"
+    confidence: low
+    asset: ok
+  - vs_family: "Flower1"
+    vs_texture: "enemies"
+    vs_ids: [FS_FLOWER]
+    vs_bestiary_name: null
+    stages: [FOSCARI]
+    dlc: foscari
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1020
+    ro_aegis: MANDRAGORA
+    ro_sprite: mandragora
+    ro_size: Medium
+    ro_anim: idle
+    ro_en: "Mandragora"
+    ro_ptbr: "Mandrágora"
+    why: "shared base sprite; inherits base pick (Flower Wall stationary -> Mandragora)"
+    confidence: high
+    asset: ok
+    shared_base: true
+  - vs_family: "susSnow"
+    vs_texture: "chalcedonyEnemies"
+    vs_ids: [CHAL_SUS_COUNTER, CHAL_SNOWW, CHAL_SNOWW_SUS]
+    vs_bestiary_name: null
+    stages: [POLUS]
+    dlc: chalcedony
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1776
+    ro_aegis: SIROMA
+    ro_sprite: siroma
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Siroma"
+    ro_ptbr: "Siroma"
+    why: "impostor disguised as snowball -> Siroma ice blob"
+    confidence: low
+    asset: ok
+  - vs_family: "friggitello"
+    vs_texture: "enemies2023"
+    vs_ids: [CHAL_FRIGGI]
+    vs_bestiary_name: null
+    stages: [POLUS]
+    dlc: chalcedony
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1989
+    ro_aegis: HILLSRION
+    ro_sprite: hillsrion
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Hillthrion"
+    ro_ptbr: "Hillthrion"
+    why: "small crawling brown beast -> Hillthrion"
+    confidence: low
+    asset: ok
+  - vs_family: "brian"
+    vs_texture: "enemies2023"
+    vs_ids: [CHAL_BRIA, CHAL_BRIASWARM]
+    vs_bestiary_name: null
+    stages: [POLUS]
+    dlc: chalcedony
+    scope: dlc
+    role: fodder
+    ro_mob_id: 2192
+    ro_aegis: MD_OCTOPUS
+    ro_sprite: md_octopus
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Octopus"
+    ro_ptbr: "Polvo"
+    why: "pink brain with tentacles -> Octopus"
+    confidence: low
+    asset: ok
+  - vs_family: "spaceBatA_0"
+    vs_texture: "enemies2023"
+    vs_ids: [CHAL_BATS, CHAL_BATSSWARM]
+    vs_bestiary_name: null
+    stages: [POLUS]
+    dlc: chalcedony
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1392
+    ro_aegis: ROTAR_ZAIRO
+    ro_sprite: rotar_zairo
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Rotar Zairo"
+    ro_ptbr: "Rotar Zairo"
+    why: "shared base sprite; inherits base pick (space bat -> Rotar Zairo flying machine)"
+    confidence: low
+    asset: ok
+    shared_base: true
+  - vs_family: "otter"
+    vs_texture: "enemies2023"
+    vs_ids: [CHAL_OTTERR]
+    vs_bestiary_name: null
+    stages: [POLUS]
+    dlc: chalcedony
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1323
+    ro_aegis: SEE_OTTER
+    ro_sprite: see_otter
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Sea Otter"
+    ro_ptbr: "Lontra Marinha"
+    why: "otter -> Sea Otter"
+    confidence: high
+    asset: ok
+  - vs_family: "susShift"
+    vs_texture: "chalcedonyEnemies"
+    vs_ids: [CHAL_SHIFT, ADV_BIG_SHIFT]
+    vs_bestiary_name: null
+    stages: [POLUS]
+    dlc: chalcedony
+    scope: dlc
+    role: elite
+    ro_mob_id: 1506
+    ro_aegis: DISGUISE
+    ro_sprite: disguise
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Disguise"
+    ro_ptbr: "Disfarce"
+    why: "shape-shifting impostor -> Disguise"
+    confidence: med
+    asset: ok
+  - vs_family: "susLava"
+    vs_texture: "chalcedonyEnemies"
+    vs_ids: [CHAL_LAVAA]
+    vs_bestiary_name: null
+    stages: [POLUS]
+    dlc: chalcedony
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1836
+    ro_aegis: MAGMARING
+    ro_sprite: magmaring
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Magmaring"
+    ro_ptbr: "Magmaring"
+    why: "impostor lava blob -> Magmaring"
+    confidence: med
+    asset: ok
+  - vs_family: "susGhostR"
+    vs_texture: "chalcedonyEnemies"
+    vs_ids: [CHAL_GHOST_EXP]
+    vs_bestiary_name: null
+    stages: [POLUS]
+    dlc: chalcedony
+    scope: dlc
+    role: fodder
+    ro_mob_id: 3008
+    ro_aegis: EP14_MORS_HIDDEN
+    ro_sprite: ep14_mors_hidden
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Morocc Hidden"
+    ro_ptbr: "Morocc Hidden"
+    why: "dead crewmate ghost variant -> Morocc Hidden spirit"
+    confidence: low
+    asset: ok
+  - vs_family: "susGhost"
+    vs_texture: "chalcedonyEnemies"
+    vs_ids: [CHAL_GHOST, CHAL_GHOSTSWARM]
+    vs_bestiary_name: null
+    stages: [POLUS]
+    dlc: chalcedony
+    scope: dlc
+    role: fodder
+    ro_mob_id: 3007
+    ro_aegis: EP14_MORS_DUMMY
+    ro_sprite: ep14_mors_dummy
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Death Soul"
+    ro_ptbr: "Alma da Morte"
+    why: "dead crewmate ghost -> Death Soul"
+    confidence: low
+    asset: ok
+  - vs_family: "moloG"
+    vs_texture: "enemies2023"
+    vs_ids: [CHAL_MOLO2]
+    vs_bestiary_name: null
+    stages: [POLUS]
+    dlc: chalcedony
+    scope: dlc
+    role: elite
+    ro_mob_id: 1682
+    ro_aegis: REMOVAL
+    ro_sprite: removal
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Remover"
+    ro_ptbr: "Removedor"
+    why: "green lab mutant -> Remover (Juperos)"
+    confidence: low
+    asset: ok
+  - vs_family: "antt2"
+    vs_texture: "enemies2023"
+    vs_ids: [SPACE_ANTBRAIN, ADV_SPACE_ANTBRAIN_SWORDIAN]
+    vs_bestiary_name: null
+    stages: [POLUS]
+    dlc: chalcedony
+    scope: dlc
+    role: elite
+    ro_mob_id: 1160
+    ro_aegis: PIERE
+    ro_sprite: piere
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Piere"
+    ro_ptbr: "Piere"
+    why: "shared base sprite; inherits base pick (ant brain -> Piere, Andre sibling)"
+    confidence: high
+    asset: ok
+    shared_base: true
+  - vs_family: "susMeat"
+    vs_texture: "chalcedonyEnemies"
+    vs_ids: [CHAL_MEATT]
+    vs_bestiary_name: null
+    stages: []
+    dlc: chalcedony
+    scope: dlc
+    role: elite
+    ro_mob_id: 3631
+    ro_aegis: EP16_2_HUMAN_KIMERA
+    ro_sprite: ep16_2_human_kimera
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Human Kimera"
+    ro_ptbr: "Quimera Humana"
+    why: "impostor meat lump -> Human Kimera (Bio Lab)"
+    confidence: low
+    asset: ok
+  - vs_family: "moonrabbit"
+    vs_texture: "enemies2023"
+    vs_ids: [SPACE_RABBITSWARM, ADV_SPACE_RABBIT, ADV_MINI_SPACE_RABBIT]
+    vs_bestiary_name: null
+    stages: [POLUS]
+    dlc: chalcedony
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1063
+    ro_aegis: LUNATIC
+    ro_sprite: lunatic
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Lunatic"
+    ro_ptbr: "Lunático"
+    why: "shared base sprite; inherits base pick (moon rabbit -> Lunatic, RO bunny)"
+    confidence: high
+    asset: ok
+    shared_base: true
+  - vs_family: "moonduck"
+    vs_texture: "enemies2023"
+    vs_ids: [SPACE_DUCKSWARM, SPACE_DUCKSWARM_H, ADV_SPACE_DUCK, ADV_BIG_SPACE_DUCK]
+    vs_bestiary_name: null
+    stages: [POLUS]
+    dlc: chalcedony
+    scope: dlc
+    role: elite
+    ro_mob_id: null
+    ro_aegis: null
+    ro_sprite: duckling
+    ro_size: null
+    ro_anim: move
+    ro_en: "Duckling"
+    ro_ptbr: "Duckling"
+    why: "shared base sprite; inherits base pick (moon duck -> Duckling (folder only))"
+    confidence: med
+    asset: ok
+    shared_base: true
+  - vs_family: "martianFace"
+    vs_texture: "enemies2023"
+    vs_ids: [CHAL_MARTIA, BOSS_CHAL_MARTIA]
+    vs_bestiary_name: null
+    stages: [POLUS]
+    dlc: chalcedony
+    scope: dlc
+    role: boss
+    ro_mob_id: 2024
+    ro_aegis: BRADIUM_GOLEM
+    ro_sprite: bradium_golem
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Bradium Golem"
+    ro_ptbr: "Golem de Bradium"
+    why: "grey rock giant (Martian face) -> Bradium Golem"
+    confidence: med
+    asset: ok
+  - vs_family: "pickle"
+    vs_texture: "enemies2023"
+    vs_ids: [SPACE_PICKLE, SPACE_PICKLE_AGGRO, CHAL_PICKLE_CIRCLE]
+    vs_bestiary_name: null
+    stages: [POLUS]
+    dlc: chalcedony
+    scope: dlc
+    role: fodder
+    ro_mob_id: 2150
+    ro_aegis: WATERMELON
+    ro_sprite: watermelon
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Ripe Watermelon"
+    ro_ptbr: "Melancia Madura"
+    why: "shared base sprite; inherits base pick (space pickle -> Ripe Watermelon, veggie joke)"
+    confidence: low
+    asset: ok
+    shared_base: true
+  - vs_family: "susBrick"
+    vs_texture: "chalcedonyEnemies"
+    vs_ids: [CHAL_BRICK_SUS, CHAL_BRICK_AGGRO]
+    vs_bestiary_name: null
+    stages: [POLUS]
+    dlc: chalcedony
+    scope: dlc
+    role: fodder
+    ro_mob_id: 3251
+    ro_aegis: GC109
+    ro_sprite: gc109
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Machine Component"
+    ro_ptbr: "Componente de Maquina"
+    why: "impostor brick -> Machine Component"
+    confidence: low
+    asset: ok
+  - vs_family: "susNugget"
+    vs_texture: "chalcedonyEnemies"
+    vs_ids: [CHAL_NUGGE_SUS, CHAL_NUGGE_AGGRO, ADV_CHAL_NUGGE_SUS_GOLEM]
+    vs_bestiary_name: null
+    stages: [POLUS]
+    dlc: chalcedony
+    scope: dlc
+    role: elite
+    ro_mob_id: 1977
+    ro_aegis: HEAVY_METALING
+    ro_sprite: heavy_metaling
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Heavy Metaling"
+    ro_ptbr: "Heavy Metaling"
+    why: "impostor gold nugget / ore golem -> Heavy Metaling"
+    confidence: low
+    asset: ok
+  - vs_family: "susBin"
+    vs_texture: "chalcedonyEnemies"
+    vs_ids: [CHAL_BINNN_SUS, CHAL_BINNN_AGGRO, ADV_CHAL_NUGGE_SUS_GOLEM_ARM]
+    vs_bestiary_name: null
+    stages: [POLUS]
+    dlc: chalcedony
+    scope: dlc
+    role: fodder
+    ro_mob_id: 3250
+    ro_aegis: SCR_MT_ROBOTS
+    ro_sprite: scr_mt_robots
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Can Robot"
+    ro_ptbr: "Robo Lata"
+    why: "impostor trash bin -> Can Robot"
+    confidence: med
+    asset: ok
+  - vs_family: "moloP"
+    vs_texture: "enemies2023"
+    vs_ids: [CHAL_MOLO1]
+    vs_bestiary_name: null
+    stages: [POLUS]
+    dlc: chalcedony
+    scope: dlc
+    role: fodder
+    ro_mob_id: 3632
+    ro_aegis: EP16_2_MATTER_KIMERA
+    ro_sprite: ep16_2_matter_kimera
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Material Kimera"
+    ro_ptbr: "Quimera Material"
+    why: "pink lab mutant -> Material Kimera (Bio Lab)"
+    confidence: low
+    asset: ok
+  - vs_family: "antt"
+    vs_texture: "enemies2023"
+    vs_ids: [SPACE_ANT, ADV_MINI_SPACE_ANT]
+    vs_bestiary_name: null
+    stages: [POLUS]
+    dlc: chalcedony
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1095
+    ro_aegis: ANDRE
+    ro_sprite: andre
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Andre"
+    ro_ptbr: "Andre"
+    why: "shared base sprite; inherits base pick (ant -> Andre, Ant Hell worker)"
+    confidence: high
+    asset: ok
+    shared_base: true
+  - vs_family: "theCreature"
+    vs_texture: "enemies2023"
+    vs_ids: [CHAL_CREATU, BOSS_CHAL_CREATU]
+    vs_bestiary_name: null
+    stages: [POLUS]
+    dlc: chalcedony
+    scope: dlc
+    role: boss
+    ro_mob_id: 1298
+    ro_aegis: ZOMBIE_MASTER
+    ro_sprite: zombie_master
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Zombie Master"
+    ro_ptbr: "Mestre Zumbi"
+    why: "suited humanoid creature boss -> Zombie Master"
+    confidence: low
+    asset: ok
+  - vs_family: "robot"
+    vs_texture: "enemies2023"
+    vs_ids: [CHAL_ROBOTT2, CHAL_ROBOTT]
+    vs_bestiary_name: null
+    stages: [POLUS]
+    dlc: chalcedony
+    scope: dlc
+    role: boss
+    ro_mob_id: 1675
+    ro_aegis: VENATU
+    ro_sprite: venatu
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Venatu"
+    ro_ptbr: "Venatu"
+    why: "small blue walker robot -> Venatu (Juperos)"
+    confidence: med
+    asset: ok
+  - vs_family: "eneImpostor2"
+    vs_texture: "chalcedonyEnemies"
+    vs_ids: [BOSS_IMPOSTOR_PATROL, CHAL_IMPOSTOR_SMALL, ADV_BIG_IMPOSTOR, ADV_IMPOSTOR]
+    vs_bestiary_name: null
+    stages: []
+    dlc: chalcedony
+    scope: dlc
+    role: elite
+    ro_mob_id: 1046
+    ro_aegis: DOPPELGANGER
+    ro_sprite: doppelganger
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Doppelganger"
+    ro_ptbr: "Doppelganger"
+    why: "the impostor -> Doppelganger, the copy demon [MVP]"
+    confidence: med
+    asset: ok
+  - vs_family: "smonkey"
+    vs_texture: "enemies2023"
+    vs_ids: [CHAL_MONKEY]
+    vs_bestiary_name: null
+    stages: [POLUS]
+    dlc: chalcedony
+    scope: dlc
+    role: elite
+    ro_mob_id: 20930
+    ro_aegis: DOLORIAN
+    ro_sprite: dolorian
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Dolorian"
+    ro_ptbr: "Dolorian"
+    why: "pale grey alien -> Dolorian"
+    confidence: low
+    asset: ok
+  - vs_family: "roid"
+    vs_texture: "enemies2023"
+    vs_ids: [CHAL_NDROID, BOSS_CHAL_NDROID, ADV_NDROID_GUN]
+    vs_bestiary_name: null
+    stages: [POLUS]
+    dlc: chalcedony
+    scope: dlc
+    role: elite
+    ro_mob_id: 1669
+    ro_aegis: DIMIK
+    ro_sprite: dimik
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Dimik"
+    ro_ptbr: "Dimik"
+    why: "silver android gunner -> Dimik (Juperos)"
+    confidence: med
+    asset: ok
+  - vs_family: "tripod"
+    vs_texture: "enemies2023"
+    vs_ids: [CHAL_TRIPOD, BOSS_CHAL_TRIPOD, ADV_TRIPOD_GUN, ADV_BIG_TRIPOD]
+    vs_bestiary_name: null
+    stages: [POLUS]
+    dlc: chalcedony
+    scope: dlc
+    role: elite
+    ro_mob_id: 1365
+    ro_aegis: APOCALIPS
+    ro_sprite: apocalips
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Apocalypse"
+    ro_ptbr: "Apocalipse"
+    why: "tripod war machine -> Apocalypse walker (Juperos)"
+    confidence: med
+    asset: ok
+  - vs_family: "susAnimeXL_face"
+    vs_texture: "chalcedonyEnemies"
+    vs_ids: [CHAL_ANIMEXXL]
+    vs_bestiary_name: null
+    stages: [POLUS]
+    dlc: chalcedony
+    scope: dlc
+    role: boss
+    ro_mob_id: 2194
+    ro_aegis: MD_GIANT_OCTOPUS
+    ro_sprite: md_giant_octopus
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Giant Octopus"
+    ro_ptbr: "Polvo Gigante"
+    why: "giant tentacled impostor face -> Giant Octopus [MVP]"
+    confidence: low
+    asset: ok
+  - vs_family: "susAnimeXL_left"
+    vs_texture: "chalcedonyEnemies"
+    vs_ids: [CHAL_ANIMEXXL_TENTACLE_LEFT, CHAL_ANIMEXXL_TENTACLE_RIGHT]
+    vs_bestiary_name: null
+    stages: []
+    dlc: chalcedony
+    scope: dlc
+    role: segment
+    ro_mob_id: 2193
+    ro_aegis: MD_OCTOPUS_LEG
+    ro_sprite: md_octopus_leg
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Octopus Leg"
+    ro_ptbr: "Tentaculo de Polvo"
+    why: "tentacle segments -> Octopus Leg"
+    confidence: low
+    asset: ok
+  - vs_family: "susAnimeXL_left2"
+    vs_texture: "chalcedonyEnemies"
+    vs_ids: [CHAL_ANIMEXXL_TENTACLE_LEFT2, CHAL_ANIMEXXL_TENTACLE_RIGHT2]
+    vs_bestiary_name: null
+    stages: []
+    dlc: chalcedony
+    scope: dlc
+    role: segment
+    ro_mob_id: 2206
+    ro_aegis: KRAKEN_LEG
+    ro_sprite: kraken_leg
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Kraken Tentacle"
+    ro_ptbr: "Tentaculo do Kraken"
+    why: "stronger tentacle segments -> Kraken Tentacle"
+    confidence: low
+    asset: ok
+  - vs_family: "ledderman"
+    vs_texture: "firstBloodEnemies"
+    vs_ids: [FB_LEDDER, FB_LEDDER_UNARMED]
+    vs_bestiary_name: null
+    stages: [FB_GALUGA]
+    dlc: firstblood
+    scope: dlc
+    role: fodder
+    ro_mob_id: 3622
+    ro_aegis: EP16_2_MM_S_GUARDS
+    ro_sprite: ep16_2_mm_s_guards
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Special Guard"
+    ro_ptbr: "Guarda Especial"
+    why: "rifle infantry -> Special Guard (Lighthalzen soldiers)"
+    confidence: med
+    asset: ok
+  - vs_family: "Greeder"
+    vs_texture: "firstBloodEnemies"
+    vs_ids: [FB_GREEDER]
+    vs_bestiary_name: null
+    stages: [FB_GALUGA]
+    dlc: firstblood
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1736
+    ro_aegis: ALIOT
+    ro_sprite: aliot
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Aliot"
+    ro_ptbr: "Aliot"
+    why: "red armored alien soldier -> Aliot"
+    confidence: low
+    asset: ok
+  - vs_family: "Warlord"
+    vs_texture: "firstBloodEnemies"
+    vs_ids: [FB_WARLORD, BOSS_FB_WARLORD, FB_PATROL_WARLORD]
+    vs_bestiary_name: null
+    stages: [FB_GALUGA]
+    dlc: firstblood
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1632
+    ro_aegis: GREMLIN
+    ro_sprite: gremlin
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Gremlin"
+    ro_ptbr: "Gremlin"
+    why: "hulking red-green alien brute -> Gremlin (Bio Lab)"
+    confidence: low
+    asset: ok
+  - vs_family: "WingLizard"
+    vs_texture: "firstBloodEnemies"
+    vs_ids: [FB_MOSQUITO, FB_MOSQUITO_FLYING]
+    vs_bestiary_name: null
+    stages: [FB_GALUGA, FB_HIGHWAY]
+    dlc: firstblood
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1627
+    ro_aegis: ANOPHELES
+    ro_sprite: anopheles
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Anopheles"
+    ro_ptbr: "Anopheles"
+    why: "FB_MOSQUITO flyer -> Anopheles mosquito"
+    confidence: med
+    asset: ok
+  - vs_family: "EvilSnowman"
+    vs_texture: "firstBloodEnemies"
+    vs_ids: [FB_EVILSNOWMAN, FB_EVILSNOWMAN_RACING]
+    vs_bestiary_name: null
+    stages: [FB_GALUGA, FB_HIGHWAY]
+    dlc: firstblood
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1775
+    ro_aegis: SNOWIER
+    ro_sprite: snowier
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Snowier"
+    ro_ptbr: "Snowier"
+    why: "evil snowman -> Snowier"
+    confidence: high
+    asset: ok
+  - vs_family: "AlienCentipedeHead"
+    vs_texture: "firstBloodEnemies"
+    vs_ids: [FB_ALIENCENTIPEDE, FB_ALIENCENTIPEDE_FLYING]
+    vs_bestiary_name: null
+    stages: [FB_GALUGA]
+    dlc: firstblood
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1987
+    ro_aegis: CENTIPEDE
+    ro_sprite: centipede
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Centipede"
+    ro_ptbr: "Centopeia"
+    why: "alien centipede -> Centipede"
+    confidence: high
+    asset: ok
+  - vs_family: "fbChicken"
+    vs_texture: "firstBloodEnemies"
+    vs_ids: [FB_CHICKEN, BOSS_FB_CHICKEN, FB_CHICKEN_RACING, BOSS_FB_CHICKEN_RACING]
+    vs_bestiary_name: null
+    stages: [FB_GALUGA, FB_HIGHWAY]
+    dlc: firstblood
+    scope: dlc
+    role: elite
+    ro_mob_id: 1369
+    ro_aegis: GRAND_PECO
+    ro_sprite: grand_peco
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Grand Peco"
+    ro_ptbr: "Grand Peco"
+    why: "giant chicken boss -> Grand Peco"
+    confidence: med
+    asset: ok
+  - vs_family: "MetalAlien"
+    vs_texture: "firstBloodEnemies"
+    vs_ids: [FB_METALALIEN, BOSS_FB_METALALIEN, FB_METALALIEN_FLYING, BOSS_FB_METALALIEN_FLYING]
+    vs_bestiary_name: null
+    stages: [FB_GALUGA, FB_HIGHWAY]
+    dlc: firstblood
+    scope: dlc
+    role: elite
+    ro_mob_id: 1219
+    ro_aegis: KNIGHT_OF_ABYSS
+    ro_sprite: knight_of_abyss
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Abysmal Knight"
+    ro_ptbr: "Cavaleiro Abissal"
+    why: "armored alien -> Abysmal Knight"
+    confidence: low
+    asset: ok
+  - vs_family: "HumanFaceDog"
+    vs_texture: "firstBloodEnemies"
+    vs_ids: [FB_HUMANFACEDDOG]
+    vs_bestiary_name: null
+    stages: [FB_GALUGA]
+    dlc: firstblood
+    scope: dlc
+    role: fodder
+    ro_mob_id: 3631
+    ro_aegis: EP16_2_HUMAN_KIMERA
+    ro_sprite: ep16_2_human_kimera
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Human Kimera"
+    ro_ptbr: "Quimera Humana"
+    why: "human-faced dog -> Human Kimera (Bio Lab chimera)"
+    confidence: med
+    asset: ok
+  - vs_family: "Garth"
+    vs_texture: "firstBloodEnemies"
+    vs_ids: [FB_GARTH]
+    vs_bestiary_name: null
+    stages: [FB_GALUGA]
+    dlc: firstblood
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1253
+    ro_aegis: GARGOYLE
+    ro_sprite: gargoyle
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Gargoyle"
+    ro_ptbr: "Gargula"
+    why: "green winged gargoyle -> Gargoyle"
+    confidence: high
+    asset: ok
+  - vs_family: "BallWalker"
+    vs_texture: "firstBloodEnemies"
+    vs_ids: [FB_WALKINGBALL, FB_WALKINGBALL_RACING, BOSS_FB_WALKINGBALL_RACING]
+    vs_bestiary_name: null
+    stages: [FB_GALUGA, FB_HIGHWAY]
+    dlc: firstblood
+    scope: dlc
+    role: elite
+    ro_mob_id: 3153
+    ro_aegis: EXCAVATOR_ROBOT
+    ro_sprite: excavator_robot
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Excavator Robot"
+    ro_ptbr: "Robo Escavador"
+    why: "yellow walking mech -> Excavator Robot"
+    confidence: low
+    asset: ok
+  - vs_family: "HellRider"
+    vs_texture: "firstBloodEnemies"
+    vs_ids: [FB_HELLRIDER, FB_HELLRIDER_SWARM, FB_HELLRIDER_RACING, FB_HELLRIDER2_RACING]
+    vs_bestiary_name: null
+    stages: [FB_GALUGA, FB_HIGHWAY]
+    dlc: firstblood
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1280
+    ro_aegis: STEAM_GOBLIN
+    ro_sprite: steam_goblin
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Goblin Steamrider"
+    ro_ptbr: "Goblin a Vapor"
+    why: "motorbike rider -> Goblin Steamrider"
+    confidence: med
+    asset: ok
+  - vs_family: "JunkyardCar"
+    vs_texture: "firstBloodEnemies"
+    vs_ids: [FB_JUNKYARDCAR, BOSS_FB_JUNKYARDCAR, FB_JUNKYARDCAR_RACING, BOSS_FB_JUNKYARDCAR_RACING]
+    vs_bestiary_name: null
+    stages: [FB_GALUGA, FB_HIGHWAY]
+    dlc: firstblood
+    scope: dlc
+    role: elite
+    ro_mob_id: 3741
+    ro_aegis: MECHASPIDER
+    ro_sprite: mechaspider
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Spider Chariot"
+    ro_ptbr: "Carruagem Aranha"
+    why: "junk car boss -> Spider Chariot vehicle [MVP]"
+    confidence: low
+    asset: ok
+  - vs_family: "FlightZako"
+    vs_texture: "firstBloodEnemies"
+    vs_ids: [FB_FLIGHTZAKO, BOSS_FB_FLIGHTZAKO, FB_PATROL_FLIGHTZAKO, FB_FLIGHTZAKO_FLYING, BOSS_FB_FLIGHTZAKO_FLYING]
+    vs_bestiary_name: null
+    stages: [FB_GALUGA, FB_HIGHWAY]
+    dlc: firstblood
+    scope: dlc
+    role: elite
+    ro_mob_id: 1735
+    ro_aegis: ALICEL
+    ro_sprite: alicel
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Alicel"
+    ro_ptbr: "Alicel"
+    why: "jetpack cyborg -> Alicel android"
+    confidence: low
+    asset: ok
+  - vs_family: "emme78"
+    vs_texture: "firstBloodEnemies"
+    vs_ids: [FB_M78, BOSS_FB_M78, FB_M78_RACING, BOSS_FB_M78_RACING]
+    vs_bestiary_name: null
+    stages: [FB_GALUGA, FB_HIGHWAY]
+    dlc: firstblood
+    scope: dlc
+    role: elite
+    ro_mob_id: 2092
+    ro_aegis: DOLOMEDES
+    ro_sprite: dolomedes
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Dolomedes"
+    ro_ptbr: "Dolomedes"
+    why: "dark many-legged beast -> Dolomedes"
+    confidence: low
+    asset: ok
+  - vs_family: "Bugger"
+    vs_texture: "firstBloodEnemies"
+    vs_ids: [FB_BUGGER, BOSS_FB_BIGFUZZ, FB_BUGGER_SWARM]
+    vs_bestiary_name: null
+    stages: [FB_GALUGA]
+    dlc: firstblood
+    scope: dlc
+    role: elite
+    ro_mob_id: 1001
+    ro_aegis: SCORPION
+    ro_sprite: scorpion
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Scorpion"
+    ro_ptbr: "Escorpiao"
+    why: "red scorpion bug -> Scorpion"
+    confidence: med
+    asset: ok
+  - vs_family: "PoisonousInsectGel"
+    vs_texture: "firstBloodEnemies"
+    vs_ids: [FB_POISONOUSINSECTGEL, FB_FB_POISONOUSINSECTGEL_SWARM]
+    vs_bestiary_name: null
+    stages: [FB_GALUGA]
+    dlc: firstblood
+    scope: dlc
+    role: elite
+    ro_mob_id: 1621
+    ro_aegis: VENOMOUS
+    ro_sprite: venomous
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Venomous"
+    ro_ptbr: "Venomous"
+    why: "poison gel -> Venomous sludge"
+    confidence: low
+    asset: ok
+  - vs_family: "Bundle"
+    vs_texture: "firstBloodEnemies"
+    vs_ids: [FB_BUNDLE, FB_BUNDLE_FLYING]
+    vs_bestiary_name: null
+    stages: [FB_GALUGA, FB_HIGHWAY]
+    dlc: firstblood
+    scope: dlc
+    role: elite
+    ro_mob_id: 2541
+    ro_aegis: FACEWORM_LARVA
+    ro_sprite: faceworm_larva
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Faceworm Larva"
+    ro_ptbr: "Larva de Verme-Face"
+    why: "toothy brown grub -> Faceworm Larva"
+    confidence: med
+    asset: ok
+  - vs_family: "ZakoAlien"
+    vs_texture: "firstBloodEnemies"
+    vs_ids: [FB_ZAKOALIEN]
+    vs_bestiary_name: null
+    stages: [FB_GALUGA]
+    dlc: firstblood
+    scope: dlc
+    role: elite
+    ro_mob_id: 20933
+    ro_aegis: VENEDI
+    ro_sprite: venedi
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Venedi"
+    ro_ptbr: "Venedi"
+    why: "pink crawling alien -> Venedi (chimera)"
+    confidence: low
+    asset: ok
+  - vs_family: "GigaFly"
+    vs_texture: "firstBloodEnemies"
+    vs_ids: [FB_GIGAFLY, FB_PATROL_GIGAFLY, FB_GIGAFLY_SWARM, FB_WINGLIZARD_FLYING]
+    vs_bestiary_name: null
+    stages: [FB_GALUGA, FB_HIGHWAY]
+    dlc: firstblood
+    scope: dlc
+    role: elite
+    ro_mob_id: 1035
+    ro_aegis: HUNTER_FLY
+    ro_sprite: hunter_fly
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Hunter Fly"
+    ro_ptbr: "Mosca Cacadora"
+    why: "giant fly -> Hunter Fly"
+    confidence: med
+    asset: ok
+  - vs_family: "MutantCrawler"
+    vs_texture: "firstBloodEnemies"
+    vs_ids: [FB_MUTANTCRAWLER, BOSS_FB_MUTANTCRAWLER, FB_MUTANTCRAWLER_RACING]
+    vs_bestiary_name: null
+    stages: [FB_GALUGA, FB_HIGHWAY]
+    dlc: firstblood
+    scope: dlc
+    role: elite
+    ro_mob_id: 1262
+    ro_aegis: MUTANT_DRAGON
+    ro_sprite: mutant_dragon
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Mutant Dragonoid"
+    ro_ptbr: "Dragao Mutante"
+    why: "mutant crawler boss -> Mutant Dragonoid"
+    confidence: med
+    asset: ok
+  - vs_family: "Kimkoh"
+    vs_texture: "firstBloodEnemies"
+    vs_ids: [FB_KIMKOH, BOSS_FB_KIMKOH]
+    vs_bestiary_name: null
+    stages: [FB_GALUGA]
+    dlc: firstblood
+    scope: dlc
+    role: elite
+    ro_mob_id: 20928
+    ro_aegis: CHIMERA_THEONE
+    ro_sprite: chimera_theone
+    ro_size: Large
+    ro_anim: move
+    ro_en: "The One"
+    ro_ptbr: "The One"
+    why: "alien core boss -> The One (Bio chimera) [MVP]"
+    confidence: low
+    asset: ok
+  - vs_family: "BigBotGordea"
+    vs_texture: "firstBloodEnemies"
+    vs_ids: [FB_GORDEA, FB_GORDEA_RACING]
+    vs_bestiary_name: null
+    stages: [FB_GALUGA, FB_HIGHWAY]
+    dlc: firstblood
+    scope: dlc
+    role: boss
+    ro_mob_id: 20340
+    ro_aegis: MD_EL_A17T
+    ro_sprite: md_el_a17t
+    ro_size: Large
+    ro_anim: move
+    ro_en: "EL1-A17T"
+    ro_ptbr: "EL1-A17T"
+    why: "giant red robot -> EL1-A17T mech [MVP]"
+    confidence: med
+    asset: ok
+  - vs_family: "Taka"
+    vs_texture: "firstBloodEnemies"
+    vs_ids: [BOSS_FB_TAKA, BOSS_FB_TAKA_RACING]
+    vs_bestiary_name: null
+    stages: [FB_GALUGA, FB_HIGHWAY]
+    dlc: firstblood
+    scope: dlc
+    role: boss
+    ro_mob_id: 1312
+    ro_aegis: TURTLE_GENERAL
+    ro_sprite: turtle_general
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Turtle General"
+    ro_ptbr: "General Tartaruga"
+    why: "Slave Beast Taka (giant turtle) -> Turtle General [MVP]"
+    confidence: high
+    asset: ok
+  - vs_family: "ProjectileFireball"
+    vs_texture: "vfx"
+    vs_ids: [FB_BULLET_FIREBALL]
+    vs_bestiary_name: null
+    stages: []
+    dlc: firstblood
+    scope: dlc
+    role: projectile
+    ro_mob_id: null
+    ro_aegis: null
+    ro_sprite: null
+    ro_size: null
+    ro_anim: null
+    ro_en: null
+    ro_ptbr: null
+    why: "bullet/projectile with an enemy row; map in the effects pass"
+    confidence: med
+    asset: n/a
+  - vs_family: "PrismC"
+    vs_texture: "vfx"
+    vs_ids: [FB_BULLET_EYELASER]
+    vs_bestiary_name: null
+    stages: []
+    dlc: firstblood
+    scope: dlc
+    role: projectile
+    ro_mob_id: null
+    ro_aegis: null
+    ro_sprite: null
+    ro_size: null
+    ro_anim: null
+    ro_en: null
+    ro_ptbr: null
+    why: "bullet/projectile with an enemy row; map in the effects pass"
+    confidence: med
+    asset: n/a
+  - vs_family: "ProjectileSpike1"
+    vs_texture: "vfx"
+    vs_ids: [FB_BULLET_BOMB]
+    vs_bestiary_name: null
+    stages: []
+    dlc: firstblood
+    scope: dlc
+    role: projectile
+    ro_mob_id: null
+    ro_aegis: null
+    ro_sprite: null
+    ro_size: null
+    ro_anim: null
+    ro_en: null
+    ro_ptbr: null
+    why: "bullet/projectile with an enemy row; map in the effects pass"
+    confidence: med
+    asset: n/a
+  - vs_family: "FB_Bullet"
+    vs_texture: "firstBloodEnemies"
+    vs_ids: [FB_BULLET]
+    vs_bestiary_name: null
+    stages: []
+    dlc: firstblood
+    scope: dlc
+    role: projectile
+    ro_mob_id: null
+    ro_aegis: null
+    ro_sprite: null
+    ro_size: null
+    ro_anim: null
+    ro_en: null
+    ro_ptbr: null
+    why: "bullet/projectile with an enemy row; map in the effects pass"
+    confidence: med
+    asset: n/a
+  - vs_family: "SimondoE"
+    vs_texture: "firstBloodEnemies"
+    vs_ids: [FB_SIMONDO]
+    vs_bestiary_name: null
+    stages: []
+    dlc: firstblood
+    scope: dlc
+    role: elite
+    ro_mob_id: 3454
+    ro_aegis: HEART_HUNTER_N
+    ro_sprite: heart_hunter_n
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Suspicious Intruder"
+    ro_ptbr: "Intruso Suspeito"
+    why: "grey arm-cannon soldier -> Suspicious Intruder (Heart Hunter)"
+    confidence: low
+    asset: ok
+  - vs_family: "EME_calamityblack"
+    vs_texture: "emeralds"
+    vs_ids: [EME_CALAMITY_B, EME_CALAMITY_SWARM, EME_PATROL_CALAMITY]
+    vs_bestiary_name: "Spirit"
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: elite
+    ro_mob_id: 1615
+    ro_aegis: OBSIDIAN
+    ro_sprite: obsidian
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Obsidian"
+    ro_ptbr: "Obsidiana"
+    why: "black calamity crest -> Obsidian"
+    confidence: low
+    asset: ok
+  - vs_family: "EME_calamityblue"
+    vs_texture: "emeralds"
+    vs_ids: [EME_CALAMITY_U]
+    vs_bestiary_name: null
+    stages: []
+    dlc: emeralds
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1398
+    ro_aegis: CRYSTAL_4
+    ro_sprite: crystal_4
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Water Crystal"
+    ro_ptbr: "Cristal de Agua"
+    why: "blue calamity crest -> Water Crystal"
+    confidence: med
+    asset: ok
+  - vs_family: "EME_calamityred"
+    vs_texture: "emeralds"
+    vs_ids: [EME_CALAMITY_R]
+    vs_bestiary_name: null
+    stages: []
+    dlc: emeralds
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1397
+    ro_aegis: CRYSTAL_3
+    ro_sprite: crystal_3
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Fire Crystal"
+    ro_ptbr: "Cristal de Fogo"
+    why: "red calamity crest -> Fire Crystal"
+    confidence: med
+    asset: ok
+  - vs_family: "EME_calamitywhite"
+    vs_texture: "emeralds"
+    vs_ids: [EME_CALAMITY_W]
+    vs_bestiary_name: null
+    stages: []
+    dlc: emeralds
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1395
+    ro_aegis: CRYSTAL_1
+    ro_sprite: crystal_1
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Wind Crystal"
+    ro_ptbr: "Cristal de Vento"
+    why: "white calamity crest -> Wind Crystal"
+    confidence: med
+    asset: ok
+  - vs_family: "EME_calamityyellow"
+    vs_texture: "emeralds"
+    vs_ids: [EME_CALAMITY_Y]
+    vs_bestiary_name: null
+    stages: []
+    dlc: emeralds
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1396
+    ro_aegis: CRYSTAL_2
+    ro_sprite: crystal_2
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Earth Crystal"
+    ro_ptbr: "Cristal de Terra"
+    why: "yellow calamity crest -> Earth Crystal"
+    confidence: med
+    asset: ok
+  - vs_family: "EME_divinewoodspirit"
+    vs_texture: "emeralds"
+    vs_ids: [EME_GATEBOSS_SPIRITBEAST]
+    vs_bestiary_name: "Spirit Beast"
+    stages: []
+    dlc: emeralds
+    scope: dlc
+    role: boss
+    ro_mob_id: 1720
+    ro_aegis: HYDRO
+    ro_sprite: hydro
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Hydrolancer"
+    ro_ptbr: "Hydrolancer"
+    why: "blue armored dragon-knight gate boss -> Hydrolancer"
+    confidence: low
+    asset: ok
+  - vs_family: "EME_boar"
+    vs_texture: "emeralds"
+    vs_ids: [EME_BOAR]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1166
+    ro_aegis: SAVAGE
+    ro_sprite: savage
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Savage"
+    ro_ptbr: "Savage"
+    why: "beast boar -> Savage (Payon boar)"
+    confidence: med
+    asset: ok
+  - vs_family: "EME_earthdragon"
+    vs_texture: "emeralds"
+    vs_ids: [EME_GATEBOSS_DRAGON]
+    vs_bestiary_name: null
+    stages: []
+    dlc: emeralds
+    scope: dlc
+    role: boss
+    ro_mob_id: 1714
+    ro_aegis: FERUS
+    ro_sprite: ferus
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Ferus"
+    ro_ptbr: "Ferus"
+    why: "earth dragon gate boss -> Ferus"
+    confidence: med
+    asset: ok
+  - vs_family: "EME_goblin"
+    vs_texture: "emeralds"
+    vs_ids: [EME_GOBLIN]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1124
+    ro_aegis: GOBLIN_3
+    ro_sprite: goblin_3
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Goblin"
+    ro_ptbr: "Goblin"
+    why: "small goblin -> Goblin"
+    confidence: med
+    asset: ok
+  - vs_family: "EME_ball"
+    vs_texture: "emeralds"
+    vs_ids: [EME_BALL]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: fodder
+    ro_mob_id: 2154
+    ro_aegis: BANASPATY
+    ro_sprite: banaspaty
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Banaspaty"
+    ro_ptbr: "Banaspaty"
+    why: "orange round fire spirit -> Banaspaty (Comodo)"
+    confidence: low
+    asset: ok
+  - vs_family: "EME_ball2"
+    vs_texture: "emeralds"
+    vs_ids: [EME_BALL2]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1292
+    ro_aegis: MINI_DEMON
+    ro_sprite: mini_demon
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Mini Demon"
+    ro_ptbr: "Mini Demonio"
+    why: "small dark winged imp -> Mini Demon"
+    confidence: low
+    asset: ok
+  - vs_family: "EME_bird"
+    vs_texture: "emeralds"
+    vs_ids: [EME_BIRD]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1009
+    ro_aegis: CONDOR
+    ro_sprite: condor
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Condor"
+    ro_ptbr: "Condor"
+    why: "blue bird -> Condor"
+    confidence: med
+    asset: ok
+  - vs_family: "EME_bird2"
+    vs_texture: "emeralds"
+    vs_ids: [EME_BIRD2]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: fodder
+    ro_mob_id: 3020
+    ro_aegis: FIRE_CONDOR
+    ro_sprite: fire_condor
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Fire Condor"
+    ro_ptbr: "Condor de Fogo"
+    why: "red bird -> Fire Condor"
+    confidence: med
+    asset: ok
+  - vs_family: "EME_bird3"
+    vs_texture: "emeralds"
+    vs_ids: [EME_BIRD3]
+    vs_bestiary_name: null
+    stages: []
+    dlc: emeralds
+    scope: dlc
+    role: fodder
+    ro_mob_id: 2073
+    ro_aegis: TOUCAN
+    ro_sprite: toucan
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Toucan"
+    ro_ptbr: "Tucano"
+    why: "yellow bird -> Toucan"
+    confidence: low
+    asset: ok
+  - vs_family: "EME_ogre"
+    vs_texture: "emeralds"
+    vs_ids: [EME_OGRE, EME_SUSPICIOUS_OGRE]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: elite
+    ro_mob_id: 1213
+    ro_aegis: HIGH_ORC
+    ro_sprite: high_orc
+    ro_size: Large
+    ro_anim: move
+    ro_en: "High Orc"
+    ro_ptbr: "Orc Superior"
+    why: "red hooded ogre -> High Orc"
+    confidence: low
+    asset: ok
+  - vs_family: "EME_bat"
+    vs_texture: "emeralds"
+    vs_ids: [EME_BAT, EME_BOSS_BAT, EME_PATROL_BAT]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: elite
+    ro_mob_id: 1111
+    ro_aegis: DRAINLIAR
+    ro_sprite: drainliar
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Drainliar"
+    ro_ptbr: "Drainliar"
+    why: "purple bat -> Drainliar"
+    confidence: med
+    asset: ok
+  - vs_family: "EME_dog"
+    vs_texture: "emeralds"
+    vs_ids: [EME_DOG]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1013
+    ro_aegis: WOLF
+    ro_sprite: wolf
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Wolf"
+    ro_ptbr: "Lobo"
+    why: "grey dog -> Wolf (Payon)"
+    confidence: high
+    asset: ok
+  - vs_family: "EME_dog3"
+    vs_texture: "emeralds"
+    vs_ids: [EME_DOG3]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: elite
+    ro_mob_id: 1106
+    ro_aegis: DESERT_WOLF
+    ro_sprite: desert_wolf
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Desert Wolf"
+    ro_ptbr: "Lobo do Deserto"
+    why: "red dog -> Desert Wolf"
+    confidence: med
+    asset: ok
+  - vs_family: "EME_frog"
+    vs_texture: "emeralds"
+    vs_ids: [EME_FROG]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1012
+    ro_aegis: RODA_FROG
+    ro_sprite: roda_frog
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Roda Frog"
+    ro_ptbr: "Sapo Roda"
+    why: "frog -> Roda Frog"
+    confidence: high
+    asset: ok
+  - vs_family: "EME_frog3"
+    vs_texture: "emeralds"
+    vs_ids: [EME_FROG3]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1034
+    ro_aegis: THARA_FROG
+    ro_sprite: thara_frog
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Thara Frog"
+    ro_ptbr: "Sapo Thara"
+    why: "stronger frog -> Thara Frog"
+    confidence: med
+    asset: ok
+  - vs_family: "EME_kelpie"
+    vs_texture: "emeralds"
+    vs_ids: [EME_KELPIE]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: elite
+    ro_mob_id: 1155
+    ro_aegis: PETIT
+    ro_sprite: petit
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Petite"
+    ro_ptbr: "Petite"
+    why: "green dragon-horse (kelpie) -> Petite earth dragon"
+    confidence: med
+    asset: ok
+  - vs_family: "EME_rascal"
+    vs_texture: "emeralds"
+    vs_ids: [EME_RASCAL]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1049
+    ro_aegis: PICKY
+    ro_sprite: picky
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Picky"
+    ro_ptbr: "Picky"
+    why: "small pink rascal -> Picky"
+    confidence: low
+    asset: ok
+  - vs_family: "EME_slime"
+    vs_texture: "emeralds"
+    vs_ids: [EME_SLIME, EME_BOSS_SLIME]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: elite
+    ro_mob_id: 1305
+    ro_aegis: ANCIENT_WORM
+    ro_sprite: ancient_worm
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Ancient Worm"
+    ro_ptbr: "Verme Ancestral"
+    why: "mound with a red eye -> Ancient Worm"
+    confidence: low
+    asset: ok
+  - vs_family: "EME_alraune"
+    vs_texture: "emeralds"
+    vs_ids: [EME_ALRAUNE]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1413
+    ro_aegis: WILD_GINSENG
+    ro_sprite: wild_ginseng
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Hermit Plant"
+    ro_ptbr: "Planta Eremita"
+    why: "walking radish (alraune) -> Hermit Plant root"
+    confidence: med
+    asset: ok
+  - vs_family: "EME_Ant"
+    vs_texture: "emeralds"
+    vs_ids: [EME_ANT]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: elite
+    ro_mob_id: 1289
+    ro_aegis: MAYA_PUPLE
+    ro_sprite: maya_puple
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Maya Purple"
+    ro_ptbr: "Maya Purpura"
+    why: "insect queen elite -> Maya Purple"
+    confidence: med
+    asset: ok
+  - vs_family: "EME_moch"
+    vs_texture: "emeralds"
+    vs_ids: [EME_MOCH, EME_BOSS_MOCH]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: elite
+    ro_mob_id: 1497
+    ro_aegis: WOODEN_GOLEM
+    ro_sprite: wooden_golem
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Wooden Golem"
+    ro_ptbr: "Golem de Madeira"
+    why: "leafy tree golem -> Wooden Golem (Umbala)"
+    confidence: med
+    asset: ok
+  - vs_family: "EME_Skeleton"
+    vs_texture: "emeralds"
+    vs_ids: [EME_SKELETON, EME_BOSS_SKELETON]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: elite
+    ro_mob_id: 1152
+    ro_aegis: ORC_SKELETON
+    ro_sprite: orc_skeleton
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Orc Skeleton"
+    ro_ptbr: "Esqueleto Orc"
+    why: "beastly skeleton -> Orc Skeleton"
+    confidence: low
+    asset: ok
+  - vs_family: "EME_Werewolf"
+    vs_texture: "emeralds"
+    vs_ids: [EME_WEREWOLF, EME_BOSS_WEREWOLF]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: elite
+    ro_mob_id: 1092
+    ro_aegis: VAGABOND_WOLF
+    ro_sprite: vagabond_wolf
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Vagabond Wolf"
+    ro_ptbr: "Lobo Errante"
+    why: "werewolf -> Vagabond Wolf"
+    confidence: med
+    asset: ok
+  - vs_family: "EME_specterOfIwanagaHime"
+    vs_texture: "emeralds"
+    vs_ids: [EME_GATEBOSS_SPECTER]
+    vs_bestiary_name: null
+    stages: []
+    dlc: emeralds
+    scope: dlc
+    role: boss
+    ro_mob_id: 1373
+    ro_aegis: LORD_OF_DEATH
+    ro_sprite: lord_of_death
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Lord of the Dead"
+    ro_ptbr: "Senhor dos Mortos"
+    why: "skeleton chariot gate boss -> Lord of the Dead [MVP]"
+    confidence: low
+    asset: ok
+  - vs_family: "EME_ironMaiden"
+    vs_texture: "emeralds"
+    vs_ids: [EME_GATEBOSS_IRONMAIDEN]
+    vs_bestiary_name: null
+    stages: []
+    dlc: emeralds
+    scope: dlc
+    role: boss
+    ro_mob_id: 1283
+    ro_aegis: CHIMERA
+    ro_sprite: chimera
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Chimera"
+    ro_ptbr: "Quimera"
+    why: "winged sphinx-woman gate boss -> Chimera"
+    confidence: low
+    asset: ok
+  - vs_family: "EME_finalEmperorMonster_0"
+    vs_texture: "emeralds"
+    vs_ids: [EME_GATEBOSS_FINALEMPEROR]
+    vs_bestiary_name: null
+    stages: []
+    dlc: emeralds
+    scope: dlc
+    role: boss
+    ro_mob_id: 1272
+    ro_aegis: DARK_LORD
+    ro_sprite: dark_lord
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Dark Lord"
+    ro_ptbr: "Lorde das Trevas"
+    why: "final emperor monster gate boss -> Dark Lord [MVP]"
+    confidence: low
+    asset: ok
+  - vs_family: "EME_livingAnguish"
+    vs_texture: "emeralds"
+    vs_ids: [EME_GATEBOSS_LIVINGANGUISH]
+    vs_bestiary_name: null
+    stages: []
+    dlc: emeralds
+    scope: dlc
+    role: boss
+    ro_mob_id: 1708
+    ro_aegis: THANATOS
+    ro_sprite: thanatos
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Thanatos Phantom"
+    ro_ptbr: "Fantasma de Thanatos"
+    why: "heap of fused creatures gate boss -> Thanatos Phantom [MVP]"
+    confidence: low
+    asset: ok
+  - vs_family: "EME_frog2"
+    vs_texture: "emeralds"
+    vs_ids: [EME_BOSS_FROG]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: boss
+    ro_mob_id: 1089
+    ro_aegis: TOAD
+    ro_sprite: toad
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Toad"
+    ro_ptbr: "Sapo Rei"
+    why: "frog boss -> Toad, Payon frog miniboss"
+    confidence: med
+    asset: ok
+  - vs_family: "EME_goblin2"
+    vs_texture: "emeralds"
+    vs_ids: [EME_BOSS_GOBLIN]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: boss
+    ro_mob_id: 1299
+    ro_aegis: GOBLIN_LEADER
+    ro_sprite: goblin_leader
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Goblin Leader"
+    ro_ptbr: "Lider Goblin"
+    why: "goblin boss -> Goblin Leader"
+    confidence: med
+    asset: ok
+  - vs_family: "EME_boar2"
+    vs_texture: "emeralds"
+    vs_ids: [EME_BOSS_BOAR]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: boss
+    ro_mob_id: 1311
+    ro_aegis: GULLINBURSTI
+    ro_sprite: gullinbursti
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Gullinbursti"
+    ro_ptbr: "Gullinbursti"
+    why: "boar boss -> Gullinbursti"
+    confidence: med
+    asset: ok
+  - vs_family: "EME_dog2"
+    vs_texture: "emeralds"
+    vs_ids: [EME_BOSS_DOG]
+    vs_bestiary_name: null
+    stages: []
+    dlc: emeralds
+    scope: dlc
+    role: boss
+    ro_mob_id: 1515
+    ro_aegis: GARM_BABY
+    ro_sprite: garm_baby
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Baby Hatii"
+    ro_ptbr: "Filhote de Hatii"
+    why: "dog boss -> Baby Hatii"
+    confidence: low
+    asset: ok
+  - vs_family: "EME_kelpie2"
+    vs_texture: "emeralds"
+    vs_ids: [EME_BOSS_KELPIE]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: boss
+    ro_mob_id: 1156
+    ro_aegis: PETIT_
+    ro_sprite: petit_
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Petite"
+    ro_ptbr: "Petite"
+    why: "kelpie boss -> Petite (sky variant)"
+    confidence: low
+    asset: ok
+  - vs_family: "EME_ogre2"
+    vs_texture: "emeralds"
+    vs_ids: [EME_BOSS_OGRE]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: boss
+    ro_mob_id: 1087
+    ro_aegis: ORK_HERO
+    ro_sprite: ork_hero
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Orc Hero"
+    ro_ptbr: "Heroi Orc"
+    why: "ogre boss -> Orc Hero [MVP]"
+    confidence: low
+    asset: ok
+  - vs_family: "EME_Ant2"
+    vs_texture: "emeralds"
+    vs_ids: [EME_BOSS_ANT]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: boss
+    ro_mob_id: 1147
+    ro_aegis: MAYA
+    ro_sprite: maya
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Maya"
+    ro_ptbr: "Maya"
+    why: "insect boss -> Maya, the ant queen [MVP]"
+    confidence: high
+    asset: ok
+  - vs_family: "EME_alraune_bomb"
+    vs_texture: "emeralds"
+    vs_ids: [EME_ALRAUNE_BOMB]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: fodder
+    ro_mob_id: 3506
+    ro_aegis: DR_MANDRAGORA
+    ro_sprite: dr_mandragora
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Jungle Madragora"
+    ro_ptbr: "Mandragora da Selva"
+    why: "exploding radish -> Jungle Mandragora"
+    confidence: low
+    asset: ok
+  - vs_family: "EME_rascal2"
+    vs_texture: "emeralds"
+    vs_ids: [EME_RASCAL_SWARM]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1050
+    ro_aegis: PICKY_
+    ro_sprite: picky_
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Picky"
+    ro_ptbr: "Picky"
+    why: "teal rascal swarm -> Picky (shell)"
+    confidence: low
+    asset: ok
+  - vs_family: "EME_specter_head1"
+    vs_texture: "emeralds"
+    vs_ids: [EME_SPECTERHEAD_PINK]
+    vs_bestiary_name: null
+    stages: []
+    dlc: emeralds
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1509
+    ro_aegis: LUDE
+    ro_sprite: lude
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Lude"
+    ro_ptbr: "Lude"
+    why: "specter's pink head -> Lude"
+    confidence: low
+    asset: ok
+  - vs_family: "EME_specter_head2"
+    vs_texture: "emeralds"
+    vs_ids: [EME_SPECTERHEAD_BLUE]
+    vs_bestiary_name: null
+    stages: []
+    dlc: emeralds
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1508
+    ro_aegis: QUVE
+    ro_sprite: quve
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Quve"
+    ro_ptbr: "Quve"
+    why: "specter's blue head -> Quve"
+    confidence: low
+    asset: ok
+  - vs_family: "EME_cursedmonarch"
+    vs_texture: "emeralds"
+    vs_ids: [EME_BOSS_CURSEDMONARCH]
+    vs_bestiary_name: null
+    stages: [EMERALD]
+    dlc: emeralds
+    scope: dlc
+    role: boss
+    ro_mob_id: 1157
+    ro_aegis: PHARAOH
+    ro_sprite: pharaoh
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Pharaoh"
+    ro_ptbr: "Farao"
+    why: "cursed monarch boss -> Pharaoh [MVP]"
+    confidence: low
+    asset: ok
+  - vs_family: "LEM_jimbat2"
+    vs_texture: "LEM_enemies"
+    vs_ids: [LEM_JIMBAT2, LEM_JIMBAT5, LEM_JIMBO_SWARM]
+    vs_bestiary_name: null
+    stages: [LEM_CHAMBER]
+    dlc: lemon
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1111
+    ro_aegis: DRAINLIAR
+    ro_sprite: drainliar
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Drainliar"
+    ro_ptbr: "Drainliar"
+    why: "jester-head bat -> Drainliar"
+    confidence: med
+    asset: ok
+  - vs_family: "LEM_jimbat3"
+    vs_texture: "LEM_enemies"
+    vs_ids: [LEM_JIMBAT3]
+    vs_bestiary_name: null
+    stages: [LEM_CHAMBER]
+    dlc: lemon
+    scope: dlc
+    role: fodder
+    ro_mob_id: 3750
+    ro_aegis: ILL_DRAINLIAR
+    ro_sprite: ill_drainliar
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Matt Drainliar"
+    ro_ptbr: "Drainliar Fosco"
+    why: "jester bat variant -> Matt Drainliar"
+    confidence: med
+    asset: ok
+  - vs_family: "LEM_jimbat4"
+    vs_texture: "LEM_enemies"
+    vs_ids: [LEM_JIMBAT4]
+    vs_bestiary_name: null
+    stages: [LEM_CHAMBER]
+    dlc: lemon
+    scope: dlc
+    role: boss
+    ro_mob_id: 1109
+    ro_aegis: DEVIRUCHI
+    ro_sprite: deviruchi
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Deviruchi"
+    ro_ptbr: "Deviruchi"
+    why: "cyan jester bat boss -> Deviruchi, winged imp"
+    confidence: low
+    asset: ok
+  - vs_family: "LEM_jimbatXL"
+    vs_texture: "LEM_enemies"
+    vs_ids: [LEM_XLJIMBAT]
+    vs_bestiary_name: null
+    stages: [LEM_CHAMBER]
+    dlc: lemon
+    scope: dlc
+    role: boss
+    ro_mob_id: 1582
+    ro_aegis: DEVILING
+    ro_sprite: deviling
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Deviling"
+    ro_ptbr: "Deviling"
+    why: "XL jester bat boss -> Deviling, big winged imp"
+    confidence: med
+    asset: ok
+  - vs_family: "LEM_zombalatro"
+    vs_texture: "LEM_enemies"
+    vs_ids: [LEM_ZOMBALATRO]
+    vs_bestiary_name: null
+    stages: [LEM_CHAMBER]
+    dlc: lemon
+    scope: dlc
+    role: fodder
+    ro_mob_id: 3751
+    ro_aegis: ILL_ZOMBIE_C
+    ro_sprite: ill_zombie_c
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Living Dead"
+    ro_ptbr: "Morto-Vivo"
+    why: "jester zombie -> Living Dead"
+    confidence: med
+    asset: ok
+  - vs_family: "LEM_mrbones"
+    vs_texture: "LEM_enemies"
+    vs_ids: [LEM_MRBONES]
+    vs_bestiary_name: null
+    stages: [LEM_CHAMBER]
+    dlc: lemon
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1076
+    ro_aegis: SKELETON
+    ro_sprite: skeleton
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Skeleton"
+    ro_ptbr: "Esqueleto"
+    why: "Mr. Bones -> Skeleton"
+    confidence: med
+    asset: ok
+  - vs_family: "LEM_invisiblejokerB"
+    vs_texture: "LEM_enemies"
+    vs_ids: [LEM_SPECTRAL]
+    vs_bestiary_name: null
+    stages: [LEM_CHAMBER]
+    dlc: lemon
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1263
+    ro_aegis: WIND_GHOST
+    ro_sprite: wind_ghost
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Wind Ghost"
+    ro_ptbr: "Fantasma do Vento"
+    why: "spectral (invisible) joker -> Wind Ghost"
+    confidence: low
+    asset: ok
+  - vs_family: "LEM_invisiblejokerA"
+    vs_texture: "LEM_enemies"
+    vs_ids: [LEM_SPECTRAL_SWARM]
+    vs_bestiary_name: null
+    stages: [LEM_CHAMBER]
+    dlc: lemon
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1179
+    ro_aegis: WHISPER
+    ro_sprite: whisper
+    ro_size: Small
+    ro_anim: move
+    ro_en: "Whisper"
+    ro_ptbr: "Whisper"
+    why: "spectral joker swarm -> Whisper"
+    confidence: low
+    asset: ok
+  - vs_family: "LEM_giantmantisjoker"
+    vs_texture: "LEM_enemies"
+    vs_ids: [LEM_MANTIS, LEM_PATROL_MINIMANTIS]
+    vs_bestiary_name: null
+    stages: [LEM_CHAMBER]
+    dlc: lemon
+    scope: dlc
+    role: elite
+    ro_mob_id: 2133
+    ro_aegis: ANGRA_MANTIS
+    ro_sprite: angra_mantis
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Angra Mantis"
+    ro_ptbr: "Louva-a-Deus Angra"
+    why: "giant jester mantis -> Angra Mantis"
+    confidence: med
+    asset: ok
+  - vs_family: "LEM_sunflowers"
+    vs_texture: "LEM_enemies"
+    vs_ids: [LEM_SUNFLOWERS]
+    vs_bestiary_name: null
+    stages: [LEM_CHAMBER]
+    dlc: lemon
+    scope: dlc
+    role: fodder
+    ro_mob_id: 1936
+    ro_aegis: YELL_FLOWER
+    ro_sprite: yell_flower
+    ro_size: Medium
+    ro_anim: idle
+    ro_en: "Yellow Flower"
+    ro_ptbr: "Flor Amarela"
+    why: "potted sunflowers -> Yellow Flower"
+    confidence: high
+    asset: ok
+  - vs_family: "LEM_venusjoker"
+    vs_texture: "LEM_enemies"
+    vs_ids: [LEM_VENUS, LEM_BOSS_VENUS]
+    vs_bestiary_name: null
+    stages: [LEM_CHAMBER]
+    dlc: lemon
+    scope: dlc
+    role: elite
+    ro_mob_id: 1780
+    ro_aegis: MUSCIPULAR
+    ro_sprite: muscipular
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Muscipular"
+    ro_ptbr: "Muscipular"
+    why: "venus flytrap joker -> Muscipular"
+    confidence: med
+    asset: ok
+  - vs_family: "LEM_werewolfjoker"
+    vs_texture: "LEM_enemies"
+    vs_ids: [LEM_WEREWOLF]
+    vs_bestiary_name: null
+    stages: [LEM_CHAMBER]
+    dlc: lemon
+    scope: dlc
+    role: elite
+    ro_mob_id: 1782
+    ro_aegis: ROWEEN
+    ro_sprite: roween
+    ro_size: Medium
+    ro_anim: move
+    ro_en: "Roween"
+    ro_ptbr: "Roween"
+    why: "jester werewolf -> Roween"
+    confidence: low
+    asset: ok
+  - vs_family: "LEM_boss_smallblind"
+    vs_texture: "LEM_enemies"
+    vs_ids: [LEM_BOSS_SMALLBLIND]
+    vs_bestiary_name: null
+    stages: [LEM_CHAMBER]
+    dlc: lemon
+    scope: dlc
+    role: boss
+    ro_mob_id: 1914
+    ro_aegis: OBJ_A2
+    ro_sprite: obj_a2
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Blue Crystal"
+    ro_ptbr: "Cristal Azul"
+    why: "blue Small Blind chip -> Blue Crystal (WoE object)"
+    confidence: low
+    asset: ok
+  - vs_family: "LEM_boss_bigblind"
+    vs_texture: "LEM_enemies"
+    vs_ids: [LEM_BOSS_BIGBLIND]
+    vs_bestiary_name: null
+    stages: [LEM_CHAMBER]
+    dlc: lemon
+    scope: dlc
+    role: boss
+    ro_mob_id: 2938
+    ro_aegis: MM_MAGIC_SEAL
+    ro_sprite: mm_magic_seal
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Magic Seal"
+    ro_ptbr: "Selo Magico"
+    why: "gold rune Big Blind chip -> Magic Seal"
+    confidence: low
+    asset: ok
+  - vs_family: "LEM_boss_theox"
+    vs_texture: "LEM_enemies"
+    vs_ids: [LEM_BOSS_OX]
+    vs_bestiary_name: null
+    stages: [LEM_CHAMBER]
+    dlc: lemon
+    scope: dlc
+    role: boss
+    ro_mob_id: 1310
+    ro_aegis: MAJORUROS
+    ro_sprite: majoruros
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Majoruros"
+    ro_ptbr: "Majoruros"
+    why: "The Ox blind -> Majoruros, ox-headed brute"
+    confidence: low
+    asset: ok
+  - vs_family: "LEM_boss_thewall"
+    vs_texture: "LEM_enemies"
+    vs_ids: [LEM_BOSS_WALL]
+    vs_bestiary_name: null
+    stages: [LEM_CHAMBER]
+    dlc: lemon
+    scope: dlc
+    role: boss
+    ro_mob_id: 1905
+    ro_aegis: BARRICADE
+    ro_sprite: barricade
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Barricade"
+    ro_ptbr: "Barricada"
+    why: "The Wall blind -> Barricade"
+    confidence: low
+    asset: ok
+  - vs_family: "LEM_boss_themanacle"
+    vs_texture: "LEM_enemies"
+    vs_ids: [LEM_BOSS_MANACLE]
+    vs_bestiary_name: null
+    stages: [LEM_CHAMBER]
+    dlc: lemon
+    scope: dlc
+    role: boss
+    ro_mob_id: 1503
+    ro_aegis: GIBBET
+    ro_sprite: gibbet
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Gibbet"
+    ro_ptbr: "Gibbet"
+    why: "The Manacle blind -> Gibbet, gallows in chains"
+    confidence: low
+    asset: ok
+  - vs_family: "LEM_boss_crimsonheart"
+    vs_texture: "LEM_enemies"
+    vs_ids: [LEM_BOSS_CRIMSONHEART]
+    vs_bestiary_name: null
+    stages: [LEM_CHAMBER]
+    dlc: lemon
+    scope: dlc
+    role: boss
+    ro_mob_id: 1915
+    ro_aegis: OBJ_B2
+    ro_sprite: obj_b2
+    ro_size: Large
+    ro_anim: move
+    ro_en: "Pink Crystal"
+    ro_ptbr: "Cristal Rosa"
+    why: "Crimson Heart blind -> Pink Crystal (WoE object)"
+    confidence: low
+    asset: ok

@@ -1,0 +1,1334 @@
+{
+"stageLang/{FOREST}description": {
+"en": "Once a quiet hunting ground, now a dumping ground for evil. Satan Morroc is said to be the root of this evil, but we can find only Porings and Meat.",
+"pt": "Antes um campo de caça tranquilo, agora um depósito do mal. Dizem que Satan Morroc é a raiz desse mal, mas só achamos Porings e Carne."
+},
+"stageLang/{FOREST}hyperTips": {
+"en": "50% Zeny bonus",
+"pt": "50% de bônus de Zeny"
+},
+"stageLang/{LIBRARY}description": {
+"en": "The fallen knights of Glast Heim were cursed to guard all and remember nothing. Its endless halls may gift us insight… or damnation. Rideword books whisper endlessly within. ",
+"pt": "Os cavaleiros caídos de Glast Heim foram amaldiçoados a guardar tudo e nada lembrar. Seus salões sem fim podem nos dar sabedoria… ou danação. Livros Rideword sussurram sem parar."
+},
+"stageLang/{LIBRARY}hyperTips": {
+"en": "50% Zeny bonus\\n10% Luck bonus",
+"pt": "50% de bônus de Zeny\\n10% de bônus de Sorte"
+},
+"stageLang/{GREENACRES}description": {
+"en": "Fate changes by the minute in these fields outside Prontera, where even Porings break the rules. What awaits those who challenge them? Treasure? Glory? Jellopy?",
+"pt": "O destino muda a cada minuto nos campos de Prontera, onde até os Porings quebram as regras. O que aguarda quem os desafia? Tesouro? Glória? Jellopy?"
+},
+"stageLang/{GREENACRES}hyperTips": {
+"en": "50% Zeny bonus\\n10% Luck bonus",
+"pt": "50% de bônus de Zeny\\n10% de bônus de Sorte"
+},
+"stageLang/{WAREHOUSE}description": {
+"en": "The smog-choked heart of Einbroch churns with chaos. Here, it's not just steel that rusts. A secret map awaits the hero brave enough to enter this overthrown factory. ",
+"pt": "O coração enfumaçado de Einbroch ferve em caos. Aqui, não é só o aço que enferruja. Um mapa secreto aguarda o herói ousado o bastante para entrar nesta fábrica tomada."
+},
+"stageLang/{WAREHOUSE}hyperTips": {
+"en": "50% Zeny bonus\\n10% Luck bonus",
+"pt": "50% de bônus de Zeny\\n10% de bônus de Sorte"
+},
+"stageLang/{MOLISE}description": {
+"en": "The drums seem to sing here, calling out to weary heroes. Is such a carefree village even real? Does it matter? Is there Meat? ",
+"pt": "Os tambores parecem cantar aqui, chamando heróis cansados. Uma aldeia tão despreocupada pode ser real? Importa? Tem Carne?"
+},
+"stageLang/{MOLISE}hyperTips": {
+"en": "50% Zeny Bonus\\n20% Luck bonus\\nEnemies' health +60%",
+"pt": "50% de bônus de Zeny\\n20% de bônus de Sorte\\nVida dos inimigos +60%"
+},
+"stageLang/{TOWER}description": {
+"en": "An edifice of gears and sorcery above Al De Baran, where horror was made manifest in the name of progress. Its many artifacts and experiments may lead us to what we seek.",
+"pt": "Um edifício de engrenagens e feitiçaria sobre Al De Baran, onde o horror ganhou forma em nome do progresso. Seus artefatos e experimentos podem nos levar ao que buscamos."
+},
+"stageLang/{BONEZONE}description": {
+"en": "Calcified carnage awaits in Niflheim, where the dead go to live. If we reach Zen we will open the way, but should we not go home? Have we not dug too deep?",
+"pt": "Uma carnificina calcificada aguarda em Niflheim, onde os mortos vão viver. Se alcançarmos o Zen, o caminho se abrirá, mas não devíamos voltar para casa? Não cavamos fundo demais?"
+},
+"stageLang/{SINKING}description": {
+"en": "Legend tells of a city swallowed by the sea off Izlude under a full moon's callous watch. Home to mysteries unknown, we ought to see what lies within its walls. ",
+"pt": "Dizem que uma cidade foi engolida pelo mar perto de Izlude sob o olhar frio da lua cheia. Lar de mistérios, devemos ver o que há em suas muralhas."
+},
+"stageLang/{CHAPEL}description": {
+"en": "Conceited were they that ruled from so high yet stooped so low. This nexus of debased purity on Nameless Island is the perfect place to find Satan Morroc. Probably.",
+"pt": "Arrogantes eram os que governavam do alto e desceram tão baixo. Este nexo de pureza corrompida na Ilha sem Nome é o lugar perfeito para achar Satan Morroc. Provavelmente."
+},
+"stageLang/{RASH}description": {
+"en": "The monsters want entertainment, and if we win their game, the loot is ours for the taking. Let us climb these recycled floors and do what we do best… survive! ",
+"pt": "Os monstros querem diversão, e se vencermos o jogo deles, o espólio é nosso. Vamos subir estes andares reciclados e fazer o que fazemos de melhor… sobreviver!"
+},
+"stageLang/{MACHINE}description": {
+"en": "A space between spaces, where Ymir's Heart still beats. The culmination of something, or simply another beginning? Tag, you're it. ",
+"pt": "Um espaço entre espaços, onde o Coração de Ymir ainda bate. A culminação de algo, ou simplesmente outro começo? Tá com você."
+},
+"stageLang/{TOWERBRIDGE}description": {
+"en": "Two opposing factions abruptly stopped fighting over this little bridge in Amatsu. No doubt the source of this cessation will turn out to be harmless.",
+"pt": "Duas facções opostas pararam abruptamente de lutar por esta pequena ponte em Amatsu. Sem dúvida, a fonte desta parada se revelará inofensiva."
+},
+"stageLang/{ASTRALSTAIR}description": {
+"en": "A floating temple used to reach Valhalla and other worlds. It's dangerous to venture through alone, but you probably won't listen to me anyway, will you?",
+"pt": "Um templo flutuante que leva a Valhalla e a outros mundos. É perigoso se aventurar por ele sozinho, mas você provavelmente não vai me dar ouvidos, não é mesmo?"
+},
+"stageLang/{WHITEOUT}description": {
+"en": "Arctic mirages and a slow, constant snowstorm make the fields of Lutie a hostile environment. Nonetheless, the myths of a powerful weapon, a mysterious potion, and a cursed woman who hates hot springs, make for strong lures.",
+"pt": "Miragens árticas e uma nevasca lenta e constante fazem dos campos de Lutie um ambiente hostil. Contudo, os mitos de uma arma poderosa, uma poção misteriosa e uma mulher amaldiçoada que odeia fontes termais são muito cativantes."
+},
+"stageLang/{SPAZIE}description": {
+"en": "The Rift has opened, and space itself has folded under the weight of an otherworldly will. The Ash Vacuum beyond is dimensionally misaligned, phasing in unlikely friends, nightmarish foes, and a curio of immense chaotic potential.\n",
+"pt": "A Fenda se abriu, e o espaço se dobrou sob o peso de uma vontade sobrenatural. O Vácuo de Cinzas além dela está dimensionalmente desalinhado, trazendo amigos improváveis, inimigos aterrorizantes e uma novidade de imenso potencial caótico.\n"
+},
+"stageLang/{LABORRATORY}description": {
+"en": "Formerly the workshop where famed demon-hunting weaponsmith Santa created many trinkets, the Lighthalzen Bio Lab now lies abandoned. Whispers echo that Santa fled when an experimental alchemy opened a door that was never supposed to be breached.",
+"pt": "Antes a oficina onde o famoso armeiro caçador de demônios Papai Noel criava bugigangas, o Laboratório de Lighthalzen agora está abandonado. Dizem que ele fugiu quando sua alquimia experimental abriu uma porta que nunca deveria ter sido aberta."
+},
+"stageLang/{CARLOCART}description": {
+"en": "Once known as the Mjolnir coal line, these tunnels deep under the mountain now host chaotic, clandestine, and incredibly dangerous mine-cart races run by a gang of Goblins.",
+"pt": "Antes conhecidos como a linha de carvão de Mjolnir, esses túneis sob a montanha agora abrigam corridas de vagonete caóticas, clandestinas e incrivelmente perigosas, organizadas por um bando de Goblins."
+},
+"stageLang/{DEVILROOM}description": {
+"en": "Sealed beneath the ruins of Morroc, the down-reaching doors of this huge, infernal contraption open only when fed the blood of monsters. Raised by the baneful rites of a long forgotten cult, the unfathomable depths of these haunted halls whisper with Satan Morroc's putrid power, which yearns for innocent souls to play with.",
+"pt": "Seladas sob as ruínas de Morroc, as portas dessa gigante engenhoca infernal só se abrem quando alimentadas com o sangue de monstros. Erguidas pelos ritos cruéis de um culto há muito esquecido, as profundezas desses corredores assombrados sussurram com o poder pútrido de Satan Morroc, que anseia por almas inocentes para brincar."
+},
+"stageLang/{COOP}description": {
+"en": "A farm for fear itself, the beasts reared here outside Hugel have turned from tasty morsels to terrifying monsters after realising the deadly power of cooperation.",
+"pt": "Uma fazenda assombrada pelo medo nos arredores de Hugel, onde os animais deixaram de ser simples comida para se tornarem monstros aterrorizantes após descobrirem o poder mortal da cooperação."
+},
+"stageLang/{EX_WESTWOODS}description": {
+"en": "Greed's gone green. Arcane avarice is turning the once serene frontier of Rock Ridge into a ghoulish gambling den. Welcome to the Cursino, where you need not be a demon to fear the stakes.",
+"pt": "A ganância se pintou de verde. A avareza arcana transformou a outrora serena fronteira de Rock Ridge num abominável antro de apostas. Bem-vindos ao Cassino Maldito: aqui nem os demônios blefam com o destino."
+},
+"stageLang/{EX_MAZERELLA}description": {
+"en": "A leafy labyrinth lies tangled in the woods south of Prontera. Home to Minorous and ruled by Baphomet's whims. Grabbing the bull by the horns and charging through this mad maze is the only winning formula.",
+"pt": "Um labirinto de folhas se emaranha nos bosques ao sul de Prontera, lar de Minorous e regido pelos caprichos de Bafomé. Só há uma fórmula vencedora: agarrar o touro pelos chifres e avançar labirinto adentro."
+},
+"stageLang/{EX_LYCAEUM}description": {
+"en": "Myths are murmured of a palace drowned beneath a sunlit sea. In silent depths strange fish survive, while at its peak vile evil thrives.",
+"pt": "Há muito se ouvem histórias de um palácio afogado sob um mar ensolarado. Nas profundezas silenciosas, peixes estranhos sobrevivem, e em seu ápice, um mal vil prospera."
+},
+"stageLang/{ADV_POE_1_Acres}description": {
+"en": "The Swordman recalls a simpler time, when surviving the madness of Payon Forest and hoarding masses of Jellopy was all that mattered. ",
+"pt": "O Espadachim recorda tempos mais simples, quando sobreviver à loucura da Floresta de Payon e juntar montes de Jellopy era o suficiente."
+},
+"stageLang/{ADV_POE_2_Forest}description": {
+"en": "A wave of monsters awakens the Swordman, reminding him that modern life still stinks! Perhaps a loyal four-legged friend can show him the way...",
+"pt": "Uma horda de monstros desperta o Espadachim, fazendo-o lembrar que a vida moderna é uma droga! Talvez um amigo de quatro patas possa ajudá-lo..."
+},
+"stageLang/{ADV_POE_3_Woods}description": {
+"en": "The Star Emperor leads the Swordman deep into the forest to rescue a holy man with a retirement plan. Perhaps this priest will reward their stinky savior with guidance to the promised land?",
+"pt": "O Imperador Estelar leva o Espadachim às profundezas da floresta para resgatar um homem santo com um plano de aposentadoria. Quem sabe este padre não recompensará seu salvador fedorento guiando-o para a terra prometida?"
+},
+"stageLang/{ADV_POE_4_Orchard}description": {
+"en": "The path to the Swordman's Paradise leads him into an orchard of arboreal nightmares. Cut down these pernicious plants to find the verdant fields of dreams.",
+"pt": "O caminho para o Paraíso do Espadachim o leva a um pomar cheio de pesadelos arbóreos. Derrube essas plantas perniciosas para encontrar os campos verdejantes dos sonhos."
+},
+"stageLang/{ADV_POE_5_Garden}description": {
+"en": "With the terrifying tree righteously slain, the Swordman can finally achieve his goal: with the power of the Swordman's Paradise, he can amass enough Zeny to retire!",
+"pt": "Com a árvore aterrorizante devidamente destruída, o Espadachim pode finalmente atingir seu objetivo: com o poder do Paraíso do Espadachim, ele pode juntar Zeny suficiente para se aposentar!"
+},
+"stageLang/{ADV_POE_6_Molise}description": {
+"en": "At last, the Swordman can retire, and simply stand still forever as he has always dreamed. But will a perfectly sedentary lifestyle be enough for our malodorous hero?",
+"pt": "Finalmente, o Espadachim pode se aposentar e ficar somente parado para o resto da vida, como sempre sonhou. Será que o estilo de vida sedentário será o suficiente para nosso herói malcheiroso?"
+},
+"stageLang/{ADV_IME_1_Chapel}description": {
+"en": "The Mage has sought a new life in the church – until one night the peace is shattered by a monstrous attack. Backed into a corner, she must call upon the Mage Guild's power to survive!",
+"pt": "A Maga buscava uma nova vida na igreja. Tudo muda quando, numa noite, a paz é destruída por um ataque monstruoso. Encurralada, ela precisa recorrer ao poder da Guilda dos Magos para sobreviver!"
+},
+"stageLang/{ADV_IME_2_Library}description": {
+"en": "The Mage escapes the razed chapel, swearing vengeance against the assailants from both heaven and hell. She journeys to the endless halls of Glast Heim in search of a curious Book of Magic that can give her the power to strike back. ",
+"pt": "A Maga foge da capela destruída jurando vingança contra os agressores, tanto do céu quanto do inferno. Ela viaja para os salões sem fim de Glast Heim em busca de um curioso Livro de Magia que pode lhe dar o poder para a revanche."
+},
+"stageLang/{ADV_IME_3_Forest}description": {
+"en": "Illuminated by her resolute spirit, the Book of Magic reveals its secrets, guiding the Mage to the resting place of a renegade nun with the blasphemous skills to dismantle both hell and heaven. The search for the Gunslinger begins… ",
+"pt": "Iluminado pelo espírito resoluto da Maga, o Livro de Magia revela seus segredos e a guia até o local de descanso de uma freira renegada com as habilidades blasfemas para desmantelar tanto o inferno quanto o céu. Começa a busca pela Justiceira..."
+},
+"stageLang/{ADV_IME_4_Tower}description": {
+"en": "The Gunslinger joins the Mage's cause, informing the relentless sorceress that balance is the key to defeat the divine and the demonic. They journey to the Clock Tower to fight terrifying foes, train with chromatic weaponry, and free a fallen angel to aid their celestial rebellion. ",
+"pt": "A Justiceira se junta à causa da Maga e informa à implacável feiticeira que o equilíbrio é a chave para derrotar o divino e o demoníaco. Elas viajam até a Torre do Relógio para enfrentar inimigos aterrorizantes, treinar com armas cromáticas e libertar um anjo caído para ajudar em sua rebelião celestial."
+},
+"stageLang/{ADV_IME_5_Stair}description": {
+"en": "Her training complete, the Mage must now ascend to the Odin Temple. Like a delectable dessert, there are layers to her strength, and by combining the profane power of the Gunslinger's pistols she can rise to face her destiny. ",
+"pt": "Com o treinamento concluído, a Maga deve ascender ao Templo de Odin. Como uma deliciosa sobremesa, a sua força tem camadas e, combinada ao poder profano das pistolas da Justiceira, ela pode subir para enfrentar seu destino."
+},
+"stageLang/{ADV_IME_6_Magna}description": {
+"en": "The Mage fights for mortal kind in a maddening battle for vengeance - but who is the true foe? ",
+"pt": "A Maga luta pelos mortais em uma insana batalha por vingança. Mas quem é o verdadeiro inimigo?"
+},
+"achievementLang/{GetFireWandToLevel4}description": {
+"en": "Get Fire Ball to Level 4.",
+"pt": "Eleve a Bola de Fogo para o nível 4."
+},
+"achievementLang/{GetHolyBookToLevel4}description": {
+"en": "Get Spirit Spheres to Level 4.",
+"pt": "Eleve as Esferas Espirituais para o nível 4."
+},
+"achievementLang/{GetHolyWaterToLevel4}description": {
+"en": "Get Sanctuary to Level 4.",
+"pt": "Eleve o Santuário para o nível 4."
+},
+"achievementLang/{GetLightningRingToLevel4}description": {
+"en": "Get Thunderstorm to Level 4.",
+"pt": "Eleve a Tempestade de Raios para o nível 4."
+},
+"achievementLang/{GetMagicMissileToLevel7}description": {
+"en": "Get Soul Strike to Level 7.",
+"pt": "Eleve o Ataque Espiritual para o nível 7."
+},
+"achievementLang/{GetPeachoneToLevel7}description": {
+"en": "Get Blitz Beat to Level 7.",
+"pt": "Eleve o Ataque do Falcão para o nível 7."
+},
+"achievementLang/{GetRunetracerToLevel7}description": {
+"en": "Get Holy Light to Level 7.",
+"pt": "Eleve a Luz Divina para o nível 7."
+},
+"achievementLang/{Survive5MinutesWithDiamond}description": {
+"en": "Survive 5 minutes with the Acolyte.",
+"pt": "Sobreviva por 5 minutos com a Noviça."
+},
+"achievementLang/{Eat5PotRoast}description": {
+"en": "Find 5 pieces of Meat.",
+"pt": "Encontre 5 Carnes."
+},
+"achievementLang/{FindAClover}description": {
+"en": "Find a Four Leaf Clover.",
+"pt": "Encontre um Trevo de Quatro Folhas."
+},
+"achievementLang/{FindAVacuum}description": {
+"en": "Find a Greed Scroll.",
+"pt": "Encontre um Pergaminho de Ganância."
+},
+"achievementLang/{FindAnOrologion}description": {
+"en": "Find a Pocket Watch.",
+"pt": "Encontre um Relógio de Bolso."
+},
+"achievementLang/{DefeatBossMadForest}description": {
+"en": "Defeat the giant Flora in Payon Forest.",
+"pt": "Derrote a Flora gigante na Floresta de Payon."
+},
+"achievementLang/{ReachLV20InMadForest}description": {
+"en": "Reach Level 20 in Payon Forest.",
+"pt": "Alcance o nível 20 na Floresta de Payon."
+},
+"achievementLang/{DefeatBossLibrary}description": {
+"en": "Defeat Baba-Yaga in Glast Heim Castle.",
+"pt": "Derrote Baba-Yaga no Castelo de Glast Heim."
+},
+"achievementLang/{Survive5MinutesWithKnife}description": {
+"en": "Survive 5 minutes with the Archer.",
+"pt": "Sobreviva por 5 minutos com o Arqueiro."
+},
+"achievementLang/{FindAStoneMask}description": {
+"en": "Find a Bubble Gum.",
+"pt": "Encontre um Chiclete."
+},
+"achievementLang/{GetGarlicToLevel7}description": {
+"en": "Get Magnum Break to Level 7.",
+"pt": "Eleve o Impacto Explosivo para o nível 7."
+},
+"achievementLang/{EvolveWhip}description": {
+"en": "Evolve the Basic Attack.",
+"pt": "Evolua o Ataque Básico."
+},
+"achievementLang/{EvolveMagicWand}description": {
+"en": "Evolve the Soul Strike.",
+"pt": "Evolua o Ataque Espiritual."
+},
+"achievementLang/{EvolveKnife}description": {
+"en": "Evolve the Double Strafe.",
+"pt": "Evolua a Rajada de Flechas."
+},
+"achievementLang/{EvolveAxe}description": {
+"en": "Evolve the Mammonite.",
+"pt": "Evolua a Mammonita."
+},
+"achievementLang/{EvolveCross}description": {
+"en": "Evolve the Shield Boomerang.",
+"pt": "Evolua o Arremesso de Escudo."
+},
+"achievementLang/{EvolveKingBible}description": {
+"en": "Evolve the Spirit Spheres.",
+"pt": "Evolua as Esferas Espirituais."
+},
+"achievementLang/{EvolveFireWand}description": {
+"en": "Evolve the Fire Ball.",
+"pt": "Evolua a Bola de Fogo."
+},
+"achievementLang/{Earn5000CoinsInASingleRun}description": {
+"en": "Earn 5000 Zeny in a single run.",
+"pt": "Obtenha 5.000 Zeny na mesma partida."
+},
+"achievementLang/{EvolveSantaWater}description": {
+"en": "Evolve the Sanctuary.",
+"pt": "Evolua o Santuário."
+},
+"achievementLang/{UniteBirds}description": {
+"en": "Unite Dark Crow and Blitz Beat.",
+"pt": "Faça a união de Corvo Negro e Ataque do Falcão."
+},
+"achievementLang/{EvolveGarlic}description": {
+"en": "Evolve the Magnum Break.",
+"pt": "Evolua o Impacto Explosivo."
+},
+"achievementLang/{EvolveLightning}description": {
+"en": "Evolve the Thunderstorm.",
+"pt": "Evolua a Tempestade de Raios."
+},
+"achievementLang/{ReachLV100WithMortaccio}description": {
+"en": "Reach Level 80 with the Skeleton.",
+"pt": "Alcance o nível 80 com o Esqueleto."
+},
+"achievementLang/{Survive30MinutesInGreenAcres}description": {
+"en": "Survive 30 minutes in the Prontera Fields.",
+"pt": "Sobreviva por 30 minutos nos Campos de Prontera."
+},
+"achievementLang/{Survive20MinutesWithCross}description": {
+"en": "Survive 20 minutes with the Crusader.",
+"pt": "Sobreviva por 20 minutos com o Templário."
+},
+"achievementLang/{Survive30MinutesWithAxe}description": {
+"en": "Survive 30 minutes with the Merchant.",
+"pt": "Sobreviva por 30 minutos com a Mercadora."
+},
+"achievementLang/{Defeat3000Buers}description": {
+"en": "Defeat a total of 3000 Gryphons.",
+"pt": "Derrote 3.000 Grifos."
+},
+"achievementLang/{ReachLV100WithCavallo}description": {
+"en": "Reach Level 80 with the Peco Peco.",
+"pt": "Alcance o nível 80 com o Peco Peco."
+},
+"achievementLang/{EvolveSongOfMana}description": {
+"en": "Evolve the Severe Rainstorm.",
+"pt": "Evolua a Tempestade Severa."
+},
+"achievementLang/{Survive15MinutesWithSong}description": {
+"en": "Survive 15 minutes with the Dancer.",
+"pt": "Sobreviva por 15 minutos com a Odalisca."
+},
+"achievementLang/{FindCoffinStage3}description": {
+"en": "Find and open the coffin in the Einbroch Factory.",
+"pt": "Encontre e abra o caixão na Fábrica de Einbroch."
+},
+"achievementLang/{ReachLV40InLibrary}description": {
+"en": "Reach Level 40 in Glast Heim Castle.",
+"pt": "Alcance o nível 40 no Castelo de Glast Heim."
+},
+"achievementLang/{DefeatBossPlant}description": {
+"en": "Defeat the Abysmal Knight in the Einbroch Factory.",
+"pt": "Derrote o Cavaleiro do Abismo na Fábrica de Einbroch."
+},
+"achievementLang/{FindMilkyWayMap}description": {
+"en": "Find the Treasure Map.",
+"pt": "Encontre o Mapa do Tesouro."
+},
+"achievementLang/{GetPentagramToLevel7}description": {
+"en": "Get Magnus Exorcismus to Level 7.",
+"pt": "Eleve o Magnus Exorcismus para o nível 7."
+},
+"achievementLang/{Survive15MinutesInMolise}description": {
+"en": "Survive 15 minutes in the Umbala Festival.",
+"pt": "Sobreviva por 15 minutos na Festa de Umbala."
+},
+"achievementLang/{EvolvePentagram}description": {
+"en": "Evolve the Magnus Exorcismus.",
+"pt": "Evolua o Magnus Exorcismus."
+},
+"achievementLang/{FindCoffinStage1}description": {
+"en": "Find and open the coffin in Payon Forest.",
+"pt": "Encontre e abra o caixão na Floresta de Payon."
+},
+"achievementLang/{Survive10MinutesWithGuns}description": {
+"en": "Survive 10 minutes with the Gunslinger.",
+"pt": "Sobreviva por 10 minutos com a Justiceira."
+},
+"achievementLang/{Survive15MinutesWithGuns}description": {
+"en": "Survive 15 minutes with the Gunslinger.",
+"pt": "Sobreviva por 15 minutos com a Justiceira."
+},
+"achievementLang/{EvolveGuns}description": {
+"en": "Evolve and unite Triple Action and Rapid Shower.",
+"pt": "Evolua e faça a união de Ação Tripla e Chuva de Balas."
+},
+"achievementLang/{ReachLV60InDairyPlant}description": {
+"en": "Reach Level 60 in the Einbroch Factory.",
+"pt": "Alcance o nível 60 na Fábrica de Einbroch."
+},
+"achievementLang/{FindSorceressTears}description": {
+"en": "Find the Crystalized Teardrop.",
+"pt": "Encontre a Lágrima Cristalizada."
+},
+"achievementLang/{DefeatBossTower}description": {
+"en": "Defeat King Dramoh in the Clock Tower.",
+"pt": "Derrote o Rei Dramoh na Torre do Relógio."
+},
+"achievementLang/{ReachLV100WithRamba}description": {
+"en": "Reach Level 80 with the Blacksmith.",
+"pt": "Alcance o nível 80 com a Ferreira."
+},
+"achievementLang/{Defeat3000Milk}description": {
+"en": "Defeat a total of 3000 Marins.",
+"pt": "Derrote 3.000 Marins."
+},
+"achievementLang/{EvolveRunetracer}description": {
+"en": "Evolve the Holy Light.",
+"pt": "Evolua a Luz Divina."
+},
+"achievementLang/{Survive15MinutesWithGatti}description": {
+"en": "Survive 15 minutes with the Alchemist.",
+"pt": "Sobreviva por 15 minutos com a Alquimista."
+},
+"achievementLang/{FindCoffinStage2}description": {
+"en": "Find and open the coffin in Glast Heim Castle.",
+"pt": "Encontre e abra o caixão no Castelo de Glast Heim."
+},
+"achievementLang/{ReachLV100WithOsole}description": {
+"en": "Reach Level 80 with the Star Emperor.",
+"pt": "Alcance o nível 80 com o Imperador Estelar."
+},
+"achievementLang/{Defeat3000Hydra}description": {
+"en": "Defeat a total of 3000 Zhu Po Long.",
+"pt": "Derrote 3.000 Dragões Dançantes."
+},
+"achievementLang/{Survive30MinutesInBoneZone}description": {
+"en": "Survive 30 minutes in Niflheim.",
+"pt": "Sobreviva por 30 minutos em Niflheim."
+},
+"achievementLang/{ReachLV99WithImelda}description": {
+"en": "Reach Level 50 with the Mage.",
+"pt": "Alcance o nível 50 com a Maga."
+},
+"achievementLang/{ReachLV99WithGennaro}description": {
+"en": "Reach Level 50 with the Archer.",
+"pt": "Alcance o nível 50 com o Arqueiro."
+},
+"achievementLang/{FindRandomazzo}description": {
+"en": "Find the Mystical Card Album.",
+"pt": "Encontre o Álbum de Cartas Místico."
+},
+"achievementLang/{FindRandomazzoT06}description": {
+"en": "Find the Mystical Card Album.",
+"pt": "Encontre o Álbum de Cartas Místico."
+},
+"achievementLang/{ReachLV99WithGiovanna}description": {
+"en": "Reach Level 50 with the Alchemist.",
+"pt": "Alcance o nível 50 com a Alquimista."
+},
+"achievementLang/{ReachLV99WithKroci}description": {
+"en": "Reach Level 50 with the Crusader.",
+"pt": "Alcance o nível 50 com o Templário."
+},
+"achievementLang/{ReachLV99WithLama}description": {
+"en": "Reach Level 50 with the Merchant.",
+"pt": "Alcance o nível 50 com a Mercadora."
+},
+"achievementLang/{ReachLV99WithPoppea}description": {
+"en": "Reach Level 50 with the Dancer.",
+"pt": "Alcance o nível 50 com a Odalisca."
+},
+"achievementLang/{ReachLV99WithArca}description": {
+"en": "Reach Level 50 with the Wizard.",
+"pt": "Alcance o nível 50 com o Bruxo."
+},
+"achievementLang/{FindCoffinStage4}description": {
+"en": "Find and open the coffin in the Clock Tower.",
+"pt": "Encontre e abra o caixão na Torre do Relógio."
+},
+"achievementLang/{ReachLV99WithConcetta}description": {
+"en": "Reach Level 50 with the Thief.",
+"pt": "Alcance o nível 50 com a Gatuna."
+},
+"achievementLang/{Survive15MinutesWithShadow}description": {
+"en": "Survive 15 minutes with the Thief.",
+"pt": "Sobreviva por 15 minutos com a Gatuna."
+},
+"achievementLang/{EvolveGatti}description": {
+"en": "Evolve the Caprice.",
+"pt": "Evolua o Capricho."
+},
+"achievementLang/{EvolveShadow}description": {
+"en": "Evolve the Venom Dust.",
+"pt": "Evolua a Névoa Venenosa."
+},
+"achievementLang/{Survive31MinutesInLibrary}description": {
+"en": "Reach minute 31 in Glast Heim Castle.",
+"pt": "Chegue ao 31º minuto no Castelo de Glast Heim."
+},
+"achievementLang/{FindMagicBanger}description": {
+"en": "Find the Violin.",
+"pt": "Encontre o Violino."
+},
+"achievementLang/{FindYellowSign}description": {
+"en": "Find the Convex Mirror.",
+"pt": "Encontre o Espelho Convexo."
+},
+"achievementLang/{ObtainTheInfiniteCorridor}description": {
+"en": "Obtain the Storm Gust.",
+"pt": "Obtenha a Nevasca."
+},
+"achievementLang/{ObtainTheCrimsonShroud}description": {
+"en": "Obtain the Assumptio.",
+"pt": "Obtenha o Assumptio."
+},
+"achievementLang/{ReachLV99WithAntonio}description": {
+"en": "Reach Level 50 with the Novice.",
+"pt": "Alcance o nível 50 com o Aprendiz."
+},
+"achievementLang/{Survive31MinutesInForest}description": {
+"en": "Reach minute 31 in Payon Forest.",
+"pt": "Chegue ao 31º minuto na Floresta de Payon."
+},
+"achievementLang/{GetTorroneToLevel9}description": {
+"en": "Get the Old Purple Box to Level 9.",
+"pt": "Eleve a Caixa Roxa Antiga para o nível 9."
+},
+"achievementLang/{FindCoffinStage5}description": {
+"en": "Find and open the coffin in the Cursed Abbey.",
+"pt": "Encontre e abra o caixão na Abadia Amaldiçoada."
+},
+"achievementLang/{Survive15MinutesWithWind}description": {
+"en": "Survive 15 minutes with the Assassin Cross.",
+"pt": "Sobreviva por 15 minutos com o Algoz."
+},
+"achievementLang/{EvolveWind}description": {
+"en": "Unite Sonic Blow and Bash.",
+"pt": "Faça a união de Lâminas Destruidoras e Golpe Fulminante."
+},
+"achievementLang/{DefeatBossChapel}description": {
+"en": "Defeat the Tri Joint in the Cursed Abbey.",
+"pt": "Derrote o Tri Joint na Abadia Amaldiçoada."
+},
+"achievementLang/{Defeat6000StageKillers}description": {
+"en": "Defeat a total of 6000 Thanatos Phantoms.",
+"pt": "Derrote 6.000 Fantasmas de Thanatos."
+},
+"achievementLang/{ReachLV99WithPorta}description": {
+"en": "Reach Level 50 with the High Wizard.",
+"pt": "Alcance o nível 50 com o Arquimago."
+},
+"achievementLang/{Survive31MinutesInDairyPlant}description": {
+"en": "Reach minute 31 in the Einbroch Factory.",
+"pt": "Chegue ao 31º minuto na Fábrica de Einbroch."
+},
+"achievementLang/{ReachLV100WithAmbrojoe}description": {
+"en": "Reach Level 80 with the Alchemist Guildmaster.",
+"pt": "Alcance o nível 80 com o Mestre Alquimista."
+},
+"achievementLang/{FindGrimoire}description": {
+"en": "Find the Book of the Devil.",
+"pt": "Encontre o Livro do Diabo."
+},
+"achievementLang/{FindGouda}description": {
+"en": "Find the Cheese.",
+"pt": "Encontre o Queijo."
+},
+"achievementLang/{FindGGospel}description": {
+"en": "Find the Bible.",
+"pt": "Encontre a Bíblia."
+},
+"achievementLang/{DefeatBossChapel2}description": {
+"en": "Defeat the final enemy in the Cursed Abbey.",
+"pt": "Derrote o inimigo final na Abadia Amaldiçoada."
+},
+"achievementLang/{Survive15MinutesInBossRash}description": {
+"en": "Survive 15 minutes in the Endless Tower.",
+"pt": "Sobreviva por 15 minutos na Torre Sem Fim."
+},
+"achievementLang/{ReachLV99WithDommario}description": {
+"en": "Reach Level 50 with the Monk.",
+"pt": "Alcance o nível 50 com o Monge."
+},
+"achievementLang/{ReachLV99WithPugnala}description": {
+"en": "Reach Level 50 with the Gunslinger.",
+"pt": "Alcance o nível 50 com a Justiceira."
+},
+"achievementLang/{ReachLV99WithChristine}description": {
+"en": "Reach Level 50 with the High Priest.",
+"pt": "Alcance o nível 50 com a Sumo Sacerdotisa."
+},
+"achievementLang/{FindForbiddenScroll}description": {
+"en": "Find the Ancient Languages Scroll.",
+"pt": "Encontre o Pergaminho de Línguas Antigas."
+},
+"achievementLang/{ReachLV99WithClerici}description": {
+"en": "Reach Level 50 with the Priest.",
+"pt": "Alcance o nível 50 com a Sacerdotisa."
+},
+"achievementLang/{Defeat100kWithSigma}description": {
+"en": "Defeat 100000 enemies in a single run with the Valkyrie.",
+"pt": "Derrote 100 mil inimigos em uma só partida com a Valquíria."
+},
+"achievementLang/{BuyGlassMask}description": {
+"en": "Find and buy the White Mask.",
+"pt": "Encontre e compre a Máscara Branca."
+},
+"achievementLang/{ReachLV99WithPasqualina}description": {
+"en": "Reach Level 50 with the Acolyte.",
+"pt": "Alcance o nível 50 com a Noviça."
+},
+"achievementLang/{Survive31MinutesInTower}description": {
+"en": "Reach minute 31 in the Clock Tower.",
+"pt": "Chegue ao 31º minuto na Torre do Relógio."
+},
+"achievementLang/{Survive15MinutesInMoongolow}description": {
+"en": "Survive 15 minutes on Byalan Island.",
+"pt": "Sobreviva por 15 minutos na Ilha de Byalan."
+},
+"achievementLang/{ReachLV99WithPoe}description": {
+"en": "Reach Level 50 with the Swordman.",
+"pt": "Alcance o nível 50 com o Espadachim."
+},
+"achievementLang/{FindYellowSignS5}description": {
+"en": "Reach Level 80 in the Clock Tower.",
+"pt": "Alcance o nível 80 na Torre do Relógio."
+},
+"achievementLang/{ObtainSeventhTrumpet}description": {
+"en": "Obtain the Gjallarhorn.",
+"pt": "Obtenha a Gjallarhorn."
+},
+"achievementLang/{ObtainGraciasMirror}description": {
+"en": "Obtain the Crystal Mirror.",
+"pt": "Obtenha o Espelho de Cristal."
+},
+"achievementLang/{GalloDivano}description": {
+"en": "Survive 30 minutes with either the Rooster or the Sister.",
+"pt": "Sobreviva por 30 minutos com o Galo ou a Irmã."
+},
+"achievementLang/{EvolveBracelet}description": {
+"en": "Evolve the Cold Bolt and then the Fire Bolt.",
+"pt": "Evolua as Lanças de Gelo e depois as Lanças de Fogo."
+},
+"achievementLang/{ReachLV80InverseTower}description": {
+"en": "Reach Level 80 in the Mirror Clock Tower.",
+"pt": "Alcance o nível 80 na Torre do Relógio espelhada."
+},
+"achievementLang/{ReachLV80InverseForest}description": {
+"en": "Reach Level 80 in the Mirror Payon Forest.",
+"pt": "Alcance o nível 80 na Floresta de Payon espelhada."
+},
+"achievementLang/{FindApoplexy}description": {
+"en": "Find the Bloody Branch at minute 09:00 in the Geffen Dungeon.",
+"pt": "Encontre o Galho Sangrento no minuto 09:00 no Calabouço de Geffen."
+},
+"achievementLang/{FindChaosMalachite}description": {
+"en": "Find the Emerald at minute 18:00 in the Geffen Dungeon.",
+"pt": "Encontre a Esmeralda no minuto 18:00 no Calabouço de Geffen."
+},
+"achievementLang/{ReachLV80InverseLibrary}description": {
+"en": "Reach Level 80 in the Mirror Glast Heim Castle.",
+"pt": "Alcance o nível 80 no Castelo de Glast Heim espelhado."
+},
+"achievementLang/{FindChaosRosalia}description": {
+"en": "Find the Rose Quartz in the Odin Temple.",
+"pt": "Encontre o Quartzo Rosa no Templo de Odin."
+},
+"achievementLang/{FindTrisection}description": {
+"en": "Find the Dead Branch in the Odin Temple.",
+"pt": "Encontre o Galho Seco no Templo de Odin."
+},
+"achievementLang/{FindMap_AstralStair}description": {
+"en": "Find the Treasure Map II.",
+"pt": "Encontre o Mapa do Tesouro II."
+},
+"achievementLang/{FindManyOrologions}description": {
+"en": "Find 20 Pocket Watches.",
+"pt": "Encontre 20 Relógios de Bolso."
+},
+"achievementLang/{GetGlassFandangoToLevel7}description": {
+"en": "Get Freezing Spear to Level 7.",
+"pt": "Eleve a Lança Congelante para o nível 7."
+},
+"achievementLang/{EvolveGlassFandango}description": {
+"en": "Evolve the Freezing Spear.",
+"pt": "Evolua a Lança Congelante."
+},
+"achievementLang/{SurviveUntilTheEndOfWhiteout}description": {
+"en": "Survive 20 minutes in the Lutie Blizzard.",
+"pt": "Sobreviva por 20 minutos na Nevasca de Lutie."
+},
+"achievementLang/{FindAntidote}description": {
+"en": "Find the Green Potion in the Lutie Blizzard.",
+"pt": "Encontre a Poção Verde na Nevasca de Lutie."
+},
+"achievementLang/{FindChaosAltemanna}description": {
+"en": "Find the Topaz on the Amatsu Bridge.",
+"pt": "Encontre o Topázio na Ponte de Amatsu."
+},
+"achievementLang/{FindAtlas}description": {
+"en": "Obtain the Realm Map in the Endless Tower.",
+"pt": "Obtenha o Mapa do Reino na Torre Sem Fim."
+},
+"achievementLang/{FindManyGoldenFinger}description": {
+"en": "Find 5 Berserk Potions.",
+"pt": "Encontre 5 Poções da Fúria."
+},
+"achievementLang/{GetPhas3rToLevel7}description": {
+"en": "Get Vulcan Arm to level 7.",
+"pt": "Eleve o Braço Vulcano ao nível 7."
+},
+"achievementLang/{Survive20MinutesInSpace54}description": {
+"en": "Survive 20 minutes in the Ash Vacuum.",
+"pt": "Sobreviva 20 minutos no Vácuo de Cinzas."
+},
+"achievementLang/{FindBraveStory}description": {
+"en": "Find the Token Of Hero at minute 18 in the Ash Vacuum.",
+"pt": "Encontre o Símbolo do Herói aos 18 minutos no Vácuo de Cinzas."
+},
+"achievementLang/{EvolveBattilia}description": {
+"en": "Evolve the Summon Familiars.",
+"pt": "Evolua o Invocar Familiares."
+},
+"achievementLang/{EvolvePhas3r}description": {
+"en": "Evolve the Vulcan Arm.",
+"pt": "Evolua o Braço Vulcano."
+},
+"achievementLang/{GetJavelinToLevel7}description": {
+"en": "Get Spear Boomerang to level 7.",
+"pt": "Eleve a Lança Bumerangue para o nível 7."
+},
+"achievementLang/{EvolveJavelin}description": {
+"en": "Evolve the Spear Boomerang.",
+"pt": "Evolua a Lança Bumerangue."
+},
+"achievementLang/{Survive20MinutesInLaborratory}description": {
+"en": "Survive 20 minutes in the Bio Lab.",
+"pt": "Sobreviva por 20 minutos no Laboratório de Lighthalzen."
+},
+"achievementLang/{FindAnArmaDio}description": {
+"en": "Find an Old Card Album.",
+"pt": "Encontre um Álbum de Cartas Antigo."
+},
+"achievementLang/{HitManyEnemiesWithTrain}description": {
+"en": "Deal a total of 25120 damage with the Bio Lab Train. ",
+"pt": "Cause um total de 25.120 de dano com o trem do Laboratório."
+},
+"achievementLang/{ObtainDarkasso}description": {
+"en": "Be embraced by the Dark Bible.",
+"pt": "Deixe-se levar pela Bíblia Sombria."
+},
+"achievementLang/{Dark_01SpaceDude}description": {
+"en": "Escape while having a Cooldown bonus of -85% with the Mechanic",
+"pt": "Alcance um bônus de Recarga de -85% com o Mecânico."
+},
+"achievementLang/{Dark_06Darkasso}description": {
+"en": "Be embraced by the Dark Bible.",
+"pt": "Deixe-se levar pela Bíblia Sombria."
+},
+"achievementLang/{Dark_10Santa}description": {
+"en": "Trigger a Weird Souls Purifier with Santa.",
+"pt": "Ative um Purificador de Alma Bizarro com o Papai Noel."
+},
+"achievementLang/{Dark_12Shemoon}description": {
+"en": "Trigger a Starry Heavens with the Moonlight Flower.",
+"pt": "Ative Firmamentos Estrelados com a Moonlight Flower."
+},
+"achievementLang/{Dark_21Robert}description": {
+"en": "Reach 665 Max Health with Dracula.",
+"pt": "Alcance 665 de Vida Máx. com o Drácula."
+},
+"achievementLang/{CompleteAdv_AGarlicParadise}description": {
+"en": "Complete once the adventure A Swordman's Paradise.",
+"pt": "Conclua uma vez a Aventura Um Paraíso de Espadachim."
+},
+"achievementLang/randomazzoPart1GroupName": {
+"en": "Card Album Part 1",
+"pt": "Álbum de Cartas pt. 1"
+},
+"achievementLang/randomazzoPart2GroupName": {
+"en": "Card Album Part 2",
+"pt": "Álbum de Cartas pt. 2"
+},
+"achievementLang/extraDarkassoPart1GroupName": {
+"en": "Extra: Dark Bible Part 1",
+"pt": "Extra: Bíblia Sombria pt. 1"
+},
+"achievementLang/extraDarkassoPart2GroupName": {
+"en": "Extra: Dark Bible Part 2",
+"pt": "Extra: Bíblia Sombria pt. 2"
+},
+"achievementLang/extraDarkassoPart3GroupName": {
+"en": "Extra: Dark Bible Part 3",
+"pt": "Extra: Bíblia Sombria pt. 3"
+},
+"achievementLang/extraInverseStagesPart1GroupName": {
+"en": "Extra: Mirror Stages Part 1",
+"pt": "Extra: Fases espelhadas pt. 1"
+},
+"achievementLang/extraInverseStagesPart2GroupName": {
+"en": "Extra: Mirror Stages Part 2",
+"pt": "Extra: Fases espelhadas pt. 2"
+},
+"achievementLang/PlayStationPlatinumTrophyDescription": {
+"en": "Where was Satan Morroc again?",
+"pt": "Onde é que estava o Satan Morroc mesmo?"
+},
+"achievementLang/{FindAParmAegis}description": {
+"en": "Find a Valkyrja's Shield in the Hugel Farm.",
+"pt": "Encontre um Escudo de Valquíria na Granja de Hugel."
+},
+"achievementLang/{FindManyChickens}description": {
+"en": "Find 500 pieces of Meat.",
+"pt": "Encontre 500 Carnes."
+},
+"achievementLang/{FindChickenClock}description": {
+"en": "Find the Speed Potion at the end of the Hugel Farm.",
+"pt": "Encontre a Poção de Velocidade ao final da Granja de Hugel."
+},
+"achievementLang/{Defeat0EnemiesInCoop}description": {
+"en": "Defeat 0 enemies in the Hugel Farm.",
+"pt": "Derrote 0 inimigos na Granja de Hugel."
+},
+"achievementLang/{EvolveOfGaea}description": {
+"en": "Survive 20 minutes in the Hugel Farm",
+"pt": "Sobreviva por 20 minutos na Granja de Hugel."
+},
+"achievementLang/{Dark_03Gazebo}description": {
+"en": "Eat as much as possible with Medusa.",
+"pt": "Coma o máximo possível com a Medusa."
+},
+"achievementLang/{FindManyClovers}description": {
+"en": "Find 23 Four Leaf Clovers.",
+"pt": "Colete 23 Trevos de Quatro Folhas."
+},
+"achievementLang/{EvolveMagiStone}description": {
+"en": "Evolve the Rune Stone.",
+"pt": "Evolua a Pedra Rúnica."
+},
+"achievementLang/{FindMasquerade}description": {
+"en": "Find the Masquerade Relic in Rock Ridge.",
+"pt": "Encontre a Relíquia Máscara de Baile em Rock Ridge."
+},
+"achievementLang/{EvolveAmmoAppalate}description": {
+"en": "Evolve the Fire Dance.",
+"pt": "Evolua a Dança do Fogo."
+},
+"achievementLang/{GetMagiStoneToLevel7}description": {
+"en": "Get Rune Stone To Level 7.",
+"pt": "Eleve a Pedra Rúnica para o nível 7."
+},
+"achievementLang/{GetAmmoAppalatetoLevel7}description": {
+"en": "Get Fire Dance To Level 7.",
+"pt": "Eleve a Dança do Fogo para o nível 7."
+},
+"achievementLang/{Survive20minutesInWestwoods}description": {
+"en": "Survive 20 minutes in Rock Ridge. ",
+"pt": "Sobreviva por 20 minutos em Rock Ridge."
+},
+"achievementLang/{ReachLV80InverseWarehouse}description": {
+"en": "Reach Level 80 in the Mirror Einbroch Factory.",
+"pt": "Alcance o nível 80 na Fábrica de Einbroch espelhada."
+},
+"achievementLang/{FindChaosLazulia}description": {
+"en": "Find the Sapphire in the Labyrinth Forest.",
+"pt": "Encontre a Safira na Floresta Labirinto."
+},
+"achievementLang/{FindRecycle}description": {
+"en": "Find the Striped Candle in the Labyrinth Forest.",
+"pt": "Encontre a Vela Listrada na Floresta Labirinto."
+},
+"achievementLang/{Dark_13Chula}description": {
+"en": "Escape while having +999% Luck with the Rune Knight.",
+"pt": "Alcance +999% Sorte com o Cavaleiro Rúnico."
+},
+"achievementLang/{EvolveOfGaea_Fix}description": {
+"en": "Evolve the Stone Curse.",
+"pt": "Evolua o Petrificar."
+},
+"achievementLang/{FindKaromasMana}description": {
+"en": "Find a Bloody Branch in Rock Ridge.",
+"pt": "Encontre um Galho Sangrento em Rock Ridge."
+},
+"achievementLang/{Dark_18Challenge}description": {
+"en": "Survive 30 minutes with no weapons in the Mirror Prontera Fields.",
+"pt": "Sobreviva por 30 min. sem armas nos Campos de Prontera espelhados."
+},
+"achievementLang/{Dark_05Appunta}description": {
+"en": "Find 10 golden boxes from the Rebellion's ability in a single run.",
+"pt": "Ache 10 caixas douradas do Insurgente numa só partida."
+},
+"achievementLang/{FindManyVacuums}description": {
+"en": "Find 50 Greed Scrolls.",
+"pt": "Encontre 50 Pergaminhos de Ganância."
+},
+"achievementLang/{Survive20minutesInLycaeum}description": {
+"en": "Survive 20 minutes in the Illusion of Under Water.",
+"pt": "Sobreviva por 20 minutos na Ilusão Submersa."
+},
+"achievementLang/{EvolvePenshin}description": {
+"en": "Evolve the Tuna Party.",
+"pt": "Evolua a Festa do Atum."
+},
+"achievementLang/{EvolveAllPenshin_ParaKooleoSkin}description": {
+"en": "Wield every fish of the Tuna Party in a single run.",
+"pt": "Use todos os peixes da Festa do Atum em uma única partida."
+},
+"achievementLang/{BuyGreenEyesVizard}description": {
+"en": "Find and buy the Dragon Mask Denture in the Illusion of Under Water.",
+"pt": "Encontre e compre a Dentadura de Dragão na Ilusão Submersa."
+},
+"achievementLang/{BuySurvarocchi}description": {
+"en": "Find and buy the Magnifier in the Illusion of Under Water.",
+"pt": "Encontre e compre a Lupa na Ilusão Submersa."
+},
+"achievementLang/{DefeatBatDragons}description": {
+"en": "Defeat 1 Lost Dragon. ",
+"pt": "Derrote 1 Dragão Perdido."
+},
+"achievementLang/{EvolveUnearthlyBolt}description": {
+"en": "Evolve the Jupitel Thunder",
+"pt": "Evolua o Trovão de Júpiter."
+},
+"achievementLang/{Dark_00Troubler}description": {
+"en": "Defeat a Lost Dragon with the General while using the Lex Aeterna Card. ",
+"pt": "Derrote um Dragão Perdido com o General e a Carta Lex Aeterna."
+},
+"achievementLang/{Dark_08ParaKooleo}description": {
+"en": "Trigger a Lavatrix Machina with the Doram Summoner.",
+"pt": "Ative uma Lavatrix Machina com o Invocador."
+},
+"achievementLang/{Dark_19Challenge}description": {
+"en": "Survive 15 min in the Mirror Endless Tower with Random Events and Random Level Ups.",
+"pt": "Sobreviva 15 min. na Torre Sem Fim espelhada com eventos aleatórios e de subir de nível."
+},
+"secretLang/{KissMe}description": {
+"en": "Follow the trail after pillaging the Red Herb and Dead Branch from Payon Forest.",
+"pt": "Siga a trilha após obter Erva Vermelha e Galho Seco na Floresta de Payon."
+},
+"secretLang/{KissMe}description_clear": {
+"en": "Requires: Convex Mirror. \nGo to Payon Forest and pick up the Dead Branch and Red Herb stage items. Pies will appear on the stage. Follow the pies to find a shadowy enemy. Defeat the shadowy enemy to complete the Secret.   ",
+"pt": "Requer: Espelho Convexo. \nVá à Floresta de Payon e pegue os itens de fase Galho Seco e Erva Vermelha. Tortas aparecerão na fase. Siga as tortas até um inimigo sombrio. Derrote-o para concluir o Segredo."
+},
+"secretLang/{CheeseAccident}description": {
+"en": "Deal with the consequence of stealing Cheese from the Einbroch Factory.",
+"pt": "Enfrente as consequências por roubar Queijo da Fábrica de Einbroch."
+},
+"secretLang/{CheeseAccident}description_clear": {
+"en": "Requires: Firecracker, Crystal Mirror\nGo to Glast Heim Castle in Mirror Mode. Acquire Blitz Beat and Dark Crow. Travel far to the Right until you see Maero of Thanatos in front of a piano. Defeat it. Move in front of the Piano to show the piano keys. Play the piano keys in this order: 2nd white key, 6th white key, 5th black key, 5th white key, and finally the 1st black key. Search the 9 coffins that spawn on the map to find Baphomet and defeat him.  ",
+"pt": "Requer: Fogos de Artifício, Espelho de Cristal\nVá ao Castelo de Glast Heim no modo Espelho. Obtenha Ataque do Falcão e Corvo Negro. Siga bem para a direita até ver Maero de Thanatos diante de um piano. Derrote-o. Fique diante do piano para ver as teclas. Toque nesta ordem: 2ª tecla branca, 6ª tecla branca, 5ª tecla preta, 5ª tecla branca e, por fim, a 1ª tecla preta. Procure nos 9 caixões que surgem no mapa até achar Bafomé e derrote-o."
+},
+"secretLang/{BringMeBackThere}description": {
+"en": "Investigate the bottom of the Clock Tower.",
+"pt": "Investigue a base da Torre do Relógio."
+},
+"secretLang/{PureHeart}description": {
+"en": "With a pure heart and two good friends, visit the fiery balcony in the Cursed Abbey.",
+"pt": "Com um coração puro e dois bons amigos, visite a varanda abrasante na Abadia Amaldiçoada."
+},
+"secretLang/{BeAGoodBoy}description": {
+"en": "Be a good boy at the Umbala Festival.",
+"pt": "Seja um bom garoto na Festa de Umbala."
+},
+"secretLang/{Master16}description": {
+"en": "Run away from Byalan Island with all 16 accessories mastered.",
+"pt": "Fuja da Ilha de Byalan com os 16 acessórios com nível máximo."
+},
+"secretLang/{SlumsFlowers}description": {
+"en": "Find the only one place where flowers bloom in Niflheim.",
+"pt": "Encontre o único lugar onde as flores desabrocham em Niflheim."
+},
+"secretLang/{BossRashBoss}description": {
+"en": "Survive the Endless Tower with just one weapon.",
+"pt": "Sobreviva à Torre Sem Fim com só uma arma."
+},
+"secretLang/{KillThaReapa}description": {
+"en": "Settle the score with Ankou.",
+"pt": "Acerte as contas com o Ankou."
+},
+"secretLang/{MaFaiPianooo}description": {
+"en": "It is tangible only in the mirrored Glast Heim Castle. Good friends might then show the way.",
+"pt": "Tangível apenas no Castelo de Glast Heim espelhado. Bons amigos podem mostrar o caminho."
+},
+"secretLang/{EdgeOfTheWorld}description": {
+"en": "With the most adverse fate in the Prontera Fields, run off the edge of the world.",
+"pt": "Com o destino mais adverso nos Campos de Prontera, corra para os confins do mundo."
+},
+"secretLang/{HearTheThunder}description": {
+"en": "Discover the source of the roaring thunder on the Amatsu Bridge.",
+"pt": "Descubra a fonte do trovão estrondoso na Ponte de Amatsu."
+},
+"secretLang/{WinCarloCart}description": {
+"en": "Forsake victory in favour of sightseeing in the Dead Pit.",
+"pt": "Troque a vitória pelo turismo na Mina Abandonada."
+},
+"secretLang/{BreakSpaceBounds}description": {
+"en": "Quickly break the bounds of the Ash Vacuum and find Love.",
+"pt": "Quebre rapidamente as barreiras do Vácuo de Cinzas e encontre o Amor."
+},
+"secretLang/{BatDragonsCount2}description": {
+"en": "Defeat a total of 2 unique Lost Dragons.",
+"pt": "Derrote 2 Dragões Perdidos únicos no total."
+},
+"secretLang/{BatDragonsCount2}customUnlockText": {
+"en": "New Survarots sold in the Illusion of Under Water by the General.",
+"pt": "Novos Surtarôs vendidos na Ilusão Submersa pelo General."
+},
+"eventLang/{CHICKEN_BONANZA}displayName": {
+"en": "Meat Bonanza",
+"pt": "Festa da Carne"
+},
+"eventLang/{GOLD_FEVER}displayName": {
+"en": "Zeny Fever",
+"pt": "Febre de Zeny"
+},
+"eventLang/{CANDYBOX}displayName": {
+"en": "Abracadabra",
+"pt": "Abracadabra"
+},
+"eventLang/{BAT_SWARM}displayName": {
+"en": "Familiar Swarm",
+"pt": "Torrente de Familiares"
+},
+"eventLang/{GHOST_SWARM}displayName": {
+"en": "Whisper Swarm",
+"pt": "Torrente de Sussurros"
+},
+"eventLang/{MEDUSA_SWARM}displayName": {
+"en": "Medusa Swarm",
+"pt": "Torrente de Medusas"
+},
+"eventLang/{JELLY_SWARM}displayName": {
+"en": "Plankton Swarm",
+"pt": "Torrente de Plânctons"
+},
+"eventLang/{DRAGON_SWARM}displayName": {
+"en": "Dragon Swarm",
+"pt": "Torrente de Dragões"
+},
+"eventLang/{SUMMON_MOLISE}displayName": {
+"en": "Summon Umbala",
+"pt": "Invocação de Umbala"
+},
+"eventLang/{STALKER}displayName": {
+"en": "Odium of Thanatos",
+"pt": "Ódio de Thanatos"
+},
+"eventLang/{DROWNER}displayName": {
+"en": "Despero of Thanatos",
+"pt": "Desespero de Thanatos"
+},
+"eventLang/{WESTWOODS_SQUIRREL_SWARM}displayName": {
+"en": "Holden Swarm",
+"pt": "Torrente de Holdens"
+},
+"eventLang/{WESTWOODS_CHULAS_CURSE}displayName": {
+"en": "Rune Curse",
+"pt": "Maldição Rúnica"
+},
+"eventLang/{WESTWOODS_ECTO_COIN}displayName": {
+"en": "Ghost Zeny",
+"pt": "Zeny Fantasma"
+},
+"eventLang/{WESTWOODS_COIN_PILE}displayName": {
+"en": "Zeny Pile",
+"pt": "Pilha de Zeny"
+},
+"eventLang/{WESTWOODS_COIN_DRAGON}displayName": {
+"en": "Zeny Dragon",
+"pt": "Dragão de Zeny"
+},
+"musicLang/{BGM_Forest}title": {
+"en": "Peaceful Forest",
+"pt": "Peaceful Forest"
+},
+"musicLang/{BGM_Library}title": {
+"en": "Morning Gloomy",
+"pt": "Morning Gloomy"
+},
+"musicLang/{BGM_Plant}title": {
+"en": "Steel Me",
+"pt": "Steel Me"
+},
+"musicLang/{BGM_Tower}title": {
+"en": "Aeon",
+"pt": "Aeon"
+},
+"musicLang/{BGM_Chapel}title": {
+"en": "Good Night",
+"pt": "Good Night"
+},
+"musicLang/{BGM_Chapet}title": {
+"en": "Great Honor",
+"pt": "Great Honor"
+},
+"musicLang/{BGM_Pizza}title": {
+"en": "Jazzy Funky Sweety",
+"pt": "Jazzy Funky Sweety"
+},
+"musicLang/{BGM_BossRush}title": {
+"en": "Into The Arena!",
+"pt": "Into The Arena!"
+},
+"musicLang/{BGM_GreenAcres}title": {
+"en": "Tread on the Ground",
+"pt": "Tread on the Ground"
+},
+"musicLang/{BGM_Bones}title": {
+"en": "Christmas in the 13th Month",
+"pt": "Christmas in the 13th Month"
+},
+"musicLang/{BGM_Water}title": {
+"en": "Be Nice 'n Easy",
+"pt": "Be Nice 'n Easy"
+},
+"musicLang/{BGM_RedBlue}title": {
+"en": "March with Irish Whistle",
+"pt": "March with Irish Whistle"
+},
+"musicLang/{BGM_Gatti}title": {
+"en": "Theme of Al de Baran",
+"pt": "Theme of Al de Baran"
+},
+"musicLang/{BGM_Mana}title": {
+"en": "One Fine Day",
+"pt": "One Fine Day"
+},
+"musicLang/{BGM_Peggi}title": {
+"en": "Theme of Geffen",
+"pt": "Theme of Geffen"
+},
+"musicLang/{BGM_Vento}title": {
+"en": "Desert",
+"pt": "Desert"
+},
+"musicLang/{BGM_Solution}title": {
+"en": "Divine Grace",
+"pt": "Divine Grace"
+},
+"musicLang/{BGM_Bestiary}title": {
+"en": "Streamside",
+"pt": "Streamside"
+},
+"musicLang/{BGM_Secret}title": {
+"en": "Curse'n Pain",
+"pt": "Curse'n Pain"
+},
+"musicLang/{BGM_Forest_B}title": {
+"en": "Nano East",
+"pt": "Nano East"
+},
+"musicLang/{BGM_Library_B}title": {
+"en": "TeMP it Up",
+"pt": "TeMP it Up"
+},
+"musicLang/{BGM_Plant_B}title": {
+"en": "Come in Peace",
+"pt": "Come in Peace"
+},
+"musicLang/{BGM_Tower_B}title": {
+"en": "Zingaro",
+"pt": "Zingaro"
+},
+"musicLang/{BGM_Bones_B}title": {
+"en": "Dancing Christmas in the 13th Month",
+"pt": "Dancing Christmas in the 13th Month"
+},
+"musicLang/{BGM_Chapel_B}title": {
+"en": "Monastery In Disguise",
+"pt": "Monastery In Disguise"
+},
+"musicLang/{BGM_Spoopy}title": {
+"en": "Don't Piss me Off",
+"pt": "Don't Piss me Off"
+},
+"adventureLang/adv_adventure_coins": {
+"en": "Adventure Zeny",
+"pt": "Zeny da Aventura"
+},
+"adventureLang/{ADV_POES_001}header": {
+"en": "A Swordman's Paradise",
+"pt": "Um Paraíso de Espadachim"
+},
+"adventureLang/adv_adventureSelect_completePopup": {
+"en": "You completed the Adventure and earned %0 base game Zeny!\nYou can now Ascend the Adventure.",
+"pt": "Você concluiu a Aventura e ganhou %0 Zeny do jogo base!\nAgora você pode ascender a Aventura."
+},
+"adventureLang/adv_merc_CAMILLO": {
+"en": "Can I offer you a Red Potion in this trying time?",
+"pt": "Posso lhe oferecer uma Poção Vermelha neste momento difícil?"
+},
+"progressLang/{POES_ACH001}description": {
+"en": "Survive 10 minutes in An Old Payon Forest.",
+"pt": "Sobreviva por 10 minutos em Antiga Floresta de Payon."
+},
+"progressLang/{POES_ACH005}description": {
+"en": "Reach Level 50 in Swordman's Paradise.",
+"pt": "Alcance o nível 50 em Paraíso do Espadachim."
+},
+"progressLang/{POES_ACH006}description": {
+"en": "Defeat 3000 Wootans in Retirement.",
+"pt": "Derrote 3.000 Wootans em Aposentadoria."
+},
+"progressLang/{POES_ACH007}description": {
+"en": "Find the Basic Attack.",
+"pt": "Encontre o Ataque Básico."
+},
+"progressLang/{POES_ACH008}description": {
+"en": "Find the Soul Strike.",
+"pt": "Encontre o Ataque Espiritual."
+},
+"progressLang/{POES_ACH009}description": {
+"en": "Find the Holy Light.",
+"pt": "Encontre a Luz Divina."
+},
+"progressLang/{POES_ACH010}description": {
+"en": "Find the Double Strafe.",
+"pt": "Encontre a Rajada de Flechas."
+},
+"progressLang/{POES_ACH011}description": {
+"en": "Evolve the Sonic Blow or find the Meteor Assault.",
+"pt": "Evolua as Lâminas Destruidoras ou encontre o Ataque Meteoro."
+},
+"progressLang/{POES_ACH012}description": {
+"en": "Evolve the Magnum Break.",
+"pt": "Evolua o Impacto Explosivo."
+},
+"progressLang/{IMEL_ACH002}description": {
+"en": "Find the Book of Magic and evolve the Soul Strike.",
+"pt": "Encontre o Livro de Magia e evolua o Ataque Espiritual."
+},
+"progressLang/{IMEL_ACH003}description": {
+"en": "Open the Gunslinger's coffin in Payon Forest.",
+"pt": "Abra o caixão da Justiceira na Floresta de Payon."
+},
+"progressLang/{IMEL_ACH004}description": {
+"en": "Open the Crusader's coffin in the Clock Tower.",
+"pt": "Abra o caixão do Templário na Torre do Relógio."
+},
+"progressLang/{IMEL_ACH005}description": {
+"en": "Evolve and unite Triple Action and Rapid Shower.",
+"pt": "Evolua e faça a união de Ação Tripla e Chuva de Balas."
+},
+"progressLang/{IMEL_ACH006}description": {
+"en": "Defeat Gloom Under Night in the Cursed Abbey.",
+"pt": "Derrote Noite Sombria na Abadia Amaldiçoada."
+},
+"progressLang/{IMEL_ACH007}description": {
+"en": "Open the Priest's coffin in Deep Lore.",
+"pt": "Abra o caixão da Sacerdotisa em Saberes Antigos."
+},
+"progressLang/{IMEL_ACH008}description": {
+"en": "Find the Spirit Spheres in Deep Lore.",
+"pt": "Encontre as Esferas Espirituais em Saberes Antigos."
+},
+"progressLang/{IMEL_ACH016}description": {
+"en": "Open the Alchemist's coffin in Glast Heim Castle.",
+"pt": "Abra o caixão da Alquimista no Castelo de Glast Heim."
+},
+"progressLang/{IMEL_ACH009}description": {
+"en": "Defeat 12 Resentful Sohee before they explode.",
+"pt": "Derrote 12 Sohee Ressentidas antes que elas explodam."
+},
+"progressLang/{IMEL_ACH010}description": {
+"en": "Find the Severe Rainstorm in the Clock Tower.",
+"pt": "Encontre a Tempestade Severa na Torre do Relógio."
+},
+"progressLang/{IMEL_ACH011}description": {
+"en": "Enter the magic mirror and open the Thief's Coffin in the Clock Tower.",
+"pt": "Entre no espelho e abra o caixão da Gatuna na Torre do Relógio."
+},
+"progressLang/{IMEL_ACH012}description": {
+"en": "Find Triple Action in the Odin Temple.",
+"pt": "Encontre Ação Tripla no Templo de Odin."
+},
+"progressLang/{IMEL_ACH013}description": {
+"en": "Find Rapid Shower in the Odin Temple.",
+"pt": "Encontre Chuva de Balas no Templo de Odin."
+},
+"progressLang/{IMEL_ACH014}description": {
+"en": "Open the Peco Peco's coffin in the Odin Temple.",
+"pt": "Abra o caixão do Peco Peco no Templo de Odin."
+},
+"progressLang/{IMEL_ACH017}description": {
+"en": "Open the Assassin Cross's coffin in the Cursed Abbey.",
+"pt": "Abra o caixão do Algoz na Abadia Amaldiçoada."
+},
+"lang/weaponLevelUp_value": {
+"en": "Zeny value increases by %0%.\\n",
+"pt": "Valor do Zeny aumenta em %0%.\\n"
+},
+"lang/genericPopup_obtainedCoin": {
+"en": "Obtained: %0 Zeny",
+"pt": "Obteve: %0 Zeny"
+},
+"lang/genericPopup_obtainsCoin": {
+"en": "Obtains: %0  Zeny",
+"pt": "Obtém: %0 Zeny"
+},
+"lang/gameOver_bonus": {
+"en": "Bonus Zeny: %0",
+"pt": "Bônus de Zeny: %0"
+},
+"lang/postGame_normal": {
+"en": "- Normal - Zeny x %0",
+"pt": "- Normal - Zeny x%0"
+},
+"lang/postGame_hyper": {
+"en": "- Hyper - Zeny x %0",
+"pt": "- Hiper - Zeny x%0"
+},
+"lang/postGame_goldEarned": {
+"en": "Zeny earned:",
+"pt": "Zeny obtido:"
+},
+"lang/charFound_joins": {
+"en": "%0\\nJOINS THE PARTY!",
+"pt": "%0\\nENTRA NO GRUPO!"
+},
+"lang/charFound_another": {
+"en": "Thank you %0, but Satan Morroc is in another coffin!",
+"pt": "Valeu, %0, mas o Satan Morroc está em outro caixão!"
+},
+"lang/stageConfirm_mazzo": {
+"en": "Cards",
+"pt": "Cartas"
+},
+"lang/stageSelection_GoldMultiplier": {
+"en": "Zeny Bonus",
+"pt": "Bônus de Zeny"
+},
+"lang/quit_description": {
+"en": "and keep your Zeny and unlocks",
+"pt": "e manter Zeny e conquistas"
+},
+"lang/stageConfirm_inverse": {
+"en": "Mirror",
+"pt": "Espelho"
+},
+"lang/directer_5": {
+"en": "Congratulations %0! Satan Morroc is not here. Perhaps we shall find him in another world, if you'll just take my hand…",
+"pt": "Parabéns, %0! Satan Morroc não está aqui. Talvez devamos procurá-lo em outro mundo, se me acompanhares..."
+},
+"lang/ad_gold": {
+"en": "Watch Video For Bonus Zeny",
+"pt": "Ver vídeo (bônus de Zeny)"
+},
+"lang/account_common_data_summary": {
+"en": "Timestamp: %0\\nZeny: %1\\nUnlocks: %2",
+"pt": "Hora: %0\\nZeny: %1\\nConquistas: %2"
+},
+"lang/playstation_Activity_description": {
+"en": "Collect all Relics and keep visiting Loki for more.",
+"pt": "Colete todas as relíquias e continue visitando Loki para mais aventuras."
+},
+"lang/weaponLevelUp_fever": {
+"en": "Increases duration of Zeny Fever and Berserk Potion by %0%.",
+"pt": "Aumenta a duração de Febre de Zeny e Poção da Fúria em %0%."
+},
+"lang/randomazzo_title": {
+"en": "CARD ALBUM",
+"pt": "ÁLBUM DE CARTAS"
+},
+"lang/shop_header1": {
+"en": "Fancy a new mask?",
+"pt": "A fim de uma máscara nova?"
+},
+"lang/eggs_selection": {
+"en": "HEARTS",
+"pt": "CORAÇÕES"
+},
+"lang/character_setup_?_3": {
+"en": "Power Creep has 3 modes: activate Survarots, activate Ymir's Heart Pieces, or activate neither mechanic. ",
+"pt": "A Progressão de Poder possui 3 modos: ativação de Surtarôs, ativação de Fragmentos do Coração de Ymir ou nenhuma dessas mecânicas ativada."
+}
+}

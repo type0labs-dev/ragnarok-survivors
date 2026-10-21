@@ -1,0 +1,2288 @@
+# Ragnarok Survivors - VS -> RO de-para for the "Ode to Castlevania" DLC (internal name ThosePeople, prefix TP_).
+# Draft 2026-10-16, generated from the DLC data (enemyData/stageData/musicData/itemData_ThosePeople.json) and bundle
+# listings (UnityPy, read-only). Same field formats as ../enemies.yaml, ../stages_music_ui_story.yaml, ../items.yaml.
+#
+# Episode: Castle Dracula = Glast Heim. Its biomes map to Glast Heim wings, Thanatos Tower (clock tower),
+# Niflheim (woods + Death), Geffen Dungeon (Dracula's throne). Profane Chapel = Nameless Island Cursed Abbey.
+#
+# Notes
+#  - Families = (textureName, frameNames[0] prefix), like the base. Textures verified: TP_enemies (tp_enemies bundle),
+#    TP_enemiesReuse (tp_enemiesreuse bundle), 2048x2048 each. 'WhiteDot' (vfx placeholder) is split per scripted boss:
+#    Legion, Beelzebub, Death, Doppleganger draw from their own bundles (granfaloonlegionbossarena, beelzebub*, tp_death,
+#    doppelgangerboss_32x32px).
+#  - stages: where the id spawns (stage enemies/bosses/events/pools). ADV = TP_ADV_* ids (adventure mode only).
+#    TP_CASTLE also lists 'TP_Malachi' (not in enemyData; typo of TP_MALACHI). BOSS_XLDEATH (Reaper) and the base ids in
+#    TP_CASTLE_TEST keep their base picks.
+#  - No RO monster twice in TP_CASTLE or TP_CHAPEL, except same-creature texture splits (Slogra x3, Succubus x2,
+#    Gaibon fodder/ADV, Persephone/ADV Persephone).
+#  - music.clip = core of thosepeople_dynamic_assets_<clip>.bundle holding the loop AudioClip of the playlist
+#    (playlist songName -> AudioClip m_Name). Every version of one song shares one RO track. Playlists without a
+#    musicData id (BGM_TP_SOH_Credits, BGM_TP_Bloodlines_Mystery, BGM_TP_Bloodlines_Pressure) are not listed.
+#  - tilesets: Texture2D names inside the DLC tileset/background bundles. Which otc_001_* / tp_castledracula* tilemap uses
+#    which texture was NOT traced; biome assignment is by name. ro maps all checked to have a .gnd.
+#  - RO BGM 'NN Title' from the mp3 ID3 tags (01-180); map->track pairs from mp3NameTable.txt.
+#  - ro_ptbr: [trad] = our translation, not checked against bRO.
+
+enemies:
+- vs_family: TP_FleaMan
+  vs_texture: TP_enemies
+  vs_ids: [TP_FLEAMAN, TP_MEGA_FLEAMAN, TP_FLEAMAN_SWARM, TP_ADV_FLEAMAN_SWARM_FIXED, TP_ADV_FLEAMAN_SCALING, TP_FLEAMAN_COUNTER]
+  vs_bestiary_name: Flea Man
+  stages: [TP_CASTLE, TP_CHAPEL, ADV]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: 1509
+  ro_aegis: LUDE
+  ro_sprite: lude
+  ro_size: Small
+  ro_en: Lude
+  ro_ptbr: Lude
+  why: tiny hopping swarm -> Niflheim hopping ghost-child
+  confidence: med
+  asset: ok
+- vs_family: TP_FLEARIDER
+  vs_texture: TP_enemies
+  vs_ids: [TP_FLEARIDER, TP_ADV_XLFLEARIDER]
+  vs_bestiary_name: Flea Rider
+  stages: [TP_CASTLE, TP_CHAPEL, ADV]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: 1508
+  ro_aegis: QUVE
+  ro_sprite: quve
+  ro_size: Small
+  ro_en: Quve
+  ro_ptbr: Quve
+  why: small rider-ghost; Niflheim sibling of Lude
+  confidence: low
+  asset: ok
+- vs_family: TP_FleaArmor
+  vs_texture: TP_enemies
+  vs_ids: [TP_FLEAARMOR, TP_ADV_FLEAARMOR, TP_ADV_BOSS_FLEAARMOR]
+  vs_bestiary_name: Flea Armor
+  stages: [TP_CASTLE, TP_CHAPEL, ADV]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: 1257
+  ro_aegis: INJUSTICE
+  ro_sprite: injustice
+  ro_size: Medium
+  ro_en: Injustice
+  ro_ptbr: Injustice
+  why: small creature inside armor -> hollow armored thief
+  confidence: med
+  asset: ok
+- vs_family: TP_MagicBook1
+  vs_texture: TP_enemies
+  vs_ids: [TP_MAGICBOOK_01, TP_ADV_MAGICBOOK_WALL]
+  vs_bestiary_name: Magic Book
+  stages: [TP_CASTLE, ADV]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: 1195
+  ro_aegis: RIDEWORD
+  ro_sprite: rideword
+  ro_size: Small
+  ro_en: Rideword
+  ro_ptbr: Rideword
+  why: flying spellbook -> Glast Heim living book
+  confidence: high
+  asset: ok
+- vs_family: TP_MagicBook2
+  vs_texture: TP_enemies
+  vs_ids: [TP_MAGICBOOK_02, TP_ADV_MAGICBOOK_SWARM]
+  vs_bestiary_name: Magic Book
+  stages: [TP_CASTLE, ADV]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: 2366
+  ro_aegis: ANTIQUE_BOOK
+  ro_sprite: antique_book
+  ro_size: Small
+  ro_en: Antique Book
+  ro_ptbr: Livro Antigo [trad]
+  why: swarm book variant, distinct from Rideword
+  confidence: med
+  asset: ok
+- vs_family: TP_REUSE_FROZENSHADE
+  vs_texture: TP_enemiesReuse
+  vs_ids: [TP_FROZENSHADE, TP_FROZENSHADE_02, TP_ADV_FROZENSHADE_FIXED, TP_ADV_FROZENSHADE]
+  vs_bestiary_name: Frozen Shade
+  stages: [TP_CASTLE, TP_CHAPEL, ADV]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: 1867
+  ro_aegis: BANSHEE
+  ro_sprite: banshee
+  ro_size: Medium
+  ro_en: Banshee
+  ro_ptbr: Banshee
+  why: icy female ghost -> wailing banshee
+  confidence: med
+  asset: ok
+- vs_family: TP_GAIBON
+  vs_texture: TP_enemies
+  vs_ids: [TP_GAIBON]
+  vs_bestiary_name: Gaibon
+  stages: [TP_CASTLE, TP_CHAPEL]
+  scope: dlc_castlevania
+  role: elite
+  ro_mob_id: 1253
+  ro_aegis: GARGOYLE
+  ro_sprite: gargoyle
+  ro_size: Medium
+  ro_en: Gargoyle
+  ro_ptbr: Gárgula
+  why: winged red demon -> gargoyle
+  confidence: med
+  asset: ok
+- vs_family: TP_REUSE_HARPY
+  vs_texture: TP_enemiesReuse
+  vs_ids: [TP_HARPY, TP_PATROL_HARPY, TP_ADV_HARPY]
+  vs_bestiary_name: Harpy
+  stages: [TP_CASTLE, TP_CHAPEL, ADV]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: 1376
+  ro_aegis: HARPY
+  ro_sprite: harpy
+  ro_size: Medium
+  ro_en: Harpy
+  ro_ptbr: Harpia
+  why: same creature
+  confidence: high
+  asset: ok
+- vs_family: TP_Hippogryph
+  vs_texture: TP_enemies
+  vs_ids: [TP_HIPPOGRYPH, TP_ADV_HIPPOGRYPH]
+  vs_bestiary_name: Hippogyph
+  stages: [TP_CASTLE, ADV]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: 1061
+  ro_aegis: NIGHTMARE
+  ro_sprite: nightmare
+  ro_size: Large
+  ro_en: Nightmare
+  ro_ptbr: Nightmare
+  why: flying horse-beast -> ghost horse of Glast Heim
+  confidence: med
+  asset: ok
+- vs_family: TP_Imp
+  vs_texture: TP_enemies
+  vs_ids: [TP_IMP, TP_PATROL_IMP]
+  vs_bestiary_name: Imp
+  stages: [TP_CASTLE, TP_CHAPEL]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: 1837
+  ro_aegis: IMP
+  ro_sprite: imp
+  ro_size: Small
+  ro_en: Imp
+  ro_ptbr: Imp
+  why: same creature (fire imp)
+  confidence: high
+  asset: ok
+- vs_family: TP_REUSE_MOLDYCORPSE
+  vs_texture: TP_enemiesReuse
+  vs_ids: [TP_MOLDYCORPSE]
+  vs_bestiary_name: Moldy Corpse
+  stages: [TP_CASTLE, TP_CHAPEL]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: 1865
+  ro_aegis: RAGGED_ZOMBIE
+  ro_sprite: ragged_zombie
+  ro_size: Medium
+  ro_en: Ragged Zombie
+  ro_ptbr: Zumbi Esfarrapado [trad]
+  why: rotting floating corpse -> Nameless Island ragged zombie
+  confidence: low
+  asset: ok
+- vs_family: TP_SPITTLEBONE
+  vs_texture: TP_enemies
+  vs_ids: [TP_SPITTLEBONE_01, TP_SPITTLEBONE_02]
+  vs_bestiary_name: Spittle Bone
+  stages: [TP_CASTLE, TP_CHAPEL]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: 1169
+  ro_aegis: SKEL_WORKER
+  ro_sprite: skel_worker
+  ro_size: Medium
+  ro_en: Skeleton Worker
+  ro_ptbr: Esqueleto Operário [trad]
+  why: crawling spitting skeleton -> lowly skeleton
+  confidence: low
+  asset: ok
+- vs_family: TP_UKOBACK
+  vs_texture: TP_enemies
+  vs_ids: [TP_UKOBACK]
+  vs_bestiary_name: Ukoback
+  stages: [TP_CASTLE, TP_CHAPEL]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: 1292
+  ro_aegis: MINI_DEMON
+  ro_sprite: mini_demon
+  ro_size: Small
+  ro_en: Mini Demon
+  ro_ptbr: Mini Demônio [trad]
+  why: tiny fire devil, 0.2 hp swarm
+  confidence: med
+  asset: ok
+- vs_family: TP_REUSE_SPECTRE
+  vs_texture: TP_enemiesReuse
+  vs_ids: [TP_SPECTRE]
+  vs_bestiary_name: Spectre
+  stages: [TP_CASTLE, TP_CHAPEL]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: 1192
+  ro_aegis: WRAITH
+  ro_sprite: wraith
+  ro_size: Large
+  ro_en: Wraith
+  ro_ptbr: Wraith
+  why: hooded spectre -> Glast Heim wraith
+  confidence: med
+  asset: ok
+- vs_family: TP_REUSE_SUCCUBUS
+  vs_texture: TP_enemiesReuse
+  vs_ids: [TP_SUCCUBUS]
+  vs_bestiary_name: Succubus
+  stages: [TP_CASTLE, TP_CHAPEL]
+  scope: dlc_castlevania
+  role: elite
+  ro_mob_id: 1370
+  ro_aegis: SUCCUBUS
+  ro_sprite: succubus
+  ro_size: Medium
+  ro_en: Succubus
+  ro_ptbr: Súcubo
+  why: same creature
+  confidence: high
+  asset: ok
+- vs_family: TP_VALHALLAKNIGHT_Bloodless
+  vs_texture: TP_enemies
+  vs_ids: [TP_VALHALLAKNIGHT, TP_ADV_VALHALLAKNIGHT, TP_ADV_VALHALLAKNIGHT_FAST, TP_ADV_XLVALHALLAKNIGHT_01, TP_ADV_XLVALHALLAKNIGHT_02]
+  vs_bestiary_name: Valhalla Knight
+  stages: [TP_CASTLE, TP_CHAPEL, ADV]
+  scope: dlc_castlevania
+  role: elite
+  ro_mob_id: 1219
+  ro_aegis: KNIGHT_OF_ABYSS
+  ro_sprite: knight_of_abyss
+  ro_size: Large
+  ro_en: Abysmal Knight
+  ro_ptbr: Cavaleiro Abissal
+  why: mounted heavy knight -> Abysmal Knight rides a horse
+  confidence: high
+  asset: ok
+- vs_family: TP_WARG
+  vs_texture: TP_enemies
+  vs_ids: [TP_WARG_01, TP_WARG_02]
+  vs_bestiary_name: Warg
+  stages: [TP_CASTLE, TP_CHAPEL]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: 1515
+  ro_aegis: GARM_BABY
+  ro_sprite: garm_baby
+  ro_size: Medium
+  ro_en: Baby Hatii
+  ro_ptbr: Filhote de Hatii [trad]
+  why: giant wolf -> young Hatii
+  confidence: med
+  asset: ok
+- vs_family: TP_Bitterfly
+  vs_texture: TP_enemies
+  vs_ids: [TP_BITTERFLY]
+  vs_bestiary_name: Bitterfly
+  stages: [TP_CASTLE, TP_CHAPEL]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: 1408
+  ro_aegis: BLOOD_BUTTERFLY
+  ro_sprite: blood_butterfly
+  ro_size: Medium
+  ro_en: Bloody Butterfly
+  ro_ptbr: Borboleta Sangrenta [trad]
+  why: butterfly swarm
+  confidence: high
+  asset: ok
+- vs_family: TP_REUSE_BRAUNERSPAINTING
+  vs_texture: TP_enemiesReuse
+  vs_ids: [TP_BRAUNERSPAINTING]
+  vs_bestiary_name: Bloody Painting
+  stages: [TP_CASTLE, TP_CHAPEL]
+  scope: dlc_castlevania
+  role: elite
+  ro_mob_id: 1260
+  ro_aegis: DARK_FRAME
+  ro_sprite: dark_frame
+  ro_size: Medium
+  ro_en: Dark Frame
+  ro_ptbr: Moldura Sombria [trad]
+  why: haunted painting -> Dark Frame
+  confidence: high
+  asset: ok
+- vs_family: TP_CaveTroll
+  vs_texture: TP_enemies
+  vs_ids: [TP_CAVETROLL, TP_ADV_CAVETROLL]
+  vs_bestiary_name: Cave Troll
+  stages: [TP_CASTLE, TP_CHAPEL, ADV]
+  scope: dlc_castlevania
+  role: elite
+  ro_mob_id: 1202
+  ro_aegis: PHENDARK
+  ro_sprite: phendark
+  ro_size: Large
+  ro_en: Phendark
+  ro_ptbr: Phendark
+  why: hulking brute
+  confidence: low
+  asset: ok
+- vs_family: TP_FishMan
+  vs_texture: TP_enemies
+  vs_ids: [TP_FISHMAN_01, TP_FISHMAN_02, TP_ADV_FISHMAN_SCALING]
+  vs_bestiary_name: Fishman
+  stages: [TP_CASTLE, TP_CHAPEL, ADV]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: 1264
+  ro_aegis: MERMAN
+  ro_sprite: merman
+  ro_size: Medium
+  ro_en: Merman
+  ro_ptbr: Tritão
+  why: fishman -> merman (base Fishman pick)
+  confidence: high
+  asset: ok
+- vs_family: TP_Persephone
+  vs_texture: TP_enemies
+  vs_ids: [TP_PERSEPHONE_01, TP_PERSEPHONE_02, TP_PERSEPHONE_03]
+  vs_bestiary_name: Persephone
+  stages: [TP_CASTLE, TP_CHAPEL]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: 1275
+  ro_aegis: ALICE
+  ro_sprite: alice
+  ro_size: Medium
+  ro_en: Alice
+  ro_ptbr: Alice
+  why: demon maid -> RO maid monster
+  confidence: high
+  asset: ok
+- vs_family: TP_Reuse_PersephoneVaccuumA
+  vs_texture: TP_enemiesReuse
+  vs_ids: [TP_PERSEPHONEVACCUUM]
+  vs_bestiary_name: null
+  stages: [TP_CASTLE, TP_CHAPEL]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: 1735
+  ro_aegis: ALICEL
+  ro_sprite: alicel
+  ro_size: Medium
+  ro_en: Alicel
+  ro_ptbr: Alicel
+  why: maid with vacuum -> mechanical maid
+  confidence: med
+  asset: ok
+- vs_family: TP_Ghost
+  vs_texture: TP_enemies
+  vs_ids: [TP_GHOST, TP_ADV_GHOST_BOMB]
+  vs_bestiary_name: Ghost / Sig.ra Rossi
+  stages: [TP_CASTLE, TP_CHAPEL, ADV]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: 1179
+  ro_aegis: WHISPER
+  ro_sprite: whisper
+  ro_size: Small
+  ro_en: Whisper
+  ro_ptbr: Whisper
+  why: little ghost (base Ghost pick)
+  confidence: high
+  asset: ok
+- vs_family: TP_ReuseSkeletonSpear
+  vs_texture: TP_enemiesReuse
+  vs_ids: [TP_SKELETONSPEAR]
+  vs_bestiary_name: Spear Skeleton
+  stages: [TP_CHAPEL]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: 1028
+  ro_aegis: SOLDIER_SKELETON
+  ro_sprite: skel_soldier
+  ro_size: Medium
+  ro_en: Soldier Skeleton
+  ro_ptbr: Esqueleto Soldado
+  why: armed skeleton soldier
+  confidence: med
+  asset: ok
+- vs_family: TP_FlyingZombie
+  vs_texture: TP_enemies
+  vs_ids: [TP_FLYINGZOMBIE_01, TP_FLYINGZOMBIE_02, TP_COUNTER]
+  vs_bestiary_name: Flying Zombie
+  stages: [TP_CASTLE]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: 1197
+  ro_aegis: ZOMBIE_PRISONER
+  ro_sprite: zombie_prisoner
+  ro_size: Medium
+  ro_en: Zombie Prisoner
+  ro_ptbr: Zumbi Prisioneiro
+  why: flying zombie swarm -> Glast Heim prison zombie
+  confidence: med
+  asset: ok
+- vs_family: TP_Dullahan
+  vs_texture: TP_enemies
+  vs_ids: [TP_DULLAHAN_01, TP_DULLAHAN_02, TP_DULLAHAN_03, TP_ADV_RED_DULLAHAN, TP_ADV_DULLAHAN]
+  vs_bestiary_name: Dullahan / Killer Doll
+  stages: [TP_CASTLE, ADV]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: 1504
+  ro_aegis: DULLAHAN
+  ro_sprite: dullahan
+  ro_size: Medium
+  ro_en: Dullahan
+  ro_ptbr: Dullahan
+  why: same creature (headless knight)
+  confidence: high
+  asset: ok
+- vs_family: TP_SkeletonApe
+  vs_texture: TP_enemies
+  vs_ids: [TP_SKELETONAPE, TP_ADV_SKELETONAPE]
+  vs_bestiary_name: Skeleton Ape
+  stages: [TP_CASTLE, ADV]
+  scope: dlc_castlevania
+  role: elite
+  ro_mob_id: 1196
+  ro_aegis: SKEL_PRISONER
+  ro_sprite: skel_prisoner
+  ro_size: Medium
+  ro_en: Skeleton Prisoner
+  ro_ptbr: Esqueleto Prisioneiro
+  why: hunched barrel-throwing skeleton
+  confidence: low
+  asset: ok
+- vs_family: TP_Yorick
+  vs_texture: TP_enemies
+  vs_ids: [TP_YORICK_01, TP_YORICK_02, TP_MINIBOSS_SISYPHUSYORICK, TP_ADV_RED_YORICK, TP_SKELETON_COUNTER]
+  vs_bestiary_name: Yorick / Killer Doll
+  stages: [TP_CASTLE, ADV]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: 1076
+  ro_aegis: SKELETON
+  ro_sprite: skeleton
+  ro_size: Medium
+  ro_en: Skeleton
+  ro_ptbr: Esqueleto
+  why: plain skeleton that kicks its skull
+  confidence: high
+  asset: ok
+- vs_family: TP_AmalaricSniper
+  vs_texture: TP_enemies
+  vs_ids: [TP_AMALARICSNIPER, TP_PATROL_AMALARICSNIPER]
+  vs_bestiary_name: Amalaric Sniper
+  stages: [TP_CASTLE]
+  scope: dlc_castlevania
+  role: elite
+  ro_mob_id: 1276
+  ro_aegis: RAYDRIC_ARCHER
+  ro_sprite: raydric_archer
+  ro_size: Medium
+  ro_en: Raydric Archer
+  ro_ptbr: Raydric Arqueiro
+  why: armored archer
+  confidence: high
+  asset: ok
+- vs_family: TP_FlyingSkeleton
+  vs_texture: TP_enemies
+  vs_ids: [TP_FLYINGSKELETON]
+  vs_bestiary_name: Flying Skeleton
+  stages: [unstaged]
+  scope: dlc_castlevania
+  role: elite
+  ro_mob_id: 2407
+  ro_aegis: SAILOR_SKELETON
+  ro_sprite: sailor_skeleton
+  ro_size: Medium
+  ro_en: Sailor Skeleton
+  ro_ptbr: Esqueleto Marinheiro [trad]
+  why: unstaged skeleton variant
+  confidence: low
+  asset: ok
+- vs_family: TP_GurkhaKnifeMaster
+  vs_texture: TP_enemies
+  vs_ids: [TP_GURKHAKNIFEMASTER, TP_ADV_XLGURKHAKNIFEMASTER]
+  vs_bestiary_name: Gurkha Knife Master
+  stages: [TP_CASTLE, ADV]
+  scope: dlc_castlevania
+  role: elite
+  ro_mob_id: 1268
+  ro_aegis: BLOODY_KNIGHT
+  ro_sprite: bloody_knight
+  ro_size: Large
+  ro_en: Bloody Knight
+  ro_ptbr: Cavaleiro Sangrento
+  why: tanky blade master (hp 90) -> Bloody Knight
+  confidence: low
+  asset: ok
+- vs_family: TP_Gorgon
+  vs_texture: TP_enemies
+  vs_ids: [TP_GORGON, TP_ADV_XLGORGON, TP_ADV_BOSS_XLGORGON]
+  vs_bestiary_name: Gorgon
+  stages: [TP_CASTLE, ADV]
+  scope: dlc_castlevania
+  role: elite
+  ro_mob_id: 1283
+  ro_aegis: CHIMERA
+  ro_sprite: chimera
+  ro_size: Large
+  ro_en: Chimera
+  ro_ptbr: Quimera
+  why: big breath-beast
+  confidence: low
+  asset: ok
+- vs_family: TP_BoneGolem
+  vs_texture: TP_enemies
+  vs_ids: [TP_BONEGOLEM, TP_ADV_XLBONEGOLEM, TP_ADV_BOSS_XLBONEGOLEM]
+  vs_bestiary_name: Bone Golem
+  stages: [TP_CASTLE, ADV]
+  scope: dlc_castlevania
+  role: elite
+  ro_mob_id: 1278
+  ro_aegis: STALACTIC_GOLEM
+  ro_sprite: stalactic_golem
+  ro_size: Large
+  ro_en: Stalactic Golem
+  ro_ptbr: Golem Estalactite [trad]
+  why: pale hulking golem
+  confidence: med
+  asset: ok
+- vs_family: TP_DiscArmor
+  vs_texture: TP_enemies
+  vs_ids: [TP_DISCARMOR, TP_ADV_XLDISCARMOR, TP_ADV_BOSS_XLDISCARMOR]
+  vs_bestiary_name: Disc Armor
+  stages: [TP_CASTLE, ADV]
+  scope: dlc_castlevania
+  role: elite
+  ro_mob_id: 1163
+  ro_aegis: RAYDRIC
+  ro_sprite: raydric
+  ro_size: Large
+  ro_en: Raydric
+  ro_ptbr: Raydric
+  why: living armor
+  confidence: high
+  asset: ok
+- vs_family: TP_Alastor
+  vs_texture: TP_enemies
+  vs_ids: [TP_ALASTOR, TP_PATROL_ALASTOR, TP_ADV_XLALASTOR, TP_ADV_BOSS_XLALASTOR]
+  vs_bestiary_name: Alastor
+  stages: [TP_CASTLE, ADV]
+  scope: dlc_castlevania
+  role: elite
+  ro_mob_id: 2473
+  ro_aegis: MG_M_UNDEAD_KNIGHT
+  ro_sprite: mg_m_undead_knight
+  ro_size: Medium
+  ro_en: 1st Commander of Destruc
+  ro_ptbr: Comandante da Destruição [trad]
+  why: great-sword demon knight -> Glast Heim undead commander
+  confidence: low
+  asset: ok
+- vs_family: TP_WargRider
+  vs_texture: TP_enemies
+  vs_ids: [TP_WARGRIDER]
+  vs_bestiary_name: Warg Rider
+  stages: [TP_CASTLE]
+  scope: dlc_castlevania
+  role: elite
+  ro_mob_id: 2208
+  ro_aegis: WILD_RIDER
+  ro_sprite: wild_rider
+  ro_size: Large
+  ro_en: Wild Rider
+  ro_ptbr: Cavaleiro Selvagem [trad]
+  why: rider on a beast
+  confidence: low
+  asset: ok
+- vs_family: TP_Malachi
+  vs_texture: TP_enemies
+  vs_ids: [TP_MALACHI, TP_ADV_MALACHI]
+  vs_bestiary_name: Malachi
+  stages: [TP_CASTLE, ADV]
+  scope: dlc_castlevania
+  role: elite
+  ro_mob_id: 1302
+  ro_aegis: DARK_ILLUSION
+  ro_sprite: dark_illusion
+  ro_size: Large
+  ro_en: Dark Illusion
+  ro_ptbr: Ilusão Sombria [trad]
+  why: floating dark spirit of Glast Heim
+  confidence: low
+  asset: ok
+- vs_family: TP_Werewolf
+  vs_texture: TP_enemies
+  vs_ids: [TP_WEREWOLF]
+  vs_bestiary_name: Castle Werewolf
+  stages: [TP_CASTLE]
+  scope: dlc_castlevania
+  role: elite
+  ro_mob_id: 1092
+  ro_aegis: VAGABOND_WOLF
+  ro_sprite: vagabond_wolf
+  ro_size: Medium
+  ro_en: Vagabond Wolf
+  ro_ptbr: Lobo Vagabundo [trad]
+  why: werewolf -> big lone wolf
+  confidence: med
+  asset: ok
+- vs_family: TP_Reuse_AxeArmor
+  vs_texture: TP_enemiesReuse
+  vs_ids: [TP_AXEARMOR_01, TP_AXEARMOR_02, TP_AXEARMOR_FAST, TP_ADV_XLAXEARMOR, TP_ADV_BOSS_XLAXEARMOR]
+  vs_bestiary_name: Axe Armor
+  stages: [TP_CASTLE, ADV]
+  scope: dlc_castlevania
+  role: elite
+  ro_mob_id: 1132
+  ro_aegis: KHALITZBURG
+  ro_sprite: khalitzburg
+  ro_size: Large
+  ro_en: Khalitzburg
+  ro_ptbr: Khalitzburg
+  why: armored axe knight -> Khalitzburg
+  confidence: high
+  asset: ok
+- vs_family: TP_KillerDoll
+  vs_texture: TP_enemies
+  vs_ids: [TP_KILLERDOLL, TP_ADV_KILLERDOLL]
+  vs_bestiary_name: Killer Doll
+  stages: [TP_CASTLE, ADV]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: 1143
+  ro_aegis: MARIONETTE
+  ro_sprite: marionette
+  ro_size: Small
+  ro_en: Marionette
+  ro_ptbr: Marionete
+  why: killer doll -> marionette
+  confidence: high
+  asset: ok
+- vs_family: TP_MudMan
+  vs_texture: TP_enemies
+  vs_ids: [TP_MUDMAN]
+  vs_bestiary_name: Mud Man
+  stages: [unstaged]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: 1165
+  ro_aegis: SAND_MAN
+  ro_sprite: sand_man
+  ro_size: Medium
+  ro_en: Sandman
+  ro_ptbr: Homem de Areia [trad]
+  why: mud man (base Mud pick)
+  confidence: med
+  asset: ok
+- vs_family: TP_MEDUSAHEAD
+  vs_texture: TP_enemiesReuse
+  vs_ids: [TP_MEDUSAHEAD, TP_MEDUSAHEAD2, TP_MEDUSAHEAD_AGGRO]
+  vs_bestiary_name: Medusa Head
+  stages: [unstaged]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: 1029
+  ro_aegis: ISIS
+  ro_sprite: isis
+  ro_size: Large
+  ro_en: Isis
+  ro_ptbr: Isis
+  why: snake-haired flying heads -> snake woman
+  confidence: low
+  asset: ok
+- vs_family: TP_CorpseWeed
+  vs_texture: TP_enemies
+  vs_ids: [TP_CORPSEWEED_WALL]
+  vs_bestiary_name: Corpseweed
+  stages: [TP_CASTLE]
+  scope: dlc_castlevania
+  role: event
+  ro_mob_id: 2015
+  ro_aegis: PINGUICULA_D
+  ro_sprite: pinguicula_d
+  ro_size: Medium
+  ro_en: Dark Pinguicula
+  ro_ptbr: Pinguícula Sombria [trad]
+  why: wall-circle carnivorous weed
+  confidence: med
+  asset: ok
+- vs_family: TP_BoneArk
+  vs_texture: TP_enemies
+  vs_ids: [TP_BONEARK]
+  vs_bestiary_name: Bone Ark
+  stages: [TP_CASTLE]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: 1016
+  ro_aegis: ARCHER_SKELETON
+  ro_sprite: skel_archer
+  ro_size: Medium
+  ro_en: Archer Skeleton
+  ro_ptbr: Esqueleto Arqueiro
+  why: bone shooter -> skeleton archer
+  confidence: low
+  asset: ok
+- vs_family: TP_BONEPILLAR
+  vs_texture: TP_enemiesReuse
+  vs_ids: [TP_BONEPILLAR, TP_ADV_BONEPILLAR_02, TP_ADV_BONEPILLAR_03, TP_ADV_BOSS_BONEPILLAR, TP_BONEPILLAR_EVENT]
+  vs_bestiary_name: Bone Pillar
+  stages: [TP_CASTLE, ADV]
+  scope: dlc_castlevania
+  role: event
+  ro_mob_id: 1068
+  ro_aegis: HYDRA
+  ro_sprite: hydra
+  ro_size: Small
+  ro_en: Hydra
+  ro_ptbr: Hidra
+  why: stationary multi-head spitter
+  confidence: low
+  asset: ok
+- vs_family: TP_BONE_BULLET
+  vs_texture: TP_enemiesReuse
+  vs_ids: [TP_BONE_BULLET, TP_ADV_PHANTOM_BULLET]
+  vs_bestiary_name: null
+  stages: [ADV]
+  scope: dlc_castlevania
+  role: projectile
+  ro_mob_id: null
+  ro_aegis: null
+  ro_sprite: null
+  ro_size: null
+  ro_en: null
+  ro_ptbr: null
+  why: projectile; effects pass
+  confidence: high
+  asset: n/a
+- vs_family: WhiteDot:Legion
+  vs_texture: vfx (WhiteDot placeholder; boss art in its own bundle)
+  vs_ids: [TP_BOSS_LEGION, TP_BOSS_LEGION_SECTION, TP_BOSS_LEGION_ZOMBIE]
+  vs_bestiary_name: null
+  stages: [unstaged]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 2475
+  ro_aegis: MG_CORRUPTION_ROOT
+  ro_sprite: mg_corruption_root
+  ro_size: Large
+  ro_en: Corrupted Soul
+  ro_ptbr: Alma Corrompida [trad]
+  why: ball of corpses -> Glast Heim corrupted soul [MVP]; zombie sections -> Ragged Zombie
+  confidence: med
+  asset: ok
+- vs_family: WhiteDot:Beelzebub
+  vs_texture: vfx (WhiteDot placeholder; boss art in its own bundle)
+  vs_ids: [TP_BOSS_BEELZEBUB, TP_BOSS_BEELZEBUB_SECTION, TP_BOSS_BEELZEBUB_BEE]
+  vs_bestiary_name: null
+  stages: [unstaged]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1874
+  ro_aegis: BEELZEBUB_
+  ro_sprite: beelzebub_
+  ro_size: Large
+  ro_en: Beelzebub
+  ro_ptbr: Belzebu
+  why: same demon [MVP]; bee minions -> Hunter Fly
+  confidence: high
+  asset: ok
+- vs_family: TP_JiangShi
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_JIANGSHI, TP_ADV_BOSS_JIANGSHI]
+  vs_bestiary_name: null
+  stages: [ADV]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1188
+  ro_aegis: BON_GUN
+  ro_sprite: bon_gun
+  ro_size: Medium
+  ro_en: Bongun
+  ro_ptbr: Bongun
+  why: hopping jiangshi -> Korean jiangshi
+  confidence: high
+  asset: ok
+- vs_family: TP_Keremet
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_KEREMET]
+  vs_bestiary_name: null
+  stages: [unstaged]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1974
+  ro_aegis: BANSHEE_MASTER
+  ro_sprite: banshee_master
+  ro_size: Medium
+  ro_en: Banshee Master
+  ro_ptbr: Mestre Banshee [trad]
+  why: caster boss
+  confidence: low
+  asset: ok
+- vs_family: TP_Zephyr
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_ZEPHYR, TP_ADV_BOSS_ZEPHYR]
+  vs_bestiary_name: null
+  stages: [ADV]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1507
+  ro_aegis: BLOODY_MURDERER
+  ro_sprite: bloody_murderer
+  ro_size: Large
+  ro_en: Bloody Murderer
+  ro_ptbr: Assassino Sangrento [trad]
+  why: time-stopping assassin -> Niflheim killer
+  confidence: low
+  asset: ok
+- vs_family: TP_StoneRose
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_STONEROSE, TP_ADV_BOSS_STONEROSE]
+  vs_bestiary_name: null
+  stages: [ADV]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1118
+  ro_aegis: FLORA
+  ro_sprite: flora
+  ro_size: Large
+  ro_en: Flora
+  ro_ptbr: Flora
+  why: plant boss
+  confidence: med
+  asset: ok
+- vs_family: TP_Malphas
+  vs_texture: TP_enemiesReuse
+  vs_ids: [TP_BOSS_MALPHAS, TP_ADV_BOSS_MALPHAS]
+  vs_bestiary_name: null
+  stages: [TP_CASTLE, ADV]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1295
+  ro_aegis: OWL_BARON
+  ro_sprite: owl_baron
+  ro_size: Large
+  ro_en: Owl Baron
+  ro_ptbr: Barão Coruja [trad]
+  why: bird demon
+  confidence: low
+  asset: ok
+- vs_family: TP_Olrox
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_OLROX]
+  vs_bestiary_name: null
+  stages: [unstaged]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1389
+  ro_aegis: DRACULA
+  ro_sprite: dracula
+  ro_size: Large
+  ro_en: Dracula
+  ro_ptbr: Drácula
+  why: vampire noble -> Dracula [MVP] (no Dracula enemy in this DLC)
+  confidence: med
+  asset: ok
+- vs_family: TP_OlroxMonster
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_OLROX2]
+  vs_bestiary_name: null
+  stages: [unstaged]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1272
+  ro_aegis: DARK_LORD
+  ro_sprite: dark_lord
+  ro_size: Large
+  ro_en: Dark Lord
+  ro_ptbr: Lorde das Trevas
+  why: Olrox beast form -> Dark Lord [MVP]
+  confidence: med
+  asset: ok
+- vs_family: TP_REUSE_GAIBON
+  vs_texture: TP_enemiesReuse
+  vs_ids: [TP_BOSS_GAIBON]
+  vs_bestiary_name: null
+  stages: [unstaged]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 3197
+  ro_aegis: MM_M_GARGOYLE
+  ro_sprite: mm_m_gargoyle
+  ro_size: Medium
+  ro_en: Mutant Gargoyle
+  ro_ptbr: Gárgula Mutante [trad]
+  why: boss Gaibon -> bigger gargoyle
+  confidence: med
+  asset: ok
+- vs_family: TP_Reuse_Slorga
+  vs_texture: TP_enemiesReuse
+  vs_ids: [TP_BOSS_SLOGRA]
+  vs_bestiary_name: null
+  stages: [unstaged]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1290
+  ro_aegis: SKELETON_GENERAL
+  ro_sprite: skeleton_general
+  ro_size: Medium
+  ro_en: Skeleton General
+  ro_ptbr: General Esqueleto
+  why: Slogra, spear skeleton-bird -> Skeleton General
+  confidence: med
+  asset: ok
+- vs_family: TP_Behemoth(Bloodless)
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_BEHEMOTH, TP_ADV_BOSS_BEHEMOTH]
+  vs_bestiary_name: null
+  stages: [ADV]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 3200
+  ro_aegis: MM_M_CHIMERA
+  ro_sprite: mm_m_chimera
+  ro_size: Large
+  ro_en: Wicked Chimera
+  ro_ptbr: Quimera Perversa [trad]
+  why: charging giant beast
+  confidence: low
+  asset: ok
+- vs_family: TP_Treant
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_TREANT, TP_ADV_BOSS_TREANT]
+  vs_bestiary_name: null
+  stages: [ADV]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 2019
+  ro_aegis: ANCIENT_TREE
+  ro_sprite: ancient_tree
+  ro_size: Large
+  ro_en: Ancient Tree
+  ro_ptbr: Árvore Anciã [trad]
+  why: treant -> ancient tree
+  confidence: high
+  asset: ok
+- vs_family: TP_Abbadon
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_ABBADON]
+  vs_bestiary_name: null
+  stages: [unstaged]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1382
+  ro_aegis: DIABOLIC
+  ro_sprite: diabolic
+  ro_size: Small
+  ro_en: Diabolic
+  ro_ptbr: Diabolic
+  why: locust demon
+  confidence: low
+  asset: ok
+- vs_family: TP_MENACE
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_MENACE]
+  vs_bestiary_name: null
+  stages: [unstaged]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 2476
+  ro_aegis: MG_AMDARAIS
+  ro_sprite: mg_amdarais
+  ro_size: Large
+  ro_en: Amdarais
+  ro_ptbr: Amdarais
+  why: colossal brute -> Glast Heim giant knight [MVP]
+  confidence: med
+  asset: ok
+- vs_family: TP_Eligor
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_ELIGOR, TP_ADV_BOSS_ELIGOR]
+  vs_bestiary_name: null
+  stages: [ADV]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1379
+  ro_aegis: NIGHTMARE_TERROR
+  ro_sprite: nightmare_terror
+  ro_size: Large
+  ro_en: Nightmare Terror
+  ro_ptbr: Nightmare Terror
+  why: demon centaur on horse -> demon horse
+  confidence: med
+  asset: ok
+- vs_family: TP_Galamoth
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_GALAMOTH]
+  vs_bestiary_name: null
+  stages: [unstaged]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 2255
+  ro_aegis: KADES
+  ro_sprite: kades
+  ro_size: Large
+  ro_en: Dark Guardian Kades
+  ro_ptbr: Kades
+  why: giant demon lord [MVP]
+  confidence: low
+  asset: ok
+- vs_family: TP_Gergoth
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_GERGOTH, TP_ADV_BOSS_GERGOTH]
+  vs_bestiary_name: null
+  stages: [ADV]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 2131
+  ro_aegis: LOST_DRAGON
+  ro_sprite: lost_dragon
+  ro_size: Large
+  ro_en: Lost Dragon
+  ro_ptbr: Dragão Perdido [trad]
+  why: rotting dragon [MVP]
+  confidence: med
+  asset: ok
+- vs_family: TP_GiantMedusaHead
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_GIANTMEDUSAHEAD, TP_ADV_BOSS_GIANTMEDUSAHEAD]
+  vs_bestiary_name: null
+  stages: [ADV]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1418
+  ro_aegis: DARK_SNAKE_LORD
+  ro_sprite: dark_snake_lord
+  ro_size: Large
+  ro_en: Evil Snake Lord
+  ro_ptbr: Senhor das Serpentes [trad]
+  why: giant snake-haired head [MVP]
+  confidence: low
+  asset: ok
+- vs_family: TP_BOSS_PUPPETMASTER
+  vs_texture: TP_enemiesReuse
+  vs_ids: [TP_BOSS_PUPPETMASTER]
+  vs_bestiary_name: null
+  stages: [unstaged]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1870
+  ro_aegis: NECROMANCER
+  ro_sprite: necromancer
+  ro_size: Medium
+  ro_en: Necromancer
+  ro_ptbr: Necromante
+  why: puppeteer of bodies
+  confidence: med
+  asset: ok
+- vs_family: TP_BLACKMORE_CONDUCTOR
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_BLACKMORE]
+  vs_bestiary_name: null
+  stages: [unstaged]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1390
+  ro_aegis: VIOLY
+  ro_sprite: violy
+  ro_size: Medium
+  ro_en: Violy
+  ro_ptbr: Violy
+  why: conductor -> musical monster
+  confidence: med
+  asset: ok
+- vs_family: TP_Paranoia
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_PARANOIA, TP_ADV_BOSS_PARANOIA]
+  vs_bestiary_name: null
+  stages: [ADV]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1506
+  ro_aegis: DISGUISE
+  ro_sprite: disguise
+  ro_size: Medium
+  ro_en: Disguise
+  ro_ptbr: Disguise
+  why: mirror trickster -> masked Niflheim mob
+  confidence: low
+  asset: ok
+- vs_family: TP_BRACHYURA
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_BRACHYURA, TP_ADV_BOSS_BRACHYURA, TP_ADV_SUNKEN_BRACHYURA_BOSS]
+  vs_bestiary_name: null
+  stages: [ADV]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 2202
+  ro_aegis: KRAKEN
+  ro_sprite: kraken
+  ro_size: Large
+  ro_en: Kraken
+  ro_ptbr: Kraken
+  why: giant crab of the aqueduct -> sea MVP [MVP]
+  confidence: med
+  asset: ok
+- vs_family: TP_BOSS_BRACHYURACLAW%
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_BRACHYURA_CLAW]
+  vs_bestiary_name: null
+  stages: [unstaged]
+  scope: dlc_castlevania
+  role: segment
+  ro_mob_id: 2206
+  ro_aegis: KRAKEN_LEG
+  ro_sprite: kraken_leg
+  ro_size: Large
+  ro_en: Kraken Tentacle
+  ro_ptbr: Tentáculo do Kraken [trad]
+  why: boss limb
+  confidence: med
+  asset: ok
+- vs_family: TP_GIANTBAT
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_GIANTBAT, TP_ADV_BOSS_PHANTOMBAT]
+  vs_bestiary_name: null
+  stages: [ADV]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1111
+  ro_aegis: DRAINLIAR
+  ro_sprite: drainliar
+  ro_size: Small
+  ro_en: Drainliar
+  ro_ptbr: Drainliar
+  why: giant bat
+  confidence: high
+  asset: ok
+- vs_family: WhiteDot:Death
+  vs_texture: vfx (WhiteDot placeholder; boss art in its own bundle)
+  vs_ids: [TP_BOSS_DEATH, TP_BOSS_DEATHARM, TP_BOSS_DEATH_SCYTHE, TP_BOSS_DEATH_SCYTHEBIG]
+  vs_bestiary_name: null
+  stages: [unstaged]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1373
+  ro_aegis: LORD_OF_DEATH
+  ro_sprite: lord_of_death
+  ro_size: Large
+  ro_en: Lord of the Dead
+  ro_ptbr: Senhor dos Mortos
+  why: Death -> Lord of Death [MVP]; arm/scythes are segments
+  confidence: high
+  asset: ok
+- vs_family: TP_REUSE_SLORGA
+  vs_texture: TP_enemiesReuse
+  vs_ids: [TP_BOSS_SLORGA]
+  vs_bestiary_name: null
+  stages: [TP_CHAPEL]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1290
+  ro_aegis: SKELETON_GENERAL
+  ro_sprite: skeleton_general
+  ro_size: Medium
+  ro_en: Skeleton General
+  ro_ptbr: General Esqueleto
+  why: same Slogra (other texture); same pick on purpose
+  confidence: med
+  asset: ok
+- vs_family: TP_Slogra
+  vs_texture: TP_enemiesReuse
+  vs_ids: [TP_ADV_SLOGRA]
+  vs_bestiary_name: null
+  stages: [ADV]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1290
+  ro_aegis: SKELETON_GENERAL
+  ro_sprite: skeleton_general
+  ro_size: Medium
+  ro_en: Skeleton General
+  ro_ptbr: General Esqueleto
+  why: same Slogra (ADV texture); same pick on purpose
+  confidence: med
+  asset: ok
+- vs_family: WhiteDot:Doppleganger
+  vs_texture: vfx (WhiteDot placeholder; boss art in its own bundle)
+  vs_ids: [TP_BOSS_DOPPLEGANGER]
+  vs_bestiary_name: null
+  stages: [unstaged]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1046
+  ro_aegis: DOPPELGANGER
+  ro_sprite: doppelganger
+  ro_size: Medium
+  ro_en: Doppelganger
+  ro_ptbr: Doppelganger
+  why: same name and role [MVP]
+  confidence: high
+  asset: ok
+- vs_family: TP_Mummy
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_MUMMY, TP_ADV_BOSS_MUMMY]
+  vs_bestiary_name: null
+  stages: [ADV]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1297
+  ro_aegis: ANCIENT_MUMMY
+  ro_sprite: ancient_mummy
+  ro_size: Medium
+  ro_en: Ancient Mummy
+  ro_ptbr: Múmia Anciã [trad]
+  why: mummy boss
+  confidence: high
+  asset: ok
+- vs_family: TP_TheCreature
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_CREATURE, TP_ADV_BOSS_CREATURE]
+  vs_bestiary_name: null
+  stages: [ADV]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 3473
+  ro_aegis: AS_RAGGED_GOLEM
+  ro_sprite: as_ragged_golem
+  ro_size: Large
+  ro_en: Stefan.J.E.Wolf
+  ro_ptbr: Stefan J.E. Wolf
+  why: Frankenstein's creature -> stitched golem [MVP]
+  confidence: high
+  asset: ok
+- vs_family: TP_Boss_Bat
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_BAT, TP_ADV_MINION_SWARMBAT]
+  vs_bestiary_name: Familiar Bat
+  stages: [TP_CASTLE, TP_CASTLE_TEST, ADV]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1005
+  ro_aegis: FARMILIAR
+  ro_sprite: farmiliar
+  ro_size: Small
+  ro_en: Familiar
+  ro_ptbr: Familiar
+  why: named 'Familiar Bat' -> Familiar
+  confidence: high
+  asset: ok
+- vs_family: TP_Medusa
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_MEDUSA, TP_ADV_MEDUSA, TP_ADV_MEDUSA_02]
+  vs_bestiary_name: The Medusa / Undead Witch
+  stages: [TP_CASTLE, ADV]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1148
+  ro_aegis: MEDUSA
+  ro_sprite: medusa
+  ro_size: Medium
+  ro_en: Medusa
+  ro_ptbr: Medusa
+  why: same creature
+  confidence: high
+  asset: ok
+- vs_family: TP_Bugbear
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_BUGBEAR, TP_ADV_BUGBEAR]
+  vs_bestiary_name: Bugbear
+  stages: [TP_CASTLE, TP_CHAPEL, ADV]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1306
+  ro_aegis: LEIB_OLMAI
+  ro_sprite: leib_olmai
+  ro_size: Large
+  ro_en: Leib Olmai
+  ro_ptbr: Leib Olmai
+  why: big bear-beast
+  confidence: med
+  asset: ok
+- vs_family: TP_Devil
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_DEVIL, TP_ADV_DEVIL]
+  vs_bestiary_name: Devil
+  stages: [TP_CASTLE, TP_CHAPEL, ADV]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1582
+  ro_aegis: DEVILING
+  ro_sprite: deviling
+  ro_size: Medium
+  ro_en: Deviling
+  ro_ptbr: Deviling
+  why: red devil
+  confidence: med
+  asset: ok
+- vs_family: TP_Minotaur
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_MINOTAUR, TP_ADV_MINOTAUR_SCALING]
+  vs_bestiary_name: Minotaur
+  stages: [TP_CASTLE, ADV]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1149
+  ro_aegis: MINOROUS
+  ro_sprite: minorous
+  ro_size: Large
+  ro_en: Minorous
+  ro_ptbr: Minorous
+  why: minotaur
+  confidence: high
+  asset: ok
+- vs_family: TP_Stella
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_STELLA]
+  vs_bestiary_name: null
+  stages: [unstaged]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1703
+  ro_aegis: SOLACE
+  ro_sprite: solace
+  ro_size: Medium
+  ro_en: Lady Solace
+  ro_ptbr: Lady Solace
+  why: vampire twin (elder) -> Thanatos lady
+  confidence: low
+  asset: ok
+- vs_family: TP_Loretta
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_LORETTA]
+  vs_bestiary_name: null
+  stages: [unstaged]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1505
+  ro_aegis: LOLI_RURI
+  ro_sprite: loli_ruri
+  ro_size: Large
+  ro_en: Loli Ruri
+  ro_ptbr: Loli Ruri
+  why: vampire twin (younger) -> Niflheim vampire girl
+  confidence: med
+  asset: ok
+- vs_family: TP_BOSS_Carmilla
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_CARMILLA, TP_ADV_CARMILLA]
+  vs_bestiary_name: null
+  stages: [ADV]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1102
+  ro_aegis: BATHORY
+  ro_sprite: bathory
+  ro_size: Medium
+  ro_en: Bathory
+  ro_ptbr: Bathory
+  why: blood countess -> Bathory
+  confidence: med
+  asset: ok
+- vs_family: TP_Walter
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_WALTER]
+  vs_bestiary_name: null
+  stages: [unstaged]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1374
+  ro_aegis: INCUBUS
+  ro_sprite: incubus
+  ro_size: Medium
+  ro_en: Incubus
+  ro_ptbr: Incubus
+  why: vampire lord
+  confidence: low
+  asset: ok
+- vs_family: TP_BOSS_Joachim
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_JOACHIM]
+  vs_bestiary_name: null
+  stages: [unstaged]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1203
+  ro_aegis: MYSTELTAINN
+  ro_sprite: mysteltainn
+  ro_size: Large
+  ro_en: Mysteltainn
+  ro_ptbr: Mysteltainn
+  why: vampire of floating swords -> living sword
+  confidence: low
+  asset: ok
+- vs_family: TP_Soleil
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_SOLEIL]
+  vs_bestiary_name: null
+  stages: [unstaged]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 2415
+  ro_aegis: L_SEYREN
+  ro_sprite: l_seyren
+  ro_size: Medium
+  ro_en: Knight Seyren
+  ro_ptbr: Cavaleiro Seyren [trad]
+  why: fallen hunter heir -> Seyren
+  confidence: low
+  asset: ok
+- vs_family: TP_Succubus
+  vs_texture: TP_enemies
+  vs_ids: [TP_BOSS_SUCCUBUS, TP_ADV_MINION_SUCCUBUS, TP_ADV_BOSS_SUCCUBUS]
+  vs_bestiary_name: null
+  stages: [ADV]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1370
+  ro_aegis: SUCCUBUS
+  ro_sprite: succubus
+  ro_size: Medium
+  ro_en: Succubus
+  ro_ptbr: Súcubo
+  why: same creature (boss texture); same pick on purpose
+  confidence: high
+  asset: ok
+- vs_family: Bat4
+  vs_texture: enemies
+  vs_ids: [TP_ADV_MINION_PARANOIAFACADE]
+  vs_bestiary_name: null
+  stages: [ADV]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: null
+  ro_aegis: null
+  ro_sprite: null
+  ro_size: null
+  ro_en: null
+  ro_ptbr: null
+  why: 'base texture reuse (facade minion): inherits base Bat4 pick'
+  confidence: high
+  asset: n/a
+- vs_family: Bat1
+  vs_texture: enemies
+  vs_ids: [TP_ADV_MINION_PLAYERFACADE]
+  vs_bestiary_name: null
+  stages: [ADV]
+  scope: dlc_castlevania
+  role: fodder
+  ro_mob_id: null
+  ro_aegis: null
+  ro_sprite: null
+  ro_size: null
+  ro_en: null
+  ro_ptbr: null
+  why: 'base texture reuse (facade minion): inherits base Bat1 pick'
+  confidence: high
+  asset: n/a
+- vs_family: TP_ADV_Persephone
+  vs_texture: TP_enemies
+  vs_ids: [TP_ADV_PERSEPHONE]
+  vs_bestiary_name: Persephone
+  stages: [ADV]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 1275
+  ro_aegis: ALICE
+  ro_sprite: alice
+  ro_size: Medium
+  ro_en: Alice
+  ro_ptbr: Alice
+  why: ADV Persephone boss; same maid
+  confidence: high
+  asset: ok
+- vs_family: TP_ADV_GaibonRed_0
+  vs_texture: TP_enemies
+  vs_ids: [TP_ADV_GAIBON_RED]
+  vs_bestiary_name: Merdusa
+  stages: [ADV]
+  scope: dlc_castlevania
+  role: elite
+  ro_mob_id: 1253
+  ro_aegis: GARGOYLE
+  ro_sprite: gargoyle
+  ro_size: Medium
+  ro_en: Gargoyle
+  ro_ptbr: Gárgula
+  why: ADV red Gaibon recolor
+  confidence: med
+  asset: ok
+- vs_family: TP_ADV_GaibonRedBoss_0
+  vs_texture: TP_enemies
+  vs_ids: [TP_ADV_BOSS_GAIBON_RED]
+  vs_bestiary_name: null
+  stages: [ADV]
+  scope: dlc_castlevania
+  role: boss
+  ro_mob_id: 3197
+  ro_aegis: MM_M_GARGOYLE
+  ro_sprite: mm_m_gargoyle
+  ro_size: Medium
+  ro_en: Mutant Gargoyle
+  ro_ptbr: Gárgula Mutante [trad]
+  why: ADV red Gaibon boss
+  confidence: med
+  asset: ok
+stages:
+- vs_id: TP_CASTLE
+  vs_name: Castle Dracula
+  ro_region: Glast Heim (whole castle; biomes below) + Geffen Dungeon (Dracula) + Niflheim (Death)
+  ro_maps: [glast_01, gl_cas01, gl_knt01, gl_church, gl_sew01, gl_dun01, gl_prison, tha_t01, nif_fild01, gef_dun01, niflheim]
+  vs_tileset: ChapelTexturePacked/Chapel (data) + otc_001_* / tp_castledracula* tilemaps (bundles)
+  bgm_normal:
+    vs_key: BGM_TP_VS_VampireKiller
+    ro: 42 Curse'n Pain
+  bgm_b:
+    vs_key: BGM_TP_VS_BloodyTears
+    ro: 43 Morning Gloomy
+  en_name: Glast Heim Castle Dracula
+  ptbr_name: Castelo Drácula de Glast Heim
+  biomes:
+  - vs_biome: Entrance
+    ro_region: Glast Heim outskirts and entrance
+    ro_maps: [glast_01, gl_step]
+    ro_bgm_hint: 42 Curse'n Pain
+  - vs_biome: Forest
+    ro_region: Niflheim dead forest (Devious Woods)
+    ro_maps: [nif_fild01, nif_fild02]
+    ro_bgm_hint: 85 Dancing Christmas in the 13th Month
+  - vs_biome: Gallery
+    ro_region: Glast Heim Chivalry (Marble Gallery)
+    ro_maps: [gl_knt01, gl_knt02]
+    ro_bgm_hint: 44 TeMP it Up
+  - vs_biome: Library
+    ro_region: Glast Heim Castle (Long Library; Rideword)
+    ro_maps: [gl_cas01]
+    ro_bgm_hint: 43 Morning Gloomy
+  - vs_biome: Alchemy
+    ro_region: Glast Heim Castle upper floor (Alchemy Lab)
+    ro_maps: [gl_cas02]
+    ro_bgm_hint: 43 Morning Gloomy
+  - vs_biome: Tower
+    ro_region: Thanatos Tower (Clock Tower)
+    ro_maps: [tha_t01, tha_t04]
+    ro_bgm_hint: 102 Erebos' Prelude
+  - vs_biome: Aqueduct
+    ro_region: Glast Heim Culvert (Sunken City)
+    ro_maps: [gl_sew01, gl_sew02]
+    ro_bgm_hint: 48 Help Yourself
+  - vs_biome: Underground
+    ro_region: Glast Heim Underground Cave and Prison (Catacombs)
+    ro_maps: [gl_dun01, gl_dun02, gl_prison]
+    ro_bgm_hint: 40 Fear...
+  - vs_biome: Chapel
+    ro_region: Glast Heim St. Abbey and Churchyard (Royal Chapel)
+    ro_maps: [gl_church, gl_chyard]
+    ro_bgm_hint: 40 Fear...
+  - vs_biome: (none)
+    ro_region: Castle Keep / throne rooms -> Geffen Dungeon, Dracula's lair; Death fight in Niflheim
+    ro_maps: [gef_dun01, niflheim]
+    ro_bgm_hint: 21 Through the tower
+  why: Ruined haunted castle with chapel, culvert, catacombs and tower = Glast Heim, the RO Castlevania; throne room goes to Dracula's Geffen lair.
+  confidence: high
+- vs_id: TP_CHAPEL
+  vs_name: Profane Chapel
+  ro_region: Nameless Island, Cursed Abbey (Beelzebub)
+  ro_maps: [abbey02, abbey03]
+  vs_tileset: ChapelTexturePacked/Chapel (base tileset -> abbey, see base tilesets)
+  bgm_normal:
+    vs_key: BGM_Chapel_B
+    ro: inherit base (113 Monastery In Disguise / 112 Good Night)
+  bgm_b:
+    vs_key: BGM_Chapel
+    ro: inherit base
+  en_name: Profane Abbey
+  ptbr_name: Abadia Profana
+  why: Hidden chapel stage on the base Chapel tileset, Beelzebub arena bundles -> deeper Cursed Abbey floors.
+  confidence: med
+- vs_id: TP_CASTLE_TEST
+  vs_name: TP Progression (hidden test)
+  ro_region: inherit base FOREST (Payon forest)
+  ro_maps: [pay_fild01]
+  vs_tileset: ForestTexturePacked (base)
+  bgm_normal:
+    vs_key: BGM_Forest_B
+    ro: inherit base
+  bgm_b:
+    vs_key: BGM_Forest
+    ro: inherit base
+  en_name: TP Progression
+  ptbr_name: TP Progression
+  why: Hidden dev stage on base Forest assets; leave on base mapping.
+  confidence: high
+- vs_id: LEGION_TEST
+  vs_name: A test (Legion arena)
+  ro_region: Glast Heim Prison (Corrupted Soul arena)
+  ro_maps: [gl_prison, gl_prison1]
+  vs_tileset: CoopTexturePacked (data) + granfaloonlegionbossarena bundle
+  bgm_normal:
+    vs_key: BGM_FB_COVER_00_Jung
+    ro: inherit other DLC (First Blood) mapping
+  bgm_b:
+    vs_key: BGM_FB_K00_Jung
+    ro: inherit other DLC
+  en_name: A test
+  ptbr_name: Um teste
+  why: Hidden test arena for Legion -> where Corrupted Soul lives.
+  confidence: med
+- vs_id: BEELZEBUB_TEST
+  vs_name: A test (Beelzebub arena)
+  ro_region: Cursed Abbey, Beelzebub floor
+  ro_maps: [abbey03]
+  vs_tileset: CoopTexturePacked (data) + beelzebubbossarena bundles
+  bgm_normal:
+    vs_key: BGM_FB_COVER_00_Jung
+    ro: inherit other DLC
+  bgm_b:
+    vs_key: BGM_FB_K00_Jung
+    ro: inherit other DLC
+  en_name: A test
+  ptbr_name: Um teste
+  why: Beelzebub arena -> his RO lair.
+  confidence: high
+- vs_id: DOPPLEGANGER_TEST
+  vs_name: A test (Doppelganger arena)
+  ro_region: Geffen Dungeon B2 (Doppelganger)
+  ro_maps: [gef_dun02]
+  vs_tileset: CoopTexturePacked (data) + doppelgangerboss_32x32px bundles
+  bgm_normal:
+    vs_key: BGM_FB_COVER_00_Jung
+    ro: inherit other DLC
+  bgm_b:
+    vs_key: BGM_FB_K00_Jung
+    ro: inherit other DLC
+  en_name: A test
+  ptbr_name: Um teste
+  why: Doppelganger arena -> his RO map.
+  confidence: high
+music:
+  tracks:
+  - vs_id: BGM_TP_VS_VampireKiller
+    vs_title: Vampire Killer - Vampire Survivors
+    clip: vampirekiller_loop | vampirekiller_loop1 (same AudioClip name in both; GUID->bundle unresolved)
+    ro: 42 Curse'n Pain
+  - vs_id: BGM_TP_VS_BloodyTears
+    vs_title: Bloody Tears - Vampire Survivors
+    clip: bloodytears_loop | bloodytears_loop1 (same AudioClip name in both; GUID->bundle unresolved)
+    ro: 43 Morning Gloomy
+  - vs_id: BGM_TP_VS_DraculasCastle
+    vs_title: Dracula's Castle - Vampire Survivors
+    clip: dracula'scastle_loop
+    ro: 21 Through the tower
+  - vs_id: BGM_TP_VS_SimonTheme
+    vs_title: Simon's Theme - Vampire Survivors
+    clip: simonbelmonttheme_loop
+    ro: 40 Fear...
+  - vs_id: BGM_TP_VS_SuccessorOfFate
+    vs_title: Successor of Fate - Vampire Survivors
+    clip: successoroffate_loop
+    ro: 22 Backattack!!
+  - vs_id: BGM_TP_VS_AnEmptyTome
+    vs_title: An Empty Tome - Vampire Survivors
+    clip: anemptytome_loop | anemptytome_loop1 (same AudioClip name in both; GUID->bundle unresolved)
+    ro: 178 behind the silence
+  - vs_id: BGM_TP_VS_OutOfTime
+    vs_title: Out Of Time - Vampire Survivors
+    clip: outoftime_loop
+    ro: 60 Aeon
+  - vs_id: BGM_TP_VS_TreasuryRoom
+    vs_title: Treasury Room - Vampire Survivors
+    clip: treasuryroom_loop
+    ro: 17 Tresure Hunter
+  - vs_id: BGM_TP_VS_C64Medley
+    vs_title: C64 Medley of Illusions - Vampire Survivors
+    clip: c64medley_loop
+    ro: 41 Rag All Night Long
+  - vs_id: BGM_TP_VS_BlackDisk
+    vs_title: Dracula's Castle (Bonus Track) - Vampire Survivors
+    clip: bonustrack_loop
+    ro: 50 Out of Curiosity
+  - vs_id: BGM_TP_VS_MoonlightNocturne
+    vs_title: Moonlight Nocturne - Vampire Survivors
+    clip: 01_moonlight-nocturne_loop
+    ro: 112 Good Night
+  - vs_id: BGM_TP_VS_LostPainting
+    vs_title: Lost Painting - Vampire Survivors
+    clip: 02_lost-painting_loop
+    ro: 119 Stained Memories
+  - vs_id: BGM_TP_VS_DanceOfPearls
+    vs_title: Dance of Pales - Vampire Survivors
+    clip: 03_dance-of-pales_loop
+    ro: 107 Seven Days Seven Nights
+  - vs_id: BGM_TP_VS_DanceOfGold
+    vs_title: Dance of Gold - Vampire Survivors
+    clip: 09_dance-of-gold_loop
+    ro: 90 Noblesse Oblige
+  - vs_id: BGM_TP_VS_WanderingGhosts
+    vs_title: Wandering Ghosts - Vampire Survivors
+    clip: 10_wandering-ghosts_loop
+    ro: 163 Lost souls
+  - vs_id: BGM_TP_VS_RuinedCastleCorridor
+    vs_title: Ruined Castle Corridor - Vampire Survivors
+    clip: 08_ruined-castle-corridor_loop
+    ro: 28 You're in ruins
+  - vs_id: BGM_TP_VS_PitchBlackIntrusion
+    vs_title: Pitch Black Intrusion - Vampire Survivors
+    clip: 04_pitch-black-intrusion_loop
+    ro: 103 Invisible Invasion
+  - vs_id: BGM_TP_VS_DraculasTears
+    vs_title: Dracula's Tears - Vampire Survivors
+    clip: 05_draculas-tears_loop
+    ro: 176 Tears of Deviant
+  - vs_id: BGM_TP_VS_AmberScenery
+    vs_title: Amber Scenery - Vampire Survivors
+    clip: 06_amber-scenery_loop
+    ro: 140 Twilight Heaven
+  - vs_id: BGM_TP_VS_TragicPrince
+    vs_title: Tragic Prince - Vampire Survivors
+    clip: 07_tragic-prince_loop
+    ro: 125 Forbidden Anguish
+  - vs_id: BGM_TP_VS_TheBeginning
+    vs_title: The Beginning - Vampire Survivors
+    clip: thebeginningloop
+    ro: 06 Risk your life
+  - vs_id: BGM_TP_VS_Aquarius
+    vs_title: Aquarius - Vampire Survivors
+    clip: aquariusloop
+    ro: 49 Watery Grave
+  - vs_id: BGM_TP_VS_WanderingTheCrystalBlue
+    vs_title: Wandering The Crystal Blue - Vampire Survivors
+    clip: wanderingthecrystalblueloop
+    ro: 99 Uncanny Lake
+  - vs_id: BGM_TP_VS_JawsOfAScorchedEarth
+    vs_title: Jaws of a Scorched Earth - Vampire Survivors
+    clip: jawsofascorchedearthloop
+    ro: 120 Fissure Eruption
+  - vs_id: BGM_TP_VS_ChapelHiddenInSmoke
+    vs_title: Chapel Hidden in Smoke - Vampire Survivors
+    clip: chapelhiddeninsmokeloop
+    ro: 113 Monastery In Disguise
+  - vs_id: BGM_TP_VS_ClockWork
+    vs_title: Clockwork - Vampire Survivors
+    clip: clockworkloopnew
+    ro: 61 Zingaro
+  - vs_id: BGM_TP_VS_NewMessiah
+    vs_title: New Messiah - Vampire Survivors
+    clip: newmessiahloopnew
+    ro: 159 Judgement
+  - vs_id: BGM_TP_VS_AbandonedCastle
+    vs_title: Abandoned Castle - Vampire Survivors
+    clip: abandonedcastleloop
+    ro: 157 Disillusion
+  - vs_id: BGM_TP_VS_BaljhetMountaint
+    vs_title: Baljhet Mountains - Vampire Survivors
+    clip: baljhetmountainsloop
+    ro: 25 Plateau
+  - vs_id: BGM_TP_VS_EneomaosMachineTower
+    vs_title: Eneomaos Machine Tower - Vampire Survivors
+    clip: eneomaosmachinetowerloop
+    ro: 165 Apex Fortress
+  - vs_id: BGM_TP_VS_YoungNoblemanOfMadness
+    vs_title: Young Nobleman Of Madness - Vampire Survivors
+    clip: noblemanloopnew
+    ro: 160 Jittering Nightmare
+  - vs_id: BGM_TP_VS_SarabandeOfHealing
+    vs_title: Sarabande of Healing - Vampire Survivors
+    clip: sarabandeofhealingloop
+    ro: 10 Divine Grace
+  - vs_id: BGM_TP_VS_WoodCarvingPartita
+    vs_title: Wood Carving Partita - Vampire Survivors
+    clip: woodcarvingpartitaloop
+    ro: 177 mysterious mansion
+  - vs_id: BGM_TP_VS_ReincarnatedSoul
+    vs_title: Reincarnated Soul - Vampire Survivors
+    clip: reincarnatedsoul-loop
+    ro: 164 From the Grave
+  - vs_id: BGM_TP_VS_TheSinkingOldSanctuary
+    vs_title: The Sinking Old Sanctuary - Vampire Survivors
+    clip: sinkingoldsactuary-loop
+    ro: 95 Underneath The Temple
+  - vs_id: BGM_TP_VS_IronBlueIntention
+    vs_title: Iron Blue Intention - Vampire Survivors
+    clip: ironblueintention-loop
+    ro: 130 Dread and Bold
+  - vs_id: BGM_TP_VS_HeartOfFire
+    vs_title: Heart of Fire - Vampire Survivors
+    clip: heartoffire-loop
+    ro: 106 Sleeping Volcano
+  - vs_id: BGM_TP_VS_LeonsTheme
+    vs_title: Lament of Innocence - Vampire Survivors
+    clip: leon'stheme-loop
+    ro: 07 Wind of Tragedy
+  - vs_id: BGM_TP_VS_AntiSoulMysteriesLab
+    vs_title: Anti-Soul Mysteries Lab - Vampire Survivors
+    clip: anti-soulmysterieslab-loop
+    ro: 162 Dark Light
+  - vs_id: BGM_TP_VS_MadForest
+    vs_title: Mad Forest - Vampire Survivors
+    clip: madforest-loop
+    ro: 161 Forest of Despiar
+  - vs_id: BGM_TP_VS_BloodlinesBequeathed
+    vs_title: Bloodlines Bequeathed - Vampire Survivors
+    clip: bloodlinesbequeathed-loop
+    ro: 158 Indelible Scars
+  - vs_id: BGM_TP_VS_InvitationOfACrazedMoon
+    vs_title: Invitation of a Crazed Moon - Vampire Survivors
+    clip: invitationofacrazedmoon-loop
+    ro: 150 Uncanny Dreams
+  - vs_id: BGM_TP_VS_DiscoloredWall
+    vs_title: Discolored Wall - Vampire Survivors
+    clip: discoloredwall-loop
+    ro: 19 Under the ground
+  - vs_id: BGM_TP_VS_CallingFromHeaven
+    vs_title: Calling From Heaven - Vampire Survivors
+    clip: callingfromheaven-loop
+    ro: 108 Angelica
+  - vs_id: BGM_TP_VS_VictorianFear
+    vs_title: Victorian Fear - Vampire Survivors
+    clip: victorianfear-loop
+    ro: 136 Emotion Creep
+  - vs_id: BGM_TP_VS_EbonyWings
+    vs_title: Ebony Wings - Vampire Survivors
+    clip: ebonywings-loop
+    ro: 167 Shade of a Shadow
+  - vs_id: BGM_TP_VS_AfterConfession
+    vs_title: After Confession - Vampire Survivors
+    clip: afterconfession-loop
+    ro: 116 Away from Home
+  - vs_id: BGM_TP_VS_Awake
+    vs_title: Awake - Vampire Survivors
+    clip: awake-loop
+    ro: 65 Into the Abyss
+  - vs_id: BGM_TP_loi_LeonsTheme
+    vs_title: Lament of Innocence (Leon's Theme)
+    clip: leon'stheme-lamentofinnocence_loop
+    ro: 07 Wind of Tragedy
+  - vs_id: BGM_TP_SuccessorOfFate
+    vs_title: Successor of Fate
+    clip: successoroffate-harmonyofdissonance_loop
+    ro: 22 Backattack!!
+  - vs_id: BGM_TP_cotm_Awake
+    vs_title: Awake
+    clip: awake-cotm_loop
+    ro: 65 Into the Abyss
+  - vs_id: BGM_TP_jud_MadForest
+    vs_title: Mad Forest
+    clip: madforest-castlevaniajudgment_loop
+    ro: 161 Forest of Despiar
+  - vs_id: BGM_TP_Bloodlines_BloodyTears
+    vs_title: Bloody Tears
+    clip: bloodytears_loop | bloodytears_loop1 (same AudioClip name in both; GUID->bundle unresolved)
+    ro: 43 Morning Gloomy
+  - vs_id: BGM_TP_Bloodlines_IronBlueIntention
+    vs_title: Iron Blue Intention
+    clip: ironblueintention(bloodlines)_loop
+    ro: 130 Dread and Bold
+  - vs_id: BGM_TP_Bloodlines_ReincarnatedSoul
+    vs_title: Reincarnated Soul
+    clip: reincarnatedsoul_loop
+    ro: 164 From the Grave
+  - vs_id: BGM_TP_Bloodlines_Beginning
+    vs_title: The Beginning
+    clip: thebeginning-bloodlines_loop
+    ro: 06 Risk your life
+  - vs_id: BGM_TP_Bloodlines_TheSinkingOldSanctuary
+    vs_title: The Sinking Old Sanctuary
+    clip: sinkingoldsanctuary_loop
+    ro: 95 Underneath The Temple
+  - vs_id: BGM_TP_Bloodlines_VampireKiller
+    vs_title: Vampire Killer
+    clip: vampirekiller_loop | vampirekiller_loop1 (same AudioClip name in both; GUID->bundle unresolved)
+    ro: 42 Curse'n Pain
+  - vs_id: BGM_TP_hod_AfterConfession
+    vs_title: After Confession
+    clip: afterconfession_loop
+    ro: 116 Away from Home
+  - vs_id: BGM_TP_hod_AnEmptyTome
+    vs_title: An Empty Tome
+    clip: anemptytome_loop | anemptytome_loop1 (same AudioClip name in both; GUID->bundle unresolved)
+    ro: 178 behind the silence
+  - vs_id: BGM_TP_hod_Aquarius
+    vs_title: Aquarius
+    clip: aquarius_loop
+    ro: 49 Watery Grave
+  - vs_id: BGM_TP_hod_DanceOfIllusions
+    vs_title: Dance of Illusions
+    clip: danceofillusion_loop
+    ro: 126 New World Orde
+  - vs_id: BGM_TP_hod_DivineBloodlines
+    vs_title: Divine Bloodlines
+    clip: divinebloodlines_loop
+    ro: 124 Stranger Aeons
+  - vs_id: BGM_TP_hod_DraculasCastle
+    vs_title: Castle Dracula
+    clip: castledracula_loop
+    ro: 21 Through the tower
+  - vs_id: BGM_TP_hod_EbonyWings
+    vs_title: Ebony Wings
+    clip: ebonywings_loop
+    ro: 167 Shade of a Shadow
+  - vs_id: BGM_TP_hod_GazeUpAtTheDarkness
+    vs_title: Gaze Up at the Darkness
+    clip: gazeupatthedarkness_loop
+    ro: 100 Abyss
+  - vs_id: BGM_TP_hod_HeartOfFire
+    vs_title: Heart Of Fire
+    clip: heartoffire_loop
+    ro: 106 Sleeping Volcano
+  - vs_id: BGM_TP_hod_IntoTheDarkNight
+    vs_title: Into The Dark Night
+    clip: intothedarknight_loop
+    ro: 102 Erebos' Prelude
+  - vs_id: BGM_TP_hod_InvitationOfACrazedMoon
+    vs_title: Invitation Of A Crazed Moon
+    clip: invitationofacrazedmoon_loop
+    ro: 150 Uncanny Dreams
+  - vs_id: BGM_TP_hod_PitifulScion
+    vs_title: Pitiful Scion (Tragic Prince)
+    clip: tragicprincepitfulscion_loop
+    ro: 125 Forbidden Anguish
+  - vs_id: BGM_TP_hod_PitchBlackIntrusion
+    vs_title: Pitch-Black Intrusion
+    clip: pitch-blackintrusion_loop
+    ro: 103 Invisible Invasion
+  - vs_id: BGM_TP_hod_SimonsTheme
+    vs_title: Simon's Theme
+    clip: simon'stheme_loop
+    ro: 40 Fear...
+  - vs_id: BGM_TP_hod_TheHiddenCurse
+    vs_title: The Hidden Curse
+    clip: thehiddencurse_loop
+    ro: 166 Brutal Ritual
+  - vs_id: BGM_TP_hod_TheLostPortrait
+    vs_title: The Lost Portrait
+    clip: thelostportrait_loop
+    ro: 119 Stained Memories
+  - vs_id: BGM_TP_cod_AbandonedCastle
+    vs_title: Abandoned Castle
+    clip: abandonedcastle-cod_loop
+    ro: 157 Disillusion
+  - vs_id: BGM_TP_cod_BaljhetMountains
+    vs_title: Baljhet Mountains
+    clip: baljhetmountains-cod_loop
+    ro: 25 Plateau
+  - vs_id: BGM_TP_cod_EneomausMachineTower
+    vs_title: Eneomaos Machine Tower
+    clip: eneomaosmachinetower-cod_loop
+    ro: 165 Apex Fortress
+  - vs_id: BGM_TP_cod_FollowersOfDarkness
+    vs_title: Followers of Darkness - The First
+    clip: followersofthedarkness-cod_loop
+    ro: 48 Help Yourself
+  - vs_id: BGM_TP_cod_SarabandeOfHealing
+    vs_title: Sarabande of Healing
+    clip: sarabandeofhealing-cod_loop
+    ro: 10 Divine Grace
+  - vs_id: BGM_TP_dos_AfterConfession
+    vs_title: After Confession
+    clip: afterconfession-dos_loop
+    ro: 116 Away from Home
+  - vs_id: BGM_TP_dos_AmberScenery
+    vs_title: Amber Scenery
+    clip: amberscenary-dos_loop
+    ro: 140 Twilight Heaven
+  - vs_id: BGM_TP_dos_DraculasTears
+    vs_title: Dracula's Tears
+    clip: dracula'stears-dos_loop
+    ro: 176 Tears of Deviant
+  - vs_id: BGM_TP_dos_IntoTheDarkNight
+    vs_title: Into The Dark Night
+    clip: intothedarknight-dos_loop
+    ro: 102 Erebos' Prelude
+  - vs_id: BGM_TP_dos_PitchBlackIntrusion
+    vs_title: Pitch Black Intrusion
+    clip: pitchblackintrusion-dos_loop
+    ro: 103 Invisible Invasion
+  - vs_id: BGM_TP_ooe_AnEmptyTome
+    vs_title: An Empty Tome
+    clip: anemptytome-ooe_loop
+    ro: 178 behind the silence
+  - vs_id: BGM_TP_ooe_ChapelHiddenInSmoke
+    vs_title: Chapel Hidden in Smoke
+    clip: chapelhiddeninsmoke-ooe_loop
+    ro: 113 Monastery In Disguise
+  - vs_id: BGM_TP_ooe_EbonyWings
+    vs_title: Ebony Wings
+    clip: ebonywings-ooe_loop
+    ro: 167 Shade of a Shadow
+  - vs_id: BGM_TP_ooe_JawsOfAScorchedEarth
+    vs_title: Jaws of a Scorched Earth
+    clip: jawsofascorchedearth-ooe_loop
+    ro: 120 Fissure Eruption
+  - vs_id: BGM_TP_ooe_WanderingTheCrystalBlue
+    vs_title: Wandering the Crystal Blue
+    clip: wanderthecrystalblue-ooe_loop
+    ro: 99 Uncanny Lake
+  - vs_id: BGM_TP_por_GazeUpAtTheDarkness
+    vs_title: Gaze Up at the Darkness
+    clip: gazeupatthedarkness-por_loop
+    ro: 100 Abyss
+  - vs_id: BGM_TP_por_InSearchOfTheHiddenSpell
+    vs_title: In Search of the Hidden Spell
+    clip: insearchofthesecretspell-por_loop
+    ro: 127 Mystic Haze
+  - vs_id: BGM_TP_por_InvitationOfACrazedMoon
+    vs_title: Invitation of a Crazed Moon
+    clip: invitationofacrazedmoon-por_loop
+    ro: 150 Uncanny Dreams
+  - vs_id: BGM_TP_por_IronBlueIntention
+    vs_title: Iron Blue Intention
+    clip: ironblueintention(por)_loop
+    ro: 130 Dread and Bold
+  - vs_id: BGM_TP_por_TheHiddenCurse
+    vs_title: The Hidden Curse
+    clip: thehiddencurse-por_loop
+    ro: 166 Brutal Ritual
+  - vs_id: BGM_TP_por_VictorianFear
+    vs_title: Victorian Fear
+    clip: victorianfear-por_loop
+    ro: 136 Emotion Creep
+  - vs_id: BGM_TP_sotn_DanceOfPales
+    vs_title: Dance Of Pales
+    clip: danceofpales-sotn_loop
+    ro: 107 Seven Days Seven Nights
+  - vs_id: BGM_TP_sotn_DanceOfIllusions
+    vs_title: Dance Of Illusions
+    clip: danceofillusion-sotn_loop
+    ro: 126 New World Orde
+  - vs_id: BGM_TP_sotn_FestivalOfServants
+    vs_title: Festival Of Servants
+    clip: festivalofservants-sotn_loop
+    ro: 62 High Roller Coaster
+  - vs_id: BGM_TP_sotn_GuardianMariaFight
+    vs_title: Guardian Maria Fight
+    clip: guardianmariafight-sotn_loop
+    ro: 123 Into The Arena!
+  - vs_id: BGM_TP_sotn_MoonlightNocturne
+    vs_title: Moonlight Nocturne
+    clip: nocturneinthemoonlight-sotn_loop
+    ro: 112 Good Night
+  - vs_id: BGM_TP_sotn_LostPainting
+    vs_title: The Lost Portrait
+    clip: lostpainting-sotn_loop
+    ro: 119 Stained Memories
+  - vs_id: BGM_TP_sotn_TragicPrince
+    vs_title: Tragic Prince
+    clip: tragicprince-sotn_loop
+    ro: 125 Forbidden Anguish
+  - vs_id: BGM_TP_sotn_WoodCarvingPartita
+    vs_title: Wood Carving Partita
+    clip: woodcarvingpartita-sotn_loop
+    ro: 177 mysterious mansion
+tilesets:
+  TP_Stage1_CastleCourtyard: [glast_01, gl_chyard]
+  TP_Stage2_MarbleGallery: [gl_knt01, gl_cas01]
+  TP_Stage3_ProfaneChapel: [gl_church, abbey02]
+  TP_Stage4_Water Level: [gl_sew01, gl_sew02]
+  TP_Stage5_ClockTower: [tha_t01, tha_t04]
+  TP_Tileset_Refactor_1_Castle: [gl_cas01, gl_cas02, gl_knt01]
+  TP_Tileset_Refactor_2_Chapel: [gl_church, gl_chyard]
+  TP_Tileset_Refactor_3_Reuse: [gl_dun01, gl_prison]
+  TP_Tileset_Refactor_4_ReuseExtra: [gl_step, nif_fild01]
+  Profane Chapel Tileset: [abbey02, abbey03]
+  RippedTileset_ProfaneChapel_32x32px: [abbey02, gl_church]
+  RippedTileset_Beelzebub: [abbey03]
+  RippedTileset_DoppelgangerBoss_32x32px: [gef_dun02]
+  RippedTileset_WaterLevel: [gl_sew02, gl_sew03]
+  NewthroneRoomTileset: [gef_dun01]
+  DeathFightTile: [niflheim, nif_in]
+  DeathFightBG: [niflheim]
+  DeathFightTop: [niflheim]
+  castle02_COMP04_Background: [glast_01]
+  castle02_COMP04_Foreground: [glast_01]
+  CastlevaniaSOTNSky_D: [glast_01]
+  CastlevaniaSOTNGroundCloud_D: [glast_01]
+items:
+  pickups:
+  - vs_id: TP_WALL_CHICKEN
+    vs_name: Wall Chicken
+    ro_en: Whole Roast
+    ro_ptbr: Assado Inteiro [trad]
+    ro_ref: 12072
+    visual: icon
+    why: Castlevania wall roast, big heal (60) -> bigger than base Meat
+    confidence: medium
+    asset: assumed
+    scope: dlc_castlevania
+  - vs_id: TP_HEART_REFRESH
+    vs_name: Heart Refresh
+    ro_en: Regeneration Potion
+    ro_ptbr: Poção de Regeneração
+    ro_ref: 14537
+    visual: icon
+    why: temporary +5 Recovery = regen potion
+    confidence: high
+    asset: assumed
+    scope: dlc_castlevania
+  - vs_id: TP_KARMA_COIN
+    vs_name: Karma Coin
+    ro_en: Soul Scroll
+    ro_ptbr: Pergaminho da Alma [trad]
+    ro_ref: 12753
+    visual: icon
+    why: 50% Soul Steal trigger -> soul item
+    confidence: low
+    asset: assumed
+    scope: dlc_castlevania
+  - vs_id: TP_MIRROR_OF_TRUTH
+    vs_name: Mirror of Truth
+    ro_en: Splendid Mirror
+    ro_ptbr: Espelho Esplêndido [trad]
+    ro_ref: 12368
+    visual: icon
+    why: 'doubles Amount, fires all weapons: mirror-image buff'
+    confidence: medium
+    asset: assumed
+    scope: dlc_castlevania
+  - vs_id: TP_NEUTRON_BOMB
+    vs_name: Neutron Bomb
+    ro_en: Explosive Powder
+    ro_ptbr: Pó Explosivo
+    ro_ref: 6213
+    visual: icon
+    why: large-area damage pickup
+    confidence: medium
+    asset: assumed
+    scope: dlc_castlevania
+  - vs_id: TP_SOULSTEAL_LITTLEHEART
+    vs_name: Little Heart
+    ro_en: Apple
+    ro_ptbr: Maçã
+    ro_ref: 512
+    visual: icon + drop:사과
+    why: same as base LITTLEHEART (1 HP)
+    confidence: high
+    asset: ok
+    scope: dlc_castlevania
+  relics:
+  - vs_id: TP_RELIC_CASTLEMAP
+    vs_name: Castlevania Map
+    ro_en: Treasure Map1
+    ro_ptbr: Mapa do Tesouro
+    ro_ref: 7962
+    visual: icon
+    why: castle map relic; same item as base RELIC_MAP
+    confidence: medium
+    asset: assumed
+    scope: dlc_castlevania
+  - vs_id: TP_RELIC_TELEPORT1
+    vs_name: Stallion Gate
+    ro_en: Horseshoe
+    ro_ptbr: Ferradura
+    ro_ref: 944
+    visual: icon
+    why: Stallion Gate -> horseshoe
+    confidence: medium
+    asset: assumed
+    scope: dlc_castlevania
+  - vs_id: TP_RELIC_TELEPORT2
+    vs_name: Scorpion Gate
+    ro_en: Scorpion Tail
+    ro_ptbr: Cauda de Escorpião
+    ro_ref: 904
+    visual: icon
+    why: Scorpion Gate -> scorpion tail
+    confidence: high
+    asset: assumed
+    scope: dlc_castlevania
+  - vs_id: TP_RELIC_TELEPORT3
+    vs_name: Capra Gate
+    ro_en: Majestic Goat
+    ro_ptbr: Chifres de Bode [trad]
+    ro_ref: 2256
+    visual: icon
+    why: Capra (goat) Gate -> goat horns
+    confidence: medium
+    asset: assumed
+    scope: dlc_castlevania
+  - vs_id: TP_RELIC_TELEPORT4
+    vs_name: King's Gate
+    ro_en: Crown
+    ro_ptbr: Coroa
+    ro_ref: 2235
+    visual: icon
+    why: King's Gate -> crown
+    confidence: high
+    asset: assumed
+    scope: dlc_castlevania
+  - vs_id: TP_RELIC_TELEPORT5
+    vs_name: Serpent Gate
+    ro_en: Snake Scale
+    ro_ptbr: Escama de Serpente
+    ro_ref: 926
+    visual: icon
+    why: Serpent Gate -> snake scale
+    confidence: high
+    asset: assumed
+    scope: dlc_castlevania
+  - vs_id: TP_RELIC_TELEPORT6
+    vs_name: Beast Gate
+    ro_en: Wild Beast Claw
+    ro_ptbr: Garra de Fera [trad]
+    ro_ref: 1268
+    visual: icon
+    why: Beast Gate -> beast claw
+    confidence: medium
+    asset: assumed
+    scope: dlc_castlevania
+  - vs_id: TP_RELIC_BLACK_DISK
+    vs_name: Black Disk
+    ro_en: Christmas Musicbox
+    ro_ptbr: Caixa de Música de Natal [trad]
+    ro_ref: 2784
+    visual: icon
+    why: bonus music + extra characters disc -> music box
+    confidence: low
+    asset: assumed
+    scope: dlc_castlevania
+  - vs_id: TP_RELIC_LIBRARIAN
+    vs_name: Wood Carving Score
+    ro_en: Old Card Album
+    ro_ptbr: Álbum de Cartas Antigo
+    ro_ref: 616
+    visual: icon
+    why: summons the Librarian (shop) -> catalogue book
+    confidence: low
+    asset: assumed
+    scope: dlc_castlevania
+  - vs_id: TP_RELIC_PILEOFSECRETS
+    vs_name: Pile of Secrets
+    ro_en: Book of Destiny
+    ro_ptbr: Livro do Destino [trad]
+    ro_ref: 1593
+    visual: icon
+    why: unlocks many secrets; base Secrets relic already uses Ancient Languages Scroll
+    confidence: low
+    asset: assumed
+    scope: dlc_castlevania
+  - vs_id: TP_RELIC_STONES
+    vs_name: Ebony and Crimson Stones
+    ro_en: Cursed Ruby
+    ro_ptbr: Rubi Amaldiçoado
+    ro_ref: 724
+    visual: icon
+    why: Ebony and Crimson Stones -> crimson cursed gem (morph trigger)
+    confidence: low
+    asset: assumed
+    scope: dlc_castlevania
